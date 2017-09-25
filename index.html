@@ -56,46 +56,50 @@
             mechanism, a table display, an authenticated database editor, and build displayer (image first, then builder).</p>
     </div>
 </div>
-
 <div ng-app="tierlist" ng-controller="controller" class="container">
-    <div class="row">
 
+    <div class="container row text-right">
+        <b>Filter:</b> <input class="input-sm" ng-model="$ctrl.query"/>
     </div>
 
-    <ul class="nav nav-tabs nav-justified" id="tabs">
-        <li class="nav-item">
-            <a href="#primaries">Primaries</a>
-        </li>
-        <li class="nav-item">
-            <a href="#secondaries">Secondaries</a>
-        </li>
-        <li class="nav-item">
-            <a href="#melee">Melee</a>
-        </li>
-        <li class="nav-item">
-            <a href="#frames">Frames</a>
-        </li>
-        <li class="nav-item">
-            <a href="#schools">Schools</a>
-        </li>
-        <li class="nav-item">
-            <a href="#archwings">Archwings</a>
-        </li>
-        <li class="nav-item">
-            <a href="#archguns">Archguns</a>
-        </li>
-        <li class="nav-item">
-            <a href="#archmelee">Archmelee</a>
-        </li>
-        <li class="nav-item">
-            <a href="#companions">Companions</a>
-        </li>
-        <li class="nav-item">
-            <a href="#sentinalweps">Sentinal Weapons</a>
+
+    <ul class="nav nav-tabs nav-justified" id="tabs" >
+        <li class="nav-item" ng-repeat="category in categories">
+            <a href="#{{category}}">{{category}}</a>
         </li>
     </ul>
 
-    <div class="container tiertab" id="primaries">
+    <div class="container tiertab" ng-repeat="category in categories" id="{{category}}">
+        <table id="{{category}}Table" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('{{category}}Table', 0)">Rank</th>
+                <th onclick="sortTable('{{category}}Table', 1)">Weapons</th>
+                <th onclick="sortTable('{{category}}Table', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('{{category}}Table', 3)">CC Mechanic</th>
+                <th onclick="sortTable('{{category}}Table', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="gun in {{category}} | filter: $ctrl.query" >
+                <td>{{gun.rank}}</td>
+                <td>{{gun.name}}</td>
+                <td>{{gun.damage}}</td>
+                <td>{{gun.cc}}</td>
+                <td>{{gun.mr}}</td>
+                <td>{{gun.notes}}</td>
+                <td>{{gun.event}}</td>
+                <td>{{gun.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Primaries">
         <table id="primariesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
@@ -111,21 +115,21 @@
             </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="primary in primaries" >
-                    <td>{{primary.rank}}</td>
-                    <td>{{primary.name}}</td>
-                    <td>{{primary.damage}}</td>
-                    <td>{{primary.cc}}</td>
-                    <td>{{primary.mr}}</td>
-                    <td>{{primary.notes}}</td>
-                    <td>{{primary.event}}</td>
-                    <td>{{primary.builds}}</td>
-                </tr>
+            <tr ng-repeat="primary in Primaries | filter: $ctrl.query" >
+                <td>{{primary.rank}}</td>
+                <td>{{primary.name}}</td>
+                <td>{{primary.damage}}</td>
+                <td>{{primary.cc}}</td>
+                <td>{{primary.mr}}</td>
+                <td>{{primary.notes}}</td>
+                <td>{{primary.event}}</td>
+                <td>{{primary.builds}}</td>
+            </tr>
             </tbody>
         </table>
     </div>
 
-    <div class="container tiertab" id="secondaries">
+    <div class="container tiertab" id="Secondaries">
         <table id="secondariesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
@@ -141,7 +145,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr ng-repeat="secondary in secondaries" >
+            <tr ng-repeat="secondary in Secondaries" >
                 <td>{{secondary.rank}}</td>
                 <td>{{secondary.name}}</td>
                 <td>{{secondary.damage}}</td>
@@ -155,7 +159,7 @@
         </table>
     </div>
 
-    <div class="container tiertab" id="melee">
+    <div class="container tiertab" id="Melee">
         <table id="meleesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
@@ -171,7 +175,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr ng-repeat="melee in melees" >
+            <tr ng-repeat="melee in Melees" >
                 <td>{{melee.rank}}</td>
                 <td>{{melee.name}}</td>
                 <td>{{melee.damage}}</td>
@@ -185,20 +189,14 @@
         </table>
     </div>
 
-
-    <!-- Example row of columns -->
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-9">
             <h2>FAQ</h2>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
+
+        <div class="col-md-3">
             <h2>Credits</h2>
             <p>Author: <a href="http://twitch.tv/mrflooners">flooners</a><br></p>
             <p>Curators:<br> Kalgash<br> idk some guy</p>
