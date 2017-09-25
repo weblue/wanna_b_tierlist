@@ -1,11 +1,14 @@
 let app = angular.module("tierlist", []);
 
 app.controller("controller", function($scope) {
-    $scope.primaries = [
+    $scope.Primaries = [
         { rank: 'Top' },
         { name:"Tonkor", damage:"Critical", cc:"ass blast", mr:"110", notes: "Massive AOE and single target hitter", event: "no", builds:"idk a link"},
         { name:"Zarr", damage:"Critical", cc:"blast", mr:"110", notes: "Fair bonkor", event: "no", builds:"idk a link"},
     ]
+
+    $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelee', 'Companions', 'Sentinel Weapons']
+
 });
 
 // JQuery
