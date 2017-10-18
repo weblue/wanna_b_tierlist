@@ -1,21 +1,32 @@
-let app = angular.module("tierlist", []);
+//TODO:
+//FAQ
+//Credits
+//Admin panel
+//User Commenting
+//Rating system
+//fixing tables
+//figure out ranking
+//Weapon stats on hover
+//reload table on resolve
 
-app.controller("controller", function($scope) {
-    $scope.Primaries = [
-        { rank: 'Top' },
-        { name:"Tonkor", damage:"Critical", cc:"ass blast", mr:"110", notes: "Massive AOE and single target hitter", event: "no", builds:"idk a link"},
-        { name:"Zarr", damage:"Critical", cc:"blast", mr:"110", notes: "Fair bonkor", event: "no", builds:"idk a link"},
-    ]
+//Categories
+//Rank, MR Req, Notes, Name, suggested builds
+//Revise:
+//CC Mechanic, Damage Type, Favors, base/event, role in group, mission type
 
-    $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelee', 'Companions', 'Sentinel Weapons']
-
-});
-
-// JQuery
-
-let printname = '';
 
 // Regular ol' javascript
+
+// Initialize Firebase
+let config = {
+    apiKey: "AIzaSyCoIQXj0pBYQ39_gBzlKv3vQtihRPsPtNY",
+    authDomain: "the-guy-s-list.firebaseapp.com",
+    databaseURL: "https://the-guy-s-list.firebaseio.com",
+    projectId: "the-guy-s-list",
+    storageBucket: "",
+    messagingSenderId: "134665778083"
+};
+firebase.initializeApp(config);
 
 function sortTable(tablename, n) {
     let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
@@ -26,6 +37,7 @@ function sortTable(tablename, n) {
     while (switching) {
         //start by saying: no switching is done:
         switching = false;
+        // rows = table.getElementsByTagName("TR");
         rows = table.getElementsByTagName("TR");
         /*Loop through all table rows (except the
         first, which contains table headers):*/
@@ -41,13 +53,13 @@ function sortTable(tablename, n) {
             if (dir === "asc") {
                 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                     //if so, mark as a switch and break the loop:
-                    shouldSwitch= true;
+                    shouldSwitch = true;
                     break;
                 }
             } else if (dir === "desc") {
                 if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
                     //if so, mark as a switch and break the loop:
-                    shouldSwitch= true;
+                    shouldSwitch = true;
                     break;
                 }
             }
@@ -58,7 +70,7 @@ function sortTable(tablename, n) {
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
             switching = true;
             //Each time a switch is done, increase this count by 1:
-            switchcount ++;
+            switchcount++;
         } else {
             /*If no switching has been done AND the direction is "asc",
             set the direction to "desc" and run the while loop again.*/
@@ -69,3 +81,25 @@ function sortTable(tablename, n) {
         }
     }
 }
+
+//Angular
+let app = angular.module("tierlist", []);
+
+app.controller("TierListController", function TierListController ($scope) {
+
+    firebase.database().ref('/Primaries/').once('value').then(function (snapshot) {
+        console.log(snapshot.val());
+
+        $scope.$evalAsync(function () {
+            $scope.Primaries = $.map(snapshot.val(), function (element) {
+                return element;
+            });
+        });
+        console.log($scope.Primaries);
+    });
+
+
+    $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions']
+
+});
+

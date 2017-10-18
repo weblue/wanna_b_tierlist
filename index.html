@@ -56,7 +56,7 @@
             mechanism, a table display, an authenticated database editor, and build displayer (image first, then builder).</p>
     </div>
 </div>
-<div ng-app="tierlist" ng-controller="controller" class="container">
+<div ng-app="tierlist" ng-controller="TierListController" class="container">
 
     <div class="container row text-right">
         <b>Filter:</b> <input class="input-sm" ng-model="$ctrl.query"/>
@@ -67,37 +67,10 @@
         <li class="nav-item" ng-repeat="category in categories">
             <a href="#{{category}}">{{category}}</a>
         </li>
+        <li class="nav-item">
+            <a href="#Sentweps">Sentinel Weapons</a>
+        </li>
     </ul>
-
-    <div class="container tiertab" ng-repeat="category in categories" id="{{category}}">
-        <table id="{{category}}Table" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th onclick="sortTable('{{category}}Table', 0)">Rank</th>
-                <th onclick="sortTable('{{category}}Table', 1)">Weapons</th>
-                <th onclick="sortTable('{{category}}Table', 2)">Primary DMG Type</th>
-                <th onclick="sortTable('{{category}}Table', 3)">CC Mechanic</th>
-                <th onclick="sortTable('{{category}}Table', 4)">MR Req</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
-                <th>Suggested Builds</th>
-                <!--TODO consolodate?-->
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="gun in {{category}} | filter: $ctrl.query" >
-                <td>{{gun.rank}}</td>
-                <td>{{gun.name}}</td>
-                <td>{{gun.damage}}</td>
-                <td>{{gun.cc}}</td>
-                <td>{{gun.mr}}</td>
-                <td>{{gun.notes}}</td>
-                <td>{{gun.event}}</td>
-                <td>{{gun.builds}}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
 
     <div class="container tiertab" id="Primaries">
         <table id="primariesTable" class="table table-condensed table-responsive sortable">
@@ -115,7 +88,8 @@
             </tr>
             </thead>
             <tbody>
-            <tr ng-repeat="primary in Primaries | filter: $ctrl.query" >
+            <!--ng-if="primary.rank === 'Top'"-->
+            <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query" >
                 <td>{{primary.rank}}</td>
                 <td>{{primary.name}}</td>
                 <td>{{primary.damage}}</td>
@@ -189,6 +163,216 @@
         </table>
     </div>
 
+    <div class="container tiertab" id="Frames">
+        <table id="framesTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('framesTable', 0)">Rank</th>
+                <th onclick="sortTable('framesTable', 1)">Weapons</th>
+                <th onclick="sortTable('framesTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('framesTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('framesTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="frame in Frames" >
+                <td>{{frame.rank}}</td>
+                <td>{{frame.name}}</td>
+                <td>{{frame.damage}}</td>
+                <td>{{frame.cc}}</td>
+                <td>{{frame.mr}}</td>
+                <td>{{frame.notes}}</td>
+                <td>{{frame.event}}</td>
+                <td>{{frame.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Schools">
+        <table id="schoolsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('schoolsTable', 0)">Rank</th>
+                <th onclick="sortTable('schoolsTable', 1)">Weapons</th>
+                <th onclick="sortTable('schoolsTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('schoolsTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('schoolsTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="school in Schools" >
+                <td>{{school.rank}}</td>
+                <td>{{school.name}}</td>
+                <td>{{school.damage}}</td>
+                <td>{{school.cc}}</td>
+                <td>{{school.mr}}</td>
+                <td>{{school.notes}}</td>
+                <td>{{school.event}}</td>
+                <td>{{school.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Archwings">
+        <table id="archwingsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('archwingsTable', 0)">Rank</th>
+                <th onclick="sortTable('archwingsTable', 1)">Weapons</th>
+                <th onclick="sortTable('archwingsTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('archwingsTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('archwingsTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="archwing in Archwings" >
+                <td>{{archwing.rank}}</td>
+                <td>{{archwing.name}}</td>
+                <td>{{archwing.damage}}</td>
+                <td>{{archwing.cc}}</td>
+                <td>{{archwing.mr}}</td>
+                <td>{{archwing.notes}}</td>
+                <td>{{archwing.event}}</td>
+                <td>{{archwing.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Archguns">
+        <table id="archgunsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('archgunsTable', 0)">Rank</th>
+                <th onclick="sortTable('archgunsTable', 1)">Weapons</th>
+                <th onclick="sortTable('archgunsTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('archgunsTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('archgunsTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="archgun in Archguns" >
+                <td>{{archgun.rank}}</td>
+                <td>{{archgun.name}}</td>
+                <td>{{archgun.damage}}</td>
+                <td>{{archgun.cc}}</td>
+                <td>{{archgun.mr}}</td>
+                <td>{{archgun.notes}}</td>
+                <td>{{archgun.event}}</td>
+                <td>{{archgun.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Archmelees">
+        <table id="archmeleesTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('archmeleesTable', 0)">Rank</th>
+                <th onclick="sortTable('archmeleesTable', 1)">Weapons</th>
+                <th onclick="sortTable('archmeleesTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('archmeleesTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('archmeleesTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="archmelee in Archmelees" >
+                <td>{{archmelee.rank}}</td>
+                <td>{{archmelee.name}}</td>
+                <td>{{archmelee.damage}}</td>
+                <td>{{archmelee.cc}}</td>
+                <td>{{archmelee.mr}}</td>
+                <td>{{archmelee.notes}}</td>
+                <td>{{archmelee.event}}</td>
+                <td>{{archmelee.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Companions">
+        <table id="companionsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('companionsTable', 0)">Rank</th>
+                <th onclick="sortTable('companionsTable', 1)">Weapons</th>
+                <th onclick="sortTable('companionsTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('companionsTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('companionsTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="companion in Companions" >
+                <td>{{companion.rank}}</td>
+                <td>{{companion.name}}</td>
+                <td>{{companion.damage}}</td>
+                <td>{{companion.cc}}</td>
+                <td>{{companion.mr}}</td>
+                <td>{{companion.notes}}</td>
+                <td>{{companion.event}}</td>
+                <td>{{companion.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container tiertab" id="Sentweps">
+        <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th onclick="sortTable('sentwepsTable', 0)">Rank</th>
+                <th onclick="sortTable('sentwepsTable', 1)">Weapons</th>
+                <th onclick="sortTable('sentwepsTable', 2)">Primary DMG Type</th>
+                <th onclick="sortTable('sentwepsTable', 3)">CC Mechanic</th>
+                <th onclick="sortTable('sentwepsTable', 4)">MR Req</th>
+                <th>Notes</th>
+                <th>Base or Event Rankings</th>
+                <th>Suggested Builds</th>
+                <!--TODO consolodate?-->
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="sentwep in Sentweps" >
+                <td>{{sentwep.rank}}</td>
+                <td>{{sentwep.name}}</td>
+                <td>{{sentwep.damage}}</td>
+                <td>{{sentwep.cc}}</td>
+                <td>{{sentwep.mr}}</td>
+                <td>{{sentwep.notes}}</td>
+                <td>{{sentwep.event}}</td>
+                <td>{{sentwep.builds}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
     <div class="row">
         <div class="col-md-9">
             <h2>FAQ</h2>
@@ -208,7 +392,9 @@
     <footer>
         <p>&copy; Company 2017</p>
     </footer>
-</div> <!-- /container -->        <script src="../TierlistTemplate/js/vendor/jquery-3.2.1.min.js"></script>
+</div> <!-- /container -->
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script src="../TierlistTemplate/js/vendor/jquery-3.2.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="../TierlistTemplate/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
 <script src="../TierlistTemplate/js/vendor/bootstrap.min.js"></script>
