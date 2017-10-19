@@ -347,40 +347,39 @@
         <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th onclick="sortTable('sentwepsTable', 0)">Rank</th>
-                <th onclick="sortTable('sentwepsTable', 1)">Weapons</th>
-                <th onclick="sortTable('sentwepsTable', 2)">Primary DMG Type</th>
-                <th onclick="sortTable('sentwepsTable', 3)">CC Mechanic</th>
-                <th onclick="sortTable('sentwepsTable', 4)">MR Req</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
-                <th>Suggested Builds</th>
-                <!--TODO consolodate?-->
+                <th width="%10">Rank</th>
+                <th width="%20">Sentinal Weapons</th>
+                <th width="%10">Use Case</th>
+                <th width="%10">Weapon Type</th>
+                <th width="50%">Notes</th>
             </tr>
             </thead>
             <tbody>
-            <tr ng-repeat="sentwep in Sentweps" >
+            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query" >
                 <td>{{sentwep.rank}}</td>
-                <td>{{sentwep.name}}</td>
-                <td>{{sentwep.damage}}</td>
-                <td>{{sentwep.cc}}</td>
-                <td>{{sentwep.mr}}</td>
+                <td><a href="{{sentwep.url}}">{{sentwep.name}}</a></td>
+                <td>{{sentwep.use}}</td>
+                <td>{{sentwep.weapontype}}</td>
                 <td>{{sentwep.notes}}</td>
-                <td>{{sentwep.event}}</td>
-                <td>{{sentwep.builds}}</td>
             </tr>
             </tbody>
         </table>
     </div>
 
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-8">
             <h2>FAQ</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p>This tier list is based on emperical evidence; meaning numbers and pure data obtained in game.
+                Some of my rankings may be subject to error, but be aware that none of the following
+                information is based on any "meta" or community bias. Also bear in mind that some of the
+                frames and weapons that may seem in a low tier can still be very strong, even vital,
+                for certain niche strategies. However, because these niche strategies require (sometimes
+                intense) coordination and gimmicks, they are not considered in the average usability of
+                this tier list.</p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h2>Credits</h2>
             <p>Author: <a href="http://twitch.tv/mrflooners">flooners</a><br></p>
             <p>Curators:<br> Kalgash<br> idk some guy</p>

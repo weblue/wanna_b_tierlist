@@ -8,6 +8,7 @@
 //figure out ranking
 //Weapon stats on hover
 //reload table on resolve
+//URLs
 
 //Categories
 //Rank, MR Req, Notes, Name, suggested builds
@@ -19,10 +20,10 @@
 
 // Initialize Firebase
 let config = {
+    projectId: "the-guy-s-list",
     apiKey: "AIzaSyCoIQXj0pBYQ39_gBzlKv3vQtihRPsPtNY",
     authDomain: "the-guy-s-list.firebaseapp.com",
     databaseURL: "https://the-guy-s-list.firebaseio.com",
-    projectId: "the-guy-s-list",
     storageBucket: "",
     messagingSenderId: "134665778083"
 };
@@ -98,6 +99,16 @@ app.controller("TierListController", function TierListController ($scope) {
         console.log($scope.Primaries);
     });
 
+    firebase.database().ref('/Sentweps/').once('value').then(function (snapshot) {
+        console.log(snapshot.val());
+
+        $scope.$evalAsync(function () {
+            $scope.Sentweps = $.map(snapshot.val(), function (element) {
+                return element;
+            });
+        });
+        console.log($scope.Sentweps);
+    });
 
     $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions']
 
