@@ -1,11 +1,9 @@
 //TODO:
-//FAQ
 //Credits
 //Admin panel
 //User Commenting
 //Rating system
 //fixing tables
-//figure out ranking
 //Weapon stats on hover
 //reload table on resolve
 //URLs
@@ -108,6 +106,17 @@ app.controller("TierListController", function TierListController ($scope) {
             });
         });
         console.log($scope.Sentweps);
+    });
+
+    firebase.database().ref('/Tiers/').once('value').then(function (snapshot) {
+        console.log(snapshot.val());
+
+        $scope.$evalAsync(function() {
+            $scope.Tiers = $.map(snapshot.val(), function(element) {
+                return element;
+            });
+        });
+        console.log($scope.Tiers);
     });
 
     $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions']

@@ -347,16 +347,17 @@
         <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="%10">Rank</th>
                 <th width="%20">Sentinal Weapons</th>
                 <th width="%10">Use Case</th>
                 <th width="%10">Weapon Type</th>
-                <th width="50%">Notes</th>
+                <th width="60%">Notes</th>
             </tr>
             </thead>
-            <tbody>
-            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query" >
-                <td>{{sentwep.rank}}</td>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr>
+                <td><b>{{tiers.name}}</b></td>
+            </tr>
+            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
                 <td><a href="{{sentwep.url}}">{{sentwep.name}}</a></td>
                 <td>{{sentwep.use}}</td>
                 <td>{{sentwep.weapontype}}</td>
