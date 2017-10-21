@@ -20,10 +20,6 @@
 
     <script src="../TierlistTemplate/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
-<body onload="sortTable('primariesTable', 1); sortTable('primariesTable', 0);">
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -283,81 +279,77 @@
         </table>
     </div>
 
+    <!--TODO: data entry-->
+    <!--Fields: url, name, use, notes, base-->
     <div class="container tiertab" id="Archmelees">
         <table id="archmeleesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th onclick="sortTable('archmeleesTable', 0)">Rank</th>
-                <th onclick="sortTable('archmeleesTable', 1)">Weapons</th>
-                <th onclick="sortTable('archmeleesTable', 2)">Primary DMG Type</th>
-                <th onclick="sortTable('archmeleesTable', 3)">CC Mechanic</th>
-                <th onclick="sortTable('archmeleesTable', 4)">MR Req</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
-                <th>Suggested Builds</th>
-                <!--TODO consolodate?-->
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="archmelee in Archmelees" >
-                <td>{{archmelee.rank}}</td>
-                <td>{{archmelee.name}}</td>
-                <td>{{archmelee.damage}}</td>
-                <td>{{archmelee.cc}}</td>
-                <td>{{archmelee.mr}}</td>
-                <td>{{archmelee.notes}}</td>
-                <td>{{archmelee.event}}</td>
-                <td>{{archmelee.builds}}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="container tiertab" id="Companions">
-        <table id="companionsTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th onclick="sortTable('companionsTable', 0)">Rank</th>
-                <th onclick="sortTable('companionsTable', 1)">Weapons</th>
-                <th onclick="sortTable('companionsTable', 2)">Primary DMG Type</th>
-                <th onclick="sortTable('companionsTable', 3)">CC Mechanic</th>
-                <th onclick="sortTable('companionsTable', 4)">MR Req</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
-                <th>Suggested Builds</th>
-                <!--TODO consolodate?-->
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="companion in Companions" >
-                <td>{{companion.rank}}</td>
-                <td>{{companion.name}}</td>
-                <td>{{companion.damage}}</td>
-                <td>{{companion.cc}}</td>
-                <td>{{companion.mr}}</td>
-                <td>{{companion.notes}}</td>
-                <td>{{companion.event}}</td>
-                <td>{{companion.builds}}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="container tiertab" id="Sentweps">
-        <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="%20">Sentinal Weapons</th>
-                <th width="%10">Use Case</th>
-                <th width="%10">Weapon Type</th>
-                <th width="60%">Notes</th>
+                <th width="15%">Melees</th>
+                <th width="20%">Summary of Use</th>
+                <th width="50%">Notes</th>
+                <th width="15%">Base Rankings</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
             <tr>
                 <td><b>{{tiers.name}}</b></td>
             </tr>
-            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
+            <tbody>
+            <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
+                <td><a href="{{archmelee.url}}">{{archmelee.name}}</a></td>
+                <td>{{archmelee.use}}</td>
+                <td>{{archmelee.notes}}</td>
+                <td>{{archmelee.base}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--TODO data entry-->
+    <!--Fields: url, rank, tier, name, abilities, notes, base-->
+    <div class="container tiertab" id="Companions">
+        <table id="companionsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th width="15%">Companion</th>
+                <th width="20%">Summary of Abilities</th>
+                <th width="50%">Notes</th>
+                <th width="15%">Base Ranking</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr>
+                <td><b>{{tiers.name}}</b></td>
+            </tr>
+            <tbody>
+            <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
+                <td><a href="{{companion.url}}">{{companion.name}}</a></td>
+                <td>{{companion.abilities}}</td>
+                <td>{{companion.notes}}</td>
+                <td>{{companion.base}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Done-->
+    <!--Fields: url, rank, tier, use, weapontype, notes-->
+    <div class="container tiertab" id="Sentweps">
+        <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
+            <thead>
+            <tr>
+                <th width="15%">Sentinal Weapons</th>
+                <th width="15%">Use Case</th>
+                <th width="15%">Weapon Type</th>
+                <th width="50%">Notes</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr>
+                <td><b>{{tiers.name}}</b></td>
+            </tr>
+            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                 <td><a href="{{sentwep.url}}">{{sentwep.name}}</a></td>
                 <td>{{sentwep.use}}</td>
                 <td>{{sentwep.weapontype}}</td>
@@ -371,7 +363,7 @@
         <div class="col-md-8">
             <h2>FAQ</h2>
             <p>This tier list is based on emperical evidence; meaning numbers and pure data obtained in game.
-                Some of my rankings may be subject to error, but be aware that none of the following
+                Some of the rankings may be subject to error, but be aware that none of the following
                 information is based on any "meta" or community bias. Also bear in mind that some of the
                 frames and weapons that may seem in a low tier can still be very strong, even vital,
                 for certain niche strategies. However, because these niche strategies require (sometimes

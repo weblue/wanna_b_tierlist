@@ -1,12 +1,10 @@
 //TODO:
-//Credits
 //Admin panel
 //User Commenting
-//Rating system
-//fixing tables
 //Weapon stats on hover
-//reload table on resolve
-//URLs
+//Suggested BUilds
+//Arcanes, AMPs, Zaws
+//fixing tables
 
 //Categories
 //Rank, MR Req, Notes, Name, suggested builds
