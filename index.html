@@ -61,7 +61,7 @@
 
     <ul class="nav nav-tabs nav-justified" id="tabs" >
         <li class="nav-item" ng-repeat="category in categories">
-            <a href="#{{category}}">{{category}}</a>
+            <a href="#{(category)}">{(category)}</a>
         </li>
         <li class="nav-item">
             <a href="#Sentweps">Sentinel Weapons</a>
@@ -86,14 +86,14 @@
             <tbody>
             <!--ng-if="primary.rank === 'Top'"-->
             <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query" >
-                <td>{{primary.rank}}</td>
-                <td>{{primary.name}}</td>
-                <td>{{primary.damage}}</td>
-                <td>{{primary.cc}}</td>
-                <td>{{primary.mr}}</td>
-                <td>{{primary.notes}}</td>
-                <td>{{primary.event}}</td>
-                <td>{{primary.builds}}</td>
+                <td>{(primary.rank)}</td>
+                <td>{(primary.name)}</td>
+                <td>{(primary.damage)}</td>
+                <td>{(primary.cc)}</td>
+                <td>{(primary.mr)}</td>
+                <td>{(primary.notes)}</td>
+                <td>{(primary.event)}</td>
+                <td>{(primary.builds)}</td>
             </tr>
             </tbody>
         </table>
@@ -116,14 +116,14 @@
             </thead>
             <tbody>
             <tr ng-repeat="secondary in Secondaries" >
-                <td>{{secondary.rank}}</td>
-                <td>{{secondary.name}}</td>
-                <td>{{secondary.damage}}</td>
-                <td>{{secondary.cc}}</td>
-                <td>{{secondary.mr}}</td>
-                <td>{{secondary.notes}}</td>
-                <td>{{secondary.event}}</td>
-                <td>{{secondary.builds}}</td>
+                <td>{(secondary.rank)}</td>
+                <td>{(secondary.name)}</td>
+                <td>{(secondary.damage)}</td>
+                <td>{(secondary.cc)}</td>
+                <td>{(secondary.mr)}</td>
+                <td>{(secondary.notes)}</td>
+                <td>{(secondary.event)}</td>
+                <td>{(secondary.builds)}</td>
             </tr>
             </tbody>
         </table>
@@ -146,14 +146,14 @@
             </thead>
             <tbody>
             <tr ng-repeat="melee in Melees" >
-                <td>{{melee.rank}}</td>
-                <td>{{melee.name}}</td>
-                <td>{{melee.damage}}</td>
-                <td>{{melee.cc}}</td>
-                <td>{{melee.mr}}</td>
-                <td>{{melee.notes}}</td>
-                <td>{{melee.event}}</td>
-                <td>{{melee.builds}}</td>
+                <td>{(melee.rank)}</td>
+                <td>{(melee.name)}</td>
+                <td>{(melee.damage)}</td>
+                <td>{(melee.cc)}</td>
+                <td>{(melee.mr)}</td>
+                <td>{(melee.notes)}</td>
+                <td>{(melee.event)}</td>
+                <td>{(melee.builds)}</td>
             </tr>
             </tbody>
         </table>
@@ -176,14 +176,14 @@
             </thead>
             <tbody>
             <tr ng-repeat="frame in Frames" >
-                <td>{{frame.rank}}</td>
-                <td>{{frame.name}}</td>
-                <td>{{frame.damage}}</td>
-                <td>{{frame.cc}}</td>
-                <td>{{frame.mr}}</td>
-                <td>{{frame.notes}}</td>
-                <td>{{frame.event}}</td>
-                <td>{{frame.builds}}</td>
+                <td>{(frame.rank)}</td>
+                <td>{(frame.name)}</td>
+                <td>{(frame.damage)}</td>
+                <td>{(frame.cc)}</td>
+                <td>{(frame.mr)}</td>
+                <td>{(frame.notes)}</td>
+                <td>{(frame.event)}</td>
+                <td>{(frame.builds)}</td>
             </tr>
             </tbody>
         </table>
@@ -206,14 +206,14 @@
             </thead>
             <tbody>
             <tr ng-repeat="school in Schools" >
-                <td>{{school.rank}}</td>
-                <td>{{school.name}}</td>
-                <td>{{school.damage}}</td>
-                <td>{{school.cc}}</td>
-                <td>{{school.mr}}</td>
-                <td>{{school.notes}}</td>
-                <td>{{school.event}}</td>
-                <td>{{school.builds}}</td>
+                <td>{(school.rank)}</td>
+                <td>{(school.name)}</td>
+                <td>{(school.damage)}</td>
+                <td>{(school.cc)}</td>
+                <td>{(school.mr)}</td>
+                <td>{(school.notes)}</td>
+                <td>{(school.event)}</td>
+                <td>{(school.builds)}</td>
             </tr>
             </tbody>
         </table>
@@ -236,44 +236,42 @@
             </thead>
             <tbody>
             <tr ng-repeat="archwing in Archwings" >
-                <td>{{archwing.rank}}</td>
-                <td>{{archwing.name}}</td>
-                <td>{{archwing.damage}}</td>
-                <td>{{archwing.cc}}</td>
-                <td>{{archwing.mr}}</td>
-                <td>{{archwing.notes}}</td>
-                <td>{{archwing.event}}</td>
-                <td>{{archwing.builds}}</td>
+                <td>{(archwing.rank)}</td>
+                <td>{(archwing.name)}</td>
+                <td>{(archwing.damage)}</td>
+                <td>{(archwing.cc)}</td>
+                <td>{(archwing.mr)}</td>
+                <td>{(archwing.notes)}</td>
+                <td>{(archwing.event)}</td>
+                <td>{(archwing.builds)}</td>
             </tr>
             </tbody>
         </table>
     </div>
 
+    <!--TODO: data entry-->
+    <!--Fields: url, name, use, firing, notes, base-->
     <div class="container tiertab" id="Archguns">
         <table id="archgunsTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th onclick="sortTable('archgunsTable', 0)">Rank</th>
-                <th onclick="sortTable('archgunsTable', 1)">Weapons</th>
-                <th onclick="sortTable('archgunsTable', 2)">Primary DMG Type</th>
-                <th onclick="sortTable('archgunsTable', 3)">CC Mechanic</th>
-                <th onclick="sortTable('archgunsTable', 4)">MR Req</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
-                <th>Suggested Builds</th>
-                <!--TODO consolodate?-->
+                <th width="15%">Archgun</th>
+                <th width="10%">Summary of use</th>
+                <th width="10%">Firing Mechanic</th>
+                <th width="50%">Notes</th>
+                <th width="15%">Base or Event Rankings</th>
             </tr>
             </thead>
-            <tbody>
-            <tr ng-repeat="archgun in Archguns" >
-                <td>{{archgun.rank}}</td>
-                <td>{{archgun.name}}</td>
-                <td>{{archgun.damage}}</td>
-                <td>{{archgun.cc}}</td>
-                <td>{{archgun.mr}}</td>
-                <td>{{archgun.notes}}</td>
-                <td>{{archgun.event}}</td>
-                <td>{{archgun.builds}}</td>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr>
+                <td><b>{(tiers.name)}</b></td>
+            </tr>
+            <tr ng-repeat="archgun in Archguns | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
+                <td><a href="{(archgun.url)}">{(archgun.name)}</a></td>
+                <td>{(archgun.use)}</td>
+                <td>{(archgun.firing)}</td>
+                <td>{(archgun.notes)}</td>
+                <td>{(archgun.base)}</td>
             </tr>
             </tbody>
         </table>
@@ -293,14 +291,14 @@
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
             <tr>
-                <td><b>{{tiers.name}}</b></td>
+                <td><b>{(tiers.name)}</b></td>
             </tr>
             <tbody>
             <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
-                <td><a href="{{archmelee.url}}">{{archmelee.name}}</a></td>
-                <td>{{archmelee.use}}</td>
-                <td>{{archmelee.notes}}</td>
-                <td>{{archmelee.base}}</td>
+                <td><a href="{(archmelee.url)}">{(archmelee.name)}</a></td>
+                <td>{(archmelee.use)}</td>
+                <td>{(archmelee.notes)}</td>
+                <td>{(archmelee.base)}</td>
             </tr>
             </tbody>
         </table>
@@ -320,14 +318,14 @@
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
             <tr>
-                <td><b>{{tiers.name}}</b></td>
+                <td><b>{(tiers.name)}</b></td>
             </tr>
             <tbody>
             <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'" >
-                <td><a href="{{companion.url}}">{{companion.name}}</a></td>
-                <td>{{companion.abilities}}</td>
-                <td>{{companion.notes}}</td>
-                <td>{{companion.base}}</td>
+                <td><a href="{(companion.url)}">{(companion.name)}</a></td>
+                <td>{(companion.abilities)}</td>
+                <td>{(companion.notes)}</td>
+                <td>{(companion.base)}</td>
             </tr>
             </tbody>
         </table>
@@ -347,13 +345,13 @@
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
             <tr>
-                <td><b>{{tiers.name}}</b></td>
+                <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{{sentwep.url}}">{{sentwep.name}}</a></td>
-                <td>{{sentwep.use}}</td>
-                <td>{{sentwep.weapontype}}</td>
-                <td>{{sentwep.notes}}</td>
+                <td><a href="{(sentwep.url)}">{(sentwep.name)}</a></td>
+                <td>{(sentwep.use)}</td>
+                <td>{(sentwep.weapontype)}</td>
+                <td>{(sentwep.notes)}</td>
             </tr>
             </tbody>
         </table>

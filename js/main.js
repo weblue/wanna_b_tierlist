@@ -82,11 +82,15 @@ function sortTable(tablename, n) {
 //Angular
 let app = angular.module("tierlist", []);
 
+app.config([
+    '$interpolateProvider', function($interpolateProvider) {
+        return $interpolateProvider.startSymbol('{(').endSymbol(')}');
+    }
+]);
+
 app.controller("TierListController", function TierListController ($scope) {
 
     firebase.database().ref('/Primaries/').once('value').then(function (snapshot) {
-        console.log(snapshot.val());
-
         $scope.$evalAsync(function () {
             $scope.Primaries = $.map(snapshot.val(), function (element) {
                 return element;
@@ -95,9 +99,25 @@ app.controller("TierListController", function TierListController ($scope) {
         console.log($scope.Primaries);
     });
 
-    firebase.database().ref('/Sentweps/').once('value').then(function (snapshot) {
-        console.log(snapshot.val());
+    firebase.database().ref('/Archmelees/').once('value').then(function (snapshot) {
+        $scope.$evalAsync(function () {
+            $scope.Sentweps = $.map(snapshot.val(), function (element) {
+                return element;
+            });
+        });
+        console.log($scope.Sentweps);
+    });
 
+    firebase.database().ref('/Companions/').once('value').then(function (snapshot) {
+        $scope.$evalAsync(function () {
+            $scope.Sentweps = $.map(snapshot.val(), function (element) {
+                return element;
+            });
+        });
+        console.log($scope.Sentweps);
+    });
+
+    firebase.database().ref('/Sentweps/').once('value').then(function (snapshot) {
         $scope.$evalAsync(function () {
             $scope.Sentweps = $.map(snapshot.val(), function (element) {
                 return element;
@@ -107,8 +127,6 @@ app.controller("TierListController", function TierListController ($scope) {
     });
 
     firebase.database().ref('/Tiers/').once('value').then(function (snapshot) {
-        console.log(snapshot.val());
-
         $scope.$evalAsync(function() {
             $scope.Tiers = $.map(snapshot.val(), function(element) {
                 return element;
