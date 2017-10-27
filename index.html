@@ -203,10 +203,9 @@
             <thead>
             <tr>
                 <th width="15%">School</th>
-                <th width="15%">Use</th>
-                <th width="20%">Effect on Frame</th>
-                <th width="20%">Effect on Operator</th>
-                <th width="30%">Notes</th>
+                <th width="25%">Effect on Frame</th>
+                <th width="25%">Effect on Operator</th>
+                <th width="35%">Notes</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -215,7 +214,6 @@
             </tr>
             <tr ng-repeat="school in Schools | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                 <td><a href="{(school.url)}">{(school.name)}</a></td>
-                <td>{(school.use)}</td>
                 <td>{(school.frame)}</td>
                 <td>{(school.op)}</td>
                 <td>{(school.notes)}</td>
@@ -331,7 +329,7 @@
     </div>
 
     <!--Done-->
-    <!--Fields: url, rank, tier, use, weapontype, notes-->
+    <!--Fields: url, rank, tier, use, type, notes-->
     <div class="container tiertab" id="Sentweps">
         <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
             <thead>
@@ -349,7 +347,7 @@
             <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                 <td><a href="{(sentwep.url)}">{(sentwep.name)}</a></td>
                 <td>{(sentwep.use)}</td>
-                <td>{(sentwep.weapontype)}</td>
+                <td>{(sentwep.type)}</td>
                 <td>{(sentwep.notes)}</td>
             </tr>
             </tbody>
