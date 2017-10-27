@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -131,30 +131,37 @@
         </table>
     </div>
 
+    <!--TODO: data entry-->
+    <!--Fields: url, name, tier, rank, dmg, type, stance, combo, wepnotes, stancenotes, mr, base-->
     <div class="container tiertab" id="Melee">
         <table id="meleesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th>Rank</th>
-                <th>Weapons</th>
-                <th>Primary DMG Type</th>
-                <th>CC Mechanic</th>
-                <th>MR Req</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
-                <th>Suggested Builds</th>
-                <!--TODO consolodate?-->
+                <th width="auto">Weapons</th>
+                <th width="auto">Damage type</th>
+                <th width="auto">Wep type</th>
+                <th width="auto">Rec. Stance</th>
+                <th width="auto">Rec. Combo</th>
+                <th width="auto">Weapon Notes</th>
+                <th width="auto">Stance Notes</th>
+                <th width="auto">MR Req</th>
+                <th width="auto">Base or Event Rankings</th>
             </tr>
             </thead>
-            <tbody>
-            <tr ng-repeat="melee in Melees">
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr>
+                <td><b>{(tiers.name)}</b></td>
+            </tr>
+            <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                 <td><a href="{(melee.url)}">{(melee.name)}</a></td>
-                <td>{(melee.damage)}</td>
-                <td>{(melee.cc)}</td>
+                <td>{(melee.dmg)}</td>
+                <td>{(melee.type)}</td>
+                <td>{(melee.stance)}</td>
+                <td>{(melee.combo)}</td>
+                <td>{(melee.wepnotes)}</td>
+                <td>{(melee.stancenotes)}</td>
                 <td>{(melee.mr)}</td>
-                <td>{(melee.notes)}</td>
-                <td>{(melee.event)}</td>
-                <td>{(melee.builds)}</td>
+                <td>{(melee.base)}</td>
             </tr>
             </tbody>
         </table>
@@ -166,11 +173,11 @@
         <table id="framesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th>Frames</th>
-                <th>Category</th>
-                <th>Summary of use</th>
-                <th>Notes</th>
-                <th>Base or Event Rankings</th>
+                <th width="auto">Frames</th>
+                <th width="auto">Category</th>
+                <th width="auto">Summary of use</th>
+                <th width="auto">Notes</th>
+                <th width="auto">Base or Event Rankings</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -375,12 +382,12 @@
     </footer>
 </div> <!-- /container -->
 <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
-<script src="/js/vendor/jquery-3.2.1.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="./js/vendor/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-<script src="/js/vendor/bootstrap.min.js"></script>
+<script src="./js/vendor/bootstrap.min.js"></script>
 
-<script src="/js/main.js"></script>
+<script src="./js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
