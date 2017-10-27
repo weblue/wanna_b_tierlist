@@ -169,7 +169,7 @@
     </div>
 
     <!--TODO: data entry-->
-    <!--Fields: url, rank, tier, name, category, use, notes, base-->
+    <!--Fields: url, rank, tier, name, category, use, notes-->
     <div class="container tiertab" id="Frames">
         <table id="framesTable" class="table table-condensed table-responsive sortable">
             <thead>
@@ -178,7 +178,6 @@
                 <th width="auto">Category</th>
                 <th width="auto">Use</th>
                 <th width="auto">Notes</th>
-                <th width="auto">Base Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -190,7 +189,6 @@
                 <td>{(frame.category)}</td>
                 <td>{(frame.use)}</td>
                 <td>{(frame.notes)}</td>
-                <td>{(frame.base)}</td>
             </tr>
             </tbody>
         </table>
