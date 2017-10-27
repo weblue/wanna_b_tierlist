@@ -1,13 +1,10 @@
 //TODO:
+//auto sizing
+//Suggested Builds
 //Admin panel
 //User Commenting
 //Weapon stats on hover
-//Suggested BUilds
 //Arcanes, AMPs, Zaws
-//fixing tables
-//auto sizing
-//warframe sections
-//suggested builds
 
 //Categories
 //MR Req, Notes, Name, base/event, Category
