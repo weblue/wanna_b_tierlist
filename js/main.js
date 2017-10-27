@@ -1,7 +1,6 @@
 //TODO:
-//auto sizing
-//Suggested Builds
 //Admin panel
+//Suggested Builds
 //User Commenting
 //Weapon stats on hover
 //Arcanes, AMPs, Zaws
@@ -81,13 +80,13 @@ app.controller("TierListController", function TierListController ($scope) {
         console.log($scope.Schools);
     });
 
-    firebase.database().ref('/Archwingss/').once('value').then(function (snapshot) {
+    firebase.database().ref('/Archwings/').once('value').then(function (snapshot) {
         $scope.$evalAsync(function () {
-            $scope.Archwingss = $.map(snapshot.val(), function (element) {
+            $scope.Archwings = $.map(snapshot.val(), function (element) {
                 return element;
             });
         });
-        console.log($scope.Archwingss);
+        console.log($scope.Archwings);
     });
 
     firebase.database().ref('/Archguns/').once('value').then(function (snapshot) {
