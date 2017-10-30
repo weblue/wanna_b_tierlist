@@ -40,8 +40,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Primaries = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Primaries);
         });
-        console.log($scope.Primaries);
     });
 
     firebase.database().ref('/Secondaries/').once('value').then(function (snapshot) {
@@ -49,8 +49,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Secondaries = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Secondaries);
         });
-        console.log($scope.Secondaries);
     });
 
     firebase.database().ref('/Melees/').once('value').then(function (snapshot) {
@@ -58,8 +58,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Melees = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Melees);
         });
-        console.log($scope.Melees);
     });
 
     firebase.database().ref('/Frames/').once('value').then(function (snapshot) {
@@ -67,8 +67,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Frames = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Frames);
         });
-        console.log($scope.Frames);
     });
 
     firebase.database().ref('/Schools/').once('value').then(function (snapshot) {
@@ -76,8 +76,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Schools = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Schools);
         });
-        console.log($scope.Schools);
     });
 
     firebase.database().ref('/Archwings/').once('value').then(function (snapshot) {
@@ -85,8 +85,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Archwings = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Archwings);
         });
-        console.log($scope.Archwings);
     });
 
     firebase.database().ref('/Archguns/').once('value').then(function (snapshot) {
@@ -94,8 +94,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Archguns = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Archguns);
         });
-        console.log($scope.Archguns);
     });
 
     firebase.database().ref('/Archmelees/').once('value').then(function (snapshot) {
@@ -103,8 +103,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Archmelees = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Archmelees);
         });
-        console.log($scope.Archmelees);
     });
 
     firebase.database().ref('/Companions/').once('value').then(function (snapshot) {
@@ -112,8 +112,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Companions = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Companions);
         });
-        console.log($scope.Companions);
     });
 
     firebase.database().ref('/Sentweps/').once('value').then(function (snapshot) {
@@ -121,8 +121,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Sentweps = $.map(snapshot.val(), function (element) {
                 return element;
             });
+            console.log($scope.Sentweps);
         });
-        console.log($scope.Sentweps);
     });
 
     firebase.database().ref('/Tiers/').once('value').then(function (snapshot) {
@@ -130,8 +130,8 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Tiers = $.map(snapshot.val(), function(element) {
                 return element;
             });
+            console.log($scope.Tiers);
         });
-        console.log($scope.Tiers);
     });
 
     $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions']

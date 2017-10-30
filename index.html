@@ -9,9 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
     <style>
         body {
-            padding-top: 50px;
+            padding-top: 20px;
             padding-bottom: 20px;
         }
     </style>
@@ -56,13 +58,13 @@
 </div>
 <div ng-app="tierlist" ng-controller="TierListController" class="container">
 
-    <div class="container row text-right">
+    <div class="container row text-right" style="padding-bottom: 10px">
         <b>Filter:</b> <input placeholder="top, launcher, Tonkor" class="input-sm" ng-model="$ctrl.query"/>
     </div>
 
 
     <ul class="nav nav-tabs nav-justified" id="tabs">
-        <li class="nav-item" ng-repeat="category in categories">
+        <li class="nav-item" onclick="$(this).addClass('active')" ng-repeat="category in categories">
             <a href="#{(category)}">{(category)}</a>
         </li>
         <li class="nav-item">
@@ -76,13 +78,13 @@
         <table id="primariesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th>Weapons</th>
-                <th>Category</th>
-                <th>Dmg Type</th>
-                <th>Weapon Type</th>
-                <th>MR Req</th>
-                <th>Notes</th>
-                <th>Base/Event Rank</th>
+                <th width="10%">Weapons</th>
+                <th width="8%">Category</th>
+                <th width="8%">Dmg Type</th>
+                <th width="10%">Wep Type</th>
+                <th width="auto">Notes</th>
+                <th width="auto">MR</th>
+                <th width="15%">Base/Event Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -94,8 +96,8 @@
                 <td>{(primary.category)}</td>
                 <td>{(primary.dmg)}</td>
                 <td>{(primary.type)}</td>
-                <td>{(primary.mr)}</td>
                 <td>{(primary.notes)}</td>
+                <td>{(primary.mr)}</td>
                 <td>{(primary.base)}</td>
             </tr>
             </tbody>
@@ -108,12 +110,12 @@
         <table id="secondariesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th>Weapons</th>
-                <th>Damage Type</th>
-                <th>Weapon Type</th>
-                <th>Notes</th>
-                <th>MR Req</th>
-                <th>Base/Event Rank</th>
+                <th width="10%">Weapons</th>
+                <th width="10%">Dmg Type</th>
+                <th width="8%">Wep Type</th>
+                <th width="auto">Notes</th>
+                <th width="auto">MR</th>
+                <th width="15%">Base/Event Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -138,15 +140,14 @@
         <table id="meleesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="auto">Weapons</th>
-                <th width="auto">Dmg type</th>
-                <th width="auto">Wep type</th>
-                <th width="auto">Rec. Stance</th>
-                <th width="auto">Rec. Combo</th>
-                <th width="auto">Weapon Notes</th>
-                <th width="auto">Stance Notes</th>
-                <th width="auto">MR Req</th>
-                <th width="auto">Base/Event Rank</th>
+                <th width="10%">Weapons</th>
+                <th width="8%">Dmg type</th>
+                <th width="8%">Wep type</th>
+                <th width="10%">Rec. Combo</th>
+                <th width="auto">Wep Notes</th>
+                <th width="20%">Combo Notes</th>
+                <th width="auto">MR</th>
+                <th width="15%">Base/Event Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -157,7 +158,6 @@
                 <td><a href="{(melee.url)}">{(melee.name)}</a></td>
                 <td>{(melee.dmg)}</td>
                 <td>{(melee.type)}</td>
-                <td>{(melee.stance)}</td>
                 <td>{(melee.combo)}</td>
                 <td>{(melee.wepnotes)}</td>
                 <td>{(melee.stancenotes)}</td>
@@ -174,9 +174,9 @@
         <table id="framesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="auto">Frames</th>
-                <th width="auto">Category</th>
-                <th width="auto">Use</th>
+                <th width="10%">Frames</th>
+                <th width="8%">Category</th>
+                <th width="15%">Use</th>
                 <th width="auto">Notes</th>
             </tr>
             </thead>
@@ -226,10 +226,10 @@
         <table id="archwingsTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="15%">Archwings</th>
-                <th width="15%">Use</th>
-                <th width="50%">Notes</th>
-                <th width="20%">Base Rank</th>
+                <th width="10%">Archwings</th>
+                <th width="20%">Use</th>
+                <th width="auto">Notes</th>
+                <th width="15%">Base Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -253,9 +253,9 @@
             <thead>
             <tr>
                 <th width="10%">Archgun</th>
-                <th width="15%">Use</th>
-                <th width="15%">Firing Mechanic</th>
-                <th width="50%">Notes</th>
+                <th width="10%">Use</th>
+                <th width="10%">Wep Type</th>
+                <th width="auto">Notes</th>
                 <th width="15%">Base Rank</th>
             </tr>
             </thead>
@@ -280,9 +280,9 @@
         <table id="archmeleesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="15%">Melees</th>
-                <th width="20%">Use</th>
-                <th width="50%">Notes</th>
+                <th width="10%">Melees</th>
+                <th width="10%">Use</th>
+                <th width="auto">Notes</th>
                 <th width="15%">Base Rank</th>
             </tr>
             </thead>
@@ -304,11 +304,11 @@
     <!--Fields: url, rank, tier, name, abilities, notes, base-->
     <div class="container tiertab" id="Companions">
         <table id="companionsTable" class="table table-condensed table-responsive sortable">
-            <thead>
+            <thead class="thead-">
             <tr>
-                <th width="15%">Companion</th>
+                <th width="10%">Companion</th>
                 <th width="20%">Abilities</th>
-                <th width="50%">Notes</th>
+                <th width="auto">Notes</th>
                 <th width="15%">Base Rank</th>
             </tr>
             </thead>
@@ -333,9 +333,9 @@
             <thead>
             <tr>
                 <th width="15%">Sentinal Weapons</th>
-                <th width="15%">Use</th>
-                <th width="15%">Weapon Type</th>
-                <th width="50%">Notes</th>
+                <th width="12%">Use</th>
+                <th width="12%">Wep Type</th>
+                <th width="auto">Notes</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -406,12 +406,14 @@
     $(document).ready(function () {
         let tabElement = $('#tabs');
         tabElement.find('li a:not(:first)').addClass('inactive');
+//        tabElement.find('li:first').addClass('active');
         $('.tiertab:not(:first)').hide();
 
         tabElement.find('li a').click(function () {
             let t = $(this).attr('href');
             if ($(this).hasClass('inactive')) { //this is the start of our condition
                 $('#tabs').find('li a').addClass('inactive');
+                $('#tabs').find('li').removeClass('active');
                 $(this).removeClass('inactive');
                 $('.tiertab').hide();
                 $(t).fadeIn('slow');
