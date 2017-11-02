@@ -101,7 +101,17 @@ textarea {
     color: #2b669a;
 }
 
+li {
+    white-space: nowrap;
+}
 
+/*td {
+    font-size: 95%
+}*/
+
+/*td:hover {*/
+    /*font-weight: bold*/
+/*}*/
 
 
 
