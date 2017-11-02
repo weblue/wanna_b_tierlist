@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" target="_blank" href="css/bootstrap.min.css">
 
 
     <style>
@@ -17,8 +17,8 @@
             padding-bottom: 20px;
         }
     </style>
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" target="_blank" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" target="_blank" href="css/main.css">
 
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
@@ -33,14 +33,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">i_wanna_b_the_guy's Warframe Tier List</a>
+            <a class="navbar-brand" target="_blank" href="#">i_wanna_b_the_guy's Warframe Tier List</a>
             <!-- TODO: make version dynamic -->
             <a class="navbar-text">Version: (Octavia's Anthem: Hotfix 20.2.2)</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <!--<a class="nav-link" href="#primaries">Primaries</a>-->
+                    <!--<a class="nav-link" target="_blank" href="#primaries">Primaries</a>-->
                 </li>
             </ul>
         </div><!--/.navbar-collapse -->
@@ -65,10 +65,10 @@
 
     <ul class="nav nav-tabs nav-justified" id="tabs">
         <li class="nav-item" onclick="$(this).addClass('active')" ng-repeat="category in categories">
-            <a href="#{(category)}">{(category)}</a>
+            <a target="_blank" href="#{(category)}">{(category)}</a>
         </li>
         <li class="nav-item">
-            <a href="#Sentweps">Sentinel Weapons</a>
+            <a target="_blank" href="#Sentweps">Sentinel Weapons</a>
         </li>
     </ul>
 
@@ -92,7 +92,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(primary.url)}">{(primary.name)}</a></td>
+                <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
                 <td>{(primary.category)}</td>
                 <td>{(primary.dmg)}</td>
                 <td>{(primary.type)}</td>
@@ -123,7 +123,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(secondary.url)}">{(secondary.name)}</a></td>
+                <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
                 <td>{(secondary.dmg)}</td>
                 <td>{(secondary.type)}</td>
                 <td>{(secondary.notes)}</td>
@@ -134,20 +134,19 @@
         </table>
     </div>
 
-    <!--TODO: data entry-->
     <!--Fields: url, name, tier, rank, dmg, type, stance, combo, wepnotes, stancenotes, mr, base-->
     <div class="container tiertab" id="Melee">
         <table id="meleesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="10%">Weapons</th>
+                <th width="12%">Weapons</th>
                 <th width="8%">Dmg type</th>
-                <th width="8%">Wep type</th>
-                <th width="10%">Rec. Combo</th>
+                <th width="10%">Wep type</th>
+                <th width="12%">Rec. Combo</th>
                 <th width="auto">Wep Notes</th>
-                <th width="20%">Combo Notes</th>
+                <!--<th width="20%">Combo Notes</th>-->
                 <th width="auto">MR</th>
-                <th width="15%">Base/Event Rank</th>
+                <th width="13%">Base/Event Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -155,12 +154,12 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(melee.url)}">{(melee.name)}</a></td>
+                <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
                 <td>{(melee.dmg)}</td>
                 <td>{(melee.type)}</td>
                 <td>{(melee.combo)}</td>
                 <td>{(melee.wepnotes)}</td>
-                <td>{(melee.stancenotes)}</td>
+                <!--<td>{(melee.stancenotes)}</td>-->
                 <td>{(melee.mr)}</td>
                 <td>{(melee.base)}</td>
             </tr>
@@ -185,7 +184,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="frame in Frames | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(frame.url)}">{(frame.name)}</a></td>
+                <td><a target="_blank" href="{(frame.url)}">{(frame.name)}</a></td>
                 <td>{(frame.category)}</td>
                 <td>{(frame.use)}</td>
                 <td>{(frame.notes)}</td>
@@ -194,8 +193,7 @@
         </table>
     </div>
 
-    <!--TODO: data entry-->
-    <!--Fields: url, rank, tier, name, use, frame, op, notes-->
+    <!--Fields: url, rank, tier, name, frame, op, notes-->
     <div class="container tiertab" id="Schools">
         <table id="schoolsTable" class="table table-condensed table-responsive sortable">
             <thead>
@@ -211,7 +209,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="school in Schools | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(school.url)}">{(school.name)}</a></td>
+                <td><a target="_blank" href="{(school.url)}">{(school.name)}</a></td>
                 <td>{(school.frame)}</td>
                 <td>{(school.op)}</td>
                 <td>{(school.notes)}</td>
@@ -220,13 +218,12 @@
         </table>
     </div>
 
-    <!--TODO: data entry-->
     <!--Fields: url, rank, tier, name, notes, base-->
     <div class="container tiertab" id="Archwings">
         <table id="archwingsTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="10%">Archwings</th>
+                <th width="12%">Archwings</th>
                 <th width="20%">Use</th>
                 <th width="auto">Notes</th>
                 <th width="15%">Base Rank</th>
@@ -237,7 +234,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="archwing in Archwings | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(archwing.url)}">{(archwing.name)}</a></td>
+                <td><a target="_blank" href="{(archwing.url)}">{(archwing.name)}</a></td>
                 <td>{(archwing.use)}</td>
                 <td>{(archwing.notes)}</td>
                 <td>{(archwing.base)}</td>
@@ -246,7 +243,6 @@
         </table>
     </div>
 
-    <!--TODO: data entry-->
     <!--Fields: url, rank, tier, name, use, firing, notes, base-->
     <div class="container tiertab" id="Archguns">
         <table id="archgunsTable" class="table table-condensed table-responsive sortable">
@@ -264,7 +260,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="archgun in Archguns | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(archgun.url)}">{(archgun.name)}</a></td>
+                <td><a target="_blank" href="{(archgun.url)}">{(archgun.name)}</a></td>
                 <td>{(archgun.use)}</td>
                 <td>{(archgun.firing)}</td>
                 <td>{(archgun.notes)}</td>
@@ -274,7 +270,6 @@
         </table>
     </div>
 
-    <!--TODO: data entry-->
     <!--Fields: url, rank, tier, name, use, notes, base-->
     <div class="container tiertab" id="Archmelees">
         <table id="archmeleesTable" class="table table-condensed table-responsive sortable">
@@ -291,7 +286,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(archmelee.url)}">{(archmelee.name)}</a></td>
+                <td><a target="_blank" href="{(archmelee.url)}">{(archmelee.name)}</a></td>
                 <td>{(archmelee.use)}</td>
                 <td>{(archmelee.notes)}</td>
                 <td>{(archmelee.base)}</td>
@@ -300,16 +295,16 @@
         </table>
     </div>
 
-    <!--TODO data entry-->
-    <!--Fields: url, rank, tier, name, abilities, notes, base-->
+    <!--Fields: url, category, rank, tier, name, abilities, notes, base-->
     <div class="container tiertab" id="Companions">
         <table id="companionsTable" class="table table-condensed table-responsive sortable">
             <thead class="thead-">
             <tr>
                 <th width="10%">Companion</th>
+                <th width="8%">Category</th>
                 <th width="20%">Abilities</th>
                 <th width="auto">Notes</th>
-                <th width="15%">Base Rank</th>
+                <th width="12%">Base Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
@@ -317,7 +312,8 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(companion.url)}">{(companion.name)}</a></td>
+                <td><a target="_blank" href="{(companion.url)}">{(companion.name)}</a></td>
+                <td>{(companion.category)}</td>
                 <td>{(companion.abilities)}</td>
                 <td>{(companion.notes)}</td>
                 <td>{(companion.base)}</td>
@@ -327,7 +323,7 @@
     </div>
 
     <!--Done-->
-    <!--Fields: url, rank, tier, use, type, notes-->
+    <!--Fields: url, rank, name, tier, use, type, notes-->
     <div class="container tiertab" id="Sentweps">
         <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
             <thead>
@@ -343,7 +339,7 @@
                 <td><b>{(tiers.name)}</b></td>
             </tr>
             <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a href="{(sentwep.url)}">{(sentwep.name)}</a></td>
+                <td><a target="_blank" href="{(sentwep.url)}">{(sentwep.name)}</a></td>
                 <td>{(sentwep.use)}</td>
                 <td>{(sentwep.type)}</td>
                 <td>{(sentwep.notes)}</td>
@@ -362,12 +358,12 @@
                 for certain niche strategies. However, because these niche strategies require (sometimes
                 intense) coordination and gimmicks, they are not considered in the average usability of
                 this tier list.</p>
-            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            <p><a class="btn btn-default" target="_blank" href="#">View details &raquo;</a></p>
         </div>
 
         <div class="col-md-4">
             <h2>Credits</h2>
-            <p>Author: <a href="http://twitch.tv/mrflooners">flooners</a><br></p>
+            <p>Author: <a target="_blank" href="http://twitch.tv/mrflooners">flooners</a><br></p>
             <p>Curators:<br> Kalgash<br> idk some guy</p>
         </div>
     </div>
@@ -413,7 +409,7 @@
             let t = $(this).attr('href');
             if ($(this).hasClass('inactive')) { //this is the start of our condition
                 $('#tabs').find('li a').addClass('inactive');
-                $('#tabs').find('li').removeClass('active');
+//                $('#tabs').find('li').removeClass('active');
                 $(this).removeClass('inactive');
                 $('.tiertab').hide();
                 $(t).fadeIn('slow');

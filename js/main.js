@@ -1,5 +1,9 @@
 //TODO:
+//Styling
+//Clean up
+//Read since 20.1.2 Octavia
 //Admin panel
+//colors on change using ng-style
 //Suggested Builds
 //User Commenting
 //Weapon stats on hover
