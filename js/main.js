@@ -1,21 +1,25 @@
 //TODO:
+//1.0
 //Styling
-//Clean up
-//Read since 20.1.2 Octavia
-//Admin panel
+//Frames
+//Clean up TODO
+    //Saryn
+    //Zephyr
+    //Frame builds
+    //Melee Viable
+    //Secondary Types
+    //Read since 20.1.2 Octavia
+
+//1.1
 //colors on change using ng-style
-//Suggested Builds
-//User Commenting
-//Weapon stats on hover
+//User Commenting through Github issues
 //Arcanes, AMPs, Zaws
-
-//Categories
-//MR Req, Notes, Name, base/event, Category
-//Revise:
-//CC Mechanic, Damage Type, Favors, role in group, mission type
-
-
-// Regular ol' javascript
+//Melee Stances
+//2.0
+//Admin panel
+//Weapon stats on hover
+//3.0
+//Suggested Builds (Blog)
 
 // Initialize Firebase
 let config = {
