@@ -72,7 +72,6 @@
         </li>
     </ul>
 
-    <!--TODO: data entry-->
     <!--Fields: url, tier, rank, name, category, dmg, type, notes, mr, base-->
     <div class="container tiertab" id="Primaries">
         <table id="primariesTable" class="table table-condensed table-responsive sortable">
@@ -104,18 +103,17 @@
         </table>
     </div>
 
-    <!--TODO: data entry-->
     <!--Fields: url, tier, rank, name, dmg, type, notes, mr, base-->
     <div class="container tiertab" id="Secondaries">
         <table id="secondariesTable" class="table table-condensed table-responsive sortable">
             <thead>
             <tr>
-                <th width="10%">Weapons</th>
-                <th width="10%">Dmg Type</th>
-                <th width="8%">Wep Type</th>
+                <th width="12%">Weapons</th>
+                <th width="8%">Dmg Type</th>
+                <th width="10%">Wep Type</th>
                 <th width="auto">Notes</th>
                 <th width="auto">MR</th>
-                <th width="15%">Base/Event Rank</th>
+                <th width="13%">Base/Event Rank</th>
             </tr>
             </thead>
             <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
