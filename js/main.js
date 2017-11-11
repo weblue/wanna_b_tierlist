@@ -1,25 +1,25 @@
 //TODO:
 //1.0
-//Styling
-//Frames
-//Clean up TODO
-    //Saryn
-    //Zephyr
-    //Frame builds
-    //Melee Viable
-    //Secondary Types
-    //Read since 20.1.2 Octavia
+    //Styling
+    //Frames
+    //Clean up TODO
+        //Melee Viable
+        //Read since 20.1.2 Octavia
+        //Saryn
+        //Zephyr
+        //Frame builds
+
 
 //1.1
-//colors on change using ng-style
-//User Commenting through Github issues
-//Arcanes, AMPs, Zaws
-//Melee Stances
+    //colors on change using ng-style
+    //User Commenting through Github issues
+    //Arcanes, AMPs, Zaws
+    //Melee Stances
 //2.0
-//Admin panel
-//Weapon stats on hover
+    //Admin panel
+    //Weapon stats on hover
 //3.0
-//Suggested Builds (Blog)
+    //Suggested Builds (Blog)
 
 // Initialize Firebase
 let config = {
