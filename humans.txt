@@ -3,13 +3,17 @@
 
 # TEAM
 
-    Nader Kirrish -- Dev/Design -- @MrFlooners
+    Nader Ki -- Dev/Design -- @MrFlooners
+    .hallwayRaptor -- Design/Styling
+    Kalgash -- Janitor
+    Brendan -- Data Entry
 
 # THANKS
 
-    <name>
+    sircod
+    u/thefisskonator
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css, Bootstrap
+    jQuery, Modernizr, Normalize.css, Bootstrap, AngularJS, Firebase
