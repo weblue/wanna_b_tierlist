@@ -1,16 +1,16 @@
 //TODO:
 //1.0
-    //Styling
-    //Frames
-    //Clean up TODO
-        //Melee Viable
-        //Read since 20.1.2 Octavia
-        //Saryn
-        //Zephyr
-        //Frame builds
-
-
+    //clean up
+    //add links
+    //clean up text
 //1.1
+    //Frames
+    //Melee Viable
+    //Read since 20.1.2 Octavia
+    //Saryn
+    //Zephyr
+    //Frame builds
+//1.2
     //colors on change using ng-style
     //User Commenting through Github issues
     //Arcanes, AMPs, Zaws

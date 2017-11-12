@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -10,15 +11,9 @@
 
     <link rel="stylesheet" target="_blank" href="css/bootstrap.min.css">
 
-
-    <style>
-        body {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-    </style>
     <link rel="stylesheet" target="_blank" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" target="_blank" href="css/main.css">
+    <link rel="stylesheet" target="_blank" href="css/style.css">
 
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
@@ -35,10 +30,11 @@
             </button>
             <a class="navbar-brand" target="_blank" href="#">i_wanna_b_the_guy's Warframe Tier List</a>
             <!-- TODO: make version dynamic -->
-            <a class="navbar-text">Version: (Octavia's Anthem: Hotfix 20.2.2)</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Version: (Octavia's Anthem: Hotfix 20.2.2)</a>
+                </li>
                 <li class="nav-item">
                     <!--<a class="nav-link" target="_blank" href="#primaries">Primaries</a>-->
                 </li>
@@ -48,7 +44,7 @@
 </nav>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<div class="jumbotron parallax">
     <div class="container">
         <h1>Hello, world!</h1>
         <p>The scope of the tier list website will be a multipage website including a supporting authentication
@@ -56,9 +52,11 @@
             builder).</p>
     </div>
 </div>
-<div ng-app="tierlist" ng-controller="TierListController" class="container">
 
-    <div class="container row text-right" style="padding-bottom: 10px">
+<!-- Main body -->
+<div ng-app="tierlist" ng-controller="TierListController" class="container boxed">
+
+    <div class="container row text-right filterbox">
         <b>Filter:</b> <input placeholder="top, launcher, Tonkor" class="input-sm" ng-model="$ctrl.query"/>
     </div>
 
@@ -359,11 +357,14 @@
             <p><a class="btn btn-default" target="_blank" href="#">View details &raquo;</a></p>
         </div>
 
-        <div class="col-md-4">
+        <p class="col-md-4">
             <h2>Credits</h2>
             <p>Author: <a target="_blank" href="http://twitch.tv/mrflooners">flooners</a><br></p>
-            <p>Curators:<br> Kalgash<br> idk some guy</p>
-        </div>
+            <ul>Thanks to
+                <li> Kalgash</li>
+                <li> Brendan</li>
+                <li> .hallwayRaptor</li>
+            </ul>
     </div>
 
     <hr>
