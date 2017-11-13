@@ -86,9 +86,8 @@ tbody tr:nth-child(even){
 .parallax {
     background-image: url(../img/jumbo_background.png);
     background-attachment: fixed;
-    background-position: 0% -130%;
+    background-position: 0 -130%;
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 input[type=search]::-webkit-search-cancel-button {
