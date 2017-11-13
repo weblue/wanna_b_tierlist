@@ -1,26 +1,3 @@
-//TODO:
-//1.0
-    //clean up
-    //add links
-    //clean up text
-//1.1
-    //Frames
-    //Melee Viable
-    //Read since 20.1.2 Octavia
-    //Saryn
-    //Zephyr
-    //Frame builds
-//1.2
-    //colors on change using ng-style
-    //User Commenting through Github issues
-    //Arcanes, AMPs, Zaws
-    //Melee Stances
-//2.0
-    //Admin panel
-    //Weapon stats on hover
-//3.0
-    //Suggested Builds (Blog)
-
 // Initialize Firebase
 let config = {
     projectId: "the-guy-s-list",

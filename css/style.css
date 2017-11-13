@@ -41,6 +41,10 @@ a {
 }
 
 .navbar-inverse .navbar-brand {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
     color: #000;
 }
 
