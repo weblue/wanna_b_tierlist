@@ -19,7 +19,8 @@ body {
 }
 
 .tiertab {
-    padding: 20px 50px 20px 20px;
+    padding: 20px;
+    padding-right: 50px;
 }
 
 .jumbotron {
@@ -54,7 +55,8 @@ a {
 
 .navbar-inverse{
     color: rgba(0, 0, 0, 0.8);
-    background: #F3F3F3 none;
+    background-image: none;
+    background-color: #F3F3F3;
     opacity: 1;
     padding-right: 40px;
     padding-left: 40px;
@@ -69,7 +71,7 @@ a {
 }
 
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
-    border-top: 0 solid rgba(0, 0, 0, 0);
+    border-top: 0px solid rgba(0, 0, 0, 0);
 }
 
 th {
@@ -81,18 +83,24 @@ tbody tr:nth-child(even){
     color: rgba(0, 0, 0, 0.8);
 }
 
-/*.parallax {*/
-    /*background-image: url(../img/jumbo_background.png);*/
-    /*height: 250px;*/
-    /*background-attachment: fixed;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
-
 .parallax {
-    background-repeat: no-repeat;
-    background-position: 0 -130%;
     background-image: url(../img/jumbo_background.png);
     background-attachment: fixed;
+    background-position: 0% -130%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+.footer-style{
+    margin-top: 100px;
+    background: #E3E3E3;
+    padding: 12px;
+}
+
+.shadow{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
 }
