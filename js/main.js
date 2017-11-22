@@ -24,7 +24,6 @@ app.controller("TierListController", function TierListController ($scope) {
         $scope.$evalAsync(function () {
             $scope.version = snapshot.val();
         });
-        console.log($scope.version)
     });
 
     firebase.database().ref('/alerts/').once('value').then(function (snapshot) {
@@ -32,7 +31,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.alerts = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.alerts);
         });
     });
 
