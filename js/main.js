@@ -20,12 +20,25 @@ app.config([
 
 app.controller("TierListController", function TierListController ($scope) {
 
+    firebase.database().ref('/version/').once('value').then(function (snapshot) {
+        $scope.$evalAsync(function () {
+            $scope.version = snapshot.val();
+        });
+    });
+
+    firebase.database().ref('/alerts/').once('value').then(function (snapshot) {
+        $scope.$evalAsync(function () {
+            $scope.alerts = $.map(snapshot.val(), function (element) {
+                return element;
+            });
+        });
+    });
+
     firebase.database().ref('/Primaries/').once('value').then(function (snapshot) {
         $scope.$evalAsync(function () {
             $scope.Primaries = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Primaries);
         });
     });
 
@@ -34,7 +47,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Secondaries = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Secondaries);
         });
     });
 
@@ -43,7 +55,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Melees = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Melees);
         });
     });
 
@@ -52,7 +63,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Frames = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Frames);
         });
     });
 
@@ -61,7 +71,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Schools = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Schools);
         });
     });
 
@@ -70,7 +79,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Archwings = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Archwings);
         });
     });
 
@@ -79,7 +87,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Archguns = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Archguns);
         });
     });
 
@@ -88,7 +95,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Archmelees = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Archmelees);
         });
     });
 
@@ -97,7 +103,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Companions = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Companions);
         });
     });
 
@@ -106,7 +111,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Sentweps = $.map(snapshot.val(), function (element) {
                 return element;
             });
-            console.log($scope.Sentweps);
         });
     });
 
@@ -115,7 +119,6 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Tiers = $.map(snapshot.val(), function(element) {
                 return element;
             });
-            console.log($scope.Tiers);
         });
     });
 
