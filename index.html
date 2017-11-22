@@ -72,7 +72,7 @@
 <div ng-app="tierlist" ng-controller="TierListController" class="container boxed">
 
     <div class="container row text-right filterbox">
-        <b>Filter:</b> <input placeholder="top, launcher, Tonkor" class="input-sm" ng-model="$ctrl.query"/>
+        <b style="font-size: medium">Filter:</b> <input style="width: 20%" placeholder="top, launcher, Tonkor" class="input-sm" ng-model="$ctrl.query"/>
     </div>
 
 
@@ -364,6 +364,8 @@
         <div class="row">
             <h2>FAQ</h2>
             <p>Weapons are tested in level 100 content with 2 Forma. Process will be outline as needed in the future</p>
+            <br>
+            <p>† indicates a weapon that significantly improves when used with <b>Hunter Munitions</b></p>
         </div>
     </div>
 
@@ -406,7 +408,6 @@
             <p>	&copy; <a target="_blank" href="http://twitch.tv/mrflooners">i_wanna_b_the_guy</a> 2017 </p>
         </div>
     </div>
-
 </footer>
 
 <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
@@ -453,7 +454,5 @@
         })
     });
 </script>
-
-
 </body>
 </html>

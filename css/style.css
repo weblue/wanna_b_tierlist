@@ -19,8 +19,7 @@ body {
 }
 
 .tiertab {
-    padding: 20px;
-    padding-right: 50px;
+    padding: 20px 50px 20px 20px;
 }
 
 .jumbotron {
@@ -55,8 +54,7 @@ a {
 
 .navbar-inverse{
     color: rgba(0, 0, 0, 0.8);
-    background-image: none;
-    background-color: #F3F3F3;
+    background: #F3F3F3 none;
     opacity: 1;
     padding-right: 40px;
     padding-left: 40px;
@@ -71,7 +69,7 @@ a {
 }
 
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
-    border-top: 0px solid rgba(0, 0, 0, 0);
+    border-top: 0 solid rgba(0, 0, 0, 0);
 }
 
 th {
@@ -84,10 +82,7 @@ tbody tr:nth-child(even){
 }
 
 .parallax {
-    background-image: url(../img/jumbo_background.png);
-    background-attachment: fixed;
-    background-position: 0 -130%;
-    background-repeat: no-repeat;
+    background: url(../img/jumbo_background.png) no-repeat fixed 0 -130%;
 }
 
 input[type=search]::-webkit-search-cancel-button {
