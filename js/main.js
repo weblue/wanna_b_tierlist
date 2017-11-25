@@ -122,7 +122,8 @@ app.controller("TierListController", function TierListController ($scope) {
                 return element;
             });
 
-            $scope.loading = false;
+            $(".loadingScreen").addClass("fadeOut");
+            // $scope.loading = false;
         });
     });
 
