@@ -18,7 +18,7 @@
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 <body ng-app="tierlist" ng-controller="TierListController" >
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -35,7 +35,7 @@
                 <li>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Contribute on GitHub</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i class="fa fa-github fa-lg"></i> Contribute on GitHub</a>
                 </li>
             </ul>
         </div><!--/.navbar-collapse -->
@@ -70,7 +70,7 @@
 
 <div class="container" ng-repeat="alert in alerts">
     <div class="alert alert-dismissible" ng-class="alert.class" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button>
         {(alert.text)}
     </div>
 </div>
@@ -162,7 +162,8 @@
                 <th width="12%">Weapons</th>
                 <th width="8%">Dmg type</th>
                 <th width="10%">Wep type</th>
-                <th width="12%">Rec. Combo</th>
+                <th width="12%">Rec. Stance</th>
+                <!--<th width="12%">Rec. Combo</th>-->
                 <th width="auto">Wep Notes</th>
                 <!--<th width="20%">Combo Notes</th>-->
                 <th width="auto">MR</th>
@@ -177,7 +178,8 @@
                 <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
                 <td>{(melee.dmg)}</td>
                 <td>{(melee.type)}</td>
-                <td>{(melee.combo)}</td>
+                <td>{(melee.stance)}</td>
+                <!--<td>{(melee.combo)}</td>-->
                 <td>{(melee.wepnotes)}</td>
                 <!--<td>{(melee.stancenotes)}</td>-->
                 <td>{(melee.mr)}</td>
@@ -384,8 +386,8 @@
     <div class="container">
         <div class="row">
             <p>
-                <a href="http://twitch.tv/mrflooners"><i class="fa fa-twitch fa-2x" aria-hidden="true"></i></a>
-                <a href="https://github.com/weblue/weblue.github.io/issues"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                <a href="http://twitch.tv/mrflooners"><i class="fa fa-twitch fa-2x"></i></a>
+                <a href="https://github.com/weblue/weblue.github.io/issues"><i class="fa fa-github fa-2x"></i></a>
             </p>
         </div>
     </div>
