@@ -20,6 +20,8 @@ app.config([
 
 app.controller("TierListController", function TierListController ($scope) {
 
+    $scope.loading = true;
+
     firebase.database().ref('/version/').once('value').then(function (snapshot) {
         $scope.$evalAsync(function () {
             $scope.version = snapshot.val();
@@ -119,9 +121,11 @@ app.controller("TierListController", function TierListController ($scope) {
             $scope.Tiers = $.map(snapshot.val(), function(element) {
                 return element;
             });
+
+            $scope.loading = false;
         });
     });
 
-    $scope.categories = ['Primaries', 'Secondaries', 'Melee', 'Frames', 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions']
+    $scope.categories = ['Primaries', 'Secondaries', 'Melee', /*'Frames',*/ 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions']
 
 });

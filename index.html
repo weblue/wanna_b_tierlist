@@ -18,6 +18,11 @@
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 <body ng-app="tierlist" ng-controller="TierListController" >
+
+<div class="loadingScreen" ng-show="loading">
+    <div class="loader"></div>
+</div>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -77,8 +82,6 @@
 
 <!-- Main body -->
 <div class="container boxed">
-
-
 
     <div class="container row text-right filterbox">
         <b style="font-size: medium">Filter:</b> <input style="width: 20%" placeholder="top, launcher, Tonkor" class="input-sm" ng-model="$ctrl.query"/>
