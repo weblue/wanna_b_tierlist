@@ -118,7 +118,8 @@ input[type=search]::-webkit-search-cancel-button {
 
 .loader{
     border: 16px solid #e3e3e3;
-    border-top: 16px solid #3498db;
+    border-top: 16px solid #1c5c7a;
+    border-bottom: 16px solid #1c5c7a;
     border-radius: 50%;
     width: 120px;
     height: 120px;
