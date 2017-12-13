@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html class="no-js" lang="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -17,10 +16,11 @@
 
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function(){
+        window.addEventListener("load", function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -36,10 +36,11 @@
                     "message": "While we do not currently use cookies, this may change. Usage of the List is consenting on the usage of cookies. Disabling your adblocker to allow me to obtain analytic data is also appreciated.",
                     "dismiss": "Thanks"
                 }
-            })});
+            })
+        });
     </script>
 </head>
-<body ng-app="tierlist" ng-controller="TierListController" >
+<body ng-app="tierlist" ng-controller="TierListController">
 
 <div class="loadingScreen" ng-show="loading">
     <div class="loader"></div>
@@ -55,42 +56,43 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" target="_blank" href="#">i_wanna_b_the_guy's Tier List (v. {(version)})</a>
+            <a class="navbar-brand" target="_blank">i_wanna_b_the_guy's Tier List (v. {(version)})</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i class="fa fa-github fa-lg"></i> Contribute on GitHub</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i
+                        class="fa fa-github fa-lg"></i> Contribute on GitHub</a>
                 </li>
             </ul>
-        </div><!--/.navbar-collapse -->
+        </div>
     </div>
 </nav>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron parallax">
     <div class="container">
-        <!--<h1>Hello, world!</h1>-->
         <p>List is curated by <a href="http://twitch.tv/mrflooners">flooners</a>. This is a partially
             subjective tier list, however constructive criticism is always encouraged and appreciated.
             <a href="https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8">
-            Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless,
+                Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless,
             this guide is intended to get a general sense of the equipment in the game.
             <br>
             <br>
             Ordering of items is only somewhat meaningful, positions can be considered +/- 5 of each other.
             <br>
             <br>
-            Feel free to donate or comment on rankings using on the Github issues page. Donations support server costs and item testing; receipts of all donation transactions available as Patreon posts
+            Feel free to donate or comment on rankings using on the Github issues page. Donations support server costs
+            and item testing; receipts of all donation transactions available as Patreon posts
         </p>
     </div>
     <div class="container text-right">
         <div class="row">
             <a href="https://discord.gg/Cq3jW27"><img class="shadow" src="./img/discord.png" alt="Discord"></a>
             <a href="http://twitch.tv/mrflooners"><img class="shadow" src="./img/twitch.png" alt="Twitch"></a>
-            <a href="https://www.patreon.com/bePatron?u=507139"><img class="shadow" src="./img/patreon.png" alt="Patreon"></a>
+            <a href="https://www.patreon.com/bePatron?u=507139"><img class="shadow" src="./img/patreon.png"
+                                                                     alt="Patreon"></a>
         </div>
     </div>
 </div>
@@ -106,293 +108,296 @@
 <div class="container boxed">
 
     <div class="container row text-right filterbox">
-        <b style="font-size: medium">Filter:</b> <input style="width: 20%" placeholder="top, launcher, Tonkor" class="input-sm" ng-model="$ctrl.query"/>
+        <b style="font-size: medium">Filter:</b> <input style="width: 20%" placeholder="top, launcher, Tonkor"
+                                                        class="input-sm" ng-model="$ctrl.query"/>
     </div>
 
-
     <ul class="nav nav-tabs nav-justified" id="tabs">
-        <li class="nav-item" onclick="$(this).addClass('active')" ng-repeat="category in categories">
-            <a target="_blank" href="#{(category)}">{(category)}</a>
+        <li class="nav-item" id="{(category)}tab" ng-repeat="category in categories">
+            <a data-toggle="tab" target="_blank" href="#{(category)}">{(category)}</a>
         </li>
         <li class="nav-item">
-            <a target="_blank" href="#Sentweps">Sentinel Weapons</a>
+            <a data-toggle="tab" target="_blank" href="#Sentweps">Sentinel Weapons</a>
         </li>
     </ul>
 
     <!--Fields: url, tier, rank, name, category, dmg, type, notes, mr, base-->
-    <div class="container tiertab" id="Primaries">
-        <table id="primariesTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="10%">Weapons</th>
-                <th width="8%">Category</th>
-                <th width="8%">Dmg Type</th>
-                <th width="10%">Wep Type</th>
-                <th width="auto">Notes</th>
-                <th width="auto">MR</th>
-                <th width="15%">Base/Event Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
-                <td>{(primary.category)}</td>
-                <td>{(primary.dmg)}</td>
-                <td>{(primary.type)}</td>
-                <td>{(primary.notes)}</td>
-                <td>{(primary.mr)}</td>
-                <td>{(primary.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+    <div class="tab-content">
+        <div class="container tiertab tab-pane in active" id="Primaries">
+            <table id="primariesTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="10%">Weapons</th>
+                    <th width="8%">Category</th>
+                    <th width="8%">Dmg Type</th>
+                    <th width="10%">Wep Type</th>
+                    <th width="auto">Notes</th>
+                    <th width="auto">MR</th>
+                    <th width="15%">Base/Event Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr class="sortable"
+                    ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
+                    <td>{(primary.category)}</td>
+                    <td>{(primary.dmg)}</td>
+                    <td>{(primary.type)}</td>
+                    <td>{(primary.notes)}</td>
+                    <td>{(primary.mr)}</td>
+                    <td>{(primary.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, tier, rank, name, dmg, type, notes, mr, base-->
-    <div class="container tiertab" id="Secondaries">
-        <table id="secondariesTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="12%">Weapons</th>
-                <th width="8%">Dmg Type</th>
-                <th width="10%">Wep Type</th>
-                <th width="auto">Notes</th>
-                <th width="auto">MR</th>
-                <th width="13%">Base/Event Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
-                <td>{(secondary.dmg)}</td>
-                <td>{(secondary.type)}</td>
-                <td>{(secondary.notes)}</td>
-                <td>{(secondary.mr)}</td>
-                <td>{(secondary.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, tier, rank, name, dmg, type, notes, mr, base-->
+        <div class="container tiertab tab-pane" id="Secondaries">
+            <table id="secondariesTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="12%">Weapons</th>
+                    <th width="8%">Dmg Type</th>
+                    <th width="10%">Wep Type</th>
+                    <th width="auto">Notes</th>
+                    <th width="auto">MR</th>
+                    <th width="13%">Base/Event Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
+                    <td>{(secondary.dmg)}</td>
+                    <td>{(secondary.type)}</td>
+                    <td>{(secondary.notes)}</td>
+                    <td>{(secondary.mr)}</td>
+                    <td>{(secondary.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, name, tier, rank, dmg, type, stance, combo, wepnotes, stancenotes, mr, base-->
-    <div class="container tiertab" id="Melee">
-        <table id="meleesTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="12%">Weapons</th>
-                <th width="8%">Dmg type</th>
-                <th width="10%">Wep type</th>
-                <th width="12%">Rec. Stance</th>
-                <!--<th width="12%">Rec. Combo</th>-->
-                <th width="auto">Wep Notes</th>
-                <!--<th width="20%">Combo Notes</th>-->
-                <th width="auto">MR</th>
-                <th width="13%">Base/Event Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
-                <td>{(melee.dmg)}</td>
-                <td>{(melee.type)}</td>
-                <td>{(melee.stance)}</td>
-                <!--<td>{(melee.combo)}</td>-->
-                <td>{(melee.wepnotes)}</td>
-                <!--<td>{(melee.stancenotes)}</td>-->
-                <td>{(melee.mr)}</td>
-                <td>{(melee.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, name, tier, rank, dmg, type, stance, combo, wepnotes, stancenotes, mr, base-->
+        <div class="container tiertab tab-pane" id="Melee">
+            <table id="meleesTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="12%">Weapons</th>
+                    <th width="8%">Dmg Type</th>
+                    <th width="10%">Wep Type</th>
+                    <th width="12%">Rec. Stance</th>
+                    <!--<th width="12%">Rec. Combo</th>-->
+                    <th width="auto">Wep Notes</th>
+                    <!--<th width="20%">Combo Notes</th>-->
+                    <th width="auto">MR</th>
+                    <th width="13%">Base/Event Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
+                    <td>{(melee.dmg)}</td>
+                    <td>{(melee.type)}</td>
+                    <td>{(melee.stance)}</td>
+                    <!--<td>{(melee.combo)}</td>-->
+                    <td>{(melee.wepnotes)}</td>
+                    <!--<td>{(melee.stancenotes)}</td>-->
+                    <td>{(melee.mr)}</td>
+                    <td>{(melee.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--TODO: data entry-->
-    <!--Fields: url, rank, tier, name, category, use, notes-->
-    <div class="container tiertab" id="Frames">
-        <table id="framesTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="10%">Frames</th>
-                <th width="8%">Category</th>
-                <th width="15%">Use</th>
-                <th width="auto">Notes</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="frame in Frames | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(frame.url)}">{(frame.name)}</a></td>
-                <td>{(frame.category)}</td>
-                <td>{(frame.use)}</td>
-                <td>{(frame.notes)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--TODO: data entry-->
+        <!--Fields: url, rank, tier, name, category, use, notes-->
+        <div class="container tiertab tab-pane" id="Frames">
+            <table id="framesTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="10%">Frames</th>
+                    <th width="8%">Category</th>
+                    <th width="15%">Use</th>
+                    <th width="auto">Notes</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="frame in Frames | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(frame.url)}">{(frame.name)}</a></td>
+                    <td>{(frame.category)}</td>
+                    <td>{(frame.use)}</td>
+                    <td>{(frame.notes)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, rank, tier, name, frame, op, notes-->
-    <div class="container tiertab" id="Schools">
-        <table id="schoolsTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="10%">School</th>
-                <th width="25%">Effect on Frame</th>
-                <th width="25%">Effect on Operator</th>
-                <th width="40%">Notes</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="school in Schools | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(school.url)}">{(school.name)}</a></td>
-                <td>{(school.frame)}</td>
-                <td>{(school.op)}</td>
-                <td>{(school.notes)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, rank, tier, name, frame, op, notes-->
+        <div class="container tiertab tab-pane" id="Schools">
+            <table id="schoolsTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="10%">School</th>
+                    <th width="25%">Effect on Frame</th>
+                    <th width="25%">Effect on Operator</th>
+                    <th width="40%">Notes</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="school in Schools | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(school.url)}">{(school.name)}</a></td>
+                    <td>{(school.frame)}</td>
+                    <td>{(school.op)}</td>
+                    <td>{(school.notes)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, rank, tier, name, notes, base-->
-    <div class="container tiertab" id="Archwings">
-        <table id="archwingsTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="12%">Archwings</th>
-                <th width="20%">Use</th>
-                <th width="auto">Notes</th>
-                <th width="15%">Base Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="archwing in Archwings | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(archwing.url)}">{(archwing.name)}</a></td>
-                <td>{(archwing.use)}</td>
-                <td>{(archwing.notes)}</td>
-                <td>{(archwing.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, rank, tier, name, notes, base-->
+        <div class="container tiertab tab-pane" id="Archwings">
+            <table id="archwingsTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="12%">Archwings</th>
+                    <th width="20%">Use</th>
+                    <th width="auto">Notes</th>
+                    <th width="15%">Base Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="archwing in Archwings | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(archwing.url)}">{(archwing.name)}</a></td>
+                    <td>{(archwing.use)}</td>
+                    <td>{(archwing.notes)}</td>
+                    <td>{(archwing.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, rank, tier, name, use, firing, notes, base-->
-    <div class="container tiertab" id="Archguns">
-        <table id="archgunsTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="10%">Archgun</th>
-                <th width="10%">Use</th>
-                <th width="10%">Wep Type</th>
-                <th width="auto">Notes</th>
-                <th width="15%">Base Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="archgun in Archguns | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(archgun.url)}">{(archgun.name)}</a></td>
-                <td>{(archgun.use)}</td>
-                <td>{(archgun.firing)}</td>
-                <td>{(archgun.notes)}</td>
-                <td>{(archgun.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, rank, tier, name, use, firing, notes, base-->
+        <div class="container tiertab tab-pane" id="Archguns">
+            <table id="archgunsTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="10%">Archgun</th>
+                    <th width="10%">Use</th>
+                    <th width="10%">Wep Type</th>
+                    <th width="auto">Notes</th>
+                    <th width="15%">Base Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="archgun in Archguns | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(archgun.url)}">{(archgun.name)}</a></td>
+                    <td>{(archgun.use)}</td>
+                    <td>{(archgun.firing)}</td>
+                    <td>{(archgun.notes)}</td>
+                    <td>{(archgun.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, rank, tier, name, use, notes, base-->
-    <div class="container tiertab" id="Archmelees">
-        <table id="archmeleesTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="10%">Melees</th>
-                <th width="10%">Use</th>
-                <th width="auto">Notes</th>
-                <th width="15%">Base Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(archmelee.url)}">{(archmelee.name)}</a></td>
-                <td>{(archmelee.use)}</td>
-                <td>{(archmelee.notes)}</td>
-                <td>{(archmelee.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, rank, tier, name, use, notes, base-->
+        <div class="container tiertab tab-pane" id="Archmelees">
+            <table id="archmeleesTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="10%">Melees</th>
+                    <th width="10%">Use</th>
+                    <th width="auto">Notes</th>
+                    <th width="15%">Base Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(archmelee.url)}">{(archmelee.name)}</a></td>
+                    <td>{(archmelee.use)}</td>
+                    <td>{(archmelee.notes)}</td>
+                    <td>{(archmelee.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Fields: url, category, rank, tier, name, abilities, notes, base-->
-    <div class="container tiertab" id="Companions">
-        <table id="companionsTable" class="table table-condensed table-responsive sortable">
-            <thead class="thead-">
-            <tr>
-                <th width="10%">Companion</th>
-                <th width="8%">Category</th>
-                <th width="20%">Abilities</th>
-                <th width="auto">Notes</th>
-                <th width="12%">Base Rank</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(companion.url)}">{(companion.name)}</a></td>
-                <td>{(companion.category)}</td>
-                <td>{(companion.abilities)}</td>
-                <td>{(companion.notes)}</td>
-                <td>{(companion.base)}</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <!--Fields: url, category, rank, tier, name, abilities, notes, base-->
+        <div class="container tiertab tab-pane" id="Companions">
+            <table id="companionsTable" class="table table-condensed table-responsive sortable">
+                <thead class="thead-">
+                <tr>
+                    <th width="10%">Companion</th>
+                    <th width="8%">Category</th>
+                    <th width="20%">Abilities</th>
+                    <th width="auto">Notes</th>
+                    <th width="12%">Base Rank</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(companion.url)}">{(companion.name)}</a></td>
+                    <td>{(companion.category)}</td>
+                    <td>{(companion.abilities)}</td>
+                    <td>{(companion.notes)}</td>
+                    <td>{(companion.base)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <!--Done-->
-    <!--Fields: url, rank, name, tier, use, type, notes-->
-    <div class="container tiertab" id="Sentweps">
-        <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
-            <thead>
-            <tr>
-                <th width="15%">Sentinal Weapons</th>
-                <th width="12%">Use</th>
-                <th width="12%">Wep Type</th>
-                <th width="auto">Notes</th>
-            </tr>
-            </thead>
-            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
-            <tr>
-                <td><b>{(tiers.name)}</b></td>
-            </tr>
-            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                <td><a target="_blank" href="{(sentwep.url)}">{(sentwep.name)}</a></td>
-                <td>{(sentwep.use)}</td>
-                <td>{(sentwep.type)}</td>
-                <td>{(sentwep.notes)}</td>
-            </tr>
-            </tbody>
-        </table>
+        <!--Done-->
+        <!--Fields: url, rank, name, tier, use, type, notes-->
+        <div class="container tiertab tab-pane" id="Sentweps">
+            <table id="sentwepsTable" class="table table-condensed table-responsive sortable">
+                <thead>
+                <tr>
+                    <th width="15%">Sentinal Weapons</th>
+                    <th width="12%">Use</th>
+                    <th width="12%">Wep Type</th>
+                    <th width="auto">Notes</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+                <tr>
+                    <td><b>{(tiers.name)}</b></td>
+                </tr>
+                <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+                    <td><a target="_blank" href="{(sentwep.url)}">{(sentwep.name)}</a></td>
+                    <td>{(sentwep.use)}</td>
+                    <td>{(sentwep.type)}</td>
+                    <td>{(sentwep.notes)}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <hr>
@@ -441,20 +446,18 @@
 
     <div class="container">
         <div class="row">
-            <p>	&copy; <a target="_blank" href="http://twitch.tv/mrflooners">i_wanna_b_the_guy</a> 2017 </p>
+            <p> &copy; <a target="_blank" href="http://twitch.tv/mrflooners">i_wanna_b_the_guy</a> 2017 </p>
         </div>
     </div>
 </footer>
 
 <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
-<script src="./js/vendor/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="https://use.fontawesome.com/fb3acbaa38.js"></script>
-<script src="./js/vendor/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script src="./js/main.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function (b, o, i, l, e, r) {
         b.GoogleAnalyticsObject = l;
@@ -471,23 +474,8 @@
     ga('create', 'UA-109524715-1', 'auto');
     ga('send', 'pageview');
 
-    $(document).ready(function () {
-        let tabElement = $('#tabs');
-        tabElement.find('li a:not(:first)').addClass('inactive');
-//        tabElement.find('li:first').addClass('active');
-        $('.tiertab:not(:first)').hide();
-
-        tabElement.find('li a').click(function () {
-            let t = $(this).attr('href');
-            if ($(this).hasClass('inactive')) { //this is the start of our condition
-                $('#tabs').find('li a').addClass('inactive');
-//                $('#tabs').find('li').removeClass('active');
-                $(this).removeClass('inactive');
-                $('.tiertab').hide();
-                $(t).fadeIn('slow');
-            }
-            return false;
-        })
+    $(document).ready(function() {
+        $('#Primariestab').addClass("active");
     });
 </script>
 </body>
