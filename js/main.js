@@ -17,7 +17,7 @@ $.ajax({
     async: false,
     //Change these when debugging
     // url: 'http://localhost:63343/TierlistTemplate/js/thelist.json',
-    url: '/thelist.json',
+    url: './js/thelist.json',
     complete: function(data) {
         database = JSON.parse(data.responseText);
     }
