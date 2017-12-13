@@ -16,6 +16,28 @@
     <link rel="stylesheet" target="_blank" href="css/style.css">
 
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#343c66",
+                        "text": "#cfcfe8"
+                    },
+                    "button": {
+                        "background": "#f71559"
+                    }
+                },
+                "theme": "classic",
+                "content": {
+                    "message": "While we do not currently use cookies, this may change. Usage of the List is consenting on the usage of cookies. Disabling your adblocker to allow me to obtain analytic data is also appreciated.",
+                    "dismiss": "Thanks"
+                }
+            })});
+    </script>
 </head>
 <body ng-app="tierlist" ng-controller="TierListController" >
 
