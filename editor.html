@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Tierlist JSON DB editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" target="_blank" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" target="_blank" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" target="_blank" href="css/main.css">
+    <link rel="stylesheet" target="_blank" href="css/style.css">
+
+    <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
+</head>
+<body ng-app="editor" ng-controller="EditorController">
+
+<label> Version: <input ng-model="version" type="text"></label>
+<br>
+<hr>
+<label> Alerts:
+    <br>
+    <select ng-model="selectedAlert"
+            ng-options="alert as name for (name, alert) in alerts">
+        <option></option>
+    </select>
+    <input ng-model="selectedAlert.text" size="35">
+    <select ng-model="selectedAlert.class">
+        <option value="alert-success" class="alert-success">Green</option>
+        <option value="alert-info" class="alert-info">Blue</option>
+        <option value="alert-warning" class="alert-warning">Yellow</option>
+        <option value="alert-danger" class="alert-danger">Red</option>
+    </select>
+    <button ng-click="deleteAlert(selectedAlert)">Delete Alert</button>
+    <br>
+    New Alert:
+    <br>
+    <input ng-model="newAlertName">
+    <select ng-model="newAlertClass">
+        <option value="alert-success" class="alert-success">Green</option>
+        <option value="alert-info" class="alert-info">Blue</option>
+        <option value="alert-warning" class="alert-warning">Yellow</option>
+        <option value="alert-danger" class="alert-danger">Red</option>
+    </select>
+    <input ng-model="newAlertText">
+    <button ng-click="addAlert(newAlertName, newAlertClass, newAlertText)">Create Alert</button>
+</label>
+<hr>
+<label> Primaries:
+    <br>
+    <select ng-model="selectedPrimary"
+            ng-options="primary as primary.name for primary in Primaries">
+        <option></option>
+    </select>
+    <label>Rank: <input ng-model="selectedPrimary.rank" size="10"></label>
+    <label>Tier:
+        <select ng-model="selectedPrimary.tier">
+            <option value="Top">Top</option>
+            <option value="Viable">Viable</option>
+            <option value="Non-Viable">Non-Viable</option>
+            <option value="Untested">Untested</option>
+        </select>
+    </label>
+    <label>Name: <input ng-model="selectedPrimary.name" size="10"></label>
+    <label>MR: <input ng-model="selectedPrimary.mr" size="5"></label>
+    <label>Base: <input ng-model="selectedPrimary.base" size="10"></label>
+    <label>Category:
+        <select ng-model="selectedPrimary.category">
+            <option value="Rifle">Rifle</option>
+            <option value="Launcher">Launcher</option>
+            <option value="Bow">Bow</option>
+            <option value="Shotgun">Shotgun</option>
+            <option value="Sniper Rifle">Sniper Rifle</option>
+        </select>
+    </label>
+    <label>Dmg Type: <input ng-model="selectedPrimary.dmg" size="15"></label>
+    <label>Wep Type: <input ng-model="selectedPrimary.type" size="15"></label>
+    <label>Notes: <input ng-model="selectedPrimary.notes" size="30"></label>
+
+    <button ng-click="deletePrimary(selectedPrimary)">Delete Primary</button>
+    <br>
+    New Primary:
+    <br>
+    <label>Rank: <input ng-model="newPrimaryRank" size="10"></label>
+    <label>Tier:
+        <select ng-model="newPrimaryTier">
+            <option value="Top">Top</option>
+            <option value="Viable">Viable</option>
+            <option value="Non-Viable">Non-Viable</option>
+            <option value="Untested">Untested</option>
+        </select>
+    </label>
+    <label>Name: <input ng-model="newPrimaryName" size="10"></label>
+    <label>MR: <input ng-model="newPrimaryMr" size="5"></label>
+    <label>Base: <input ng-model="newPrimaryBase" size="10"></label>
+    <label>Category:
+        <select ng-model="newPrimaryCategory">
+            <option value="Rifle">Rifle</option>
+            <option value="Launcher">Launcher</option>
+            <option value="Bow">Bow</option>
+            <option value="Shotgun">Shotgun</option>
+            <option value="Sniper Rifle">Sniper Rifle</option>
+        </select>
+    </label>
+    <label>Dmg Type: <input ng-model="newPrimaryDmg" size="15"></label>
+    <label>Wep Type: <input ng-model="newPrimaryType" size="15"></label>
+    <label>Notes: <input ng-model="newPrimaryNotes" size="30"></label>
+    <button ng-click="addPrimary(newPrimaryName, newPrimaryMr, newPrimaryBase, newPrimaryCategory, newPrimaryDmg,
+                                  newPrimaryNotes, newPrimaryRank, newPrimaryTier, newPrimaryType)">Create Primary</button>
+</label>
+<hr>
+<label> Resolve Collisions:
+    <br>
+    <select ng-model="selectedCategory"
+            ng-options="category as category for category in categories">
+        <option></option>
+    </select>
+    <button ng-click="reorderButton()">Resolve</button>
+</label>
+<hr>
+<label> Download JSON:
+    <br>
+    <button ng-click="download(this)">Download</button>
+</label>
+
+<script src="./js/vendor/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="https://use.fontawesome.com/fb3acbaa38.js"></script>
+<script src="./js/vendor/bootstrap.min.js"></script>
+
+<script src="http://localhost:63342/TierlistTemplate/js/editor.js"></script>
+<!--<script src="./js/editor.js"></script>-->
+</body>
+</html>
