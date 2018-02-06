@@ -139,7 +139,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
     };
 
     $scope.addAlert = function (newAlertName, newAlertClass, newAlertText) {
-        $scope.alerts[newAlertName] =
+        db.alerts[newAlertName] =
             {
                 class: newAlertClass,
                 text: newAlertText
@@ -147,74 +147,74 @@ app.controller("EditorController", function EditorController($scope, $http) {
     };
 
     $scope.deleteAlert = function (toDelete) {
-        Object.keys($scope.alerts).forEach(
+        Object.keys(db.alerts).forEach(
             (element) => {
-                if ($scope.alerts[element].text === toDelete.text)
-                    delete $scope.alerts[element];
+                if (db.alerts[element].text === toDelete.text)
+                    delete db.alerts[element];
             });
     };
 
     $scope.deletePrimary = function (toDelete) {
-        Object.keys($scope.Primaries).forEach(
+        Object.keys(db.Primaries).forEach(
             (element) => {
-                if ($scope.Primaries[element].name === toDelete.name)
-                    delete $scope.Primaries[element];
+                if (db.Primaries[element].name === toDelete.name)
+                    delete db.Primaries[element];
             });
     };
 
     $scope.deleteSecondary = function (toDelete) {
-        Object.keys($scope.Secondaries).forEach(
+        Object.keys(db.Secondaries).forEach(
             (element) => {
-                if ($scope.Secondaries[element].name === toDelete.name)
-                    delete $scope.Secondaries[element];
+                if (db.Secondaries[element].name === toDelete.name)
+                    delete db.Secondaries[element];
             });
     };
 
     $scope.deleteMelee = function (toDelete) {
-        Object.keys($scope.Melees).forEach(
+        Object.keys(db.Melees).forEach(
             (element) => {
-                if ($scope.Melees[element].name === toDelete.name)
-                    delete $scope.Melees[element];
+                if (db.Melees[element].name === toDelete.name)
+                    delete db.Melees[element];
             });
     };
 
     $scope.deleteSchool = function (toDelete) {
-        Object.keys($scope.Schools).forEach(
+        Object.keys(db.Schools).forEach(
             (element) => {
-                if ($scope.Schools[element].name === toDelete.name)
-                    delete $scope.Schools[element];
+                if (db.Schools[element].name === toDelete.name)
+                    delete db.Schools[element];
             });
     };
 
     $scope.deleteArchwing = function (toDelete) {
-        Object.keys($scope.Archwings).forEach(
+        Object.keys(db.Archwings).forEach(
             (element) => {
-                if ($scope.Archwings[element].name === toDelete.name)
-                    delete $scope.Archwings[element];
+                if (db.Archwings[element].name === toDelete.name)
+                    delete db.Archwings[element];
             });
     };
 
     $scope.deleteArchgun = function (toDelete) {
-        Object.keys($scope.Archguns).forEach(
+        Object.keys(db.Archguns).forEach(
             (element) => {
-                if ($scope.Archguns[element].name === toDelete.name)
-                    delete $scope.Archguns[element];
+                if (db.Archguns[element].name === toDelete.name)
+                    delete db.Archguns[element];
             });
     };
 
     $scope.deleteArchmelee = function (toDelete) {
-        Object.keys($scope.Archmelees).forEach(
+        Object.keys(db.Archmelees).forEach(
             (element) => {
-                if ($scope.Archmelees[element].name === toDelete.name)
-                    delete $scope.Archmelees[element];
+                if (db.Archmelees[element].name === toDelete.name)
+                    delete db.Archmelees[element];
             });
     };
 
     $scope.deleteCompanion = function (toDelete) {
-        Object.keys($scope.Companions).forEach(
+        Object.keys(db.Companions).forEach(
             (element) => {
-                if ($scope.Companions[element].name === toDelete.name)
-                    delete $scope.Companions[element];
+                if (db.Companions[element].name === toDelete.name)
+                    delete db.Companions[element];
             });
     };
 
@@ -222,103 +222,103 @@ app.controller("EditorController", function EditorController($scope, $http) {
                                   newPrimaryNotes, newPrimaryRank, newPrimaryTier, newPrimaryType) {
         let urlName = newPrimaryName.replace(/ /g, "_");
 
-        $scope.Primaries[newPrimaryName] =
+        db.Primaries[newPrimaryName] =
             {
                 name: newPrimaryName,
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
-                mr: newPrimaryMr,
+                mr: Number(newPrimaryMr),
                 base: newPrimaryBase,
                 category: newPrimaryCategory,
                 dmg: newPrimaryDmg,
                 notes: newPrimaryNotes,
-                rank: newPrimaryRank,
+                rank: Number(newPrimaryRank),
                 tier: newPrimaryTier,
                 type: newPrimaryType
             };
 
-        $scope.reorder($scope.Primaries);
+        $scope.reorder(db.Primaries);
     };
 
     $scope.addSecondary = function (newSecondaryName, newSecondaryMr, newSecondaryBase, newSecondaryDmg,
                                     newSecondaryNotes, newSecondaryRank, newSecondaryTier, newSecondaryType) {
         let urlName = newSecondaryName.replace(/ /g, "_");
 
-        $scope.Secondaries[newSecondaryName] =
+        db.Secondaries[newSecondaryName] =
             {
                 name: newSecondaryName,
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
-                mr: newSecondaryMr,
+                mr: Number( newSecondaryMr),
                 base: newSecondaryBase,
                 dmg: newSecondaryDmg,
                 notes: newSecondaryNotes,
-                rank: newSecondaryRank,
+                rank: Number(newSecondaryRank),
                 tier: newSecondaryTier,
                 type: newSecondaryType
             };
 
-        $scope.reorder($scope.Secondaries);
+        $scope.reorder(db.Secondaries);
     };
 
     $scope.addMelee = function (newMeleeName, newMeleeMr, newMeleeBase, newMeleeDmg, newMeleeCombo, newMeleeStance,
                                 newMeleeStancenotes, newMeleeNotes, newMeleeRank, newMeleeTier, newMeleeType) {
         let urlName = newMeleeName.replace(/ /g, "_");
 
-        $scope.Melees[newMeleeName] =
+        db.Melees[newMeleeName] =
             {
                 name: newMeleeName,
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
-                mr: newMeleeMr,
+                mr: Number(newMeleeMr),
                 combo: newMeleeCombo,
                 stance: newMeleeStance,
                 stancenotes: newMeleeStancenotes,
                 base: newMeleeBase,
                 dmg: newMeleeDmg,
                 notes: newMeleeNotes,
-                rank: newMeleeRank,
+                rank: Number(newMeleeRank),
                 tier: newMeleeTier,
                 type: newMeleeType
             };
 
-        $scope.reorder($scope.Melees);
+        $scope.reorder(db.Melees);
     };
 
     $scope.addSchool = function (newSchoolName, newSchoolFrame, newSchoolNotes, newSchoolRank, newSchoolTier, newSchoolOp) {
         let urlName = newSchoolName.replace(/ /g, "_");
 
-        $scope.Schools[newSchoolName] =
+        db.Schools[newSchoolName] =
             {
                 name: newSchoolName,
                 frame: newSchoolFrame,
                 url: 'http://warframe.wikia.com/wiki/Focus',
                 op: newSchoolOp,
                 notes: newSchoolNotes,
-                rank: newSchoolRank,
+                rank: Number(newSchoolRank),
                 tier: newSchoolTier
             };
 
-        $scope.reorder($scope.Schools);
+        $scope.reorder(db.Schools);
     };
 
     $scope.addArchwing = function (newArchwingName, newArchwingUse, newArchwingNotes, newArchwingRank, newArchwingTier) {
         let urlName = newArchwingName.replace(/ /g, "_");
 
-        $scope.Archwings[newArchwingName] =
+        db.Archwings[newArchwingName] =
             {
                 name: newArchwingName,
                 use: newArchwingUse,
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
                 notes: newArchwingNotes,
-                rank: newArchwingRank,
+                rank: Number(newArchwingRank),
                 tier: newArchwingTier
             };
 
-        $scope.reorder($scope.Archwings);
+        $scope.reorder(db.Archwings);
     };
 
     $scope.addArchgun = function (newArchgunName, newArchgunUse, newArchgunBase, newArchgunFiring, newArchgunNotes, newArchgunRank, newArchgunTier) {
         let urlName = newArchgunName.replace(/ /g, "_");
 
-        $scope.Archguns[newArchgunName] =
+        db.Archguns[newArchgunName] =
             {
                 name: newArchgunName,
                 use: newArchgunUse,
@@ -326,34 +326,34 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 firing: newArchgunFiring,
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
                 notes: newArchgunNotes,
-                rank: newArchgunRank,
+                rank: Number(newArchgunRank),
                 tier: newArchgunTier
             };
 
-        $scope.reorder($scope.Archguns);
+        $scope.reorder(db.Archguns);
     };
 
     $scope.addArchmelee = function (newArchmeleeName, newArchmeleeUse, newArchmeleeNotes, newArchmeleeRank, newArchmeleeTier) {
         let urlName = newArchmeleeName.replace(/ /g, "_");
 
-        $scope.Archmelees[newArchmeleeName] =
+        db.Archmelees[newArchmeleeName] =
             {
                 name: newArchmeleeName,
                 use: newArchmeleeUse,
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
                 notes: newArchmeleeNotes,
-                rank: newArchmeleeRank,
+                rank: Number(newArchmeleeRank),
                 tier: newArchmeleeTier
             };
 
-        $scope.reorder($scope.Archmelees);
+        $scope.reorder(db.Archmelees);
     };
 
     $scope.addCompanion = function (newCompanionName, newCompanionBase, newCompanionAbilities, newCompanionNotes,
                                     newCompanionCategory, newCompanionRank, newCompanionTier) {
         let urlName = newCompanionName.replace(/ /g, "_");
 
-        $scope.Companions[newCompanionName] =
+        db.Companions[newCompanionName] =
             {
                 name: newCompanionName,
                 base: newCompanionBase,
@@ -361,11 +361,11 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 url: 'http://warframe.wikia.com/wiki/' + urlName,
                 notes: newCompanionNotes,
                 category: newCompanionCategory,
-                rank: newCompanionRank,
+                rank: Number(newCompanionRank),
                 tier: newCompanionTier
             };
 
-        $scope.reorder($scope.Companions);
+        $scope.reorder(db.Companions);
     };
 
 });
