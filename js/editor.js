@@ -144,6 +144,8 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 class: newAlertClass,
                 text: newAlertText
             };
+
+        alert('Added alert: ' + db.alerts[newAlertName]);
     };
 
     $scope.deleteAlert = function (toDelete) {
@@ -236,6 +238,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 type: newPrimaryType
             };
 
+        alert('Added primary: ' + newPrimaryName);
         $scope.reorder(db.Primaries);
     };
 
@@ -256,6 +259,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 type: newSecondaryType
             };
 
+        alert('Added secondary: ' + newSecondaryName);
         $scope.reorder(db.Secondaries);
     };
 
@@ -279,6 +283,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 type: newMeleeType
             };
 
+        alert('Added melee: ' + newMeleeName);
         $scope.reorder(db.Melees);
     };
 
@@ -296,6 +301,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 tier: newSchoolTier
             };
 
+        alert('Added school: ' + newSchoolName);
         $scope.reorder(db.Schools);
     };
 
@@ -312,6 +318,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 tier: newArchwingTier
             };
 
+        alert('Added archwing: ' + newArchwingName);
         $scope.reorder(db.Archwings);
     };
 
@@ -330,6 +337,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 tier: newArchgunTier
             };
 
+        alert('Added archgun: ' + newArchgunName);
         $scope.reorder(db.Archguns);
     };
 
@@ -346,6 +354,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 tier: newArchmeleeTier
             };
 
+        alert('Added archmelee: ' + newArchmeleeName);
         $scope.reorder(db.Archmelees);
     };
 
@@ -365,6 +374,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 tier: newCompanionTier
             };
 
+        alert('Added companion: ' + newCompanionName);
         $scope.reorder(db.Companions);
     };
 
