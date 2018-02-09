@@ -1877,7 +1877,8 @@
             "notes": "Suffers greatly from lack of range. Use the Razor Fin combo if more status chance is loaded to force slash prcos on last hit of the combo at slight loss of overall DPS.",
             "rank": 69,
             "tier": "Viable",
-            "type": "Warfan"
+            "type": "Warfan",
+            "$$hashKey": "object:7"
         },
         "Kogake Prime": {
             "name": "Kogake Prime",
@@ -1891,7 +1892,8 @@
             "notes": "Suffers greatly from lack of range. Use the Razor Fin combo if more status chance is loaded to force slash prcos on last hit of the combo at slight loss of overall DPS.",
             "rank": 44,
             "tier": "Viable",
-            "type": "Sparring"
+            "type": "Sparring",
+            "$$hashKey": "object:8"
         }
     },
     "Primaries": {
@@ -2892,18 +2894,20 @@
             "notes": "Very high damage per bullet, average DPS due to low effective fire rate, hitscan, eadshots greatly increase damage output, may have ammo issues especially when every trigger pull expends 4 shots anyway †",
             "rank": 22,
             "tier": "Top",
-            "type": "4-Round burst"
+            "type": "4-Round burst",
+            "$$hashKey": "object:3"
         },
         "Corinth": {
             "name": "Corinth",
             "url": "http://warframe.wikia.com/wiki/Corinth",
-            "mr": 9,
-            "category": "Rifle",
-            "dmg": "Critical/Status",
+            "mr": 10,
+            "category": "Shotgun",
+            "dmg": "Critical",
             "notes": "Very high damage per bullet, hitscan, excellent reload speed slightly hampered by delay between reloading and firing. Don't bother with secondary fire. All hail the new king of shotguns  †",
             "rank": 9,
             "tier": "Top",
-            "type": "4-Round burst"
+            "type": "Semi-auto",
+            "$$hashKey": "object:4"
         }
     },
     "Schools": {
@@ -3723,7 +3727,8 @@
             "notes": "Very high damage per bullet, good DPS, projectile weapon, bad with punchthrough, launches killed enemies as projectiles. Despite having great damage, projectile munitions combined with high rate of fire leads to very poor ammo economy.",
             "rank": 52,
             "tier": "Viable",
-            "type": "Semi-auto"
+            "type": "Semi-auto",
+            "$$hashKey": "object:5"
         },
         "Stubba": {
             "name": "Stubba",
@@ -3733,7 +3738,8 @@
             "notes": "High damage per bullet, high DPS, hitscan, magazine is large enough for the fire rate, ammo-econ is low. Recoil throws off headshots, slight reduction to CD hurts overall DPS and low-ish status makes armor removal a chore.",
             "rank": 26,
             "tier": "Viable",
-            "type": "Full-auto"
+            "type": "Full-auto",
+            "$$hashKey": "object:6"
         }
     },
     "Sentweps": {
