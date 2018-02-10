@@ -64,7 +64,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
     $scope.categories = ['Primaries', 'Secondaries', 'Melees', /*'Frames',*/ 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions'];
 
     $scope.download = function () {
-        let json = JSON.stringify(db, null, 4);
+        let json = angular.toJson(db, 2);
         let blob = new Blob([json], {type: "application/json"});
 
         if (window.navigator.msSaveOrOpenBlob) // IE10+
