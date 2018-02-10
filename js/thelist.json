@@ -8,8 +8,7 @@
             "rank": 8,
             "tier": "Non-Viable",
             "url": "http://warframe.wikia.com/wiki/Corvas",
-            "use": "Critical",
-            "$$hashKey": "object:175"
+            "use": "Critical"
         },
         "Cyngas": {
             "base": "",
@@ -19,8 +18,7 @@
             "rank": 3,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Cyngas",
-            "use": "Status",
-            "$$hashKey": "object:176"
+            "use": "Status"
         },
         "Dual Decurion": {
             "base": "",
@@ -30,8 +28,7 @@
             "rank": 7,
             "tier": "Non-Viable",
             "url": "http://warframe.wikia.com/wiki/Dual_Decurion",
-            "use": "Critical",
-            "$$hashKey": "object:177"
+            "use": "Critical"
         },
         "Fluctus": {
             "base": "",
@@ -41,8 +38,7 @@
             "rank": 1,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Fluctus",
-            "use": "Critical",
-            "$$hashKey": "object:178"
+            "use": "Critical"
         },
         "Grattler": {
             "base": "",
@@ -52,8 +48,7 @@
             "rank": 2,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Grattler",
-            "use": "Critical/Status",
-            "$$hashKey": "object:179"
+            "use": "Critical/Status"
         },
         "Phaedra": {
             "base": "",
@@ -63,8 +58,7 @@
             "rank": 6,
             "tier": "Viable",
             "url": "http://warframe.wikia.com/wiki/Phaedra",
-            "use": "Status",
-            "$$hashKey": "object:180"
+            "use": "Status"
         },
         "Vandal Imperator": {
             "base": "Vanilla is Viable",
@@ -74,8 +68,7 @@
             "rank": 5,
             "tier": "Viable",
             "url": "http://warframe.wikia.com/wiki/Imperator_Vandal",
-            "use": "Critical",
-            "$$hashKey": "object:181"
+            "use": "Critical"
         },
         "Velocitus": {
             "base": "",
@@ -85,8 +78,7 @@
             "rank": 4,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Velocitus",
-            "use": "Critical",
-            "$$hashKey": "object:182"
+            "use": "Critical"
         }
     },
     "Archmelees": {
@@ -96,8 +88,7 @@
             "rank": 3,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Agkuza",
-            "use": "Raw Damage",
-            "$$hashKey": "object:183"
+            "use": "Raw Damage"
         },
         "Centaur": {
             "name": "Centaur",
@@ -105,8 +96,7 @@
             "rank": 1,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Centaur",
-            "use": "Critical",
-            "$$hashKey": "object:184"
+            "use": "Critical"
         },
         "Kaszas": {
             "name": "Kaszas",
@@ -114,8 +104,7 @@
             "rank": 2,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Kaszas",
-            "use": "Raw Damage",
-            "$$hashKey": "object:185"
+            "use": "Raw Damage"
         },
         "Knux": {
             "name": "Knux",
@@ -123,8 +112,7 @@
             "rank": 4,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Knux",
-            "use": "Status",
-            "$$hashKey": "object:186"
+            "use": "Status"
         },
         "Onorix": {
             "name": "Onorix",
@@ -132,8 +120,7 @@
             "rank": 6,
             "tier": "Non-viable",
             "url": "http://warframe.wikia.com/wiki/Onorix",
-            "use": "Critical",
-            "$$hashKey": "object:187"
+            "use": "Critical"
         },
         "Prisma Veritux": {
             "base": "Vanilla is doodoo",
@@ -142,8 +129,7 @@
             "rank": 5,
             "tier": "Viable",
             "url": "http://warframe.wikia.com/wiki/Prisma_Veritux",
-            "use": "Raw Damage",
-            "$$hashKey": "object:188"
+            "use": "Raw Damage"
         },
         "Rathbone": {
             "name": "Rathbone",
@@ -151,8 +137,7 @@
             "rank": 7,
             "tier": "Viable",
             "url": "http://warframe.wikia.com/wiki/Rathbone",
-            "use": "Critical",
-            "$$hashKey": "object:189"
+            "use": "Critical"
         }
     },
     "Archwings": {
@@ -162,8 +147,7 @@
             "rank": 1,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Amesha",
-            "use": "Charge Based Shield; Healing & Projectile Block; Status-Immunity & Slow; Ability Buff Aura",
-            "$$hashKey": "object:171"
+            "use": "Charge Based Shield; Healing & Projectile Block; Status-Immunity & Slow; Ability Buff Aura"
         },
         "Elytron": {
             "name": "Elytron",
@@ -171,8 +155,7 @@
             "rank": 4,
             "tier": "Viable",
             "url": "http://warframe.wikia.com/wiki/Elytron",
-            "use": "Nuke; Projectile Block; AOE DOT; AOE Nuke + Knockback",
-            "$$hashKey": "object:172"
+            "use": "Nuke; Projectile Block; AOE DOT; AOE Nuke + Knockback"
         },
         "Itzal": {
             "name": "Itzal",
@@ -180,8 +163,7 @@
             "rank": 2,
             "tier": "Top",
             "url": "http://warframe.wikia.com/wiki/Itzal",
-            "use": "AOE Stun, Teleportation, AOE Cloaking, Vacuum, Drones",
-            "$$hashKey": "object:173"
+            "use": "AOE Stun, Teleportation, AOE Cloaking, Vacuum, Drones"
         },
         "Odonata Prime": {
             "base": "Base is low Viable",
@@ -190,8 +172,7 @@
             "rank": 3,
             "tier": "Viable",
             "url": "http://warframe.wikia.com/wiki/Odonata/Prime",
-            "use": "Crit+Damage Boost & Shield; Projectile Block; AOE Blast; AOE Stun & Disarm",
-            "$$hashKey": "object:174"
+            "use": "Crit+Damage Boost & Shield; Projectile Block; AOE Blast; AOE Stun & Disarm"
         }
     },
     "Companions": {
@@ -203,8 +184,7 @@
             "notes": "Cat's Eye grants 60% Flat Critical Chance to all Friendly Targets for 10 sec every 20 sec. Reflect gives a 40% Chance to reflect damage taken, dealing 160% of it back to the target.",
             "rank": 4,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Adarza_Kavat",
-            "$$hashKey": "object:190"
+            "url": "http://warframe.wikia.com/wiki/Adarza_Kavat"
         },
         "Carrier Prime": {
             "abilities": "+Ammo Capacity & Breaks Containers",
@@ -214,8 +194,7 @@
             "notes": "Ammo Case grants a 25% increase to your ammo pool and converts any unused ammo drops into usable ammo for your equipped weapon every 2 sec. Looter will break nearby containers. Goes down a tier if using non-bullet hose.",
             "rank": 5,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Carrier_Prime",
-            "$$hashKey": "object:191"
+            "url": "http://warframe.wikia.com/wiki/Carrier_Prime"
         },
         "Chesa Kubrow": {
             "abilities": "Disarms Enemies & Breaks Containers",
@@ -225,8 +204,7 @@
             "notes": "Neutralize disarm an enemy within 20 m every few sec. Retrieve causes the Chesa to seek out dropped Mods, Energy Orbs, Health Orbs, Scannable Plants, Ayatan Sculptures, Ammo and Resource drops within 18 m. This occurs every few sec",
             "rank": 9,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Chesa_Kubrow",
-            "$$hashKey": "object:192"
+            "url": "http://warframe.wikia.com/wiki/Chesa_Kubrow"
         },
         "Dethcube": {
             "abilities": "Nothing",
@@ -236,8 +214,7 @@
             "notes": "Vaporize will blast a target within 4 m for minor damage, stunning them for a short duration, This effect has a 30 sec cooldown",
             "rank": 18,
             "tier": "Non-Viable",
-            "url": "http://warframe.wikia.com/wiki/Dethcube",
-            "$$hashKey": "object:193"
+            "url": "http://warframe.wikia.com/wiki/Dethcube"
         },
         "Diriga": {
             "abilities": "Single Stunlock or AOE Damage Pulse",
@@ -247,8 +224,7 @@
             "notes": "Electro Pulse stuns a target within 10 m until they are 15 m away or die. Has a 5 sec cooldown. Arc Coil will zap to 7 enemies in range every sec, dealing minor damage with a 10% chance to stun. Equiping both will negate Electro Pulse.",
             "rank": 2,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Diriga",
-            "$$hashKey": "object:194"
+            "url": "http://warframe.wikia.com/wiki/Diriga"
         },
         "Djinn": {
             "abilities": "Taunts Enemies and Explodes",
@@ -258,8 +234,7 @@
             "notes": "Fatal Attraction causes all enemies within 24 m to walk harmlessly towards the Djinn over 5 sec. If there are 2 or more enemies within 6 m at the end, it will deal an explosion of Corrosive damage with a 100% proc chance to everything within the 6m. This ability has a 30 sec cooldown",
             "rank": 15,
             "tier": "Non-Viable",
-            "url": "http://warframe.wikia.com/wiki/Djinn",
-            "$$hashKey": "object:195"
+            "url": "http://warframe.wikia.com/wiki/Djinn"
         },
         "Helios Prime": {
             "abilities": "Codex Scans & Gives Weak Points",
@@ -269,8 +244,7 @@
             "notes": "Investigator will perform codex scans 50 m (needs scanner charges equipped). Detect Vulnerability reveals weakspots for 10 sec on enemies in the codex, increasing damage taken by that enemy by 275%. Both abilities take 2 sec to activate. If not using Deconstructor Prime, goes to Viable tier",
             "rank": 3,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Helios_Prime",
-            "$$hashKey": "object:196"
+            "url": "http://warframe.wikia.com/wiki/Helios_Prime"
         },
         "Helminth Charger": {
             "abilities": "Charges Forward & Pulls Enemies",
@@ -280,8 +254,7 @@
             "notes": "Proboscis will pull a single target within 30 m to the Helminth, dealing minor damage. Trample causes the Helminth to ram towards an enemy, dealing heavy damage to everything in the way. Trample has an 8 sec cooldown",
             "rank": 16,
             "tier": "Non-Viable",
-            "url": "http://warframe.wikia.com/wiki/Helminth_Charger",
-            "$$hashKey": "object:197"
+            "url": "http://warframe.wikia.com/wiki/Helminth_Charger"
         },
         "Huras Kubrow": {
             "abilities": "Charges Forward & Cloaks",
@@ -291,8 +264,7 @@
             "notes": "Stalk will cloak Huras and its Tenno for as long as an enemy is in line of sight. Cloak breaks on attack. After being broken the ability has an 8 sec cooldown. Hunt causes the Huras to ram towards an enemy, dealing heavy damage to everything in the way. Hunt has an 8 sec cooldown.",
             "rank": 11,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Huras_Kubrow",
-            "$$hashKey": "object:198"
+            "url": "http://warframe.wikia.com/wiki/Huras_Kubrow"
         },
         "Prisma Shade": {
             "abilities": "Cloaks",
@@ -302,8 +274,7 @@
             "notes": "Ghost will cloak the Shade and its Tenno for as long as an enemy is in line of sight. Cloak breaks on attack. After leaving cloak, this ability has a 10 sec cooldown.",
             "rank": 12,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Prisma_Shade",
-            "$$hashKey": "object:199"
+            "url": "http://warframe.wikia.com/wiki/Prisma_Shade"
         },
         "Raksa Kubrow": {
             "abilities": "AOE Fear & Replenish Shields",
@@ -313,8 +284,7 @@
             "notes": "Howl fears up to 15 enemies within 24 m for 16 sec. This ability has a 40 sec cooldown. Protect restores up to 300 shields to the Raksa and its Tenno. This ability has a 7 sec cooldown",
             "rank": 13,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Raksa_Kubrow",
-            "$$hashKey": "object:200"
+            "url": "http://warframe.wikia.com/wiki/Raksa_Kubrow"
         },
         "Sahasa Kubrow": {
             "abilities": "Extra Loot & Finishs Enemies",
@@ -324,8 +294,7 @@
             "notes": "Dig causes the Sahasa to dig for 5 sec and create a pile of items. This ability has a 15 sec cooldown (longer if near a previous dig site). Ferocity allows the Sahasa to deal bonus damage to downed enemies, if non-fatal the kubrow is stunned for a few sec. Less loot frames equates to higher tier.",
             "rank": 6,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Sahasa_Kubrow",
-            "$$hashKey": "object:201"
+            "url": "http://warframe.wikia.com/wiki/Sahasa_Kubrow"
         },
         "Smeeta Kavat": {
             "abilities": "Stealth + Decoy & Random Buff",
@@ -335,8 +304,7 @@
             "notes": "Mischief creates a clone of Smeeta and cloaks the kavat. Clone lives for 9 sec with a 7 sec cooldown. Charm has a 28% chance to grant a random buff, every 27 sec. Possible buffs: 200% Flat Critical chance for 30 seconds, 100% Energy Costs Refunded for 10 seconds, Double Affinity and Resource pickups for 120 seconds, Reload Instantly, Ignore the damage of next recieved hit and gives 150 shields, or 1 rare resource from the planet you are on",
             "rank": 1,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Smeeta_Kavat",
-            "$$hashKey": "object:202"
+            "url": "http://warframe.wikia.com/wiki/Smeeta_Kavat"
         },
         "Sunika Kubrow": {
             "abilities": "Finishes enemies & Stuns VIPs",
@@ -346,8 +314,7 @@
             "notes": "Unleashed causes the Sunika to charge 60 m and pin down any VIP (includes Capture Targets, Synthisis Targets, and some Bosses). Savagery allows the Sahasa to deal bonus damage to downed enemies; If non-fatal the kubrow will be stunned for a few seconds",
             "rank": 17,
             "tier": "Non-Viable",
-            "url": "http://warframe.wikia.com/wiki/Sunika_Kubrow",
-            "$$hashKey": "object:203"
+            "url": "http://warframe.wikia.com/wiki/Sunika_Kubrow"
         },
         "Taxon": {
             "abilities": "Dmg to Shield",
@@ -357,8 +324,7 @@
             "notes": "Molecular Conversion will blast an enemy within 10 m for 200 radiation damage, generating shields equal to damage dealt. This ability has a 12 sec cooldown",
             "rank": 14,
             "tier": "Non-Viable",
-            "url": "http://warframe.wikia.com/wiki/Taxon",
-            "$$hashKey": "object:204"
+            "url": "http://warframe.wikia.com/wiki/Taxon"
         },
         "Wyrm Prime": {
             "abilities": "AOE Stun",
@@ -368,8 +334,7 @@
             "notes": "Crowd Dispersion deals 10 magnetic damage and ragdolls everything within 10 m. This ability has a 15 sec cooldown; Only triggers if there's more than one enemy within range",
             "rank": 10,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Wyrm_Prime",
-            "$$hashKey": "object:205"
+            "url": "http://warframe.wikia.com/wiki/Wyrm_Prime"
         }
     },
     "Frames": {
@@ -395,8 +360,7 @@
             "tier": "Viable",
             "type": "Sword and Shield",
             "url": "http://warframe.wikia.com/wiki/Ack_%26_Brunt",
-            "wepnotes": "Solid stats across the board aside from range.",
-            "$$hashKey": "object:66"
+            "wepnotes": "Solid stats across the board aside from range."
         },
         "Amphis": {
             "base": "",
@@ -410,8 +374,7 @@
             "tier": "Viable",
             "type": "Staff",
             "url": "http://warframe.wikia.com/wiki/Amphis",
-            "wepnotes": "Good stats and stance.",
-            "$$hashKey": "object:67"
+            "wepnotes": "Good stats and stance."
         },
         "Anku": {
             "base": "",
@@ -425,8 +388,7 @@
             "tier": "Non-Viable",
             "type": "Scythe",
             "url": "http://warframe.wikia.com/wiki/Anku",
-            "wepnotes": "High crit chance and decent attack speed. Nothing else really stands out.",
-            "$$hashKey": "object:68"
+            "wepnotes": "High crit chance and decent attack speed. Nothing else really stands out."
         },
         "Ankyros Prime": {
             "base": "Vanilla is Viable",
@@ -440,8 +402,7 @@
             "tier": "Viable",
             "type": "Fists",
             "url": "http://warframe.wikia.com/wiki/Ankyros_Prime",
-            "wepnotes": "Fast (can make you miss Gaia's combos). Deals plenty of damage and has prompted finishers and ground finishers. Strong critical stats",
-            "$$hashKey": "object:69"
+            "wepnotes": "Fast (can make you miss Gaia's combos). Deals plenty of damage and has prompted finishers and ground finishers. Strong critical stats"
         },
         "Arca Titron": {
             "base": "",
@@ -455,8 +416,7 @@
             "tier": "Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Arca_Titron",
-            "wepnotes": "Great status, crit, and damage. Slow attack speed. Slams have 100% Electric proc, has +100% damage to next slam attack, stacking 10x for 20s ea.",
-            "$$hashKey": "object:70"
+            "wepnotes": "Great status, crit, and damage. Slow attack speed. Slams have 100% Electric proc, has +100% damage to next slam attack, stacking 10x for 20s ea."
         },
         "Atterax": {
             "base": "",
@@ -470,8 +430,7 @@
             "tier": "Top",
             "type": "Whip",
             "url": "http://warframe.wikia.com/wiki/Atterax",
-            "wepnotes": "Insane slide attack damage and range that can hit through walls. Even stronger with Maiming Strike, but still does amazing without it. Slower to kill armored targets while waiting for bleed stacks.",
-            "$$hashKey": "object:71"
+            "wepnotes": "Insane slide attack damage and range that can hit through walls. Even stronger with Maiming Strike, but still does amazing without it. Slower to kill armored targets while waiting for bleed stacks."
         },
         "Bo Prime": {
             "base": "Vanilla is Viable",
@@ -485,8 +444,7 @@
             "tier": "Viable",
             "type": "Staff",
             "url": "http://warframe.wikia.com/wiki/Bo_Prime",
-            "wepnotes": "Barely makes the cut as a Critical weapon, Range is decent.",
-            "$$hashKey": "object:72"
+            "wepnotes": "Barely makes the cut as a Critical weapon, Range is decent."
         },
         "Broken Scepter": {
             "base": "",
@@ -500,8 +458,7 @@
             "tier": "Non-Viable",
             "type": "Staff",
             "url": "http://warframe.wikia.com/wiki/Broken_Scepter",
-            "wepnotes": "Needs more Crit chance or Range. Drains health orbs from organic corpses and energy orbs from robotic corpses. Animation is long, drain is very low.",
-            "$$hashKey": "object:73"
+            "wepnotes": "Needs more Crit chance or Range. Drains health orbs from organic corpses and energy orbs from robotic corpses. Animation is long, drain is very low."
         },
         "Broken War": {
             "base": "",
@@ -515,8 +472,7 @@
             "tier": "Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Broken-War",
-            "wepnotes": "The current king of single swords, due to it's staggering base damage. Range is poor",
-            "$$hashKey": "object:74"
+            "wepnotes": "The current king of single swords, due to it's staggering base damage. Range is poor"
         },
         "Cassowar": {
             "combo": "Vaulting Apex",
@@ -528,8 +484,7 @@
             "tier": "Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Cassowar",
-            "wepnotes": "Great status, damage, attack speed, and range. Terrible crit. Don't poke your eye out.",
-            "$$hashKey": "object:75"
+            "wepnotes": "Great status, damage, attack speed, and range. Terrible crit. Don't poke your eye out."
         },
         "Caustacyst": {
             "base": "",
@@ -543,8 +498,7 @@
             "tier": "Viable",
             "type": "Scythe",
             "url": "http://warframe.wikia.com/wiki/Caustacyst",
-            "wepnotes": "The only reason to use this is for the wave it launches on its charge attack. The wave will stagger and proc, opening them up to finishers",
-            "$$hashKey": "object:76"
+            "wepnotes": "The only reason to use this is for the wave it launches on its charge attack. The wave will stagger and proc, opening them up to finishers"
         },
         "Ceramic Dagger": {
             "base": "",
@@ -558,8 +512,7 @@
             "tier": "Non-Viable",
             "type": "Dagger",
             "url": "http://warframe.wikia.com/wiki/Ceramic_Dagger",
-            "wepnotes": "Acceptable stance but meh stats.",
-            "$$hashKey": "object:77"
+            "wepnotes": "Acceptable stance but meh stats."
         },
         "Cerata": {
             "base": "",
@@ -573,8 +526,7 @@
             "tier": "Viable",
             "type": "Glaive",
             "url": "http://warframe.wikia.com/wiki/Cerata",
-            "wepnotes": "Nasty crit-status weapon. Good range and spins. Stances offer multihits. Don't throw with this.",
-            "$$hashKey": "object:78"
+            "wepnotes": "Nasty crit-status weapon. Good range and spins. Stances offer multihits. Don't throw with this."
         },
         "Cronus": {
             "base": "",
@@ -588,8 +540,7 @@
             "tier": "Non-Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Cronus",
-            "wepnotes": "Would be garbage without Vengeful Revenant",
-            "$$hashKey": "object:79"
+            "wepnotes": "Would be garbage without Vengeful Revenant"
         },
         "Dakra Prime": {
             "base": "",
@@ -603,8 +554,7 @@
             "tier": "Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Dakra_Prime",
-            "wepnotes": "Holds a decent spot through the use of Crimson Dervish and Criticals. Range is poor",
-            "$$hashKey": "object:80"
+            "wepnotes": "Holds a decent spot through the use of Crimson Dervish and Criticals. Range is poor"
         },
         "Dark Split-Sword": {
             "base": "",
@@ -618,8 +568,7 @@
             "tier": "Viable",
             "type": "Heavy Blade",
             "url": "http://warframe.wikia.com/wiki/Dark_Split-Sword",
-            "wepnotes": "Status wep with good range. Broken Bullshit allows it to deal high damage, and critical chance is just high enough to use Berserker. Worst heavy blade",
-            "$$hashKey": "object:81"
+            "wepnotes": "Status wep with good range. Broken Bullshit allows it to deal high damage, and critical chance is just high enough to use Berserker. Worst heavy blade"
         },
         "Dark Split-Sword (Dual Swords)": {
             "base": "",
@@ -633,8 +582,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dark_Split-Sword",
-            "wepnotes": "Base damage and criticals make it the second best dual sword. Good status, but poor reach.",
-            "$$hashKey": "object:82"
+            "wepnotes": "Base damage and criticals make it the second best dual sword. Good status, but poor reach."
         },
         "Dark Sword": {
             "base": "",
@@ -648,8 +596,7 @@
             "tier": "Non-Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Dark_Sword",
-            "wepnotes": "Would be garbage without Vengeful Revenant",
-            "$$hashKey": "object:83"
+            "wepnotes": "Would be garbage without Vengeful Revenant"
         },
         "Destreza": {
             "base": "",
@@ -663,8 +610,7 @@
             "tier": "Top",
             "type": "Rapier",
             "url": "http://warframe.wikia.com/wiki/Destreza",
-            "wepnotes": "Bad range relative to top tier. Slow to kill multiple targets. Insane single target damage, armor and shields don't matter. Stacks of critical-bleeds onto enemies, blazing swing speed, but range is very short",
-            "$$hashKey": "object:84"
+            "wepnotes": "Bad range relative to top tier. Slow to kill multiple targets. Insane single target damage, armor and shields don't matter. Stacks of critical-bleeds onto enemies, blazing swing speed, but range is very short"
         },
         "Dex Dakra": {
             "base": "",
@@ -678,8 +624,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dex_Dakra",
-            "wepnotes": "Decent damage, great slide attack, high status chance. Slow attack speed, low crit chance.",
-            "$$hashKey": "object:85"
+            "wepnotes": "Decent damage, great slide attack, high status chance. Slow attack speed, low crit chance."
         },
         "Dragon Nikana": {
             "base": "",
@@ -693,8 +638,7 @@
             "tier": "Viable",
             "type": "Nikana",
             "url": "http://warframe.wikia.com/wiki/Dragon_Nikana",
-            "wepnotes": "Great stats, but poor range. If you want a Riven for a Nikana, this is the one.",
-            "$$hashKey": "object:86"
+            "wepnotes": "Great stats, but poor range. If you want a Riven for a Nikana, this is the one."
         },
         "Dual Ether": {
             "base": "",
@@ -708,8 +652,7 @@
             "tier": "Non-Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Ether",
-            "wepnotes": "Meh stances and combos, Bad stats. Not much else to say",
-            "$$hashKey": "object:87"
+            "wepnotes": "Meh stances and combos, Bad stats. Not much else to say"
         },
         "Dual Heat Swords": {
             "base": "",
@@ -723,8 +666,7 @@
             "tier": "Non-Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Heat_Swords",
-            "wepnotes": "Bad stances, combos, and stats. Slightly good status chance.",
-            "$$hashKey": "object:88"
+            "wepnotes": "Bad stances, combos, and stats. Slightly good status chance."
         },
         "Dual Ichor": {
             "base": "",
@@ -738,8 +680,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Ichor",
-            "wepnotes": "Status and Criticals make it a strong Dual Sword. It's got poor reach.",
-            "$$hashKey": "object:89"
+            "wepnotes": "Status and Criticals make it a strong Dual Sword. It's got poor reach."
         },
         "Dual Kamas Prime": {
             "base": "Vanilla is Non-Viable",
@@ -753,8 +694,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Kamas_Prime",
-            "wepnotes": "Bleeds and Criticals make it a strong Dual Sword. It's got status and poor reach.",
-            "$$hashKey": "object:90"
+            "wepnotes": "Bleeds and Criticals make it a strong Dual Sword. It's got status and poor reach."
         },
         "Dual Krohkur": {
             "base": "",
@@ -768,8 +708,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual%20Krohkur",
-            "wepnotes": "Good damage, great status, good critical, insane slide attack damage. Low crit mult.",
-            "$$hashKey": "object:91"
+            "wepnotes": "Good damage, great status, good critical, insane slide attack damage. Low crit mult."
         },
         "Dual Raza": {
             "base": "",
@@ -783,8 +722,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Raza",
-            "wepnotes": "Criticals make it a good Dual Sword. Poor reach.",
-            "$$hashKey": "object:92"
+            "wepnotes": "Criticals make it a good Dual Sword. Poor reach."
         },
         "Dual Skana": {
             "base": "",
@@ -798,8 +736,7 @@
             "tier": "Non-Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Skana",
-            "wepnotes": "Meh stances and combos, Bad stats. Not much else to say",
-            "$$hashKey": "object:93"
+            "wepnotes": "Meh stances and combos, Bad stats. Not much else to say"
         },
         "Dual Zoren": {
             "base": "",
@@ -813,8 +750,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Dual_Zoren",
-            "wepnotes": "Great crit, high attack speed, short range. 100% Slash proc on ground finisher. Use with Hunter set.",
-            "$$hashKey": "object:94"
+            "wepnotes": "Great crit, high attack speed, short range. 100% Slash proc on ground finisher. Use with Hunter set."
         },
         "Endura": {
             "base": "",
@@ -828,8 +764,7 @@
             "tier": "Viable",
             "type": "Rapier",
             "url": "http://warframe.wikia.com/wiki/Endura",
-            "wepnotes": "Good damage, high status. Great against armor or health. Low crit chance; high crit mult.",
-            "$$hashKey": "object:95"
+            "wepnotes": "Good damage, high status. Great against armor or health. Low crit chance; high crit mult."
         },
         "Ether Daggers": {
             "base": "",
@@ -843,8 +778,7 @@
             "tier": "Non-Viable",
             "type": "Dual Daggers",
             "url": "http://warframe.wikia.com/wiki/Ether_Daggers",
-            "wepnotes": "Terrible damage mixed with terrible attack speed, terrible crit, and terrible range. Okay status chance.",
-            "$$hashKey": "object:96"
+            "wepnotes": "Terrible damage mixed with terrible attack speed, terrible crit, and terrible range. Okay status chance."
         },
         "Ether Sword": {
             "base": "",
@@ -858,8 +792,7 @@
             "tier": "Non-Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Ether_Sword",
-            "wepnotes": "Would be garbage without Vengeful Revenant",
-            "$$hashKey": "object:97"
+            "wepnotes": "Would be garbage without Vengeful Revenant"
         },
         "Fang Prime": {
             "base": "Vanilla is Garbage",
@@ -873,8 +806,7 @@
             "tier": "Non-Viable",
             "type": "Dual Daggers",
             "url": "http://warframe.wikia.com/wiki/Fang_Prime",
-            "wepnotes": "Stances have too much animation lock and stats are terrible",
-            "$$hashKey": "object:98"
+            "wepnotes": "Stances have too much animation lock and stats are terrible"
         },
         "Fragor Prime": {
             "base": "Vanilla is Viable",
@@ -888,8 +820,7 @@
             "tier": "Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Fragor_Prime",
-            "wepnotes": "Big hammer. Smash enemy. Slow swing. Crit good. Status okay.",
-            "$$hashKey": "object:99"
+            "wepnotes": "Big hammer. Smash enemy. Slow swing. Crit good. Status okay."
         },
         "Furax Wraith": {
             "base": "Vanilla is Viable",
@@ -903,8 +834,7 @@
             "tier": "Viable",
             "type": "Fists",
             "url": "http://warframe.wikia.com/wiki/Furax_Wraith",
-            "wepnotes": "High crit chance and mult. Terrible range, low base damage. Nothing else notable.",
-            "$$hashKey": "object:100"
+            "wepnotes": "High crit chance and mult. Terrible range, low base damage. Nothing else notable."
         },
         "Galatine Prime": {
             "base": "Vanilla is Top",
@@ -918,8 +848,7 @@
             "tier": "Top",
             "type": "Heavy Blade",
             "url": "http://warframe.wikia.com/wiki/Galatine_Prime",
-            "wepnotes": "Room Blender Prime. Insane range and just about everything else. Can be outclassed in some situations, but is the overall best.",
-            "$$hashKey": "object:101"
+            "wepnotes": "Room Blender Prime. Insane range and just about everything else. Can be outclassed in some situations, but is the overall best."
         },
         "Gazal Machete": {
             "base": "",
@@ -933,8 +862,7 @@
             "tier": "Viable",
             "type": "Machete",
             "url": "http://warframe.wikia.com/wiki/Gazal_Machete",
-            "wepnotes": "Great status. Alright damage. Bad crit, short range. Adds Corrosive damage to Djinn attack, while Djinn adds Corrosive damage to Gazal Machete attack.",
-            "$$hashKey": "object:102"
+            "wepnotes": "Great status. Alright damage. Bad crit, short range. Adds Corrosive damage to Djinn attack, while Djinn adds Corrosive damage to Gazal Machete attack."
         },
         "Glaive Prime": {
             "base": "Vanilla is Non-Viable",
@@ -948,8 +876,7 @@
             "tier": "Viable",
             "type": "Glaive",
             "url": "http://warframe.wikia.com/wiki/Glaive_Prime",
-            "wepnotes": "Nasty crit-status weapon. Good range and spins. Stances offer multihits. Throw is strong damage and bounces accurately. Fast flight speed",
-            "$$hashKey": "object:103"
+            "wepnotes": "Nasty crit-status weapon. Good range and spins. Stances offer multihits. Throw is strong damage and bounces accurately. Fast flight speed"
         },
         "Gram": {
             "base": "",
@@ -963,8 +890,7 @@
             "tier": "Viable",
             "type": "Heavy Blade",
             "url": "http://warframe.wikia.com/wiki/Gram",
-            "wepnotes": "Bad range heavy blade, but otherwise good stats. Broken Bullshit as usual, stacks large bleeds easily",
-            "$$hashKey": "object:104"
+            "wepnotes": "Bad range heavy blade, but otherwise good stats. Broken Bullshit as usual, stacks large bleeds easily"
         },
         "Guandao": {
             "base": "",
@@ -978,8 +904,7 @@
             "tier": "Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Guandao",
-            "wepnotes": "Massive range, great critical stats, and good damage. Sorely lacks status.",
-            "$$hashKey": "object:105"
+            "wepnotes": "Massive range, great critical stats, and good damage. Sorely lacks status."
         },
         "Halikar": {
             "base": "",
@@ -993,8 +918,7 @@
             "tier": "Viable",
             "type": "Glaive",
             "url": "http://warframe.wikia.com/wiki/Halikar",
-            "wepnotes": "Only use for throwing. Disarms and bounces.",
-            "$$hashKey": "object:106"
+            "wepnotes": "Only use for throwing. Disarms and bounces."
         },
         "Hate": {
             "base": "",
@@ -1008,8 +932,7 @@
             "tier": "Viable",
             "type": "Scythe",
             "url": "http://warframe.wikia.com/wiki/Hate",
-            "wepnotes": "AoE CC on jump attack, decent attack speed and status chance, high crit and mult. Extremely short range.",
-            "$$hashKey": "object:107"
+            "wepnotes": "AoE CC on jump attack, decent attack speed and status chance, high crit and mult. Extremely short range."
         },
         "Heat Dagger": {
             "base": "",
@@ -1023,8 +946,7 @@
             "tier": "Non-Viable",
             "type": "Dagger",
             "url": "http://warframe.wikia.com/wiki/Heat_Dagger",
-            "wepnotes": "Acceptable stance but godawful stats.",
-            "$$hashKey": "object:108"
+            "wepnotes": "Acceptable stance but godawful stats."
         },
         "Heat Sword": {
             "base": "",
@@ -1038,8 +960,7 @@
             "tier": "Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Heat_Sword",
-            "wepnotes": "This weird sword can reach 100% status chance, is slash heavy, and can equip Crimson Dervish. Range is poor",
-            "$$hashKey": "object:109"
+            "wepnotes": "This weird sword can reach 100% status chance, is slash heavy, and can equip Crimson Dervish. Range is poor"
         },
         "Heliocor": {
             "base": "",
@@ -1053,8 +974,7 @@
             "tier": "Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Heliocor",
-            "wepnotes": "Great damage and crit chance. Slow attack speed, low status chance, low crit mult.",
-            "$$hashKey": "object:110"
+            "wepnotes": "Great damage and crit chance. Slow attack speed, low status chance, low crit mult."
         },
         "Hirudo": {
             "base": "",
@@ -1068,8 +988,7 @@
             "tier": "Viable",
             "type": "Sparring",
             "url": "http://warframe.wikia.com/wiki/Hirudo",
-            "wepnotes": "Great combos, critical stats, base damage. Bad range and status. Gives life leech and increases your maximum health slightly.",
-            "$$hashKey": "object:111"
+            "wepnotes": "Great combos, critical stats, base damage. Bad range and status. Gives life leech and increases your maximum health slightly."
         },
         "Jat Kittag": {
             "base": "",
@@ -1083,8 +1002,7 @@
             "tier": "Top",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Jat_Kittag",
-            "wepnotes": "Insane knockback, great range and massive ragdolling from every combo and ground slam. Augment makes slain enemies explode for a % of their health.",
-            "$$hashKey": "object:112"
+            "wepnotes": "Insane knockback, great range and massive ragdolling from every combo and ground slam. Augment makes slain enemies explode for a % of their health."
         },
         "Jat Kusar": {
             "base": "",
@@ -1098,8 +1016,7 @@
             "tier": "Top",
             "type": "Blade and Whip",
             "url": "http://warframe.wikia.com/wiki/Jat_Kusar",
-            "wepnotes": "Insane swing range and automatic bleeds from its stance. Insane in every stat except status procs. No physical damage",
-            "$$hashKey": "object:113"
+            "wepnotes": "Insane swing range and automatic bleeds from its stance. Insane in every stat except status procs. No physical damage"
         },
         "Jaw Sword": {
             "base": "",
@@ -1113,8 +1030,7 @@
             "tier": "Non-Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Jaw_Sword",
-            "wepnotes": "Augment is amazing and stances provide strong multipliers. Low status, but builds for status.",
-            "$$hashKey": "object:114"
+            "wepnotes": "Augment is amazing and stances provide strong multipliers. Low status, but builds for status."
         },
         "Kama": {
             "base": "",
@@ -1128,8 +1044,7 @@
             "tier": "Non-Viable",
             "type": "Machete",
             "url": "http://warframe.wikia.com/wiki/Kama",
-            "wepnotes": "Godly stance but stats are actually bad enough to outweigh it.",
-            "$$hashKey": "object:115"
+            "wepnotes": "Godly stance but stats are actually bad enough to outweigh it."
         },
         "Karyst": {
             "base": "",
@@ -1143,8 +1058,7 @@
             "tier": "Non-Viable",
             "type": "Dagger",
             "url": "http://warframe.wikia.com/wiki/Karyst",
-            "wepnotes": "Pure elemental damage. 100% Toxin proc on Ground Slam, decent status chance. Okay crit, slow attack speed, no physical damage.",
-            "$$hashKey": "object:116"
+            "wepnotes": "Pure elemental damage. 100% Toxin proc on Ground Slam, decent status chance. Okay crit, slow attack speed, no physical damage."
         },
         "Kesheg": {
             "base": "",
@@ -1158,8 +1072,7 @@
             "tier": "Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Kesheg",
-            "wepnotes": "Slash heavy, barely crit viable, lowish status, poor range for a polearm, kinda slow, bad stances. Decent damage",
-            "$$hashKey": "object:117"
+            "wepnotes": "Slash heavy, barely crit viable, lowish status, poor range for a polearm, kinda slow, bad stances. Decent damage"
         },
         "Kestrel": {
             "base": "",
@@ -1173,8 +1086,7 @@
             "tier": "Viable",
             "type": "Glaive",
             "url": "http://warframe.wikia.com/wiki/Kestrel",
-            "wepnotes": "Only use for throwing. Procs Syndicate effect.",
-            "$$hashKey": "object:118"
+            "wepnotes": "Only use for throwing. Procs Syndicate effect."
         },
         "Krohkur": {
             "base": "",
@@ -1188,8 +1100,7 @@
             "tier": "Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Krohkur",
-            "wepnotes": "Great base damage, crit and status. Slower attack speed compared to other swords.",
-            "$$hashKey": "object:120"
+            "wepnotes": "Great base damage, crit and status. Slower attack speed compared to other swords."
         },
         "Kronen": {
             "base": "",
@@ -1203,8 +1114,7 @@
             "tier": "Viable",
             "type": "Tonfa",
             "url": "http://warframe.wikia.com/wiki/Kronen",
-            "wepnotes": "Slash-heavy Status tonfas. Speed stance and base damage all add up to a good weapon. Range is poor",
-            "$$hashKey": "object:121"
+            "wepnotes": "Slash-heavy Status tonfas. Speed stance and base damage all add up to a good weapon. Range is poor"
         },
         "Lacera": {
             "base": "",
@@ -1218,8 +1128,7 @@
             "tier": "Top",
             "type": "Blade and Whip",
             "url": "http://warframe.wikia.com/wiki/Lacera",
-            "wepnotes": "Insane swing range and automatic bleeds from its stance. Strong in every stat except criticals. Great gas and electric procs when you mod for it. No physical damage.",
-            "$$hashKey": "object:122"
+            "wepnotes": "Insane swing range and automatic bleeds from its stance. Strong in every stat except criticals. Great gas and electric procs when you mod for it. No physical damage."
         },
         "Lesion": {
             "base": "",
@@ -1233,8 +1142,7 @@
             "tier": "Top",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Lesion",
-            "wepnotes": "Corrosive form cuts through high level armored enemies by trading some damage. Gas form can have problems vs armor, but will turn anything else into jelly in mere seconds. Swing range is very high",
-            "$$hashKey": "object:123"
+            "wepnotes": "Corrosive form cuts through high level armored enemies by trading some damage. Gas form can have problems vs armor, but will turn anything else into jelly in mere seconds. Swing range is very high"
         },
         "Machete Wraith": {
             "base": "Vanilla is Worse Garbage",
@@ -1248,8 +1156,7 @@
             "tier": "Non-Viable",
             "type": "Machete",
             "url": "http://warframe.wikia.com/wiki/Machete_Wraith",
-            "wepnotes": "Godly stance but stats are actually bad enough to outweigh it.",
-            "$$hashKey": "object:124"
+            "wepnotes": "Godly stance but stats are actually bad enough to outweigh it."
         },
         "Mios": {
             "base": "",
@@ -1263,8 +1170,7 @@
             "tier": "Top",
             "type": "Blade and Whip",
             "url": "http://warframe.wikia.com/wiki/Mios",
-            "wepnotes": "Insane swing range and automatic bleeds from its stance. Insane in every stat, but falls behind its newer edition in base damage",
-            "$$hashKey": "object:125"
+            "wepnotes": "Insane swing range and automatic bleeds from its stance. Insane in every stat, but falls behind its newer edition in base damage"
         },
         "Mire": {
             "base": "",
@@ -1278,8 +1184,7 @@
             "tier": "Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Mire",
-            "wepnotes": "Decent status chance with augment",
-            "$$hashKey": "object:126"
+            "wepnotes": "Decent status chance with augment"
         },
         "Nami Skyla Prime": {
             "base": "",
@@ -1293,8 +1198,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Nami_Skyla_Prime",
-            "wepnotes": "Bleeds and Criticals make it a strong Dual Sword. It's got great status and poor reach.",
-            "$$hashKey": "object:127"
+            "wepnotes": "Bleeds and Criticals make it a strong Dual Sword. It's got great status and poor reach."
         },
         "Nami Solo": {
             "base": "",
@@ -1308,8 +1212,7 @@
             "tier": "Viable",
             "type": "Machete",
             "url": "http://warframe.wikia.com/wiki/Nami_Solo",
-            "wepnotes": "Status weapon with no range, Criticals and Slash damage are pretty good. Stance kicks it into overdrive.",
-            "$$hashKey": "object:128"
+            "wepnotes": "Status weapon with no range, Criticals and Slash damage are pretty good. Stance kicks it into overdrive."
         },
         "Nikana Prime": {
             "base": "Vanilla is Viable",
@@ -1323,8 +1226,7 @@
             "tier": "Viable",
             "type": "Nikana",
             "url": "http://warframe.wikia.com/wiki/Nikana_Prime",
-            "wepnotes": "Hits very hard, fantastic stats across the board, poor range but has easy to use long dashes in the stance.",
-            "$$hashKey": "object:129"
+            "wepnotes": "Hits very hard, fantastic stats across the board, poor range but has easy to use long dashes in the stance."
         },
         "Ninkondi": {
             "base": "",
@@ -1338,8 +1240,7 @@
             "tier": "Viable",
             "type": "Nunchaku",
             "url": "http://warframe.wikia.com/wiki/Ninkondi",
-            "wepnotes": "Bad range, slow start, animation lock. Upside is the ability to hit 100% status chance easily while also being a critical weapon.",
-            "$$hashKey": "object:130"
+            "wepnotes": "Bad range, slow start, animation lock. Upside is the ability to hit 100% status chance easily while also being a critical weapon."
         },
         "Ohma": {
             "base": "",
@@ -1353,8 +1254,7 @@
             "tier": "Viable",
             "type": "Tonfa",
             "url": "http://warframe.wikia.com/wiki/Ohma",
-            "wepnotes": "Great status chance. Ground Slam is an AOE Electric proc, no matter what mods ya got. Rogue Edict will shred anything in close range. Build for Gas or Electric+Weeping Wounds. Range is poor",
-            "$$hashKey": "object:131"
+            "wepnotes": "Great status chance. Ground Slam is an AOE Electric proc, no matter what mods ya got. Rogue Edict will shred anything in close range. Build for Gas or Electric+Weeping Wounds. Range is poor"
         },
         "Okina": {
             "base": "",
@@ -1368,8 +1268,7 @@
             "tier": "Viable",
             "type": "Dual Daggers",
             "url": "http://warframe.wikia.com/wiki/Okina",
-            "wepnotes": "Good attack speed, decent status chance. Bad dps, bad crit, short range.",
-            "$$hashKey": "object:132"
+            "wepnotes": "Good attack speed, decent status chance. Bad dps, bad crit, short range."
         },
         "Orthos Prime": {
             "base": "Vanilla is Non-Viable",
@@ -1383,8 +1282,7 @@
             "tier": "Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Orthos_Prime",
-            "wepnotes": "Amazing range. Good stats across the board. Suffers from polearm stances.",
-            "$$hashKey": "object:133"
+            "wepnotes": "Amazing range. Good stats across the board. Suffers from polearm stances."
         },
         "Orvius": {
             "base": "",
@@ -1398,8 +1296,7 @@
             "tier": "Viable",
             "type": "Glaive",
             "url": "http://warframe.wikia.com/wiki/Orvius",
-            "wepnotes": "Nasty crit-status weapon. Good range and spins. Stances offer multihits. Channeled throw is insane damage and stun. Unchanneled Throw is slow but okay",
-            "$$hashKey": "object:134"
+            "wepnotes": "Nasty crit-status weapon. Good range and spins. Stances offer multihits. Channeled throw is insane damage and stun. Unchanneled Throw is slow but okay"
         },
         "Pangolin Sword": {
             "base": "",
@@ -1413,8 +1310,7 @@
             "tier": "Non-Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Pangolin_Sword",
-            "wepnotes": "Okay Status rating, but fails to be Viable with Crimson Dervish and Bleeds.",
-            "$$hashKey": "object:135"
+            "wepnotes": "Okay Status rating, but fails to be Viable with Crimson Dervish and Bleeds."
         },
         "Plasma Sword": {
             "base": "",
@@ -1428,8 +1324,7 @@
             "tier": "Non-Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Plasma_Sword",
-            "wepnotes": "Too slow, even with it's fine stats. This sword is far too slow.",
-            "$$hashKey": "object:136"
+            "wepnotes": "Too slow, even with it's fine stats. This sword is far too slow."
         },
         "Prisma Dual Cleavers": {
             "base": "Vanilla is Viable",
@@ -1443,8 +1338,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Prisma_Dual_Cleavers",
-            "wepnotes": "Augment and bleeds make it the best dual sword. Good crit and status, but poor reach.",
-            "$$hashKey": "object:137"
+            "wepnotes": "Augment and bleeds make it the best dual sword. Good crit and status, but poor reach."
         },
         "Prisma Obex": {
             "base": "Vanilla is Viable",
@@ -1458,8 +1352,7 @@
             "tier": "Viable",
             "type": "Sparring",
             "url": "http://warframe.wikia.com/wiki/Prisma_Obex",
-            "wepnotes": "Great combos. Bad range. Horrible base damage but super fast with high status chance.",
-            "$$hashKey": "object:138"
+            "wepnotes": "Great combos. Bad range. Horrible base damage but super fast with high status chance."
         },
         "Prisma Skana": {
             "base": "Vanilla is Non-Viable",
@@ -1473,8 +1366,7 @@
             "tier": "Viable",
             "type": "Sword",
             "url": "http://warframe.wikia.com/wiki/Prisma_Skana",
-            "wepnotes": "Lower base damage than the Dakra is countered by it's Augment and Critical stats.",
-            "$$hashKey": "object:139"
+            "wepnotes": "Lower base damage than the Dakra is countered by it's Augment and Critical stats."
         },
         "Prova Vandal": {
             "base": "Vanilla is Viable",
@@ -1488,8 +1380,7 @@
             "tier": "Viable",
             "type": "Machete",
             "url": "http://warframe.wikia.com/wiki/Prova_Vandal",
-            "wepnotes": "This is a status weapon with no range. Otherwise has decent stats, Stance kicks it into overdrive.",
-            "$$hashKey": "object:140"
+            "wepnotes": "This is a status weapon with no range. Otherwise has decent stats, Stance kicks it into overdrive."
         },
         "Rakta Dark Dagger": {
             "base": "Vanilla is Viable",
@@ -1503,8 +1394,7 @@
             "tier": "Viable",
             "type": "Dagger",
             "url": "http://warframe.wikia.com/wiki/Rakta_Dark_Dagger",
-            "wepnotes": "Syndicate proc, status and speed make this a great dagger. Can use Covert Lethality",
-            "$$hashKey": "object:141"
+            "wepnotes": "Syndicate proc, status and speed make this a great dagger. Can use Covert Lethality"
         },
         "Reaper Prime": {
             "base": "It's all bad",
@@ -1518,8 +1408,7 @@
             "tier": "Viable",
             "type": "Scythe",
             "url": "http://warframe.wikia.com/wiki/Reaper_Prime",
-            "wepnotes": "High damage, high DPS, great jump attack, high crit. Short range, low status.",
-            "$$hashKey": "object:142"
+            "wepnotes": "High damage, high DPS, great jump attack, high crit. Short range, low status."
         },
         "Redeemer": {
             "base": "",
@@ -1533,8 +1422,7 @@
             "tier": "Viable",
             "type": "Gunblade",
             "url": "http://warframe.wikia.com/wiki/Redeemer",
-            "wepnotes": "Very high damage per bullet, hitscan, bad status chance per pellet. Has damage fall-off at range and terrible accuracy. Pellets do not have physical damage",
-            "$$hashKey": "object:143"
+            "wepnotes": "Very high damage per bullet, hitscan, bad status chance per pellet. Has damage fall-off at range and terrible accuracy. Pellets do not have physical damage"
         },
         "Ripkas": {
             "base": "",
@@ -1548,8 +1436,7 @@
             "tier": "Viable",
             "type": "Claws",
             "url": "http://warframe.wikia.com/wiki/Ripkas",
-            "wepnotes": "Weaker Venka Prime without the melee combo bonus. Insane damage, but armor must be considered",
-            "$$hashKey": "object:144"
+            "wepnotes": "Weaker Venka Prime without the melee combo bonus. Insane damage, but armor must be considered"
         },
         "Sancti Magistar": {
             "base": "Vanilla is Non-Viable",
@@ -1563,8 +1450,7 @@
             "tier": "Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Sancti_Magistar",
-            "wepnotes": "Healing wave is good, not great. View it as a perk if you're using the Sancti Magistar, but not a reason to use the weapon.",
-            "$$hashKey": "object:145"
+            "wepnotes": "Healing wave is good, not great. View it as a perk if you're using the Sancti Magistar, but not a reason to use the weapon."
         },
         "Sarpa": {
             "base": "",
@@ -1578,8 +1464,7 @@
             "tier": "Viable",
             "type": "Gunblade",
             "url": "http://warframe.wikia.com/wiki/Sarpa",
-            "wepnotes": "Very high damage per bullet, hitscan, decent status chance. Has damage fall-off at range and terrible accuracy. Status chance is not split per pellet. Great to build with status and Weeping Wounds.",
-            "$$hashKey": "object:146"
+            "wepnotes": "Very high damage per bullet, hitscan, decent status chance. Has damage fall-off at range and terrible accuracy. Status chance is not split per pellet. Great to build with status and Weeping Wounds."
         },
         "Scindo Prime": {
             "base": "Vanilla is Non-Viable",
@@ -1593,8 +1478,7 @@
             "tier": "Viable",
             "type": "Heavy Blade",
             "url": "http://warframe.wikia.com/wiki/Scindo_Prime",
-            "wepnotes": "Gram 1.2. It's slightly better at everything than the Gram does.",
-            "$$hashKey": "object:147"
+            "wepnotes": "Gram 1.2. It's slightly better at everything than the Gram does."
         },
         "Scoliac": {
             "base": "",
@@ -1608,8 +1492,7 @@
             "tier": "Viable",
             "type": "Whip",
             "url": "http://warframe.wikia.com/wiki/Scoliac",
-            "wepnotes": "Good range, speed, status, but no critical",
-            "$$hashKey": "object:148"
+            "wepnotes": "Good range, speed, status, but no critical"
         },
         "Secura Lecta": {
             "base": "Vanilla is Non-Viable",
@@ -1623,8 +1506,7 @@
             "tier": "Viable",
             "type": "Whip",
             "url": "http://warframe.wikia.com/wiki/Secura_Lecta",
-            "wepnotes": "Great speed, high status chance. Everything else is bad.",
-            "$$hashKey": "object:149"
+            "wepnotes": "Great speed, high status chance. Everything else is bad."
         },
         "Serro": {
             "base": "",
@@ -1638,8 +1520,7 @@
             "tier": "Non-Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Serro",
-            "wepnotes": "Animation lock like all the other polearms, but has no range or damage.",
-            "$$hashKey": "object:150"
+            "wepnotes": "Animation lock like all the other polearms, but has no range or damage."
         },
         "Shaku": {
             "base": "",
@@ -1653,8 +1534,7 @@
             "tier": "Non-Viable",
             "type": "Nunchaku",
             "url": "http://warframe.wikia.com/wiki/Shaku",
-            "wepnotes": "Stances have far far far too much animation lock and stats are meh",
-            "$$hashKey": "object:151"
+            "wepnotes": "Stances have far far far too much animation lock and stats are meh"
         },
         "Sheev": {
             "base": "",
@@ -1668,8 +1548,7 @@
             "tier": "Non-Viable",
             "type": "Dagger",
             "url": "http://warframe.wikia.com/wiki/Sheev",
-            "wepnotes": "Acceptable stance, good stats, but very slow.",
-            "$$hashKey": "object:152"
+            "wepnotes": "Acceptable stance, good stats, but very slow."
         },
         "Sibear": {
             "base": "",
@@ -1683,8 +1562,7 @@
             "tier": "Non-Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Sibear",
-            "wepnotes": "No Physical damage. Good damage. Moderate stats across attack speed, crit, and status, CC on charge attacks. ",
-            "$$hashKey": "object:153"
+            "wepnotes": "No Physical damage. Good damage. Moderate stats across attack speed, crit, and status, CC on charge attacks. "
         },
         "Silva And Aegis Prime": {
             "base": "Vanilla is Non-Viable",
@@ -1698,8 +1576,7 @@
             "tier": "Viable",
             "type": "Sword and Shield",
             "url": "http://warframe.wikia.com/wiki/Silva_%26_Aegis_Prime",
-            "wepnotes": "Solid stats across the board. Stances provide tons of multihits. Poor range outside of the shield throw combo",
-            "$$hashKey": "object:154"
+            "wepnotes": "Solid stats across the board. Stances provide tons of multihits. Poor range outside of the shield throw combo"
         },
         "Synoid Heliocor": {
             "base": "",
@@ -1713,8 +1590,7 @@
             "tier": "Non-Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Synoid_Heliocor",
-            "wepnotes": "High status, decent damage and attack speed. Low crit. Scans kills into codex. Creates spectors on channeled strike kill, if you own the codex entry. Generally not worth using over vanilla.",
-            "$$hashKey": "object:155"
+            "wepnotes": "High status, decent damage and attack speed. Low crit. Scans kills into codex. Creates spectors on channeled strike kill, if you own the codex entry. Generally not worth using over vanilla."
         },
         "Tekko": {
             "base": "",
@@ -1728,8 +1604,7 @@
             "tier": "Viable",
             "type": "Fists",
             "url": "http://warframe.wikia.com/wiki/Tekko",
-            "wepnotes": "Slow (can make it easier to hit Gaia's combos). Deals ton of damage and has prompted finishers and ground finishers. Procs bleeds. Insane Critical stats",
-            "$$hashKey": "object:156"
+            "wepnotes": "Slow (can make it easier to hit Gaia's combos). Deals ton of damage and has prompted finishers and ground finishers. Procs bleeds. Insane Critical stats"
         },
         "Telos Boltace": {
             "base": "Vanilla is Non-Viable",
@@ -1743,8 +1618,7 @@
             "tier": "Viable",
             "type": "Tonfa",
             "url": "http://warframe.wikia.com/wiki/Telos_Boltace",
-            "wepnotes": "Only reason to use this over the Kronen: slide attack. Sliding the first time sucks nearby enemies in. Sliding a second time in 10 sec sends them enemies flying with a ~5 sec cooldown. Range is poor",
-            "$$hashKey": "object:157"
+            "wepnotes": "Only reason to use this over the Kronen: slide attack. Sliding the first time sucks nearby enemies in. Sliding a second time in 10 sec sends them enemies flying with a ~5 sec cooldown. Range is poor"
         },
         "Tipedo": {
             "base": "",
@@ -1758,8 +1632,7 @@
             "tier": "Viable",
             "type": "Staff",
             "url": "http://warframe.wikia.com/wiki/Tipedo",
-            "wepnotes": "Can reach very impressive numbers with good range",
-            "$$hashKey": "object:158"
+            "wepnotes": "Can reach very impressive numbers with good range"
         },
         "Tonbo": {
             "base": "",
@@ -1773,8 +1646,7 @@
             "tier": "Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Tonbo",
-            "wepnotes": "Slash heavy status polearm with good range. Suffers from polearm stances",
-            "$$hashKey": "object:159"
+            "wepnotes": "Slash heavy status polearm with good range. Suffers from polearm stances"
         },
         "Twin Basolk": {
             "base": "",
@@ -1788,8 +1660,7 @@
             "tier": "Viable",
             "type": "Dual Swords",
             "url": "http://warframe.wikia.com/wiki/Twin_Basolk",
-            "wepnotes": "Base damage and Status make it a good Dual Sword. It's got poor reach.",
-            "$$hashKey": "object:160"
+            "wepnotes": "Base damage and Status make it a good Dual Sword. It's got poor reach."
         },
         "Vaykor Sydon": {
             "base": "Vanilla is Non-Viable",
@@ -1803,8 +1674,7 @@
             "tier": "Viable",
             "type": "Polearm",
             "url": "http://warframe.wikia.com/wiki/Vaykor_Sydon",
-            "wepnotes": "Acceptable range, crit and status. Radial Blind effect is hard to proc.",
-            "$$hashKey": "object:161"
+            "wepnotes": "Acceptable range, crit and status. Radial Blind effect is hard to proc."
         },
         "Venka Prime": {
             "base": "Vanilla is Non-Viable",
@@ -1818,8 +1688,7 @@
             "tier": "Viable",
             "type": "Claws",
             "url": "http://warframe.wikia.com/wiki/Venka_Prime",
-            "wepnotes": "Punishing range (you can miss mid-combo from the impact procs), but the damage is insane, armor barely matters, shields matter even less. Benefits from melee combos and all mods affected by it.",
-            "$$hashKey": "object:162"
+            "wepnotes": "Punishing range (you can miss mid-combo from the impact procs), but the damage is insane, armor barely matters, shields matter even less. Benefits from melee combos and all mods affected by it."
         },
         "Volnus": {
             "base": "",
@@ -1833,8 +1702,7 @@
             "tier": "Viable",
             "type": "Hammer",
             "url": "http://warframe.wikia.com/wiki/Volnus",
-            "wepnotes": "Great attack speed, high damage, great status, good crit. Lowish crit mult.",
-            "$$hashKey": "object:163"
+            "wepnotes": "Great attack speed, high damage, great status, good crit. Lowish crit mult."
         },
         "War": {
             "base": "",
@@ -1848,8 +1716,7 @@
             "tier": "Viable",
             "type": "Heavy Blade",
             "url": "http://warframe.wikia.com/wiki/War",
-            "wepnotes": "Great critical chance and status chance, range is good. Broken Bullshit makes it scale well. Only drawback is the Impact damage, which won't let you stack Bleeds",
-            "$$hashKey": "object:164"
+            "wepnotes": "Great critical chance and status chance, range is good. Broken Bullshit makes it scale well. Only drawback is the Impact damage, which won't let you stack Bleeds"
         },
         "Zenistar": {
             "base": "",
@@ -1863,8 +1730,7 @@
             "tier": "Viable",
             "type": "Heavy Blade",
             "url": "http://warframe.wikia.com/wiki/Zenistar",
-            "wepnotes": "Staggers on normal attacks. After using its charge attack, damage changes to Slash, while maintaining status chance, range on swing is decent, is not affected by physical damage mods when disc is attached",
-            "$$hashKey": "object:165"
+            "wepnotes": "Staggers on normal attacks. After using its charge attack, damage changes to Slash, while maintaining status chance, range on swing is decent, is not affected by physical damage mods when disc is attached"
         },
         "Gunsen": {
             "name": "Gunsen",
@@ -1877,8 +1743,7 @@
             "notes": "Suffers greatly from lack of range. Use the Razor Fin combo if more status chance is loaded to force slash prcos on last hit of the combo at slight loss of overall DPS.",
             "rank": 69,
             "tier": "Viable",
-            "type": "Warfan",
-            "$$hashKey": "object:7"
+            "type": "Warfan"
         },
         "Kogake Prime": {
             "name": "Kogake Prime",
@@ -1892,8 +1757,7 @@
             "notes": "Suffers greatly from lack of range. Use the Razor Fin combo if more status chance is loaded to force slash prcos on last hit of the combo at slight loss of overall DPS.",
             "rank": 44,
             "tier": "Viable",
-            "type": "Sparring",
-            "$$hashKey": "object:8"
+            "type": "Sparring"
         }
     },
     "Primaries": {
@@ -1907,8 +1771,7 @@
             "rank": 31,
             "tier": "Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Amprex",
-            "$$hashKey": "object:5"
+            "url": "http://warframe.wikia.com/wiki/Amprex"
         },
         "Arca Plasmor": {
             "base": "",
@@ -1920,8 +1783,7 @@
             "rank": 21,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Arca_Plasmor",
-            "$$hashKey": "object:6"
+            "url": "http://warframe.wikia.com/wiki/Arca_Plasmor"
         },
         "Argonak (Alt Fire)": {
             "base": "",
@@ -1933,8 +1795,7 @@
             "rank": 38,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Argonak",
-            "$$hashKey": "object:7"
+            "url": "http://warframe.wikia.com/wiki/Argonak"
         },
         "Argonak (Primary Fire)": {
             "base": "",
@@ -1946,8 +1807,7 @@
             "rank": 52,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Argonak",
-            "$$hashKey": "object:8"
+            "url": "http://warframe.wikia.com/wiki/Argonak"
         },
         "Astilla": {
             "base": "",
@@ -1959,8 +1819,7 @@
             "rank": 30,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Astilla",
-            "$$hashKey": "object:9"
+            "url": "http://warframe.wikia.com/wiki/Astilla"
         },
         "Attica": {
             "base": "",
@@ -1972,8 +1831,7 @@
             "rank": 42,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Attica",
-            "$$hashKey": "object:10"
+            "url": "http://warframe.wikia.com/wiki/Attica"
         },
         "Baza": {
             "base": "",
@@ -1985,8 +1843,7 @@
             "rank": 2,
             "tier": "Top",
             "type": "Auto",
-            "url": "http://warframe.wikia.com/wiki/Baza",
-            "$$hashKey": "object:11"
+            "url": "http://warframe.wikia.com/wiki/Baza"
         },
         "Boar Prime": {
             "base": "Vanilla is Non-Viable",
@@ -1998,8 +1855,7 @@
             "rank": 51,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Boar_Prime",
-            "$$hashKey": "object:12"
+            "url": "http://warframe.wikia.com/wiki/Boar_Prime"
         },
         "Boltor Prime": {
             "base": "Vanilla is low Viable",
@@ -2011,8 +1867,7 @@
             "rank": 47,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Boltor_Prime",
-            "$$hashKey": "object:13"
+            "url": "http://warframe.wikia.com/wiki/Boltor_Prime"
         },
         "Braton Prime": {
             "base": "Vanilla is Non-Viable",
@@ -2024,8 +1879,7 @@
             "rank": 33,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Braton_Prime",
-            "$$hashKey": "object:14"
+            "url": "http://warframe.wikia.com/wiki/Braton_Prime"
         },
         "Burston Prime": {
             "base": "Vanilla is low Non-Viable",
@@ -2037,8 +1891,7 @@
             "rank": 79,
             "tier": "Non-Viable",
             "type": "3-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Burston_Prime",
-            "$$hashKey": "object:15"
+            "url": "http://warframe.wikia.com/wiki/Burston_Prime"
         },
         "Buzlok": {
             "base": "",
@@ -2050,8 +1903,7 @@
             "rank": 39,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Buzlok",
-            "$$hashKey": "object:16"
+            "url": "http://warframe.wikia.com/wiki/Buzlok"
         },
         "Cernos Prime": {
             "base": "",
@@ -2063,8 +1915,7 @@
             "rank": 67,
             "tier": "Viable",
             "type": "Arrow volley",
-            "url": "http://warframe.wikia.com/wiki/Cernos_Prime",
-            "$$hashKey": "object:17"
+            "url": "http://warframe.wikia.com/wiki/Cernos_Prime"
         },
         "Convectrix": {
             "base": "",
@@ -2076,8 +1927,7 @@
             "rank": 83,
             "tier": "Non-Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Convectrix",
-            "$$hashKey": "object:18"
+            "url": "http://warframe.wikia.com/wiki/Convectrix"
         },
         "Daikyu": {
             "base": "",
@@ -2089,8 +1939,7 @@
             "rank": 57,
             "tier": "Viable",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Daikyu",
-            "$$hashKey": "object:19"
+            "url": "http://warframe.wikia.com/wiki/Daikyu"
         },
         "Dera Vandal": {
             "base": "Vanilla is Non-Viable",
@@ -2102,8 +1951,7 @@
             "rank": 40,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Dera_Vandal",
-            "$$hashKey": "object:20"
+            "url": "http://warframe.wikia.com/wiki/Dera_Vandal"
         },
         "Dex Sybaris": {
             "base": "Vanilla is Non-Viable",
@@ -2115,8 +1963,7 @@
             "rank": 43,
             "tier": "Viable",
             "type": "2-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Dex_Sybaris",
-            "$$hashKey": "object:21"
+            "url": "http://warframe.wikia.com/wiki/Dex_Sybaris"
         },
         "Drakgoon": {
             "base": "",
@@ -2128,8 +1975,7 @@
             "rank": 68,
             "tier": "Viable",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Drakgoon",
-            "$$hashKey": "object:22"
+            "url": "http://warframe.wikia.com/wiki/Drakgoon"
         },
         "Dread": {
             "base": "",
@@ -2141,8 +1987,7 @@
             "rank": 17,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Dread",
-            "$$hashKey": "object:23"
+            "url": "http://warframe.wikia.com/wiki/Dread"
         },
         "Ferrox": {
             "base": "",
@@ -2154,8 +1999,7 @@
             "rank": 3,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Ferrox",
-            "$$hashKey": "object:24"
+            "url": "http://warframe.wikia.com/wiki/Ferrox"
         },
         "Flux Rifle": {
             "base": "",
@@ -2167,8 +2011,7 @@
             "rank": 97,
             "tier": "Non-Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Flux_Rifle",
-            "$$hashKey": "object:25"
+            "url": "http://warframe.wikia.com/wiki/Flux_Rifle"
         },
         "Glaxion": {
             "base": "",
@@ -2180,8 +2023,7 @@
             "rank": 98,
             "tier": "Non-Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Glaxion",
-            "$$hashKey": "object:26"
+            "url": "http://warframe.wikia.com/wiki/Glaxion"
         },
         "Gorgon Wraith": {
             "base": "Vanilla is low Non-Viable",
@@ -2193,8 +2035,7 @@
             "rank": 92,
             "tier": "Non-Viable",
             "type": "Spool-Up",
-            "url": "http://warframe.wikia.com/wiki/Gorgon_Wraith",
-            "$$hashKey": "object:27"
+            "url": "http://warframe.wikia.com/wiki/Gorgon_Wraith"
         },
         "Grinlok": {
             "base": "",
@@ -2206,8 +2047,7 @@
             "rank": 84,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Grinlok",
-            "$$hashKey": "object:28"
+            "url": "http://warframe.wikia.com/wiki/Grinlok"
         },
         "Harpak": {
             "base": "",
@@ -2219,8 +2059,7 @@
             "rank": 44,
             "tier": "Viable",
             "type": "3-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Harpak",
-            "$$hashKey": "object:29"
+            "url": "http://warframe.wikia.com/wiki/Harpak"
         },
         "Hema": {
             "base": "",
@@ -2232,8 +2071,7 @@
             "rank": 48,
             "tier": "Viable",
             "type": "3-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Hema",
-            "$$hashKey": "object:30"
+            "url": "http://warframe.wikia.com/wiki/Hema"
         },
         "Hind": {
             "base": "",
@@ -2245,8 +2083,7 @@
             "rank": 95,
             "tier": "Non-Viable",
             "type": "5-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Hind",
-            "$$hashKey": "object:31"
+            "url": "http://warframe.wikia.com/wiki/Hind"
         },
         "Ignis": {
             "base": "",
@@ -2258,8 +2095,7 @@
             "rank": 28,
             "tier": "Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Ignis",
-            "$$hashKey": "object:32"
+            "url": "http://warframe.wikia.com/wiki/Ignis"
         },
         "Ignis Wraith": {
             "base": "",
@@ -2271,8 +2107,7 @@
             "rank": 26,
             "tier": "Top",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Ignis_Wraith",
-            "$$hashKey": "object:33"
+            "url": "http://warframe.wikia.com/wiki/Ignis_Wraith"
         },
         "Javlok": {
             "base": "",
@@ -2284,8 +2119,7 @@
             "rank": 58,
             "tier": "Viable",
             "type": "Charge shot",
-            "url": "http://warframe.wikia.com/wiki/Javlok",
-            "$$hashKey": "object:34"
+            "url": "http://warframe.wikia.com/wiki/Javlok"
         },
         "Karak Wraith": {
             "base": "Vanilla is Non-Viable",
@@ -2297,8 +2131,7 @@
             "rank": 59,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Karak_Wraith",
-            "$$hashKey": "object:35"
+            "url": "http://warframe.wikia.com/wiki/Karak_Wraith"
         },
         "Kohm": {
             "base": "",
@@ -2310,8 +2143,7 @@
             "rank": 37,
             "tier": "Viable",
             "type": "Spool-Up",
-            "url": "http://warframe.wikia.com/wiki/Kohm",
-            "$$hashKey": "object:36"
+            "url": "http://warframe.wikia.com/wiki/Kohm"
         },
         "Lanka": {
             "base": "",
@@ -2323,8 +2155,7 @@
             "rank": 15,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Lanka",
-            "$$hashKey": "object:37"
+            "url": "http://warframe.wikia.com/wiki/Lanka"
         },
         "Latron Prime": {
             "base": "Vanilla is low Non-Viable",
@@ -2336,8 +2167,7 @@
             "rank": 74,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Latron_Prime",
-            "$$hashKey": "object:38"
+            "url": "http://warframe.wikia.com/wiki/Latron_Prime"
         },
         "Latron Wraith": {
             "base": "Vanilla is low Non-Viable",
@@ -2349,8 +2179,7 @@
             "rank": 77,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Latron_Wraith",
-            "$$hashKey": "object:39"
+            "url": "http://warframe.wikia.com/wiki/Latron_Wraith"
         },
         "Lenz": {
             "base": "",
@@ -2362,8 +2191,7 @@
             "rank": 19,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Lenz",
-            "$$hashKey": "object:40"
+            "url": "http://warframe.wikia.com/wiki/Lenz"
         },
         "Miter": {
             "base": "",
@@ -2375,8 +2203,7 @@
             "rank": 41,
             "tier": "Viable",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Miter",
-            "$$hashKey": "object:41"
+            "url": "http://warframe.wikia.com/wiki/Miter"
         },
         "Mutalist Cernos": {
             "base": "",
@@ -2388,8 +2215,7 @@
             "rank": 53,
             "tier": "Viable",
             "type": "Charge Shot*",
-            "url": "http://warframe.wikia.com/wiki/Mutalist_Cernos",
-            "$$hashKey": "object:42"
+            "url": "http://warframe.wikia.com/wiki/Mutalist_Cernos"
         },
         "Mutalist Quanta": {
             "base": "",
@@ -2401,8 +2227,7 @@
             "rank": 72,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Mutalist_Quanta",
-            "$$hashKey": "object:43"
+            "url": "http://warframe.wikia.com/wiki/Mutalist_Quanta"
         },
         "Ogris": {
             "base": "",
@@ -2414,8 +2239,7 @@
             "rank": 66,
             "tier": "Viable",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Ogris",
-            "$$hashKey": "object:44"
+            "url": "http://warframe.wikia.com/wiki/Ogris"
         },
         "Opticor": {
             "base": "",
@@ -2427,8 +2251,7 @@
             "rank": 6,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Opticor",
-            "$$hashKey": "object:45"
+            "url": "http://warframe.wikia.com/wiki/Opticor"
         },
         "Panthera": {
             "base": "",
@@ -2440,8 +2263,7 @@
             "rank": 85,
             "tier": "Non-Viable",
             "type": "Auto",
-            "url": "http://warframe.wikia.com/wiki/Panthera",
-            "$$hashKey": "object:46"
+            "url": "http://warframe.wikia.com/wiki/Panthera"
         },
         "Paracyst": {
             "base": "",
@@ -2453,8 +2275,7 @@
             "rank": 73,
             "tier": "Viable",
             "type": "3-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Paracyst",
-            "$$hashKey": "object:47"
+            "url": "http://warframe.wikia.com/wiki/Paracyst"
         },
         "Paris Prime": {
             "base": "",
@@ -2466,8 +2287,7 @@
             "rank": 78,
             "tier": "Viable",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Paris_Prime",
-            "$$hashKey": "object:48"
+            "url": "http://warframe.wikia.com/wiki/Paris_Prime"
         },
         "Phage": {
             "base": "",
@@ -2479,8 +2299,7 @@
             "rank": 60,
             "tier": "Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Phage",
-            "$$hashKey": "object:49"
+            "url": "http://warframe.wikia.com/wiki/Phage"
         },
         "Prisma Gorgon": {
             "base": "Vanilla is low Non-Viable",
@@ -2492,8 +2311,7 @@
             "rank": 91,
             "tier": "Non-Viable",
             "type": "Spool-Up",
-            "url": "http://warframe.wikia.com/wiki/Prisma_Gorgon",
-            "$$hashKey": "object:50"
+            "url": "http://warframe.wikia.com/wiki/Prisma_Gorgon"
         },
         "Prisma Grakata": {
             "base": "Vanilla is Top tier",
@@ -2505,8 +2323,7 @@
             "rank": 7,
             "tier": "Top",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Prisma_Grakata",
-            "$$hashKey": "object:51"
+            "url": "http://warframe.wikia.com/wiki/Prisma_Grakata"
         },
         "Prisma Tetra": {
             "base": "Vanilla is low Non-Viable",
@@ -2518,8 +2335,7 @@
             "rank": 93,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Prisma_Tetra",
-            "$$hashKey": "object:52"
+            "url": "http://warframe.wikia.com/wiki/Prisma_Tetra"
         },
         "Quanta Vandal": {
             "base": "Vanilla is Non-Viable tier",
@@ -2531,8 +2347,7 @@
             "rank": 29,
             "tier": "Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Quanta_Vandal",
-            "$$hashKey": "object:53"
+            "url": "http://warframe.wikia.com/wiki/Quanta_Vandal"
         },
         "Rakta Cernos": {
             "base": "",
@@ -2544,8 +2359,7 @@
             "rank": 10,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Rakta_Cernos",
-            "$$hashKey": "object:54"
+            "url": "http://warframe.wikia.com/wiki/Rakta_Cernos"
         },
         "Rubico": {
             "base": "",
@@ -2557,8 +2371,7 @@
             "rank": 16,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Rubico",
-            "$$hashKey": "object:55"
+            "url": "http://warframe.wikia.com/wiki/Rubico"
         },
         "Sancti Tigris": {
             "base": "Vanilla is low Top tier",
@@ -2570,8 +2383,7 @@
             "rank": 13,
             "tier": "Top",
             "type": "Duplex trigger",
-            "url": "http://warframe.wikia.com/wiki/Sancti_Tigris",
-            "$$hashKey": "object:56"
+            "url": "http://warframe.wikia.com/wiki/Sancti_Tigris"
         },
         "Scourge": {
             "base": "",
@@ -2583,8 +2395,7 @@
             "rank": 75,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Scourge",
-            "$$hashKey": "object:57"
+            "url": "http://warframe.wikia.com/wiki/Scourge"
         },
         "Secura Penta": {
             "base": "Vanilla is Viable",
@@ -2596,8 +2407,7 @@
             "rank": 71,
             "tier": "Viable",
             "type": "Remote Detonate",
-            "url": "http://warframe.wikia.com/wiki/Secura_Penta",
-            "$$hashKey": "object:58"
+            "url": "http://warframe.wikia.com/wiki/Secura_Penta"
         },
         "Snipetron Vandal": {
             "base": "Vanilla is Non-Viable",
@@ -2609,8 +2419,7 @@
             "rank": 65,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Snipetron_Vandal",
-            "$$hashKey": "object:59"
+            "url": "http://warframe.wikia.com/wiki/Snipetron_Vandal"
         },
         "Sobek": {
             "base": "",
@@ -2622,8 +2431,7 @@
             "rank": 34,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Sobek",
-            "$$hashKey": "object:60"
+            "url": "http://warframe.wikia.com/wiki/Sobek"
         },
         "Soma Prime": {
             "base": "Vanilla is Top tier",
@@ -2635,8 +2443,7 @@
             "rank": 1,
             "tier": "Top",
             "type": "Spool-Up",
-            "url": "http://warframe.wikia.com/wiki/Soma_Prime",
-            "$$hashKey": "object:61"
+            "url": "http://warframe.wikia.com/wiki/Soma_Prime"
         },
         "Stradavar (Alt fire)": {
             "base": "",
@@ -2648,8 +2455,7 @@
             "rank": 86,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Stradavar",
-            "$$hashKey": "object:62"
+            "url": "http://warframe.wikia.com/wiki/Stradavar"
         },
         "Stradavar (Primary Fire)": {
             "base": "",
@@ -2661,8 +2467,7 @@
             "rank": 82,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Stradavar",
-            "$$hashKey": "object:63"
+            "url": "http://warframe.wikia.com/wiki/Stradavar"
         },
         "Strun Wraith": {
             "base": "Vanilla is Non-Viable",
@@ -2674,8 +2479,7 @@
             "rank": 64,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Strun_Wraith",
-            "$$hashKey": "object:64"
+            "url": "http://warframe.wikia.com/wiki/Strun_Wraith"
         },
         "Supra Vandal": {
             "base": "Vanilla is Top tier",
@@ -2687,8 +2491,7 @@
             "rank": 14,
             "tier": "Top",
             "type": "Spool-Up",
-            "url": "http://warframe.wikia.com/wiki/Supra_Vandal",
-            "$$hashKey": "object:65"
+            "url": "http://warframe.wikia.com/wiki/Supra_Vandal"
         },
         "Sybaris Prime": {
             "base": "Vanilla is Non-Viable",
@@ -2700,8 +2503,7 @@
             "rank": 8,
             "tier": "Top",
             "type": "2-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Sybaris_Prime",
-            "$$hashKey": "object:66"
+            "url": "http://warframe.wikia.com/wiki/Sybaris_Prime"
         },
         "Synapse": {
             "base": "",
@@ -2713,8 +2515,7 @@
             "rank": 94,
             "tier": "Non-Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Synapse",
-            "$$hashKey": "object:67"
+            "url": "http://warframe.wikia.com/wiki/Synapse"
         },
         "Synoid Simulor": {
             "base": "Vanilla is Non-Viable",
@@ -2726,8 +2527,7 @@
             "rank": 80,
             "tier": "Non-Viable",
             "type": "Special*",
-            "url": "http://warframe.wikia.com/wiki/Synoid_Simulor",
-            "$$hashKey": "object:68"
+            "url": "http://warframe.wikia.com/wiki/Synoid_Simulor"
         },
         "Telos Boltor": {
             "base": "Vanilla is low Viable",
@@ -2739,8 +2539,7 @@
             "rank": 49,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Telos_Boltor",
-            "$$hashKey": "object:69"
+            "url": "http://warframe.wikia.com/wiki/Telos_Boltor"
         },
         "Tenora": {
             "base": "",
@@ -2752,8 +2551,7 @@
             "rank": 4,
             "tier": "Top",
             "type": "Spool-Up",
-            "url": "http://warframe.wikia.com/wiki/Tenora",
-            "$$hashKey": "object:70"
+            "url": "http://warframe.wikia.com/wiki/Tenora"
         },
         "Tiberon": {
             "base": "",
@@ -2765,8 +2563,7 @@
             "rank": 89,
             "tier": "Non-Viable",
             "type": "3-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Tiberon",
-            "$$hashKey": "object:71"
+            "url": "http://warframe.wikia.com/wiki/Tiberon"
         },
         "Tigris Prime": {
             "base": "Vanilla is low Top tier",
@@ -2778,8 +2575,7 @@
             "rank": 11,
             "tier": "Top",
             "type": "Duplex trigger",
-            "url": "http://warframe.wikia.com/wiki/Tigris_Prime",
-            "$$hashKey": "object:72"
+            "url": "http://warframe.wikia.com/wiki/Tigris_Prime"
         },
         "Tonkor": {
             "base": "",
@@ -2791,8 +2587,7 @@
             "rank": 35,
             "tier": "Viable",
             "type": "AOE explosion",
-            "url": "http://warframe.wikia.com/wiki/Tonkor",
-            "$$hashKey": "object:73"
+            "url": "http://warframe.wikia.com/wiki/Tonkor"
         },
         "Torid": {
             "base": "",
@@ -2804,8 +2599,7 @@
             "rank": 88,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Torid",
-            "$$hashKey": "object:74"
+            "url": "http://warframe.wikia.com/wiki/Torid"
         },
         "Vaykor Hek": {
             "base": "",
@@ -2817,8 +2611,7 @@
             "rank": 18,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Vaykor_Hek",
-            "$$hashKey": "object:75"
+            "url": "http://warframe.wikia.com/wiki/Vaykor_Hek"
         },
         "Vectis Prime": {
             "base": "Vanilla is Viable",
@@ -2830,8 +2623,7 @@
             "rank": 20,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Vectis_Prime",
-            "$$hashKey": "object:76"
+            "url": "http://warframe.wikia.com/wiki/Vectis_Prime"
         },
         "Vulkar Wraith": {
             "base": "Vanilla is Viable",
@@ -2843,8 +2635,7 @@
             "rank": 23,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Vulkar_Wraith",
-            "$$hashKey": "object:77"
+            "url": "http://warframe.wikia.com/wiki/Vulkar_Wraith"
         },
         "Zarr": {
             "base": "",
@@ -2856,8 +2647,7 @@
             "rank": 24,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Zarr",
-            "$$hashKey": "object:78"
+            "url": "http://warframe.wikia.com/wiki/Zarr"
         },
         "Zenith": {
             "base": "",
@@ -2869,8 +2659,7 @@
             "rank": 32,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Zenith",
-            "$$hashKey": "object:79"
+            "url": "http://warframe.wikia.com/wiki/Zenith"
         },
         "Zhuge": {
             "base": "",
@@ -2882,8 +2671,7 @@
             "rank": 69,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Zhuge",
-            "$$hashKey": "object:80"
+            "url": "http://warframe.wikia.com/wiki/Zhuge"
         },
         "Quartakk": {
             "name": "Quartakk",
@@ -2894,8 +2682,7 @@
             "notes": "Very high damage per bullet, average DPS due to low effective fire rate, hitscan, eadshots greatly increase damage output, may have ammo issues especially when every trigger pull expends 4 shots anyway †",
             "rank": 22,
             "tier": "Top",
-            "type": "4-Round burst",
-            "$$hashKey": "object:3"
+            "type": "4-Round burst"
         },
         "Corinth": {
             "name": "Corinth",
@@ -2906,8 +2693,7 @@
             "notes": "Very high damage per bullet, hitscan, excellent reload speed slightly hampered by delay between reloading and firing. Don't bother with secondary fire. All hail the new king of shotguns  †",
             "rank": 9,
             "tier": "Top",
-            "type": "Semi-auto",
-            "$$hashKey": "object:4"
+            "type": "Semi-auto"
         }
     },
     "Schools": {
@@ -2918,8 +2704,7 @@
             "op": "Increased Operator Energy Pool and Regeneration for Amps",
             "rank": 1,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Focus",
-            "$$hashKey": "object:166"
+            "url": "http://warframe.wikia.com/wiki/Focus"
         },
         "Naramon": {
             "frame": "Increased Affinity gain from Melee, Preserves Melee Combo for longer",
@@ -2928,8 +2713,7 @@
             "op": "Increased Operator MoveSpeed and Void Dash Speed",
             "rank": 3,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Focus",
-            "$$hashKey": "object:167"
+            "url": "http://warframe.wikia.com/wiki/Focus"
         },
         "Unairu": {
             "frame": "Returns part of Damage Taken, Increased Warframe Armor",
@@ -2938,8 +2722,7 @@
             "op": "Increased Operator Armor, Increased Operator Armor (a second time)",
             "rank": 5,
             "tier": "Non-Viable",
-            "url": "http://warframe.wikia.com/wiki/Focus",
-            "$$hashKey": "object:168"
+            "url": "http://warframe.wikia.com/wiki/Focus"
         },
         "Vazarin": {
             "frame": "Increased Affinity Radius, Limited Instant Revives",
@@ -2948,8 +2731,7 @@
             "op": "Increased Operator Health and Health Regeneration",
             "rank": 4,
             "tier": "Viable",
-            "url": "http://warframe.wikia.com/wiki/Focus",
-            "$$hashKey": "object:169"
+            "url": "http://warframe.wikia.com/wiki/Focus"
         },
         "Zenurik": {
             "frame": "Increased Energy Orb pickups, Area Energy Restore over time, Increased Melee Channeling Efficiency",
@@ -2958,8 +2740,7 @@
             "op": "Increased Operator Energy Pool and Regeneration",
             "rank": 2,
             "tier": "Top",
-            "url": "http://warframe.wikia.com/wiki/Focus",
-            "$$hashKey": "object:170"
+            "url": "http://warframe.wikia.com/wiki/Focus"
         }
     },
     "Secondaries": {
@@ -2972,8 +2753,7 @@
             "rank": 17,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Acrid",
-            "$$hashKey": "object:3"
+            "url": "http://warframe.wikia.com/wiki/Acrid"
         },
         "Afuris": {
             "base": "",
@@ -2984,8 +2764,7 @@
             "rank": 68,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Afuris",
-            "$$hashKey": "object:4"
+            "url": "http://warframe.wikia.com/wiki/Afuris"
         },
         "Akbronco Prime": {
             "base": "Vanilla is non-viable",
@@ -2996,8 +2775,7 @@
             "rank": 14,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Akbronco_Prime",
-            "$$hashKey": "object:5"
+            "url": "http://warframe.wikia.com/wiki/Akbronco_Prime"
         },
         "Akjagara": {
             "base": "",
@@ -3008,8 +2786,7 @@
             "rank": 56,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Akjagara",
-            "$$hashKey": "object:6"
+            "url": "http://warframe.wikia.com/wiki/Akjagara"
         },
         "Aklato": {
             "base": "",
@@ -3020,8 +2797,7 @@
             "rank": 75,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Aklato",
-            "$$hashKey": "object:7"
+            "url": "http://warframe.wikia.com/wiki/Aklato"
         },
         "Aklex Prime": {
             "base": "",
@@ -3032,8 +2808,7 @@
             "rank": 8,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Aklex_Prime",
-            "$$hashKey": "object:8"
+            "url": "http://warframe.wikia.com/wiki/Aklex_Prime"
         },
         "Akmagnus": {
             "base": "",
@@ -3044,8 +2819,7 @@
             "rank": 47,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Akmagnus",
-            "$$hashKey": "object:9"
+            "url": "http://warframe.wikia.com/wiki/Akmagnus"
         },
         "Aksomati": {
             "base": "",
@@ -3056,8 +2830,7 @@
             "rank": 42,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Aksomati",
-            "$$hashKey": "object:10"
+            "url": "http://warframe.wikia.com/wiki/Aksomati"
         },
         "Akstiletto Prime": {
             "base": "",
@@ -3068,8 +2841,7 @@
             "rank": 2,
             "tier": "Top",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Akstiletto_Prime",
-            "$$hashKey": "object:11"
+            "url": "http://warframe.wikia.com/wiki/Akstiletto_Prime"
         },
         "Akvasto": {
             "base": "",
@@ -3080,8 +2852,7 @@
             "rank": 57,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Akvasto",
-            "$$hashKey": "object:12"
+            "url": "http://warframe.wikia.com/wiki/Akvasto"
         },
         "Akzani": {
             "base": "",
@@ -3092,8 +2863,7 @@
             "rank": 76,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Akzani",
-            "$$hashKey": "object:13"
+            "url": "http://warframe.wikia.com/wiki/Akzani"
         },
         "Angstrum": {
             "base": "",
@@ -3104,8 +2874,7 @@
             "rank": 69,
             "tier": "Non-Viable",
             "type": "Charge shot",
-            "url": "http://warframe.wikia.com/wiki/Angstrum",
-            "$$hashKey": "object:14"
+            "url": "http://warframe.wikia.com/wiki/Angstrum"
         },
         "Arca Scisco": {
             "base": "",
@@ -3116,8 +2885,7 @@
             "rank": 20,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Arca_Scisco",
-            "$$hashKey": "object:15"
+            "url": "http://warframe.wikia.com/wiki/Arca_Scisco"
         },
         "Atomos": {
             "base": "",
@@ -3128,8 +2896,7 @@
             "rank": 32,
             "tier": "Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Atomos",
-            "$$hashKey": "object:16"
+            "url": "http://warframe.wikia.com/wiki/Atomos"
         },
         "Azima": {
             "base": "",
@@ -3140,8 +2907,7 @@
             "rank": 46,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Azima",
-            "$$hashKey": "object:17"
+            "url": "http://warframe.wikia.com/wiki/Azima"
         },
         "Ballistica Prime": {
             "base": "",
@@ -3152,8 +2918,7 @@
             "rank": 35,
             "tier": "Viable",
             "type": "Charge shot",
-            "url": "http://warframe.wikia.com/wiki/Ballistica_Prime",
-            "$$hashKey": "object:18"
+            "url": "http://warframe.wikia.com/wiki/Ballistica_Prime"
         },
         "Bolto": {
             "base": "",
@@ -3164,8 +2929,7 @@
             "rank": 70,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Bolto",
-            "$$hashKey": "object:19"
+            "url": "http://warframe.wikia.com/wiki/Bolto"
         },
         "Brakk": {
             "base": "",
@@ -3176,8 +2940,7 @@
             "rank": 24,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Brakk",
-            "$$hashKey": "object:20"
+            "url": "http://warframe.wikia.com/wiki/Brakk"
         },
         "Bronco Prime": {
             "base": "Vanilla is non-viable",
@@ -3188,8 +2951,7 @@
             "rank": 23,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Bronco_Prime",
-            "$$hashKey": "object:21"
+            "url": "http://warframe.wikia.com/wiki/Bronco_Prime"
         },
         "Cestra": {
             "base": "",
@@ -3200,8 +2962,7 @@
             "rank": 87,
             "tier": "Non-Viable",
             "type": "Spool Up",
-            "url": "http://warframe.wikia.com/wiki/Cestra",
-            "$$hashKey": "object:22"
+            "url": "http://warframe.wikia.com/wiki/Cestra"
         },
         "Cycron": {
             "base": "",
@@ -3212,8 +2973,7 @@
             "rank": 77,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Cycron",
-            "$$hashKey": "object:23"
+            "url": "http://warframe.wikia.com/wiki/Cycron"
         },
         "Despair": {
             "base": "",
@@ -3224,8 +2984,7 @@
             "rank": 85,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Despair",
-            "$$hashKey": "object:24"
+            "url": "http://warframe.wikia.com/wiki/Despair"
         },
         "Detron": {
             "base": "",
@@ -3236,8 +2995,7 @@
             "rank": 58,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Detron",
-            "$$hashKey": "object:25"
+            "url": "http://warframe.wikia.com/wiki/Detron"
         },
         "Dex Furis": {
             "base": "",
@@ -3248,8 +3006,7 @@
             "rank": 43,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Dex_Furis",
-            "$$hashKey": "object:26"
+            "url": "http://warframe.wikia.com/wiki/Dex_Furis"
         },
         "Dual Toxocyst": {
             "base": "",
@@ -3260,8 +3017,7 @@
             "rank": 50,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Dual_Toxocyst",
-            "$$hashKey": "object:27"
+            "url": "http://warframe.wikia.com/wiki/Dual_Toxocyst"
         },
         "Embolist": {
             "base": "",
@@ -3272,8 +3028,7 @@
             "rank": 71,
             "tier": "Non-Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Embolist",
-            "$$hashKey": "object:28"
+            "url": "http://warframe.wikia.com/wiki/Embolist"
         },
         "Euphona Prime": {
             "base": "",
@@ -3284,8 +3039,7 @@
             "rank": 1,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Euphona_Prime",
-            "$$hashKey": "object:29"
+            "url": "http://warframe.wikia.com/wiki/Euphona_Prime"
         },
         "Furis": {
             "base": "",
@@ -3296,8 +3050,7 @@
             "rank": 44,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Furis",
-            "$$hashKey": "object:30"
+            "url": "http://warframe.wikia.com/wiki/Furis"
         },
         "Fusilai": {
             "base": "",
@@ -3308,8 +3061,7 @@
             "rank": 48,
             "tier": "Viable",
             "type": "Dual Auto",
-            "url": "http://warframe.wikia.com/wiki/Fusilai",
-            "$$hashKey": "object:31"
+            "url": "http://warframe.wikia.com/wiki/Fusilai"
         },
         "Hikou Prime": {
             "base": "",
@@ -3320,8 +3072,7 @@
             "rank": 84,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Hikou_Prime",
-            "$$hashKey": "object:32"
+            "url": "http://warframe.wikia.com/wiki/Hikou_Prime"
         },
         "Knell": {
             "base": "",
@@ -3332,8 +3083,7 @@
             "rank": 4,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Knell",
-            "$$hashKey": "object:33"
+            "url": "http://warframe.wikia.com/wiki/Knell"
         },
         "Kraken": {
             "base": "",
@@ -3344,8 +3094,7 @@
             "rank": 72,
             "tier": "Non-Viable",
             "type": "2-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Kraken",
-            "$$hashKey": "object:34"
+            "url": "http://warframe.wikia.com/wiki/Kraken"
         },
         "Kulstar": {
             "base": "",
@@ -3356,8 +3105,7 @@
             "rank": 33,
             "tier": "Viable",
             "type": "Remote Detonation",
-            "url": "http://warframe.wikia.com/wiki/Kulstar",
-            "$$hashKey": "object:35"
+            "url": "http://warframe.wikia.com/wiki/Kulstar"
         },
         "Kunai": {
             "base": "",
@@ -3368,8 +3116,7 @@
             "rank": 86,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Kunai",
-            "$$hashKey": "object:36"
+            "url": "http://warframe.wikia.com/wiki/Kunai"
         },
         "Lato": {
             "base": "",
@@ -3380,8 +3127,7 @@
             "rank": 78,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Lato",
-            "$$hashKey": "object:37"
+            "url": "http://warframe.wikia.com/wiki/Lato"
         },
         "Lex Prime": {
             "base": "",
@@ -3392,8 +3138,7 @@
             "rank": 9,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Lex_Prime",
-            "$$hashKey": "object:38"
+            "url": "http://warframe.wikia.com/wiki/Lex_Prime"
         },
         "Mara Detron": {
             "base": "",
@@ -3404,8 +3149,7 @@
             "rank": 59,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Mara_Detron",
-            "$$hashKey": "object:39"
+            "url": "http://warframe.wikia.com/wiki/Mara_Detron"
         },
         "Nukor": {
             "base": "",
@@ -3416,8 +3160,7 @@
             "rank": 21,
             "tier": "Top",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Nukor",
-            "$$hashKey": "object:40"
+            "url": "http://warframe.wikia.com/wiki/Nukor"
         },
         "Pandero": {
             "base": "",
@@ -3428,8 +3171,7 @@
             "rank": 7,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Pandero",
-            "$$hashKey": "object:41"
+            "url": "http://warframe.wikia.com/wiki/Pandero"
         },
         "Pox": {
             "base": "",
@@ -3440,8 +3182,7 @@
             "rank": 25,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Pox",
-            "$$hashKey": "object:42"
+            "url": "http://warframe.wikia.com/wiki/Pox"
         },
         "Pyrana": {
             "base": "",
@@ -3452,8 +3193,7 @@
             "rank": 13,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Pyrana",
-            "$$hashKey": "object:43"
+            "url": "http://warframe.wikia.com/wiki/Pyrana"
         },
         "Rakta Ballistica": {
             "base": "",
@@ -3464,8 +3204,7 @@
             "rank": 38,
             "tier": "Viable",
             "type": "Charge shot",
-            "url": "http://warframe.wikia.com/wiki/Rakta_Ballistica",
-            "$$hashKey": "object:44"
+            "url": "http://warframe.wikia.com/wiki/Rakta_Ballistica"
         },
         "Sancti Castanas": {
             "base": "",
@@ -3476,8 +3215,7 @@
             "rank": 95,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Sancti_Castanas",
-            "$$hashKey": "object:45"
+            "url": "http://warframe.wikia.com/wiki/Sancti_Castanas"
         },
         "Secura Dual Cestra": {
             "base": "Vanilla is Non-Viable",
@@ -3488,8 +3226,7 @@
             "rank": 82,
             "tier": "Non-Viable",
             "type": "Spool Up",
-            "url": "http://warframe.wikia.com/wiki/Secura_Dual_Cestra",
-            "$$hashKey": "object:46"
+            "url": "http://warframe.wikia.com/wiki/Secura_Dual_Cestra"
         },
         "Seer": {
             "base": "",
@@ -3500,8 +3237,7 @@
             "rank": 88,
             "tier": "Non-Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Seer",
-            "$$hashKey": "object:47"
+            "url": "http://warframe.wikia.com/wiki/Seer"
         },
         "Sicarus Prime": {
             "base": "",
@@ -3512,8 +3248,7 @@
             "rank": 12,
             "tier": "Top",
             "type": "3-Round burst",
-            "url": "http://warframe.wikia.com/wiki/Sicarus_Prime",
-            "$$hashKey": "object:48"
+            "url": "http://warframe.wikia.com/wiki/Sicarus_Prime"
         },
         "Sonicor": {
             "base": "",
@@ -3524,8 +3259,7 @@
             "rank": 3,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Sonicor",
-            "$$hashKey": "object:49"
+            "url": "http://warframe.wikia.com/wiki/Sonicor"
         },
         "Spectra": {
             "base": "",
@@ -3536,8 +3270,7 @@
             "rank": 89,
             "tier": "Non-Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Spectra",
-            "$$hashKey": "object:50"
+            "url": "http://warframe.wikia.com/wiki/Spectra"
         },
         "Spira Prime": {
             "base": "",
@@ -3548,8 +3281,7 @@
             "rank": 41,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Spira_Prime",
-            "$$hashKey": "object:51"
+            "url": "http://warframe.wikia.com/wiki/Spira_Prime"
         },
         "Staticor": {
             "base": "",
@@ -3560,8 +3292,7 @@
             "rank": 16,
             "tier": "Top",
             "type": "Charge Shot",
-            "url": "http://warframe.wikia.com/wiki/Staticor",
-            "$$hashKey": "object:52"
+            "url": "http://warframe.wikia.com/wiki/Staticor"
         },
         "Stug": {
             "base": "",
@@ -3572,8 +3303,7 @@
             "rank": 66,
             "tier": "Viable",
             "type": "Charge",
-            "url": "http://warframe.wikia.com/wiki/Stug",
-            "$$hashKey": "object:53"
+            "url": "http://warframe.wikia.com/wiki/Stug"
         },
         "Synoid Gammacor": {
             "base": "",
@@ -3584,8 +3314,7 @@
             "rank": 28,
             "tier": "Viable",
             "type": "Beam",
-            "url": "http://warframe.wikia.com/wiki/Synoid_Gammacor",
-            "$$hashKey": "object:54"
+            "url": "http://warframe.wikia.com/wiki/Synoid_Gammacor"
         },
         "Talons": {
             "base": "",
@@ -3596,8 +3325,7 @@
             "rank": 51,
             "tier": "Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Talons",
-            "$$hashKey": "object:55"
+            "url": "http://warframe.wikia.com/wiki/Talons"
         },
         "Telos Akbolto": {
             "base": "",
@@ -3608,8 +3336,7 @@
             "rank": 54,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Telos_Akbolto",
-            "$$hashKey": "object:56"
+            "url": "http://warframe.wikia.com/wiki/Telos_Akbolto"
         },
         "Twin Grakata": {
             "base": "",
@@ -3620,8 +3347,7 @@
             "rank": 5,
             "tier": "Top",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Twin_Grakatas",
-            "$$hashKey": "object:57"
+            "url": "http://warframe.wikia.com/wiki/Twin_Grakatas"
         },
         "Twin Gremlins": {
             "base": "",
@@ -3632,8 +3358,7 @@
             "rank": 74,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Twin_Gremlins",
-            "$$hashKey": "object:58"
+            "url": "http://warframe.wikia.com/wiki/Twin_Gremlins"
         },
         "Twin Kohmak": {
             "base": "",
@@ -3644,8 +3369,7 @@
             "rank": 40,
             "tier": "Viable",
             "type": "Spool Up",
-            "url": "http://warframe.wikia.com/wiki/Twin_Kohmak",
-            "$$hashKey": "object:59"
+            "url": "http://warframe.wikia.com/wiki/Twin_Kohmak"
         },
         "Twin Rogga": {
             "base": "",
@@ -3656,8 +3380,7 @@
             "rank": 60,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Twin_Rogga",
-            "$$hashKey": "object:60"
+            "url": "http://warframe.wikia.com/wiki/Twin_Rogga"
         },
         "Twin Vipers Wraith": {
             "base": "",
@@ -3668,8 +3391,7 @@
             "rank": 90,
             "tier": "Non-Viable",
             "type": "Full-auto",
-            "url": "http://warframe.wikia.com/wiki/Wraith_Twin_Vipers",
-            "$$hashKey": "object:61"
+            "url": "http://warframe.wikia.com/wiki/Wraith_Twin_Vipers"
         },
         "Tysis": {
             "base": "",
@@ -3680,8 +3402,7 @@
             "rank": 53,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Tysis",
-            "$$hashKey": "object:62"
+            "url": "http://warframe.wikia.com/wiki/Tysis"
         },
         "Vasto Prime": {
             "base": "",
@@ -3692,8 +3413,7 @@
             "rank": 36,
             "tier": "Viable",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Vasto_Prime",
-            "$$hashKey": "object:63"
+            "url": "http://warframe.wikia.com/wiki/Vasto_Prime"
         },
         "Vaykor Marelok": {
             "base": "",
@@ -3704,8 +3424,7 @@
             "rank": 10,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Vaykor_Marelok",
-            "$$hashKey": "object:64"
+            "url": "http://warframe.wikia.com/wiki/Vaykor_Marelok"
         },
         "Zakti": {
             "base": "",
@@ -3716,8 +3435,7 @@
             "rank": 18,
             "tier": "Top",
             "type": "Semi-auto",
-            "url": "http://warframe.wikia.com/wiki/Zakti",
-            "$$hashKey": "object:65"
+            "url": "http://warframe.wikia.com/wiki/Zakti"
         },
         "Akbolto Prime": {
             "name": "Akbolto Prime",
@@ -3727,8 +3445,7 @@
             "notes": "Very high damage per bullet, good DPS, projectile weapon, bad with punchthrough, launches killed enemies as projectiles. Despite having great damage, projectile munitions combined with high rate of fire leads to very poor ammo economy.",
             "rank": 52,
             "tier": "Viable",
-            "type": "Semi-auto",
-            "$$hashKey": "object:5"
+            "type": "Semi-auto"
         },
         "Stubba": {
             "name": "Stubba",
@@ -3738,8 +3455,7 @@
             "notes": "High damage per bullet, high DPS, hitscan, magazine is large enough for the fire rate, ammo-econ is low. Recoil throws off headshots, slight reduction to CD hurts overall DPS and low-ish status makes armor removal a chore.",
             "rank": 26,
             "tier": "Viable",
-            "type": "Full-auto",
-            "$$hashKey": "object:6"
+            "type": "Full-auto"
         }
     },
     "Sentweps": {
@@ -3837,13 +3553,11 @@
     "alerts": {
         "frame": {
             "class": "alert-warning hidden",
-            "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!",
-            "$$hashKey": "object:3"
+            "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!"
         },
         "hunter": {
             "class": "alert-success",
-            "text": "Check the FAQ at the bottom of the page for more information on Hunter Munitions in rankings!",
-            "$$hashKey": "object:4"
+            "text": "Check the FAQ at the bottom of the page for more information on Hunter Munitions in rankings!"
         }
     },
     "version": "22.8 Quartakk and Stubba"
