@@ -3549,6 +3549,10 @@
       "name": "Viable",
       "rank": 2
     }
+	"Defunct": {
+      "name": "Defunct",
+      "rank": 5
+    }
   },
   "alerts": {
     "frame": {
