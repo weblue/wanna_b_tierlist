@@ -1765,11 +1765,11 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Critical",
-      "mr": 5,
+      "mr": 10,
       "name": "Amprex",
-      "notes": "Average damage per bullet, extreme DPS, beam weapon, punchthrough mods are outclassed by others, chains to nearby targets while hitting an enemy or a corpse. Wastes bullets due to beam. Horrible ammo-econ and magazine. †",
-      "rank": 31,
-      "tier": "Viable",
+      "notes": "Low damage per beam, insane DPS, beam munition, acceptable ammo econ. Beam chains to nearby enemies giving it decent AOE.",
+      "rank": 1,
+      "tier": "Top",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Amprex"
     },
@@ -1780,7 +1780,7 @@
       "mr": 10,
       "name": "Arca Plasmor",
       "notes": "Very high damage per bullet, projectile weapon, good status chance, magazine is suitable, ammo-econ is good. Reload is annoying and Fire rate is too slow",
-      "rank": 21,
+      "rank": 23,
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Arca_Plasmor"
@@ -1792,7 +1792,7 @@
       "mr": 7,
       "name": "Argonak",
       "notes": "Average damage per bullet, high DPS, hitscan munition, manageable ammo econ. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies.",
-      "rank": 43,
+      "rank": 49,
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Argonak"
@@ -1804,7 +1804,7 @@
       "mr": 7,
       "name": "Astilla",
       "notes": "High damage hits, low ammo efficiency, shots shatter on hit dealing damage in front of impact. High status, decent crit. Annoying to efficiently handle",
-      "rank": 30,
+      "rank": 34,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Astilla"
@@ -1816,7 +1816,7 @@
       "mr": 0,
       "name": "Attica",
       "notes": "Average damage per arrow, high DPS, magazine is acceptable, ammo-econ is fantastic. Bad with High Caliber. †",
-      "rank": 42,
+      "rank": 48,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Attica"
@@ -1840,7 +1840,7 @@
       "mr": 2,
       "name": "Boar Prime",
       "notes": "Moderate damage per bullet, very high DPS, hitscan, status chance can reach 100%, magazine is tiny, ammo-econ is very bad.",
-      "rank": 33,
+      "rank": 37,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Boar_Prime"
@@ -1852,7 +1852,7 @@
       "mr": 2,
       "name": "Boltor Prime",
       "notes": "High damage per bullet, high DPS, projectile weapon, bad with punchthrough, ragdolls killed enemies, dealing damage along the path. Magazine is below average, ammo-econ is bad.",
-      "rank": 47,
+      "rank": 55,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Boltor_Prime"
@@ -1864,7 +1864,7 @@
       "mr": 0,
       "name": "Braton Prime",
       "notes": "Low upfront damage per bullet, average DPS, hitscan, layers status effects on enemies and deals high DPS through Slash procs",
-      "rank": 33,
+      "rank": 38,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Braton_Prime"
@@ -1876,7 +1876,7 @@
       "mr": 0,
       "name": "Burston Prime",
       "notes": "Poor damage per bullet, low DPS, hitscan, great status per burst, horrible ammo-econ and magazine",
-      "rank": 79,
+      "rank": 87,
       "tier": "Non-Viable",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Burston_Prime"
@@ -1888,7 +1888,7 @@
       "mr": 9,
       "name": "Buzlok",
       "notes": "Devastating DPS on a single target, high damage per Bullet. Projectile weapon, bad with punchthrough, Alt-fire fires a mark, increasing the damage output and critical chance of the Buzlok and attracting its bullets to the marked spot (no matter what you hit, does not mark terrain)",
-      "rank": 39,
+      "rank": 45,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Buzlok"
@@ -1900,7 +1900,7 @@
       "mr": 8,
       "name": "Cernos Prime",
       "notes": "High damage per arrow, does alright with High Caliber. Ammo-econ is good",
-      "rank": 67,
+      "rank": 75,
       "tier": "Viable",
       "type": "Arrow volley",
       "url": "http://warframe.wikia.com/wiki/Cernos_Prime"
@@ -1912,7 +1912,7 @@
       "mr": 3,
       "name": "Convectrix",
       "notes": "Average damage per bullet, average DPS, beam weapon, great with punchthrough, high status chance is devalued by beam. Limited to one status proc chance per beam. Procs a lot of slash. Magazine is good, ammo-econ is below average",
-      "rank": 83,
+      "rank": 91,
       "tier": "Non-Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Convectrix"
@@ -1924,7 +1924,7 @@
       "mr": 0,
       "name": "Daikyu",
       "notes": "High damage per arrow, bad with High Caliber. Slow draw time, ammo-econ is great",
-      "rank": 57,
+      "rank": 65,
       "tier": "Viable",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Daikyu"
@@ -1936,7 +1936,7 @@
       "mr": 4,
       "name": "Dera Vandal",
       "notes": "Average damage per bullet, average DPS, projectile weapon, bad with punchthrough, has great status chance, ammo-econ is bad",
-      "rank": 40,
+      "rank": 46,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Dera_Vandal"
@@ -1948,7 +1948,7 @@
       "mr": 0,
       "name": "Dex Sybaris",
       "notes": "Very high damage per bullet, average DPS, hitscan, headshots increase potential of this weapon, great gmmo-econ, small magazine but fast reload †",
-      "rank": 43,
+      "rank": 50,
       "tier": "Viable",
       "type": "2-Round burst",
       "url": "http://warframe.wikia.com/wiki/Dex_Sybaris"
@@ -1960,7 +1960,7 @@
       "mr": 3,
       "name": "Drakgoon",
       "notes": "Above average damage per bullet, projectile weapon, bad with punchthrough, has innate punchthrough on charged shots. Magazine is horrible, ammo-econ is horrible. No damage fall-off from range",
-      "rank": 68,
+      "rank": 76,
       "tier": "Viable",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Drakgoon"
@@ -1972,7 +1972,7 @@
       "mr": 0,
       "name": "Dread",
       "notes": "Amazing damage per arrow, bad with High Caliber. Average draw time, ammo-econ is great. Use with headshots.",
-      "rank": 17,
+      "rank": 19,
       "tier": "Top",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Dread"
@@ -1996,7 +1996,7 @@
       "mr": 6,
       "name": "Flux Rifle",
       "notes": "Average damage per bullet, average DPS, beam weapon, great with punchthrough, high status chance is devalued by beam. Limited to one status proc chance per second. Procs a great deal of Slash. Magazine is good, ammo-econ is bad",
-      "rank": 97,
+      "rank": 105,
       "tier": "Non-Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Flux_Rifle"
@@ -2008,7 +2008,7 @@
       "mr": 6,
       "name": "Glaxion",
       "notes": "Pathetic damage per bullet, average DPS, beam weapon, great with punchthrough, extreme status chance is devalued by beam. Limited to one status proc chance per second. Magazine is bad, ammo-econ is a joke",
-      "rank": 98,
+      "rank": 106,
       "tier": "Non-Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Glaxion"
@@ -2020,7 +2020,7 @@
       "mr": 3,
       "name": "Gorgon Wraith",
       "notes": "Low damage per bullet, average DPS, hitscan, fire rate spools-up as it fires, bad accuracy at full spool, status chance is high, magazine is pathetic, ammo-econ is very bad.",
-      "rank": 92,
+      "rank": 100,
       "tier": "Non-Viable",
       "type": "Spool-Up",
       "url": "http://warframe.wikia.com/wiki/Gorgon_Wraith"
@@ -2032,7 +2032,7 @@
       "mr": 5,
       "name": "Grinlok",
       "notes": "Very high damage per bullet, low DPS, hitscan, great status chance per shot, pathetic magazine, awkward firing animation can slow fire rate. Ammo-econ is great",
-      "rank": 84,
+      "rank": 92,
       "tier": "Non-Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Grinlok"
@@ -2044,7 +2044,7 @@
       "mr": 3,
       "name": "Harpak",
       "notes": "Very high damage per bullet, very high DPS, projectile weapon, bad with punchthrough, alt-fire drags a target to you while knocking them down. Magazine works, ammo-econ is average",
-      "rank": 44,
+      "rank": 51,
       "tier": "Viable",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Harpak"
@@ -2056,7 +2056,7 @@
       "mr": 7,
       "name": "Hema",
       "notes": "High damage per bullet, high DPS, projectile weapon, bad with punchthrough, heals on headshots, magazine is fine, ammo-econ is good",
-      "rank": 48,
+      "rank": 56,
       "tier": "Viable",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Hema"
@@ -2068,7 +2068,7 @@
       "mr": 0,
       "name": "Hind",
       "notes": "Low damage per bullet, low DPS, hitscan. Best built for status even with poor status chance. Magazine is fine, ammo-econ is horrible from how much ammo it takes to kill something",
-      "rank": 95,
+      "rank": 103,
       "tier": "Non-Viable",
       "type": "5-Round burst",
       "url": "http://warframe.wikia.com/wiki/Hind"
@@ -2080,7 +2080,7 @@
       "mr": 4,
       "name": "Ignis",
       "notes": "Acceptable damage per bullet, average DPS, beam weapon. Good with punchthrough and Heavy Caliber, everything hit explodes for AOE damage. Extreme status chance, which works despite beam. Magazine is slightly small for it's fire rate, ammo-econ is very bad",
-      "rank": 28,
+      "rank": 32,
       "tier": "Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Ignis"
@@ -2092,7 +2092,7 @@
       "mr": 6,
       "name": "Ignis Wraith",
       "notes": "High damage per bullet, high DPS, beam weapon. Great with punchthrough and Heavy Caliber, bullet impacts cause explosions that deal AOE damage. Extreme status chance, which works despite Beam. Magazine is slightly small, Ammo-econ is very bad",
-      "rank": 26,
+      "rank": 30,
       "tier": "Top",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Ignis_Wraith"
@@ -2104,7 +2104,7 @@
       "mr": 6,
       "name": "Javlok",
       "notes": "High damage per bullet, very high DPS, projectile weapon, inefficient with Heavy Caliber, fast charge time, amazing ammo-econ, horrible magazine. Alt-fire launches explosion, dealing damage per shot in the magazine",
-      "rank": 58,
+      "rank": 66,
       "tier": "Viable",
       "type": "Charge shot",
       "url": "http://warframe.wikia.com/wiki/Javlok"
@@ -2116,7 +2116,7 @@
       "mr": 0,
       "name": "Karak Wraith",
       "notes": "Average damage per bullet, average DPS, hitscan, great status chance, magazine is fine, ammo-econ is below average.",
-      "rank": 59,
+      "rank": 67,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Karak_Wraith"
@@ -2152,7 +2152,7 @@
       "mr": 0,
       "name": "Latron Prime",
       "notes": "High damage per bullet, High DPS, hitscan, acceptable status chance, magazine is fine, ammo-econ is good. †",
-      "rank": 56,
+      "rank": 64,
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Latron_Prime"
@@ -2164,7 +2164,7 @@
       "mr": 0,
       "name": "Latron Wraith",
       "notes": "High damage per bullet, random DPS, hitscan, acceptable status chance, magazine is fine, ammo-econ is good. Terrible critical chance. Bad against armor and shields",
-      "rank": 77,
+      "rank": 85,
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Latron_Wraith"
@@ -2176,7 +2176,7 @@
       "mr": 8,
       "name": "Lenz",
       "notes": "Very high damage per arrow, arrows proc 100% Impact, pulse procs 100% Cold, most damage is Blast. Great with High Caliber. Ammo-econ is alright, has innate Ammo Mutation. Low rate of fire. †",
-      "rank": 19,
+      "rank": 21,
       "tier": "Top",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Lenz"
@@ -2188,7 +2188,7 @@
       "mr": 4,
       "name": "Miter",
       "notes": "High damage per sawblade, projectile weapon, status chance easily reaches 100%. Magazine is good, ammo-econ is good. Bleeds make up damage",
-      "rank": 41,
+      "rank": 47,
       "tier": "Viable",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Miter"
@@ -2200,7 +2200,7 @@
       "mr": 5,
       "name": "Mutalist Cernos",
       "notes": "Low damage per arrow, *arrows are followed by cloud trail, can reach 100% status chance. Clouds proc status conditions.",
-      "rank": 53,
+      "rank": 61,
       "tier": "Viable",
       "type": "Charge Shot*",
       "url": "http://warframe.wikia.com/wiki/Mutalist_Cernos"
@@ -2212,7 +2212,7 @@
       "mr": 2,
       "name": "Mutalist Quanta",
       "notes": "Average damage per bullet, high DPS, projectile weapon, ineffective with punchthrough, acceptable magazine, ammo-econ is poor. Alt-fire shoots an orb that procs enemies who come in contact and buffs ally shots that pass through with vastly increased critical damage.",
-      "rank": 72,
+      "rank": 80,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Mutalist_Quanta"
@@ -2224,7 +2224,7 @@
       "mr": 6,
       "name": "Ogris",
       "notes": "High damage per rocket, projectile weapon, terrible with punchthrough and High Caliber. Augment gives very powerful crowd control. Able to reach 100% status chance (applies per explosion target), magazine is fine, ammo-econ is below average",
-      "rank": 66,
+      "rank": 74,
       "tier": "Viable",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Ogris"
@@ -2248,7 +2248,7 @@
       "mr": 4,
       "name": "Panthera",
       "notes": "High damage per sawblade, average DPS for chainsaw. Projectile weapon, bad with punchthrough, magazine is small, ammo-econ is bad",
-      "rank": 85,
+      "rank": 93,
       "tier": "Non-Viable",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Panthera"
@@ -2260,7 +2260,7 @@
       "mr": 2,
       "name": "Paracyst",
       "notes": "High damage per bullet, high DPS, projectile weapon, ineffective punchthrough, magazine is low, ammo-econ is fine. Alt-fire pulls a target while knocking them down",
-      "rank": 73,
+      "rank": 81,
       "tier": "Viable",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Paracyst"
@@ -2272,7 +2272,7 @@
       "mr": 4,
       "name": "Paris Prime",
       "notes": "High damage per arrow, bad with High Caliber. Ammo-Econ is great. Bad against shields and armor",
-      "rank": 78,
+      "rank": 86,
       "tier": "Viable",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Paris_Prime"
@@ -2284,7 +2284,7 @@
       "mr": 6,
       "name": "Phage",
       "notes": "High damage per bullet, beam weapon, great with punchthrough, good status chance is devalued by beam. Limited to one status proc chance per beam. Magazine is wonderful, ammo-econ is outstanding",
-      "rank": 60,
+      "rank": 68,
       "tier": "Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Phage"
@@ -2296,7 +2296,7 @@
       "mr": 3,
       "name": "Prisma Gorgon",
       "notes": "Low damage per bullet, average DPS, hitscan, fire rate spools-up as it fires, bad accuracy at full spool, magazine is terrible, ammo-econ is very bad.",
-      "rank": 91,
+      "rank": 99,
       "tier": "Non-Viable",
       "type": "Spool-Up",
       "url": "http://warframe.wikia.com/wiki/Prisma_Gorgon"
@@ -2320,7 +2320,7 @@
       "mr": 4,
       "name": "Prisma Tetra",
       "notes": "Low damage per bullet, low DPS, projectile weapon, bad with punchthrough, best built for status even with poor status chance, magazine is fine, ammo-econ is horrible from how much ammo it takes to kill something",
-      "rank": 93,
+      "rank": 101,
       "tier": "Non-Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Tetra"
@@ -2332,7 +2332,7 @@
       "mr": 4,
       "name": "Quanta Vandal",
       "notes": "Very high damage per bullet, average DPS, beam weapon, good with punchthrough, magazine is fine, ammo-econ varies. Alt-fire shoots an explosive cube for 5 ammo, when shot by the main-fire these cubes explode for High damage in an area. Status build loses little damage, can be built that way no problem",
-      "rank": 29,
+      "rank": 33,
       "tier": "Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Quanta_Vandal"
@@ -2356,7 +2356,7 @@
       "mr": 5,
       "name": "Rubico",
       "notes": "High crit damage; gimped by reload speed. Scoping increases crit damage by 35%/50%",
-      "rank": 16,
+      "rank": 18,
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Rubico"
@@ -2380,7 +2380,7 @@
       "mr": 6,
       "name": "Scourge",
       "notes": "High damage per bullet, average DPS, projectile weapon, ineffective punchthrough, alt-fire knocks down enemies and applies a debuff, attracting all nearby bullets to the enemy's head. Magazine is a bit small, ammo-econ is terrible",
-      "rank": 75,
+      "rank": 83,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Scourge"
@@ -2392,7 +2392,7 @@
       "mr": 12,
       "name": "Secura Penta",
       "notes": "Low damage per bullet, high damage per explosion, projectile weapon, bad with punchthrough. Multishot is low value on this weapon. Magazine is low, ammo-econ is average",
-      "rank": 71,
+      "rank": 79,
       "tier": "Viable",
       "type": "Remote Detonate",
       "url": "http://warframe.wikia.com/wiki/Secura_Penta"
@@ -2404,7 +2404,7 @@
       "mr": 0,
       "name": "Snipetron Vandal",
       "notes": "Low damage, high recoil. Scoping increases dmg by 15%/20%",
-      "rank": 65,
+      "rank": 73,
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Snipetron_Vandal"
@@ -2416,7 +2416,7 @@
       "mr": 4,
       "name": "Sobek",
       "notes": "Average damage per bullet, hitscan, high status chance, magazine is acceptable, ammo-econ is very bad, reload is horrible. Augmented, it causes enemies to explode for damage based on their maximum health",
-      "rank": 34,
+      "rank": 39,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Sobek"
@@ -2440,7 +2440,7 @@
       "mr": 8,
       "name": "Stradavar (Alt fire)",
       "notes": "Average damage per bullet, below average DPS, hitscan, Heavy Caliber causes aiming problems. Magazine size is great, ammo-econ is fantastic",
-      "rank": 86,
+      "rank": 94,
       "tier": "Non-Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Stradavar"
@@ -2452,7 +2452,7 @@
       "mr": 8,
       "name": "Stradavar (Primary Fire)",
       "notes": "Acceptable damage per bullet, average DPS, hitscan. Needs Heavy Caliber, magazine is slightly small, ammo-econ is very bad",
-      "rank": 82,
+      "rank": 90,
       "tier": "Non-Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Stradavar"
@@ -2464,7 +2464,7 @@
       "mr": 1,
       "name": "Strun Wraith",
       "notes": "Average damage per bullet, hitscan, status chance can reach 100%, magazine is good, ammo-econ is good, can partially reload and fire.",
-      "rank": 64,
+      "rank": 72,
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Strun_Wraith"
@@ -2476,7 +2476,7 @@
       "mr": 10,
       "name": "Supra Vandal",
       "notes": "High damage per bullet, very high DPS, projectile weapon, bad with punchthrough, gigantic magazine. Ammo-econ is poor at best, and horrible if you waste shots. Augment provides tons of status chance",
-      "rank": 14,
+      "rank": 16,
       "tier": "Top",
       "type": "Spool-Up",
       "url": "http://warframe.wikia.com/wiki/Supra_Vandal"
@@ -2500,7 +2500,7 @@
       "mr": 6,
       "name": "Synapse",
       "notes": "Terrible damage per bullet, low DPS, beam weapon, great with punchthrough, magazine is horrible, ammo-econ is horrible as well",
-      "rank": 94,
+      "rank": 102,
       "tier": "Non-Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Synapse"
@@ -2512,7 +2512,7 @@
       "mr": 12,
       "name": "Synoid Simulor",
       "notes": "Average damage per bullet, deals damage in a small AOE when two orbs combine, detonating deals high damage in a larger area. Poor magazine, Ammo-econ is bad. Other mods outclass multishot or punchthrough on this wep. *Odd handling; high damage potential when used well",
-      "rank": 80,
+      "rank": 88,
       "tier": "Non-Viable",
       "type": "Special*",
       "url": "http://warframe.wikia.com/wiki/Synoid_Simulor"
@@ -2548,7 +2548,7 @@
       "mr": 4,
       "name": "Tiberon",
       "notes": "High damage per bullet, high DPS, hitscan, magazine is manageable it's fire rate, ammo-econ is manageable. All hail the new king of burst rifles.",
-      "rank": 23,
+      "rank": 25,
       "tier": "Top",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Tiberon"
@@ -2572,7 +2572,7 @@
       "mr": 5,
       "name": "Tonkor",
       "notes": "Amazing damage per bullet, crazy damage per explosion, ballistic-projectile weapon. Punchthrough will suicide, magazine is acceptable, ammo-econ is great. Grenades bounce, Adhesive Blast is useful. Hard to handle",
-      "rank": 35,
+      "rank": 41,
       "tier": "Viable",
       "type": "AOE explosion",
       "url": "http://warframe.wikia.com/wiki/Tonkor"
@@ -2584,7 +2584,7 @@
       "mr": 4,
       "name": "Torid",
       "notes": "Very low damage per bullet, low DOT for 10 seconds. Each tick has status chance. Best status chance in Launchers, bad with punchthrough. Magazine is low, ammo-econ is pretty bad",
-      "rank": 88,
+      "rank": 96,
       "tier": "Non-Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Torid"
@@ -2596,7 +2596,7 @@
       "mr": 12,
       "name": "Vaykor Hek",
       "notes": "Very high damage per bullet, hitscan, high status chance, magazine is large, ammo-econ is good. Slightly worse without Primed critical mods. †",
-      "rank": 18,
+      "rank": 20,
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Vaykor_Hek"
@@ -2608,7 +2608,7 @@
       "mr": 3,
       "name": "Vectis Prime",
       "notes": "Double clip size of base and higher damage. Using Depleted Reload, clip is the same as base but reload speed is .25s. Scoping increases headshot damage by 15%/20% †",
-      "rank": 20,
+      "rank": 22,
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Vectis_Prime"
@@ -2620,7 +2620,7 @@
       "mr": 0,
       "name": "Vulkar Wraith",
       "notes": "Low crit chance. Scoping increases damage by 5%/15%/20%. Longest sniper combo reset time. Base is strictly worse. †",
-      "rank": 23,
+      "rank": 26,
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Vulkar_Wraith"
@@ -2632,7 +2632,7 @@
       "mr": 7,
       "name": "Zarr",
       "notes": "High damage per bullet, average damage per explosion, ballistic-projectile weapon, punchthrough is not useful. Magazine is fine. Ammo-econ is good",
-      "rank": 24,
+      "rank": 27,
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Zarr"
@@ -2644,7 +2644,7 @@
       "mr": "",
       "name": "Zenith",
       "notes": "Low damage per bullet, average DPS, hitscan, outstanding status chance, ignore alt-fire, magazine is good, ammo-econ is poor",
-      "rank": 32,
+      "rank": 36,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Zenith"
@@ -2656,7 +2656,7 @@
       "mr": 0,
       "name": "Zhuge",
       "notes": "Average damage per arrow, high DPS, magazine is acceptable, ammo-econ is fantastic. Status chance is very high, bad with High Caliber",
-      "rank": 69,
+      "rank": 77,
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Zhuge"
@@ -2668,7 +2668,7 @@
       "category": "Rifle",
       "dmg": "Critical/Status",
       "notes": "Very high damage per bullet, average DPS due to low effective fire rate, hitscan, eadshots greatly increase damage output, may have ammo issues especially when every trigger pull expends 4 shots anyway †",
-      "rank": 22,
+      "rank": 24,
       "tier": "Top",
       "type": "4-Round burst"
     },
@@ -3548,5 +3548,5 @@
       "text": "Check the FAQ at the bottom of the page for more information on Hunter Munitions in rankings!"
     }
   },
-  "version": "22.8 Quartakk and Stubba"
+  "version": "22.13.4 Primary and Secondary rebalance"
 }
