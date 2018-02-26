@@ -1785,26 +1785,14 @@
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Arca_Plasmor"
     },
-    "Argonak (Alt Fire)": {
-      "base": "",
-      "category": "Rifle",
-      "dmg": "Critical/Status",
-      "mr": "",
-      "name": "Argonak (Alt Fire)",
-      "notes": "Very high damage per bullet, projectile weapon with innate punchthrough, good status chance, magazine is suitable, ammo-econ is good. Reload is annoying and fire rate is too slow. Reduced crit in full-auto mode.",
-      "rank": 38,
-      "tier": "Viable",
-      "type": "Full-auto",
-      "url": "http://warframe.wikia.com/wiki/Argonak"
-    },
     "Argonak (Primary Fire)": {
       "base": "",
       "category": "Rifle",
       "dmg": "Critical",
-      "mr": "",
-      "name": "Argonak (Primary Fire)",
-      "notes": "Very high damage per bullet, projectile weapon with innate punchthrough, good status chance, magazine is suitable, ammo-econ is good. Reload is annoying and fire rate is too slow. Critical build requires headshots and expensive mods, raw damage build deals slightly less damage",
-      "rank": 52,
+      "mr": "7",
+      "name": "Argonak",
+      "notes": "Average damage per bullet, high DPS, hitscan munition, manageable ammo econ. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies.",
+      "rank": "43",
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Argonak"
