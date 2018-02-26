@@ -1789,10 +1789,10 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Critical",
-      "mr": "7",
+      "mr": 7,
       "name": "Argonak",
       "notes": "Average damage per bullet, high DPS, hitscan munition, manageable ammo econ. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies.",
-      "rank": "43",
+      "rank": 43,
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Argonak"
