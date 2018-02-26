@@ -1877,7 +1877,7 @@
       "name": "Burston Prime",
       "notes": "Low damage per bullet, high DPS, hitscan munition, manageable ammo econ. Gilded Truth (Arbiters of Hexis) increases fire rate and provide Truth effect (Gas, health, parkour). ",
       "rank": 51,
-      "tier": "Non-Viable",
+      "tier": "Viable",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Burston_Prime"
     },
@@ -1913,7 +1913,7 @@
       "name": "Convectrix",
       "notes": "Very low damage per beam, very high DPS, beam munition, manageable ammo econ. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Only use alt fire to apply status effects against a crowd due to beam coding (ramp-up per enemy). Can utilize punchthrough, but probably no slot. Riven disposition is relatively high for DPS potential. ",
       "rank": 30,
-      "tier": "Non-Viable",
+      "tier": "Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Convectrix"
     },
@@ -2345,7 +2345,7 @@
       "name": "Scourge",
       "notes": "Low damage per projectile, acceptable DPS, hitscan munition, manageable ammo econ. Alt fire creates a localized bullet attractor field on nearby enemies' head. ",
       "rank": 63,
-      "tier": "Non-Viable",
+      "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Scourge"
     },
@@ -2537,7 +2537,7 @@
       "name": "Torid",
       "notes": "Average damage per thing, acceptable DPS, projectile munition, manageable ammo econ. Thing fired stick on surfaces/targets and continue to emit gas that deals damage and causes status effects. ",
       "rank": 64,
-      "tier": "Non-Viable",
+      "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Torid"
     },
