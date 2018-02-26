@@ -118,7 +118,7 @@
       "name": "Onorix",
       "notes": "A critical weapon with a sad 1.3x multiplier. Second worst archmelee by far. Still an upgrade to the Veritux",
       "rank": 6,
-      "tier": "Non-viable",
+      "tier": "Non-Viable",
       "url": "http://warframe.wikia.com/wiki/Onorix",
       "use": "Critical"
     },
@@ -1877,7 +1877,7 @@
       "name": "Burston Prime",
       "notes": "Low damage per bullet, high DPS, hitscan munition, manageable ammo econ. Gilded Truth (Arbiters of Hexis) increases fire rate and provide Truth effect (Gas, health, parkour). ",
       "rank": 51,
-      "tier": "Non-Viable",
+      "tier": "Viable",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Burston_Prime"
     },
@@ -1913,7 +1913,7 @@
       "name": "Convectrix",
       "notes": "Very low damage per beam, very high DPS, beam munition, manageable ammo econ. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Only use alt fire to apply status effects against a crowd due to beam coding (ramp-up per enemy). Can utilize punchthrough, but probably no slot. Riven disposition is relatively high for DPS potential. ",
       "rank": 30,
-      "tier": "Non-Viable",
+      "tier": "Viable",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Convectrix"
     },
@@ -1949,7 +1949,7 @@
       "name": "Drakgoon",
       "notes": "High damage per shell, poor DPS, projectile munition, manageable ammo econ. ",
       "rank": 70,
-      "tier": "Non-viable",
+      "tier": "Non-Viable",
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Drakgoon"
     },
@@ -2345,7 +2345,7 @@
       "name": "Scourge",
       "notes": "Low damage per projectile, acceptable DPS, hitscan munition, manageable ammo econ. Alt fire creates a localized bullet attractor field on nearby enemies' head. ",
       "rank": 63,
-      "tier": "Non-viable",
+      "tier": "Non-Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Scourge"
     },
@@ -2357,7 +2357,7 @@
       "name": "Secura Penta",
       "notes": "High damage per grenade, poor DPS, projectile munition, manageable ammo econ. ",
       "rank": 71,
-      "tier": "Non-viable",
+      "tier": "Non-Viable",
       "type": "Remote Detonate",
       "url": "http://warframe.wikia.com/wiki/Secura_Penta"
     },
@@ -2525,7 +2525,7 @@
       "name": "Tonkor",
       "notes": "Average damage per grenade, poor DPS, projectile munition, great ammo econ. Grenades can cause self damage. ",
       "rank": 68,
-      "tier": "Non-viable",
+      "tier": "Non-Viable",
       "type": "AOE explosion",
       "url": "http://warframe.wikia.com/wiki/Tonkor"
     },
@@ -3500,5 +3500,5 @@
       "text": "Check the FAQ at the bottom of the page for more information on Hunter Munitions in rankings!"
     }
   },
-  "version": "22.13.4 Primaries rebalance"
+  "version": "22.8 Quartakk and Stubba"
 }
