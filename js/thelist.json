@@ -1848,7 +1848,7 @@
     "Boltor Prime": {
       "base": "Vanilla is low Viable",
       "category": "Rifle",
-      "dmg": "Raw Damage",
+      "dmg": "Status",
       "mr": 13,
       "name": "Boltor Prime",
       "notes": "Low damage per bolt, very hgh DPS, projetile munition, worrying ammo econ. Uses Hunter Munitions. ",
@@ -1971,7 +1971,7 @@
       "dmg": "Critical/Status",
       "mr": 14,
       "name": "Ferrox",
-      "notes": "Insane damage per projectile, monstrous DPS, projectile munition, good ammo econ. Munition shot the moment it is fully charged. Alt fire should be used to reduce reliance on primary weapons. Uses Hunter Munitions. ",
+      "notes": "Insane damage per projectile, monstrous DPS, secretly hitscan munition, good ammo econ. Munition shot the moment it is fully charged. Alt fire should be used to reduce reliance on primary weapons. Uses Hunter Munitions. ",
       "rank": 19,
       "tier": "Viable",
       "type": "Charge Shot",
@@ -2109,7 +2109,7 @@
       "type": "Spool-Up",
       "url": "http://warframe.wikia.com/wiki/Kohm"
     },
-   "Lanka": {
+    "Lanka": {
       "base": "",
       "category": "Sniper Rifle",
       "dmg": "Critical/Status",
@@ -2175,7 +2175,7 @@
       "dmg": "Status",
       "mr": 2,
       "name": "Mutalist Quanta",
-      "notes": "Very low damage per projectile, poor DPS, projectile munition, manageable ammo econ. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical multiplier. ",
+      "notes": "Very low damage per projectile, poor DPS, projectile munition, manageable ammo econ. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. ",
       "rank": 65,
       "tier": "Viable",
       "type": "Full-auto",
@@ -2247,7 +2247,7 @@
       "dmg": "Raw Damage",
       "mr": 11,
       "name": "Phage",
-      "notes": "Very low damage per touch, insane DPS, tentacle munition, tickling ammo econ. Scoping narrows down the beam to a single point. Uses Hunter Munitions. Can use Heavy Caliber without significant loss. Can utilize punchthrough, but probably no slot. Riven disposition is relatively high for DPS potential. ",
+      "notes": "Very low damage per touch, insane DPS, tentacle munition, tickling ammo econ. Scoping narrows down the beam to a single point. Uses Hunter Munitions. Can utilize punchthrough, but probably no slot. Riven disposition is relatively high for DPS potential.",
       "rank": 8,
       "tier": "Top",
       "type": "Beam",
@@ -2292,7 +2292,7 @@
     "Quanta Vandal": {
       "base": "Vanilla is Viable tier",
       "category": "Rifle",
-      "dmg": "Raw Damage",
+      "dmg": "Critical/Status",
       "mr": 10,
       "name": "Quanta Vandal",
       "notes": "Low damage per beam, insane DPS, beam munition, acceptable ammo econ. Could do with punchthrough but build is tight as it is. Alt fire useful to learn Euclidean geometry. Uses Hunter Munitions. Can use Heavy Calibre without significant loss. Can utilize punchthrough, but probably no slot. ",
@@ -2472,7 +2472,7 @@
     "Telos Boltor": {
       "base": "Vanilla is low Viable",
       "category": "Rifle",
-      "dmg": "Crit/Status",
+      "dmg": "Critical/Status",
       "mr": 12,
       "name": "Telos Boltor",
       "notes": "Mediocre damage per bolt, insane DPS, projectile munition, manageable ammo econ. Truth (Corrosive, health) syndicate proc is helpful at times. Uses Hunter Munitions. ",
