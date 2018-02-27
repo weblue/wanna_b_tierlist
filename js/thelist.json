@@ -3473,6 +3473,10 @@
     }
   },
   "Tiers": {
+    "Test": {
+      "name": "Testrankplsignore",
+      "rank": 5
+    },    
     "NonViable": {
       "name": "Non-Viable",
       "rank": 3
