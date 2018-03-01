@@ -3476,7 +3476,7 @@
     "Test": {
       "name": "Testrankplsignore",
       "rank": 5
-    },    
+    },
     "NonViable": {
       "name": "Non-Viable",
       "rank": 3
@@ -3504,5 +3504,15 @@
       "text": "Primary weapons have been completely revamped. Please be patient for the secondary weapons revamp."
     }
   },
+    "faq": {
+        "hm": {
+            "name": "hm",
+            "text": "† indicates a weapon that significantly improves when used with Hunter Munitions"
+        },
+        "rivens": {
+            "name": "rivens",
+            "text": "Rivens are not factored into these rankings."
+        }
+    },
   "version": "22.13.4 Primary and Secondary rebalance"
 }

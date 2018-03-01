@@ -75,6 +75,10 @@ app.controller("TierListController", function TierListController ($scope) {
         return element;
     });
 
+    $scope.faq = $.map(database.faq, function(element) {
+        return element;
+    });
+
     $('.loadingScreen').addClass("fadeOut");
 
     setTimeout(function () {

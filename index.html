@@ -404,9 +404,9 @@
     <div class="container">
         <div class="row">
             <h2>FAQ</h2>
-            <p>† indicates a weapon that significantly improves when used with <b>Hunter Munitions</b></p>
-            <br>
-            <p>Rivens are not factored into these rankings.</p>
+            <ul>
+                <li ng-repeat="item in faq">{(item.text)}</li>
+            </ul>
         </div>
     </div>
 
