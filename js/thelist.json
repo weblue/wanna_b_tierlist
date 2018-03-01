@@ -2244,7 +2244,7 @@
     "Phage": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Raw Damage",
+      "dmg": "Critical",
       "mr": 11,
       "name": "Phage",
       "notes": "Very low damage per touch, insane DPS, tentacle munition, tickling ammo econ. Scoping narrows down the beam to a single point. Uses Hunter Munitions. Can utilize punchthrough, but probably no slot. Riven disposition is relatively high for DPS potential.",
