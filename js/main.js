@@ -1,11 +1,12 @@
+//TODO better filters
+//TODO add more columns
+//TODO add on hover information
 let database;
 
 $.ajax({
     type: 'GET',
     dataType: 'application/json',
     async: false,
-    //Change these when debugging
-    // url: 'http://localhost:63343/TierlistTemplate/js/thelist.json',
     url: './js/thelist.json',
     complete: function(data) {
         database = JSON.parse(data.responseText);
