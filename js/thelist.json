@@ -1764,10 +1764,10 @@
     "Amprex": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Amprex",
-      "notes": "Low damage per beam, insane DPS, beam munition, acceptable ammo econ. Beam chains to nearby enemies giving it decent AOE.",
+      "notes": "Low damage per beam, insane DPS, beam munition, acceptable ammo econ. Beam chains to nearby enemies giving it decent AOE. † * $ ^",
       "rank": 39,
       "tier": "Top",
       "type": "Beam",
@@ -1776,7 +1776,7 @@
     "Arca Plasmor": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Arca Plasmor",
       "notes": "High damage per slug, monstrous DPS, projectile munition, acceptable ammo econ. Single pellet is wide with punchthrough and therefore can act as \"AOE\" and reliably proc status effects. Does not have a headshot multiplier. †",
@@ -1788,7 +1788,7 @@
     "Argonak (Primary Fire)": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 7,
       "name": "Argonak",
       "notes": "Average damage per bullet, high DPS, hitscan munition, manageable ammo econ. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies. † ",
@@ -1800,7 +1800,7 @@
     "Astilla": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Astilla",
       "notes": "Moderate damage per slug, monstrous DPS, projectile munition, worrying ammo econ. Has a small AOE upon impact. † ^ ",
@@ -1812,7 +1812,7 @@
     "Attica": {
       "base": "",
       "category": "Bow",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 7,
       "name": "Attica",
       "notes": "Average damage per arrow, very high DPS, projectile munition, manageable ammo econ. † ^ ",
@@ -1824,7 +1824,7 @@
     "Baza": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 7,
       "name": "Baza",
       "notes": "Low damage per bullet, insane DPS, hitscan munition, manageable ammo econ. Completely silent but has damage falloff similar to shotguns. † * ^ ",
@@ -1884,7 +1884,7 @@
     "Buzlok": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 57,
       "name": "Buzlok",
       "notes": "Mediocre damage per projectile, monstrous DPS, projectile munition, manageable ammo econ. Alt fire launches tracer beacon which gives additive 50% Crit Chance (20 seconds) that remain active even the target is dead. Has insane DPS potential but difficult to attain and is unreliable. † * $ ^ ",
@@ -1896,7 +1896,7 @@
     "Cernos Prime": {
       "base": "",
       "category": "Bow",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 12,
       "name": "Cernos Prime",
       "notes": "Very high damage per arrow, very high DPS, projectile munition, good ammo econ. Alt fire toggles firing pattern between horizontal and vertical (+50% headshot damage). † ",
@@ -1968,7 +1968,7 @@
     "Ferrox": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 14,
       "name": "Ferrox",
       "notes": "Insane damage per projectile, monstrous DPS, secretly hitscan munition, good ammo econ. Munition shot the moment it is fully charged. Alt fire should be used to reduce reliance on primary weapons. † ",
@@ -2112,7 +2112,7 @@
     "Lanka": {
       "base": "",
       "category": "Sniper Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Lanka",
       "notes": "Very high damage per projectile, insane DPS, projectile munition, good ammo econ. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to Crit Chance (20%/30%/50%). † * ^ ",
@@ -2136,7 +2136,7 @@
     "Lenz": {
       "base": "",
       "category": "Bow",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 8,
       "name": "Lenz",
       "notes": "Average damage per on direct hit but subsequent explosion is massive damage per arrow, insane DPS, arrow munition, ammo capacity is very low but has small innate ammo mutation. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. † * ^ ",
@@ -2232,7 +2232,7 @@
     "Paris Prime": {
       "base": "",
       "category": "Bow",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 8,
       "name": "Paris Prime",
       "notes": "Very high damage per arrow, high DPS, projectile munition, manageable ammo econ. ",
@@ -2244,7 +2244,7 @@
     "Phage": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 11,
       "name": "Phage",
       "notes": "Very low damage per touch, insane DPS, tentacle munition, tickling ammo econ. Scoping narrows down the beam to a single point. † $ ^",
@@ -2256,7 +2256,7 @@
     "Prisma Gorgon": {
       "base": "Vanilla is low Non-Viable",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 11,
       "name": "Prisma Gorgon",
       "notes": "Low damage per bullet, insane DPS, hitscan munition, manageable ammo econ. Roll for recoil reduction in riven. † ^ ",
@@ -2304,7 +2304,7 @@
     "Rakta Cernos": {
       "base": "",
       "category": "Bow",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 12,
       "name": "Rakta Cernos",
       "notes": "High damage per arrow, very high DPS, projectile munition, good ammo econ. Good syndicate proc (Viral + energy restore) but doesn't do much for DPS since effective fire-rate for bows are low. † ",
@@ -2364,7 +2364,7 @@
     "Snipetron Vandal": {
       "base": "Vanilla is Non-Viable",
       "category": "Sniper Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 5,
       "name": "Snipetron Vandal",
       "notes": "Decent damage per bullet, insane DPS, hitscan munition, good ammo econ. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). † ^ ",
@@ -2388,7 +2388,7 @@
     "Soma Prime": {
       "base": "Vanilla is Viable tier",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 6,
       "name": "Soma Prime",
       "notes": "Very low damage per bullet, monstrous DPS, hitscan munition, manageable ammo econ. Best paired with Frost Prime and Scindo Prime. † ",
@@ -2400,7 +2400,7 @@
     "Stradavar (Primary Fire)": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 8,
       "name": "Stradavar",
       "notes": "Low damage per bullet, very high DPS, hitscan munition, acceptable ammo econ. Can alternate between semi-auto (better DPS) and full-auto (useful for breaking nullifier bubbles). ",
@@ -2448,7 +2448,7 @@
     "Synapse": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 11,
       "name": "Synapse",
       "notes": "Low damage per beam, insane DPS, beam munition, acceptable ammo econ. † * $ ^ ",
@@ -2472,7 +2472,7 @@
     "Telos Boltor": {
       "base": "Vanilla is low Viable",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 12,
       "name": "Telos Boltor",
       "notes": "Mediocre damage per bolt, insane DPS, projectile munition, manageable ammo econ. Truth (Gas, health, parkour) syndicate proc is helpful at times. † ",
@@ -2484,7 +2484,7 @@
     "Tenora": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Tenora",
       "notes": "Low damage per bullet, insane DPS, hitscan munition, dainty ammo econ. Has a decent alt-fire that can be used to take down medium units quickly. Light units and heavy units should still be dealth with using primary fire. † * ",
@@ -2496,7 +2496,7 @@
     "Tiberon": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Tiberon",
       "notes": "Low damage per bullet, very high DPS, hitscan munition, acceptable ammo econ. Three-round burst is wasteful at times. † ^ ",
@@ -2544,7 +2544,7 @@
     "Vaykor Hek": {
       "base": "Base version is only slightly worse. ",
       "category": "Shotgun",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 12,
       "name": "Vaykor Hek",
       "notes": "High damage per shell, very high DPS, hitscan munition, acceptable ammo econ. Justice (Blast, Health, Armor) effects can be useful. ",
@@ -2556,7 +2556,7 @@
     "Vectis Prime": {
       "base": "Vanilla is Viable",
       "category": "Sniper Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 14,
       "name": "Vectis Prime",
       "notes": "High damage per bullet, insane DPS, hitscan munition, good ammo econ. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (35%/55%). † ^ ",
@@ -2604,7 +2604,7 @@
     "Zhuge": {
       "base": "",
       "category": "Bow",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "mr": 10,
       "name": "Zhuge",
       "notes": "Average damage per arrow, very high DPS, projectile munition, manageable ammo econ. † ",
@@ -2618,7 +2618,7 @@
       "url": "http://warframe.wikia.com/wiki/Quartakk",
       "mr": 9,
       "category": "Rifle",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "notes": "Very low damage per bullet, monstrous DPS, hitscan munition, manageable ammo econ. Four-shot burst is wasteful at times. † ^ ",
       "rank": 59,
       "tier": "Viable",
@@ -2629,7 +2629,7 @@
       "url": "http://warframe.wikia.com/wiki/Corinth",
       "mr": 10,
       "category": "Shotgun",
-      "dmg": "Critical (Hunter Munitions)",
+      "dmg": "Critical",
       "notes": "Very high damage per shell, insane DPS, hitscan munition, good ammo econ. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Reload should be done when clip is empty as there is a delay between reloading and firing, but the gains should be minimal. † ",
       "rank": 55,
       "tier": "Top",
@@ -3517,11 +3517,11 @@
       "name": "punchthrough",
       "text": "$ indicates a weapon that can utilize punchthrough, but would probably not have the slot for it."
     },
-	"dispo": {
+    "dispo": {
       "name": "disposition",
       "text": "^ indicates a weapon that has an unusually high riven disposition for its rank."
     },
-	"riven": {
+    "riven": {
       "name": "riven",
       "text": "All weapons are tested and therefore ranked without using riven mods."
     }
