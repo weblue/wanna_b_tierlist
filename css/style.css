@@ -56,8 +56,6 @@ a {
     color: rgba(0, 0, 0, 0.8);
     background: #F3F3F3 none;
     opacity: 1;
-    padding-right: 40px;
-    padding-left: 40px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
