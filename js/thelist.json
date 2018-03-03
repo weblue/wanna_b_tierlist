@@ -3512,7 +3512,7 @@
     "hc": {
       "name": "heavycal",
       "text": "* indicates a weapon that can utilize Heavy Caliber without significant loss."
-    }
+    },
     "pt": {
       "name": "punchthrough",
       "text": "$ indicates a weapon that can utilize punchthrough, but would probably not have the slot for it."
