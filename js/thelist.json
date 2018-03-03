@@ -1836,7 +1836,7 @@
     "Boar Prime": {
       "base": "Vanilla is Non-Viable",
       "category": "Shotgun",
-      "dmg": "	Status",
+      "dmg": "Status",
       "mr": 11,
       "name": "Boar Prime",
       "notes": "Average damage per shell, monstrous DPS, hitscan munitions, bad ammo econ. Required to mod for 100% status chance. ^ ",
