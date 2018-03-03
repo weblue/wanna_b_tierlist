@@ -3520,11 +3520,11 @@
 	"dispo": {
       "name": "disposition",
       "text": "^ indicates a weapon that has an unusually high riven disposition for its rank."
-    },	
+    },
 	"riven": {
       "name": "riven",
       "text": "All weapons are tested and therefore ranked without using riven mods."
-    },
+    }
   },
   "version": "22.13.4 Primary and Secondary rebalance"
 }
