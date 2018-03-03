@@ -3472,7 +3472,7 @@
       "use": "Critical/Status"
     }
   },
-  "Tiers": {
+  "Tiers": { 
     "NonViable": {
       "name": "Non-Viable",
       "rank": 3

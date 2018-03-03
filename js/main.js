@@ -1,6 +1,9 @@
 //TODO better filters
 //TODO add more columns
 //TODO add on hover information
+//TODO Change background
+//TODO domain name
+
 let database;
 
 $.ajax({
