@@ -2511,9 +2511,9 @@
       "dmg": "Status",
       "mr": 13,
       "name": "Tigris Prime",
-      "notes": "Insane damage per shell, monstrous DPS, hitscan munition, great ammo econ. Duplex trigger might take a while to get used to. Required to mod for 100% status chance. ",
-      "rank": 57,
-      "tier": "Viable",
+      "notes": "Insane damage per shell, insane DPS, hitscan munition, great ammo econ. Duplex trigger might take a while to get used to. Required to mod for 100% status chance. ",
+      "rank": 50,
+      "tier": "Top",
       "type": "Duplex trigger",
       "url": "http://warframe.wikia.com/wiki/Tigris_Prime"
     },
