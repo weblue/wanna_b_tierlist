@@ -2755,7 +2755,7 @@
       "dmg": "Critical/Status",
       "mr": 9,
       "name": "Aksomati",
-      "notes":  "Very low damage per bullet, insane dps, hitscan munitions, , worrisome ammo economy. ^", 
+      "notes":  "Very low damage per bullet, insane dps, hitscan munitions, worrisome ammo economy. ^", 
       "rank": 45,
       "tier": "Top",
       "type": "Full-auto",
@@ -3087,7 +3087,7 @@
       "name": "Pyrana",
       "notes": "Very high damage per shell, very high dps, hitscan munitions, manageable ammo economy. ", 
       "rank": 66,
-      "tier": "Top",
+      "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Pyrana"
     },
