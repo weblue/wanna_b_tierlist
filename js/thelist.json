@@ -2810,8 +2810,7 @@
       "dmg": "Critical/Status",
       "mr": 10,
       "name": "Arca Scisco",
-      "notes": "Low damage per laser, insane dps, hitscan munitions, manageable ammo economy. Each shot landed grants /"Target Analysis" buff. Target Analysis stacks up to 5 times, lasting 2 seconds each. Critical Chance and Status Chance increases by 5% per stack. ", 
-
+      "notes": "Low damage per laser, insane dps, hitscan munitions, manageable ammo economy. Each shot landed grants Target Analysis buff. Target Analysis stacks up to 5 times, lasting 2 seconds each. Critical Chance and Status Chance increases by 5% per stack. ", 
       "rank": 20,
       "tier": "Top",
       "type": "Semi-auto",
