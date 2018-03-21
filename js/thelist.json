@@ -2560,12 +2560,12 @@
       "dmg": "Critical/Status",
       "mr": 14,
       "rivenDisposition": 1.5,
-      "name": "Tiberon",
+      "name": "Tiberon Prime",
       "notes": "Average damage per bullet, insane DPS, hitscan munition, manageable ammo econ. Alt-fire toggles between 4-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. † ^ ",
       "rank": 45,
       "tier": "Top",
       "type": "3-Round burst",
-      "url": "http://warframe.wikia.com/wiki/Tiberon"
+      "url": "http://warframe.wikia.com/wiki/Tiberon_Prime"
     },
     "Tigris Prime": {
       "base": "Vanilla is mid Viable tier",
