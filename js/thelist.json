@@ -2554,16 +2554,16 @@
       "type": "Spool-Up",
       "url": "http://warframe.wikia.com/wiki/Tenora"
     },
-    "Tiberon": {
-      "base": "",
+    "Tiberon Prime": {
+      "base": "Base variant is Viable",
       "category": "Rifle",
-      "dmg": "Critical",
-      "mr": 10,
+      "dmg": "Critical/Status",
+      "mr": 14,
       "rivenDisposition": 1.5,
       "name": "Tiberon",
-      "notes": "Low damage per bullet, very high DPS, hitscan munition, acceptable ammo econ. Three-round burst is wasteful at times. † ^ ",
-      "rank": 61,
-      "tier": "Viable",
+      "notes": "Average damage per bullet, insane DPS, hitscan munition, manageable ammo econ. Alt-fire toggles between 4-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. † ^ ",
+      "rank": 45,
+      "tier": "Top",
       "type": "3-Round burst",
       "url": "http://warframe.wikia.com/wiki/Tiberon"
     },
@@ -3607,10 +3607,15 @@
       "name": "disposition",
       "text": "^ indicates a weapon that has an unusually high riven disposition for its rank."
     },
-    "rivenDisposition": {
+    "riven": {
       "name": "rivenDisposition",
       "text": "All weapons are tested and therefore ranked without using riven mods."
-    }
+    },
+    "utubechannel": {
+      "name": "channel",
+      "text": "All weapon tests will be uploaded (eventually) to https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA"
+    },
+
   },
-  "version": "22.15 Happy Anniversary Tenno!"
+  "version": "22.16.4 Birb Prime!"
 }
