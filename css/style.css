@@ -129,6 +129,9 @@ input[type=search]::-webkit-search-cancel-button {
     bottom: 0;
     margin: auto;
 }
+#mobileWarning {
+    display: none;
+}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -141,11 +144,14 @@ input[type=search]::-webkit-search-cancel-button {
 .fadeOut {
     animation: fadeOut 1s forwards;
 }
-@media (max-width: 800px) {
+@media (max-width: 950px) {
     #title {
         font-size: 1em;
     }
     #button {
         display: none;
+    }
+    #mobileWarning {
+        display: block;
     }
 }
