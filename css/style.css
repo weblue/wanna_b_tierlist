@@ -141,3 +141,8 @@ input[type=search]::-webkit-search-cancel-button {
 .fadeOut {
     animation: fadeOut 1s forwards;
 }
+@media (max-width: 800px) {
+    #title {
+        display: none;
+    }
+}
