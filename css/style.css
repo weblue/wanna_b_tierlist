@@ -129,13 +129,15 @@ input[type=search]::-webkit-search-cancel-button {
     bottom: 0;
     margin: auto;
 }
-#mobileWarning {
+.mobileWarning {
     display: none;
 }
 
 .blinking {
-    animation: blinker 1s linear infinite;
+    font-size: 1.2em;
+    text-decoration: underline;
 }
+
 @keyframes blinker {
     50% {
         opacity: 0;
