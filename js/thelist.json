@@ -3395,7 +3395,7 @@
     },
     "Twin Rogga": {
       "base": "",
-      "dmg": "Critical",
+      "dmg": "Status",
       "mr": 5,
       "rivenDisposition": 1,
       "name": "Twin Rogga",
