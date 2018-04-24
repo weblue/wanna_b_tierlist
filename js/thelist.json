@@ -2476,18 +2476,18 @@
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Strun_Wraith"
     },
-    "Supra": {
-      "base": "Vandal is potentially Top tier",
+    "Supra Vandal": {
+      "base": "Base version is Viable",
       "category": "Rifle",
       "dmg": "Critical/Status",
-      "mr": 12,
+      "mr": 14,
       "rivenDisposition": 1.14,
       "name": "Supra",
-      "notes": "Low damage per bullet, very high DPS, projectile munition, manageable ammo econ. Entropy Burst (Magnetic, Energy) can greatly increase status chance. $ ",
-      "rank": 61,
-      "tier": "Viable",
+      "notes": "Low damage per bullet, mounstrous DPS, projectile munition, manageable ammo econ. Entropy Burst (Magnetic, Energy) can greatly increase status chance. $ ",
+      "rank": 53,
+      "tier": "Top",
       "type": "Spool-Up",
-      "url": "http://warframe.wikia.com/wiki/Supra"
+      "url": "http://warframe.wikia.com/wiki/Supra_Vandal"
     },
     "Sybaris Prime": {
       "base": "Vanilla is Non-Viable; Dex is high Viable",
@@ -3476,6 +3476,17 @@
       "tier": "Viable",
       "type": "Semi-auto"
     },
+    "Hystrix": {
+      "name": "Hystrix",
+      "url": "http://warframe.wikia.com/wiki/Hystrix",
+      "mr": 7,
+      "rivenDisposition": 1.00,
+      "dmg": "Critical/Status",
+      "notes": "Low damage per bolt, monstrous dps, projectile munitions, annoying ammo economy. Bolts munitions have pros and cons. Clip is small for fire rate and despite quick reload will end up being annoying. Alt-fire changes elemental damage to one of four basic types (Fire, Ice, Poison, Electricity) with guaranteed procs which scales more if corresponding elemental mod is installed. ",
+      "rank": 58,
+      "tier": "Viable",
+      "type": "Semi-auto"
+    },
     "Stubba": {
       "name": "Stubba",
       "url": "http://warframe.wikia.com/wiki/Stubba",
@@ -3617,5 +3628,5 @@
     }
 
   },
-  "version": "22.16.4 Birb Prime!"
+  "version": "22.18.0 Supra Vandal & Hystrix is up"
 }
