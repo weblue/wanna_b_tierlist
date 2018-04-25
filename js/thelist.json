@@ -2707,6 +2707,18 @@
       "rank": 55,
       "tier": "Top",
       "type": "Semi-auto"
+    },
+    "Veldt": {
+      "name": "Veldt",
+      "url": "http://warframe.wikia.com/wiki/Veldt",
+      "mr": 9,
+      "rivenDisposition": 1,
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "notes": "Decent damage per bullet, very high DPS, hitscan munition, great ammo econ. Alt-fire toggles higher magnification on zoom. † ",
+      "rank": 67,
+      "tier": "Viable",
+      "type": "Semi-auto"
     }
   },
   "Schools": {
