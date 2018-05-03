@@ -4,15 +4,18 @@
 # TEAM
 
     Nader Ki -- Dev/Design -- @MrFlooners
-    .hallwayRaptor -- Design/Styling
+    
     Kalgash -- Janitor
+    sakai4eva -- Curator
     Brendan -- Data Entry
 
 # THANKS
 
     sircod
     u/thefisskonator
-
+    .hallwayRaptor -- Design/Styling
+    Zhandragon -- Original Creator
+    
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
