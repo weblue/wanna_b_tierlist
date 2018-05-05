@@ -3611,7 +3611,11 @@
     "primary": {
       "class": "alert-warning",
       "text": "Primary and Secondary weapons have been completely revamped (and nothing else!). Drop by in Discord/Reddit if you have a complaint."
-    }
+    },
+    "domain_change": {
+      "class": "alert-success",
+      "text": "Visit our new domain at http://www.cephalonwannab.com ; weblue.github.io will continue to function!"
+    } 
   },
   "faq": {
     "hm": {
