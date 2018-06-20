@@ -2991,9 +2991,9 @@
       "mr": 0,
       "rivenDisposition": 1.24,
       "name": "Despair",
-      "notes": "The curator would like to apologize for not being able to attract the attentions of Stalker-senpai.",
-      "rank": 999,
-      "tier": "Untested",
+      "notes": "Low damage per projectile, low dps, projectile munitions, poor ammo economy. ",
+      "rank": 123,
+      "tier": "Non-Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Despair"
     },
@@ -3201,17 +3201,17 @@
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Pox"
     },
-    "Pyrana": {
-      "base": "",
+    "Pyrana Prime": {
+      "base": "Base is high viable",
       "dmg": "Critical/Status",
-      "mr": 12,
+      "mr": 13,
       "rivenDisposition": 1.2,
-      "name": "Pyrana",
-      "notes": "Very high damage per shell, very high dps, hitscan munitions, manageable ammo economy. ",
-      "rank": 66,
-      "tier": "Viable",
-      "type": "Semi-auto",
-      "url": "http://warframe.wikia.com/wiki/Pyrana"
+      "name": "Pyrana Prime",
+      "notes": "Insane damage per shell, insane dps, hitscan munitions, manageable ammo economy. ^",
+      "rank": 47,
+      "tier": "Top",
+      "type": "Auto",
+      "url": "http://warframe.wikia.com/wiki/Pyrana_Prime"
     },
     "Rakta Ballistica": {
       "base": "",
