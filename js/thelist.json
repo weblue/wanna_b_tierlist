@@ -3615,7 +3615,11 @@
     "domain_change": {
       "class": "alert-success",
       "text": "Visit our new domain at http://www.cephalonwannab.com ; weblue.github.io will continue to function!"
-    } 
+    },
+    "melee_outdate": {
+        "class": "alert-warning",
+        "text": "Melee weapons are out of date and won't be updated until Melee 3.0"
+    }
   },
   "faq": {
     "hm": {
