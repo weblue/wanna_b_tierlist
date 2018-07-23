@@ -3502,7 +3502,7 @@
     "Stubba": {
       "name": "Stubba",
       "url": "http://warframe.wikia.com/wiki/Stubba",
-      "mr": 5,
+      "mr": 7,
       "rivenDisposition": 1.25,
       "dmg": "Critical/Status",
       "notes": "Very low damage per bullet, insane dps, hitscan munitions, manageable ammo economy. ^",
