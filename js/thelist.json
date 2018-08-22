@@ -3608,14 +3608,6 @@
       "class": "alert-warning hidden",
       "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!"
     },
-    "primary": {
-      "class": "alert-warning",
-      "text": "Primary and Secondary weapons have been completely revamped (and nothing else!). Drop by in Discord/Reddit if you have a complaint."
-    },
-    "domain_change": {
-      "class": "alert-success",
-      "text": "Visit our new domain at http://www.cephalonwannab.com ; weblue.github.io will continue to function!"
-    },
     "melee_outdate": {
         "class": "alert-warning",
         "text": "Melee weapons are out of date and won't be updated until Melee 3.0 is released. In the meantime: Atterax > Godzaw >>> Other Zaws > Dual Swords >>>>>>>>> Other melees. "
