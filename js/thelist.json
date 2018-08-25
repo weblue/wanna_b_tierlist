@@ -2719,7 +2719,19 @@
       "rank": 67,
       "tier": "Viable",
       "type": "Semi-auto"
-    }
+    },
+    "Phantasma": {
+      "name": "Phantasma",
+      "url": "http://warframe.wikia.com/wiki/Phantasma",
+      "mr": 9,
+      "rivenDisposition": 1,
+      "category": "Shotgun",
+      "dmg": "Status",
+      "notes": "Decent damage per bullet, insane DPS, beam munition, manageable ammo econ. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. More charge; more damage and projectiles.  ",
+      "rank": 39,
+      "tier": "Viable",
+      "type": "Beam"
+    }      
   },
   "Schools": {
     "Madurai": {
@@ -3381,17 +3393,17 @@
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Twin_Grakatas"
     },
-    "Twin Gremlins": {
-      "base": "",
+    "Prisma Twin Gremlins": {
+      "base": "Base is not viable.",
       "dmg": "Status",
       "mr": 2,
       "rivenDisposition": 1.5,
-      "name": "Twin Gremlins",
-      "notes": "Very low damage per bullet, very low dps, projectile munitions, poor ammo economy. ",
-      "rank": 95,
-      "tier": "Viable",
+      "name": "Prisma Twin Gremlins",
+      "notes": "Low damage per bullet, insane dps, projectile munitions, poor ammo economy. ^",
+      "rank": 47,
+      "tier": "Top",
       "type": "Full-auto",
-      "url": "http://warframe.wikia.com/wiki/Twin_Gremlins"
+      "url": "http://warframe.wikia.com/wiki/Prisma_Twin_Gremlins"
     },
     "Twin Kohmak": {
       "base": "",
@@ -3640,5 +3652,5 @@
     }
 
   },
-  "version": "22.18.0 Supra Vandal & Hystrix is up"
+  "version": "23.5.0 - Phantasma and Prisma Twin Gremlins updated"
 }
