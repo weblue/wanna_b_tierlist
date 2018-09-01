@@ -2727,7 +2727,7 @@
       "rivenDisposition": 1,
       "category": "Shotgun",
       "dmg": "Status",
-      "notes": "Decent damage per bullet, insane DPS, beam munition, manageable ammo econ. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. More charge; more damage and projectiles.  ",
+      "notes": "Decent damage per bullet, insane DPS, beam munition, manageable ammo econ. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. More charge; more damage and projectiles. ^",
       "rank": 39,
       "tier": "Top",
       "type": "Beam"
