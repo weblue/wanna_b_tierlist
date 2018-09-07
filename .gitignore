@@ -3,3 +3,4 @@
 # Useful .gitignore templates: https://github.com/github/gitignore
 
 .idea/*
+.DS_Store
