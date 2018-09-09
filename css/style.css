@@ -1,12 +1,12 @@
-body, html {
+html,body {
     height: 100%;
+    width: 100%;
 }
-
 
 body {
     background: #F3F3F3;
     color: rgba(0, 0, 0, 0.8);
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom:20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -56,6 +56,7 @@ a {
   background-color: #7289DA;
   border-color: #7289DA;
 }
+
 @keyframes blinker {
     50% {
         opacity: 0;
