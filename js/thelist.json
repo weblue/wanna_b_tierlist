@@ -3595,7 +3595,16 @@
       "type": "Automatic Sniper",
       "url": "http://warframe.wikia.com/wiki/Vulklok",
       "use": "Critical/Status"
-    }
+    },
+    "Zylok": {
+      "name": "Zylok",
+      "notes": "",
+      "rank": 999,
+      "tier": "Untested",
+      "type": "Pistol",
+      "url": "http://warframe.wikia.com/wiki/Zylok",
+      "use": "Status"
+    },
   },
   "Tiers": {
     "NonViable": {
