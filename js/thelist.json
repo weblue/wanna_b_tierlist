@@ -3631,6 +3631,10 @@
       "class": "alert-warning d-none",
       "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!"
     },
+    "update": {
+      "class": "alert-success",
+      "text": "The website has just been updated for a facelift! Let us know if you see any problems."
+    },
     "melee_outdate": {
         "class": "alert-warning",
         "text": "Melee weapons are out of date and won't be updated until Melee 3.0 is released. In the meantime: Atterax > Godzaw >>> Other Zaws > Dual Swords >>>>>>>>> Other melees. "
