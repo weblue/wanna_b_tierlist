@@ -3626,7 +3626,7 @@
   },
   "alerts": {
     "frame": {
-      "class": "alert-warning hidden",
+      "class": "alert-warning d-none",
       "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!"
     },
     "melee_outdate": {
