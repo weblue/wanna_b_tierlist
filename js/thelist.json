@@ -3521,6 +3521,17 @@
       "rank": 52,
       "tier": "Top",
       "type": "Full-auto"
+    },
+    "Zylok": {
+      "name": "Zylok",
+      "url": "http://warframe.wikia.com/wiki/Zylok",
+      "mr": 6,
+      "rivenDisposition": 0.00,
+      "dmg": "TBD"
+      "notes": "",
+      "rank": 999,
+      "tier": "Untested",
+      "type": "Duplex"
     }
   },
   "Sentweps": {
@@ -3595,15 +3606,6 @@
       "type": "Automatic Sniper",
       "url": "http://warframe.wikia.com/wiki/Vulklok",
       "use": "Critical/Status"
-    },
-    "Zylok": {
-      "name": "Zylok",
-      "notes": "",
-      "rank": 999,
-      "tier": "Untested",
-      "type": "Pistol",
-      "url": "http://warframe.wikia.com/wiki/Zylok",
-      "use": "Status"
     }
   },
   "Tiers": {
