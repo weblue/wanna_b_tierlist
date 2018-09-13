@@ -1,436 +1,968 @@
 <!DOCTYPE html>
 <html lang="en">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <title>Tierlist JSON DB editor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" target="_blank" href="css/bootstrap.min.css">
 
-    <link rel="stylesheet" target="_blank" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" target="_blank" href="css/main.css">
-    <link rel="stylesheet" target="_blank" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v4.1.3">
+    <link rel="stylesheet" href="css/style.css">
 
     <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
+
 <body ng-app="editor" ng-controller="EditorController">
+    <div class="container-fluid">
+        <h1>Tierlist JSON Editor</h1>
+        <p>Click a header to expand.</p>
+        <section>
+            <h2>General</h2>
+            <label for="app-version">Version:</label>
+            <input class="form-control" ng-model="version" id="app-version" type="text" />
+        </section>
+        <hr />
+        <section>
+          <h2>
+            <a data-toggle="collapse" href="#newAlert" role="button" aria-expanded="false" aria-controls="newAlert">New Alert</a>
+          </h2>
+          <div class="form-row collapse" id="newAlert">
+              <div class="col">
+                  <input class="form-control" ng-model="newAlertName" placeholder="Alert Name" />
+              </div>
+              <div class="col">
+                  <input class="form-control " ng-model="newAlertText" placeholder="Alert Text" />
+              </div>
+              <div class="col">
+                  <select class="form-control" ng-model="newAlertClass">
+                      <option value="alert-success" class="alert-success">Green</option>
+                      <option value="alert-info" class="alert-info">Blue</option>
+                      <option value="alert-warning" class="alert-warning">Yellow</option>
+                      <option value="alert-danger" class="alert-danger">Red</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <button class="btn btn-success" ng-click="addAlert(newAlertName, newAlertClass, newAlertText)">Create Alert</button>
+              </div>
+          </div>
+        </section>
+        <hr />
+        <section>
+            <h2>
+              <a data-toggle="collapse" href="#manageAlerts" role="button" aria-expanded="false" aria-controls="manageAlerts">Manage Alerts</a>
+            </h2>
+            <div class="form-row collapse" id="manageAlerts">
+                <div class="col">
+                    <select class="form-control " ng-model="selectedAlert" ng-options="alert as name for (name, alert) in alerts">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="col">
+                    <input class="form-control" ng-model="selectedAlert.text" size="35" placeholder="Alert Text">
+                </div>
+                <div class="col">
+                    <select class="form-control" ng-model="selectedAlert.class">
+                        <option value="alert-success" class="alert-success">Green</option>
+                        <option value="alert-info" class="alert-info">Blue</option>
+                        <option value="alert-warning" class="alert-warning">Yellow</option>
+                        <option value="alert-danger" class="alert-danger">Red</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <button class="btn btn-danger" ng-click="deleteAlert(selectedAlert)">Delete Alert</button>
+                </div>
+            </div>
+          </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newPrimary" role="button" aria-expanded="false" aria-controls="newPrimary">New Primary</a></h2>
+          <div class="collapse" id="newPrimary">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newPrimaryName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newPrimaryRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newPrimaryTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label>Category</label>
+                <select class="form-control" ng-model="newPrimaryCategory">
+                    <option value="Rifle">Rifle</option>
+                    <option value="Launcher">Launcher</option>
+                    <option value="Bow">Bow</option>
+                    <option value="Shotgun">Shotgun</option>
+                    <option value="Sniper Rifle">Sniper Rifle</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Dmg Type</label>
+                <input class="form-control "ng-model="newPrimaryDmg" />
+              </div>
+              <div class="form-group col">
+                <label>Wep Type</label>
+                <input class="form-control" ng-model="newPrimaryType" />
+              </div>
+              <div class="form-group col">
+                <label>MR</label>
+                <input class="form-control" ng-model="newPrimaryMr" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="newPrimaryBase" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newPrimaryNotes"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addPrimary(newPrimaryName, newPrimaryMr, newPrimaryBase, newPrimaryCategory, newPrimaryDmg, newPrimaryNotes, newPrimaryRank, newPrimaryTier, newPrimaryType)">Create Primary</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#managePrimaries" role="button" aria-expanded="false" aria-controls="managePrimaries">Manage Primaries</a></h2>
+          <div class="collapse" id="managePrimaries">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="selectedPrimary">Selected Primary</label>
+              <div class="col-sm-10">
+                <select class="form-control" ng-model="selectedPrimary" ng-options="primary as primary.name for primary in Primaries" id="selectedPrimary">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedPrimary.name" />
+              </div>
+              <div class="form-group col">
+                <label for="primary-rank">Rank</label>
+                <input class="form-control" ng-model="selectedPrimary.rank" / id="primary-rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedPrimary.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label>Category</label>
+                <select class="form-control" ng-model="selectedPrimary.category">
+                    <option value="Rifle">Rifle</option>
+                    <option value="Launcher">Launcher</option>
+                    <option value="Bow">Bow</option>
+                    <option value="Shotgun">Shotgun</option>
+                    <option value="Sniper Rifle">Sniper Rifle</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Dmg Type</label>
+                <input class="form-control" ng-model="selectedPrimary.dmg" />
+              </div>
+              <div class="form-group col">
+                <label>Wep Type</label>
+                <input class="form-control" ng-model="selectedPrimary.type" />
+              </div>
+              <div class="form-group col">
+                <label>MR</label>
+                <input class="form-control" ng-model="selectedPrimary.mr" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="selectedPrimary.base" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label">Notes</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="2" ng-model="selectedPrimary.notes"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deletePrimary(selectedPrimary)">Delete Primary</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newSecondary" role="button" aria-expanded="false" aria-controls="newSecondary">New Secondary</a></h2>
+          <div class="collapse" id="newSecondary">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newSecondaryName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newSecondaryRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newSecondaryTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Dmg Type</label>
+                <input class="form-control" ng-model="newSecondaryDmg" />
+              </div>
+              <div class="form-group col">
+                <label>Wep Type</label>
+                <input class="form-control" ng-model="newSecondaryType" />
+              </div>
+              <div class="form-group col">
+                <label>MR</label>
+                <input class="form-control" ng-model="newSecondaryMr" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="newSecondaryBase" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" ng-model="newSecondaryNotes" rows="2"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addSecondary(newSecondaryName, newSecondaryMr, newSecondaryBase, newSecondaryDmg, newSecondaryNotes, newSecondaryRank, newSecondaryTier, newSecondaryType)">Create Secondary</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageSecondaries" role="button" aria-expanded="false" aria-controls="manageSecondaries">Manage Secondaries</a></h2>
+          <div class="collapse" id="manageSecondaries">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected Secondary</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedSecondary" ng-options="secondary as secondary.name for secondary in Secondaries">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedSecondary.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedSecondary.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedSecondary.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col"></div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Dmg Type</label>
+                <input class="form-control" ng-model="selectedSecondary.dmg" />
+              </div>
+              <div class="form-group col">
+                <label>Wep Type</label>
+                <input class="form-control" ng-model="selectedSecondary.type" />
+              </div>
+              <div class="form-group col">
+                <label>MR</label>
+                <input class="form-control" ng-model="selectedSecondary.mr" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="selectedSecondary.base" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedSecondary.notes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteSecondary(selectedSecondary)">Delete Secondary</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newMelee" role="button" aria-expanded="false" aria-controls="newMelee">New Melee</a></h2>
+          <div class="collapse" id="newMelee">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newMeleeName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newMeleeRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newMeleeTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Stance</label>
+                <input class="form-control" ng-model="newMeleeStance" />
+              </div>
+              <div class="form-group col">
+                <label>Stance Notes</label>
+                <input class="form-control" ng-model="newMeleeStancenotes" />
+              </div>
+              <div class="form-group col">
+                <label>Combo</label>
+                <input class="form-control" ng-model="newMeleeCombo" />
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Dmg Type</label>
+                <input class="form-control" ng-model="newMeleeDmg" />
+              </div>
+              <div class="form-group col">
+                <label>Wep Type</label>
+                <input class="form-control" ng-model="newMeleeType" />
+              </div>
+              <div class="form-group col">
+                <label>MR</label>
+                <input class="form-control" ng-model="newMeleeMr" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="newMeleeBase" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newMeleeNotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addMelee(newMeleeName, newMeleeMr, newMeleeBase, newMeleeDmg, newMeleeCombo, newMeleeStance, newMeleeStancenotes, newMeleeNotes, newMeleeRank, newMeleeTier, newMeleeType)">Create Melee</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageMelees" role="button" aria-expanded="false" aria-controls="manageMelees">Manage Melees</a></h2>
+          <div class="collapse" id="manageMelees">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected Melee</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedMelee" ng-options="melee as melee.name for melee in Melees">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedMelee.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedMelee.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedMelee.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Stance</label>
+                <input class="form-control" ng-model="selectedMelee.stance" />
+              </div>
+              <div class="form-group col">
+                <label>Stance Notes</label>
+                <input class="form-control" ng-model="selectedMelee.stancenotes" />
+              </div>
+              <div class="form-group col">
+                <label>Combo</label>
+                <input class="form-control" ng-model="selectedMelee.combo" />
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Dmg Type</label>
+                <input class="form-control" ng-model="selectedMelee.dmg" />
+              </div>
+              <div class="form-group col">
+                <label>Wep Type</label>
+                <input class="form-control" ng-model="selectedMelee.type" />
+              </div>
+              <div class="form-group col">
+                <label>MR</label>
+                <input class="form-control" ng-model="selectedMelee.mr" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="selectedMelee.base" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedMelee.wepnotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteMelee(selectedMelee)">Delete Melee</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newSchools" role="button" aria-expanded="false" aria-controls="newSchools">New Schools</a></h2>
+          <div class="collapse" id="newSchools">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newSchoolName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newSchoolRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newSchoolTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Operator Effect</label>
+                <input class="form-control" ng-model="newSchoolOp" />
+              </div>
+              <div class="form-group col">
+                <label>Frame Effect</label>
+                <input class="form-control" ng-model="newSchoolFrame" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newSchoolNotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addSchool(newSchoolName, newSchoolFrame, newSchoolNotes, newSchoolRank, newSchoolTier, newSchoolOp)">Create School</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageSchools" role="button" aria-expanded="false" aria-controls="manageSchools">Manage Schools</a></h2>
+          <div class="collapse" id="manageSchools">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected School</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedSchool"
+                        ng-options="school as school.name for school in Schools">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedSchool.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedSchool.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedSchool.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Operator Effect</label>
+                <input class="form-control" ng-model="selectedSchool.op" />
+              </div>
+              <div class="form-group col">
+                <label>Frame Effect</label>
+                <input class="form-control" ng-model="selectedSchool.frame" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedSchool.notes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteSchool(selectedSchool)">Delete School</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newArchwing" role="button" aria-expanded="false" aria-controls="newArchwing">New Archwing</a></h2>
+          <div class="collapse" id="newArchwing">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newArchwingName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newArchwingRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newArchwingTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col"></div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Use</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newArchwingUse"/></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="3" ng-model="newArchwingNotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addArchwing(newArchwingName, newArchwingUse, newArchwingNotes, newArchwingRank, newArchwingTier)">Create Archwing</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageArchwings" role="button" aria-expanded="false" aria-controls="manageArchwings">Manage Archwings</a></h2>
+          <div class="collapse" id="manageArchwings">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected Archwing</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedArchwing"
+                        ng-options="archwing as archwing.name for archwing in Archwings">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedArchwing.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedArchwing.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedArchwing.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col"></div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Use</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedArchwing.use"/></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="3" ng-model="selectedArchwing.notes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteArchwing(selectedArchwing)">Delete Archwing</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newArchgun" role="button" aria-expanded="false" aria-controls="newArchgun">New Archgun</a></h2>
+          <div class="collapse" id="newArchgun">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newArchgun" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newArchgunRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newArchgunTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Use</label>
+                <input class="form-control" ng-model="newArchgunUse" />
+              </div>
+              <div class="form-group col">
+                <label>Firing</label>
+                <input class="form-control" ng-model="newArchgunFiring" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="newArchgunBase" />
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newArchgunNotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addArchgun(newArchgunName, newArchgunUse, newArchgunBase, newArchgunFiring,newArchgunNotes, newArchgunRank, newArchgunTier)">Create Archgun</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageArchguns" role="button" aria-expanded="false" aria-controls="manageArchguns">Manage Archguns</a></h2>
+          <div class="collapse" id="manageArchguns">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected Archgun</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedArchgun"
+                        ng-options="archgun as archgun.name for archgun in Archguns">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedArchgun.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedArchgun.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedArchgun.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Use</label>
+                <input class="form-control" ng-model="selectedArchgun.use" />
+              </div>
+              <div class="form-group col">
+                <label>Firing</label>
+                <input class="form-control" ng-model="selectedArchgun.firing" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="selectedArchgun.base" />
+              </div>
+              <div class="form-group col">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedArchgun.notes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteArchgun(selectedArchgun)">Delete Archgun</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newArchmelee" role="button" aria-expanded="false" aria-controls="newArchmelee">New Archmelee</a></h2>
+          <div class="collapse" id="newArchmelee">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newArchmeleeName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newArchmeleeRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newArchmeleeTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label>Use</label>
+                <input class="form-control" ng-model="newArchmeleeUse" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newArchmeleeNotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addArchmelee(newArchmeleeName, newArchmeleeUse, newArchmeleeNotes, newArchmeleeRank,newArchmeleeTier)">Create Archmelee</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageArchmelee" role="button" aria-expanded="false" aria-controls="manageArchmelee">Manage Archmelee</a></h2>
+          <div class="collapse" id="manageArchmelee">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected Archmelee</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedArchmelee"
+                        ng-options="archmelee as archmelee.name for archmelee in Archmelees">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedArchmelee.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedArchmelee.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedArchmelee.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label>Use</label>
+                <input class="form-control" ng-model="selectedArchmelee.use" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedArchmelee.notes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteArchmelee(selectedArchmelee)">Delete Archmelee</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#newCompanion" role="button" aria-expanded="false" aria-controls="newCompanion">New Companion</a></h2>
+          <div class="collapse" id="newCompanion">
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="newCompanionName" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="newCompanionRank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="newCompanionTier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label>Category</label>
+                <input class="form-control" ng-model="newCompanionCategory" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-9">
+                <label>Abilities</label>
+                <input class="form-control" ng-model="newCompanionAbilities" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="newCompanionBase" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="newCompanionNotes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-success" ng-click="addCompanion(newCompanionName, newCompanionUse, newCompanionBase, newCompanionNotes, newCompanionCategory, newCompanionRank, newCompanionTier)">Create Companion</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2><a data-toggle="collapse" href="#manageCompanions" role="button" aria-expanded="false" aria-controls="manageCompanions">Manage Companions</a></h2>
+          <div class="collapse" id="manageCompanions">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Selected Companion</label>
+              <div class="col-10">
+                <select class="form-control" ng-model="selectedCompanion"
+                        ng-options="companion as companion.name for companion in Companions">
+                    <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Name</label>
+                <input class="form-control" ng-model="selectedCompanion.name" />
+              </div>
+              <div class="form-group col">
+                <label>Rank</label>
+                <input class="form-control" ng-model="selectedCompanion.rank" />
+              </div>
+              <div class="form-group col">
+                <label>Tier</label>
+                <select class="form-control" ng-model="selectedCompanion.tier">
+                    <option value="Top">Top</option>
+                    <option value="Viable">Viable</option>
+                    <option value="Non-Viable">Non-Viable</option>
+                    <option value="Untested">Untested</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label>Category</label>
+                <input class="form-control" ng-model="selectedCompanion.category" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-9">
+                <label>Abilities</label>
+                <input class="form-control" ng-model="selectedCompanion.abilities" />
+              </div>
+              <div class="form-group col">
+                <label>Base</label>
+                <input class="form-control" ng-model="selectedCompanion.base" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Notes</label>
+              <div class="col-10">
+                <textarea class="form-control" rows="2" ng-model="selectedCompanion.notes"/></textarea>
+              </div>
+            </div>
+            <button class="btn btn-danger" ng-click="deleteCompanion(selectedCompanion)">Delete Companion</button>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h2>Resolve Collisions</h2>
+          <div class="row">
+            <div class="col">
+              <select class="form-control" ng-model="selectedCategory" ng-options="category as category for category in categories">
+                  <option></option>
+              </select>
+            </div>
+            <div class="col">
+              <button class="btn btn-primary" ng-click="reorderButton()">Resolve</button>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class="text-center">
+          <button class="btn btn-primary btn-lg" ng-click="download(this)">Download JSON</button>
+        </section>
+        <hr />
+        <footer class="mt-5 py-2 text-center">
+          <p> &copy; <a target="_blank" href="http://twitch.tv/mrflooners">i_wanna_b_the_guy</a> 2017 </p>
+        </footer>
+    </div>
 
-<label> Version: <input ng-model="version" type="text"></label>
-<br>
-<hr>
-<label> Alerts:
-    <br>
-    <select ng-model="selectedAlert"
-            ng-options="alert as name for (name, alert) in alerts">
-        <option></option>
-    </select>
-    <input ng-model="selectedAlert.text" size="35">
-    <select ng-model="selectedAlert.class">
-        <option value="alert-success" class="alert-success">Green</option>
-        <option value="alert-info" class="alert-info">Blue</option>
-        <option value="alert-warning" class="alert-warning">Yellow</option>
-        <option value="alert-danger" class="alert-danger">Red</option>
-    </select>
-    <button class="btn-danger" ng-click="deleteAlert(selectedAlert)">Delete Alert</button>
-    <br>
-    New Alert:
-    <br>
-    <input ng-model="newAlertName">
-    <select ng-model="newAlertClass">
-        <option value="alert-success" class="alert-success">Green</option>
-        <option value="alert-info" class="alert-info">Blue</option>
-        <option value="alert-warning" class="alert-warning">Yellow</option>
-        <option value="alert-danger" class="alert-danger">Red</option>
-    </select>
-    <input ng-model="newAlertText">
-    <button class="btn-success" ng-click="addAlert(newAlertName, newAlertClass, newAlertText)">Create Alert</button>
-</label>
-<hr>
-<label> Primaries:
-    <br>
-    <select ng-model="selectedPrimary"
-            ng-options="primary as primary.name for primary in Primaries">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedPrimary.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedPrimary.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedPrimary.name" size="10"></label>
-    <label>MR: <input ng-model="selectedPrimary.mr" size="5"></label>
-    <label>Base: <input ng-model="selectedPrimary.base" size="10"></label>
-    <label>Category:
-        <select ng-model="selectedPrimary.category">
-            <option value="Rifle">Rifle</option>
-            <option value="Launcher">Launcher</option>
-            <option value="Bow">Bow</option>
-            <option value="Shotgun">Shotgun</option>
-            <option value="Sniper Rifle">Sniper Rifle</option>
-        </select>
-    </label>
-    <label>Dmg Type: <input ng-model="selectedPrimary.dmg" size="15"></label>
-    <label>Wep Type: <input ng-model="selectedPrimary.type" size="15"></label>
-    <label>Notes: <input ng-model="selectedPrimary.notes" size="30"></label>
+    <script src="./js/vendor/jquery-3.2.1.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
 
-    <button class="btn-danger" ng-click="deletePrimary(selectedPrimary)">Delete Primary</button>
-    <br>
-    New Primary:
-    <br>
-    <label>Rank: <input ng-model="newPrimaryRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newPrimaryTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newPrimaryName" size="10"></label>
-    <label>MR: <input ng-model="newPrimaryMr" size="5"></label>
-    <label>Base: <input ng-model="newPrimaryBase" size="10"></label>
-    <label>Category:
-        <select ng-model="newPrimaryCategory">
-            <option value="Rifle">Rifle</option>
-            <option value="Launcher">Launcher</option>
-            <option value="Bow">Bow</option>
-            <option value="Shotgun">Shotgun</option>
-            <option value="Sniper Rifle">Sniper Rifle</option>
-        </select>
-    </label>
-    <label>Dmg Type: <input ng-model="newPrimaryDmg" size="15"></label>
-    <label>Wep Type: <input ng-model="newPrimaryType" size="15"></label>
-    <label>Notes: <input ng-model="newPrimaryNotes" size="30"></label>
-    <button class="btn-success" ng-click="addPrimary(newPrimaryName, newPrimaryMr, newPrimaryBase, newPrimaryCategory, newPrimaryDmg,
-                                  newPrimaryNotes, newPrimaryRank, newPrimaryTier, newPrimaryType)">Create Primary</button>
-</label>
-<hr>
-<label> Secondaries:
-    <br>
-    <select ng-model="selectedSecondary"
-            ng-options="secondary as secondary.name for secondary in Secondaries">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedSecondary.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedSecondary.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedSecondary.name" size="10"></label>
-    <label>MR: <input ng-model="selectedSecondary.mr" size="5"></label>
-    <label>Base: <input ng-model="selectedSecondary.base" size="10"></label>
-    <label>Dmg Type: <input ng-model="selectedSecondary.dmg" size="15"></label>
-    <label>Wep Type: <input ng-model="selectedSecondary.type" size="15"></label>
-    <label>Notes: <input ng-model="selectedSecondary.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteSecondary(selectedSecondary)">Delete Secondary</button>
-    <br>
-    New Secondary:
-    <br>
-    <label>Rank: <input ng-model="newSecondaryRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newSecondaryTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newSecondaryName" size="10"></label>
-    <label>MR: <input ng-model="newSecondaryMr" size="5"></label>
-    <label>Base: <input ng-model="newSecondaryBase" size="10"></label>
-    <label>Dmg Type: <input ng-model="newSecondaryDmg" size="15"></label>
-    <label>Wep Type: <input ng-model="newSecondaryType" size="15"></label>
-    <label>Notes: <input ng-model="newSecondaryNotes" size="30"></label>
-    <button class="btn-success" ng-click="addSecondary(newSecondaryName, newSecondaryMr, newSecondaryBase, newSecondaryDmg,
-                                  newSecondaryNotes, newSecondaryRank, newSecondaryTier, newSecondaryType)">Create Secondary</button>
-</label>
-<hr>
-<label> Melees:
-    <br>
-    <select ng-model="selectedMelee"
-            ng-options="melee as melee.name for melee in Melees">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedMelee.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedMelee.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedMelee.name" size="10"></label>
-    <label>MR: <input ng-model="selectedMelee.mr" size="5"></label>
-    <label>Base: <input ng-model="selectedMelee.base" size="10"></label>
-    <label>Stance: <input ng-model="selectedMelee.stance" size="10"></label>
-    <label>Stancenotes: <input ng-model="selectedMelee.stancenotes" size="15"></label>
-    <label>Combo: <input ng-model="selectedMelee.combo" size="10"></label>
-    <label>Dmg Type: <input ng-model="selectedMelee.dmg" size="15"></label>
-    <label>Wep Type: <input ng-model="selectedMelee.type" size="15"></label>
-    <label>Notes: <input ng-model="selectedMelee.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteMelee(selectedMelee)">Delete Melee</button>
-    <br>
-    New Melee:
-    <br>
-    <label>Rank: <input ng-model="newMeleeRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newMeleeTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newMeleeName" size="10"></label>
-    <label>MR: <input ng-model="newMeleeMr" size="5"></label>
-    <label>Base: <input ng-model="newMeleeBase" size="10"></label>
-    <label>Stance: <input ng-model="newMeleeStance" size="10"></label>
-    <label>Stancenotes: <input ng-model="newMeleeStancenotes" size="15"></label>
-    <label>Combo: <input ng-model="newMeleeCombo" size="10"></label>
-    <label>Dmg Type: <input ng-model="newMeleeDmg" size="15"></label>
-    <label>Wep Type: <input ng-model="newMeleeType" size="15"></label>
-    <label>Notes: <input ng-model="newMeleeNotes" size="30"></label>
-    <button class="btn-success" ng-click="addMelee(newMeleeName, newMeleeMr, newMeleeBase, newMeleeDmg, newMeleeCombo,
-                                  newMeleeStance, newMeleeStancenotes, newMeleeNotes, newMeleeRank, newMeleeTier,
-                                  newMeleeType)">Create Melee</button>
-</label>
-<hr>
-<label> Schools:
-    <br>
-    <select ng-model="selectedSchool"
-            ng-options="school as school.name for school in Schools">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedSchool.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedSchool.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedSchool.name" size="10"></label>
-    <label>Op effect: <input ng-model="selectedSchool.op" size="10"></label>
-    <label>Frame effect: <input ng-model="selectedSchool.frame" size="10"></label>
-    <label>Notes: <input ng-model="selectedSchool.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteSchool(selectedSchool)">Delete School</button>
-    <br>
-    New School:
-    <br>
-    <label>Rank: <input ng-model="newSchoolRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newSchoolTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newSchoolName" size="10"></label>
-    <label>Frame Effect: <input ng-model="newSchoolFrame" size="15"></label>
-    <label>Operator Effect: <input ng-model="newSchoolOp" size="15"></label>
-    <label>Notes: <input ng-model="newSchoolNotes" size="30"></label>
-    <button class="btn-success" ng-click="addSchool(newSchoolName, newSchoolFrame, newSchoolNotes, newSchoolRank,
-                                                    newSchoolTier, newSchoolOp)">Create School</button>
-</label>
-<hr>
-<label> Archwings:
-    <br>
-    <select ng-model="selectedArchwing"
-            ng-options="archwing as archwing.name for archwing in Archwings">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedArchwing.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedArchwing.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedArchwing.name" size="10"></label>
-    <label>Use: <input ng-model="selectedArchwing.use" size="10"></label>
-    <label>Notes: <input ng-model="selectedArchwing.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteArchwing(selectedArchwing)">Delete Archwing</button>
-    <br>
-    New Archwing:
-    <br>
-    <label>Rank: <input ng-model="newArchwingRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newArchwingTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newArchwingName" size="10"></label>
-    <label>Use: <input ng-model="newArchwingUse" size="10"></label>
-    <label>Notes: <input ng-model="newArchwingNotes" size="30"></label>
-    <button class="btn-success" ng-click="addArchwing(newArchwingName, newArchwingUse, newArchwingNotes,
-                                                    newArchwingRank, newArchwingTier)">Create Archwing</button>
-</label>
-<hr>
-<label> Archguns:
-    <br>
-    <select ng-model="selectedArchgun"
-            ng-options="archgun as archgun.name for archgun in Archguns">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedArchgun.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedArchgun.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedArchgun.name" size="10"></label>
-    <label>Use: <input ng-model="selectedArchgun.use" size="10"></label>
-    <label>Base: <input ng-model="selectedArchgun.base" size="15"></label>
-    <label>Firing: <input ng-model="selectedArchgun.firing" size="10"></label>
-    <label>Notes: <input ng-model="selectedArchgun.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteArchgun(selectedArchgun)">Delete Archgun</button>
-    <br>
-    New Archgun:
-    <br>
-    <label>Rank: <input ng-model="newArchgunRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newArchgunTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newArchgunName" size="10"></label>
-    <label>Use: <input ng-model="newArchgunUse" size="10"></label>
-    <label>Base: <input ng-model="newArchgunBase" size="15"></label>
-    <label>Firing: <input ng-model="newArchgunFiring" size="10"></label>
-    <label>Notes: <input ng-model="newArchgunNotes" size="30"></label>
-    <button class="btn-success" ng-click="addArchgun(newArchgunName, newArchgunUse, newArchgunBase, newArchgunFiring,
-                                        newArchgunNotes, newArchgunRank, newArchgunTier)">Create Archgun</button>
-</label>
-<hr>
-<label> Archmelees:
-    <br>
-    <select ng-model="selectedArchmelee"
-            ng-options="archmelee as archmelee.name for archmelee in Archmelees">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedArchmelee.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedArchmelee.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedArchmelee.name" size="10"></label>
-    <label>Use: <input ng-model="selectedArchmelee.use" size="10"></label>
-    <label>Notes: <input ng-model="selectedArchmelee.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteArchmelee(selectedArchmelee)">Delete Archmelee</button>
-    <br>
-    New Archmelee:
-    <br>
-    <label>Rank: <input ng-model="newArchmeleeRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newArchmeleeTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newArchmeleeName" size="10"></label>
-    <label>Use: <input ng-model="newArchmeleeUse" size="10"></label>
-    <label>Notes: <input ng-model="newArchmeleeNotes" size="30"></label>
-    <button class="btn-success" ng-click="addArchmelee(newArchmeleeName, newArchmeleeUse, newArchmeleeNotes, newArchmeleeRank,
-                                    newArchmeleeTier)">Create Archmelee</button>
-</label>
-<hr>
-<label> Companions:
-    <br>
-    <select ng-model="selectedCompanion"
-            ng-options="companion as companion.name for companion in Companions">
-        <option></option>
-    </select>
-    <label>Rank: <input ng-model="selectedCompanion.rank" size="10"></label>
-    <label>Tier:
-        <select ng-model="selectedCompanion.tier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="selectedCompanion.name" size="10"></label>
-    <label>Abilities: <input ng-model="selectedCompanion.abilities" size="10"></label>
-    <label>Base: <input ng-model="selectedCompanion.base" size="15"></label>
-    <label>Category: <input ng-model="selectedCompanion.category" size="10"></label>
-    <label>Notes: <input ng-model="selectedCompanion.notes" size="30"></label>
-
-    <button class="btn-danger" ng-click="deleteCompanion(selectedCompanion)">Delete Companion</button>
-    <br>
-    New Companion:
-    <br>
-    <label>Rank: <input ng-model="newCompanionRank" size="10"></label>
-    <label>Tier:
-        <select ng-model="newCompanionTier">
-            <option value="Top">Top</option>
-            <option value="Viable">Viable</option>
-            <option value="Non-Viable">Non-Viable</option>
-            <option value="Untested">Untested</option>
-        </select>
-    </label>
-    <label>Name: <input ng-model="newCompanionName" size="10"></label>
-    <label>Abilities: <input ng-model="newCompanionAbilities" size="10"></label>
-    <label>Base: <input ng-model="newCompanionBase" size="15"></label>
-    <label>Category: <input ng-model="newCompanionCategory" size="10"></label>
-    <label>Notes: <input ng-model="newCompanionNotes" size="30"></label>
-    <button class="btn-success" ng-click="addCompanion(newCompanionName, newCompanionUse, newCompanionBase,
-        newCompanionNotes, newCompanionCategory, newCompanionRank, newCompanionTier)">Create Companion</button>
-</label>
-<hr>
-<label> Resolve Collisions:
-    <br>
-    <select ng-model="selectedCategory"
-            ng-options="category as category for category in categories">
-        <option></option>
-    </select>
-    <button ng-click="reorderButton()">Resolve</button>
-</label>
-<hr>
-<label> Download JSON:
-    <br>
-    <button ng-click="download(this)">Download</button>
-</label>
-
-<script src="./js/vendor/jquery-3.2.1.min.js"></script>
-<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="https://use.fontawesome.com/fb3acbaa38.js"></script>
-<script src="./js/vendor/bootstrap.min.js"></script>
-
-<script src="./js/editor.js"></script>
-<!--<script src="./js/editor.js"></script>-->
+    <script src="./js/editor.js"></script>
 </body>
+
 </html>
