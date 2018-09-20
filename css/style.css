@@ -10,6 +10,7 @@ body {
     padding-top: 50px;
     padding-bottom:20px;
     font-family: 'Roboto', sans-serif;
+    -webkit-overflow-scrolling: touch;
 }
 
 a {
@@ -17,11 +18,8 @@ a {
 }
 
 .parallax {
-    background-image: url(../img/jumbo_background4k.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: auto 100%;
-    background-position: cover;
+    background: url(../img/jumbo_background4k.png) no-repeat fixed center;
 }
 
 .loadingScreen{
