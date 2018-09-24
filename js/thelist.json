@@ -2133,7 +2133,7 @@
       "rivenDisposition": 1.4,
       "name": "Kohm",
       "notes": "Decent damage per shell, insane DPS, hitscan munition, manageable ammo econ (if using Vigilante Armaments instead of fire rate mod). Spool up increases bullets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs as well as having insane innate punchthrough. Riven disposition is relatively high for DPS potential and can help reach 100% status chance. ",
-      "rank": 54,
+      "rank": 37,
       "tier": "Top",
       "type": "Spool-Up",
       "url": "http://warframe.wikia.com/wiki/Kohm"
@@ -2728,7 +2728,7 @@
       "category": "Shotgun",
       "dmg": "Status",
       "notes": "Decent damage per bullet, insane DPS, beam munition, manageable ammo econ. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. More charge; more damage and projectiles. ^",
-      "rank": 39,
+      "rank": 36,
       "tier": "Top",
       "type": "Beam"
     }      
@@ -3526,11 +3526,11 @@
       "name": "Zylok",
       "url": "http://warframe.wikia.com/wiki/Zylok",
       "mr": 6,
-      "rivenDisposition": 0.00,
-      "dmg": "TBD",
-      "notes": "",
-      "rank": 999,
-      "tier": "Untested",
+      "rivenDisposition": 1,
+      "dmg": "Status",
+      "notes": "Low damage per bullet, low dps, hitscan munitions, manageable ammo economy. ",
+      "rank": 95,
+      "tier": "Viable",
       "type": "Duplex"
     }
   },
@@ -3671,5 +3671,5 @@
     }
 
   },
-  "version": "23.5.0 - Phantasma and Prisma Twin Gremlins updated"
+  "version": "23.8.2 - Zylok updated. Some shotguns also reflect Primed Charged Shell changes. "
 }
