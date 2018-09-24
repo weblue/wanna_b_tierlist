@@ -1808,8 +1808,8 @@
       "rivenDisposition": 1.2,
       "name": "Astilla",
       "notes": "Moderate damage per slug, monstrous DPS, projectile munition, worrying ammo econ. Has a small AOE upon impact. † ^ ",
-      "rank": 55,
-      "tier": "Viable",
+      "rank": 46,
+      "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Astilla"
     },
@@ -1848,7 +1848,7 @@
       "name": "Boar Prime",
       "notes": "Average damage per shell, monstrous DPS, hitscan munitions, bad ammo econ. Required to mod for 100% status chance. ^ ",
       "rank": 42,
-      "tier": "Viable",
+      "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Boar_Prime"
     },
@@ -2289,7 +2289,7 @@
       "rivenDisposition": 1.46,
       "name": "Phage",
       "notes": "Very low damage per touch, insane DPS, tentacle munition, tickling ammo econ. Scoping narrows down the beam to a single point. † $ ^",
-      "rank": 51,
+      "rank": 50,
       "tier": "Top",
       "type": "Beam",
       "url": "http://warframe.wikia.com/wiki/Phage"
