@@ -71,5 +71,5 @@ a {
     100% { opacity: 0 }
 }
 .fadeOut {
-    animation: fadeOut 1s forwards;
+    animation: fadeOut .75s forwards;
 }
