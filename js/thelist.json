@@ -1803,7 +1803,7 @@
     "Astilla": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Critical",
+      "dmg": "Critical/Status",
       "mr": 10,
       "rivenDisposition": 1.2,
       "name": "Astilla",
@@ -1859,7 +1859,7 @@
       "mr": 13,
       "rivenDisposition": 0.79,
       "name": "Boltor Prime",
-      "notes": "Low damage per bolt, very hgh DPS, projetile munition, worrying ammo econ. † ",
+      "notes": "Low damage per bolt, very hgh DPS, projetile munition, worrying ammo econ. ",
       "rank": 68,
       "tier": "Viable",
       "type": "Full-auto",
@@ -2472,7 +2472,7 @@
       "name": "Strun Wraith",
       "notes": "High damage per shell, acceptable DPS, hitscan munition, manageable ammo econ. Required to mod for 100% status chance. ",
       "rank": 55,
-      "tier": "Viable",
+      "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Strun_Wraith"
     },
@@ -2727,7 +2727,7 @@
       "rivenDisposition": 1,
       "category": "Shotgun",
       "dmg": "Status",
-      "notes": "Decent damage per bullet, insane DPS, beam munition, manageable ammo econ. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. More charge; more damage and projectiles. ^",
+      "notes": "Decent damage per bullet, insane DPS, beam munition, manageable ammo econ. Primary fire has usable AOE. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. More charge; more damage and projectiles. ^",
       "rank": 36,
       "tier": "Top",
       "type": "Beam"
@@ -2927,7 +2927,7 @@
     },
     "Atomos": {
       "base": "",
-      "dmg": "Raw Damage",
+      "dmg": "Crit",
       "mr": 5,
       "rivenDisposition": 0.87,
       "name": "Atomos",
@@ -3215,7 +3215,7 @@
     },
     "Pyrana Prime": {
       "base": "Base is high viable",
-      "dmg": "Critical/Status",
+      "dmg": "Crit",
       "mr": 13,
       "rivenDisposition": 1.2,
       "name": "Pyrana Prime",
@@ -3395,7 +3395,7 @@
     },
     "Prisma Twin Gremlins": {
       "base": "Base is not viable.",
-      "dmg": "Status",
+      "dmg": "Crit",
       "mr": 2,
       "rivenDisposition": 1.5,
       "name": "Prisma Twin Gremlins",
