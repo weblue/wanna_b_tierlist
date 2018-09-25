@@ -3638,10 +3638,6 @@
     "melee_outdate": {
         "class": "alert-warning",
         "text": "Melee weapons are out of date and won't be updated until Melee 3.0 is released. In the meantime: Atterax > Godzaw >>> Other Zaws > Dual Swords >>>>>>>>> Other melees. "
-    },
-    "tierlist_updates": {
-        "class": "alert-danger",
-        "text": "Curation of the list is slowed while our staff is on vacation. Recently updated items may not be correctly placed."
     }
   },
   "faq": {
