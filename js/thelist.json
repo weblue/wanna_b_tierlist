@@ -3631,9 +3631,10 @@
       "class": "alert-warning d-none",
       "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!"
     },
-    "update": {
+    "hosting": {
       "class": "alert-success",
-      "text": "The website has just been updated for a facelift! Let us know if you see any problems."
+      "note_to_sakai": "you take this alert out after about 1 mo. October 26th",
+      "text": "Hosting costs will now be covered by Creators' Collective at https://creatorscollective.club."
     },
     "melee_outdate": {
         "class": "alert-warning",
