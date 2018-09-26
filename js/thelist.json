@@ -2359,18 +2359,18 @@
       "type": "Charge Shot",
       "url": "http://warframe.wikia.com/wiki/Rakta_Cernos"
     },
-    "Rubico": {
-      "base": "",
+    "Rubico Prime": {
+      "base": "Base variant is still Top",
       "category": "Sniper Rifle",
       "dmg": "Critical",
-      "mr": 6,
+      "mr": 12,
       "rivenDisposition": 1.1,
       "name": "Rubico",
-      "notes": "High damage per bullet, insane DPS, hitscan munition, good ammo econ. Sniper combo counter rampup is amazing (min. 1), zooming in gives additive bonus to Crit Multiplier (35%/50%). † ^ ",
-      "rank": 52,
+      "notes": "Very high damage per bullet, insane DPS, hitscan munition, good ammo econ. Sniper combo counter rampup is amazing (min. 1), zooming in gives additive bonus to Crit Multiplier (35%/50%). † ^ ",
+      "rank": 38,
       "tier": "Top",
       "type": "Semi-auto",
-      "url": "http://warframe.wikia.com/wiki/Rubico"
+      "url": "http://warframe.wikia.com/wiki/Rubico_Prime"
     },
     "Sancti Tigris": {
       "base": "Vanilla is Viable tier",
@@ -3668,5 +3668,5 @@
     }
 
   },
-  "version": "23.8.2 - Zylok updated. Some shotguns also reflect Primed Charged Shell changes. "
+  "version": "23.9.0 - Rubico Prime updated."
 }
