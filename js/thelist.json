@@ -1807,7 +1807,7 @@
       "mr": 10,
       "rivenDisposition": 1.2,
       "name": "Astilla",
-      "notes": "Moderate damage per slug, monstrous DPS, projectile munition, worrying ammo econ. Has a small AOE upon impact. † ^ ",
+      "notes": "Moderate damage per slug, monstrous DPS, projectile munition, worrying ammo econ. Deals 30% of damage upon impact and 70% on explosion. ^ ",
       "rank": 46,
       "tier": "Top",
       "type": "Full-auto",
