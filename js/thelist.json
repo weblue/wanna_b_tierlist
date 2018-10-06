@@ -361,7 +361,7 @@
 	  "type": "Sword and Shield",      
 	  "url": "http://warframe.wikia.com/wiki/Ack_&_Brunt",      
 	  "wepnotes": "Very low damage per hit, moderate DPS, low attack speed.",      
-	  "rivenDisposition": ,    
+	  "rivenDisposition": 0.9    
 	},
     "Amphis": {
       "base": "",
