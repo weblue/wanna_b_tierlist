@@ -352,7 +352,7 @@
       "base": "Nami Skyla is mid viable",
       "combo": "Dire Courtship",
       "dmg": "Crit/Status",
-      "mr":6,
+      "mr":11,
       "name": "Nami Skyla Prime",
       "rank":31.97,
       "stance": "Carving Mantis",
@@ -382,7 +382,7 @@
       "base": "",
       "combo": "Dire Courtship",
       "dmg": "Crit/Status",
-      "mr":13,
+      "mr":6,
       "name": "Twin Krohkur",
       "rank":32.47,
       "stance": "Carving Mantis",
@@ -397,7 +397,7 @@
       "base": "Galatine is high viable",
       "combo": "Broken Bull",
       "dmg": "Crit/Status",
-      "mr":7,
+      "mr":13,
       "name": "Galatine Prime",
       "rank":32.97,
       "stance": "Cleaving Whirlwind",
@@ -412,7 +412,7 @@
       "base": "",
       "combo": "Dire Courtship",
       "dmg": "Critical",
-      "mr":11,
+      "mr":7,
       "name": "Dual Keres",
       "rank":31.47,
       "stance": "Carving Mantis",
@@ -3743,6 +3743,10 @@
       "class": "alert-success",
       "note_to_sakai": "you take this alert out after about 1 mo. October 26th",
       "text": "Hosting costs will now be covered by Creators' Collective at https://creatorscollective.club."
+    },
+    "melee_outdate": {
+        "class": "alert-warning",
+        "text": "Melee weapons are out of date and won't be updated until Melee 3.0 is released. In the meantime: Atterax > Godzaw >>> Other Zaws > Dual Swords >>>>>>>>> Other melees. "
     }
   },
   "faq": {
