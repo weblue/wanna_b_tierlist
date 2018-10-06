@@ -3743,10 +3743,6 @@
       "class": "alert-success",
       "note_to_sakai": "you take this alert out after about 1 mo. October 26th",
       "text": "Hosting costs will now be covered by Creators' Collective at https://creatorscollective.club."
-    },
-    "melee_outdate": {
-        "class": "alert-warning",
-        "text": "Melee weapons are out of date and won't be updated until Melee 3.0 is released. In the meantime: Atterax > Godzaw >>> Other Zaws > Dual Swords >>>>>>>>> Other melees. "
     }
   },
   "faq": {
