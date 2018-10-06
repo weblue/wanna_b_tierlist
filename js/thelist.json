@@ -615,7 +615,7 @@
       "tier": "Contender",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Gram_Prime",
-      "wepnotes": "Very high damage per hit, monstrous DPS, low attack speed.Suffers from poor consistency.Combo multiplier is limited at integers at 30x the normal requirements, making it difficult to ramp up quickly. ✪Suffers from poor consistency.✪",
+      "wepnotes": "Very high damage per hit, monstrous DPS, low attack speed. Suffers from poor consistency. Combo multiplier is limited at integers at 30x the normal requirements, making it difficult to ramp up quickly. ✪",
       "rivenDisposition": 1.44
     },
     "Gunsen": {
@@ -720,7 +720,7 @@
       "tier": "Contender",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Twin_Basolk",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed.Suffers from poor consistency.Rift Strike teleports user to a target within 25m on charge attack. Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. Suffers from poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ",
       "rivenDisposition": 1.18
     },
     "Venka Prime": {
@@ -900,7 +900,7 @@
       "tier": "Contender",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Orthos_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed.Suffers from poor consistency.Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 0.5
     },
     "Bo Prime": {
@@ -1020,7 +1020,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Lesion",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed.Suffers from poor consistency.Causing status proc buffs the weapon to give it 15% more innate attack speed and toxin damage. Suffers from poor consistency.",
+      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. Causing status proc buffs the weapon to give it 15% more innate attack speed and toxin damage. ",
       "rivenDisposition": 0.5
     },
     "Vaykor Sydon": {
@@ -1035,7 +1035,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Vaykor_Sydon",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed.Suffers from poor consistency.Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. Suffers from poor consistency.",
+      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from poor consistency. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
       "rivenDisposition": 0.84
     },
     "Karyst": {
@@ -1080,7 +1080,7 @@
       "tier": "Viable",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Secura_Lecta_",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed.Suffers from poor consistency.Killing an enemy with this weapon equipped gives bonus credits. Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Suffers from poor consistency. Killing an enemy with this weapon equipped gives bonus credits. ",
       "rivenDisposition": 0.5
     },
     "Scoliac": {
@@ -1185,7 +1185,7 @@
       "tier": "Viable",
       "type": "Tonfa",
       "url": "http://warframe.wikia.com/wiki/Telos_Boltace",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed.Suffers from poor consistency.Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. Suffers from poor consistency.",
+      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from poor consistency. Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. ",
       "rivenDisposition": 1
     },
     "Cassowar": {
@@ -1215,7 +1215,7 @@
       "tier": "Viable",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Zenistar",
-      "wepnotes": "Low damage per hit, moderate DPS, very low attack speed.Suffers from poor consistency.Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. Suffers from poor consistency.",
+      "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
       "rivenDisposition": 0.5
     },
     "Halikar": {
@@ -1245,7 +1245,7 @@
       "tier": "Viable",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Prova_Vandal",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed.Suffers from poor consistency.Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. ",
       "rivenDisposition": 1.29
     },
     "Dual Heat Swords": {
@@ -1290,7 +1290,7 @@
       "tier": "Viable",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Caustacyst",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed.Suffers from poor consistency.Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
       "rivenDisposition": 1.3
     },
     "Amphis": {
@@ -1335,7 +1335,7 @@
       "tier": "Viable",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Arca_Titron",
-      "wepnotes": "Very high damage per hit, moderate DPS, very low attack speed.Suffers from poor consistency.Kills grant up to 10 Capacitor (+100% electricity damage) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. Suffers from poor consistency.",
+      "wepnotes": "Very high damage per hit, moderate DPS, very low attack speed. Suffers from poor consistency. Kills grant up to 10 Capacitor (+100% electricity damage) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. ",
       "rivenDisposition": 1
     },
     "Guandao": {
@@ -1410,7 +1410,7 @@
       "tier": "Need buffs",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Reaper_Prime",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed.Suffers from poor consistency.Suffers from poor consistency.",
+      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 1.29
     },
     "Tekko": {
@@ -1560,7 +1560,7 @@
       "tier": "Need buffs",
       "type": "Nunchaku",
       "url": "http://warframe.wikia.com/wiki/Shaku",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed.Suffers from poor consistency.Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 1.35
     },
     "Prisma Obex": {
@@ -1695,7 +1695,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Jaw_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed.Suffers from poor consistency.Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from poor consistency. Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. ",
       "rivenDisposition": 1.47
     },
     "Hirudo": {
@@ -1740,7 +1740,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Dark_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed.Suffers from poor consistency.Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 1.48
     },
     "Sarpa": {
@@ -1815,7 +1815,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Sancti_Magistar",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed.Suffers from poor consistency.Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. Suffers from poor consistency.",
+      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
       "rivenDisposition": 1.09
     },
     "Fragor Prime": {
@@ -1845,7 +1845,7 @@
       "tier": "Need buffs",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Redeemer",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed.Suffers from poor consistency.Bullet fire is only blast damage.Suffers from poor consistency.",
+      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Suffers from poor consistency. Bullet fire is only blast damage.",
       "rivenDisposition": 1.17
     },
     "Heliocor": {
@@ -3774,7 +3774,6 @@
       "name": "channel",
       "text": "All weapon tests will be uploaded (eventually)"
     }
-
   },
-  "version": "23.9.0 - Rubico Prime updated."
+  "version": "23.9.0 - Melee Weapons updated."
 }
