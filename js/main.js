@@ -87,6 +87,6 @@ app.controller("TierListController", function TierListController($scope, $http) 
         }, 2000);
     });
 
-    $scope.categories = ['Primaries', 'Secondaries', 'Melee', /*'Frames',*/ 'Schools', 'Archwings', 'Archguns', 'Archmelees', 'Companions'];
+    $scope.categories = ['Primaries', 'Secondaries', 'Melee', /*'Frames',*/ /*'Schools',*/ 'Archwings', 'Archguns', 'Archmelees', 'Companions'];
 
 });
