@@ -1482,10 +1482,10 @@
       "rank":63.21,
       "stance": "Brutal Tide",
       "stancenotes": "",
-      "tier": "Need buffs",
+      "tier": "Untested",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Kogake_Prime",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed.Increases movement speed by 5% when equipped. ",
+      "wepnotes": "<CURRENTLY UNDERGOING RETESTING> Very low damage per hit, poor DPS, low attack speed.Increases movement speed by 5% when equipped. ",
       "rivenDisposition": 1.46
     },
     "Serro": {
@@ -1572,10 +1572,10 @@
       "rank":66.62,
       "stance": "Brutal Tide",
       "stancenotes": "",
-      "tier": "Need buffs",
+      "tier": "Untested",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Prisma_Obex",
-      "wepnotes": "Very low damage per hit, poor DPS, very high attack speed.Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
+      "wepnotes": "<CURRENTLY UNDERGOING RETESTING> Very low damage per hit, poor DPS, very high attack speed.Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
       "rivenDisposition": 1.1
     },
     "Kama": {
@@ -1707,10 +1707,10 @@
       "rank":85.57,
       "stance": "Brutal Tide",
       "stancenotes": "",
-      "tier": "Need buffs",
+      "tier": "Untested",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Hirudo",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed.Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
+      "wepnotes": "<CURRENTLY UNDERGOING RETESTING> Very low damage per hit, poor DPS, high attack speed.Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
       "rivenDisposition": 0.5
     },
     "Plasma Sword": {
@@ -1752,10 +1752,10 @@
       "rank":44.1,
       "stance": "Bullet Dance",
       "stancenotes": "",
-      "tier": "Contender",
+      "tier": "Untested",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Sarpa",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed.",
+      "wepnotes": "<CURRENTLY UNDERGOING RETESTING> Very low damage per hit, monstrous DPS, low attack speed.",
       "rivenDisposition": 1.24
     },
     "Anku": {
