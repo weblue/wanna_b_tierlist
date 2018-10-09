@@ -13,10 +13,6 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-a {
-    color:#347CBB;
-}
-
 .parallax {
     background-size: auto 100%;
     background: url(../img/jumbo_background4k.png) no-repeat fixed center;
