@@ -2808,7 +2808,7 @@
       "category": "Shotgun",
       "dmg": "Critical",
       "notes": "Very high damage per shell, insane DPS, hitscan munition, good ammo econ. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Reload should be done when clip is empty as there is a delay between reloading and firing, but the gains should be minimal. † ",
-      "rank": 55,
+      "rank": 53.4,
       "tier": "Top",
       "type": "Semi-auto"
     },
