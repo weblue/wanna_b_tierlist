@@ -1861,7 +1861,7 @@
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Heliocor",
       "wepnotes": "High damage per hit, poor DPS, low attack speed. Gives one codex scan upon kill. ",
-      "rivenDisposition": 0.94    
+      "rivenDisposition": 0.94
     }
   },
   "Primaries": {
@@ -2835,7 +2835,7 @@
       "rank": 36,
       "tier": "Top",
       "type": "Beam"
-    }      
+    }
   },
   "Schools": {
     "Madurai": {
@@ -3720,7 +3720,7 @@
     "Contender": {
       "name": "Contender",
       "rank": 2
-    },	
+    },
     "Top": {
       "name": "Top",
       "rank": 1
@@ -3742,7 +3742,15 @@
     "hosting": {
       "class": "alert-success",
       "note_to_sakai": "you take this alert out after about 1 mo. October 26th",
-      "text": "Hosting costs will now be covered by Creators' Collective at https://creatorscollective.club."
+      "text": "Hosting costs will now be covered by Creators' Collective at http://creatorscollective.club."
+    }
+  },
+  "disclaimers":{
+    "general": {
+      "text": "This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated.<a href='https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8'>Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a general sense of the equipment in the game."
+    },
+    "ordering": {
+      "text": "<u>Ordering of items is only somewhat meaningful, positions can be considered +/- 5 of each other.</u>"
     }
   },
   "faq": {

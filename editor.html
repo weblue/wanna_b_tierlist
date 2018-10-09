@@ -27,6 +27,42 @@
         <hr />
         <section>
           <h2>
+            <a data-toggle="collapse" href="#newDisclaimer" role="button" aria-expanded="false" aria-controls="newDisclaimer">New Disclaimer</a>
+          </h2>
+          <div class="form-row collapse" id="newDisclaimer">
+              <div class="col">
+                  <input class="form-control" ng-model="newDisclaimerName" placeholder="Disclaimer Name" />
+              </div>
+              <div class="col-6">
+                  <input class="form-control" ng-model="newDisclaimerText" placeholder="Disclaimer Text" />
+              </div>
+              <div class="col">
+                  <button class="btn btn-success" ng-click="addDisclaimer(newDisclaimerName, newDisclaimerText)">Create Disclaimer</button>
+              </div>
+          </div>
+        </section>
+        <hr />
+        <section>
+            <h2>
+              <a data-toggle="collapse" href="#manageDisclaimers" role="button" aria-expanded="false" aria-controls="manageDisclaimers">Manage Disclaimers</a>
+            </h2>
+            <div class="form-row collapse" id="manageDisclaimers">
+                <div class="col">
+                    <select class="form-control" ng-model="selectedDisclaimer" ng-options="disclaimer as name for (name, disclaimer) in disclaimers">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <input class="form-control" ng-model="selectedDisclaimer.text" placeholder="Disclaimer Text">
+                </div>
+                <div class="col">
+                    <button class="btn btn-danger" ng-click="deleteDisclaimer(selectedDisclaimer)">Delete Disclaimer</button>
+                </div>
+            </div>
+          </section>
+        <hr />
+        <section>
+          <h2>
             <a data-toggle="collapse" href="#newAlert" role="button" aria-expanded="false" aria-controls="newAlert">New Alert</a>
           </h2>
           <div class="form-row collapse" id="newAlert">
@@ -34,7 +70,7 @@
                   <input class="form-control" ng-model="newAlertName" placeholder="Alert Name" />
               </div>
               <div class="col">
-                  <input class="form-control " ng-model="newAlertText" placeholder="Alert Text" />
+                  <input class="form-control" ng-model="newAlertText" placeholder="Alert Text" />
               </div>
               <div class="col">
                   <select class="form-control" ng-model="newAlertClass">
@@ -56,12 +92,12 @@
             </h2>
             <div class="form-row collapse" id="manageAlerts">
                 <div class="col">
-                    <select class="form-control " ng-model="selectedAlert" ng-options="alert as name for (name, alert) in alerts">
+                    <select class="form-control" ng-model="selectedAlert" ng-options="alert as name for (name, alert) in alerts">
                         <option></option>
                     </select>
                 </div>
                 <div class="col">
-                    <input class="form-control" ng-model="selectedAlert.text" size="35" placeholder="Alert Text">
+                    <input class="form-control" ng-model="selectedAlert.text" placeholder="Alert Text">
                 </div>
                 <div class="col">
                     <select class="form-control" ng-model="selectedAlert.class">
@@ -112,7 +148,7 @@
             <div class="row">
               <div class="form-group col">
                 <label>Dmg Type</label>
-                <input class="form-control "ng-model="newPrimaryDmg" />
+                <input class="form-control"ng-model="newPrimaryDmg" />
               </div>
               <div class="form-group col">
                 <label>Wep Type</label>
