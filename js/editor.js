@@ -20,6 +20,8 @@ app.controller("EditorController", function EditorController($scope, $http) {
 
             $scope.alerts = db.alerts;
 
+            $scope.disclaimers = db.disclaimers;
+
             $scope.Primaries = $.map(db.Primaries, function (element) {
                 return element;
             });
@@ -145,7 +147,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 text: newAlertText
             };
 
-        alert('Added alert: ' + db.alerts[newAlertName]);
+        alert('Added alert: ' + newAlertName);
     };
 
     $scope.deleteAlert = function (toDelete) {
@@ -153,6 +155,23 @@ app.controller("EditorController", function EditorController($scope, $http) {
             (element) => {
                 if (db.alerts[element].text === toDelete.text)
                     delete db.alerts[element];
+            });
+    };
+
+    $scope.addDisclaimer = function (newDisclaimerName, newDisclaimerText) {
+        db.disclaimers[newDisclaimerName] =
+            {
+                text: newDisclaimerText
+            };
+
+        alert('Added disclaimer: ' + newDisclaimerName);
+    };
+
+    $scope.deleteDisclaimer = function (toDelete) {
+        Object.keys(db.disclaimers).forEach(
+            (element) => {
+                if (db.disclaimers[element].text === toDelete.text)
+                    delete db.disclaimers[element];
             });
     };
 

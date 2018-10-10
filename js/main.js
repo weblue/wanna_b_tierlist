@@ -14,10 +14,13 @@ app.config([
     }
 ]);
 
+// This is used for the unsafe pipe to render HTML from the JSON file.
+
+app.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
+
 app.controller("TierListController", function TierListController($scope, $http) {
 
     $scope.loading = true;
-
     $http({
         method: 'GET',
         url: './js/thelist.json'
@@ -27,6 +30,10 @@ app.controller("TierListController", function TierListController($scope, $http) 
         $scope.version = database.version;
 
         $scope.alerts = $.map(database.alerts, function (element) {
+            return element;
+        });
+
+        $scope.disclaimers = $.map(database.disclaimers, function (element) {
             return element;
         });
 

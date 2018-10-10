@@ -56,33 +56,33 @@
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i
+                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io"><i
               class="fab fa-github fa-lg"></i> Contribute on GitHub</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="parallax text-white py-5" id="page-top">
-        <div class="container pt-5">
-            <p class="lead">
-                This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated.
-                <a href="https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8">Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a
-                general sense of the equipment in the game.
-            </p>
-            <p class="lead">
-                <u>
-                Ordering of items is only somewhat meaningful, positions can be considered +/- 5 of each other.
-              </u>
-            </p>
-            <p class="d-block d-md-none lead">
-                If you're on mobile, try Landscape Mode!
-            </p>
-            <p class="text-right">
-                <a class="btn btn-primary btn-discord" href="https://discord.gg/Cq3jW27">
-                <i class="fab fa-discord"></i> Join The Discussion
-              </a>
-            </p>
+    <div class="card bg-dark text-white">
+        <div class="container">
+            <div class="card-body">
+                <div class="lead" ng-repeat="disclaimer in disclaimers">
+                  <p ng-bind-html="disclaimer.text | unsafe">
+                  </p>
+                </div>
+                <p class="d-block d-md-none lead">
+                    If you're on mobile, try Landscape Mode!
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-discord" href="https://discord.gg/Cq3jW27">
+                        <i class="fab fa-discord"></i> Join Our Discord!
+                    </a>
+
+                    <a class="btn btn-primary btn-light" href="https://github.com/weblue/weblue.github.io/issues">
+                        <i class="fab fa-github"></i> Contribute on GitHub
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 
@@ -102,10 +102,10 @@
                         </div>
                     </div>
                 </form>
-                <nav >
+                <nav class="mb-2">
                     <ul class="nav nav-tabs" id="tabs" role="tablist">
                         <li class="nav-item" id="{(category)}tab" ng-repeat="category in categories">
-                            <a class="nav-link" data-toggle="tab" href="#{(category)}">{(category)}</a>
+                            <a class="nav-link" data-toggle="tab" href="#{(category)}" id="{(category)}link">{(category)}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#Sentweps">Sentinel Weapons</a>
@@ -509,6 +509,8 @@
 
         $(document).ready(function() {
             $('#Primariestab').addClass("active");
+            $("#Primarieslink").addClass("active")
+            $("#Primarieslink").addClass("show")
         });
     </script>
 </body>
