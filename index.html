@@ -143,11 +143,11 @@
                                 <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
                                     <td>{(primary.category)}</td>
-                                    <td>{(primary.dmg)}</td>
                                     <td ng-if="primary.dmgLink">
-                                      <a rel="noopener" target="_blank" href="{(primary.dmgLink)}">{(primary.type)}</a>
+                                      <a rel="noopener" target="_blank" href="{(primary.dmgLink)}">{(primary.dmg)}</a>
                                     </td>
-                                    <td ng-if="!primary.dmgLink">{(primary.type)}</td>
+                                    <td ng-if="!primary.dmgLink">{(primary.dmg)}</td>
+                                    <td>{(primary.type)}</td>
                                     <td>{(primary.notes)}</td>
                                     <td>{(primary.rivenDisposition)} </td>
                                     <td>{(primary.mr)}</td>
@@ -183,11 +183,11 @@
                                 </tr>
                                 <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
-                                    <td>{(secondary.dmg)}</td>
                                     <td ng-if="secondary.dmgLink">
-                                      <a rel="noopener" target="_blank" href="{(secondary.dmgLink)}">{(secondary.type)}</a>
+                                      <a rel="noopener" target="_blank" href="{(secondary.dmgLink)}">{(secondary.dmg)}</a>
                                     </td>
-                                    <td ng-if="!secondary.dmgLink">{(secondary.type)}</td>
+                                    <td ng-if="!secondary.dmgLink">{(secondary.dmg)}</td>
+                                    <td>{(secondary.type)}</td>
                                     <td>{(secondary.notes)}</td>
                                     <td>{(secondary.rivenDisposition)}</td>
                                     <td>{(secondary.mr)}</td>
@@ -227,11 +227,11 @@
                                 </tr>
                                 <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
-                                    <td>{(melee.dmg)}</td>
                                     <td ng-if="melee.dmgLink">
-                                      <a rel="noopener" target="_blank" href="{(melee.dmgLink)}">{(melee.type)}</a>
+                                      <a rel="noopener" target="_blank" href="{(melee.dmgLink)}">{(melee.dmg)}</a>
                                     </td>
-                                    <td ng-if="!melee.dmgLink">{(melee.type)}</td>
+                                    <td ng-if="!melee.dmgLink">{(melee.dmg)}</td>
+                                    <td>{(melee.type)}</td>
                                     <td>{(melee.stance)}</td>
                                     <td>{(melee.combo)}</td>
                                     <td>{(melee.wepnotes)}</td>
