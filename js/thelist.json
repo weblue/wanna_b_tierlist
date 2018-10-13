@@ -814,7 +814,7 @@
       "rivenDisposition": 1.44
     },
     "Falcor": {
-      "base": "Heliocor need buffs",
+      "base": "",
       "combo": "Morning Sun",
       "dmg": "Critical",
       "mr":8,
@@ -1399,7 +1399,7 @@
       "rivenDisposition": 1.47
     },
     "Paracesis": {
-      "base": "Heliocor need buffs",
+      "base": "",
       "combo": "Broken Bull",
       "dmg": "Crit/Status",
       "mr":10,
@@ -1489,7 +1489,7 @@
       "rivenDisposition": 1.29
     },
     "Pupacyst": {
-      "base": "Heliocor need buffs",
+      "base": "",
       "combo": "Resolute Flurry",
       "dmg": "Critical",
       "mr":7,
@@ -1907,7 +1907,7 @@
       "url": "http://warframe.wikia.com/wiki/Zenistar",
       "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
       "rivenDisposition": 0.5
-    }      
+    }
   },
   "Primaries": {
     "Amprex": {
