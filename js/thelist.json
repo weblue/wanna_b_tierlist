@@ -1913,15 +1913,16 @@
     "Amprex": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Critical",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/a/vuY6xbN",
       "mr": 10,
-      "rivenDisposition": 0.96,
       "name": "Amprex",
-      "notes": "Low damage per beam, insane DPS, beam munition, acceptable ammo econ. Beam chains to nearby enemies giving it decent AOE. † * $ ✪",
-      "rank": 39,
+      "rank": 40.4,
       "tier": "Top",
-      "type": "Beam",
-      "url": "http://warframe.wikia.com/wiki/Amprex"
+      "type": "Held",
+      "url": "http://warframe.wikia.com/wiki/Amprex",
+      "notes": "Low damage per shot, insane DPS, beam munitions. Beam chains to nearby enemies giving it decent AOE. ✪",
+      "rivenDisposition": 0.96
     },
     "Arca Plasmor": {
       "base": "",
