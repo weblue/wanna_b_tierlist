@@ -1910,6 +1910,20 @@
     }
   },
   "Primaries": {
+    "Amprex": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/a/vuY6xbN",
+      "mr": 10,
+      "name": "Amprex",
+      "rank": 40.4,
+      "tier": "Top",
+      "type": "Held",
+      "url": "http://warframe.wikia.com/wiki/Amprex",
+      "notes": "Low damage per shot, insane DPS, beam munitions. Beam chains to nearby enemies giving it decent AOE. ✪",
+      "rivenDisposition": 0.96
+    },      
     "Arca Plasmor": {
       "base": "",
       "category": "Shotgun",
