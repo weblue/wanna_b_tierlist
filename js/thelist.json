@@ -2012,13 +2012,13 @@
       "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
       "rivenDisposition": 0.5
     },
-    "Ablation": {
+    "Zaw - Ablation": {
       "base": "",
       "combo": "Resolute Flurry",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/XQzv7Ib",
       "mr":0,
-      "name": "Ablation",
+      "name": "Staff Zaw - Ablation",
       "rank":29.68,
       "stance": "Clashing Forest",
       "stancenotes": "",
@@ -2028,13 +2028,13 @@
       "wepnotes": "Low damage per hit, insane DPS, low attack speed. Zaw. Plague Keewar, Seekalla, and Ekwana II Jai.✪",
       "rivenDisposition": 1
     },
-    "Atgeir": {
+    "Zaw - Atgeir": {
       "base": "",
       "combo": "Slide",
       "dmg": "Slide",
       "dmgLink": "https://imgur.com/ySwHSk2",
       "mr":0,
-      "name": "Atgeir",
+      "name": "Polearm Zaw - Atgeir",
       "rank":25.44,
       "stance": "Twirling Spire",
       "stancenotes": "",
@@ -2044,13 +2044,13 @@
       "wepnotes": "Low damage per hit, insane DPS, low attack speed. Suffers from poor consistency. Zaw. Cyath, Shtung, and Ekwana II Jai.✪",
       "rivenDisposition": 1
     },
-    "Carnwennan": {
+    "Zaw - Carnwennan": {
       "base": "",
       "combo": "Carving Spike",
       "dmg": "Speed",
       "dmgLink": "https://imgur.com/MBN1TB7",
       "mr":0,
-      "name": "Carnwennan",
+      "name": "Dagger Zaw - Carnwennan",
       "rank":41.14,
       "stance": "Stinging Thorn",
       "stancenotes": "",
@@ -2060,13 +2060,13 @@
       "wepnotes": "Low damage per hit, insane DPS, low attack speed. Zaw. Balla, Peye, and Vargeet II Jai.",
       "rivenDisposition": 1
     },
-    "Dainsleif": {
+    "Zaw - Dainsleif": {
       "base": "",
       "combo": "Diving Kestrel",
       "dmg": "Critical",
       "dmgLink": "https://imgur.com/0rkgrZT",
       "mr":0,
-      "name": "Dainsleif",
+      "name": "Sword Zaw - Dainsleif",
       "rank":43.76,
       "stance": "Swooping Falcon",
       "stancenotes": "",
@@ -2076,13 +2076,13 @@
       "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Zaw. Mewan, Korb, and Vargeet II Jai.",
       "rivenDisposition": 1
     },
-    "de Carranza": {
+    "Zaw - de Carranza": {
       "base": "",
       "combo": "Hidden Flourish",
       "dmg": "Critical",
       "dmgLink": "https://imgur.com/Kq5xfd1",
       "mr":0,
-      "name": "de Carranza",
+      "name": "Rapier Zaw - de Carranza",
       "rank":33.6,
       "stance": "Vulpine Mask",
       "stancenotes": "",
@@ -2092,13 +2092,13 @@
       "wepnotes": "Low damage per hit, insane DPS, low attack speed. Zaw. Plague Kripath, Korb, and Vargeet II Jai.",
       "rivenDisposition": 1
     },
-    "Dojigiri": {
+    "Zaw - Dojigiri": {
       "base": "",
       "combo": "Silent Acumen",
       "dmg": "Critical",
       "dmgLink": "https://imgur.com/ZslHyZe",
       "mr":0,
-      "name": "Dojigiri",
+      "name": "Nikana Zaw - Dojigiri",
       "rank":51.21,
       "stance": "Decisive Judgement",
       "stancenotes": "",
@@ -2108,13 +2108,13 @@
       "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Zaw. Sepfahn, Korb, and Vargeet II Jai.",
       "rivenDisposition": 1
     },
-    "Hrunting": {
+    "Zaw - Hrunting": {
       "base": "",
       "combo": "Broken Bull",
       "dmg": "Status",
-      "dmgLink": "https://imgur.com/QmtfHmn",
+      "dmgLink": "https://imgur.com/CHr7aEk",
       "mr":0,
-      "name": "Hrunting",
+      "name": "Heavy Blade Zaw - Hrunting",
       "rank":26.63,
       "stance": "Cleaving Whirlwind",
       "stancenotes": "",
@@ -2124,13 +2124,13 @@
       "wepnotes": "High damage per hit, insane DPS, low attack speed. Zaw. Dokrahm, Shtung, and Ekwana II Jai✪",
       "rivenDisposition": 1
     },
-    "Mah-alleinir": {
+    "Zaw - Mah-alleinir": {
       "base": "",
       "combo": "Slide",
       "dmg": "Slide",
       "dmgLink": "https://imgur.com/2deR1H6",
       "mr":0,
-      "name": "Mah-alleinir",
+      "name": "Hammer Zaw - Mah-alleinir",
       "rank":32.98,
       "stance": "Crushing Ruin",
       "stancenotes": "",
@@ -2140,13 +2140,13 @@
       "wepnotes": "High damage per hit, insane DPS, low attack speed. Zaw. Rabvee, Shtung, and Ekwana II Jai.✪",
       "rivenDisposition": 1
     },
-    "Non Timetis Messor": {
+    "Zaw - Non Timetis Messor": {
       "base": "",
       "combo": "Dying Light",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/2TuDrSl",
       "mr":0,
-      "name": "Non Timetis Messor",
+      "name": "Scythe Zaw - Non Timetis Messor",
       "rank":51.36,
       "stance": "Stalking Fan",
       "stancenotes": "",
@@ -2156,13 +2156,13 @@
       "wepnotes": "Low damage per hit, insane DPS, low attack speed. Zaw. Plague Keewar, Korb, and Ekwana II Jai.",
       "rivenDisposition": 1
     },
-    "Ulfberht": {
+    "Zaw - Ulfberht": {
       "base": "",
       "combo": "Lightning Siren",
       "dmg": "Critical",
       "dmgLink": "https://imgur.com/qH78nYE",
       "mr":0,
-      "name": "Ulfberht",
+      "name": "Machete Zaw - Ulfberht",
       "rank":35.14,
       "stance": "Cyclone Kraken",
       "stancenotes": "",
