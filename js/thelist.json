@@ -1295,7 +1295,7 @@
     "Mios": {
       "base": "",
       "combo": "Soul of the Leviathan",
-      "dmg": "Critical",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/XpuuvIb",
       "mr":8,
       "name": "Mios",
@@ -1636,7 +1636,7 @@
       "mr":3,
       "name": "Ripkas",
       "rank":60.36,
-      "stance": "Malicious Raptor",
+      "stance": "Four Riders",
       "stancenotes": "",
       "tier": "Need buffs",
       "type": "Claws",
