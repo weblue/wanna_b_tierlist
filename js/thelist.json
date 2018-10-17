@@ -1566,18 +1566,18 @@
     },
     "Pupacyst": {
       "base": "",
-      "combo": "Resolute Flurry",
+      "combo": "Vaulting Apex or Slide",
       "dmg": "Critical",
-      "dmgLink": "https://imgur.com/VqlDj2p",
+      "dmgLink": "https://imgur.com/1XFZhuO",
       "mr":7,
       "name": "Pupacyst",
       "rank":58.69,
-      "stance": "Clashing Forest",
+      "stance": "Twirling Spire",
       "stancenotes": "",
       "tier": "Viable",
-      "type": "Staff",
+      "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Pupacyst",
-      "wepnotes": "Low damage per hit, poor DPS, low attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 1
     },
     "Rakta Dark Dagger": {
