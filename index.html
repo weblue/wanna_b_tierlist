@@ -209,6 +209,7 @@
                                     <th width="12%">Rec. Combo</th>
                                     <th width="auto">Wep Notes</th>
                                     <!--<th width="20%">Combo Notes</th>-->
+                                    <th width="auto">Riven Disp</th>
                                     <th width="auto">MR</th>
                                     <th width="13%">Base/Event Rank</th>
                                 </tr>
@@ -224,6 +225,7 @@
                                     <!--<td></td>-->
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
@@ -236,6 +238,7 @@
                                     <td>{(melee.combo)}</td>
                                     <td>{(melee.wepnotes)}</td>
                                     <!--<td>{(melee.stancenotes)}</td>-->
+                                    <td>{(melee.rivenDisposition)}
                                     <td>{(melee.mr)}</td>
                                     <td>{(melee.base)}</td>
                                 </tr>
