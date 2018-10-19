@@ -425,7 +425,7 @@
       "tier": "Viable",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Arca_Titron",
-      "wepnotes": "Very high damage per hit, moderate DPS, very low attack speed. Kills grant up to 10 Capacitor (+100% electricity damage) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. ",
+      "wepnotes": "Very high damage per hit, moderate DPS, very low attack speed. Kills grant up to 10 Capacitor (+100% electricity damage) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. Third hit of Smashing Fury procs slam bonus from passive but doesn't expend charges. ",
       "rivenDisposition": 1
     },
     "Atterax": {
