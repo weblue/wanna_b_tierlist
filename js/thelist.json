@@ -2219,7 +2219,7 @@
     "Astilla": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/JmUAthv",
       "mr": 10,
       "name": "Astilla",
