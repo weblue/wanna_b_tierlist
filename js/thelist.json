@@ -847,7 +847,7 @@
     "Falcor": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Critical",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/cuQoNUK",
       "mr":8,
       "name": "Falcor",
