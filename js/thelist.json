@@ -2500,14 +2500,14 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Raw",
-      "dmgLink": "https://imgur.com/YNjsNTa",
+      "dmgLink": "https://imgur.com/PzTFdju",
       "mr": 7,
       "name": "Hema",
-      "rank": 94.1,
-      "tier": "Need buffs",
+      "rank": 74.3,
+      "tier": "Viable",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Hema",
-      "notes": "Low damage per shot, low DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. Suffers from poor consistency. ",
+      "notes": "Low damage per shot, acceptable DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ",
       "rivenDisposition": 1
     },
     "Hind": {
