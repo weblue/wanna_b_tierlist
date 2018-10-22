@@ -4110,8 +4110,8 @@
       "rank": 2
     },
     "Top": {
-      "name": "Top",
       "rank": 1
+      "name": "Top",
     },
     "Untested": {
       "name": "Untested",
@@ -4125,7 +4125,7 @@
   "alerts": {
     "frame": {
       "class": "alert-warning d-none",
-      "text": "Frames are currently being redone. Please be patient as that part of the list is worked on!"
+      "text": "Frames are currently being redone. Please be patient as that part of the list is worked on."
     },
     "hosting": {
       "class": "alert-success",
@@ -4138,29 +4138,21 @@
       "text": "This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated. <a href='https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8'>Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a general sense of the equipment in the game."
     },
     "ordering": {
-      "text": "<u>Ordering of items is only somewhat meaningful, positions can be considered +/- 5 of each other.</u>"
+      "text": "<u>Ordering of items is somewhat meaningful with the implementation of robust <a href='https://www.reddit.com/r/Warframe/comments/9lxoxq/melee_ranking_has_been_completed/?st=jnkhn58w&sh=09caa53b'>testing regiment.</a></u> However, for Top tiered weapons (and some Contenders) they are somewhat crowded and differences could sometimes be down to less than 5% in performance."
     }
   },
   "faq": {
-    "hm": {
-      "name": "hunmun",
-      "text": "† indicates a weapon that significantly improves when used with Hunter Munitions."
+    "builds": {
+      "name": "builds",
+      "text": "Builds are based on best (sometimes up to 7 forma on a single weapon) effort basis and done without rivens. Therefore it is also safe to say weapons are ranked without rivens. "
     },
-    "hc": {
-      "name": "heavycal",
-      "text": "* indicates a weapon that can utilize Heavy Caliber without significant loss."
-    },
-    "pt": {
-      "name": "punchthrough",
-      "text": "$ indicates a weapon that can utilize punchthrough, but would probably not have the slot for it."
+    "dispute": {
+      "name": "dispute",
+      "text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
     },
     "dispo": {
       "name": "disposition",
       "text": "✪ indicates a weapon that has an unusually high riven disposition for its rank."
-    },
-    "riven": {
-      "name": "rivenDisposition",
-      "text": "All weapons are tested and therefore ranked without using riven mods."
     },
     "utubechannel": {
       "name": "channel",
