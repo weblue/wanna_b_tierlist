@@ -1,4 +1,4 @@
-language: minimal
+language: python
 python:
     - "2.7"
     - "3.2"
