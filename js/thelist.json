@@ -2187,7 +2187,7 @@
       "url": "http://warframe.wikia.com/wiki/Amprex",
       "notes": "Low damage per shot, insane DPS, beam munitions. Beam chains to nearby enemies giving it decent AOE. ✪",
       "rivenDisposition": 0.96
-    },      
+    },
     "Arca Plasmor": {
       "base": "",
       "category": "Shotgun",
@@ -4110,8 +4110,8 @@
       "rank": 2
     },
     "Top": {
-      "rank": 1
       "name": "Top",
+      "rank": 1
     },
     "Untested": {
       "name": "Untested",
