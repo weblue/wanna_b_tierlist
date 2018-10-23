@@ -17,11 +17,49 @@
     <div class="container-fluid">
         <h1>Tierlist JSON Editor</h1>
         <p>Click a header to expand.</p>
+        <a class="btn btn-primary" href="index.html">To Main Page</a>
+        <hr />
         <section>
             <h2>General</h2>
             <label for="app-version">Version:</label>
             <input class="form-control" ng-model="version" id="app-version" type="text" />
         </section>
+        <hr />
+        <section>
+          <h2>
+            <a data-toggle="collapse" href="#newDisclaimer" role="button" aria-expanded="false" aria-controls="newDisclaimer">New Disclaimer</a>
+          </h2>
+          <div class="form-row collapse" id="newDisclaimer">
+              <div class="col">
+                  <input class="form-control" ng-model="newDisclaimerName" placeholder="Disclaimer Name" />
+              </div>
+              <div class="col-6">
+                  <input class="form-control" ng-model="newDisclaimerText" placeholder="Disclaimer Text" />
+              </div>
+              <div class="col">
+                  <button class="btn btn-success" ng-click="addDisclaimer(newDisclaimerName, newDisclaimerText)">Create Disclaimer</button>
+              </div>
+          </div>
+        </section>
+        <hr />
+        <section>
+            <h2>
+              <a data-toggle="collapse" href="#manageDisclaimers" role="button" aria-expanded="false" aria-controls="manageDisclaimers">Manage Disclaimers</a>
+            </h2>
+            <div class="form-row collapse" id="manageDisclaimers">
+                <div class="col">
+                    <select class="form-control" ng-model="selectedDisclaimer" ng-options="disclaimer as name for (name, disclaimer) in disclaimers">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <input class="form-control" ng-model="selectedDisclaimer.text" placeholder="Disclaimer Text">
+                </div>
+                <div class="col">
+                    <button class="btn btn-danger" ng-click="deleteDisclaimer(selectedDisclaimer)">Delete Disclaimer</button>
+                </div>
+            </div>
+          </section>
         <hr />
         <section>
           <h2>
@@ -32,7 +70,7 @@
                   <input class="form-control" ng-model="newAlertName" placeholder="Alert Name" />
               </div>
               <div class="col">
-                  <input class="form-control " ng-model="newAlertText" placeholder="Alert Text" />
+                  <input class="form-control" ng-model="newAlertText" placeholder="Alert Text" />
               </div>
               <div class="col">
                   <select class="form-control" ng-model="newAlertClass">
@@ -54,12 +92,12 @@
             </h2>
             <div class="form-row collapse" id="manageAlerts">
                 <div class="col">
-                    <select class="form-control " ng-model="selectedAlert" ng-options="alert as name for (name, alert) in alerts">
+                    <select class="form-control" ng-model="selectedAlert" ng-options="alert as name for (name, alert) in alerts">
                         <option></option>
                     </select>
                 </div>
                 <div class="col">
-                    <input class="form-control" ng-model="selectedAlert.text" size="35" placeholder="Alert Text">
+                    <input class="form-control" ng-model="selectedAlert.text" placeholder="Alert Text">
                 </div>
                 <div class="col">
                     <select class="form-control" ng-model="selectedAlert.class">
@@ -109,8 +147,8 @@
             </div>
             <div class="row">
               <div class="form-group col">
-                <label>Dmg Type</label>
-                <input class="form-control "ng-model="newPrimaryDmg" />
+                <label>Build Focus</label>
+                <input class="form-control"ng-model="newPrimaryDmg" />
               </div>
               <div class="form-group col">
                 <label>Wep Type</label>
@@ -177,7 +215,7 @@
             </div>
             <div class="row">
               <div class="form-group col">
-                <label>Dmg Type</label>
+                <label>Build Focus</label>
                 <input class="form-control" ng-model="selectedPrimary.dmg" />
               </div>
               <div class="form-group col">
@@ -229,7 +267,7 @@
             </div>
             <div class="row">
               <div class="form-group col">
-                <label>Dmg Type</label>
+                <label>Build Focus</label>
                 <input class="form-control" ng-model="newSecondaryDmg" />
               </div>
               <div class="form-group col">
@@ -288,7 +326,7 @@
             </div>
             <div class="row">
               <div class="form-group col">
-                <label>Dmg Type</label>
+                <label>Build Focus</label>
                 <input class="form-control" ng-model="selectedSecondary.dmg" />
               </div>
               <div class="form-group col">
@@ -344,19 +382,19 @@
                 <input class="form-control" ng-model="newMeleeStance" />
               </div>
               <div class="form-group col">
-                <label>Stance Notes</label>
-                <input class="form-control" ng-model="newMeleeStancenotes" />
-              </div>
-              <div class="form-group col">
                 <label>Combo</label>
                 <input class="form-control" ng-model="newMeleeCombo" />
+              </div>
+              <div class="form-group col">
+                <label>Stance/Combo Notes</label>
+                <input class="form-control" ng-model="newMeleeStancenotes" />
               </div>
               <div class="form-group col">
               </div>
             </div>
             <div class="row">
               <div class="form-group col">
-                <label>Dmg Type</label>
+                <label>Build Focus</label>
                 <input class="form-control" ng-model="newMeleeDmg" />
               </div>
               <div class="form-group col">
@@ -420,19 +458,19 @@
                 <input class="form-control" ng-model="selectedMelee.stance" />
               </div>
               <div class="form-group col">
-                <label>Stance Notes</label>
-                <input class="form-control" ng-model="selectedMelee.stancenotes" />
-              </div>
-              <div class="form-group col">
                 <label>Combo</label>
                 <input class="form-control" ng-model="selectedMelee.combo" />
+              </div>
+              <div class="form-group col">
+                <label>Stance/Combo Notes</label>
+                <input class="form-control" ng-model="selectedMelee.stancenotes" />
               </div>
               <div class="form-group col">
               </div>
             </div>
             <div class="row">
               <div class="form-group col">
-                <label>Dmg Type</label>
+                <label>Build Focus</label>
                 <input class="form-control" ng-model="selectedMelee.dmg" />
               </div>
               <div class="form-group col">
@@ -952,14 +990,11 @@
         </section>
         <hr />
         <footer class="mt-5 py-2 text-center">
-          <p> &copy; <a target="_blank" href="http://twitch.tv/mrflooners">i_wanna_b_the_guy</a> 2017 </p>
+          <p> &copy; <a target="_blank" href="https://twitch.tv/mrflooners">i_wanna_b_the_guy</a> 2017 </p>
         </footer>
     </div>
 
-    <script src="./js/vendor/jquery-3.2.1.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')
-    </script>
+    <script src="./js/vendor/jquery-3.3.1.slim.min.js"></script>
     <script src="./js/vendor/bootstrap.min.js"></script>
 
     <script src="./js/editor.js"></script>

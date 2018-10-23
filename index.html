@@ -56,33 +56,33 @@
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i
+                    <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io"><i
               class="fab fa-github fa-lg"></i> Contribute on GitHub</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="parallax text-white py-5" id="page-top">
-        <div class="container pt-5">
-            <p class="lead">
-                This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated.
-                <a href="https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8">Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a
-                general sense of the equipment in the game.
-            </p>
-            <p class="lead">
-                <u>
-                Ordering of items is only somewhat meaningful, positions can be considered +/- 5 of each other.
-              </u>
-            </p>
-            <p class="d-block d-md-none lead">
-                If you're on mobile, try Landscape Mode!
-            </p>
-            <p class="text-right">
-                <a class="btn btn-primary btn-discord" href="https://discord.gg/Cq3jW27">
-                <i class="fab fa-discord"></i> Join The Discussion
-              </a>
-            </p>
+    <div class="card bg-dark text-white">
+        <div class="container">
+            <div class="card-body">
+                <div class="lead" ng-repeat="disclaimer in disclaimers">
+                  <p ng-bind-html="disclaimer.text | unsafe">
+                  </p>
+                </div>
+                <p class="d-block d-md-none lead">
+                    If you're on mobile, try Landscape Mode!
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-discord" href="https://discord.gg/Cq3jW27">
+                        <i class="fab fa-discord"></i> Join Our Discord!
+                    </a>
+
+                    <a class="btn btn-primary btn-light" href="https://github.com/weblue/weblue.github.io/issues">
+                        <i class="fab fa-github"></i> Contribute on GitHub
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 
@@ -102,10 +102,10 @@
                         </div>
                     </div>
                 </form>
-                <nav >
+                <nav class="mb-2">
                     <ul class="nav nav-tabs" id="tabs" role="tablist">
                         <li class="nav-item" id="{(category)}tab" ng-repeat="category in categories">
-                            <a class="nav-link" data-toggle="tab" href="#{(category)}">{(category)}</a>
+                            <a class="nav-link" data-toggle="tab" href="#{(category)}" id="{(category)}link">{(category)}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#Sentweps">Sentinel Weapons</a>
@@ -121,7 +121,7 @@
                                 <tr>
                                     <th width="10%">Weapons</th>
                                     <th width="8%">Category</th>
-                                    <th width="8%">Dmg Type</th>
+                                    <th width="8%">Build Focus</th>
                                     <th width="10%">Wep Type</th>
                                     <th width="auto">Notes</th>
                                     <th width="3%">Riven Disp</th>
@@ -143,7 +143,10 @@
                                 <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
                                     <td>{(primary.category)}</td>
-                                    <td>{(primary.dmg)}</td>
+                                    <td ng-if="primary.dmgLink">
+                                      <a rel="noopener" target="_blank" href="{(primary.dmgLink)}">{(primary.dmg)}</a>
+                                    </td>
+                                    <td ng-if="!primary.dmgLink">{(primary.dmg)}</td>
                                     <td>{(primary.type)}</td>
                                     <td>{(primary.notes)}</td>
                                     <td>{(primary.rivenDisposition)} </td>
@@ -160,7 +163,7 @@
                             <thead>
                                 <tr>
                                     <th width="12%">Weapons</th>
-                                    <th width="8%">Dmg Type</th>
+                                    <th width="8%">Build Focus</th>
                                     <th width="10%">Wep Type</th>
                                     <th width="auto">Notes</th>
                                     <th width="3%">Riven Disp</th>
@@ -180,7 +183,10 @@
                                 </tr>
                                 <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
-                                    <td>{(secondary.dmg)}</td>
+                                    <td ng-if="secondary.dmgLink">
+                                      <a rel="noopener" target="_blank" href="{(secondary.dmgLink)}">{(secondary.dmg)}</a>
+                                    </td>
+                                    <td ng-if="!secondary.dmgLink">{(secondary.dmg)}</td>
                                     <td>{(secondary.type)}</td>
                                     <td>{(secondary.notes)}</td>
                                     <td>{(secondary.rivenDisposition)}</td>
@@ -197,12 +203,13 @@
                             <thead>
                                 <tr>
                                     <th width="12%">Weapons</th>
-                                    <th width="8%">Dmg Type</th>
+                                    <th width="8%">Build Focus</th>
                                     <th width="10%">Wep Type</th>
                                     <th width="12%">Rec. Stance</th>
-                                    <!--<th width="12%">Rec. Combo</th>-->
+                                    <th width="12%">Rec. Combo</th>
                                     <th width="auto">Wep Notes</th>
                                     <!--<th width="20%">Combo Notes</th>-->
+                                    <th width="auto">Riven Disp</th>
                                     <th width="auto">MR</th>
                                     <th width="13%">Base/Event Rank</th>
                                 </tr>
@@ -215,16 +222,23 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <!--<td></td>-->
+                                    <td></td>
+                                    <td></td>
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
-                                    <td>{(melee.dmg)}</td>
+                                    <td ng-if="melee.dmgLink">
+                                      <a rel="noopener" target="_blank" href="{(melee.dmgLink)}">{(melee.dmg)}</a>
+                                    </td>
+                                    <td ng-if="!melee.dmgLink">{(melee.dmg)}</td>
                                     <td>{(melee.type)}</td>
                                     <td>{(melee.stance)}</td>
-                                    <!--<td>{(melee.combo)}</td>-->
+                                    <td>{(melee.combo)}</td>
                                     <td>{(melee.wepnotes)}</td>
                                     <!--<td>{(melee.stancenotes)}</td>-->
+                                    <td>{(melee.rivenDisposition)}
                                     <td>{(melee.mr)}</td>
                                     <td>{(melee.base)}</td>
                                 </tr>
@@ -453,7 +467,7 @@
 
     <footer class="text-center pt-2">
         <p>
-            <a href="http://twitch.tv/mrflooners"><i class="fab fa-twitch fa-2x"></i></a>
+            <a href="https://twitch.tv/mrflooners"><i class="fab fa-twitch fa-2x"></i></a>
             <a href="https://github.com/weblue/weblue.github.io/issues"><i class="fab fa-github fa-2x"></i></a>
         </p>
         <div class="row">
@@ -461,7 +475,7 @@
                 <h3>Author</h3>
                 <p><a target="_blank" href="https://creatorscollective.club">flooners</a></p>
                 <h3>Curators</h3>
-                <p><a target="_blank" href="http://reddit.com/u/sakai4eva">sakai4eva</a></p>
+                <p><a target="_blank" href="https://reddit.com/u/sakai4eva">sakai4eva</a></p>
             </div>
             <div class="col-sm-4">
                 <h3>Thanks To</h3>
@@ -483,9 +497,6 @@
 
     <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
     <script src="./js/vendor/jquery-3.3.1.slim.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')
-    </script>
     <script src="./js/vendor/bootstrap.min.js?v4.1.3"></script>
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/brands.js" integrity="sha384-2vdvXGQdnt+ze3ylY5ESeZ9TOxwxlOsldUzQBwtjvRpen1FwDT767SqyVbYrltjb" crossorigin="anonymous"></script>
@@ -510,6 +521,8 @@
 
         $(document).ready(function() {
             $('#Primariestab').addClass("active");
+            $("#Primarieslink").addClass("active")
+            $("#Primarieslink").addClass("show")
         });
     </script>
 </body>
