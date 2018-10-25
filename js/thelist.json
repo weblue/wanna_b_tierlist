@@ -3578,7 +3578,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Dual_Toxocyst",
-      "notes": "Low damage per shot, acceptable DPS, hit-scan  munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 1% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. ",
+      "notes": "Low damage per shot, acceptable DPS, hit-scan  munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 100% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. ",
       "rivenDisposition": 1.19
     },
     "Embolist": {
@@ -3788,7 +3788,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Pox",
-      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Firing launches gas darts that will fill a moderate AOE with gas. Modding 1% status is highly recommended. Suffers from poor consistency. ",
+      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Firing launches gas darts that will fill a moderate AOE with gas. Modding 100% status is highly recommended. Suffers from poor consistency. ",
       "rivenDisposition": 0.82
     },
     "Prisma Angstrum": {
