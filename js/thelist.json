@@ -3815,15 +3815,17 @@
     },
     "Staticor": {
       "base": "",
-      "dmg": "Status",
+      "category": "Launcher",
+      "dmg": "",
+      "dmgLink": "",
       "mr": 10,
-      "rivenDisposition": 0.53,
       "name": "Staticor",
-      "notes": "Average damage per hadouken, insane dps, projectile munitions, manageable ammo economy. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
-      "rank": 45,
+      "rank": 29.5,
       "tier": "Top",
-      "type": "Charge Shot",
-      "url": "http://warframe.wikia.com/wiki/Staticor"
+      "type": "Charge",
+      "url": "http://warframe.wikia.com/wiki/Staticor",
+      "notes": "High damage per shot, insane DPS, projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor.",
+      "rivenDisposition": 0.53
     },
     "Stug": {
       "base": "",
