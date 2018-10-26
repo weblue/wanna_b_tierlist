@@ -3864,7 +3864,7 @@
     "Secura Dual Cestra": {
       "base": "",
       "category": "Auto",
-      "dmg": "Status",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/FmyQSal.jpg",
       "mr": 10,
       "name": "Secura Dual Cestra",
