@@ -3598,7 +3598,7 @@
     "Euphona Prime": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Critical/Status",
+      "dmg": "Critical",
       "dmgLink": "https://i.imgur.com/ZvHih94.jpg",
       "mr": 14,
       "name": "Euphona Prime",
