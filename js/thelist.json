@@ -3127,7 +3127,7 @@
       "rivenDisposition": 1.14
     },
     "Vaykor Hek": {
-      "base": "",
+      "base": "Hek is Viable",
       "category": "Shotgun",
       "dmg": "Critical",
       "dmgLink": "https://imgur.com/Yd8n7II",
