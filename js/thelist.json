@@ -3416,7 +3416,7 @@
     "Akvasto": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Status",
       "dmgLink": "https://i.imgur.com/AUV8yVf.jpg",
       "mr": 8,
       "name": "Akvasto",
