@@ -48,7 +48,7 @@
       "rank": 2,
       "tier": "Top",
       "url": "http://warframe.wikia.com/wiki/Grattler",
-      "use": "Critical/Status"
+      "use": "Crit/Status"
     },
     "Phaedra": {
       "base": "",
@@ -3304,7 +3304,7 @@
     "Akbolto Prime": {
       "base": "Base is Viable",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/SXfTshX.jpg",
       "mr": 13,
       "name": "Akbolto Prime",
@@ -3360,7 +3360,7 @@
     "Aklex Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/stbLvuS.jpg",
       "mr": 15,
       "name": "Aklex Prime",
@@ -3374,7 +3374,7 @@
     "Akmagnus": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/hXmK8zz.jpg",
       "mr": 12,
       "name": "Akmagnus",
@@ -3388,7 +3388,7 @@
     "Aksomati": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/vIwza5F.jpg",
       "mr": 9,
       "name": "Aksomati",
@@ -3402,7 +3402,7 @@
     "Akstiletto Prime": {
       "base": "Base is Viable",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/5iZMUQN.jpg",
       "mr": 10,
       "name": "Akstiletto Prime",
@@ -3430,7 +3430,7 @@
     "Akzani": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/w1evgq8.jpg",
       "mr": 4,
       "name": "Akzani",
@@ -3444,7 +3444,7 @@
     "Arca Scisco": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/JfMd5y6.jpg",
       "mr": 10,
       "name": "Arca Scisco",
@@ -3458,7 +3458,7 @@
     "Atomos": {
       "base": "",
       "category": "Beam",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/a/N7GhwtI",
       "mr": 5,
       "name": "Atomos",
@@ -3472,7 +3472,7 @@
     "Azima": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/ilVfxFM.jpg",
       "mr": 6,
       "name": "Azima",
@@ -3486,7 +3486,7 @@
     "Ballistica Prime": {
       "base": "Base Need Buffs",
       "category": "Crossbow",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/YJkQ2zk.jpg",
       "mr": 14,
       "name": "Ballistica Prime",
@@ -3542,7 +3542,7 @@
     "Despair": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/38Up9LQ.jpg",
       "mr": 4,
       "name": "Despair",
@@ -3612,7 +3612,7 @@
     "Fusilai": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/fqtRaOx.jpg",
       "mr": 7,
       "name": "Fusilai",
@@ -3640,7 +3640,7 @@
     "Hystrix": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/taBSJCu.jpg",
       "mr": 7,
       "name": "Hystrix",
@@ -3710,7 +3710,7 @@
     "Lato Vandal": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/57cazbK.jpg",
       "mr": 7,
       "name": "Lato Vandal",
@@ -3724,7 +3724,7 @@
     "Lex Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/d35VTFY.jpg",
       "mr": 8,
       "name": "Lex Prime",
@@ -3766,7 +3766,7 @@
     "Pandero": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/XiQfdQa.jpg",
       "mr": 8,
       "name": "Pandero",
@@ -3794,7 +3794,7 @@
     "Prisma Angstrum": {
       "base": "Base Need Buffs",
       "category": "Launcher",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/P2NMNgq.jpg",
       "mr": 8,
       "name": "Prisma Angstrum",
@@ -3808,7 +3808,7 @@
     "Prisma Twin Gremlins": {
       "base": "Base Need Buffs",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/enN2v1E.jpg",
       "mr": 11,
       "name": "Prisma Twin Gremlins",
@@ -3836,7 +3836,7 @@
     "Rakta Ballistica": {
       "base": "",
       "category": "Crossbow",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/vXhDiYw.jpg",
       "mr": 6,
       "name": "Rakta Ballistica",
@@ -3850,7 +3850,7 @@
     "Sancti Castanas": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/kRG0Vsb.jpg",
       "mr": 10,
       "name": "Sancti Castanas",
@@ -3864,7 +3864,7 @@
     "Secura Dual Cestra": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/FmyQSal.jpg",
       "mr": 10,
       "name": "Secura Dual Cestra",
@@ -3892,7 +3892,7 @@
     "Sicarus Prime": {
       "base": "Base is Viable",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/3KrrCTr.jpg",
       "mr": 14,
       "name": "Sicarus Prime",
@@ -3934,7 +3934,7 @@
     "Spira Prime": {
       "base": "Base is Viable",
       "category": "Thrown",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/YvWJujR.jpg",
       "mr": 10,
       "name": "Spira Prime",
@@ -3948,7 +3948,7 @@
     "Staticor": {
       "base": "",
       "category": "Launcher",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/cKlGRHo.jpg",
       "mr": 10,
       "name": "Staticor",
@@ -3962,7 +3962,7 @@
     "Stubba": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/dyN5wmJ.jpg",
       "mr": 7,
       "name": "Stubba",
@@ -3990,7 +3990,7 @@
     "Synoid Gammacor": {
       "base": "",
       "category": "Beam",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/n8KYq5s.jpg",
       "mr": 7,
       "name": "Synoid Gammacor",
@@ -4004,7 +4004,7 @@
     "Talons": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/F6gfJPt.jpg",
       "mr": 8,
       "name": "Talons",
@@ -4032,7 +4032,7 @@
     "Twin Grakatas": {
       "base": "",
       "category": "Auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/D6aG1NX.jpg",
       "mr": 9,
       "name": "Twin Grakatas",
@@ -4102,7 +4102,7 @@
     "Vasto Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/nMssH9V.jpg",
       "mr": 10,
       "name": "Vasto Prime",
@@ -4116,7 +4116,7 @@
     "Vaykor Marelok": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Critical/Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://i.imgur.com/Zbg4iFT.jpg",
       "mr": 10,
       "name": "Vaykor Marelok",
@@ -4241,7 +4241,7 @@
       "tier": "Top",
       "type": "Automatic Sniper",
       "url": "http://warframe.wikia.com/wiki/Vulklok",
-      "use": "Critical/Status"
+      "use": "Crit/Status"
     }
   },
   "Tiers": {
