@@ -4004,7 +4004,7 @@
     "Talons": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Raw Damage",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/F6gfJPt.jpg",
       "mr": 8,
       "name": "Talons",
