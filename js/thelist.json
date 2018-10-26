@@ -3458,7 +3458,7 @@
     "Atomos": {
       "base": "",
       "category": "Beam",
-      "dmg": "Crit",
+      "dmg": "Critical/Status",
       "dmgLink": "https://imgur.com/a/N7GhwtI",
       "mr": 5,
       "name": "Atomos",
