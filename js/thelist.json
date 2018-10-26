@@ -3822,7 +3822,7 @@
     "Pyrana Prime": {
       "base": "Base is Contender",
       "category": "Shotgun",
-      "dmg": "Crit",
+      "dmg": "Critical",
       "dmgLink": "https://i.imgur.com/Nb02j3U.jpg",
       "mr": 13,
       "name": "Pyrana Prime",
