@@ -3948,7 +3948,7 @@
     "Staticor": {
       "base": "",
       "category": "Launcher",
-      "dmg": "Status",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/cKlGRHo.jpg",
       "mr": 10,
       "name": "Staticor",
