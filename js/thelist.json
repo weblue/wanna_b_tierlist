@@ -3472,7 +3472,7 @@
     "Azima": {
       "base": "",
       "category": "Auto",
-      "dmg": "Status",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/ilVfxFM.jpg",
       "mr": 6,
       "name": "Azima",
