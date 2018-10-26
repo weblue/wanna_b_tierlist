@@ -3626,7 +3626,7 @@
     "Hikou Prime": {
       "base": "Base Need Buffs",
       "category": "Thrown",
-      "dmg": "Raw Damage",
+      "dmg": "Status",
       "dmgLink": "https://i.imgur.com/afzFet8.jpg",
       "mr": 4,
       "name": "Hikou Prime",
