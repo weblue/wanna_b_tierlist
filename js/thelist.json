@@ -3542,7 +3542,7 @@
     "Despair": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Raw Damage",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/38Up9LQ.jpg",
       "mr": 4,
       "name": "Despair",
