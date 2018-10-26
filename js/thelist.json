@@ -3808,7 +3808,7 @@
     "Prisma Twin Gremlins": {
       "base": "Base Need Buffs",
       "category": "Auto",
-      "dmg": "Crit",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/enN2v1E.jpg",
       "mr": 11,
       "name": "Prisma Twin Gremlins",
