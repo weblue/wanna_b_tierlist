@@ -3794,7 +3794,7 @@
     "Prisma Angstrum": {
       "base": "Base Need Buffs",
       "category": "Launcher",
-      "dmg": "Status",
+      "dmg": "Critical/Status",
       "dmgLink": "https://i.imgur.com/P2NMNgq.jpg",
       "mr": 8,
       "name": "Prisma Angstrum",
