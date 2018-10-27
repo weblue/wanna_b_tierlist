@@ -3276,8 +3276,8 @@
     "Acrid": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Raw Damage",
-      "dmgLink": "https://i.imgur.com/mgNLCTR.jpg",
+      "dmg": "DoT",
+      "dmgLink": "https://i.imgur.com/gWlsmMd.jpg",
       "mr": 7,
       "name": "Acrid",
       "rank": 108.3,
