@@ -3280,11 +3280,11 @@
       "dmgLink": "https://i.imgur.com/gWlsmMd.jpg",
       "mr": 7,
       "name": "Acrid",
-      "rank": 108.3,
-      "tier": "Need buffs",
+      "rank": 82.8,
+      "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Acrid",
-      "notes": "Low damage per shot, low DPS, projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. ",
+      "notes": "Low damage per shot, acceptable DPS, projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. Sequence (Radiation, shields) can be useful at times. ",
       "rivenDisposition": 1.33
     },
     "Afuris": {
