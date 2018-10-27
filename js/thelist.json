@@ -3914,7 +3914,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Sonicor",
-      "notes": "High damage per shot, acceptable DPS, projectile munitions. The tenno space program has been replaced by the tenno ragdoll simulator. Suffers from poor consistency. ",
+      "notes": "High damage per shot, acceptable DPS, projectile munitions. The tenno space program has been replaced by the tenno ragdoll simulator. Explosions may cause status effects. Suffers from poor consistency. ",
       "rivenDisposition": 0.5
     },
     "Spectra": {
@@ -3984,7 +3984,7 @@
       "tier": "Need buffs",
       "type": "Charge (3.0s)",
       "url": "http://warframe.wikia.com/wiki/Stug",
-      "notes": "Very high damage per shot, low DPS, projectile munitions. Each shot launches a blob. Up to six blobs can accumulate at a single site on the target. Alt-fire charges the weapon to launch a single, larger blob. ",
+      "notes": "Very high damage per shot, low DPS, projectile munitions. Each shot launches a blob. Up to six blobs can accumulate at a single site on the target. Alt-fire charges the weapon to launch a single, larger blob. While the shots itself does not cause status effects, the blobs do. ",
       "rivenDisposition": 1.48
     },
     "Synoid Gammacor": {
