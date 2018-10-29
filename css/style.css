@@ -14,7 +14,11 @@ body {
 }
 
 a {
-    color: #e6e6fa;
+    color: #b19cd9;
+}
+
+a:hover {
+   color: #e6e6fa;
 }
 
 .parallax {
