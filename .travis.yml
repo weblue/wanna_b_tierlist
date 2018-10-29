@@ -9,3 +9,10 @@ deploy:
     keep-history: true
     on:
         branch: master
+notifications:
+  email:
+    recipients:
+      - $NADER_EMAIL
+      - $SAKAI_EMAIL
+    on_success: never
+    on_failure: always
