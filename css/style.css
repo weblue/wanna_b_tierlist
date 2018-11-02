@@ -13,16 +13,16 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.headertext {	
-    color: #b19cd9;	
+.header-link {
+    color: #b19cd9;
 }
 
-.headertext:hover {	
-    color: #e6e6fa;	
+.header-link:hover {
+    color: #e6e6fa;
 }
 
-.headertext:visited {
-    color: #AE56FA; 
+.header-link:visited {
+    color: #AE56FA;
 }
 
 .parallax {
