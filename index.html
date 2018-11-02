@@ -89,7 +89,9 @@
     <div class="container-fluid pb-5 mt-3">
         <div ng-repeat="alert in alerts">
             <div class="alert alert-dismissible" ng-class="alert.class" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button> {(alert.text)}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button>
+                <span ng-bind-html="alert.text | unsafe">
+                </span>
             </div>
         </div>
         <div class="card">
