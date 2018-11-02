@@ -4295,10 +4295,10 @@
   },
   "disclaimers":{
     "general": {
-      "text": "This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated. <a class="headertext" href='https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8'>Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a general sense of the equipment in the game."
+      "text": "This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated. <a class='headertext' href='https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8'>Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a general sense of the equipment in the game."
     },
     "ordering": {
-      "text": "<u>Ordering of items is somewhat meaningful with the implementation of robust <a class="headertext" href='https://www.reddit.com/r/Warframe/comments/9lxoxq/melee_ranking_has_been_completed/?st=jnkhn58w&sh=09caa53b'>testing regiment.</a></u> However, for Top tiered weapons (and some Contenders) they are somewhat crowded and differences could sometimes be down to less than 5% in performance."
+      "text": "<u>Ordering of items is somewhat meaningful with the implementation of robust <a class='headertext' href='https://www.reddit.com/r/Warframe/comments/9lxoxq/melee_ranking_has_been_completed/?st=jnkhn58w&sh=09caa53b'>testing regiment.</a></u> However, for Top tiered weapons (and some Contenders) they are somewhat crowded and differences could sometimes be down to less than 5% in performance."
     }
   },
   "faq": {
