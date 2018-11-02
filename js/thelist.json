@@ -652,6 +652,22 @@
       "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
       "rivenDisposition": 1.15
     },
+    "Dragon Nikana": {
+      "base": "",
+      "combo": "Silent Acumen",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/zRco3Gr",
+      "mr":8,
+      "name": "Dragon Nikana",
+      "rank":53.98,
+      "stance": "Decisive Judgement",
+      "stancenotes": "",
+      "tier": "Viable",
+      "type": "Nikana",
+      "url": "http://warframe.wikia.com/wiki/Dragon_Nikana",
+      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. ",
+      "rivenDisposition": 1.35
+    },      
     "Dual Ether": {
       "base": "",
       "combo": "Dire Courtship",
