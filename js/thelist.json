@@ -2235,15 +2235,15 @@
     "Astilla": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/JmUAthv",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/DSCnarv",
       "mr": 10,
       "name": "Astilla",
       "rank": 43.1,
       "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Astilla",
-      "notes": "Low damage per shot, insane DPS, projectile munitions. Deals 30% of damage upon impact and 70% on explosion. ✪",
+      "notes": "Low damage per shot, insane dps, projectile munitions. Deals 30% of damage upon impact and 70% on explosion. ✪",
       "rivenDisposition": 1.2
     },
     "Attica": {
@@ -3215,15 +3215,15 @@
     "Zenith": {
       "base": "",
       "category": "Rifle",
-      "dmg": "N/A",
-      "dmgLink": "",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/0zFnc1U",
       "mr": 10,
       "name": "Zenith",
-      "rank": 241,
-      "tier": "Untested",
+      "rank": 51,
+      "tier": "Contender",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Zenith",
-      "notes": "The curator would like to apologize for not owning a time machine.",
+      "notes": "Very low damage per shot, monstrous DPS, hit-scan  munitions. Secondary fire launches a disc that scans enemies and switches the weapon to semi-auto. Semi-auto mode has more DPS and infinite punchthrough. ✪",
       "rivenDisposition": 1
     },
     "Zhuge": {
