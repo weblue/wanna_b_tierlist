@@ -457,7 +457,7 @@
       "tier": "Contender",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Bo_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. ✪",
       "rivenDisposition": 1.29
     },
     "Broken Scepter": {
@@ -969,7 +969,7 @@
       "tier": "Contender",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Glaive_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, very high attack speed. ",
+      "wepnotes": "Very low damage per hit, monstrous DPS, very high attack speed. ✪",
       "rivenDisposition": 1.22
     },
     "Gram Prime": {
@@ -1417,7 +1417,7 @@
       "tier": "Viable",
       "type": "Nunchaku",
       "url": "http://warframe.wikia.com/wiki/Ninkondi",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ✪",
       "rivenDisposition": 1.41
     },
     "Ohma": {
@@ -1449,7 +1449,7 @@
       "tier": "Contender",
       "type": "Dual Daggers",
       "url": "http://warframe.wikia.com/wiki/Okina",
-      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. ✪",
       "rivenDisposition": 1.31
     },
     "Orthos Prime": {
@@ -1513,7 +1513,7 @@
       "tier": "Top",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Paracesis",
-      "wepnotes": "Very high damage per hit, insane dps, low attack speed. Has max modslot of 90 including stance. Using forma on this weapon will increase damage to Tau faction (up to 60% after 5 forma). ",
+      "wepnotes": "Very high damage per hit, insane dps, low attack speed. Has max modslot of 90 including stance. Using forma on this weapon will increase damage to Tau faction (up to 60% after 5 forma). ✪",
       "rivenDisposition": 1
     },
     "Plasma Sword": {
@@ -1545,7 +1545,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Prisma_Dual_Cleavers",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Augment adds Justice (Blast, Health, Armor) effects and +100% to base damage. ",
+      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Augment adds Justice (Blast, Health, Armor) effects and +100% to base damage. ✪",
       "rivenDisposition": 1
     },
     "Prisma Obex": {
@@ -1705,7 +1705,7 @@
       "tier": "Contender",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Sarpa",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ✪",
       "rivenDisposition": 1.24
     },
     "Scindo Prime": {
@@ -1945,7 +1945,7 @@
       "tier": "Contender",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Twin_Basolk",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. Suffers from poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ",
+      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. Suffers from poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ✪",
       "rivenDisposition": 1.18
     },
     "Twin Krohkur": {
@@ -2089,7 +2089,7 @@
       "tier": "Contender",
       "type": "Dagger",
       "url": "http://warframe.wikia.com/wiki/Zaw",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Zaw. Balla, Peye, and Vargeet II Jai. ✪",
+      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Zaw. Balla, Peye, and Vargeet II Jai. ",
       "rivenDisposition": 1
     },
     "Zaw - Dainsleif": {
@@ -2105,7 +2105,7 @@
       "tier": "Contender",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Zaw",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Zaw. Mewan, Korb, and Vargeet II Jai. ✪",
+      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Zaw. Mewan, Korb, and Vargeet II Jai. ",
       "rivenDisposition": 1
     },
     "Zaw - de Carranza": {
@@ -2137,7 +2137,7 @@
       "tier": "Viable",
       "type": "Nikana",
       "url": "http://warframe.wikia.com/wiki/Zaw",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Zaw. Sepfahn, Korb, and Vargeet II Jai. ✪",
+      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Zaw. Sepfahn, Korb, and Vargeet II Jai. ",
       "rivenDisposition": 1
     },
     "Zaw - Hrunting": {
@@ -2185,7 +2185,7 @@
       "tier": "Viable",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Zaw",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Zaw. Plague Keewar, Korb, and Ekwana II Jai. ✪",
+      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Zaw. Plague Keewar, Korb, and Ekwana II Jai. ",
       "rivenDisposition": 1
     },
     "Zaw - Ulfberht": {
