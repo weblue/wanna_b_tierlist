@@ -1228,6 +1228,22 @@
       "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Increases movement speed by 5% when equipped. ",
       "rivenDisposition": 1.46
     },
+    "Kreska": {
+      "base": "",
+      "combo": "Lightning Siren",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/tSSOhXN",
+      "mr":6,
+      "name": "Kreska",
+      "rank":41.9,
+      "stance": "Cyclone Kraken",
+      "stancenotes": "",
+      "tier": "Contender",
+      "type": "Machete",
+      "url": "http://warframe.wikia.com/wiki/Kreska",
+      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
+      "rivenDisposition": 1
+    },      
     "Krohkur": {
       "base": "",
       "combo": "Diving Kestrel",
@@ -2260,6 +2276,20 @@
       "notes": "High damage per shot, acceptable DPS, projectile munitions. ✪",
       "rivenDisposition": 1.42
     },
+    "Battacor": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/MoR2EVd",
+      "mr": 10,
+      "name": "Battacor",
+      "rank": 47.7,
+      "tier": "Top",
+      "type": "Variable",
+      "url": "http://warframe.wikia.com/wiki/Battacor",
+      "notes": "High damage per shot, projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ✪",
+      "rivenDisposition": 1
+    },      
     "Baza": {
       "base": "",
       "category": "Rifle",
@@ -2694,6 +2724,20 @@
       "notes": "Very low damage per shot, low DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. ",
       "rivenDisposition": 1.55
     },
+    "Nagantaka": {
+      "base": "",
+      "category": "Bow",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/aTw8Fl3",
+      "mr": 9,
+      "name": "Nagantaka",
+      "rank": 55.5,
+      "tier": "Contender",
+      "type": "Variable",
+      "url": "http://warframe.wikia.com/wiki/Nagantaka",
+      "notes": "High damage per shot, projectile munitions. Headshots have a chance to increase reload speed. Secondary fire empties clip with little additional recoil and is highly recommended. ",
+      "rivenDisposition": 1
+    },      
     "Ogris": {
       "base": "",
       "category": "Launcher",
@@ -3779,6 +3823,20 @@
       "notes": "Very low damage per shot, acceptable DPS, beam munitions. Hitting a specific part multiple times increases damage dealt to that part by 5%. Unusually, Nukor has very high Critical Multiplier but poor Critical Chance, hence it's DPS increase from flat Crit Chance modifiers is relatively higher than other weapons. ✪",
       "rivenDisposition": 1.45
     },
+    "Ocucor": {
+      "base": "",
+      "category": "Beam",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/nhe6HQI",
+      "mr": 8,
+      "name": "Ocucor",
+      "rank": 78.6,
+      "tier": "Viable",
+      "type": "Held",
+      "url": "http://warframe.wikia.com/wiki/Ocucor",
+      "notes": "Very low damage per shot, moderate DPS,  beam munitions. Suffers from poor consistency. ",
+      "rivenDisposition": 1
+    },
     "Pandero": {
       "base": "",
       "category": "Semi-auto",
@@ -4322,5 +4380,5 @@
       "text": "All weapon tests will be uploaded (eventually)"
     }
   },
-  "version": "23.10.0 - Gram Prime, Paracesis, Pupacyst, and Falcor updated."
+  "version": "24.0.0 - Battacor, Nagantaka, Ocucor, and Kresta updated."
 }
