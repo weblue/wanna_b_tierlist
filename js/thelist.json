@@ -2060,6 +2060,22 @@
       "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
       "rivenDisposition": 0.5
     },
+    "Garuda's Talons": {
+      "base": "",
+      "combo": "Venging Thrash",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/K0e5gNB",
+      "mr":0,
+      "name": "Garuda's Talons",
+      "rank":63.72,
+      "stance": "Malicious Raptor",
+      "stancenotes": "",
+      "tier": "Need buffs",
+      "type": "Claws",
+      "url": "http://warframe.wikia.com/wiki/Garuda's_Talons",
+      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "rivenDisposition": 0
+    },      
     "Zaw - Ablation": {
       "base": "",
       "combo": "Resolute Flurry",
