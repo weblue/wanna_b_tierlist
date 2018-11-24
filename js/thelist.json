@@ -4259,62 +4259,62 @@
       "notes": "High damage per shot, poor DPS,  hitscan munitions. ",
       "rivenDisposition": 1
     },
-    "Thunderous Sunder": {
+    "Rattleguts - Thunderous Sunder": {
       "base": "",
       "category": "Auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/pTmHT1K",
       "mr": 0,
-      "name": "Thunderous Sunder",
+      "name": "Rattleguts - Thunderous Sunder",
       "rank": 39.5,
       "tier": "Top",
       "type": "Auto",
-      "url": "http://warframe.wikia.com/wiki/Thunderous_Sunder",
+      "url": "http://warframe.wikia.com/wiki/Rattleguts_-_Thunderous_Sunder",
       "notes": "Low damage per shot, insane dps,  hitscan munitions. Rattleguts-Ramble-Splat kitgun. Testing done without use of any arcanes. ✪",
       "rivenDisposition": 1
     },
-    "Baleful Purifier": {
+    "Gaze - Baleful Purifier": {
       "base": "",
       "category": "Beam",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/xqARGR5",
       "mr": 0,
-      "name": "Baleful Purifier",
+      "name": "Gaze - Baleful Purifier",
       "rank": 39.6,
       "tier": "Top",
       "type": "Held",
-      "url": "http://warframe.wikia.com/wiki/Baleful_Purifier",
+      "url": "http://warframe.wikia.com/wiki/Gaze_-_Baleful_Purifier",
       "notes": "Low damage per shot, insane dps,  beam munitions. Gaze-Haymaker-Killstream kitgun. Testing done without use of any arcanes. ✪",
       "rivenDisposition": 1
     },
-    "Harbinger of Demise ": {
+    "Catchmoon - Harbinger of Demise ": {
       "base": "",
       "category": "Shotgun",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/8hd3866",
       "mr": 0,
-      "name": "Harbinger of Demise ",
+      "name": "Catchmoon - Harbinger of Demise ",
       "rank": 40,
       "tier": "Top",
       "type": "Shotgun",
-      "url": "http://warframe.wikia.com/wiki/Harbinger_of_Demise_",
+      "url": "http://warframe.wikia.com/wiki/Catchmoon_-_Harbinger_of_Demise_",
       "notes": "Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Gibber-Splat kitgun. Testing done without use of any arcanes. ✪",
       "rivenDisposition": 1
     },
-    "Compression Forge": {
+    "Tombfinger - Compression Forge": {
       "base": "",
       "category": "Semi-auto Explosive",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/2Jen8Vj",
       "mr": 0,
-      "name": "Compression Forge",
+      "name": "Tombfinger - Compression Forge",
       "rank": 47,
       "tier": "Top",
       "type": "Semi-auto Explosive",
-      "url": "http://warframe.wikia.com/wiki/Compression_Forge",
+      "url": "http://warframe.wikia.com/wiki/Tombfinger_-_Compression_Forge",
       "notes": "Very high damage per shot, insane dps,  projectile munitions. Tombfinger-Haymaker-Splat kitgun. Testing done without use of any arcanes. ✪",
       "rivenDisposition": 1
-    }      
+    }
   },
   "Sentweps": {
     "artax": {
