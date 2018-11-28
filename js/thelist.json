@@ -3704,15 +3704,15 @@
     "Fusilai": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/fqtRaOx",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/xepiOvt",
       "mr": 7,
       "name": "Fusilai",
-      "rank": 82.1,
-      "tier": "Viable",
+      "rank": 59.9,
+      "tier": "Contender",
       "type": "Auto / Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Fusilai",
-      "notes": "High damage per shot, moderate DPS,  projectile munitions. Alt-fire launches three throwing knives horizontally instead. ",
+      "notes": "High damage per shot, monstrous DPS,  projectile munitions. Alt-fire launches three throwing knives horizontally instead. ✪",
       "rivenDisposition": 1.3
     },
     "Hikou Prime": {
