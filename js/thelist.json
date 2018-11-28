@@ -4275,20 +4275,6 @@
       "notes": "High damage per shot, poor DPS,  hitscan munitions. ",
       "rivenDisposition": 1
     },
-    "Rattleguts - Thunderous Rancor (Pax Seeker)": {
-      "base": "",
-      "category": "Auto",
-      "dmg": "Crit/Status",
-      "dmgLink": "",
-      "mr": 0,
-      "name": "Rattleguts - Thunderous Rancor (Pax Seeker)",
-      "rank": 36.7,
-      "tier": "Top",
-      "type": "Auto",
-      "url": "http://warframe.wikia.com/wiki/Rattleguts_-_Thunderous_Rancor_(Pax_Seeker)",
-      "notes": "High damage per shot, insane dps,  projectile munitions. ✪",
-      "rivenDisposition": 1
-    },
     "Rattleguts - Thunderous Rancor": {
       "base": "",
       "category": "Auto",
@@ -4301,20 +4287,6 @@
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Rattleguts",
       "notes": "High damage per shot, insane dps,  projectile munitions. Rattleguts-Lovetap-Splat kitgun. Testing done without use of any arcanes. ✪",
-      "rivenDisposition": 1
-    },
-    "Gaze - Baleful Purifier - Pax Seeker": {
-      "base": "",
-      "category": "Beam",
-      "dmg": "Crit/Status",
-      "dmgLink": "",
-      "mr": 0,
-      "name": "Gaze - Baleful Purifier - Pax Seeker",
-      "rank": 39.2,
-      "tier": "Top",
-      "type": "Held",
-      "url": "http://warframe.wikia.com/wiki/Gaze_-_Baleful_Purifier_-_Pax_Seeker",
-      "notes": "Low damage per shot, insane dps,  beam munitions. ✪",
       "rivenDisposition": 1
     },
     "Rattleguts - Thunderous Sunder": {
@@ -4359,48 +4331,6 @@
       "notes": "Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Gibber-Splat kitgun. Testing done without use of any arcanes. ✪",
       "rivenDisposition": 1
     },
-    "Catchmoon - Ionizing Array": {
-      "base": "",
-      "category": "Shotgun",
-      "dmg": "Crit/Status",
-      "dmgLink": "",
-      "mr": 0,
-      "name": "Catchmoon - Ionizing Array",
-      "rank": 40.5,
-      "tier": "Top",
-      "type": "Shotgun",
-      "url": "http://warframe.wikia.com/wiki/Catchmoon_-_Ionizing_Array",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. ✪",
-      "rivenDisposition": 1
-    },
-    "Catchmoon - Fusion Array": {
-      "base": "",
-      "category": "Shotgun",
-      "dmg": "Crit/Status",
-      "dmgLink": "",
-      "mr": 0,
-      "name": "Catchmoon - Fusion Array",
-      "rank": 41.3,
-      "tier": "Top",
-      "type": "Shotgun",
-      "url": "http://warframe.wikia.com/wiki/Catchmoon_-_Fusion_Array",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. ✪",
-      "rivenDisposition": 1
-    },
-    "Tombfinger - Compression Forge": {
-      "base": "",
-      "category": "Semi-auto Explosive",
-      "dmg": "Crit/Status",
-      "dmgLink": "",
-      "mr": 0,
-      "name": "Tombfinger - Compression Forge",
-      "rank": 46.9,
-      "tier": "Top",
-      "type": "Semi-auto Explosive",
-      "url": "http://warframe.wikia.com/wiki/Tombfinger_-_Compression_Forge",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. ✪",
-      "rivenDisposition": 1
-    },
     "Tombfinger - Catalytic Forge": {
       "base": "",
       "category": "Semi-auto Explosive",
@@ -4413,20 +4343,6 @@
       "type": "Semi-auto Explosive",
       "url": "http://warframe.wikia.com/wiki/Tombfinger",
       "notes": "Very high damage per shot, insane dps,  projectile munitions. Tombfinger-Haymaker-Splat kitgun. Testing done without use of any arcanes. ✪",
-      "rivenDisposition": 1
-    },
-    "Gaze - Baleful Vindicator": {
-      "base": "",
-      "category": "Beam",
-      "dmg": "Crit/Status",
-      "dmgLink": "",
-      "mr": 0,
-      "name": "Gaze - Baleful Vindicator",
-      "rank": 48.5,
-      "tier": "Top",
-      "type": "Held",
-      "url": "http://warframe.wikia.com/wiki/Gaze_-_Baleful_Vindicator",
-      "notes": "Low damage per shot, insane dps,  beam munitions. ✪",
       "rivenDisposition": 1
     }
   },
