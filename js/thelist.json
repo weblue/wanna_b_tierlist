@@ -4304,7 +4304,7 @@
       "rivenDisposition": 1
     },
     "Gaze - Baleful Purifier": {
-      "base": "",
+      "base": "Pax Charge requires specialized build (Gaze-Haymaker-Zipneedle) but performs at Contender tier. ",
       "category": "Beam",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/U9Ro6VT",
@@ -4331,22 +4331,8 @@
       "notes": "Low damage per shot, insane dps,  beam munitions. Gaze-Haymaker-Killstream kitgun. R3 Pax Seeker. ✪",
       "rivenDisposition": 1
     },
-    "Gaze - Wicked Warmonger (Pax Charge)": {
-      "base": "",
-      "category": "Beam",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/97EGdx4",
-      "mr": 0,
-      "name": "Gaze - Wicked Warmonger (Pax Charge)",
-      "rank": 64.1,
-      "tier": "Contender",
-      "type": "Held",
-      "url": "http://warframe.wikia.com/wiki/Gaze",
-      "notes": "Low damage per shot, monstrous DPS,  beam munitions. Gaze-Haymaker-Zipneedle kitgun. R3 Pax Charge. Suffers from poor consistency. ",
-      "rivenDisposition": 1
-    },
     "Rattleguts - Thunderous Rancor": {
-      "base": "",
+      "base": "Pax Charge requires specialized build (Rattleguts-Haymaker-Zipneedle) and performs at Top tier, albeit at lower ranking. ",
       "category": "Auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/rZfR8iU",
@@ -4373,22 +4359,8 @@
       "notes": "High damage per shot, insane dps,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. R3 Pax Seeker. ✪",
       "rivenDisposition": 1
     },
-    "Rattleguts - Tumultous Spite (Pax Charge)": {
-      "base": "",
-      "category": "Auto",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/ZkK777K",
-      "mr": 0,
-      "name": "Rattleguts - Tumultous Spite (Pax Charge)",
-      "rank": 48.8,
-      "tier": "Top",
-      "type": "Auto",
-      "url": "http://warframe.wikia.com/wiki/Rattleguts",
-      "notes": "High damage per shot, insane dps,  hitscan munitions. Rattleguts-Haymaker-Zipneedle kitgun. R3 Pax Charge. ✪",
-      "rivenDisposition": 1
-    },
     "Tombfinger - Mordant Meteor": {
-      "base": "",
+      "base": "Pax Charge requires specialized build (Tombfinger-Haymaker-Zipneedle) and performs at Top tier, albeit at lower ranking. ",
       "category": "Semi-auto Explosive",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/0RITxFw",
@@ -4415,20 +4387,6 @@
       "notes": "Very high damage per shot, insane dps,  projectile munitions. Tombfinger-Haymaker-Stitch kitgun. R3 Pax Seeker. ✪",
       "rivenDisposition": 1
     },
-    "Tombfinger - Maleficient Comet (Pax Charge)": {
-      "base": "",
-      "category": "Semi-auto Explosive",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/nZYbGVr",
-      "mr": 0,
-      "name": "Tombfinger - Maleficient Comet (Pax Charge)",
-      "rank": 52.7,
-      "tier": "Top",
-      "type": "Semi-auto Explosive",
-      "url": "http://warframe.wikia.com/wiki/Tombfinger",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Tombfinger-Haymaker-Zipneedle kitgun. R3 Pax Charge. ✪",
-      "rivenDisposition": 1
-    }
   },
   "Sentweps": {
     "artax": {
