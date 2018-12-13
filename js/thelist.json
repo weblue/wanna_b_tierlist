@@ -2283,7 +2283,7 @@
     "Astilla": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/DSCnarv",
       "mr": 10,
       "name": "Astilla",
@@ -2984,7 +2984,7 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Status",
-      "dmgLink": "https://imgur.com/SsDwGH2",
+      "dmgLink": "https://imgur.com/bNi69Zc",
       "mr": 6,
       "name": "Scourge",
       "rank": 62.4,
@@ -3704,7 +3704,7 @@
     "Fusilai": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/xepiOvt",
       "mr": 7,
       "name": "Fusilai",
