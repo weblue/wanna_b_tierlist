@@ -2235,9 +2235,71 @@
       "url": "http://warframe.wikia.com/wiki/Zaw",
       "wepnotes": "Low damage per hit, insane dps, low attack speed. Rabvee, Korb, and Vargeet II Ruhang zaw. ✪",
       "rivenDisposition": 1
+    },
+    "Cobra & Crane": {
+      "base": "",
+      "combo": "Systemic Shred",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/pEXo14A",
+      "mr":10,
+      "name": "Cobra & Crane",
+      "rank":47.92,
+      "stance": "Final Harbinger",
+      "stancenotes": "",
+      "tier": "Viable",
+      "type": "Sword and Shield",
+      "url": "http://warframe.wikia.com/wiki/Cobra_&_Crane",
+      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. ",
+      "rivenDisposition": 1
+    },
+    "Galvacord": {
+      "base": "",
+      "combo": "Slide",
+      "dmg": "Slide",
+      "dmgLink": "https://imgur.com/PNvl7ie",
+      "mr":6,
+      "name": "Galvacord",
+      "rank":32.16,
+      "stance": "Burning Wasp",
+      "stancenotes": "",
+      "tier": "Top",
+      "type": "Whip",
+      "url": "http://warframe.wikia.com/wiki/Galvacord",
+      "wepnotes": "Low damage per hit, insane dps, low attack speed. Suffers from poor consistency. ✪",
+      "rivenDisposition": 1
+    },
+    "Redeemer Prime": {
+      "base": "",
+      "combo": "Lead Tango or Automatic Rhumba",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/Db4OII7",
+      "mr":10,
+      "name": "Redeemer Prime",
+      "rank":43.47,
+      "stance": "Bullet Dance",
+      "stancenotes": "",
+      "tier": "Contender",
+      "type": "Gunblade",
+      "url": "http://warframe.wikia.com/wiki/Redeemer_Prime",
+      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
+      "rivenDisposition": 1.17
     }
   },
   "Primaries": {
+    "Exergis": {
+      "base": "",
+      "category": "Shotgun",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/lYiDcvM",
+      "mr": 8,
+      "name": "Exergis",
+      "rank": 48.5,
+      "tier": "Top",
+      "type": "Semi-auto",
+      "url": "http://warframe.wikia.com/wiki/Exergis",
+      "notes": " damage per shot, ",
+      "rivenDisposition": 1
+    },      
     "Amprex": {
       "base": "",
       "category": "Rifle",
@@ -3365,6 +3427,34 @@
     }
   },
   "Secondaries": {
+    "Akjagara Prime": {
+      "base": "",
+      "category": "Semi-auto",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/scZRUmZ",
+      "mr": 12,
+      "name": "Akjagara Prime",
+      "rank": 46.3,
+      "tier": "Top",
+      "type": "Burst (2)",
+      "url": "http://warframe.wikia.com/wiki/Akjagara_Prime",
+      "notes": "Low damage per shot, insane dps,  projectile munitions. ✪",
+      "rivenDisposition": 1.43
+    },
+    "Plinx": {
+      "base": "",
+      "category": "Semi-auto",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/u0UYHWh",
+      "mr": 6,
+      "name": "Plinx",
+      "rank": 62.6,
+      "tier": "Contender",
+      "type": "Semi-Auto",
+      "url": "http://warframe.wikia.com/wiki/Plinx",
+      "notes": "High damage per shot, monstrous DPS,  hitscan munitions. ",
+      "rivenDisposition": 1
+    },      
     "Acrid": {
       "base": "",
       "category": "Semi-auto",
