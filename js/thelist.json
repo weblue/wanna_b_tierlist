@@ -2297,7 +2297,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Exergis",
-      "notes": " damage per shot, ",
+      "notes": "Very high damage per shot, insane DPS, projectile munitions. ",
       "rivenDisposition": 1
     },      
     "Amprex": {
@@ -2381,7 +2381,7 @@
       "tier": "Top",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Battacor",
-      "notes": "High damage per shot, projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ✪",
+      "notes": "RERANK PENDING (Update 24.2.2). High damage per shot, projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ✪",
       "rivenDisposition": 1
     },
     "Baza": {
@@ -3193,7 +3193,7 @@
       "tier": "Need buffs",
       "type": "Secondary",
       "url": "http://warframe.wikia.com/wiki/Synoid_Simulor",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. ",
+      "notes": "RERANK PENDING (Update 24.2.2). Very low damage per shot, poor DPS, projectile munitions. ",
       "rivenDisposition": 0.5
     },
     "Telos Boltor": {
@@ -3263,7 +3263,7 @@
       "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Tonkor",
-      "notes": "High damage per shot, poor DPS, projectile munitions. Grenades can cause self damage. ",
+      "notes": "RERANK PENDING (Update 24.2.2). High damage per shot, poor DPS, projectile munitions. Grenades can cause self damage. ",
       "rivenDisposition": 0.75
     },
     "Torid": {
@@ -3606,7 +3606,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Akvasto_Prime",
-      "notes": "High damage per shot, monstrous DPS,  hitscan munitions. ✪",
+      "notes": "RERANK PENDING (Update 24.2.2). High damage per shot, monstrous DPS,  hitscan munitions. ✪",
       "rivenDisposition": 1.3
     },
     "Akzani": {
@@ -3956,7 +3956,7 @@
       "tier": "Viable",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Ocucor",
-      "notes": "Very low damage per shot, moderate DPS,  beam munitions. Suffers from poor consistency. ",
+      "notes": "RERANK PENDING (Update 24.2.2). Very low damage per shot, moderate DPS,  beam munitions. Suffers from poor consistency. ",
       "rivenDisposition": 1
     },
     "Pandero": {
@@ -4152,7 +4152,7 @@
       "tier": "Top",
       "type": "Semi-auto / Charge",
       "url": "http://warframe.wikia.com/wiki/Staticor",
-      "notes": "High damage per shot, insane dps,  projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
+      "notes": "RERANK PENDING (Update 24.2.2). High damage per shot, insane dps,  projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
       "rivenDisposition": 0.53
     },
     "Stubba": {
@@ -4376,7 +4376,7 @@
       "tier": "Top",
       "type": "Shotgun",
       "url": "http://warframe.wikia.com/wiki/Catchmoon",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Gibber-Splat kitgun. Base version without use of arcanes. No testing to be done with Pax Seeker as use case does not justify headshots (lined up target punchthrough and no headshot multiplier). Suffers from poor consistency. ✪",
+      "notes": "RERANK PENDING (Update 24.2.2). Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Gibber-Splat kitgun. Base version without use of arcanes. No testing to be done with Pax Seeker as use case does not justify headshots (lined up target punchthrough and no headshot multiplier). Suffers from poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Catchmoon - Herald of Ruination (Pax Charge)": {
@@ -4390,7 +4390,7 @@
       "tier": "Top",
       "type": "Shotgun",
       "url": "http://warframe.wikia.com/wiki/Catchmoon",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge. ✪",
+      "notes": "RERANK PENDING (Update 24.2.2). Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge. ✪",
       "rivenDisposition": 1
     },
     "Gaze - Baleful Purifier": {
@@ -4432,7 +4432,7 @@
       "tier": "Top",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Rattleguts",
-      "notes": "High damage per shot, insane dps,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. Base version without use of arcanes. ✪",
+      "notes": "RERANK PENDING (Update 24.2.2). High damage per shot, insane dps,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. Base version without use of arcanes. ✪",
       "rivenDisposition": 1
     },
     "Rattleguts - Thunderous Rancor (Pax Seeker)": {
@@ -4446,7 +4446,7 @@
       "tier": "Top",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Rattleguts",
-      "notes": "High damage per shot, insane dps,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. R3 Pax Seeker. ✪",
+      "notes": "RERANK PENDING (Update 24.2.2). High damage per shot, insane dps,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. R3 Pax Seeker. ✪",
       "rivenDisposition": 1
     },
     "Tombfinger - Mordant Meteor": {
@@ -4609,10 +4609,14 @@
       "name": "disposition",
       "text": "✪ indicates a weapon that has an unusually high riven disposition for its rank."
     },
+    "reranks": {
+      "name": "rerank",
+      "text": "Tonkor, Staticor, Synoid Simulor, Ocucor, Battacor, and Akvasto Prime are pending reranks. Any Kitgun with Pax Charge and/or Splat is also pending rerank. "
+    },
     "utubechannel": {
       "name": "channel",
       "text": "All weapon tests will be uploaded (eventually)"
     }
   },
-  "version": "24.1.1.1 - Kitguns updated."
+  "version": "24.2.2 - Exergis, Akjagara Prime, Plinx, Cobra & Crane, Galvacord, and Redeemer Prime added. Refer to FAQ for pending reranks."
 }
