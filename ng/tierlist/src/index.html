@@ -1,0 +1,517 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>i_wanna_b_the_guy's Tier List</title>
+  <meta name="description" content="i_wanna_b_the_guy's Warframe tier list, ranking weapons, archwings, companions, and more!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css?v4.1.3">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function() {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#343c66",
+            "text": "#cfcfe8"
+          },
+          "button": {
+            "background": "#f71559"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "Hi there. To get an accurate count on how many users are using the site, please disable ad block. Also, we use cookies.",
+          "dismiss": "Dismiss"
+        }
+      })
+    });
+  </script>
+</head>
+
+<body ng-app="tierlist" ng-controller="TierListController">
+
+<div class="loadingScreen" ng-show="loading">
+  <div class="loader"></div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#page-top">i_wanna_b_the_guy's Tier List</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">(v. {(version)})</li>
+    </ul>
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://github.com/weblue/weblue.github.io/issues"><i
+          class="fab fa-github fa-lg"></i> Contribute on GitHub</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="parallax text-white py-5" id="page-top">
+  <div class="container pt-5">
+    <p class="lead">
+      This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated.
+      <a href="https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8">Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a
+      general sense of the equipment in the game.
+    </p>
+    <p class="lead">
+      <u>
+        Ordering of items is only somewhat meaningful, positions can be considered +/- 5 of each other.
+      </u>
+    </p>
+    <p class="d-block d-md-none lead">
+      If you're on mobile, try Landscape Mode!
+    </p>
+    <p class="text-right">
+      <a class="btn btn-primary btn-discord" href="https://discord.gg/Cq3jW27">
+        <i class="fab fa-discord"></i> Join The Discussion
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="container-fluid pb-5 mt-3">
+  <div ng-repeat="alert in alerts">
+    <div class="alert alert-dismissible" ng-class="alert.class" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button> {(alert.text)}
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <form>
+        <div class="form-group row">
+          <label for="searchBar" class="col-2 col-form-label text-right">Filter</label>
+          <div class="col-10">
+            <input type="text" class="form-control" id="searchBar" placeholder="top, launcher, Tonkor" ng-model="$ctrl.query">
+          </div>
+        </div>
+      </form>
+      <nav >
+        <ul class="nav nav-tabs" id="tabs" role="tablist">
+          <li class="nav-item" id="{(category)}tab" ng-repeat="category in categories">
+            <a class="nav-link" data-toggle="tab" href="#{(category)}">{(category)}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#Sentweps">Sentinel Weapons</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Fields: url, tier, rank, name, category, dmg, type, notes, mr, base-->
+      <div class="tab-content">
+        <div class="tab-pane in active" id="Primaries">
+          <table id="primariesTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="10%">Weapons</th>
+              <th width="8%">Category</th>
+              <th width="8%">Dmg Type</th>
+              <th width="10%">Wep Type</th>
+              <th width="auto">Notes</th>
+              <th width="3%">Riven Disp</th>
+              <th width="auto">MR</th>
+              <th width="15%">Base/Event Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
+              <td>{(primary.category)}</td>
+              <td>{(primary.dmg)}</td>
+              <td>{(primary.type)}</td>
+              <td>{(primary.notes)}</td>
+              <td>{(primary.rivenDisposition)} </td>
+              <td>{(primary.mr)}</td>
+              <td>{(primary.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, tier, rank, name, dmg, type, notes, mr, base-->
+        <div class="tab-pane" id="Secondaries">
+          <table id="secondariesTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="12%">Weapons</th>
+              <th width="8%">Dmg Type</th>
+              <th width="10%">Wep Type</th>
+              <th width="auto">Notes</th>
+              <th width="3%">Riven Disp</th>
+              <th width="auto">MR</th>
+              <th width="13%">Base/Event Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
+              <td>{(secondary.dmg)}</td>
+              <td>{(secondary.type)}</td>
+              <td>{(secondary.notes)}</td>
+              <td>{(secondary.rivenDisposition)}</td>
+              <td>{(secondary.mr)}</td>
+              <td>{(secondary.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, name, tier, rank, dmg, type, stance, combo, wepnotes, stancenotes, mr, base-->
+        <div class="tab-pane" id="Melee">
+          <table id="meleesTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="12%">Weapons</th>
+              <th width="8%">Dmg Type</th>
+              <th width="10%">Wep Type</th>
+              <th width="12%">Rec. Stance</th>
+              <!--<th width="12%">Rec. Combo</th>-->
+              <th width="auto">Wep Notes</th>
+              <!--<th width="20%">Combo Notes</th>-->
+              <th width="auto">MR</th>
+              <th width="13%">Base/Event Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
+              <td>{(melee.dmg)}</td>
+              <td>{(melee.type)}</td>
+              <td>{(melee.stance)}</td>
+              <!--<td>{(melee.combo)}</td>-->
+              <td>{(melee.wepnotes)}</td>
+              <!--<td>{(melee.stancenotes)}</td>-->
+              <td>{(melee.mr)}</td>
+              <td>{(melee.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--TODO: data entry-->
+        <!--Fields: url, rank, tier, name, category, use, notes-->
+        <div class="tab-pane" id="Frames">
+          <table id="framesTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="10%">Frames</th>
+              <th width="8%">Category</th>
+              <th width="15%">Use</th>
+              <th width="auto">Notes</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="frame in Frames | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(frame.url)}">{(frame.name)}</a></td>
+              <td>{(frame.category)}</td>
+              <td>{(frame.use)}</td>
+              <td>{(frame.notes)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, rank, tier, name, frame, op, notes-->
+        <div class="tab-pane" id="Schools">
+          <table id="schoolsTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="10%">School</th>
+              <th width="25%">Effect on Frame</th>
+              <th width="25%">Effect on Operator</th>
+              <th width="40%">Notes</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="school in Schools | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(school.url)}">{(school.name)}</a></td>
+              <td>{(school.frame)}</td>
+              <td>{(school.op)}</td>
+              <td>{(school.notes)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, rank, tier, name, notes, base-->
+        <div class="tab-pane" id="Archwings">
+          <table id="archwingsTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="12%">Archwings</th>
+              <th width="20%">Use</th>
+              <th width="auto">Notes</th>
+              <th width="15%">Base Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="archwing in Archwings | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(archwing.url)}">{(archwing.name)}</a></td>
+              <td>{(archwing.use)}</td>
+              <td>{(archwing.notes)}</td>
+              <td>{(archwing.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, rank, tier, name, use, firing, notes, base-->
+        <div class="tab-pane" id="Archguns">
+          <table id="archgunsTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="10%">Archgun</th>
+              <th width="10%">Use</th>
+              <th width="10%">Wep Type</th>
+              <th width="auto">Notes</th>
+              <th width="15%">Base Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="archgun in Archguns | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(archgun.url)}">{(archgun.name)}</a></td>
+              <td>{(archgun.use)}</td>
+              <td>{(archgun.firing)}</td>
+              <td>{(archgun.notes)}</td>
+              <td>{(archgun.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, rank, tier, name, use, notes, base-->
+        <div class="tab-pane" id="Archmelees">
+          <table id="archmeleesTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="10%">Melees</th>
+              <th width="10%">Use</th>
+              <th width="auto">Notes</th>
+              <th width="15%">Base Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(archmelee.url)}">{(archmelee.name)}</a></td>
+              <td>{(archmelee.use)}</td>
+              <td>{(archmelee.notes)}</td>
+              <td>{(archmelee.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Fields: url, category, rank, tier, name, abilities, notes, base-->
+        <div class="tab-pane" id="Companions">
+          <table id="companionsTable" class="table table-sm table-responsive table-striped sortable">
+            <thead class="thead-">
+            <tr>
+              <th width="10%">Companion</th>
+              <th width="8%">Category</th>
+              <th width="20%">Abilities</th>
+              <th width="auto">Notes</th>
+              <th width="12%">Base Rank</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(companion.url)}">{(companion.name)}</a></td>
+              <td>{(companion.category)}</td>
+              <td>{(companion.abilities)}</td>
+              <td>{(companion.notes)}</td>
+              <td>{(companion.base)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Done-->
+        <!--Fields: url, rank, name, tier, use, type, notes-->
+        <div class="tab-pane" id="Sentweps">
+          <table id="sentwepsTable" class="table table-sm table-responsive table-striped sortable">
+            <thead>
+            <tr>
+              <th width="15%">Sentinel Weapons</th>
+              <th width="12%">Use</th>
+              <th width="12%">Wep Type</th>
+              <th width="auto">Notes</th>
+            </tr>
+            </thead>
+            <tbody ng-repeat="tiers in Tiers | orderBy: 'rank'">
+            <tr class="table-active">
+              <td><b>{(tiers.name)}</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
+              <td><a target="_blank" href="{(sentwep.url)}">{(sentwep.name)}</a></td>
+              <td>{(sentwep.use)}</td>
+              <td>{(sentwep.type)}</td>
+              <td>{(sentwep.notes)}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <hr>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">FAQ</h2>
+          <ul>
+            <li ng-repeat="item in faq">{(item.text)}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /container -->
+
+<footer class="text-center pt-2">
+  <p>
+    <a href="http://twitch.tv/mrflooners"><i class="fab fa-twitch fa-2x"></i></a>
+    <a href="https://github.com/weblue/weblue.github.io/issues"><i class="fab fa-github fa-2x"></i></a>
+  </p>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Author</h3>
+      <p><a target="_blank" href="https://creatorscollective.club">flooners</a></p>
+      <h3>Curators</h3>
+      <p><a target="_blank" href="http://reddit.com/u/sakai4eva">sakai4eva</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Thanks To</h3>
+      <p>Kalgash</p>
+      <p><a target="_blank" href="https://www.reddit.com/user/zhandragon">Zhandragon</a></p>
+      <p>Brendan</p>
+      <p>.hallwayRaptor™</p>
+      <p><a target="_blank" href="https://github.com/malsf21">malsf21</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Links</h3>
+      <p><a href="https://github.com/weblue/weblue.github.io/issues">GitHub</a></p>
+      <p><a href="https://creatorscollective.club">Sponsor</a></p>
+      <p><a href="https://discord.gg/Cq3jW27">Discord</a></p>
+    </div>
+  </div>
+  <p> &copy; <a target="_blank" href="https://creatorscollective.club">i_wanna_b_the_guy</a> 2017 </p>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script src="./js/vendor/jquery-3.3.1.slim.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')
+</script>
+<script src="./js/vendor/bootstrap.min.js?v4.1.3"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/brands.js" integrity="sha384-2vdvXGQdnt+ze3ylY5ESeZ9TOxwxlOsldUzQBwtjvRpen1FwDT767SqyVbYrltjb" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/fontawesome.js" integrity="sha384-2OfHGv4zQZxcNK+oL8TR9pA+ADXtUODqGpIRy1zOgioC4X3+2vbOAp5Qv7uHM4Z8" crossorigin="anonymous"></script>
+
+<script src="./js/main.js"></script>
+<script>
+  (function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function() {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = '//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+  }(window, document, 'script', 'ga'));
+  ga('create', 'UA-109524715-1', 'auto');
+  ga('send', 'pageview');
+
+  $(document).ready(function() {
+    $('#Primariestab').addClass("active");
+  });
+</script>
+</body>
+
+</html>
