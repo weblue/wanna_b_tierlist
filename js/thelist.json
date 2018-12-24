@@ -4013,7 +4013,7 @@
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Twin_Gremlins",
       "notes": "Low damage per shot, insane dps,  projectile munitions. ✪",
-      "rivenDisposition": 1
+      "rivenDisposition": 1.4
     },
     "Pyrana Prime": {
       "base": "Base is Contender",
