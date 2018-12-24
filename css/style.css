@@ -19,7 +19,7 @@ a {
 
 .parallax {
     background-size: auto 100%;
-    background: url(../img/jumbo_background4k.png) no-repeat fixed center;
+    background: url(../ng/tierlist/src/assets/img/jumbo_background4k.png) no-repeat fixed center;
 }
 
 .loadingScreen{
