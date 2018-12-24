@@ -1692,22 +1692,6 @@
       "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 1.29
     },
-    "Redeemer": {
-      "base": "",
-      "combo": "Single Shot into Charged Shot",
-      "dmg": "Status",
-      "dmgLink": "https://imgur.com/2zXTRNE",
-      "mr":4,
-      "name": "Redeemer",
-      "rank":107.82,
-      "stance": "Bullet Dance",
-      "stancenotes": "",
-      "tier": "Need buffs",
-      "type": "Gunblade",
-      "url": "http://warframe.wikia.com/wiki/Redeemer",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Bullet fire is only blast damage. ",
-      "rivenDisposition": 1.17
-    },
     "Redeemer Prime": {
       "base": "",
       "combo": "Lead Tango or Automatic Rhumba",
