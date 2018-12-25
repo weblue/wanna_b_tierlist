@@ -4611,11 +4611,6 @@
       "class": "alert-warning d-none",
       "text": "Frames are currently being redone. Please be patient as that part of the list is worked on."
     },
-    "hosting": {
-      "class": "alert-success",
-      "note_to_sakai": "you take this alert out after about 1 mo. October 26th",
-      "text": "Hosting costs will now be covered by Creators' Collective at <a href='http://creatorscollective.club'>http://creatorscollective.club</a>."
-    }
   },
   "disclaimers":{
     "general": {
@@ -4641,14 +4636,10 @@
       "name": "disposition",
       "text": "✪ indicates a weapon that has an unusually high riven disposition for its rank."
     },
-    "reranks": {
-      "name": "rerank",
-      "text": "Tonkor, Staticor, Synoid Simulor, Ocucor, Battacor, and Akvasto Prime are pending reranks. Any Kitgun with Pax Charge or Splat is also pending rerank. "
-    },
     "utubechannel": {
       "name": "channel",
       "text": "All weapon tests will be uploaded (eventually)"
     }
   },
-  "version": "24.2.2 - Exergis, Akjagara Prime, Plinx, Cobra & Crane, Galvacord, and Redeemer Prime added. Refer to FAQ for pending reranks."
+  "version": "24.2.2 - Exergis, Akjagara Prime, Plinx, Cobra & Crane, Galvacord, and Redeemer Prime added."
 }
