@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.getDb().subscribe((db) => { console.log(db); this.listVersion = db.version } );
+    this.dataService.getDb().subscribe(db => this.listVersion = db.version);
   }
 
 }

@@ -12,8 +12,6 @@ export class DataService {
   public database: Database;
   private dbUrl = './assets/thelist.json';
 
-  private primaries: Primary[];
-
   constructor(
     private http: HttpClient
   ) {
@@ -27,7 +25,7 @@ export class DataService {
     } else {
       return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
           this.database = db;
-          this.primaries = db.primaries;
+
           return db;
         }
       ));
