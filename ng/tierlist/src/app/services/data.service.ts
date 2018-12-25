@@ -17,9 +17,8 @@ export class DataService {
 
   public initDb(): Observable<Object> {
     return this.http.get(this.dbUrl).pipe<any>(map(db => {
-
+        //nothing yet
       }
-      // this.
     ));
   }
 

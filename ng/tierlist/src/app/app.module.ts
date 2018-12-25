@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TableComponent } from './components/table/table.component';
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -10,9 +11,10 @@ import { TableComponent } from './components/table/table.component';
     TableComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
