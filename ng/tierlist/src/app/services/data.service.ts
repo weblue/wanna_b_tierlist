@@ -22,7 +22,7 @@ export class DataService {
     ));
   }
 
-  public getDb(name: string): Object {
+  public getDb(name: string): any {
     return this.database[name];
   }
 }
