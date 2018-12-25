@@ -17,6 +17,6 @@ export class AppComponent {
   ) { }
 
   ngOnInit() {
-    this.data.initDb().subscribe(() => this.loading = false);
+    this.data.getDb().subscribe(() => this.loading = false);
   }
 }

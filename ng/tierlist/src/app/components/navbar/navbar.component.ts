@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
+import { map } from "rxjs/operators";
 
 @Component({
   selector: 'app-navbar',
@@ -13,7 +14,7 @@ export class NavbarComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.initDb().subscribe(() => this.listVersion = this.dataService.getDb("version"));
+    this.dataService.getDb().subscribe((db) => { console.log(db); this.listVersion = db.version } );
   }
 
 }

@@ -1,28 +1,36 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
+import {Observable, of} from "rxjs";
 import { map } from "rxjs/operators";
+import {Primary} from "../models/Primary";
+import {Database} from "../models/Database";
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
-  private database;
+  public database: Database;
   private dbUrl = './assets/thelist.json';
 
-  constructor(private http: HttpClient
+  private primaries: Primary[];
+
+  constructor(
+    private http: HttpClient
   ) {
 
   }
 
-  public initDb(): Observable<Object> {
-    return this.http.get(this.dbUrl).pipe<any>(map(db => {
-        //nothing yet
-      }
-    ));
-  }
-
-  public getDb(name: string): any {
-    return this.database[name];
+  //Return or request the db
+  public getDb(): Observable<Database> {
+    if (this.database) {
+      return of(this.database);
+    } else {
+      return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
+          this.database = db;
+          this.primaries = db.primaries;
+          return db;
+        }
+      ));
+    }
   }
 }
