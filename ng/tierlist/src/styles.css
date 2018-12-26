@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.container{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.content{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
