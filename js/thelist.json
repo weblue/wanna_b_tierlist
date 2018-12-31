@@ -879,7 +879,7 @@
     "Falcor": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Critical",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/cuQoNUK",
       "mr":8,
       "name": "Falcor",
@@ -1310,13 +1310,13 @@
     },
     "Kronen Prime": {
       "base": "Kronen is mid viable",
-      "combo": "Rogue Edict",
+      "combo": "Baleful Sin",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/96PuY9P",
       "mr":8,
       "name": "Kronen Prime",
       "rank":44.48,
-      "stance": "Sovereign Outcast",
+      "stance": "Gemini Cross",
       "stancenotes": "",
       "tier": "Contender",
       "type": "Tonfa",
@@ -2974,7 +2974,7 @@
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Prisma_Gorgon",
       "notes": "Low damage per shot, insane dps, hit-scan  munitions. Roll for recoil reduction in riven. ✪",
-      "rivenDisposition": 1.18
+      "rivenDisposition": 1.175
     },
     "Prisma Grakata": {
       "base": "Grakata is viable",
