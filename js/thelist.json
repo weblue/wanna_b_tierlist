@@ -2336,14 +2336,14 @@
       "base": "",
       "category": "Shotgun",
       "dmg": "Critical",
-      "dmgLink": "https://imgur.com/nlXgsr5",
+      "dmgLink": "https://imgur.com/5sE4bB5",
       "mr": 10,
       "name": "Arca Plasmor",
-      "rank": 75.9,
-      "tier": "Need buffs",
+      "rank": 53.2,
+      "tier": "Contender",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Arca_Plasmor",
-      "notes": "Very high damage per shot, poor DPS, projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have a headshot multiplier. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot, monstrous DPS, projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have additional headshot multiplier. ",
       "rivenDisposition": 0.7
     },
     "Argonak": {
