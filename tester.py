@@ -6,3 +6,5 @@ def parse(text):
     return json.loads(text)
 
 parse(json_data)
+
+print("JSON Parsed!")

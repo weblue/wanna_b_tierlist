@@ -4610,7 +4610,7 @@
     "frame": {
       "class": "alert-warning d-none",
       "text": "Frames are currently being redone. Please be patient as that part of the list is worked on."
-    },
+    }
   },
   "disclaimers":{
     "general": {
@@ -4621,7 +4621,7 @@
     },
     "workSoFar": {
       "text": "Only Primary, Secondary, and Melee weapons have been thoroughly rated. Other sections, notably Warframes, have not been completed and is currently a work-in-progress."
-    }  
+    }
   },
   "faq": {
     "builds": {
