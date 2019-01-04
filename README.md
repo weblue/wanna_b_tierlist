@@ -1,5 +1,7 @@
 # i_wanna_b_the_guy's Tier List
 
+[![Build Status](https://travis-ci.com/weblue/wanna_b_tierlist.svg?branch=master)](https://travis-ci.com/weblue/wanna_b_tierlist)
+
 This README accompanies the i_wanna_b_the_guy's Warframe Tier List.
 
 ## TODO
