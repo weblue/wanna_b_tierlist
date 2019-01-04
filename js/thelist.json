@@ -2335,7 +2335,7 @@
     "Arca Plasmor": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Critical",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/5sE4bB5",
       "mr": 10,
       "name": "Arca Plasmor",
@@ -3515,22 +3515,8 @@
       "notes": "Very high damage per shot, moderate DPS,  hitscan munitions. Suffers from poor consistency. ",
       "rivenDisposition": 1.2
     },
-    "Akjagara": {
-      "base": "",
-      "category": "Semi-auto",
-      "dmg": "Status",
-      "dmgLink": "https://imgur.com/BqzTI9p",
-      "mr": 8,
-      "name": "Akjagara",
-      "rank": 97.6,
-      "tier": "Need buffs",
-      "type": "Burst (2)",
-      "url": "http://warframe.wikia.com/wiki/Akjagara",
-      "notes": "Very low damage per shot, poor DPS,  hitscan munitions. ",
-      "rivenDisposition": 1.43
-    },
     "Akjagara Prime": {
-      "base": "",
+      "base": "Base version Need Buffs. ",
       "category": "Semi-auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/scZRUmZ",
@@ -3540,7 +3526,7 @@
       "tier": "Top",
       "type": "Burst (2)",
       "url": "http://warframe.wikia.com/wiki/Akjagara_Prime",
-      "notes": "Low damage per shot, insane dps,  projectile munitions. ✪",
+      "notes": "Low damage per shot, insane dps,  hitscan munitions. ✪",
       "rivenDisposition": 1.43
     },
     "Aklato": {
