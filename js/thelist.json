@@ -3756,7 +3756,7 @@
     "Dual Toxocyst": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/uWRspB1",
       "mr": 11,
       "name": "Dual Toxocyst",
