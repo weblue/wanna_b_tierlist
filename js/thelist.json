@@ -347,7 +347,6 @@
       "use": "Long-Term AoE DPS"
     }
   },
-  "Melees": {
     "Ack & Brunt": {
       "base": "",
       "combo": "Systemic Shred",
@@ -415,7 +414,7 @@
     "Arca Titron": {
       "base": "",
       "combo": "Smashing Fury (3 hits only)",
-      "dmg": "Crit/Status",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/mwhfWFc",
       "mr":10,
       "name": "Arca Titron",
@@ -518,10 +517,10 @@
       "rank":58.59,
       "stance": "Stalking Fan",
       "stancenotes": "",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Caustacyst",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
+      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
       "rivenDisposition": 1.3
     },
     "Ceramic Dagger": {
@@ -639,7 +638,7 @@
     "Destreza Prime": {
       "base": "Destreza is high viable",
       "combo": "Hidden Flourish",
-      "dmg": "Crit/Status",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/fqF1aHo",
       "mr":10,
       "name": "Destreza Prime",
@@ -655,7 +654,7 @@
     "Dex Dakra": {
       "base": "",
       "combo": "Dire Courtship",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/EBCVwGW",
       "mr":0,
       "name": "Dex Dakra",
@@ -1007,7 +1006,7 @@
     "Glaive Prime": {
       "base": "Glaive is mid viable",
       "combo": "Morning Sun",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/1dojk4G",
       "mr":10,
       "name": "Glaive Prime",
@@ -1071,7 +1070,7 @@
     "Halikar": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/MLnIaWp",
       "mr":7,
       "name": "Halikar",
@@ -1158,10 +1157,10 @@
       "rank":58.02,
       "stance": "Grim Fury",
       "stancenotes": "",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Hirudo",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
+      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
       "rivenDisposition": 0.5
     },
     "Jat Kittag": {
@@ -1535,7 +1534,7 @@
     "Orvius": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/DhuI6fw",
       "mr":5,
       "name": "Orvius",
@@ -1599,7 +1598,7 @@
     "Prisma Dual Cleavers": {
       "base": "Dual Cleavers is high viable",
       "combo": "Dire Courtship",
-      "dmg": "Crit/Status",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/2ZXBJUD",
       "mr":3,
       "name": "Prisma Dual Cleavers",
@@ -1663,7 +1662,7 @@
     "Pupacyst": {
       "base": "",
       "combo": "Vaulting Apex or Slide",
-      "dmg": "Critical",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/1XFZhuO",
       "mr":7,
       "name": "Pupacyst",
@@ -1707,22 +1706,6 @@
       "url": "http://warframe.wikia.com/wiki/Reaper_Prime",
       "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. ",
       "rivenDisposition": 1.29
-    },
-    "Redeemer": {
-      "base": "",
-      "combo": "Single Shot into Charged Shot",
-      "dmg": "Status",
-      "dmgLink": "https://imgur.com/2zXTRNE",
-      "mr":4,
-      "name": "Redeemer",
-      "rank":107.82,
-      "stance": "Bullet Dance",
-      "stancenotes": "",
-      "tier": "Need buffs",
-      "type": "Gunblade",
-      "url": "http://warframe.wikia.com/wiki/Redeemer",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Bullet fire is only blast damage. ",
-      "rivenDisposition": 1.17
     },
     "Redeemer Prime": {
       "base": "",
@@ -1855,7 +1838,7 @@
     "Shaku": {
       "base": "",
       "combo": "Molten Whirlpool",
-      "dmg": "Hybrid",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/1aSo0qd",
       "mr":0,
       "name": "Shaku",
@@ -1887,7 +1870,7 @@
     "Sibear": {
       "base": "",
       "combo": "Tidal Force & Raging Whirlwind",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/XdfYyHF",
       "mr":6,
       "name": "Sibear",
@@ -1951,7 +1934,7 @@
     "Synoid Heliocor": {
       "base": "Heliocor need buffs",
       "combo": "Tidal Force & Raging Whirlwind",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/RQfI6fC",
       "mr":9,
       "name": "Synoid Heliocor",
