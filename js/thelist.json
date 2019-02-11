@@ -347,6 +347,7 @@
       "use": "Long-Term AoE DPS"
     }
   },
+  "Melees": {  
     "Ack & Brunt": {
       "base": "",
       "combo": "Systemic Shred",
@@ -2692,7 +2693,7 @@
       "rivenDisposition": 1.1
     },
     "Karak Wraith": {
-      "base": "Kara need buffs",
+      "base": "Karak need buffs",
       "category": "Rifle",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/4bzXBGq",
@@ -3056,7 +3057,7 @@
       "rivenDisposition": 1.1
     },
     "Secura Penta": {
-      "base": "",
+      "base": "Penta need buffs",
       "category": "Launcher",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/nccntVq",
@@ -3182,7 +3183,7 @@
       "rivenDisposition": 1.31
     },
     "Synoid Simulor": {
-      "base": "",
+      "base": "Simulor need buffs",
       "category": "Launcher",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/NaMzApf",
