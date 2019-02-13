@@ -2695,7 +2695,7 @@
     "Karak Wraith": {
       "base": "Karak need buffs",
       "category": "Rifle",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/4bzXBGq",
       "mr": 7,
       "name": "Karak Wraith",
@@ -4595,5 +4595,5 @@
       "text": "All weapon tests will be uploaded (eventually)"
     }
   },
-  "version": "24.2.2 - Exergis, Akjagara Prime, Plinx, Cobra & Crane, Galvacord, and Redeemer Prime added."
+  "version": "24.2.12 - No new weapons since 24.2.2 patch."
 }
