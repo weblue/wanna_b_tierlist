@@ -2064,7 +2064,7 @@
       "base": "Venka is mid viable",
       "combo": "Venging Thrash",
       "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/EhNe32e",
+      "dmgLink": "https://imgur.com/vcjAwIE",
       "mr":8,
       "name": "Venka Prime",
       "rank":45.85,
@@ -2415,7 +2415,7 @@
     "Braton Prime": {
       "base": "Braton need buffs",
       "category": "Rifle",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/4eGhtj0",
       "mr": 8,
       "name": "Braton Prime",
@@ -2471,7 +2471,7 @@
     "Convectrix": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/I6uAPDr",
       "mr": 7,
       "name": "Convectrix",
@@ -2485,7 +2485,7 @@
     "Corinth": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit/Status",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/aSRaSJG",
       "mr": 10,
       "name": "Corinth",
@@ -2639,7 +2639,7 @@
     "Hema": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Raw",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/PzTFdju",
       "mr": 7,
       "name": "Hema",
@@ -2653,7 +2653,7 @@
     "Hind": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/z3tKri3",
       "mr": 0,
       "name": "Hind",
@@ -2849,7 +2849,7 @@
     "Opticor": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit/Status",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/a/pa4Lnv3",
       "mr": 14,
       "name": "Opticor",
@@ -2863,7 +2863,7 @@
     "Panthera": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Status",
+      "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/41o3PEO",
       "mr": 7,
       "name": "Panthera",
@@ -3031,7 +3031,7 @@
     "Sancti Tigris": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Raw",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/uC7B0SP",
       "mr": 12,
       "name": "Sancti Tigris",
@@ -3255,7 +3255,7 @@
     "Tonkor": {
       "base": "",
       "category": "Launcher",
-      "dmg": "Crit/Status",
+      "dmg": "Critical",
       "dmgLink": "https://imgur.com/FiO3qUn",
       "mr": 5,
       "name": "Tonkor",
