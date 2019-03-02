@@ -2387,7 +2387,7 @@
     "Boar Prime": {
       "base": "Boar need buffs",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/TZVyU61",
       "mr": 11,
       "name": "Boar Prime",
@@ -2555,7 +2555,7 @@
     "Exergis": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/lYiDcvM",
       "mr": 8,
       "name": "Exergis",
@@ -2709,7 +2709,7 @@
     "Kohm": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/0WAkpo1",
       "mr": 5,
       "name": "Kohm",
@@ -2905,7 +2905,7 @@
     "Phage": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/g5Q2Nr8",
       "mr": 11,
       "name": "Phage",
@@ -2919,7 +2919,7 @@
     "Phantasma": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/a/ir7hmjg",
       "mr": 9,
       "name": "Phantasma",
@@ -3087,7 +3087,7 @@
     "Sobek": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/HCBMHGR",
       "mr": 7,
       "name": "Sobek",
@@ -3129,7 +3129,7 @@
     "Strun Wraith": {
       "base": "Strun is viable",
       "category": "Shotgun",
-      "dmg": "Crit/Status",
+      "dmg": "100% Status / Crit",
       "dmgLink": "https://imgur.com/gB39NnH",
       "mr": 10,
       "name": "Strun Wraith",
@@ -3241,7 +3241,7 @@
     "Tigris Prime": {
       "base": "Tigris is viable",
       "category": "Shotgun",
-      "dmg": "Status",
+      "dmg": "100% Status",
       "dmgLink": "https://imgur.com/mGqZ1WA",
       "mr": 13,
       "name": "Tigris Prime",
