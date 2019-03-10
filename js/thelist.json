@@ -3391,7 +3391,7 @@
       "tier": "Contender",
       "type": "Smi-auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Grinlok",
-      "notes": "Very high damage per shot, monstrous DPS, hit-scan  munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ✪",
+      "notes": "Very high damage per shot, monstrous DPS, hit-scan munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ✪",
       "rivenDisposition": 1.25
     },
     "Opticor Vandal": {
@@ -3405,7 +3405,7 @@
       "tier": "Top",
       "type": "Charge (0.8s)",
       "url": "http://warframe.wikia.com/wiki/Opticor_Vandal",
-      "notes": "Very high damage per shot, insane dps, ✪",
+      "notes": "Very high damage per shot, insane dps, hit-scan munitions. ✪",
       "rivenDisposition": 1.15
     }      
   },
