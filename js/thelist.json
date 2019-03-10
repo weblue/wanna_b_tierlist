@@ -2283,7 +2283,23 @@
       "url": "http://warframe.wikia.com/wiki/Zaw",
       "wepnotes": "Low damage per hit, insane dps, low attack speed. Rabvee, Korb, and Vargeet II Ruhang zaw. ✪",
       "rivenDisposition": 1
-    }
+    },
+    "Tatsu": {
+      "base": "",
+      "combo": "Cut Thrice",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/W4Dw8Ui",
+      "mr":7,
+      "name": "Tatsu",
+      "rank":44.24,
+      "stance": "Wise Razor",
+      "stancenotes": "",
+      "tier": "Contender",
+      "type": "Two-handed Nikana",
+      "url": "http://warframe.wikia.com/wiki/Tatsu",
+      "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. ",
+      "rivenDisposition": 1
+    }      
   },
   "Primaries": {
     "Amprex": {
@@ -2607,20 +2623,6 @@
       "url": "http://warframe.wikia.com/wiki/Glaxion",
       "notes": "Very low damage per shot, moderate DPS, beam munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.35
-    },
-    "Grinlok": {
-      "base": "",
-      "category": "Rifle",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/UFPYs0z",
-      "mr": 7,
-      "name": "Grinlok",
-      "rank": 113.5,
-      "tier": "Need buffs",
-      "type": "Semi-auto",
-      "url": "http://warframe.wikia.com/wiki/Grinlok",
-      "notes": "High damage per shot, poor DPS, hit-scan  munitions. ",
-      "rivenDisposition": 1.25
     },
     "Harpak": {
       "base": "",
@@ -3377,7 +3379,35 @@
       "url": "http://warframe.wikia.com/wiki/Zhuge",
       "notes": "High damage per shot, moderate DPS, projectile munitions. ",
       "rivenDisposition": 1.18
-    }
+    },
+    "Prisma Grinlok": {
+      "base": "Grinlok need buffs",
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/o96fRiM",
+      "mr": 11,
+      "name": "Prisma Grinlok",
+      "rank": 57.9,
+      "tier": "Contender",
+      "type": "Smi-auto",
+      "url": "http://warframe.wikia.com/wiki/Prisma_Grinlok",
+      "notes": "Very high damage per shot, monstrous DPS, hit-scan  munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ✪",
+      "rivenDisposition": 1.25
+    },
+    "Opticor Vandal": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/wvvewSb",
+      "mr": 14,
+      "name": "Opticor Vandal",
+      "rank": 47,
+      "tier": "Top",
+      "type": "Charge (0.8s)",
+      "url": "http://warframe.wikia.com/wiki/Opticor_Vandal",
+      "notes": "Very high damage per shot, insane dps, ✪",
+      "rivenDisposition": 1.15
+    }      
   },
   "Schools": {
     "Madurai": {
@@ -4595,5 +4625,5 @@
       "text": "All weapon tests will be uploaded (eventually)"
     }
   },
-  "version": "24.2.12 - No new weapons since 24.2.2 patch."
+  "version": "24.4.3 - Added Prisma Grinlok, Opticor Vandal, and Tatsu."
 }
