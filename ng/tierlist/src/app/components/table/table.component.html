@@ -1,3 +1,60 @@
-<p>
-  table works!
-</p>
+<button mat-raised-button (click)="switch('Primaries')"> Primaries </button>
+<button mat-raised-button (click)="switch('Secondaries')"> Secondaries </button>
+<button mat-raised-button (click)="switch('Melees')"> Melees </button>
+
+<mat-table [dataSource]="tableDataSource" class="mat-elevation-z8">
+
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="base">
+    <th mat-header-cell *matHeaderCellDef> Base </th>
+    <td mat-cell *matCellDef="let element"> {{element.base}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="category">
+    <th mat-header-cell *matHeaderCellDef> Category </th>
+    <td mat-cell *matCellDef="let element"> {{element.category}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="mr">
+    <th mat-header-cell *matHeaderCellDef> MR </th>
+    <td mat-cell *matCellDef="let element"> {{element.mr}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="dmg">
+    <th mat-header-cell *matHeaderCellDef> Damage Type </th>
+    <td mat-cell *matCellDef="let element"> {{element.dmg}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="rivenDisposition">
+    <th mat-header-cell *matHeaderCellDef> Riven Dispo </th>
+    <td mat-cell *matCellDef="let element"> {{element.rivenDisposition}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="notes">
+    <th mat-header-cell *matHeaderCellDef> Notes </th>
+    <td mat-cell *matCellDef="let element"> {{element.notes}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef> Type </th>
+    <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="wepnotes">
+    <th mat-header-cell *matHeaderCellDef> Notes </th>
+    <td mat-cell *matCellDef="let element"> {{element.wepnotes}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</mat-table>
+
+

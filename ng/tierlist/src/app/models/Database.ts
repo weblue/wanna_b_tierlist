@@ -21,3 +21,19 @@ export class Database {
   version: string;
   alerts: Alert[];
 }
+
+export enum Categories {
+  PRIMARY = 'Primaries',
+  SECONDARY = 'Secondaries',
+  MELEE = 'Melees',
+  ARCHWING = 'Archwings',
+  ARCHGUN = 'Archguns',
+  ARCHMELEE = 'Archmelees',
+  COMPANIONS = 'Companions'
+}
+
+export const columnDefs = {
+  'Primaries': ['base', 'category', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
+  'Secondaries': ['base', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
+  'Melees': ['base', 'dmg', 'mr', 'name', 'type', 'wepnotes'],
+};
