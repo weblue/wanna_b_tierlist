@@ -2711,7 +2711,7 @@
     "Kohm": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "100% Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/0WAkpo1",
       "mr": 5,
       "name": "Kohm",
