@@ -1,350 +1,62 @@
 {
   "Archguns": {
-    "Corvas": {
+    "Curator's Notes": {
       "base": "",
-      "firing": "Charge shot",
-      "name": "Corvas",
-      "notes": "Bad range, fire rate, magazine size. Decent crit and damage.",
-      "rank": 8,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Corvas",
-      "use": "Critical"
-    },
-    "Cyngas": {
-      "base": "",
-      "firing": "3-Round burst",
-      "name": "Cyngas",
-      "notes": "Great status chance, reload time, accuracy, and damage. Low ammo capacity. Burst fires.",
-      "rank": 3,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Cyngas",
-      "use": "Status"
-    },
-    "Dual Decurion": {
-      "base": "",
-      "firing": "Full-auto",
-      "name": "Dual Decurion",
-      "notes": "Falls off by level 40. Inaccurate, awful recoil, low magazine size and damage. Fast reload time and hitscan.",
-      "rank": 7,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Dual_Decurion",
-      "use": "Critical"
-    },
-    "Fluctus": {
-      "base": "",
-      "firing": "Semi-auto",
-      "name": "Fluctus",
-      "notes": "Great accuracy, fire rate, reload time, mag size. Shoots waves.",
+      "firing": "",
+      "name": "",
+      "notes": "Archguns are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Fluctus",
-      "use": "Critical"
-    },
-    "Grattler": {
-      "base": "",
-      "firing": "Full-auto",
-      "name": "Grattler",
-      "notes": "High damage, fire rate and reload time. Magazine is small for fire rate. Self damages. Innate punchthrough.",
-      "rank": 2,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Grattler",
-      "use": "Crit/Status"
-    },
-    "Phaedra": {
-      "base": "",
-      "firing": "Full-auto (spool up)",
-      "name": "Phaedra",
-      "notes": "Hitscan, good status chance. Low accuracy, and reload time. Worse damage than other weapons, spins up.",
-      "rank": 6,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Phaedra",
-      "use": "Status"
-    },
-    "Vandal Imperator": {
-      "base": "Vanilla is Viable",
-      "firing": "Full-auto (spool up)",
-      "name": "Vandal Imperator",
-      "notes": "Hitscan, Gigantic Magazine, Reload Time is more than Fire rate. Low damage per bullet. Spools-up",
-      "rank": 5,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Imperator_Vandal",
-      "use": "Critical"
-    },
-    "Velocitus": {
-      "base": "",
-      "firing": "Charge shot",
-      "name": "Velocitus",
-      "notes": "Great damage, ammo, accuracy, and travel time. Mod changes if it should be charged or spammed.",
-      "rank": 4,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Velocitus",
-      "use": "Critical"
+      "url": "",
+      "use": ""
     }
   },
   "Archmelees": {
-    "Agkuza": {
-      "name": "Agkuza",
-      "notes": "Really poor crit stats, but very high base damage, speed and stance to make it worthy",
-      "rank": 3,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Agkuza",
-      "use": "Raw Damage"
-    },
-    "Centaur": {
-      "name": "Centaur",
-      "notes": "Great stats in attack speed, base damage, critical stats and has a good innate stance",
+    "Curator's Notes": {
+      "base": "",
+      "firing": "",
+      "name": "",
+      "notes": "Archmelees are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Centaur",
-      "use": "Critical"
-    },
-    "Kaszas": {
-      "name": "Kaszas",
-      "notes": "Poor critical stats, high base damage, good speed and stance",
-      "rank": 2,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Kaszas",
-      "use": "Raw Damage"
-    },
-    "Knux": {
-      "name": "Knux",
-      "notes": "A status monster. Base damage is high, speed is good, stance is clunky",
-      "rank": 4,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Knux",
-      "use": "Status"
-    },
-    "Onorix": {
-      "name": "Onorix",
-      "notes": "A critical weapon with a sad 1.3x multiplier. Second worst archmelee by far. Still an upgrade to the Veritux",
-      "rank": 6,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Onorix",
-      "use": "Critical"
-    },
-    "Prisma Veritux": {
-      "base": "Vanilla is doodoo",
-      "name": "Prisma Veritux",
-      "notes": "A Centaur with much less crit and slightly higher base damage. Still good, stance is smooth",
-      "rank": 5,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Prisma_Veritux",
-      "use": "Raw Damage"
-    },
-    "Rathbone": {
-      "name": "Rathbone",
-      "notes": "Stance is amazing, poor stats otherwise. High damage with melee combo",
-      "rank": 7,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Rathbone",
-      "use": "Critical"
+      "url": "",
+      "use": ""
     }
   },
   "Archwings": {
-    "Amesha": {
-      "name": "Amesha",
-      "notes": "Watchful Swarm blocks a number of attacks on target ally. Benevolent Decoy creates a sphere that attracts all projectiles, healing friendlies for a percent of total damage abosrbed, per second. Warding Grace is an aura that slows enemies and prevents status effect on allies in range. Vengeful Rush converts all damage taken to energy, while boosting ability range, duration, and strength by 10% for allies in range, until energy is full.",
+    "Curator's Notes": {
+      "base": "",
+      "firing": "",
+      "name": "",
+      "notes": "Archwings are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Amesha",
-      "use": "Charge Based Shield; Healing & Projectile Block; Status-Immunity & Slow; Ability Buff Aura"
-    },
-    "Elytron": {
-      "name": "Elytron",
-      "notes": "Bloomer sends a missile out to seek enemies, recast to detonate. Core Vent leaves smoke behind the Elytron, destroying projectiles that touch it. Can be augmented to do DOT. Thumper fires a beacon in a straight line; if recast or on collision, it pulses explosions for 30-45 sec. Warhead launches an aimable missle which deals massive damage and knockback.",
-      "rank": 4,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Elytron",
-      "use": "Nuke; Projectile Block; AOE DOT; AOE Nuke + Knockback"
-    },
-    "Itzal": {
-      "name": "Itzal",
-      "notes": "Blink teleports the Itzal forward a long distance, or until blocked, stunning all enemies in an area upon arrival. Penumbra is an aura that Cloaks allies in an area unless they move. Cosmic Crush pulls enemies in range to the Itzal then deals a burst of damage (if augmented it Freezes targets hit). Fighter Escort summons drones that zap enemies and explode after 15-30 sec or on death.",
-      "rank": 2,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Itzal",
-      "use": "AOE Stun, Teleportation, AOE Cloaking, Vacuum, Drones"
-    },
-    "Odonata Prime": {
-      "base": "Base is low Viable",
-      "name": "Odonata Prime",
-      "notes": "Energy Shell creates a mobile shield in front of Odonata (if augmented, nearby allies) that blocks all ranged attacks, applies 50% of weapon base damage as Heat and increases crit damage by 200%. Disarray fires flares that stagger enemies and destroy projectiles; Seeking Fire launches rockets at enemies, dealing damage. Repel knocks back, stuns for a duration, and disarms forever, any enemy in it's range when cast",
-      "rank": 3,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Odonata/Prime",
-      "use": "Crit+Damage Boost & Shield; Projectile Block; AOE Blast; AOE Stun & Disarm"
+      "url": "",
+      "use": ""
     }
   },
   "Companions": {
-    "Adarza Kavat": {
-      "abilities": "+Crit Chance & Chance to Reflect Dmg",
+    "Curator's Notes": {
       "base": "",
-      "category": "Kavat",
-      "name": "Adarza Kavat",
-      "notes": "Cat's Eye grants 60% Flat Critical Chance to all Friendly Targets for 10 sec every 20 sec. Reflect gives a 40% Chance to reflect damage taken, dealing 160% of it back to the target.",
-      "rank": 4,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Adarza_Kavat"
-    },
-    "Carrier Prime": {
-      "abilities": "+Ammo Capacity & Breaks Containers",
-      "base": "Vanilla is viable",
-      "category": "Sentinel",
-      "name": "Carrier Prime",
-      "notes": "Ammo Case grants a 25% increase to your ammo pool and converts any unused ammo drops into usable ammo for your equipped weapon every 2 sec. Looter will break nearby containers. Goes down a tier if using non-bullet hose.",
-      "rank": 5,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Carrier_Prime"
-    },
-    "Chesa Kubrow": {
-      "abilities": "Disarms Enemies & Breaks Containers",
-      "base": "",
-      "category": "Kubrow",
-      "name": "Chesa Kubrow",
-      "notes": "Neutralize disarm an enemy within 20 m every few sec. Retrieve causes the Chesa to seek out dropped Mods, Energy Orbs, Health Orbs, Scannable Plants, Ayatan Sculptures, Ammo and Resource drops within 18 m. This occurs every few sec",
-      "rank": 9,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Chesa_Kubrow"
-    },
-    "Dethcube": {
-      "abilities": "Nothing",
-      "base": "",
-      "category": "Sentinel",
-      "name": "Dethcube",
-      "notes": "Vaporize will blast a target within 4 m for minor damage, stunning them for a short duration, This effect has a 30 sec cooldown",
-      "rank": 18,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Dethcube"
-    },
-    "Diriga": {
-      "abilities": "Single Stunlock or AOE Damage Pulse",
-      "base": "",
-      "category": "Sentinel",
-      "name": "Diriga",
-      "notes": "Electro Pulse stuns a target within 10 m until they are 15 m away or die. Has a 5 sec cooldown. Arc Coil will zap to 7 enemies in range every sec, dealing minor damage with a 10% chance to stun. Equiping both will negate Electro Pulse.",
-      "rank": 2,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Diriga"
-    },
-    "Djinn": {
-      "abilities": "Taunts Enemies and Explodes",
-      "base": "",
-      "category": "Sentinel",
-      "name": "Djinn",
-      "notes": "Fatal Attraction causes all enemies within 24 m to walk harmlessly towards the Djinn over 5 sec. If there are 2 or more enemies within 6 m at the end, it will deal an explosion of Corrosive damage with a 100% proc chance to everything within the 6m. This ability has a 30 sec cooldown",
-      "rank": 15,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Djinn"
-    },
-    "Helios Prime": {
-      "abilities": "Codex Scans & Gives Weak Points",
-      "base": "Vanilla is viable",
-      "category": "Sentinel",
-      "name": "Helios Prime",
-      "notes": "Investigator will perform codex scans 50 m (needs scanner charges equipped). Detect Vulnerability reveals weakspots for 10 sec on enemies in the codex, increasing damage taken by that enemy by 275%. Both abilities take 2 sec to activate. If not using Deconstructor Prime, goes to Viable tier",
-      "rank": 3,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Helios_Prime"
-    },
-    "Helminth Charger": {
-      "abilities": "Charges Forward & Pulls Enemies",
-      "base": "",
-      "category": "Infested",
-      "name": "Helminth Charger",
-      "notes": "Proboscis will pull a single target within 30 m to the Helminth, dealing minor damage. Trample causes the Helminth to ram towards an enemy, dealing heavy damage to everything in the way. Trample has an 8 sec cooldown",
-      "rank": 16,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Helminth_Charger"
-    },
-    "Huras Kubrow": {
-      "abilities": "Charges Forward & Cloaks",
-      "base": "",
-      "category": "Kubrow",
-      "name": "Huras Kubrow",
-      "notes": "Stalk will cloak Huras and its Tenno for as long as an enemy is in line of sight. Cloak breaks on attack. After being broken the ability has an 8 sec cooldown. Hunt causes the Huras to ram towards an enemy, dealing heavy damage to everything in the way. Hunt has an 8 sec cooldown.",
-      "rank": 11,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Huras_Kubrow"
-    },
-    "Prisma Shade": {
-      "abilities": "Cloaks",
-      "base": "Vanilla is Need buffs",
-      "category": "Sentinel",
-      "name": "Prisma Shade",
-      "notes": "Ghost will cloak the Shade and its Tenno for as long as an enemy is in line of sight. Cloak breaks on attack. After leaving cloak, this ability has a 10 sec cooldown.",
-      "rank": 12,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Prisma_Shade"
-    },
-    "Raksa Kubrow": {
-      "abilities": "AOE Fear & Replenish Shields",
-      "base": "",
-      "category": "Kubrow",
-      "name": "Raksa Kubrow",
-      "notes": "Howl fears up to 15 enemies within 24 m for 16 sec. This ability has a 40 sec cooldown. Protect restores up to 300 shields to the Raksa and its Tenno. This ability has a 7 sec cooldown",
-      "rank": 13,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Raksa_Kubrow"
-    },
-    "Sahasa Kubrow": {
-      "abilities": "Extra Loot & Finishs Enemies",
-      "base": "",
-      "category": "Kubrow",
-      "name": "Sahasa Kubrow",
-      "notes": "Dig causes the Sahasa to dig for 5 sec and create a pile of items. This ability has a 15 sec cooldown (longer if near a previous dig site). Ferocity allows the Sahasa to deal bonus damage to downed enemies, if non-fatal the kubrow is stunned for a few sec. Less loot frames equates to higher tier.",
-      "rank": 6,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Sahasa_Kubrow"
-    },
-    "Smeeta Kavat": {
-      "abilities": "Stealth + Decoy & Random Buff",
-      "base": "",
-      "category": "Kavat",
-      "name": "Smeeta Kavat",
-      "notes": "Mischief creates a clone of Smeeta and cloaks the kavat. Clone lives for 9 sec with a 7 sec cooldown. Charm has a 28% chance to grant a random buff, every 27 sec. Possible buffs: 200% Flat Critical chance for 30 seconds, 100% Energy Costs Refunded for 10 seconds, Double Affinity and Resource pickups for 120 seconds, Reload Instantly, Ignore the damage of next recieved hit and gives 150 shields, or 1 rare resource from the planet you are on",
+      "firing": "",
+      "name": "",
+      "notes": "Companions are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Smeeta_Kavat"
-    },
-    "Sunika Kubrow": {
-      "abilities": "Finishes enemies & Stuns VIPs",
-      "base": "",
-      "category": "Kubrow",
-      "name": "Sunika Kubrow",
-      "notes": "Unleashed causes the Sunika to charge 60 m and pin down any VIP (includes Capture Targets, Synthisis Targets, and some Bosses). Savagery allows the Sahasa to deal bonus damage to downed enemies; If non-fatal the kubrow will be stunned for a few seconds",
-      "rank": 17,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Sunika_Kubrow"
-    },
-    "Taxon": {
-      "abilities": "Dmg to Shield",
-      "base": "",
-      "category": "Sentinel",
-      "name": "Taxon",
-      "notes": "Molecular Conversion will blast an enemy within 10 m for 200 radiation damage, generating shields equal to damage dealt. This ability has a 12 sec cooldown",
-      "rank": 14,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Taxon"
-    },
-    "Wyrm Prime": {
-      "abilities": "AOE Stun",
-      "base": "Vanilla is viable",
-      "category": "Sentinel",
-      "name": "Wyrm Prime",
-      "notes": "Crowd Dispersion deals 10 magnetic damage and ragdolls everything within 10 m. This ability has a 15 sec cooldown; Only triggers if there's more than one enemy within range",
-      "rank": 10,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Wyrm_Prime"
+      "url": "",
+      "use": ""
     }
   },
   "Frames": {
-    "Banshee Prime": {
-      "category": "Damage",
-      "name": "Banshee Prime",
-      "notes": "Sound Quake deals constant area damage in a huge radius, Staggering everything hit. Augmenting pushes it even farther, Dealing far more in an even larger the area, at the tradeoff of more energy spent. Fares very badly without a team covering her. Defense mods are fairly pointless. Augment is nearly always worth it. Makes a poor DPS for survival, due to slowing down enemy spawns indirectly, and generally killing things too far away",
+    "Curator's Notes": {
+      "base": "",
+      "firing": "",
+      "name": "",
+      "notes": "Frames are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "use": "Long-Term AoE DPS"
+      "url": "",
+      "use": ""
     }
   },
   "Melees": {  
@@ -3410,50 +3122,15 @@
     }      
   },
   "Schools": {
-    "Madurai": {
-      "frame": "Increased Physical Damage, Increased Elemental Damage",
-      "name": "Madurai",
-      "notes": "Both Dash nodes suck. Both of the Blast nodes are great and get better with amps. Void Radiance is decent. Void Strike is pathetic for its cost.",
-      "op": "Increased Operator Energy Pool and Regeneration for Amps",
+    "Curator's Notes": {
+      "base": "",
+      "firing": "",
+      "name": "",
+      "notes": "Schools are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Focus"
-    },
-    "Naramon": {
-      "frame": "Increased Affinity gain from Melee, Preserves Melee Combo for longer",
-      "name": "Naramon",
-      "notes": "You will never find a time or place to use Void Stalker. Executing Dash is useful with the operator changes. Surging Dash is bad. Blast nodes are good, since they're spammable.",
-      "op": "Increased Operator MoveSpeed and Void Dash Speed",
-      "rank": 3,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Focus"
-    },
-    "Unairu": {
-      "frame": "Returns part of Damage Taken, Increased Warframe Armor",
-      "name": "Unairu",
-      "notes": "Void Shadow is nice at the right time, the other Void node is laughable. Magnetic Blast has a short duration, but is decent. Good with shotguns. Wisps suck. Dash Nodes suck.",
-      "op": "Increased Operator Armor, Increased Operator Armor (a second time)",
-      "rank": 5,
-      "tier": "Need buffs",
-      "url": "http://warframe.wikia.com/wiki/Focus"
-    },
-    "Vazarin": {
-      "frame": "Increased Affinity Radius, Limited Instant Revives",
-      "name": "Vazarin",
-      "notes": "The Dash nodes are great, provided you are in hard content. Blast nodes suck. Horribly.",
-      "op": "Increased Operator Health and Health Regeneration",
-      "rank": 4,
-      "tier": "Viable",
-      "url": "http://warframe.wikia.com/wiki/Focus"
-    },
-    "Zenurik": {
-      "frame": "Increased Energy Orb pickups, Area Energy Restore over time, Increased Melee Channeling Efficiency",
-      "name": "Zenurik",
-      "notes": "Every single thing that has a flat number value is garbage. Temporal Blast is acceptable.",
-      "op": "Increased Operator Energy Pool and Regeneration",
-      "rank": 2,
-      "tier": "Top",
-      "url": "http://warframe.wikia.com/wiki/Focus"
+      "url": "",
+      "use": ""
     }
   },
   "Secondaries": {
@@ -4495,77 +4172,15 @@
     }
   },
   "Sentweps": {
-    "artax": {
-      "name": "Artax",
-      "notes": "Procs Cold on enemies hit by beam. Scales poorly with everything",
-      "rank": 4,
-      "tier": "Top",
-      "type": "Beam Rifle",
-      "url": "http://warframe.wikia.com/wiki/Artax",
-      "use": "Raw Damage"
-    },
-    "deconstructor_prime": {
-      "name": "Deconstructor Prime",
-      "notes": "Very high damage, very high status chance, and deals Impact/Puncture/Slash depending on hit location. Cannot be used with anything other then a Helios or Helios Prime",
+    "Curator's Notes": {
+      "base": "",
+      "firing": "",
+      "name": "",
+      "notes": "Sentinel Weapons are currently untested. Please refer to tier list roadmap in the discord for more information.",
       "rank": 1,
       "tier": "Top",
-      "type": "Glaive Melee",
-      "url": "http://warframe.wikia.com/wiki/Deconstructor_Prime",
-      "use": "Status/Bounce"
-    },
-    "deth_machine_rifle": {
-      "name": "Deth Machine Rifle",
-      "notes": "Low damage per bullet, spool-up time and acceptable DPS. Fires so many bullets it procs status often. Often get \"stuck\" firing at something it can't hit (breaking line of sight will reset)",
-      "rank": 5,
-      "tier": "Viable",
-      "type": "Spool-up Rifle",
-      "url": "http://warframe.wikia.com/wiki/Deth_Machine_Rifle",
-      "use": "Raw Damage/Double Fire Rate Mods"
-    },
-    "prime_laser_rifle": {
-      "name": "Prime Laser Rifle",
-      "notes": "Non-Hitscan, pinpoint accurate but has horrible recoil. Deals low damage per bullet that actually hits.",
-      "rank": 6,
-      "tier": "Viable",
-      "type": "Automatic Rifle",
-      "url": "http://warframe.wikia.com/wiki/Prime_Laser_Rifle",
-      "use": "Raw Damage"
-    },
-    "prisma_burst_laser": {
-      "name": "Prisma Burst Laser",
-      "notes": "Inaccurate projectile pistol, but has 0 reload time and can reach high firerates with high status chance.",
-      "rank": 7,
-      "tier": "Viable",
-      "type": "Burst Rifle",
-      "url": "http://warframe.wikia.com/wiki/Prisma_Burst_Laser",
-      "use": "Status/Double Fire Rate Mods"
-    },
-    "stinger": {
-      "name": "Stinger",
-      "notes": "Horrible accuracy, bad damage, bad status chance, bad critical stats, procs Toxin per hit",
-      "rank": 8,
-      "tier": "Need buffs",
-      "type": "Semi-auto Rifle",
-      "url": "http://warframe.wikia.com/wiki/Stinger",
-      "use": "Raw Damage"
-    },
-    "sweeper_prime": {
-      "name": "Sweeper Prime",
-      "notes": "High base damage, large magazine, low damage fall-off, but low fire rate. High spread. Hitscan.",
-      "rank": 2,
-      "tier": "Top",
-      "type": "Automatic Shotgun",
-      "url": "http://warframe.wikia.com/wiki/Sweeper_Prime",
-      "use": "Status"
-    },
-    "vulklok": {
-      "name": "Vulklok",
-      "notes": "Low fire rate. Fantastic stats across the board except fire rate. Viable tier with no fire rate mods",
-      "rank": 3,
-      "tier": "Top",
-      "type": "Automatic Sniper",
-      "url": "http://warframe.wikia.com/wiki/Vulklok",
-      "use": "Crit/Status"
+      "url": "",
+      "use": ""
     }
   },
   "Tiers": {
