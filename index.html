@@ -458,7 +458,7 @@
                     <div class="card-body">
                         <h2 class="card-title">FAQ</h2>
                         <ul>
-                            <li ng-repeat="item in faq">{(item.text)}</li>
+                            <li ng-repeat="item in faq"><span ng-bind-html="item.text | unsafe"></span></li>
                         </ul>
                     </div>
                 </div>
