@@ -6,6 +6,7 @@ import {Archwing} from "./Archwing";
 import {Archgun} from "./Archgun";
 import { Archmelee } from "./Archmelee";
 import {Companion} from "./Companion";
+import {Disclaimer} from "./Disclaimer";
 import {SentinelWeapon} from "./SentinelWeapon";
 
 export class Database {
@@ -20,6 +21,7 @@ export class Database {
 
   version: string;
   alerts: Alert[];
+  disclaimers: Disclaimer[];
 }
 
 export enum Categories {
