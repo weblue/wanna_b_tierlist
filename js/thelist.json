@@ -169,7 +169,7 @@
       "tier": "Viable",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Bo_Prime",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
       "rivenDisposition": 1.29
     },
     "Broken Scepter": {
@@ -733,7 +733,7 @@
       "rivenDisposition": 1.22
     },
     "Gram Prime": {
-      "base": "",
+      "base": "Gram is contender",
       "combo": "Broken Bull",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/4aZAfxO",
@@ -1421,7 +1421,7 @@
       "rivenDisposition": 1.29
     },
     "Redeemer Prime": {
-      "base": "",
+      "base": "Redeemer need buffs",
       "combo": "Lead Tango or Automatic Rhumba",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/kgJCs8v",
@@ -1659,6 +1659,22 @@
       "url": "http://warframe.wikia.com/wiki/Synoid_Heliocor",
       "wepnotes": "Low damage per hit, poor DPS, high attack speed. Scans kills into codex, and if the target's Codex entry is complete it will create a friendly Spectre of said target. Spectre lasts 30s. ",
       "rivenDisposition": 0.94
+    },
+    "Tatsu": {
+      "base": "",
+      "combo": "Cut Thrice",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/W4Dw8Ui",
+      "mr":7,
+      "name": "Tatsu",
+      "rank":44.24,
+      "stance": "Wise Razor",
+      "stancenotes": "",
+      "tier": "Contender",
+      "type": "Two-handed Nikana",
+      "url": "http://warframe.wikia.com/wiki/Tatsu",
+      "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. ",
+      "rivenDisposition": 1
     },
     "Tekko": {
       "base": "",
@@ -3191,7 +3207,7 @@
       "rivenDisposition": 1.2
     },
     "Akjagara Prime": {
-      "base": "",
+      "base": "Base Need Buffs",
       "category": "Semi-auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/scZRUmZ",
@@ -3275,7 +3291,7 @@
       "rivenDisposition": 0.5
     },
     "Akvasto Prime": {
-      "base": "",
+      "base": "Base is Viable",
       "category": "Semi-auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/LG5iGPj",
@@ -3737,7 +3753,7 @@
       "rivenDisposition": 0.95
     },
     "Sancti Castanas": {
-      "base": "",
+      "base": "Base is Viable",
       "category": "Thrown",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/kRG0Vsb",
@@ -3751,7 +3767,7 @@
       "rivenDisposition": 1.35
     },
     "Secura Dual Cestra": {
-      "base": "",
+      "base": "Base Need Buffs",
       "category": "Auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/FmyQSal",
@@ -3877,7 +3893,7 @@
       "rivenDisposition": 1.48
     },
     "Synoid Gammacor": {
-      "base": "",
+      "base": "Base is Viable",
       "category": "Beam",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/n8KYq5s",
@@ -3949,7 +3965,7 @@
     "Twin Rogga": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/eg16MsG",
       "mr": 9,
       "name": "Twin Rogga",
@@ -4003,7 +4019,7 @@
       "rivenDisposition": 1.4
     },
     "Vaykor Marelok": {
-      "base": "",
+      "base": "Base Need Buffs",
       "category": "Semi-auto",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/Zbg4iFT",
