@@ -1423,17 +1423,17 @@
     "Redeemer Prime": {
       "base": "",
       "combo": "Lead Tango or Automatic Rhumba",
-      "dmg": "Status",
-      "dmgLink": "https://imgur.com/Db4OII7",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/kgJCs8v",
       "mr":10,
       "name": "Redeemer Prime",
-      "rank":43.47,
+      "rank":36.99,
       "stance": "Bullet Dance",
       "stancenotes": "",
-      "tier": "Contender",
+      "tier": "Top",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Redeemer_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, insane dps, low attack speed. ✪",
       "rivenDisposition": 1.17
     },
     "Ripkas": {
