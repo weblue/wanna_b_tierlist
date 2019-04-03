@@ -22,10 +22,11 @@ export class Database {
   version: string;
   alerts: Alert[];
   disclaimers: Disclaimer[];
+  faq: Disclaimer[];
 }
 
 export enum Categories {
-  PRIMARY = 'Primaries',
+  PRIMARY = 'primaries',
   SECONDARY = 'Secondaries',
   MELEE = 'Melees',
   ARCHWING = 'Archwings',
@@ -35,7 +36,10 @@ export enum Categories {
 }
 
 export const columnDefs = {
-  'Primaries': ['base', 'category', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
+  'primaries': ['base', 'category', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
   'Secondaries': ['base', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
   'Melees': ['base', 'dmg', 'mr', 'name', 'type', 'wepnotes'],
+  'Archwing': ['name', 'use', 'base', 'notes'],
+  'Archgun': ['name', 'use', 'firing', 'notes', 'base'],
+  'Archmelee': ['name', 'use', 'notes', 'base']
 };

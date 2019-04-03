@@ -19,7 +19,6 @@ export class DisclaimersComponent implements OnInit {
       this.disclaimers = Object.keys(db.disclaimers).map(function(key) {
         return db.disclaimers[key];
       });
-      console.log(this.disclaimers)
     });
   }
 

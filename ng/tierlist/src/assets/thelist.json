@@ -59,7 +59,7 @@
       "use": ""
     }
   },
-  "Melees": {  
+  "Melees": {
     "Ack & Brunt": {
       "base": "",
       "combo": "Systemic Shred",
@@ -2011,7 +2011,7 @@
       "url": "http://warframe.wikia.com/wiki/Tatsu",
       "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. ",
       "rivenDisposition": 1
-    }      
+    }
   },
   "Primaries": {
     "Amprex": {
@@ -3119,7 +3119,7 @@
       "url": "http://warframe.wikia.com/wiki/Opticor_Vandal",
       "notes": "Very high damage per shot, insane dps, hit-scan munitions. ✪",
       "rivenDisposition": 1.15
-    }      
+    }
   },
   "Schools": {
     "Curator's Notes": {
@@ -4213,7 +4213,7 @@
   },
   "disclaimers":{
       "checkTheLinks": {
-      "text": "Please refer to the Weapon name links for Zaws and Kitguns. Also click on the builds' link to see it."
+        "text": "Please refer to the Weapon name links for Zaws and Kitguns. Also click on the builds' link to see it."
     }
   },
   "faq": {
