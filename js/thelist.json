@@ -1874,6 +1874,22 @@
       "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Increases movement speed by 5% when equipped. ",
       "rivenDisposition": 1.46
     },
+    "Korrudo": {
+      "base": "",
+      "combo": "Charge Attack",
+      "dmg": "Critical",
+      "dmgLink": "https://imgur.com/CsrTaaF",
+      "mr":9,
+      "name": "Korrudo",
+      "rank":67.73,
+      "stance": "Brutal Tide",
+      "stancenotes": "",
+      "tier": "Need buffs",
+      "type": "Sparring",
+      "url": "http://warframe.wikia.com/wiki/Korrudo",
+      "wepnotes": "Low damage per hit, poor DPS, low attack speed. ",
+      "rivenDisposition": 1
+    },  
     "Kreska": {
       "base": "",
       "combo": "Lightning Siren",
@@ -3669,17 +3685,17 @@
       "rivenDisposition": 1.15
     },
     "Secura Penta": {
-      "base": "Penta is viable",
+      "base": "Penta need buffs",
       "category": "Launcher",
       "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/SjFL43V",
+      "dmgLink": "https://imgur.com/gZVRTmb",
       "mr": 12,
       "name": "Secura Penta",
       "rank": 55.6,
       "tier": "Contender",
       "type": "Secondary",
       "url": "http://warframe.wikia.com/wiki/Secura_Penta",
-      "notes": "Very high damage per shot, monstrous DPS, projectile munitions. Nightwave augment ✪",
+      "notes": "Very high damage per shot, monstrous DPS, projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by other mods) and causes instant explosions while leaving a burning patch on the ground. ✪",
       "rivenDisposition": 1.3
     },
     "Snipetron Vandal": {
