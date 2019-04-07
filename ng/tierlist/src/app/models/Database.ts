@@ -18,6 +18,10 @@ export class Database {
   archmelees: Archmelee[];
   companions: Companion[];
   sent_weps: SentinelWeapon[];
+  //These are kind of annoying
+  Primaries: {};
+  Secondaries: {};
+  Melees: {};
 
   version: string;
   alerts: Alert[];
