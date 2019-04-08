@@ -5129,16 +5129,20 @@
     },
     "ordering": {
       "name": "ordering",
-      "text": "<u>Ordering of items is somewhat meaningful with the implementation of robust <a class='header-link' href='https://www.reddit.com/r/Warframe/comments/9lxoxq/melee_ranking_has_been_completed/?st=jnkhn58w&sh=09caa53b'>testing regiment.</a></u> However, for Top tiered weapons (and some Contenders) they are somewhat crowded and differences could sometimes be down to less than 5% in performance."
+      "text": "<u>Ordering of weapons are significant with the implementation of robust <a class='header-link' href='https://www.reddit.com/r/Warframe/comments/9lxoxq/melee_ranking_has_been_completed/?st=jnkhn58w&sh=09caa53b'>testing regiment.</a></u> However, for Top tiered weapons (and some Contenders) they are somewhat crowded and differences could sometimes be down to less than 5% in performance."
     },
     "workSoFar": {
       "name": "workSoFar",
-      "text": "Only Primary, Secondary, and Melee weapons have been thoroughly rated. Other sections, notably Warframes, have not been completed and is currently a work-in-progress."
+      "text": "Only Primary, Secondary, and Melee weapons have been thoroughly rated. Warframes are not ranked within a tier and represent their respective power considering the current meta but going from Top to Contender and then to Viable does signify reduced capabilites and/or importance. "
     },
-    "builds": {
-      "name": "builds",
-      "text": "Builds are based on best (sometimes up to 7 forma on a single weapon) effort basis and done without rivens. Therefore it is also safe to say weapons are ranked without rivens. "
+    "wepBuilds": {
+      "name": "wepBuilds",
+      "text": "Weapon builds are based on best (sometimes up to 7 forma on a single weapon) effort basis and done without rivens. Therefore it is also safe to say weapons are ranked without rivens. "
     },
+    "frameBuilds": {
+      "name": "frameBuilds",
+      "text": "Frame builds are based on build goals that should be aspired to. The precise build differs from playstyle and preference and therefore can't be fixed. Nonetheless, future updates will include example builds."
+    },      
     "dispute": {
       "name": "dispute",
       "text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
@@ -5149,8 +5153,8 @@
     },
     "utubechannel": {
       "name": "channel",
-      "text": "All weapon tests will be uploaded (eventually)"
+      "text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
     }
   },
-  "version": "24.6.2.1 - Added Stradavar Prime, Tipedo Prime, and Korrudo. Updated latest Riven disposition. Updated Secura Penta, Knell, and Tysis. "
+  "version": "Warframe Patch 24.6.2.1 - Added Stradavar Prime, Tipedo Prime, and Korrudo. Updated latest Riven disposition. Updated Secura Penta, Knell, and Tysis. Added Frame ranking."
 }
