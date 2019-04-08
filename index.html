@@ -248,15 +248,15 @@
                         </table>
                     </div>
 
-                    <!--TODO: data entry-->
                     <!--Fields: url, rank, tier, name, category, use, notes-->
                     <div class="tab-pane" id="Frames">
                         <table id="framesTable" class="table table-sm table-responsive table-striped sortable">
                             <thead>
                                 <tr>
                                     <th width="10%">Frames</th>
-                                    <th width="8%">Category</th>
-                                    <th width="15%">Use</th>
+                                    <th width="10%">Build Focus</th>
+                                    <th width="8%">Ability Focus</th>
+                                    <th width="6%">Role</th>
                                     <th width="auto">Notes</th>
                                 </tr>
                             </thead>
@@ -266,11 +266,13 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr ng-repeat="frame in Frames | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(frame.url)}">{(frame.name)}</a></td>
-                                    <td>{(frame.category)}</td>
-                                    <td>{(frame.use)}</td>
+                                    <td><a target="_blank" href="{(frame.url)}">{(frame.frameName)}</a></td>
+                                    <td>{(frame.buildGoals)}</td>
+                                    <td>{(frame.abilityInFocus)}</td>
+                                    <td>{(frame.roleSummary)}</td>
                                     <td>{(frame.notes)}</td>
                                 </tr>
                             </tbody>
