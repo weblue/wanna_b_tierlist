@@ -25,6 +25,14 @@ body {
     color: #AE56FA;
 }
 
+.header-version{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 49vw;
+    display: inline-block;
+}
+
 .parallax {
     background-size: auto 100%;
     background: url(../img/jumbo_background4k.png) no-repeat fixed center;

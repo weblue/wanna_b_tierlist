@@ -52,7 +52,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">(v. {(version)})</li>
+              <li class="nav-item header-version">(v.{(version)})</li>
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
                 <li class="nav-item">
@@ -67,8 +67,11 @@
         <div class="container">
             <div class="card-body">
                 <div class="lead" ng-repeat="disclaimer in disclaimers">
-                  <p ng-bind-html="disclaimer.text | unsafe">
-                  </p>
+                    <p>
+                        Current Version Information: {(version)}
+                    </p>
+                    <p ng-bind-html="disclaimer.text | unsafe">
+                    </p>
                 </div>
                 <p class="d-block d-md-none lead">
                     If you're on mobile, try Landscape Mode!
