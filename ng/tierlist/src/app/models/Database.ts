@@ -8,11 +8,12 @@ import { Archmelee } from "./Archmelee";
 import {Companion} from "./Companion";
 import {Disclaimer} from "./Disclaimer";
 import {SentinelWeapon} from "./SentinelWeapon";
+import {Tier} from "./Tier";
 
 export class Database {
-  primaries: Primary[];
-  secondaries: Secondary[];
-  melees: Melee[];
+  primaries: (Primary | Tier)[];
+  secondaries: (Secondary | Tier)[];
+  melees: (Melee | Tier)[];
   archwings: Archwing[];
   archguns: Archgun[];
   archmelees: Archmelee[];

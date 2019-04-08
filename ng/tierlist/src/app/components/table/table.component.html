@@ -83,45 +83,20 @@
     </td>
   </ng-container>
 
-  <ng-container matColumnDef="top-tier">
-    <tr mat-cell *matHeaderCellDef [attr.colspan]="displayedColumns.length"><b>Top</b></tr>
-  </ng-container>
-  <ng-container matColumnDef="contender-tier">
-    <tr mat-cell *matHeaderCellDef [attr.colspan]="displayedColumns.length"><b>Contender</b></tr>
-  </ng-container>
-  <!--<ng-container matColumnDef="viable-tier">-->
-    <!--<tr mat-cell *matHeaderCellDef [attr.colspan]="displayedColumns.length"><b>Viable</b></tr>-->
-  <!--</ng-container>-->
-  <!--<ng-container matColumnDef="needsbuffs-tier">-->
-    <!--<tr mat-cell *matHeaderCellDef [attr.colspan]="displayedColumns.length"><b>Needs Buffs</b></tr>-->
-  <!--</ng-container>-->
-  <!--<ng-container matColumnDef="untested-tier">-->
-    <!--<tr mat-cell *matHeaderCellDef [attr.colspan]="displayedColumns.length"><b>Untested Tier</b></tr>-->
-  <!--</ng-container>-->
-
-  <!--Top row headers-->
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-
-  <!--Tier header row-->
-  <!--TODO change these to rows so they don't go to the top-->
-  <!--not displaying anymore-->
-  <tr mat-header-row *matHeaderRowDef="['top-tier']"><b>Top</b></tr>
-
-  <tr mat-row *matRowDef="let row; columns: displayedColumns;" [hidden]="row.tier !== 'Top'"
+  <!--<tr mat-row *matRowDef="let row; columns: displayedColumns; when: tier === 'Top'" [hidden]="row.isTier"-->
+  <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
       class="example-element-row" [class.example-expanded-row]="expandedElement === row"
       (click)="expandedElement = expandedElement === row ? null : row">
   </tr>
-
-  <tr mat-header-row *matHeaderRowDef="['contender-tier']"></tr>
-  <!--<tr mat-header-row *matHeaderRowDef="['viable-tier']"></tr>-->
-  <!--<tr mat-header-row *matHeaderRowDef="['needsbuffs-tier']"></tr>-->
-  <!--<tr mat-header-row *matHeaderRowDef="['untested-tier']"></tr>-->
-  <!--<tr mat-row *matRowDef="let row; columns: displayedColumns;"-->
-      <!--class="example-element-row"-->
-      <!--[class.example-expanded-row]="expandedElement === row"-->
-      <!--(click)="expandedElement = expandedElement === row ? null : row">-->
-  <!--</tr>-->
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
+
+  <!--TODO change these to rows so they don't go to the top-->
+  <ng-container matColumnDef="tierHeader">
+    <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
+  </ng-container>
+
+  <tr mat-row *matRowDef="let row; columns: ['tierHeader']; when: isTier" [hidden]="!row.isTier"> </tr>
 
 </mat-table>
 
