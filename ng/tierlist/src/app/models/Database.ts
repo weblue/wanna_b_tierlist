@@ -41,9 +41,9 @@ export enum Categories {
 }
 
 export const columnDefs = {
-  'primaries': ['base', 'category', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
-  'Secondaries': ['base', 'dmg', 'mr', 'rivenDisposition', 'name', 'notes', 'type'],
-  'Melees': ['base', 'dmg', 'mr', 'name', 'type', 'wepnotes'],
+  'primaries': ['name', 'base', 'category', 'dmg', 'mr', 'rivenDisposition', 'notes', 'type'],
+  'Secondaries': ['name', 'base', 'dmg', 'mr', 'rivenDisposition', 'notes', 'type'],
+  'Melees': ['name', 'base', 'dmg', 'mr', 'type', 'wepnotes'],
   'Archwing': ['name', 'use', 'base', 'notes'],
   'Archgun': ['name', 'use', 'firing', 'notes', 'base'],
   'Archmelee': ['name', 'use', 'notes', 'base']
