@@ -91,7 +91,6 @@
   </tr>
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
 
-  <!--TODO change these to rows so they don't go to the top-->
   <ng-container matColumnDef="tierHeader">
     <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
   </ng-container>
