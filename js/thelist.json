@@ -498,16 +498,6 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "Shatter Shield can redirect up to 95% of an enemy's ranged attack. Mesa's Peacemakers are best modded for fire speed and forgoing [Hornet Strike] due to how it interacts with Power Strength. Damage can ramp up to extreme levels but it's inability to target weakspots will hamper usefulness against certain VIPs. "
     },
-    "EidolonMesa": {
-      "frameName": "Mesa",
-      "buildGoals": "hiDUR sacEFF sacRAN maxSTR",
-      "abilityInFocus": "Shooting Gallery",
-      "tier": "Top",
-      "rank": 1,
-      "suitableMissionsRanked": "| Eidolon Hunt | ",
-      "roleSummary": "| Damage | Unique | ",
-      "notes": "Shooting Gallery can uniquely increase Operator's Amp damage. "
-    },
     "EclipseMirage": {
       "frameName": "Mirage",
       "buildGoals": "hiDUR maxSTR + aug3",
