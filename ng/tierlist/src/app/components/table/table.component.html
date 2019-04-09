@@ -1,5 +1,3 @@
-
-<!--<nav mat-tab-nav-bar *ngFor="tab of tabs">-->
 <nav mat-tab-nav-bar>
   <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab" [active]="activeTab == tab"> {{tab}} </a>
 </nav>
