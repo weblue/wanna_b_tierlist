@@ -206,7 +206,7 @@
       "rank": 1.5,
       "suitableMissionsRanked": "| Index | ",
       "roleSummary": "| Loot | Unique | ",
-      "notes": "Unique interactions (bonus aura and weapon ammo) makes Umbra specter really good at killing enemies in Index when equipped with a relatively ammo-inefficient but powerful weapon like Kohm. "
+      "notes": "Unique interactions (bonus aura and weapon ammo) makes Umbra specter really good at killing enemies in Index when equipped with a relatively ammo-inefficient but powerful weapon like Kohm. Since Umbra will not use any abilities while enemies are not in range of it, reducing Range to minimum will ensure that he focuses only on firing the weapon to devastating effect. "
     },
     "EBExcalibur": {
       "frameName": "Excalibur",
@@ -516,7 +516,7 @@
       "rank": 1.5,
       "suitableMissionsRanked": "| Assassination | Capture | Defense | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Survival | Void Fissures | ",
       "roleSummary": "| Buff | ",
-      "notes": "Buff your teammates with multiplicative weapon damage. Might have some issues with identifying bright areas during mobile missions, but is one of the highest damage amplification abilities. "
+      "notes": "Buff your teammates with multiplicative weapon damage. Might have some issues with identifying bright areas during mobile missions, but is one of the highest damage amplification abilities. Eclipse also increases Scanners' speed. "
     },
     "MurderMirage": {
       "frameName": "Mirage",
@@ -620,7 +620,7 @@
     },
     "StompNidus": {
       "frameName": "Nidus",
-      "buildGoals": "loDUR 175EFF hiRAN hiSTR",
+      "buildGoals": "lowDUR 175EFF hiRAN hiSTR",
       "abilityInFocus": "Virulence & Larva",
       "tier": "Contender",
       "rank": 2,
@@ -746,7 +746,7 @@
       "rank": 1,
       "suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
       "roleSummary": "| Buff | ",
-      "notes": "Team buff build that is both high in utility and damage potential. A viable option for Eidolon Hunting although not recommended as Octavia would not survive the AOE damage. "
+      "notes": "Team buff build that is both high in utility and damage potential. A viable option for Eidolon Hunting although not recommended as Octavia would not survive the AOE damage. The Opera effect from Metronome also affects Scanners' speed. "
     },
     "AIORevenant": {
       "frameName": "Revenant",
@@ -870,13 +870,13 @@
     },
     "ESOVolt": {
       "frameName": "Volt",
-      "buildGoals": "Balanced maxRAN ",
+      "buildGoals": "Balanced maxRAN + (aug4 + [Adaptation])opt",
       "abilityInFocus": "Discharge",
       "tier": "Top",
       "rank": 1,
       "suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
-      "roleSummary": "| Damage | ",
-      "notes": "One of the few top ESO farming frames. Duration maintains Discharge's effects on enemies and thus increases DPS. "
+      "roleSummary": "| Tank | Damage | Buff | ",
+      "notes": "One of the few top ESO farming frames. Duration maintains Discharge's effects on enemies and thus increases DPS. Augmented Discharge can gain Overshield which synergizes with [Adaptation] for even greater survivability. "
     },
     "EidolonVolt": {
       "frameName": "Volt",
