@@ -1,11 +1,11 @@
-import {AfterViewInit, ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
-import {DataService} from "../../services/data.service";
-import {MatSort, MatSortable, MatTable} from "@angular/material";
-import {Categories, columnDefs} from "../../models/Database";
-import {animate, state, style, transition, trigger} from "@angular/animations";
-import {Primary} from "../../models/Primary";
-import {Secondary} from "../../models/Secondary";
-import {Melee} from "../../models/Melee";
+import {ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
+import {DataService} from '../../services/data.service';
+import {MatSort, MatSortable, MatTable} from '@angular/material';
+import {Categories, columnDefs} from '../../models/Database';
+import {animate, state, style, transition, trigger} from '@angular/animations';
+import {Primary} from '../../models/Primary';
+import {Secondary} from '../../models/Secondary';
+import {Melee} from '../../models/Melee';
 
 @Component({
   selector: 'app-table',
@@ -22,10 +22,12 @@ import {Melee} from "../../models/Melee";
 export class TableComponent implements OnInit {
 
   expandedElement: Primary | Secondary | Melee | null;
+  tabs: string[] = ['Primaries', 'Secondaries', 'Melees'];
+  activeTab = this.tabs[0];
 
   private loading: boolean = true;
-  //TODO make sure to add #reference
-  @ViewChild('table') el:MatTable<any>;
+  // TODO make sure to add #reference
+  @ViewChild('table') el: MatTable<any>;
 
   displayedColumns: string[] = [];
   tableDataSource = [];
