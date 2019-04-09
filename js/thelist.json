@@ -813,10 +813,10 @@
       "buildGoals": "neuDUR 175EFF neuRAN hiSTR + aug4",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
-      "rank": 3,
+      "rank": 1.5,
       "suitableMissionsRanked": "| Assassination | Assault | Capture | Eidolon Hunt | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Profit Taker Orb | Rathuum | Rescue | Sabotage | ",
       "roleSummary": "| Damage | Debuff | ",
-      "notes": "Dex Pixia has great damage potential but Razorwing disables companion abilities and Titania herself has limited survivability. Debuffing enemies with her other abilites will trigger the Augment and increase her Fire Rate and Movement Speed. "
+      "notes": "Dex Pixia has great damage potential but Razorwing disables companion abilities and Titania herself has limited survivability. Debuffing enemies with her other abilites will trigger the Augment and increase her Fire Rate and Movement Speed. Titania is one of the best frames for killing Plague Star's boss due to Dex Pixia's mechanics. "
     },
     "EVTrinity": {
       "frameName": "Trinity",
