@@ -1,16 +1,6 @@
-<!--
-<mat-tab-group>
-  <mat-tab label="Primaries" (click)="switch('Primaries')"> Primaries </mat-tab>
-  <mat-tab label="Secondaries" (click)="switch('Secondaries')"> Secondaries </mat-tab>
-  <mat-tab label="Melees" (click)="switch('Melees')"> Melees </mat-tab>
-</mat-tab-group>
--->
-<button mat-raised-button (click)="switch('primaries')"> Primaries </button>
-<button mat-raised-button (click)="switch('secondaries')"> Secondaries </button>
-<button mat-raised-button (click)="switch('melees')"> Melees </button>
-<!--<button mat-raised-button (click)="switch('Archwings')"> Archwings </button>-->
-<!--<button mat-raised-button (click)="switch('Archguns')"> Archguns </button>-->
-<!--<button mat-raised-button (click)="switch('Archmelees')"> Archmelees </button>-->
+<nav mat-tab-nav-bar>
+  <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab" [active]="activeTab == tab"> {{tab}} </a>
+</nav>
 
 <mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 
