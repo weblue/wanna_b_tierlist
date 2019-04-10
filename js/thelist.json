@@ -270,7 +270,7 @@
     },
     "GaraShield": {
       "frameName": "Gara",
-      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  130 STR  |  37469  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  130 STR  |  Aug2  |",
       "abilityInFocus": "Splinter Storm",
       "tier": "Viable",
       "rank": 3,
@@ -370,7 +370,7 @@
     },
     "IvaraAIO": {
       "frameName": "Ivara",
-      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇊ RAN  |  ⇈ STR  |  37104  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇊ RAN  |  ⇈ STR  |  Aug1  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -400,7 +400,7 @@
     },
     "KhoraAIO": {
       "frameName": "Khora",
-      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ↓ STR  |  37104  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ↓ STR  |  Aug1  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -440,7 +440,7 @@
     },
     "LimboBanish": {
       "frameName": "Limbo",
-      "buildGoals": "|  Balanced  |  ⇈ DUR  |  37104  |",
+      "buildGoals": "|  Balanced  |  ⇈ DUR  |  Aug1  |",
       "abilityInFocus": "Banish",
       "tier": "Viable",
       "rank": 3,
@@ -530,7 +530,7 @@
     },
     "MirageNuke": {
       "frameName": "Mirage",
-      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  37469  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug2  |",
       "abilityInFocus": "Sleight of Hand ",
       "tier": "Viable",
       "rank": 3,
@@ -650,7 +650,7 @@
     },
     "NovaAMD": {
       "frameName": "Nova",
-      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  145 STR  |  37469  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  145 STR  |  Aug2  |",
       "abilityInFocus": "Antimatter Drop",
       "tier": "Viable",
       "rank": 3,
@@ -690,7 +690,7 @@
     },
     "OberonEidolon": {
       "frameName": "Oberon",
-      "buildGoals": "|  Balanced  |  ⇈ STR  |  37104  |",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |  Aug1  |",
       "abilityInFocus": "Smite & Renewal",
       "tier": "Top",
       "rank": 1,
@@ -750,7 +750,7 @@
     },
     "RhinoSolo": {
       "frameName": "Rhino",
-      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  37104  |  37469  |",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  Aug1  |  Aug2  |",
       "abilityInFocus": "Rhino Charge & Iron Skin & Roar",
       "tier": "Top",
       "rank": 1,
@@ -760,7 +760,7 @@
     },
     "RhinoBuff": {
       "frameName": "Rhino",
-      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  37469  |",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  Aug2  |",
       "abilityInFocus": "Iron Skin & Roar",
       "tier": "Top",
       "rank": 1,
@@ -800,7 +800,7 @@
     },
     "TitaniaAIO": {
       "frameName": "Titania",
-      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  5  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
       "rank": 1.5,
@@ -840,7 +840,7 @@
     },
     "ValkyrMelee": {
       "frameName": "Valkyr",
-      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇈ RAN  |  ⇈ STR  |  37469  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug2  |",
       "abilityInFocus": "Warcry",
       "tier": "Contender",
       "rank": 2,
@@ -890,7 +890,7 @@
     },
     "WukongNuke": {
       "frameName": "Wukong",
-      "buildGoals": "|  Balanced  |  ⇊ RAN  |  37104  |",
+      "buildGoals": "|  Balanced  |  ⇊ RAN  |  Aug1  |",
       "abilityInFocus": "Iron Jab & Defy",
       "tier": "Viable",
       "rank": 3,
