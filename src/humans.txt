@@ -8,6 +8,7 @@
     Kalgash -- Janitor
     sakai4eva -- Curator
     Brendan -- Data Entry
+    Matthew Wang -- Dev/Design Assistant -- malsf21
 
 # THANKS
 
@@ -15,9 +16,7 @@
     u/thefisskonator
     .hallwayRaptor -- Design/Styling
     Zhandragon -- Original Creator
-    malsf21
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    jQuery, Modernizr, Normalize.css, Bootstrap, AngularJS, Firebase
+    Angular, Material-Angular, Font Awesome
