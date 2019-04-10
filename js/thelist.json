@@ -48,9 +48,9 @@
     }
   },
   "Frames": {    
-    "AIOAsh": {
+    "AshAIO": {
       "frameName": "Ash",
-      "buildGoals": "maxDUR 175EFF sacRAN 145STR + aug3 aug1opt",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇊ RAN  |  145 STR  |  Aug1opt  |  Aug3  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -58,29 +58,19 @@
       "roleSummary": "| Damage | Stealth | ",
       "notes": "Ash's armor removal and/or bypass makes it so that not a lot of Strength is needed as long as abilities are spammed consistently. "
     },
-    "AIOAtlas": {
+    "AtlasAIO": {
       "frameName": "Atlas",
-      "buildGoals": "lowDUR 175EFF hiRAN hiSTR",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
       "suitableMissionsRanked": "| Arbitration | Assassination | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
       "roleSummary": "| Tank | Damage | Barrier | ",
-      "notes": "Landslide has decent damage caling but is held back by relative inability to deal with armor past the starchart. Nonetheless the raw damage is sufficient to deal with Sortie-level enemies. "
+      "notes": "Landslide has decent damage scaling but is held back by relative inability to deal with armor past the starchart. Nonetheless the raw damage is sufficient to deal with Sortie-level enemies. "
     },
-    "SilenceBanshee": {
+    "BansheeSonar": {
       "frameName": "Banshee",
-      "buildGoals": "maxDUR neuRAN",
-      "abilityInFocus": "Silence",
-      "tier": "Top",
-      "rank": 2.5,
-      "suitableMissionsRanked": "| Exterminate - Focus affinity farm | ",
-      "roleSummary": "| Stealth | Unique | ",
-      "notes": "Silence can be used to stagger keep enemies unalerted for the stealth affinity bonus. "
-    },
-    "SonarBanshee": {
-      "frameName": "Banshee",
-      "buildGoals": "hiDUR 175EFF hiRAN hiSTR + aug2opt",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug2opt  |",
       "abilityInFocus": "Sonar",
       "tier": "Contender",
       "rank": 2,
@@ -88,9 +78,9 @@
       "roleSummary": "| Debuff | ",
       "notes": "Sonar's effects can overlap onto the same spot, adding multipliers to a current multiplier. "
     },
-    "QuakeBanshee": {
+    "BansheeQuake": {
       "frameName": "Banshee",
-      "buildGoals": "sacDUR 175EFF maxRAN hiSTR + aug4",
+      "buildGoals": "|  ⇊ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "Sound Quake",
       "tier": "Contender",
       "rank": 2,
@@ -98,9 +88,19 @@
       "roleSummary": "| Damage | ",
       "notes": "Augmented Soundquake has decent map-clearing potential but is limited by it's relative inability to deal with armor past starchart levels. "
     },
-    "AIOBaruuk": {
+    "BansheeSilence": {
+      "frameName": "Banshee",
+      "buildGoals": "|  ⇈ DUR  |  ↓ RAN  |",
+      "abilityInFocus": "Silence",
+      "tier": "Top",
+      "rank": 2.5,
+      "suitableMissionsRanked": "| Exterminate - Focus affinity farm | ",
+      "roleSummary": "| Stealth | Unique | ",
+      "notes": "Silence can be used to stagger keep enemies unalerted for the stealth affinity bonus. "
+    },
+    "BaruukAIO": {
       "frameName": "Baruuk",
-      "buildGoals": "neuDUR hiEFF 200RAN hiSTR",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  200 RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -108,9 +108,9 @@
       "roleSummary": "| Tank | ",
       "notes": "Baruuk's kit work in unison by evading attacks while not attacking himself, sleeping his enemies, and easily maintainable 90% damage reduction, he can hardly be killed. Serene Storm can be activated once some Restraint is eroded, but is ultimately underpowered compared to other exalted weaponry despite being easily maintained. "
     },
-    "CCBaruuk": {
+    "BaruukCC": {
       "frameName": "Baruuk",
-      "buildGoals": "hiDUR hiEFF maxRAN sacSTR",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Lull",
       "tier": "Contender",
       "rank": 2,
@@ -118,9 +118,9 @@
       "roleSummary": "| Tank | Control | ",
       "notes": "Long duration Lull can easily lock down an entire map and effictively stall the mission until the timer runs out."
     },
-    "TankChroma": {
+    "ChromaTank": {
       "frameName": "Chroma",
-      "buildGoals": "hiDUR sacEFF sacRAN maxSTR",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Elemental Ward & Vex Armor",
       "tier": "Top",
       "rank": 1,
@@ -128,9 +128,9 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "9/10 Eidolon Hunters recommend Chroma. The last one uses something else but secretly wishes that his riven and his build is up to snuff. "
     },
-    "BuffChroma": {
+    "ChromaBuff": {
       "frameName": "Chroma",
-      "buildGoals": "hiDUR sacEFF neuRAN hiSTR",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ↓ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Elemental Ward & Vex Armor",
       "tier": "Viable",
       "rank": 3,
@@ -138,9 +138,9 @@
       "roleSummary": "| Tank | Damage | Buff | ",
       "notes": "Would have been top, but since teaming up would assume some form of coordination it is expected that the Chroma stay a little more still and teammates gather around him for warmth instead. "
     },
-    "LootChroma": {
+    "ChromaLoot": {
       "frameName": "Chroma",
-      "buildGoals": "neuDUR 175EFF neuRAN hiSTR",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Effigy",
       "tier": "Viable",
       "rank": 3,
@@ -148,9 +148,9 @@
       "roleSummary": "| Damage | Control | Buff | Debuff | Loot | ",
       "notes": "Faster and easier to farm credits in Index. Orb mother fights doesn't use this build either. "
     },
-    "BuffEmber": {
+    "EmberBuff": {
       "frameName": "Ember",
-      "buildGoals": "hiDUR 175EFF hiRAN hiSTR",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Fireball, Accelerant & Fire Blast",
       "tier": "Viable",
       "rank": 3,
@@ -158,9 +158,9 @@
       "roleSummary": "| Buff | Debuff | ",
       "notes": "Would have been top if there is a mission where Fire damage matters because the bonus damage is pretty insane. Buff your teammates with Fireball Frenzy and Accelerant. Fire Blast can be stacked indefinitely to add 50% Fire damage each time. "
     },
-    "WoFEmber": {
+    "EmberWoF": {
       "frameName": "Ember",
-      "buildGoals": "neuDUR 175EFF hiRAN hiSTR + aug4",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "Accelerant & World on Fire",
       "tier": "Viable",
       "rank": 3,
@@ -168,9 +168,9 @@
       "roleSummary": "| Damage | ",
       "notes": "Shrinking range hinders actual usability of World on Fire. "
     },
-    "SleepEquinox": {
+    "EquinoxSleep": {
       "frameName": "Equinox",
-      "buildGoals": "hiDUR 175EFF maxRAN sacSTR + aug2opt",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug2opt  |",
       "abilityInFocus": "Rest & Rage",
       "tier": "Top",
       "rank": 1,
@@ -178,9 +178,9 @@
       "roleSummary": "| Control | Stealth | Unique | ",
       "notes": "One of the best sleep abilities. Can also be used for rapid solo affinity farm on weapons and focus by stacking the stealth combo counter. "
     },
-    "MaimEquinox": {
+    "EquinoxMaim": {
       "frameName": "Equinox",
-      "buildGoals": "neuDUR 175EFF maxRAN sacSTR + surv",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Survivability  |",
       "abilityInFocus": "Mend & Maim",
       "tier": "Top",
       "rank": 1,
@@ -188,9 +188,9 @@
       "roleSummary": "| Damage | ",
       "notes": "One of the few endgame scaling AOE damage abilities. Becomes exponentially more powerful with a coordinated team of damage buff and another similarly built Equinox. "
     },
-    "ProvokeEquinox": {
+    "EquinoxProvoke": {
       "frameName": "Equinox",
-      "buildGoals": "190EFF 250STR + aug3",
+      "buildGoals": "|  190 EFF  |  250 STR  |  Aug3  |",
       "abilityInFocus": "Pacify & Provoke",
       "tier": "Contender",
       "rank": 2,
@@ -198,9 +198,9 @@
       "roleSummary": "| Buff | Debuff | ",
       "notes": "Buff your teammates' Power Strength while debuffing enemies with damage amp with Day aspect. Or you can switch to defensive debuff on the enemies with the Night aspect, which does count the excess efficiency. "
     },
-    "IndexExcalibur": {
+    "ExcaliburIndex": {
       "frameName": "Excalibur",
-      "buildGoals": "sacRAN + surv",
+      "buildGoals": "|  ⇊ RAN  |  Survivability  |",
       "abilityInFocus": "Operator",
       "tier": "Top",
       "rank": 1.5,
@@ -208,9 +208,9 @@
       "roleSummary": "| Loot | Unique | ",
       "notes": "Unique interactions (bonus aura and weapon ammo) makes Umbra specter really good at killing enemies in Index when equipped with a relatively ammo-inefficient but powerful weapon like Kohm. Since Umbra will not use any abilities while enemies are not in range of it, reducing Range to minimum will ensure that he focuses only on firing the weapon to devastating effect. "
     },
-    "EBExcalibur": {
+    "ExcaliburEB": {
       "frameName": "Excalibur",
-      "buildGoals": "neuDUR 175EFF neuRAN 180STR + aug1 aug4",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  180 STR  |  Aug4  |",
       "abilityInFocus": "Exalted Blade",
       "tier": "Contender",
       "rank": 2,
@@ -218,9 +218,9 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "The best exalted melee in game. Each Augmented Slash Dash provides multiple additions to the combo counter and will excessively increase damage output. Best used with [Drifting Contact] on the EB and Naramon school. "
     },
-    "BubbleFrost": {
+    "FrostBubble": {
       "frameName": "Frost",
-      "buildGoals": "Balanced + aug2opt aug3opt",
+      "buildGoals": "|  Balanced  |  Aug2opt  |  Aug3opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -228,9 +228,9 @@
       "roleSummary": "| Control | Barrier | ",
       "notes": "Very few other frames excel at preventing a static objective from being shot at. "
     },
-    "CCFrost": {
+    "FrostCC": {
       "frameName": "Frost",
-      "buildGoals": "neuDUR hiEFF maxRAN sacSTR + aug2opt aug3",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug2opt  |  Aug3  |",
       "abilityInFocus": "Snow Globe",
       "tier": "Contender",
       "rank": 2,
@@ -238,9 +238,9 @@
       "roleSummary": "| Control | Barrier | ",
       "notes": "Delay-based build for covering large areas with crowd control. A large snowglobe can cover interception points indefinitely while Augmented Ice Wave will keep other enemies slowed down. "
     },
-    "NukeFrost": {
+    "FrostNuke": {
       "frameName": "Frost",
-      "buildGoals": "sacDUR 175EFF hiRAN hiSTR + aug4 + [Adaptation]",
+      "buildGoals": "|  ⇊ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |  [Adaptation]  |",
       "abilityInFocus": "Avalanche",
       "tier": "Viable",
       "rank": 3,
@@ -248,9 +248,9 @@
       "roleSummary": "| Damage | ",
       "notes": "Despite having a protective coating you can still build up [Adaptation] stacks, which is great for survivability. "
     },
-    "NukeGara": {
+    "GaraNuke": {
       "frameName": "Gara",
-      "buildGoals": "lowDUR 175EFF maxRAN hiSTR ",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Shattered Lash & Mass Vitrify",
       "tier": "Top",
       "rank": 1,
@@ -258,9 +258,9 @@
       "roleSummary": "| Damage | Control | Barrier | ",
       "notes": "Another highly scaling AOE damage ability as Mass Vitrify's explosion damage is derived from Shattered Lash which in turn draws damage from melee mods. This makes maxing out range easier compared with other builds. However, the nuke is relatively complex and a properly built statstick is necessary. "
     },
-    "AIOGara": {
+    "GaraAIO": {
       "frameName": "Gara",
-      "buildGoals": "hiDUR neuEFF maxRAN hiSTR ",
+      "buildGoals": "|  ⇈ DUR  |  ↓ EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -268,9 +268,9 @@
       "roleSummary": "| Tank | Damage | Buff | Barrier | ",
       "notes": "This build is more focused on a long duration Splinter Storm with high range to create a walking aura of damage that can trivialize most content once the damage is properly built up. A proper statstick is necessary. "
     },
-    "ShieldGara": {
+    "GaraShield": {
       "frameName": "Gara",
-      "buildGoals": "maxDUR sacEFF sacRAN 130STR + aug2",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  130 STR  |  37469  |",
       "abilityInFocus": "Splinter Storm",
       "tier": "Viable",
       "rank": 3,
@@ -278,9 +278,9 @@
       "roleSummary": "| Tank | Buff | ",
       "notes": "90% damage reduction is very good for when a specific mobile objective needs to be protected at all costs. Since Splinter Storm is refreshable this build is more suitable for buff-and-forget instead. "
     },
-    "AIOGaruda": {
+    "GarudaAIO": {
       "frameName": "Garuda",
-      "buildGoals": "Balanced + QT + PFopt",
+      "buildGoals": "|  Balanced  |  [Quick Thinking] + [Primed Flow]  |",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
       "rank": 3,
@@ -288,9 +288,9 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "Combining her 1 and 3 means you can survive any attacks unless you get hit by nullifiers or forget to refresh the duration while having nearly +100% damage. "
     },
-    "HealerGaruda": {
+    "GarudaHealer": {
       "frameName": "Garuda",
-      "buildGoals": "Balanced",
+      "buildGoals": "|  Balanced  |",
       "abilityInFocus": "Blood Altar",
       "tier": "Viable",
       "rank": 3,
@@ -298,9 +298,9 @@
       "roleSummary": "| Tank | Healing | Buff | ",
       "notes": "Creating 3 altars to keep a semi-static team alive is great especially when healing is scarce. "
     },
-    "AIOHarrow": {
+    "HarrowAIO": {
       "frameName": "Harrow",
-      "buildGoals": "Balanced",
+      "buildGoals": "|  Balanced  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -308,9 +308,9 @@
       "roleSummary": "| Control | Buff | Unique | ",
       "notes": "It's really hard to build Harrow wrong (and therefore hard to build him perfectly), especially since his entire kit works in unison and therefore requires different stats to work together. One of the preferred proc prevention frames in Eidolon hunting. "
     },
-    "SuperHildryn": {
+    "HildrynSuper": {
       "frameName": "Hildryn",
-      "buildGoals": "Balanced neuEFF + [Redirection] + [Arcane Aegis] + [Adaptation]",
+      "buildGoals": "|  Balanced  |  ↓ EFF  |  [Redirection] + [Adaptation]  |  Arcane Aegis  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -318,9 +318,9 @@
       "roleSummary": "| Tank | Damage | Control | Buff | Unique | ",
       "notes": "One of the few frames that require arcanes to really shine, since Arcane Aegis' regeneration won't be canceled by damage to shields. This allows for relatively unlimited usage of abilities as well as survivability. "
     },
-    "BudgetHildryn": {
+    "HildrynBudget": {
       "frameName": "Hildryn",
-      "buildGoals": "Balanced maxEFF",
+      "buildGoals": "|  Balanced  |  ⇈ EFF  |",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
       "rank": 3,
@@ -328,9 +328,9 @@
       "roleSummary": "| Tank | Damage | Control | Buff | ",
       "notes": "The poor man's Hildryn build is still viable but requires no arcanes if a shield regenerating weapon is used while spamming Shield Pillage."
     },
-    "LootHydroid": {
+    "HydroidLoot": {
       "frameName": "Hydroid",
-      "buildGoals": "Balanced lowDUR",
+      "buildGoals": "|  Balanced  |  ↓ DUR  |",
       "abilityInFocus": "Tentacle Swarm",
       "tier": "Top",
       "rank": 1,
@@ -338,9 +338,9 @@
       "roleSummary": "| Damage | Control | Stealth | Loot | Unique | ",
       "notes": "Puddle first then charge up the Tentacles to double up the loot. Works very well with a Zenistar for relatively pain-free material and mod farming. "
     },
-    "PuddleHydroid": {
+    "HydroidPuddle": {
       "frameName": "Hydroid",
-      "buildGoals": "Balanced maxEFF",
+      "buildGoals": "|  Balanced  |  ⇈ EFF  |",
       "abilityInFocus": "Undertow",
       "tier": "Viable",
       "rank": 3,
@@ -348,9 +348,9 @@
       "roleSummary": "| Control | Healing | Stealth | ",
       "notes": "Curative Undertow build for healing teammates. "
     },
-    "TankInaros": {
+    "InarosTank": {
       "frameName": "Inaros",
-      "buildGoals": "Health + Armour + Arcane Grace",
+      "buildGoals": "|  Health + Armour  |  Arcane Grace  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -358,9 +358,9 @@
       "roleSummary": "| Tank | Control | ",
       "notes": "One of the few frames that require arcanes to really shine, since with a little health regeneration Inaros is pretty much unkillable even when surrounded by active nullifiers. "
     },
-    "SleepIvara": {
+    "IvaraSleep": {
       "frameName": "Ivara",
-      "buildGoals": "Balanced hiSTR maxEFF",
+      "buildGoals": "|  Balanced  |  ⇈ EFF  |  ⇈ STR  |",
       "abilityInFocus": "Sleep Arrow",
       "tier": "Top",
       "rank": 1,
@@ -368,9 +368,9 @@
       "roleSummary": "| Control | Stealth | Unique | ",
       "notes": "The most reliable way to max out a weapon on a single run. Higher strength to increase the headshot multiplier from Prowl. Sleep arrow can reset alert status an enemy no matter the condition. "
     },
-    "AIOIvara": {
+    "IvaraAIO": {
       "frameName": "Ivara",
-      "buildGoals": "neuDUR 175EFF sacRAN hiSTR + aug1",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇊ RAN  |  ⇈ STR  |  37104  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -378,9 +378,9 @@
       "roleSummary": "| Damage | Buff | Stealth | ",
       "notes": "Artemis Bow's has great stats and high innate multishot making it excellent at boss-killing as long as AOE attacks can be dealt with. Strength scaling affects Augmented Dashwire and Artemis Bow. "
     },
-    "CCIvara": {
+    "IvaraCC": {
       "frameName": "Ivara",
-      "buildGoals": "hiDUR 175EFF hiRAN sacSTR",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Sleep Arrow & Noise Arrow",
       "tier": "Contender",
       "rank": 2,
@@ -388,9 +388,9 @@
       "roleSummary": "| Control | Stealth | Unique | ",
       "notes": "Using Noise Arrow and Sleep Arrow to indefinitely delay a mission. Noise Arrows will eventually break the AI and turn them completely unalerted, allowing you to clear a mission without further interference. "
     },
-    "ProwlIvara": {
+    "IvaraProwl": {
       "frameName": "Ivara",
-      "buildGoals": "Balanced maxEFF neuDUR + aug3 + Roll speed",
+      "buildGoals": "|  Balanced  |  ↓ DUR  |  ⇈ EFF  |  Aug3  |  Roll speed  |",
       "abilityInFocus": "Prowl",
       "tier": "Viable",
       "rank": 3,
@@ -398,9 +398,9 @@
       "roleSummary": "| Stealth | Loot | Unique | ",
       "notes": "Great for dealing with pesky Corpus spy rooms until you've mastered the patterns. Can also be used for Prowl farming some enemies but there are faster farming methods. However, Prowl-pickpocketing Life Support from enemies to fulfill the no-kill survival Riven challenge is possible. "
     },
-    "AIOKhora": {
+    "KhoraAIO": {
       "frameName": "Khora",
-      "buildGoals": "neuDUR 175EFF maxRAN lowSTR + aug1",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ↓ STR  |  37104  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -408,9 +408,9 @@
       "roleSummary": "| Tank | Damage | Control | Unique | ",
       "notes": "Stacking damage from whipclaw's Augment is more than enough to counteract a slightly lowered power strength. "
     },
-    "CataLimbo": {
+    "LimboCata": {
       "frameName": "Limbo",
-      "buildGoals": "maxDUR varRAN",
+      "buildGoals": "|  ⇈ DUR  |  var RAN  |",
       "abilityInFocus": "Cataclysm",
       "tier": "Top",
       "rank": 1,
@@ -418,9 +418,9 @@
       "roleSummary": "| Control | Barrier | Unique | ",
       "notes": "When a build only has nullifiers as its weakness, you know it's good. Stay in Rift, press 2, aim at obj and press 4. Repeat. Change range depending on existence of nullifiers in mission. "
     },
-    "LootLimbo": {
+    "LimboLoot": {
       "frameName": "Limbo",
-      "buildGoals": "maxEFF maxRAN + Loot Radar",
+      "buildGoals": "|  ⇈ EFF  |  ⇈ RAN  |  [Loot Radar]  |",
       "abilityInFocus": "Cataclysm",
       "tier": "Contender",
       "rank": 2,
@@ -428,9 +428,9 @@
       "roleSummary": "| Loot | Unique | ",
       "notes": "Press 4 twice to break any boxes within range so that you can easily see Syndicate Medallion or Caches in the minimap. "
     },
-    "SurgeLimbo": {
+    "LimboSurge": {
       "frameName": "Limbo",
-      "buildGoals": "Balanced hiDUR + aug3",
+      "buildGoals": "|  Balanced  |  ⇈ DUR  |  Aug3  |",
       "abilityInFocus": "Rift Surge",
       "tier": "Viable",
       "rank": 3,
@@ -438,9 +438,9 @@
       "roleSummary": "| Debuff | Unique | ",
       "notes": "Same usage as Cataclysm, except this time you also press 3 and then banish enemies that have been affected by Rift Surge. Damage scaling is absurd if many enemies are caught in the effect. "
     },
-    "BanishLimbo": {
+    "LimboBanish": {
       "frameName": "Limbo",
-      "buildGoals": "Balanced hiDUR + aug1",
+      "buildGoals": "|  Balanced  |  ⇈ DUR  |  37104  |",
       "abilityInFocus": "Banish",
       "tier": "Viable",
       "rank": 3,
@@ -448,9 +448,9 @@
       "roleSummary": "| Healing | Unique | ",
       "notes": "While in normal plane, send allies into the rift to heal them. Makes Defections or any missions where you need to keep an Operative alive a breeze. "
     },
-    "SwitchTPLoki": {
+    "LokiSwitchTP": {
       "frameName": "Loki",
-      "buildGoals": "maxEFF maxRAN + hiSPD",
+      "buildGoals": "|  ⇈ EFF  |  ⇈ RAN  |  + Speed  |",
       "abilityInFocus": "Switch Teleport",
       "tier": "Top",
       "rank": 1,
@@ -458,9 +458,9 @@
       "roleSummary": "| Speed | Unique | ",
       "notes": "Extremely good at moving mobile objectives like POE drones closer to the objective. "
     },
-    "StealthLoki": {
+    "LokiStealth": {
       "frameName": "Loki",
-      "buildGoals": "maxDUR",
+      "buildGoals": "|  ⇈ DUR  |",
       "abilityInFocus": "Invisibility",
       "tier": "Contender",
       "rank": 2,
@@ -468,9 +468,9 @@
       "roleSummary": "| Speed | Stealth | ",
       "notes": "Very useful for rushing through missions with Loki's high innate speed. "
     },
-    "DisarmLoki": {
+    "LokiDisarm": {
       "frameName": "Loki",
-      "buildGoals": "hiDUR maxEFF maxRAN sacSTR + aug4opt",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug4opt  |",
       "abilityInFocus": "Radial Disarm",
       "tier": "Viable",
       "rank": 3,
@@ -478,9 +478,9 @@
       "roleSummary": "| Control | Stealth | ",
       "notes": "One of the highest ranged disarm abilities in game. Adding the Augment delays the enemies from being able to act effectively against the objective even more. "
     },
-    "BubbleMag": {
+    "MagBubble": {
       "frameName": "Mag",
-      "buildGoals": "Balanced hiRAN + aug3 aug2opt + [Adaptation]opt",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug2opt  |  Aug3  |  [Adaptation]opt  |",
       "abilityInFocus": "Magnetize & Polarize",
       "tier": "Contender",
       "rank": 2,
@@ -488,9 +488,9 @@
       "roleSummary": "| Tank | Damage | Debuff | ",
       "notes": "Run in, disarm and bubble one enemy. Shoot  the bubble with a projectile weapon and let the damage commence. Aug3 helps with surviability, as well as [Adaptation] as Mag's Crush can gain overshields. "
     },
-    "AIOMesa": {
+    "MesaAIO": {
       "frameName": "Mesa",
-      "buildGoals": "hiDUR hiEFF sacRAN hiSTR + aug4opt",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇊ RAN  |  ⇈ STR  |  Aug4opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -498,9 +498,9 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "Shatter Shield can redirect up to 95% of an enemy's ranged attack. Mesa's Peacemakers are best modded for fire speed and forgoing [Hornet Strike] due to how it interacts with Power Strength. Damage can ramp up to extreme levels but it's inability to target weakspots will hamper usefulness against certain VIPs. "
     },
-    "EclipseMirage": {
+    "MirageEclipse": {
       "frameName": "Mirage",
-      "buildGoals": "hiDUR maxSTR + aug3",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ STR  |  Aug3  |",
       "abilityInFocus": "Eclipse",
       "tier": "Top",
       "rank": 1.5,
@@ -508,9 +508,9 @@
       "roleSummary": "| Buff | ",
       "notes": "Buff your teammates with multiplicative weapon damage. Might have some issues with identifying bright areas during mobile missions, but is one of the highest damage amplification abilities. Eclipse also increases Scanners' speed. "
     },
-    "MurderMirage": {
+    "MirageMurder": {
       "frameName": "Mirage",
-      "buildGoals": "hiDUR hiEFF sacRAN hiSTR + aug1opt",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇊ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Hall of Mirrors & Eclipse",
       "tier": "Viable",
       "rank": 3,
@@ -518,9 +518,9 @@
       "roleSummary": "| Damage | ",
       "notes": "Extreme weapon damage amp would have been great if Mirage isn't a total pushover. Doppelganger shots can also proc status despite having lower damage than the main so build your weapons accordingly. "
     },
-    "PrismMirage": {
+    "MiragePrism": {
       "frameName": "Mirage",
-      "buildGoals": "hiDUR 175EFF hiRAN sacSTR",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Prism",
       "tier": "Viable",
       "rank": 3,
@@ -528,9 +528,9 @@
       "roleSummary": "| Control | ",
       "notes": "Blind would have been good if LoS is not needed for the crowd control. "
     },
-    "NukeMirage": {
+    "MirageNuke": {
       "frameName": "Mirage",
-      "buildGoals": "neuDUR 175EFF hiRAN maxSTR + aug2",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  37469  |",
       "abilityInFocus": "Sleight of Hand ",
       "tier": "Viable",
       "rank": 3,
@@ -538,9 +538,9 @@
       "roleSummary": "| Damage | ",
       "notes": "Explosive Legerdemain turns all ammo pickups into proximity mines that will explode for signficant damage once stacked. A Nekros or Hydroid in the team to increase the number of pickups increasese the damage potential. "
     },
-    "LootNekros": {
+    "NekrosLoot": {
       "frameName": "Nekros",
-      "buildGoals": "Balanced + aug3 aug4opt + surv",
+      "buildGoals": "|  Balanced  |  Aug3  |  Aug4opt  |  Health + Armour + [Adaptation]  |",
       "abilityInFocus": "Desecrate & Shadows of the Dead",
       "tier": "Top",
       "rank": 1,
@@ -548,9 +548,9 @@
       "roleSummary": "| Tank | Control | Summon/MindControl | Loot | Unique | ",
       "notes": "Desecrate can almost double your loot if accompanied with an appropriate loadout of dismembering weapons. Shield of Shadows can create a buffer between enemies and an objective semi-reliably. When all else fails, Terrify will get rid of the remaining enemies. "
     },
-    "AIONezha": {
+    "NezhaAIO": {
       "frameName": "Nezha",
-      "buildGoals": "Balanced + aug3opt",
+      "buildGoals": "|  Balanced  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -558,19 +558,9 @@
       "roleSummary": "| Tank | Control | Buff | Debuff | Speed | ",
       "notes": "Truly the Jack of all Trades but Master of None, Nezha's entire kit synergizes well together but requires different stats. Using Warding Halo to protect yourself or allies while utilizing Chakram on enemies affected by Divine Spears to force another Chakram out. "
     },
-    "ChakramNezha": {
+    "NezhaDelay": {
       "frameName": "Nezha",
-      "buildGoals": "Balanced maxSTR",
-      "abilityInFocus": "Chakram",
-      "tier": "Contender",
-      "rank": 2,
-      "suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
-      "roleSummary": "| Debuff | ",
-      "notes": "Chakram's damage multiplier is applied as a debuff on enemies after all other damage is calculated. Drawback is the limit on how many enemies it can affect and some VIPs immunity to debuffs. "
-    },
-    "DelayNezha": {
-      "frameName": "Nezha",
-      "buildGoals": "hiDUR, 175EFF, maxRAN, sacSTR",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Divine Spears",
       "tier": "Viable",
       "rank": 3,
@@ -578,9 +568,9 @@
       "roleSummary": "| Tank | Control | ",
       "notes": "With a base duration of 12 seconds, Divine Spears can keep a sufficiently large area locked down for a long time when modded properly. Does not work as a stealth farm tool as it alerts enemies. "
     },
-    "NukeNezha": {
+    "NezhaNuke": {
       "frameName": "Nezha",
-      "buildGoals": "varDUR 175Eff hiRAN maxSTR",
+      "buildGoals": "|  var DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Divine Spears",
       "tier": "Viable",
       "rank": 3,
@@ -588,9 +578,19 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "Divine Spears have a decent enough damage to last the starchart. Fixed damage and inabillity to deal with armor hampers the scaling. "
     },
-    "LinkNidus": {
+    "NezhaChakram": {
+      "frameName": "Nezha",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |",
+      "abilityInFocus": "Chakram",
+      "tier": "Contender",
+      "rank": 2,
+      "suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
+      "roleSummary": "| Debuff | ",
+      "notes": "Chakram's damage multiplier is applied as a debuff on enemies after all other damage is calculated. Drawback is the limit on how many enemies it can affect and some VIPs immunity to debuffs. "
+    },
+    "NidusLink": {
       "frameName": "Nidus",
-      "buildGoals": "maxSTR hiDur",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ STR  |",
       "abilityInFocus": "Parasitic Link",
       "tier": "Top",
       "rank": 1,
@@ -598,9 +598,9 @@
       "roleSummary": "| Buff | ",
       "notes": "By far the biggest Power Strength buff you can get in game. Parasitic Link is slightly limited as it can only amplify one Ally and requires the teammate to build appropriately. "
     },
-    "TankNidus": {
+    "NidusTank": {
       "frameName": "Nidus",
-      "buildGoals": "hiDUR sacEFF hiRAN 180STR",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇈ RAN  |  180 STR  |",
       "abilityInFocus": "Parasitic Link",
       "tier": "Top",
       "rank": 2,
@@ -608,9 +608,9 @@
       "roleSummary": "| Tank | Damage | Control | ",
       "notes": "Linking to an enemy can grant up to 90% damage reduction, which makes Nidus nigh invincible considering his natural stats. "
     },
-    "StompNidus": {
+    "NidusStomp": {
       "frameName": "Nidus",
-      "buildGoals": "lowDUR 175EFF hiRAN hiSTR",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Virulence & Larva",
       "tier": "Contender",
       "rank": 2,
@@ -618,9 +618,9 @@
       "roleSummary": "| Damage | Control | ",
       "notes": "Virulence is very strong when stacks are up, but takes too much time to ramp up for quicker missions. "
     },
-    "SpeedNova": {
+    "NovaSpeed": {
       "frameName": "Nova",
-      "buildGoals": "maxDUR minSTR + aug4",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ STR  |  Aug4  |",
       "abilityInFocus": "Molecular Prime & Null Star",
       "tier": "Top",
       "rank": 1,
@@ -628,9 +628,9 @@
       "roleSummary": "| Damage | Unique | ",
       "notes": "No other abilities grant both double damage and an increase in enemy speed with so much coverage. One of the few actual use case for [Power Donation]. Augment compensates for Nova's poor survivability."
     },
-    "SlowNova": {
+    "NovaSlow": {
       "frameName": "Nova",
-      "buildGoals": "maxDUR 145STR + aug4",
+      "buildGoals": "|  ⇈ DUR  |  145 STR  |  Aug4  |",
       "abilityInFocus": "Molecular Prime & Null Star",
       "tier": "Top",
       "rank": 1,
@@ -638,9 +638,9 @@
       "roleSummary": "| Damage | Control | ",
       "notes": "No other abilities grant both double damage and a decrease in enemy speed with so much coverage. Augment compensates for Nova's poor survivability."
     },
-    "PortalNova": {
+    "NovaPortal": {
       "frameName": "Nova",
-      "buildGoals": "Balanced + aug3",
+      "buildGoals": "|  Balanced  |  Aug3  |",
       "abilityInFocus": "Worm Hole",
       "tier": "Top",
       "rank": 1,
@@ -648,9 +648,9 @@
       "roleSummary": "| Speed | Unique | ",
       "notes": "Impressive speed when mastered while also being able to move POE drones along. Also consider lowering range for smaller/tighter maps. "
     },
-    "AMDNova": {
+    "NovaAMD": {
       "frameName": "Nova",
-      "buildGoals": "hiDUR 175EFF hiRAN 145STR + aug2",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  145 STR  |  37469  |",
       "abilityInFocus": "Antimatter Drop",
       "tier": "Viable",
       "rank": 3,
@@ -658,9 +658,9 @@
       "roleSummary": "| Damage | ",
       "notes": "Augmented Antimatter Drop can be used to block enemy weapon fire and bypasses terrain. Drawback of needing to charge the ball and fixed range of subsequent explosion limits this ability. "
     },
-    "ChaosNyx": {
+    "NyxChaos": {
       "frameName": "Nyx",
-      "buildGoals": "hiDUR 175EFF maxRAN sacSTR + aug3opt",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug3opt  |",
       "abilityInFocus": "Chaos",
       "tier": "Contender",
       "rank": 2,
@@ -668,19 +668,19 @@
       "roleSummary": "| Tank | Buff | ",
       "notes": "Extremely useful for completely stalling a mission's timer. Advantage compared to Loki's Irradiating Disarm is that enemies will also shoot nullifier bubbles. Augment is useful but it is often easier to just recast. "
     },
-    "BubbleNyx": {
+    "NyxBubble": {
       "frameName": "Nyx",
-      "buildGoals": "Balanced maxRAN hiSTR + aug4",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "Absorb",
       "tier": "Viable",
       "rank": 3,
       "suitableMissionsRanked": "| Assault | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
       "roleSummary": "| Barrier | ",
-      "notes": "Can be used defensively to protect an objective from being harmed, but limited to smaller objectives. Raised threat level also forces enemies to redirect fire to you but is not as good as other defensive barrier abilities. "
+      "notes": "Can be used defensively to protect an objective from being harmed, but limited to smaller objectives. Raised threat level also forces enemies to redirect fire to you but is not as good as other defensive barrier's coverage. Uniquely, [Rift Strike] on Twin Basolk allows for greater mobility when required. "
     },
-    "HealerOberon": {
+    "OberonHealer": {
       "frameName": "Oberon",
-      "buildGoals": "Balanced + aug3",
+      "buildGoals": "|  Balanced  |  Aug3  |",
       "abilityInFocus": "Hallowed Ground & Renewal",
       "tier": "Top",
       "rank": 1,
@@ -688,9 +688,9 @@
       "roleSummary": "| Healing | Buff | ",
       "notes": "Defensive babysitter build mostly for keeping allies and opertives alive. Augmented 3 provides instant revive every 90s which is useful for glass cannon frames. "
     },
-    "EidolonOberon": {
+    "OberonEidolon": {
       "frameName": "Oberon",
-      "buildGoals": "Balanced maxSTR + aug1",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |  37104  |",
       "abilityInFocus": "Smite & Renewal",
       "tier": "Top",
       "rank": 1,
@@ -698,9 +698,9 @@
       "roleSummary": "| Damage | Unique | ",
       "notes": "Eidolon Hunter build. Augmented Smite buff on allies can be used to great effect as Eidolons are weak to Radiation. "
     },
-    "NukeOberon": {
+    "OberonNuke": {
       "frameName": "Oberon",
-      "buildGoals": "hiDUR 175EFF 200RAN maxSTR + aug4opt",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  200 RAN  |  ⇈ STR  |  Aug4opt  |",
       "abilityInFocus": "Hallowed Ground & Reckoning ",
       "tier": "Viable",
       "rank": 3,
@@ -708,9 +708,9 @@
       "roleSummary": "| Damage | Debuff | ",
       "notes": "AOE nuking and armor removal build. Laying down Hallowed Grounds and casting Reckoning twice completely removes armor. "
     },
-    "StealthOctavia": {
+    "OctaviaStealth": {
       "frameName": "Octavia",
-      "buildGoals": "maxDUR",
+      "buildGoals": "|  ⇈ DUR  |",
       "abilityInFocus": "Metronome",
       "tier": "Top",
       "rank": 1,
@@ -718,9 +718,9 @@
       "roleSummary": "| Buff | Speed | Stealth | ",
       "notes": "Octavia's unique and refreshable invisibility can be managed to 100% uptime while maintaining full mobility. The buff can be applied across the team with some coordination. "
     },
-    "MalletOctavia": {
+    "OctaviaMallet": {
       "frameName": "Octavia",
-      "buildGoals": "hiDUR 200RAN neuSTR",
+      "buildGoals": "|  ⇈ DUR  |  200 RAN  |  ↓ STR  |",
       "abilityInFocus": "Mallet & Amp",
       "tier": "Top",
       "rank": 1,
@@ -728,9 +728,9 @@
       "roleSummary": "| Damage | Buff | ",
       "notes": "Mallet is the only Warframe ability that is effective against Nullifiers. Amp doubles the range and can cover the entire room in a Defense mission. "
     },
-    "BuffOctavia": {
+    "OctaviaBuff": {
       "frameName": "Octavia",
-      "buildGoals": "hiDUR hiRAN maxSTR",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Metronome & Amp",
       "tier": "Top",
       "rank": 1,
@@ -738,9 +738,9 @@
       "roleSummary": "| Buff | ",
       "notes": "Team buff build that is both high in utility and damage potential. A viable option for Eidolon Hunting although not recommended as Octavia would not survive the AOE damage. The Opera effect from Metronome also affects Scanners' speed. "
     },
-    "AIORevenant": {
+    "RevenantAIO": {
       "frameName": "Revenant",
-      "buildGoals": "neuDUR 175EFF neuRAN hiSTR",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -748,9 +748,9 @@
       "roleSummary": "| Tank | Damage | Control | Summon/MindControl | ",
       "notes": "Revenant's kit grants him both offensive and defensive capabilities at the cost of some mobility. "
     },
-    "SoloRhino": {
+    "RhinoSolo": {
       "frameName": "Rhino",
-      "buildGoals": "lowDUR hiEFF neuRAN maxSTR + aug1 aug2",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  37104  |  37469  |",
       "abilityInFocus": "Rhino Charge & Iron Skin & Roar",
       "tier": "Top",
       "rank": 1,
@@ -758,9 +758,9 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "An all-rounded build that utilises most of Rhino's offensive and defensive abilities. Ironclad Charge scales better than [Steel Fibre] even if you just hit two enemies. "
     },
-    "BuffRhino": {
+    "RhinoBuff": {
       "frameName": "Rhino",
-      "buildGoals": "neuDUR hiEFF neuRAN maxSTR + aug2",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  37469  |",
       "abilityInFocus": "Iron Skin & Roar",
       "tier": "Top",
       "rank": 1,
@@ -768,9 +768,9 @@
       "roleSummary": "| Tank | Damage | Buff | ",
       "notes": "Roar scales after weapon damage mods and is one of the best damage buff to you and your allies. Range can be reduced in a coordinated team. One of the DPS-enhancing options for an Eidolon hunt. "
     },
-    "StompRhino": {
+    "RhinoStomp": {
       "frameName": "Rhino",
-      "buildGoals": "hiDUR 175Eff maxRAN sacSTR",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Rhino Stomp",
       "tier": "Contender",
       "rank": 2,
@@ -778,9 +778,9 @@
       "roleSummary": "| Control | Unique | ",
       "notes": "A unique build for crowd control. Enemies are thrown into the air for the duration and will enter knockdown-like state after. Enemies stuck in the air will remain unalerted and this makes the stealth focus farm in exterminate maps possible. "
     },
-    "ESOSaryn": {
+    "SarynESO": {
       "frameName": "Saryn",
-      "buildGoals": "Balanced maxRAN + aug2opt",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug2opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -788,9 +788,9 @@
       "roleSummary": "| Tank | Buff | Debuff | ",
       "notes": "Saryn has high range for Spores and Miasma. Enemies that die from sources other than Spore also spread it outwards with increasing damage. "
     },
-    "MeleeSaryn": {
+    "SarynMelee": {
       "frameName": "Saryn",
-      "buildGoals": "hiDUR 175EFF maxRAN sacSTR",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Spores, Toxic Lash & Miasma",
       "tier": "Contender",
       "rank": 2,
@@ -798,9 +798,9 @@
       "roleSummary": "| Damage | Debuff | ",
       "notes": "Turn Saryn into a melee platform by spreading 3 status effects to jumpstart [Condition Overload]. Toxic Lash bursts all spores for re-application and each spore burst adds to the combo counter. "
     },
-    "AIOTitania": {
+    "TitaniaAIO": {
       "frameName": "Titania",
-      "buildGoals": "neuDUR 175EFF neuRAN hiSTR + aug4",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  5  |",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
       "rank": 1.5,
@@ -808,9 +808,9 @@
       "roleSummary": "| Damage | Debuff | ",
       "notes": "Dex Pixia has great damage potential but Razorwing disables companion abilities and Titania herself has limited survivability. Debuffing enemies with her other abilites will trigger the Augment and increase her Fire Rate and Movement Speed. Titania is one of the best frames for killing Plague Star's boss due to Dex Pixia's mechanics. "
     },
-    "EVTrinity": {
+    "TrinityEV": {
       "frameName": "Trinity",
-      "buildGoals": "sacDUR maxRAN hiSTR + (aug2 + [Adaptation])opt",
+      "buildGoals": "|  ⇊ DUR  |  ⇈ RAN  |  ⇈ STR  |  Aug2opt  |  [Adaptation]opt  |",
       "abilityInFocus": "Energy Vampire",
       "tier": "Top",
       "rank": 1,
@@ -818,9 +818,9 @@
       "roleSummary": "| Buff | ",
       "notes": "No other frames give the team as much energy as fast as an EV Trinity. Augment also adds Overshields and is a viable case for survivability when stacked with [Adaptation]. "
     },
-    "BlessTrinity": {
+    "TrinityBless": {
       "frameName": "Trinity",
-      "buildGoals": "hiDUR neuEFF sacRAN 150STR",
+      "buildGoals": "|  ⇈ DUR  |  ↓ EFF  |  ⇊ RAN  |  150 STR  |",
       "abilityInFocus": "Blessing",
       "tier": "Top",
       "rank": 1,
@@ -828,9 +828,9 @@
       "roleSummary": "| Tank | Buff | ",
       "notes": "Within affinity range, heal teammates to full health and provide 75% damage resistance. No other frames can come close to the speed of the heal. Very useful for keeping Eidolon Lures alive. "
     },
-    "LinkTrinity": {
+    "TrinityLink": {
       "frameName": "Trinity",
-      "buildGoals": "hiDUR neuEFF hiRAN 223STR + aug3",
+      "buildGoals": "|  ⇈ DUR  |  ↓ EFF  |  ⇈ RAN  |  223 STR  |  Aug3  |",
       "abilityInFocus": "Link & Blessing",
       "tier": "Viable",
       "rank": 3,
@@ -838,9 +838,9 @@
       "roleSummary": "| Tank | Buff | Debuff | ",
       "notes": "Abating Link removes all armor from enemies and redirect the damage to them. Combine with Blessing to gain high survivability. "
     },
-    "MeleeValkyr": {
+    "ValkyrMelee": {
       "frameName": "Valkyr",
-      "buildGoals": "hiDUR sacEFF hiRAN hiSTR + aug2",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇈ RAN  |  ⇈ STR  |  37469  |",
       "abilityInFocus": "Warcry",
       "tier": "Contender",
       "rank": 2,
@@ -848,9 +848,9 @@
       "roleSummary": "| Tank | Buff | ",
       "notes": "Valkyr excels as a melee platform due to her innate stats and the bonus from Warcry that is easily maintained by the Augment. "
     },
-    "CCVauban": {
+    "VaubanCC": {
       "frameName": "Vauban",
-      "buildGoals": "Balanced maxRAN + aug3 aug4opt",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug3  |  Aug4opt  |",
       "abilityInFocus": "Bastille & Vortex",
       "tier": "Viable",
       "rank": 3,
@@ -858,9 +858,9 @@
       "roleSummary": "| Control | ",
       "notes": "Vauban offers massive crowd control across the map, but little else. "
     },
-    "ESOVolt": {
+    "VoltESO": {
       "frameName": "Volt",
-      "buildGoals": "Balanced maxRAN + (aug4 + [Adaptation])opt",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug4opt  |  [Adaptation]opt  |",
       "abilityInFocus": "Discharge",
       "tier": "Top",
       "rank": 1,
@@ -868,9 +868,9 @@
       "roleSummary": "| Tank | Damage | Buff | ",
       "notes": "One of the few top ESO farming frames. Duration maintains Discharge's effects on enemies and thus increases DPS. Augmented Discharge can gain Overshield which synergizes with [Adaptation] for even greater survivability. "
     },
-    "EidolonVolt": {
+    "VoltEidolon": {
       "frameName": "Volt",
-      "buildGoals": "maxDUR + surv",
+      "buildGoals": "|  ⇈ DUR  |  Survivability  |",
       "abilityInFocus": "Electric Shield",
       "tier": "Top",
       "rank": 1,
@@ -878,9 +878,9 @@
       "roleSummary": "| Buff | Barrier | Unique | ",
       "notes": "Good for defending a specific objective or Eidolon hunting. Angle up to three Electric Shields around an objective to prevent any gunfire to it. "
     },
-    "SpeedVolt": {
+    "VoltSpeed": {
       "frameName": "Volt",
-      "buildGoals": "Balanced maxSTR",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |",
       "abilityInFocus": "Speed",
       "tier": "Top",
       "rank": 1,
@@ -888,9 +888,9 @@
       "roleSummary": "| Buff | Speed | ",
       "notes": "Volt's Speed is an easily applied buff to the team. Very useful for speedrunning any content. "
     },
-    "NukeWukong": {
+    "WukongNuke": {
       "frameName": "Wukong",
-      "buildGoals": "Balanced sacRAN + aug1",
+      "buildGoals": "|  Balanced  |  ⇊ RAN  |  37104  |",
       "abilityInFocus": "Iron Jab & Defy",
       "tier": "Viable",
       "rank": 3,
@@ -898,9 +898,9 @@
       "roleSummary": "| Tank | Damage | ",
       "notes": "While the Glaive and Exodia Contagion AoE has been nerfed, the damage bonus is significant enough to take out a small group of sortie-level enemies despite the lowered range. "
     },
-    "CloudWukong": {
+    "WukongCloud": {
       "frameName": "Wukong",
-      "buildGoals": "hiDUR 175EFF",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |",
       "abilityInFocus": "Cloud Walker",
       "tier": "Viable",
       "rank": 3,
@@ -908,19 +908,19 @@
       "roleSummary": "| Tank | ",
       "notes": "Cloud Walker can be used to bypass certain Spy vaults' security completely and provide immunity from any attacks. "
     },
-    "TailWindZephyr": {
+    "ZephyrTailWind": {
       "frameName": "Zephyr",
-      "buildGoals": "neuDUR 175EFF neuRAN neuSTR",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ↓ STR  |",
       "abilityInFocus": "Tail Wind & Turbulence",
       "tier": "Viable",
       "rank": 3,
       "suitableMissionsRanked": "| Arbitration | Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Kuva Siphons/Floods | Kuva Survival | Rathuum | Rescue | Sabotage | Sanctuary Onslaught (Elite)  | Solo | Spy | Survival | ",
       "roleSummary": "| Buff | Speed | ",
-      "notes": "Tail Wind is very useful for traversing large maps without the use of an Archwing Launcher. "
+      "notes": "Tail Wind is very useful for traversing large maps without the use of an Archwing Launcher. It can also be adapted for indoor maps and cancelled using slam attacks but will require some practise. "
     },
-    "TurbZephyr": {
+    "ZephyrTurb": {
       "frameName": "Zephyr",
-      "buildGoals": "hiDUR 175EFF neuRAN hiSTR + aug3",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  Aug3  |",
       "abilityInFocus": "Turbulence",
       "tier": "Viable",
       "rank": 3,
@@ -928,9 +928,9 @@
       "roleSummary": "| Tank | Buff | ",
       "notes": "Turbulence redirects any gunfire away from Zephyr. The Augment increases Projectile Flight Speed and therefore makes arrows fly straighter and increases the range before shotguns' falloff. "
     },
-    "TornadoZephyr": {
+    "ZephyrTornado": {
       "frameName": "Zephyr",
-      "buildGoals": "hiDUR 175EFF neuRAN hiSTR + aug4opt",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  Aug4opt  |",
       "abilityInFocus": "Tornado",
       "tier": "Viable",
       "rank": 3,
