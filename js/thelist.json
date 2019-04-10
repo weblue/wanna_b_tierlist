@@ -3981,11 +3981,11 @@
       "dmgLink": "https://imgur.com/PUKTM0w",
       "mr": 7,
       "name": "Zarr",
-      "rank": 75.2,
-      "tier": "Need buffs",
+      "rank": 62.2,
+      "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Zarr",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. First explosion from primary fire can damage self but subsequent cluster bomblets won't. Each bomblet can cause status effect on it's own. Alt fire switches to shotgun mode. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot, moderate DPS, projectile munitions. First explosion from primary fire can damage self but subsequent cluster bomblets won't. Each bomblet can cause status effect on it's own. Alt fire switches to shotgun mode. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.15
     },
     "Zenith": {
