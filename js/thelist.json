@@ -2558,18 +2558,18 @@
     },
     "Tatsu": {
       "base": "",
-      "combo": "Cut Thrice",
-      "dmg": "Status",
-      "dmgLink": "https://imgur.com/W4Dw8Ui",
+      "combo": "Slide",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/6MzPci5",
       "mr":7,
       "name": "Tatsu",
-      "rank":44.24,
+      "rank":41.34,
       "stance": "Wise Razor",
       "stancenotes": "",
       "tier": "Contender",
       "type": "Two-handed Nikana",
       "url": "http://warframe.wikia.com/wiki/Tatsu",
-      "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. ",
+      "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1
     },
     "Tekko": {
