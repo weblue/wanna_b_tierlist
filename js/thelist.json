@@ -397,16 +397,16 @@
       "suitableMissionsRanked": "| Spy | Survival | ",
       "roleSummary": "| Stealth | Loot | Unique | ",
       "notes": "Great for dealing with pesky Corpus spy rooms until you've mastered the patterns. Can also be used for Prowl farming some enemies but there are faster farming methods. However, Prowl-pickpocketing Life Support from enemies to fulfill the no-kill survival Riven challenge is possible. "
-    },
+    },    
     "KhoraAIO": {
       "frameName": "Khora",
-      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ↓ STR  |  Aug1  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug1  |  Aug4opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
-      "rank": 2,
-      "suitableMissionsRanked": "| Assault | Defection | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Mobile Defense | Void Fissures | ",
-      "roleSummary": "| Tank | Damage | Control | Unique | ",
-      "notes": "Stacking damage from whipclaw's Augment is more than enough to counteract a slightly lowered power strength. "
+      "rank": 1.8,
+      "suitableMissionsRanked": "| Assault | Defection | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Infested Salvage | Interception | Kuva Survival | Mobile Defense | Survival | Void Fissures | ",
+      "roleSummary": "| Tank | Damage | Control | Loot | Unique | ",
+      "notes": "Stacking damage from whipclaw's Augment is more than enough to counteract the lowered power strength. Augmented Strangledome causes increases drops which is better AOE damage but capped at 68% increase. With high range, Ensnare can capture unalerted enemies and keep them in an unalerted state for potential stealth kills. Double [Primed Animal Instinct] also offers great utility. "
     },
     "LimboCata": {
       "frameName": "Limbo",
