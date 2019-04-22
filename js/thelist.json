@@ -330,7 +330,7 @@
     },
     "HydroidLoot": {
       "frameName": "Hydroid",
-      "buildGoals": "|  Balanced  |  ↓ DUR  |",
+      "buildGoals": "|  Balanced  |  ↓ DUR  |  Aug4  |",
       "abilityInFocus": "Tentacle Swarm",
       "tier": "Top",
       "rank": 1,
