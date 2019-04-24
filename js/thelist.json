@@ -3720,7 +3720,7 @@
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Snipetron_Vandal",
       "notes": "High damage per shot, monstrous DPS, hit-scan munitions. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). ✪",
-      "rivenDisposition": 1.17
+      "rivenDisposition": 1.25
     },
     "Sobek": {
       "base": "",
@@ -3748,7 +3748,7 @@
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Soma_Prime",
       "notes": "Very low damage per shot, monstrous DPS, hit-scan munitions. Best paired with Frost Prime and Scindo Prime. ",
-      "rivenDisposition": 0.55
+      "rivenDisposition": 0.75
     },
     "Stradavar Prime": {
       "base": "Stradavar is viable",
