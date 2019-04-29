@@ -953,7 +953,7 @@
       "tier": "Viable",
       "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Ack_&_Brunt",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.9
     },
     "Amphis": {
@@ -1049,7 +1049,7 @@
       "tier": "Viable",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Bo_Prime",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ✪",
       "rivenDisposition": 1.29
     },
     "Broken Scepter": {
@@ -1065,7 +1065,7 @@
       "tier": "Viable",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Broken_Scepter",
-      "wepnotes": "Very low damage per hit, moderate DPS, very high attack speed. Suffers from poor consistency. Can Drain enemies to spawn health/energy orb. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, very high attack speed. Suffers from relatively poor consistency. Can Drain enemies to spawn health/energy orb. ",
       "rivenDisposition": 1.19
     },
     "Broken War": {
@@ -1110,10 +1110,10 @@
       "rank":58.59,
       "stance": "Stalking Fan",
       "stancenotes": "",
-      "tier": "Need buffs",
+      "tier": "Viable",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Caustacyst",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
       "rivenDisposition": 1.3
     },
     "Ceramic Dagger": {
@@ -1166,16 +1166,16 @@
     },
     "Cronus": {
       "base": "",
-      "combo": "Diving Kestrel",
+      "combo": "Systemic Shred",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/YqKspqN",
       "mr":0,
       "name": "Cronus",
       "rank":83.74,
-      "stance": "Swooping Falcon",
+      "stance": "Final Harbinger",
       "stancenotes": "Crimson Dervish's Coiling Impale: +DPS -proc",
       "tier": "Need buffs",
-      "type": "Sword",
+      "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Cronus",
       "wepnotes": "Very low damage per hit, poor DPS, low attack speed. ",
       "rivenDisposition": 1.48
@@ -1225,7 +1225,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Dark_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.48
     },
     "Destreza Prime": {
@@ -1305,7 +1305,7 @@
       "tier": "Viable",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Heat_Swords",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. Slam attacks procs Heat in an AOE. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. Slam attacks procs Heat in an AOE. ",
       "rivenDisposition": 1.44
     },
     "Dual Ichor": {
@@ -1561,7 +1561,7 @@
       "tier": "Top",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Galvacord",
-      "wepnotes": "Low damage per hit, insane dps, low attack speed. Suffers from poor consistency. ✪",
+      "wepnotes": "Low damage per hit, insane dps, low attack speed. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Garuda's Talons": {
@@ -1725,7 +1725,7 @@
       "rivenDisposition": 1.48
     },
     "Heliocor": {
-      "base": "Heliocor need buffs",
+      "base": "",
       "combo": "Tidal Force & Raging Whirlwind",
       "dmg": "Critical",
       "dmgLink": "https://imgur.com/D790yQ6",
@@ -1750,10 +1750,10 @@
       "rank":58.02,
       "stance": "Grim Fury",
       "stancenotes": "",
-      "tier": "Need buffs",
+      "tier": "Viable",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Hirudo",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
       "rivenDisposition": 0.5
     },
     "Jat Kittag": {
@@ -1769,7 +1769,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Jat_Kittag",
-      "wepnotes": "High damage per hit, poor DPS, high attack speed. Suffers from poor consistency. Vulcan Blitz cause kills to explode dealing 300 (+60% of enemy health) Blast damage in 6m radius. Part of the Tenno Space Program. ",
+      "wepnotes": "High damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. Vulcan Blitz cause kills to explode dealing 300 (+60% of enemy health) Blast damage in 6m radius. Part of the Tenno Space Program. ",
       "rivenDisposition": 0.75
     },
     "Jat Kusar": {
@@ -1801,7 +1801,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Jaw_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from poor consistency. Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. ",
+      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from relatively poor consistency. Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. ",
       "rivenDisposition": 1.47
     },
     "Kama": {
@@ -1899,7 +1899,7 @@
       "url": "http://warframe.wikia.com/wiki/Korrudo",
       "wepnotes": "Low damage per hit, poor DPS, low attack speed. ",
       "rivenDisposition": 1
-    },  
+    },
     "Kreska": {
       "base": "",
       "combo": "Lightning Siren",
@@ -2137,7 +2137,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Orthos_Prime",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.5
     },
     "Orvius": {
@@ -2233,7 +2233,7 @@
       "tier": "Need buffs",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Prisma_Obex",
-      "wepnotes": "Very low damage per hit, poor DPS, very high attack speed. Suffers from poor consistency. Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
+      "wepnotes": "Very low damage per hit, poor DPS, very high attack speed. Suffers from relatively poor consistency. Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
       "rivenDisposition": 1.1
     },
     "Prisma Skana": {
@@ -2249,7 +2249,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Prisma_Skana",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. Bright Purity adds 100% melee damage and Purity (Corrosive, health) effects. ",
+      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. Bright Purity adds 100% melee damage and Purity (Corrosive, health) effects. ",
       "rivenDisposition": 1.22
     },
     "Prova Vandal": {
@@ -2265,7 +2265,7 @@
       "tier": "Viable",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Prova_Vandal",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from poor consistency. Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. ",
       "rivenDisposition": 1.29
     },
     "Pupacyst": {
@@ -2281,7 +2281,7 @@
       "tier": "Need buffs",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Pupacyst",
-      "wepnotes": "Low damage per hit, poor DPS, low attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Low damage per hit, poor DPS, low attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1
     },
     "Rakta Dark Dagger": {
@@ -2313,7 +2313,7 @@
       "tier": "Need buffs",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Reaper_Prime",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.29
     },
     "Redeemer Prime": {
@@ -2361,7 +2361,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Sancti_Magistar",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
+      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
       "rivenDisposition": 1.09
     },
     "Sarpa": {
@@ -2409,7 +2409,7 @@
       "tier": "Top",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Scoliac",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Suffers from poor consistency. ✪",
+      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.3
     },
     "Secura Lecta": {
@@ -2457,7 +2457,7 @@
       "tier": "Need buffs",
       "type": "Nunchaku",
       "url": "http://warframe.wikia.com/wiki/Shaku",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from poor consistency. ",
+      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.35
     },
     "Sheev": {
@@ -2541,7 +2541,7 @@
       "rivenDisposition": 1
     },
     "Synoid Heliocor": {
-      "base": "Heliocor need buffs",
+      "base": "",
       "combo": "Tidal Force & Raging Whirlwind",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/RQfI6fC",
@@ -2601,7 +2601,7 @@
       "tier": "Viable",
       "type": "Tonfa",
       "url": "http://warframe.wikia.com/wiki/Telos_Boltace",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from poor consistency. Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. ",
+      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from relatively poor consistency. Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. ",
       "rivenDisposition": 1
     },
     "Tipedo Prime": {
@@ -2649,7 +2649,7 @@
       "tier": "Contender",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Twin_Basolk",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. Suffers from poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ✪",
+      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. Suffers from relatively poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ✪",
       "rivenDisposition": 1.18
     },
     "Twin Krohkur": {
@@ -2681,7 +2681,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Vaykor_Sydon",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from poor consistency. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
+      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from relatively poor consistency. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
       "rivenDisposition": 0.84
     },
     "Venka Prime": {
@@ -2732,6 +2732,22 @@
       "wepnotes": "High damage per hit, moderate DPS, low attack speed. What is it good for? ",
       "rivenDisposition": 0.5
     },
+    "Wolf Sledge": {
+      "base": "",
+      "combo": "Tidal Force & Raging Whirlwind",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/Y013Rgd",
+      "mr":7,
+      "name": "Wolf Sledge",
+      "rank":64.86,
+      "stance": "Crushing Ruin",
+      "stancenotes": "Only use Raging Whirlwind to proc Impact or the slam will ragdoll",
+      "tier": "Need buffs",
+      "type": "Hammer",
+      "url": "http://warframe.wikia.com/wiki/Wolf_Sledge",
+      "wepnotes": "High damage per hit, poor DPS, high attack speed. ",
+      "rivenDisposition": 1
+    },
     "Zenistar": {
       "base": "",
       "combo": "Charge attack then Broken Bull",
@@ -2745,7 +2761,7 @@
       "tier": "Viable",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Zenistar",
-      "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
+      "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from relatively poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
       "rivenDisposition": 0.5
     },
     "Zaw - Ablation": {
@@ -5146,5 +5162,5 @@
       "text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
     }
   },
-  "version": "Warframe Patch 24.6.2.1 - Added Stradavar Prime, Tipedo Prime, and Korrudo. Updated latest Riven disposition. Updated Secura Penta, Knell, and Tysis. Added Frame ranking."
+  "version": "Warframe Patch 24.8.1 - Ranked Wolf Sledge. "
 }
