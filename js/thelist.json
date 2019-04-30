@@ -1583,7 +1583,7 @@
     "Gazal Machete": {
       "base": "",
       "combo": "Lightning Siren",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://imgur.com/zjrhjgc",
       "mr":5,
       "name": "Gazal Machete",
