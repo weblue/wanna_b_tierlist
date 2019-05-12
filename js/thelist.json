@@ -420,7 +420,7 @@
     },
     "LimboLoot": {
       "frameName": "Limbo",
-      "buildGoals": "|  ⇈ EFF  |  ⇈ RAN  |  [Loot Radar]  |",
+      "buildGoals": "|  ⇈ EFF  |  ⇈ RAN  |  [Loot Radar] + [Natural Talent]  |",
       "abilityInFocus": "Cataclysm",
       "tier": "Contender",
       "rank": 2,
