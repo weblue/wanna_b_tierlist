@@ -5,3 +5,5 @@
 .idea/*
 .DS_Store
 ng/
+node_modules
+dist/
