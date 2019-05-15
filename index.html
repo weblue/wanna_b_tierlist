@@ -56,14 +56,13 @@
             </ul>
             <ul class="navbar-nav my-2 my-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/weblue/wanna_b_tierlist"><i
-              class="fab fa-github fa-lg"></i> Contribute on GitHub</a>
+                    <a class="btn btn-outline-primary" href="#" id="simple-mode-button">Toggle Simple Mode</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="card bg-dark text-white">
+    <div class="card bg-dark text-white simple-mode-remove">
         <div class="container">
             <div class="card-body">
                 <div class="lead" ng-repeat="disclaimer in disclaimers">
@@ -530,6 +529,10 @@
             $('#Primariestab').addClass("active");
             $("#Primarieslink").addClass("active")
             $("#Primarieslink").addClass("show")
+        });
+
+        $("#simple-mode-button").click(function(){
+            $(".simple-mode-remove").toggleClass("d-none");
         });
     </script>
 </body>
