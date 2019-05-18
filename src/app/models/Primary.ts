@@ -1,13 +1,14 @@
-export class Primary {
+import {Item} from "./Item";
+
+export class Primary extends Item {
   base: string;
   category: string;
   dmg: string;
   mr: number;
   rivenDisposition: number;
-  name: string;
-  notes: string;
-  rank: number;
-  tier: string;
   type: string;
-  url: string;
+}
+
+export class PrimCategory {
+  categories = ['']
 }

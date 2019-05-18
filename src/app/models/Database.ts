@@ -9,11 +9,12 @@ import {Companion} from "./Companion";
 import {Disclaimer} from "./Disclaimer";
 import {SentinelWeapon} from "./SentinelWeapon";
 import {Tier} from "./Tier";
+import {Item} from "./Item";
 
 export class Database {
-  primaries: (Primary | Tier)[];
-  secondaries: (Secondary | Tier)[];
-  melees: (Melee | Tier)[];
+  primaries: (Item | Tier)[];
+  secondaries: (Item | Tier)[];
+  melees: (Item | Tier)[];
   archwings: Archwing[];
   archguns: Archgun[];
   archmelees: Archmelee[];

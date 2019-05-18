@@ -9,6 +9,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatTableModule } from '@angular/material';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -18,6 +19,7 @@ import { TableComponent } from './components/table/table.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
+import { FilterComponent } from './components/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { FaqComponent } from './components/faq/faq.component';
     TableComponent,
     NavbarComponent,
     FooterComponent,
-    FaqComponent
+    FaqComponent,
+    FilterComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { FaqComponent } from './components/faq/faq.component';
     MatDividerModule,
     MatTableModule,
     MatTabsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,26 +1,39 @@
 <div class="mat-typography">
   <app-navbar></app-navbar>
-  <div class="container">
-    <mat-card>
-      <mat-card-title>i_wanna_b_the_guy's Warframe Tier List</mat-card-title>
-      <mat-card-subtitle>An opinionated guide to everything Warframe.</mat-card-subtitle>
-      <mat-card-content>
-        <app-disclaimers></app-disclaimers>
-        <a class="discord-button" mat-button href="https://discord.gg/Cq3jW27" target="_blank" rel="noopener"><fa-icon [icon]="faDiscord"></fa-icon> Join Our Discord!</a>
-        <a class="github-button" mat-button href="https://github.com/weblue/wanna_b_tierlist" target="_blank" rel="noopener"><fa-icon [icon]="faGithub"></fa-icon> Contribute on GitHub</a>
-      </mat-card-content>
-    </mat-card>
-    <br />
-    <mat-divider></mat-divider>
-    <br />
-    <mat-card>
-      <app-table></app-table>
-    </mat-card>
-    <br />
-    <mat-card>
-        <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
-        <app-faq></app-faq>
-    </mat-card>
-    <app-footer></app-footer>
-  </div>
+  <!--TODO check for filter changes on closes-->
+  <mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="over" [(opened)]="opened">
+      Sidenav content
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="container">
+        <mat-card>
+          <mat-card-title>i_wanna_b_the_guy's Warframe Tier List</mat-card-title>
+          <mat-card-subtitle>An opinionated guide to everything Warframe.</mat-card-subtitle>
+          <mat-card-content>
+            <app-disclaimers></app-disclaimers>
+            <a class="discord-button" mat-button href="https://discord.gg/Cq3jW27" target="_blank" rel="noopener">
+              <fa-icon [icon]="faDiscord"></fa-icon>
+              Join Our Discord!</a>
+            <a class="github-button" mat-button href="https://github.com/weblue/wanna_b_tierlist" target="_blank"
+               rel="noopener">
+              <fa-icon [icon]="faGithub"></fa-icon>
+              Contribute on GitHub</a>
+          </mat-card-content>
+        </mat-card>
+        <br/>
+        <mat-divider></mat-divider>
+        <br/>
+        <mat-card>
+          <app-table></app-table>
+        </mat-card>
+        <br/>
+        <mat-card>
+          <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
+          <app-faq></app-faq>
+        </mat-card>
+        <app-footer></app-footer>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>

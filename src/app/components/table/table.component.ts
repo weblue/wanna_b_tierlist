@@ -6,6 +6,7 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
 import {Primary} from '../../models/Primary';
 import {Secondary} from '../../models/Secondary';
 import {Melee} from '../../models/Melee';
+import {Subscription} from "rxjs/internal/Subscription";
 
 @Component({
   selector: 'app-table',
@@ -33,10 +34,16 @@ export class TableComponent implements OnInit {
   tableDataSource = [];
   tiers = [];
 
+  _tableDataSub: Subscription;
+
   constructor(
     private changeDetectorRef: ChangeDetectorRef,
     private data: DataService,
-  ) { }
+  ) {
+    this._tableDataSub = data.dataChange.subscribe(() => {
+      this.switch(this.activeTab);
+    });
+  }
 
   ngOnInit() {
       this.data.getDb().subscribe((db) => {
@@ -46,11 +53,10 @@ export class TableComponent implements OnInit {
   }
 
   switch(tab: string) {
-    this.data.getDb().subscribe((db) => {
+    this.data.getData(tab).subscribe((array) => {
       this.loading = false;
-      this.tableDataSource = db[tab];
+      this.tableDataSource = array;
       this.displayedColumns = columnDefs[tab];
-      console.log(this.displayedColumns);
       console.log(this.tableDataSource);
       this.update();
     });

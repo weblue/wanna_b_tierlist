@@ -3,10 +3,13 @@ import {HttpClient} from "@angular/common/http";
 import {Observable, of} from "rxjs";
 import {map} from "rxjs/operators";
 import {Primary} from "../models/Primary";
-import {Database} from "../models/Database";
+import {columnDefs, Database} from "../models/Database";
 import {Secondary} from "../models/Secondary";
 import {Melee} from "../models/Melee";
 import {Tier} from "../models/Tier";
+import {Item} from "../models/Item";
+import {FilterParams} from "../models/FilterParams";
+import {Subject} from "rxjs/internal/Subject";
 
 @Injectable({
   providedIn: 'root'
@@ -14,11 +17,14 @@ import {Tier} from "../models/Tier";
 export class DataService {
   public database: Database;
   private dbUrl = './assets/thelist.json';
+  private filterParams: FilterParams;
+
+  dataChange: Subject<null> = new Subject<null>();
 
   constructor(
     private http: HttpClient
   ) {
-
+    this.filterParams = new FilterParams();
   }
 
   //Return or request the db
@@ -29,95 +35,117 @@ export class DataService {
       return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
           this.database = db;
 
-          let primArray: Primary[] = Object.values(db.Primaries);
-          this.database.primaries = primArray.sort((a, b) => {
-            return a.rank - b.rank;
-          });
-
-          //Maybe make this a helper function?
-          //Inject the tier lines
-          let contAdded = false;
-          let viaAdded = false;
-          let nbAdded = false;
-          let utAdded = false;
-
-          this.database.primaries.splice(0, 0, topTier);
-          for (let i = 0; i < this.database.primaries.length; i++) {
-            if (this.database.primaries[i].tier === 'Contender' && !contAdded) {
-              this.database.primaries.splice(i, 0, contenderTier);
-              contAdded = true;
-            } else if (this.database.primaries[i].tier === 'Viable' && !viaAdded) {
-              this.database.primaries.splice(i, 0, viableTier);
-              viaAdded = true;
-            } else if (this.database.primaries[i].tier === 'Need buffs' && !nbAdded) {
-              this.database.primaries.splice(i, 0, needsBuffTier);
-              nbAdded = true;
-            } else if (this.database.primaries[i].tier === 'Untested' && !utAdded) {
-              this.database.primaries.splice(i, 0, untestedTier);
-              utAdded = true;
-            }
-          }
-
-          let secArray: Secondary[] = Object.values(db.Secondaries);
-          this.database.secondaries = secArray.sort((a, b) => {
-            return a.rank - b.rank;
-          });
-
-          //Inject the tier lines
-          contAdded = false;
-          viaAdded = false;
-          nbAdded = false;
-          utAdded = false;
-
-          this.database.secondaries.splice(0, 0, topTier);
-          for (let i = 0; i < this.database.secondaries.length; i++) {
-            if (this.database.secondaries[i].tier === 'Contender' && !contAdded) {
-              this.database.secondaries.splice(i, 0, contenderTier);
-              contAdded = true;
-            } else if (this.database.secondaries[i].tier === 'Viable' && !viaAdded) {
-              this.database.secondaries.splice(i, 0, viableTier);
-              viaAdded = true;
-            } else if (this.database.secondaries[i].tier === 'Need buffs' && !nbAdded) {
-              this.database.secondaries.splice(i, 0, needsBuffTier);
-              nbAdded = true;
-            } else if (this.database.secondaries[i].tier === 'Untested' && !utAdded) {
-              this.database.secondaries.splice(i, 0, untestedTier);
-              utAdded = true;
-            }
-          }
-
-          let melArray: Melee[] = Object.values(db.Melees);
-          this.database.melees = melArray.sort((a, b) => {
-            return a.rank - b.rank;
-          });
-
-          //Inject the tier lines
-          contAdded = false;
-          viaAdded = false;
-          nbAdded = false;
-          utAdded = false;
-
-          this.database.melees.splice(0, 0, topTier);
-          for (let i = 0; i < this.database.melees.length; i++) {
-            if (this.database.melees[i].tier === 'Contender' && !contAdded) {
-              this.database.melees.splice(i, 0, contenderTier);
-              contAdded = true;
-            } else if (this.database.melees[i].tier === 'Viable' && !viaAdded) {
-              this.database.melees.splice(i, 0, viableTier);
-              viaAdded = true;
-            } else if (this.database.melees[i].tier === 'Need buffs' && !nbAdded) {
-              this.database.melees.splice(i, 0, needsBuffTier);
-              nbAdded = true;
-            } else if (this.database.melees[i].tier === 'Untested' && !utAdded) {
-              this.database.melees.splice(i, 0, untestedTier);
-              utAdded = true;
-            }
-          }
+          this.database.primaries = this.injectTiers(db.Primaries);
+          this.database.secondaries = this.injectTiers(db.Secondaries);
+          this.database.melees = this.injectTiers(db.Melees);
 
           return this.database;
         }
       ));
     }
+  }
+
+  public setFilterParams(input: FilterParams) {
+    this.filterParams = input;
+    this.dataChange.next();
+  }
+
+  injectTiers(values: any): (Item | Tier)[] {
+    let itemArray: Item[] = Object.values(values);
+    let items: (Item | Tier)[];
+    items = itemArray.sort((a, b) => {
+      return a.rank - b.rank;
+    });
+
+    //Inject the tier lines
+    let contAdded = false;
+    let viaAdded = false;
+    let nbAdded = false;
+    let utAdded = false;
+
+    items.splice(0, 0, topTier);
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].tier === 'Contender' && !contAdded) {
+        items.splice(i, 0, contenderTier);
+        contAdded = true;
+      } else if (items[i].tier === 'Viable' && !viaAdded) {
+        items.splice(i, 0, viableTier);
+        viaAdded = true;
+      } else if (items[i].tier === 'Need buffs' && !nbAdded) {
+        items.splice(i, 0, needsBuffTier);
+        nbAdded = true;
+      } else if (items[i].tier === 'Untested' && !utAdded) {
+        items.splice(i, 0, untestedTier);
+        utAdded = true;
+      }
+    }
+
+    return items;
+  }
+
+  applyFilter(category: string, items: any[]): (Item | Tier)[] {
+    return this.injectTiers(items.filter((item) => {
+      let show = true;
+      if(this.filterParams) {
+        if (this.filterParams.name)
+          show = show && item.name.startsWith(this.filterParams.name);
+        if (item.mr && this.filterParams.mr && this.filterParams.mrtype)
+          switch (this.filterParams.mrtype) {
+            case '>':
+              show = show && this.filterParams.mr > item.mr;
+              break;
+            case '<':
+              show = show && this.filterParams.mr < item.mr;
+              break;
+            case '<=':
+              show = show && this.filterParams.mr <= item.mr;
+              break;
+            case '>=':
+              show = show && this.filterParams.mr >= item.mr;
+              break;
+            case '==':
+              show = show && this.filterParams.mr == item.mr;
+              break;
+          }
+        if (this.filterParams.rank && this.filterParams.ranktype) {
+          switch (this.filterParams.ranktype) {
+            case '>':
+              show = show && this.filterParams.rank > item.rank;
+              break;
+            case '<':
+              show = show && this.filterParams.rank < item.rank;
+              break;
+            case '<=':
+              show = show && this.filterParams.rank <= item.rank;
+              break;
+            case '>=':
+              show = show && this.filterParams.rank >= item.rank;
+              break;
+            case '==':
+              show = show && this.filterParams.rank == item.rank;
+              break;
+          }
+        }
+        if (this.filterParams.type)
+          show = show && item.type.startsWith(this.filterParams.type);
+        if (this.filterParams.tier)
+          show = show && item.tier == this.filterParams.tier;
+        if (this.filterParams.primCategory && this.filterParams.filterCategory == 'Primary')
+          show = show && item.category.startsWith(this.filterParams.primCategory);
+        return show;
+      }
+    }));
+  }
+
+  clearFilters() {
+    this.filterParams = new FilterParams();
+  }
+
+  getData(tab: string): Observable<Item[]> {
+    return this.getDb().pipe<Item[]>(map(db => {
+        return this.applyFilter(tab, this.database[tab]);
+      })
+    );
   }
 }
 

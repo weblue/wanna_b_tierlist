@@ -1,9 +1,6 @@
-export class Archmelee {
-  name: string;
-  notes: string;
-  rank: number;
-  tier: string;
-  url: string;
+import {Item} from "./Item";
+
+export class Archmelee extends Item{
   use: string;
 }
 
