@@ -3,7 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {Observable, of} from "rxjs";
 import {map} from "rxjs/operators";
 import {Primary} from "../models/Primary";
-import {columnDefs, Database} from "../models/Database";
+import {Categories, columnDefs, Database} from "../models/Database";
 import {Secondary} from "../models/Secondary";
 import {Melee} from "../models/Melee";
 import {Tier} from "../models/Tier";
@@ -20,6 +20,9 @@ export class DataService {
   private filterParams: FilterParams;
 
   dataChange: Subject<null> = new Subject<null>();
+  tabChange: Subject<string> = new Subject<string>();
+  activeTab: string = Categories.PRIMARY.toString();
+
 
   constructor(
     private http: HttpClient
@@ -161,6 +164,8 @@ export class DataService {
   }
 
   getData(tab: string): Observable<Item[]> {
+    this.activeTab = tab;
+    this.tabChange.next(tab);
     return this.getDb().pipe<Item[]>(map(db => {
         return this.applyFilter(tab, this.database[tab]);
       })
@@ -171,6 +176,6 @@ export class DataService {
 export const topTier: Tier = {name: 'Top', rank: 0, tier: null, isTier: true};
 export const contenderTier: Tier = {name: 'Contender', rank: 1, tier: null, isTier: true};
 export const viableTier: Tier = {name: 'Viable', rank: 2, tier: null, isTier: true};
-export const needsBuffTier: Tier = {name: 'Needs Buffs', rank: 3, tier: null, isTier: true};
+export const needsBuffTier: Tier = {name: 'Need Buffs', rank: 3, tier: null, isTier: true};
 export const untestedTier: Tier = {name: 'Untested', rank: 4, tier: null, isTier: true};
 

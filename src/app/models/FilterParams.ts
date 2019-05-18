@@ -7,7 +7,7 @@ export class FilterParams {
   ranktype: '>' | '<' | '<=' | '>=' | '==';
   mr: number;
   mrtype: '>' | '<' | '<=' | '>=' | '==';
-  tier: 'Top' | 'Contender' | 'Viable' | 'Needs Buffs' | 'Untested';
+  tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested';
   type: string;
 
   //Primary

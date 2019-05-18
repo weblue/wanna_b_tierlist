@@ -22,6 +22,8 @@ import { FaqComponent } from './components/faq/faq.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { FormsModule } from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 @NgModule({
   declarations: [
@@ -46,7 +48,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatToolbarModule,
     MatSidenavModule,
     FormsModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
