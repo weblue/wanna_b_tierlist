@@ -53,6 +53,7 @@ export class TableComponent implements OnInit {
   }
 
   switch(tab: string) {
+    tab = tab.toLowerCase();
     this.data.getData(tab).subscribe((array) => {
       this.loading = false;
       this.tableDataSource = array;

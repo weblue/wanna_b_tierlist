@@ -20,6 +20,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { FormsModule } from '@angular/forms';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { FilterComponent } from './components/filter/filter.component';
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatSidenavModule
+    MatSidenavModule,
+    FormsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

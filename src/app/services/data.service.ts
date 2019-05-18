@@ -35,9 +35,12 @@ export class DataService {
       return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
           this.database = db;
 
-          this.database.primaries = this.injectTiers(db.Primaries);
-          this.database.secondaries = this.injectTiers(db.Secondaries);
-          this.database.melees = this.injectTiers(db.Melees);
+          // this.database.primaries = this.injectTiers(db.Primaries);
+          this.database.primaries = this.sort(db.Primaries);
+          // this.database.secondaries = this.injectTiers(db.Secondaries);
+          this.database.secondaries = this.sort(db.Secondaries);
+          // this.database.melees = this.injectTiers(db.Melees);
+          this.database.melees = this.sort(db.Melees);
 
           return this.database;
         }
@@ -50,12 +53,18 @@ export class DataService {
     this.dataChange.next();
   }
 
-  injectTiers(values: any): (Item | Tier)[] {
+  sort(values: any): (Item | Tier)[] {
     let itemArray: Item[] = Object.values(values);
     let items: (Item | Tier)[];
     items = itemArray.sort((a, b) => {
       return a.rank - b.rank;
     });
+
+    return items;
+  }
+
+  injectTiers(values: any): (Item | Tier)[] {
+    let items = this.sort(values);
 
     //Inject the tier lines
     let contAdded = false;
@@ -83,12 +92,15 @@ export class DataService {
     return items;
   }
 
-  applyFilter(category: string, items: any[]): (Item | Tier)[] {
+  private applyFilter(category: string, items: any[]): (Item | Tier)[] {
+
     return this.injectTiers(items.filter((item) => {
       let show = true;
-      if(this.filterParams) {
-        if (this.filterParams.name)
-          show = show && item.name.startsWith(this.filterParams.name);
+      if (this.filterParams) {
+        console.log(this.filterParams);
+        if (this.filterParams.name) {
+          show = show && item.name.toLowerCase().startsWith(this.filterParams.name.toLowerCase());
+        }
         if (item.mr && this.filterParams.mr && this.filterParams.mrtype)
           switch (this.filterParams.mrtype) {
             case '>':
@@ -127,11 +139,18 @@ export class DataService {
           }
         }
         if (this.filterParams.type)
-          show = show && item.type.startsWith(this.filterParams.type);
+          show = show && item.type.toLowerCase().startsWith(this.filterParams.type.toLowerCase());
         if (this.filterParams.tier)
           show = show && item.tier == this.filterParams.tier;
-        if (this.filterParams.primCategory && this.filterParams.filterCategory == 'Primary')
-          show = show && item.category.startsWith(this.filterParams.primCategory);
+        if (this.filterParams.primCategory && this.filterParams.filterCategory == 'Primary') {
+          let found = false;
+          this.filterParams.primCategory.forEach((selCategory) => {
+            if (item.category == selCategory) {
+              found = true;
+            }
+          });
+          show = show && found;
+        }
         return show;
       }
     }));
