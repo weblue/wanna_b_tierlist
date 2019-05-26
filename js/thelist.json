@@ -3007,7 +3007,7 @@
       "tier": "Top",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Battacor",
-      "notes": "High damage per shot, insane dps, projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ✪",
+      "notes": "High damage per shot, insane dps, projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ",
       "rivenDisposition": 1
     },
     "Baza": {
@@ -3245,7 +3245,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Fulmin",
-      "notes": "Very high damage per shot, insane dps, projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. ✪",
+      "notes": "Very high damage per shot, insane dps, projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Glaxion Vandal": {
@@ -3280,14 +3280,14 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/PzTFdju",
+      "dmgLink": "https://imgur.com/SNDKEzK",
       "mr": 7,
       "name": "Hema",
-      "rank": 75,
-      "tier": "Need buffs",
+      "rank": 52.7,
+      "tier": "Contender",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Hema",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ✪",
       "rivenDisposition": 1.2
     },
     "Hind": {
@@ -3312,10 +3312,10 @@
       "mr": 9,
       "name": "Ignis Wraith",
       "rank": 45.6,
-      "tier": "Contender",
+      "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Ignis_Wraith",
-      "notes": "Low damage per shot, monstrous DPS, beam munitions. AOE works like how you'd imagine an actual flamethrower would. ",
+      "notes": "Low damage per shot, insane dps, beam munitions. AOE works like how you'd imagine an actual flamethrower would. ",
       "rivenDisposition": 0.6
     },
     "Javlok": {
@@ -3362,7 +3362,7 @@
     },
     "Komorex": {
       "base": "",
-      "category": "Rifle",
+      "category": "Sniper",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/KHmHZgu",
       "mr": 8,
@@ -3424,10 +3424,10 @@
       "mr": 8,
       "name": "Lenz",
       "rank": 45,
-      "tier": "Contender",
+      "tier": "Top",
       "type": "Charge (1.2s)",
       "url": "http://warframe.wikia.com/wiki/Lenz",
-      "notes": "Very high damage per shot, monstrous DPS, projectile munitions. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. ",
+      "notes": "Very high damage per shot, insane dps, projectile munitions. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. ",
       "rivenDisposition": 0.9
     },
     "Miter": {
@@ -3728,10 +3728,10 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Status",
-      "dmgLink": "https://imgur.com/NzEPAPl",
+      "dmgLink": "https://imgur.com/jeacBCL",
       "mr": 6,
       "name": "Scourge",
-      "rank": 40.5,
+      "rank": 38.7,
       "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Scourge",
@@ -3917,7 +3917,7 @@
       "tier": "Contender",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Tiberon_Prime",
-      "notes": "High damage per shot, monstrous DPS, hitscan munitions. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. ✪",
+      "notes": "High damage per shot, monstrous DPS, hitscan munitions. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. ",
       "rivenDisposition": 1.1
     },
     "Tigris Prime": {
