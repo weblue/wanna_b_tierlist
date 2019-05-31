@@ -2,10 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable, of} from "rxjs";
 import {map} from "rxjs/operators";
-import {Primary} from "../models/Primary";
 import {Categories, columnDefs, Database} from "../models/Database";
-import {Secondary} from "../models/Secondary";
-import {Melee} from "../models/Melee";
 import {Tier} from "../models/Tier";
 import {Item} from "../models/Item";
 import {FilterParams} from "../models/FilterParams";
@@ -95,12 +92,10 @@ export class DataService {
     return items;
   }
 
-  private applyFilter(category: string, items: any[]): (Item | Tier)[] {
-
+  private applyFilter(items: any[]): (Item | Tier)[] {
+    console.log(this.filterParams);
     return this.injectTiers(items.filter((item) => {
       let show = true;
-      if (this.filterParams) {
-        console.log(this.filterParams);
         if (this.filterParams.name) {
           show = show && item.name.toLowerCase().startsWith(this.filterParams.name.toLowerCase());
         }
@@ -122,7 +117,9 @@ export class DataService {
               show = show && this.filterParams.mr == item.mr;
               break;
           }
-        if (this.filterParams.rank && this.filterParams.ranktype) {
+          //lol we probably shouldn't use this filter
+        /*if (this.filterParams.rank && this.filterParams.ranktype) {
+          console.log(item.rank);
           switch (this.filterParams.ranktype) {
             case '>':
               show = show && this.filterParams.rank > item.rank;
@@ -140,12 +137,12 @@ export class DataService {
               show = show && this.filterParams.rank == item.rank;
               break;
           }
-        }
+        }*/
         if (this.filterParams.type)
           show = show && item.type.toLowerCase().startsWith(this.filterParams.type.toLowerCase());
         if (this.filterParams.tier)
           show = show && item.tier == this.filterParams.tier;
-        if (this.filterParams.primCategory && this.filterParams.filterCategory == 'Primary') {
+        if (this.filterParams.primCategory) {
           let found = false;
           this.filterParams.primCategory.forEach((selCategory) => {
             if (item.category == selCategory) {
@@ -155,19 +152,19 @@ export class DataService {
           show = show && found;
         }
         return show;
-      }
     }));
   }
 
   clearFilters() {
     this.filterParams = new FilterParams();
+    this.setFilterParams(this.filterParams);
   }
 
   getData(tab: string): Observable<Item[]> {
     this.activeTab = tab;
     this.tabChange.next(tab);
     return this.getDb().pipe<Item[]>(map(db => {
-        return this.applyFilter(tab, this.database[tab]);
+        return this.applyFilter(this.database[tab]);
       })
     );
   }

@@ -1,0 +1,54 @@
+<p>
+  filter works!
+</p>
+<p>
+  filter works!
+</p>
+<p>
+  filter works!
+</p>
+
+<div>Name: <input matInput [(ngModel)]="name"></div>
+<br>
+<!--<div>-->
+  <!--&lt;!&ndash;This filter won't work&ndash;&gt;-->
+  <!--Rank: <input matInput type="number" [(ngModel)]="rank"><br>-->
+  <!--<label>Rank filter:-->
+    <!--<mat-radio-group [(ngModel)]="ranktype">-->
+      <!--<mat-radio-button value=null>Off</mat-radio-button>-->
+      <!--<mat-radio-button value=">"> ></mat-radio-button>-->
+      <!--<mat-radio-button value=">="> >=</mat-radio-button>-->
+      <!--<mat-radio-button value="<"> <</mat-radio-button>-->
+      <!--<mat-radio-button value="<="> <=</mat-radio-button>-->
+      <!--<mat-radio-button value="=="> ==</mat-radio-button>-->
+    <!--</mat-radio-group>-->
+  <!--</label>-->
+<!--</div>-->
+<br>
+<div>
+  <label>Mr: <input matInput type="number" [(ngModel)]="mr"></label><br>
+  <label>Mr filter:
+    <mat-radio-group [(ngModel)]="mrtype">
+      <mat-radio-button value=null>Off</mat-radio-button>
+      <mat-radio-button value=">"> ></mat-radio-button>
+      <mat-radio-button value=">="> >=</mat-radio-button>
+      <mat-radio-button value="<"> <</mat-radio-button>
+      <mat-radio-button value="<="> <=</mat-radio-button>
+      <mat-radio-button value="=="> ==</mat-radio-button>
+    </mat-radio-group>
+  </label>
+</div>
+<br>
+<div>
+  <label>Type:<input matInput [(ngModel)]="type"></label>
+</div>
+<br>
+
+<!--TODO tier dropdown-->
+
+<div *ngIf="filterCategory == 'Primary'">
+  <!--TODO add primary weapon types selection-->
+</div>
+
+<button mat-button (click)="apply()">Apply</button>
+<button mat-button (click)="clear()">Clear</button>
