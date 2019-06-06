@@ -888,6 +888,16 @@
       "roleSummary": "| Buff | Speed | ",
       "notes": "Volt's Speed is an easily applied buff to the team. Very useful for speedrunning any content. "
     },
+    "WispPlatform": {
+      "frameName": "Wisp",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  ⇈ STR  |  [Adaptation]  |",
+      "abilityInFocus": "Reseervoirs",
+      "tier": "Contender",
+      "rank": 1,
+      "suitableMissionsRanked": "| Assault | Capture | Defense | Exterminate | FR-Capture | FR-Exterminate | Index | Kuva Survival | Solo | Sorties | Survival | ",
+      "roleSummary": "| Tank | Damage | Healing | Buff | Speed | ",
+      "notes": "Reservoirs last forever, but the lingering effects allow for a great degree of mobility as long as the cooldown is appropriately managed. The triple Motes allow for a great melee platform since it covers all the bases. "
+    },
     "WukongNuke": {
       "frameName": "Wukong",
       "buildGoals": "|  Balanced  |  ⇊ RAN  |  Aug1  |",
