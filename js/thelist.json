@@ -891,7 +891,7 @@
     "WispPlatform": {
       "frameName": "Wisp",
       "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  ⇈ STR  |  [Adaptation]  |",
-      "abilityInFocus": "Reseervoirs",
+      "abilityInFocus": "Reservoirs",
       "tier": "Contender",
       "rank": 1,
       "suitableMissionsRanked": "| Assault | Capture | Defense | Exterminate | FR-Capture | FR-Exterminate | Index | Kuva Survival | Solo | Sorties | Survival | ",
