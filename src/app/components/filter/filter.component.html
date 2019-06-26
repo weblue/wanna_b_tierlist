@@ -10,21 +10,6 @@
 
 <div>Name: <input matInput [(ngModel)]="name"></div>
 <br>
-<!--<div>-->
-  <!--&lt;!&ndash;This filter won't work&ndash;&gt;-->
-  <!--Rank: <input matInput type="number" [(ngModel)]="rank"><br>-->
-  <!--<label>Rank filter:-->
-    <!--<mat-radio-group [(ngModel)]="ranktype">-->
-      <!--<mat-radio-button value=null>Off</mat-radio-button>-->
-      <!--<mat-radio-button value=">"> ></mat-radio-button>-->
-      <!--<mat-radio-button value=">="> >=</mat-radio-button>-->
-      <!--<mat-radio-button value="<"> <</mat-radio-button>-->
-      <!--<mat-radio-button value="<="> <=</mat-radio-button>-->
-      <!--<mat-radio-button value="=="> ==</mat-radio-button>-->
-    <!--</mat-radio-group>-->
-  <!--</label>-->
-<!--</div>-->
-<br>
 <div>
   <label>Mr: <input matInput type="number" [(ngModel)]="mr"></label><br>
   <label>Mr filter:
@@ -47,7 +32,11 @@
 <!--TODO tier dropdown-->
 
 <div *ngIf="filterCategory == 'Primary'">
-  <!--TODO add primary weapon types selection-->
+  <mat-checkbox [(ngModel)]="primCategory.Bow">Bow</mat-checkbox>
+  <mat-checkbox [(ngModel)]="primCategory.Launcher">Launcher</mat-checkbox>
+  <mat-checkbox [(ngModel)]="primCategory.Rifle">Rifle</mat-checkbox>
+  <mat-checkbox [(ngModel)]="primCategory.Shotgun">Shotgun</mat-checkbox>
+  <mat-checkbox [(ngModel)]="primCategory.Sniper">Sniper</mat-checkbox>
 </div>
 
 <button mat-button (click)="apply()">Apply</button>

@@ -24,7 +24,13 @@ export class FilterComponent implements OnInit {
   type: string;
 
   //Primary
-  primCategory: ('Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher')[];
+  primCategory = {
+    Shotgun: false,
+    Rifle: false,
+    Sniper: false,
+    Bow: false,
+    Launcher: false
+  };
 
   constructor(
     private data: DataService

@@ -42,10 +42,8 @@ export enum Categories {
 }
 
 export const columnDefs = {
-  'primaries': ['name', 'base', 'category', 'dmg', 'mr', 'rivenDisposition', 'notes', 'type'],
-  'secondaries': ['name', 'base', 'dmg', 'mr', 'rivenDisposition', 'notes', 'type'],
-  'melees': ['name', 'base', 'dmg', 'mr', 'type', 'wepnotes'],
-  'Archwing': ['name', 'use', 'base', 'notes'],
-  'Archgun': ['name', 'use', 'firing', 'notes', 'base'],
-  'Archmelee': ['name', 'use', 'notes', 'base']
+  //TODO add munitions to model
+  'primaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'rivenDisposition', 'base'],
+  'secondaries': ['name', 'type', 'dmg', 'mr', 'rivenDisposition', 'base'],
+  'melees': ['name', 'type', 'dmg', 'mr', 'base', 'wepnotes']
 };

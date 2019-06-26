@@ -29,8 +29,13 @@
   </ng-container>
 
   <ng-container matColumnDef="dmg">
-    <th mat-header-cell *matHeaderCellDef> Damage Type </th>
+    <th mat-header-cell *matHeaderCellDef> Build Type </th>
     <td mat-cell *matCellDef="let element"> {{element.dmg}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="munitions">
+    <th mat-header-cell *matHeaderCellDef> Munitions </th>
+    <td mat-cell *matCellDef="let element"> {{element.munitions}} </td>
   </ng-container>
 
   <ng-container matColumnDef="rivenDisposition">
@@ -44,7 +49,7 @@
   </ng-container>
 
   <ng-container matColumnDef="type">
-    <th mat-header-cell *matHeaderCellDef> Type </th>
+    <th mat-header-cell *matHeaderCellDef> Trigger Type </th>
     <td mat-cell *matCellDef="let element"> {{element.type}} </td>
   </ng-container>
 
