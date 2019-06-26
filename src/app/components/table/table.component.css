@@ -16,8 +16,7 @@ tr.example-detail-row {
 }
 
 .example-element-detail {
-  overflow: hidden;
-  display: flex;
+  width: 100%
 }
 
 .example-element-diagram {
