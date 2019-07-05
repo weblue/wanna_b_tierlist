@@ -2505,17 +2505,17 @@
     "Sigma & Octantis": {
       "base": "",
       "combo": "Systemic Shred",
-      "dmg": "",
-      "dmgLink": "",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/j9LgOmI",
       "mr":0,
       "name": "Sigma & Octantis",
-      "rank":143,
+      "rank":53.67,
       "stance": "Final Harbinger",
       "stancenotes": "",
-      "tier": "Untested",
+      "tier": "Viable",
       "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Sigma_&_Octantis",
-      "wepnotes": "The curator has exhausted all attempts at time travel. ",
+      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
       "rivenDisposition": 1
     },
     "Silva & Aegis Prime": {
