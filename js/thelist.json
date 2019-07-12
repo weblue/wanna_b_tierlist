@@ -898,6 +898,16 @@
       "roleSummary": "| Tank | Damage | Healing | Buff | Speed | ",
       "notes": "Reservoirs last forever, but the lingering effects allow for a great degree of mobility as long as the cooldown is appropriately managed. The triple Motes allow for a great melee platform since it covers all the bases. "
     },
+    "WukongAIO": {
+      "frameName": "Wukong",
+      "buildGoals": "|  Balanced  |  ⇊ RAN  |  ⇈ STR  |  Health + [Adaptation]  |",
+      "abilityInFocus": "Celestial Twin, Defy & Primal Fury",
+      "tier": "Top",
+      "rank": 2,
+      "suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
+      "roleSummary": "| Tank | Damage | Summon/MindControl | ",
+      "notes": "Post-rework Wukong has great survivability with Defy's armor bonus and a panic button in Cloud Walker. The Celestial Twin also draws aggro while doubling your effective DPS. "
+    },
     "ZephyrTailWind": {
       "frameName": "Zephyr",
       "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ↓ STR  |",
@@ -5138,5 +5148,5 @@
       "text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
     }
   },
-  "version": "Warframe Patch 25.3 - Ranked Sigma & Octantis, Zhuge Prime, and Ninkondi Prime. Wukong entries removed pending rework evaluation. "
+  "version": "Warframe Patch 25.3 - Ranked Sigma & Octantis, Zhuge Prime, and Ninkondi Prime. Wukong re-evaluation complete. "
 }
