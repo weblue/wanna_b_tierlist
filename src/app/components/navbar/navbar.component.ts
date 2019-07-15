@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { map } from "rxjs/operators";
 
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import {SidebarService} from "../../services/sidebar.service";
 
@@ -13,6 +14,7 @@ import {SidebarService} from "../../services/sidebar.service";
 export class NavbarComponent implements OnInit {
 
   listVersion: string;
+  faBars = faBars;
   faGithub = faGithub;
 
   constructor(private dataService: DataService, private sideserv: SidebarService) {}

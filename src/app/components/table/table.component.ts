@@ -1,6 +1,6 @@
 import {ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
 import {DataService} from '../../services/data.service';
-import {MatSort, MatSortable, MatTable} from '@angular/material';
+import {MatTable} from '@angular/material/table';
 import {Categories, columnDefs} from '../../models/Database';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import {Primary} from '../../models/Primary';

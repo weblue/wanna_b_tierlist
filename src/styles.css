@@ -13,6 +13,15 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+a {
+  text-decoration: none;
+  color: #2C7DF6;
+}
+
+a:hover{
+  color: #2C7DF6;
+}
+
 .container{
   padding-left: 1em;
   padding-right: 1em;
@@ -26,3 +35,8 @@ body {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+
+.item-spacer {
+  margin: 0 10px !important;
+}
+

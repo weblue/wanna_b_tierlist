@@ -2,8 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import { DataService } from "./services/data.service";
 
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import {Subscription} from "rxjs/internal/Subscription";
 import {SidebarService} from "./services/sidebar.service";
 
@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
   private loading: boolean = true;
   faDiscord = faDiscord;
   faGithub = faGithub;
+  faInfoCircle = faInfoCircle;
 
   opened: boolean;
   private _subscription: Subscription;

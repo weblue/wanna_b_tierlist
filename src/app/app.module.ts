@@ -6,10 +6,18 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
-import {MatRadioModule, MatTableModule} from '@angular/material';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+
+
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -21,8 +29,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { FormsModule } from '@angular/forms';
-import {MatSelectModule} from '@angular/material/select';
-import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 @NgModule({
@@ -47,10 +53,13 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatTabsModule,
     MatToolbarModule,
     MatSidenavModule,
-    FormsModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatRadioModule
+    MatRadioModule,
+    MatInputModule,
+    MatSortModule,
+    MatButtonToggleModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

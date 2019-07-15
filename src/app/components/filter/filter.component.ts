@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {Subscription} from "rxjs/internal/Subscription";
-import {DataService} from "../../services/data.service";
-import {FilterParams} from "../../models/FilterParams";
+import { Subscription } from 'rxjs/internal/Subscription';
+import { DataService } from '../../services/data.service';
+import { FilterParams } from '../../models/FilterParams';
+import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-filter',
@@ -11,6 +12,8 @@ import {FilterParams} from "../../models/FilterParams";
 export class FilterComponent implements OnInit {
 
   private _tabSub: Subscription;
+  faCheck = faCheck;
+  faTimes = faTimes;
 
   filterCategory: 'Primary' | 'Secondary' | 'Melee' | 'Item';
 
