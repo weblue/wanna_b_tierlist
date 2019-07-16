@@ -902,11 +902,11 @@
       "frameName": "Wukong",
       "buildGoals": "|  Balanced  |  ⇊ RAN  |  ⇈ STR  |  Health + [Adaptation]  |",
       "abilityInFocus": "Celestial Twin, Defy & Primal Fury",
-      "tier": "Top",
-      "rank": 2,
+      "tier": "Contender",
+      "rank": 1,
       "suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
       "roleSummary": "| Tank | Damage | Summon/MindControl | ",
-      "notes": "Post-rework Wukong has great survivability with Defy's armor bonus and a panic button in Cloud Walker. The Celestial Twin also draws aggro while doubling your effective DPS. "
+      "notes": "Post-rework Wukong has great survivability with Defy's armor bonus and a panic button in Cloud Walker. The Celestial Twin also draw some aggro away from you while doubling your effective DPS. All of Wukong's ability synergizes with his clone. "
     },
     "ZephyrTailWind": {
       "frameName": "Zephyr",
