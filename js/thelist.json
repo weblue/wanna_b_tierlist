@@ -4676,6 +4676,20 @@
       "notes": "Very high damage per shot, insane dps,  hitscan munitions. Killing 3 enemies within 3 seconds summons another Pyrana Prime for 5 seconds, which doubles your fire rate and current ammo (of which up to 12 remains after it is gone). ",
       "rivenDisposition": 0.8
     },
+    "Quatz": {
+      "base": "",
+      "category": "Semi-auto",
+      "dmg": "Critical",
+      "dmgLink": "https://imgur.com/FbqKpma",
+      "mr": 9,
+      "name": "Quatz",
+      "rank": 51.1,
+      "tier": "Top",
+      "type": "Burst (4)",
+      "url": "http://warframe.wikia.com/wiki/Quatz",
+      "notes": "Low damage per shot, insane dps,  hitscan munitions. Reloading when the clip is emptied causes an Electric damage proc (with 100% status chance) around you. ✪",
+      "rivenDisposition": 1
+    },
     "Rakta Ballistica": {
       "base": "",
       "category": "Crossbow",
