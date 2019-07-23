@@ -331,12 +331,12 @@
     "HydroidLoot": {
       "frameName": "Hydroid",
       "buildGoals": "|  Balanced  |  ↓ DUR  |  Aug4  |",
-      "abilityInFocus": "Tentacle Swarm",
+      "abilityInFocus": "Tempest Barrage & Tentacle Swarm",
       "tier": "Top",
       "rank": 1,
       "suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Infested Salvage | Interception | Kuva Survival | Survival | Void Fissures | ",
       "roleSummary": "| Damage | Control | Stealth | Loot | Unique | ",
-      "notes": "Puddle first then charge up the Tentacles to double up the loot. Works very well with a Zenistar for relatively pain-free material and mod farming. "
+      "notes": "Puddle first then charge up the Tentacles to double up the loot. Works very well with a Zenistar for relatively pain-free material and mod farming. A well-aimed Tempest Barrage can destroy a Nullifier bubble in a single cast but the Zenistar usually takes care of that. "
     },
     "HydroidPuddle": {
       "frameName": "Hydroid",
@@ -726,7 +726,7 @@
       "rank": 1,
       "suitableMissionsRanked": "| Assault | Defense | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Kuva Survival | Mobile Defense | Void Fissures | ",
       "roleSummary": "| Damage | Buff | ",
-      "notes": "Mallet is the only Warframe ability that is effective against Nullifiers. Amp doubles the range and can cover the entire room in a Defense mission. "
+      "notes": "Mallet is one of the very few Warframe abilities that is effective against Nullifiers. Amp doubles the range and can cover the entire room in a Defense mission. "
     },
     "OctaviaBuff": {
       "frameName": "Octavia",
