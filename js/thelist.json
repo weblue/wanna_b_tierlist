@@ -780,23 +780,23 @@
     },
     "SarynESO": {
       "frameName": "Saryn",
-      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug2opt  |",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  [Adaptation]opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
       "suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
       "roleSummary": "| Tank | Buff | Debuff | ",
-      "notes": "Saryn has high range for Spores and Miasma. Enemies that die from sources other than Spore also spread it outwards with increasing damage. "
+      "notes": "Saryn has high range for Spores and Miasma. Enemies that die from sources other than Spore also spread it outwards with increasing damage. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable due to the plethora of status effects. "
     },
     "SarynMelee": {
       "frameName": "Saryn",
-      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  [Adaptation]opt  |",
       "abilityInFocus": "Spores, Toxic Lash & Miasma",
-      "tier": "Contender",
-      "rank": 2,
+      "tier": "Top",
+      "rank": 1,
       "suitableMissionsRanked": "| Arbitration | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
       "roleSummary": "| Damage | Debuff | ",
-      "notes": "Turn Saryn into a melee platform by spreading 3 status effects to jumpstart [Condition Overload]. Toxic Lash bursts all spores for re-application and each spore burst adds to the combo counter. "
+      "notes": "Turn Saryn into a melee platform by spreading 3 status effects to jumpstart [Condition Overload]. Toxic Lash bursts all spores for re-application of the Corrosive effect and each spore burst with your melee weapon adds to the combo counter. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable. "
     },
     "TitaniaAIO": {
       "frameName": "Titania",
