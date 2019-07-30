@@ -5124,8 +5124,11 @@
     }
   },
   "disclaimers":{
-      "checkTheLinks": {
+    "checkTheLinks": {
       "text": "Please refer to the Weapon name links for Zaws and Kitguns. Also click on the builds' link to see it."
+    },
+    "noFrameBuilds": {
+      "text": "As stated in the FAQs, frame builds require too much player personalization to provide anything beyond build goals and guidelines for. "
     }
   },
   "faq": {
