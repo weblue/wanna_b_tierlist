@@ -3112,14 +3112,14 @@
       "base": "",
       "category": "Shotgun",
       "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/I6uAPDr",
+      "dmgLink": "https://imgur.com/MyB5UdE",
       "mr": 7,
       "name": "Convectrix",
-      "rank": 74.6,
-      "tier": "Need buffs",
+      "rank": 54,
+      "tier": "Contender",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Convectrix",
-      "notes": "Very low damage per shot, poor DPS, beam munitions. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Alt fire sweeps the beam from narrow to wide instead and is useful for applying status effects to large crowds. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot, monstrous DPS, beam munitions. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Alt fire sweeps the beam from narrow to wide instead and is useful for applying status effects to large crowds. [Efficient Beams] makes 100% status modding easy while consuming no ammo while not dealing damage. This makes it possible to keep the beam narrow for maximum concentrated damage without hurting ammo economy. ✪",
       "rivenDisposition": 1.46
     },
     "Corinth": {
