@@ -3266,14 +3266,14 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/XB4fSN2",
+      "dmgLink": "https://imgur.com/Eli2w5Q",
       "mr": 7,
       "name": "Harpak",
-      "rank": 91.6,
-      "tier": "Need buffs",
+      "rank": 69,
+      "tier": "Viable",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Harpak",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot, moderate DPS, projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer and with Exposing Harpoon grants an additional 300% crit chance. ",
       "rivenDisposition": 1.55
     },
     "Hema": {
