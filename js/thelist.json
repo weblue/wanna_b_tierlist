@@ -3462,14 +3462,14 @@
       "base": "",
       "category": "Rifle",
       "dmg": "Status",
-      "dmgLink": "https://imgur.com/TLZFEh0",
+      "dmgLink": "https://imgur.com/m94e5Uk",
       "mr": 2,
       "name": "Mutalist Quanta",
-      "rank": 77.1,
-      "tier": "Need buffs",
+      "rank": 54.9,
+      "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Mutalist_Quanta",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. ",
+      "notes": "Very low damage per shot, monstrous DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
       "rivenDisposition": 1.55
     },
     "Nagantaka": {
