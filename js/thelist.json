@@ -2940,6 +2940,20 @@
       "notes": "Low damage per shot, insane dps, beam munitions. Beam chains to nearby enemies giving it decent AOE. ",
       "rivenDisposition": 0.7
     },
+    "Acceltra": {
+      "base": "",
+      "category": "Launcher",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://imgur.com/zCtEAfk",
+      "mr": 8,
+      "name": "Acceltra",
+      "rank": 32.6,
+      "tier": "Top",
+      "type": "Full-auto",
+      "url": "http://warframe.wikia.com/wiki/Acceltra",
+      "notes": "High damage per shot, insane dps, projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
+      "rivenDisposition": 1
+    },
     "Arca Plasmor": {
       "base": "",
       "category": "Shotgun",
@@ -3053,7 +3067,7 @@
       "rivenDisposition": 1.05
     },
     "Braton Prime": {
-      "base": "Braton need buffs",
+      "base": "Braton and Braton Vandal need buffs",
       "category": "Rifle",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/4eGhtj0",
@@ -3091,7 +3105,7 @@
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Buzlok",
-      "notes": "Low damage per shot, moderate DPS, projectile munitions. Alt fire launches tracer beacon which gives additive 50% Crit Chance (20 seconds) that remain active even the target is dead. Has insane DPS potential but difficult to attain due to difficulty in handling beacon and relatively poor handling. Suffers from relatively poor consistency. ✪",
+      "notes": "Low damage per shot, moderate DPS, projectile munitions. Alt fire launches tracer beacon which gives additive 50% Crit Chance (20 seconds) that remain active even the target is dead. Has insane DPS potential but difficult to attain due to difficulty in handling beacon and relatively poor handling. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.45
     },
     "Cernos Prime": {
@@ -3186,10 +3200,10 @@
       "mr": 5,
       "name": "Dread",
       "rank": 71,
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Dread",
-      "notes": "High damage per shot, moderate DPS, projectile munitions. ",
+      "notes": "High damage per shot, poor DPS, projectile munitions. ",
       "rivenDisposition": 1.2
     },
     "Exergis": {
@@ -3245,7 +3259,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Fulmin",
-      "notes": "Very high damage per shot, insane dps, projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. ✪",
+      "notes": "Very high damage per shot, insane dps, projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Glaxion Vandal": {
@@ -3270,10 +3284,10 @@
       "mr": 7,
       "name": "Harpak",
       "rank": 69,
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Harpak",
-      "notes": "Low damage per shot, moderate DPS, projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer and with Exposing Harpoon grants an additional 300% crit chance. ",
+      "notes": "Low damage per shot, poor DPS, projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer. Exposing Harpoon augment gives it the edge needed to compte but still relatively lacklustre. ",
       "rivenDisposition": 1.55
     },
     "Hema": {
@@ -3287,7 +3301,7 @@
       "tier": "Contender",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Hema",
-      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ✪",
+      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ",
       "rivenDisposition": 1.25
     },
     "Hind": {
@@ -3326,10 +3340,10 @@
       "mr": 7,
       "name": "Javlok",
       "rank": 69.9,
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Charge (0.3s)",
       "url": "http://warframe.wikia.com/wiki/Javlok",
-      "notes": "High damage per shot, moderate DPS, projectile munitions. Alt fire creats a localized explosion. ",
+      "notes": "High damage per shot, poor DPS, projectile munitions. Alt fire creats a localized explosion. ",
       "rivenDisposition": 1.2
     },
     "Karak Wraith": {
@@ -3389,31 +3403,17 @@
       "rivenDisposition": 0.8
     },
     "Latron Prime": {
-      "base": "Latron need buffs",
+      "base": "Latron and Latron Wraith need buffs",
       "category": "Rifle",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/JGCNMUA",
       "mr": 10,
       "name": "Latron Prime",
       "rank": 70.2,
-      "tier": "Viable",
-      "type": "Semi-auto",
-      "url": "http://warframe.wikia.com/wiki/Latron_Prime",
-      "notes": "High damage per shot, moderate DPS, hitscan munitions. ",
-      "rivenDisposition": 1.25
-    },
-    "Latron Wraith": {
-      "base": "",
-      "category": "Rifle",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/c8JSLNh",
-      "mr": 7,
-      "name": "Latron Wraith",
-      "rank": 89.2,
       "tier": "Need buffs",
       "type": "Semi-auto",
-      "url": "http://warframe.wikia.com/wiki/Latron_Wraith",
-      "notes": "High damage per shot, poor DPS, hitscan munitions. Suffers from relatively poor consistency. ",
+      "url": "http://warframe.wikia.com/wiki/Latron_Prime",
+      "notes": "High damage per shot, poor DPS, hitscan munitions. ",
       "rivenDisposition": 1.25
     },
     "Lenz": {
@@ -3466,10 +3466,10 @@
       "mr": 2,
       "name": "Mutalist Quanta",
       "rank": 54.9,
-      "tier": "Contender",
+      "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Mutalist_Quanta",
-      "notes": "Very low damage per shot, monstrous DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
+      "notes": "Very low damage per shot, moderate DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
       "rivenDisposition": 1.55
     },
     "Nagantaka": {
@@ -3525,7 +3525,7 @@
       "tier": "Contender",
       "type": "Charge (0.8s)",
       "url": "http://warframe.wikia.com/wiki/Opticor_Vandal",
-      "notes": "Very high damage per shot, monstrous DPS, ",
+      "notes": "Very high damage per shot, monstrous DPS, hitscan munitions. ",
       "rivenDisposition": 1.05
     },
     "Panthera": {
@@ -3599,7 +3599,7 @@
       "rivenDisposition": 1
     },
     "Prisma Gorgon": {
-      "base": "Gorgon is viable",
+      "base": "Gorgon and Gorgon Wraith is viable",
       "category": "Rifle",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/aUc5aw3",
@@ -3623,7 +3623,7 @@
       "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Grakata",
-      "notes": "Very low damage per shot, monstrous DPS, hitscan munitions. ✪",
+      "notes": "Very low damage per shot, monstrous DPS, hitscan munitions. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.2
     },
     "Prisma Grinlok": {
@@ -3749,7 +3749,7 @@
       "tier": "Viable",
       "type": "Secondary",
       "url": "http://warframe.wikia.com/wiki/Secura_Penta",
-      "notes": "Very high damage per shot, moderate DPS, projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by mods) and causes instant explosions while leaving a burning patch on the ground. Suffers from relatively poor consistency. ✪",
+      "notes": "Very high damage per shot, moderate DPS, projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by mods) and causes instant explosions while leaving a burning patch on the ground. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.3
     },
     "Snipetron Vandal": {
@@ -3889,7 +3889,7 @@
       "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Telos_Boltor",
-      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Truth (Gas, health, parkour) syndicate proc is helpful at times. ",
+      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Truth (Gas, health, parkour) syndicate proc is helpful at times. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.05
     },
     "Tenora": {
@@ -4082,10 +4082,10 @@
       "mr": 7,
       "name": "Acrid",
       "rank": 83.3,
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Acrid",
-      "notes": "Very low damage per shot, moderate DPS,  projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. ",
+      "notes": "Very low damage per shot, poor DPS,  projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. ",
       "rivenDisposition": 1.33
     },
     "Afuris": {
@@ -4101,6 +4101,20 @@
       "url": "http://warframe.wikia.com/wiki/Afuris",
       "notes": "Very low damage per shot, poor DPS,  hitscan munitions. ",
       "rivenDisposition": 1.39
+    },
+    "Akarius": {
+      "base": "",
+      "category": "Semi-auto",
+      "dmg": "Raw/Status",
+      "dmgLink": "https://imgur.com/undefined",
+      "mr": 8,
+      "name": "Akarius",
+      "rank": 30.1,
+      "tier": "Top",
+      "type": "Burst (2)",
+      "url": "http://warframe.wikia.com/wiki/Akarius",
+      "notes": "Very high damage per shot, insane dps,  projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
+      "rivenDisposition": 1
     },
     "Akbolto Prime": {
       "base": "Base is Viable",
@@ -4281,7 +4295,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Azima",
-      "notes": "Very low damage per shot, monstrous DPS,  hitscan munitions. Alt fire launches the remaining clip that will act as a 4-point dumb turret. ✪",
+      "notes": "Very low damage per shot, monstrous DPS,  hitscan munitions. Alt fire launches the remaining clip that will act as a 4-point dumb turret. ",
       "rivenDisposition": 1.25
     },
     "Ballistica Prime": {
@@ -4389,11 +4403,11 @@
       "dmgLink": "https://imgur.com/uWRspB1",
       "mr": 11,
       "name": "Dual Toxocyst",
-      "rank": 85.6,
-      "tier": "Need buffs",
+      "rank": 58.4,
+      "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Dual_Toxocyst",
-      "notes": "Low damage per shot, poor DPS,  hitscan munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 100% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 100% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. ✪",
       "rivenDisposition": 1.3
     },
     "Embolist": {
@@ -4553,15 +4567,15 @@
     "Mara Detron": {
       "base": "Base is Viable",
       "category": "Shotgun",
-      "dmg": "100% Status",
-      "dmgLink": "https://imgur.com/rTjuh5A",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/piBuCs9",
       "mr": 9,
       "name": "Mara Detron",
-      "rank": 54.1,
-      "tier": "Contender",
+      "rank": 47.5,
+      "tier": "Top",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Mara_Detron",
-      "notes": "Very high damage per shot, monstrous DPS,  projectile munitions. ",
+      "notes": "Very high damage per shot, insane dps,  projectile munitions. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Nukor": {
@@ -4589,7 +4603,7 @@
       "tier": "Contender",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Ocucor",
-      "notes": "Very low damage per shot, monstrous DPS,  beam munitions. Each enemy killed will create an additional tendril that damages other targettable enemies in sight. Tendrils reset upon reloading. ✪",
+      "notes": "Very low damage per shot, monstrous DPS,  beam munitions. Each enemy killed will create an additional tendril that damages other targettable enemies in sight. Tendrils reset upon reloading. ",
       "rivenDisposition": 1.1
     },
     "Pandero": {
@@ -4799,7 +4813,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Spira_Prime",
-      "notes": "High damage per shot, monstrous DPS,  projectile munitions. ✪",
+      "notes": "High damage per shot, monstrous DPS,  projectile munitions. ",
       "rivenDisposition": 1.1
     },
     "Staticor": {
