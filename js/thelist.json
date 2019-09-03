@@ -1203,13 +1203,13 @@
       "dmgLink": "https://imgur.com/IuVWGKA",
       "mr":5,
       "name": "Dark Split-Sword",
-      "rank":38.69,
+      "rank":35,
       "stance": "Carving Mantis",
       "stancenotes": "Alt combo= Biting Mandibles; -DPS, +execution",
-      "tier": "Contender",
+      "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dark_Split-Sword",
-      "wepnotes": "Low damage per hit, monstrous DPS, very high attack speed. Heavy blade mode is severely underpowered. ✪",
+      "wepnotes": "Low damage per hit, insane dps, very high attack speed. Heavy blade mode is severely underpowered. ✪",
       "rivenDisposition": 1.21
     },
     "Dark Sword": {
@@ -2077,7 +2077,7 @@
       "rivenDisposition": 0.5
     },
     "Ninkondi Prime": {
-      "base": "Ninkondi is mid viable",
+      "base": "",
       "combo": "Molten Whirlpool",
       "dmg": "Status",
       "dmgLink": "https://imgur.com/C4MjuJe",
@@ -2319,8 +2319,8 @@
     "Redeemer Prime": {
       "base": "Redeemer need buffs",
       "combo": "Lead Tango or Automatic Rhumba",
-      "dmg": "Crit/Status",
-      "dmgLink": "https://imgur.com/kgJCs8v",
+      "dmg": "Status",
+      "dmgLink": "https://imgur.com/OJcyLKu",
       "mr":10,
       "name": "Redeemer Prime",
       "rank":36.99,
@@ -2329,7 +2329,7 @@
       "tier": "Top",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Redeemer_Prime",
-      "wepnotes": "Very low damage per hit, insane dps, low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, insane dps, low attack speed. Would be advisable to get a high status chance riven for Redeemer as it would allow for Crit-based modding instead.✪",
       "rivenDisposition": 1.17
     },
     "Ripkas": {
