@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { DataService } from "./services/data.service";
 
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import {Subscription} from "rxjs/internal/Subscription";
