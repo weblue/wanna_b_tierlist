@@ -14,10 +14,9 @@ This website is built by the Warframe community; as such, if you have any issues
 
 ## Development Setup
 
-In order to set up the app locally, you'll need an HTTP server (because the app makes HTTP requests). You can easily spin one up with python:
-
 ```sh
-python -m SimpleHTTPServer
+npm install
+npm start
 ```
 
 ## Data
@@ -29,6 +28,7 @@ This data is generously curated and formatted by [sakai4eva](https://reddit.com/
 ## Rework & Upcoming Features
 
 The development team is actively working on rewriting the web application to use Angular 2+. With this comes several new features, including:
+
 * better searching and filtering
 * more detailed item cards, with click-to-expand
 * more descriptive ranking
