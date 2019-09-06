@@ -66,27 +66,27 @@
             <div class="example-element-detail"
                  [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
                 <!--contents start-->
-                <img style="width:95%" [src]=element.dmgLink alt="Build image">
-                <p>
-                    Forma Count: {{element.forma_count}}
-                </p>
-                <a [href]=element.clear_vid>
-                    <p>Clear time: {{element.clear_time}} Riven Disposition: {{element.rivenDisposition}} Riven
-                        Value: {{element.riven_value}}</p>
-                </a>
-                <br>
                 <p>Notes: {{element.notes}}</p>
-                <div>
-                    <p>Alt Category: {{element.alt_category}} Alt Trigger: {{element.alt_trigger}} Alt
-                        Munitions: {{element.alt_munitions}}</p>
-                </div>
+                <br />
+                <ul class="list-unstyled">
+                    <li><a [href]="element.dmgLink">Builds</a></li>
+                    <li>Riven Disposition: {{element.rivenDisposition}}</li>
+                    <li *ngIf=element.riven_value>Riven Value: {{element.riven_value}}</li>
+                    <li *ngIf=element.format_count>Forma Count: {{element.forma_count}}</li>
+                    <li *ngIf=element.clear_time>Clear Time: {{element.clear_time}}; <a [href]=element.clear_vid>Video</a></li>
+                </ul>
+                <br />
+                <ul *ngIf=element.alt_category class="list-unstyled">
+                    <li>Alt Category: {{element.alt_category}}</li>
+                    <li>Alt Trigger: {{element.alt_trigger}}</li>
+                    <li>Alt Munitions: {{element.alt_munitions}}</li>
+                </ul>
                 <!--contents end-->
             </div>
         </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <!--<tr mat-row *matRowDef="let row; columns: displayedColumns; when: tier === 'Top'" [hidden]="row.isTier"-->
     <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
         class="example-element-row" [class.example-expanded-row]="expandedElement === row"
         (click)="expandedElement = expandedElement === row ? null : row">
@@ -102,3 +102,4 @@
 </mat-table>
 
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="83Zzt1C"><a href="//imgur.com/83Zzt1C"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
