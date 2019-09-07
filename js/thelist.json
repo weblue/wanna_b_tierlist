@@ -953,7 +953,7 @@
       "tier": "Viable",
       "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Ack_&_Brunt",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.9
     },
     "Amphis": {
@@ -969,7 +969,7 @@
       "tier": "Need buffs",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Amphis",
-      "wepnotes": "Very low damage per hit, poor DPS, very high attack speed. ",
+      "wepnotes": "Very low damage per hit, very high attack speed. ",
       "rivenDisposition": 1.5
     },
     "Anku": {
@@ -985,7 +985,7 @@
       "tier": "Need buffs",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Anku",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1.46
     },
     "Ankyros Prime": {
@@ -1001,7 +1001,7 @@
       "tier": "Need buffs",
       "type": "Fists",
       "url": "http://warframe.wikia.com/wiki/Ankyros_Prime",
-      "wepnotes": "Very low damage per hit, poor DPS, very high attack speed. ",
+      "wepnotes": "Very low damage per hit, very high attack speed. ",
       "rivenDisposition": 1.45
     },
     "Arca Titron": {
@@ -1017,7 +1017,7 @@
       "tier": "Contender",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Arca_Titron",
-      "wepnotes": "Very high damage per hit, monstrous DPS, very low attack speed. Kills grant up to 10 Capacitor (+100% electricity damage) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. ",
+      "wepnotes": "Very high damage per hit, very low attack speed. Kills grant up to 10 Capacitor (+100% electricity damage) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. ",
       "rivenDisposition": 1
     },
     "Atterax": {
@@ -1033,7 +1033,7 @@
       "tier": "Top",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Atterax",
-      "wepnotes": "Very low damage per hit, insane dps, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 0.5
     },
     "Bo Prime": {
@@ -1049,7 +1049,7 @@
       "tier": "Viable",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Bo_Prime",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. ✪",
       "rivenDisposition": 1.29
     },
     "Broken Scepter": {
@@ -1065,7 +1065,7 @@
       "tier": "Viable",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Broken_Scepter",
-      "wepnotes": "Very low damage per hit, moderate DPS, very high attack speed. Suffers from relatively poor consistency. Can Drain enemies to spawn health/energy orb. ",
+      "wepnotes": "Very low damage per hit, very high attack speed. Suffers from relatively poor consistency. Can Drain enemies to spawn health/energy orb. ",
       "rivenDisposition": 1.19
     },
     "Broken War": {
@@ -1081,7 +1081,7 @@
       "tier": "Viable",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Broken_War",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Low damage per hit, high attack speed. ",
       "rivenDisposition": 0.79
     },
     "Cassowar": {
@@ -1097,7 +1097,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Cassowar",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1
     },
     "Caustacyst": {
@@ -1113,7 +1113,7 @@
       "tier": "Need buffs",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Caustacyst",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from relatively poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ",
       "rivenDisposition": 1.3
     },
     "Ceramic Dagger": {
@@ -1129,7 +1129,7 @@
       "tier": "Viable",
       "type": "Dagger",
       "url": "http://warframe.wikia.com/wiki/Ceramic_Dagger",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.43
     },
     "Cerata": {
@@ -1145,7 +1145,7 @@
       "tier": "Need buffs",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Cerata",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1.36
     },
     "Cobra & Crane": {
@@ -1161,7 +1161,7 @@
       "tier": "Viable",
       "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Cobra_&_Crane",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 1
     },
     "Cronus": {
@@ -1177,7 +1177,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Cronus",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.48
     },
     "Dakra Prime": {
@@ -1193,7 +1193,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Dakra_Prime",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1.15
     },
     "Dark Split-Sword": {
@@ -1209,7 +1209,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dark_Split-Sword",
-      "wepnotes": "Low damage per hit, insane dps, very high attack speed. Heavy blade mode is severely underpowered. ✪",
+      "wepnotes": "Low damage per hit, very high attack speed. Heavy blade mode is severely underpowered. ✪",
       "rivenDisposition": 1.21
     },
     "Dark Sword": {
@@ -1225,7 +1225,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Dark_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.48
     },
     "Destreza Prime": {
@@ -1241,7 +1241,7 @@
       "tier": "Contender",
       "type": "Rapier",
       "url": "http://warframe.wikia.com/wiki/Destreza_Prime",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. ✪",
+      "wepnotes": "Low damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.14
     },
     "Dex Dakra": {
@@ -1257,7 +1257,7 @@
       "tier": "Contender",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dex_Dakra",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.15
     },
     "Dragon Nikana": {
@@ -1273,7 +1273,7 @@
       "tier": "Viable",
       "type": "Nikana",
       "url": "http://warframe.wikia.com/wiki/Dragon_Nikana",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Low damage per hit, high attack speed. ",
       "rivenDisposition": 1.35
     },
     "Dual Ether": {
@@ -1289,7 +1289,7 @@
       "tier": "Need buffs",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Ether",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.45
     },
     "Dual Heat Swords": {
@@ -1305,7 +1305,7 @@
       "tier": "Viable",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Heat_Swords",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. Slam attacks procs Heat in an AOE. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Slam attacks procs Heat in an AOE. ",
       "rivenDisposition": 1.44
     },
     "Dual Ichor": {
@@ -1321,7 +1321,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Ichor",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Ties with Nami Skyla Prime. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. Ties with Nami Skyla Prime. ✪",
       "rivenDisposition": 1.16
     },
     "Dual Kamas Prime": {
@@ -1337,7 +1337,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Kamas_Prime",
-      "wepnotes": "Very low damage per hit, insane dps, very high attack speed. ",
+      "wepnotes": "Very low damage per hit, very high attack speed. ",
       "rivenDisposition": 0.81
     },
     "Dual Keres": {
@@ -1353,7 +1353,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Keres",
-      "wepnotes": "Very low damage per hit, insane dps, very high attack speed. Good balance of speed and crit. ✪",
+      "wepnotes": "Very low damage per hit, very high attack speed. Good balance of speed and crit. ✪",
       "rivenDisposition": 1.48
     },
     "Dual Raza": {
@@ -1369,7 +1369,7 @@
       "tier": "Contender",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Raza",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.4
     },
     "Dual Skana": {
@@ -1385,7 +1385,7 @@
       "tier": "Need buffs",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Skana",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. ",
       "rivenDisposition": 1.48
     },
     "Dual Zoren": {
@@ -1401,7 +1401,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Dual_Zoren",
-      "wepnotes": "Very low damage per hit, insane dps, very high attack speed. Zorencoptering, anyone? ✪",
+      "wepnotes": "Very low damage per hit, very high attack speed. Zorencoptering, anyone? ✪",
       "rivenDisposition": 1.44
     },
     "Endura": {
@@ -1417,7 +1417,7 @@
       "tier": "Contender",
       "type": "Rapier",
       "url": "http://warframe.wikia.com/wiki/Endura",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 1
     },
     "Ether Daggers": {
@@ -1433,7 +1433,7 @@
       "tier": "Contender",
       "type": "Dual Daggers",
       "url": "http://warframe.wikia.com/wiki/Ether_Daggers",
-      "wepnotes": "Very low damage per hit, monstrous DPS, very low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, very low attack speed. ✪",
       "rivenDisposition": 1.49
     },
     "Ether Reaper": {
@@ -1449,7 +1449,7 @@
       "tier": "Viable",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Ether_Reaper",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1.45
     },
     "Ether Sword": {
@@ -1465,7 +1465,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Ether_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Slam attacks procs Radiation in an AOE. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Slam attacks procs Radiation in an AOE. ",
       "rivenDisposition": 1.44
     },
     "Falcor": {
@@ -1481,7 +1481,7 @@
       "tier": "Viable",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Falcor",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1
     },
     "Fang Prime": {
@@ -1497,7 +1497,7 @@
       "tier": "Need buffs",
       "type": "Dual Daggers",
       "url": "http://warframe.wikia.com/wiki/Fang_Prime",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.36
     },
     "Fragor Prime": {
@@ -1513,7 +1513,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Fragor_Prime",
-      "wepnotes": "High damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "High damage per hit, low attack speed. ",
       "rivenDisposition": 0.96
     },
     "Furax Wraith": {
@@ -1529,7 +1529,7 @@
       "tier": "Need buffs",
       "type": "Fists",
       "url": "http://warframe.wikia.com/wiki/Furax_Wraith",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1.38
     },
     "Galatine Prime": {
@@ -1545,7 +1545,7 @@
       "tier": "Top",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Galatine_Prime",
-      "wepnotes": "High damage per hit, insane dps, high attack speed. ",
+      "wepnotes": "High damage per hit, high attack speed. ",
       "rivenDisposition": 0.5
     },
     "Galvacord": {
@@ -1561,7 +1561,7 @@
       "tier": "Top",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Galvacord",
-      "wepnotes": "Low damage per hit, insane dps, low attack speed. Suffers from relatively poor consistency. ✪",
+      "wepnotes": "Low damage per hit, low attack speed. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Garuda's Talons": {
@@ -1577,7 +1577,7 @@
       "tier": "Need buffs",
       "type": "Claws",
       "url": "http://warframe.wikia.com/wiki/Garuda's_Talons",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1
     },
     "Gazal Machete": {
@@ -1593,7 +1593,7 @@
       "tier": "Top",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Gazal_Machete",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Can be paired with Djinn's Fatal Attraction for approximately 16.6% uptime. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. Can be paired with Djinn's Fatal Attraction for approximately 16.6% uptime. ✪",
       "rivenDisposition": 1.35
     },
     "Glaive Prime": {
@@ -1609,7 +1609,7 @@
       "tier": "Contender",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Glaive_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, very high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, very high attack speed. ✪",
       "rivenDisposition": 1.22
     },
     "Gram Prime": {
@@ -1625,7 +1625,7 @@
       "tier": "Top",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Gram_Prime",
-      "wepnotes": "Very high damage per hit, insane dps, low attack speed. ✪",
+      "wepnotes": "Very high damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.44
     },
     "Guandao": {
@@ -1641,7 +1641,7 @@
       "tier": "Need buffs",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Guandao",
-      "wepnotes": "Low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 1
     },
     "Gunsen": {
@@ -1657,7 +1657,7 @@
       "tier": "Contender",
       "type": "Warfan",
       "url": "http://warframe.wikia.com/wiki/Gunsen",
-      "wepnotes": "Very low damage per hit, monstrous DPS, very high attack speed. ",
+      "wepnotes": "Very low damage per hit, very high attack speed. ",
       "rivenDisposition": 1
     },
     "Halikar": {
@@ -1673,7 +1673,7 @@
       "tier": "Viable",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Halikar",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Thrown attacks can disarm opponents. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Thrown attacks can disarm opponents. ",
       "rivenDisposition": 1.44
     },
     "Hate": {
@@ -1689,7 +1689,7 @@
       "tier": "Viable",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Hate",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 1.36
     },
     "Heat Dagger": {
@@ -1705,7 +1705,7 @@
       "tier": "Viable",
       "type": "Dagger",
       "url": "http://warframe.wikia.com/wiki/Heat_Dagger",
-      "wepnotes": "Very low damage per hit, moderate DPS, very low attack speed. Slam attacks deal Heat damage and have high chance of proccing Heat. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. Slam attacks deal Heat damage and have high chance of proccing Heat. ",
       "rivenDisposition": 1.44
     },
     "Heat Sword": {
@@ -1721,7 +1721,7 @@
       "tier": "Viable",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Heat_Sword",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.48
     },
     "Heliocor": {
@@ -1737,7 +1737,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Heliocor",
-      "wepnotes": "High damage per hit, poor DPS, low attack speed. Gives one codex scan upon kill. ",
+      "wepnotes": "High damage per hit, low attack speed. Gives one codex scan upon kill. ",
       "rivenDisposition": 0.94
     },
     "Hirudo": {
@@ -1753,7 +1753,7 @@
       "tier": "Need buffs",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Hirudo",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
+      "wepnotes": "Very low damage per hit, high attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
       "rivenDisposition": 0.5
     },
     "Jat Kittag": {
@@ -1769,7 +1769,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Jat_Kittag",
-      "wepnotes": "High damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. Vulcan Blitz cause kills to explode dealing 300 (+60% of enemy health) Blast damage in 6m radius. Part of the Tenno Space Program. ",
+      "wepnotes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. Vulcan Blitz cause kills to explode dealing 300 (+60% of enemy health) Blast damage in 6m radius. Part of the Tenno Space Program. ",
       "rivenDisposition": 0.75
     },
     "Jat Kusar": {
@@ -1785,7 +1785,7 @@
       "tier": "Contender",
       "type": "Blade and Whip",
       "url": "http://warframe.wikia.com/wiki/Jat_Kusar",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 0.81
     },
     "Jaw Sword": {
@@ -1801,7 +1801,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Jaw_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Suffers from relatively poor consistency. Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. ",
       "rivenDisposition": 1.47
     },
     "Kama": {
@@ -1817,7 +1817,7 @@
       "tier": "Need buffs",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Kama",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1.47
     },
     "Karyst": {
@@ -1833,7 +1833,7 @@
       "tier": "Viable",
       "type": "Dagger",
       "url": "http://warframe.wikia.com/wiki/Karyst",
-      "wepnotes": "Very low damage per hit, moderate DPS, very low attack speed. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. ",
       "rivenDisposition": 1.29
     },
     "Kesheg": {
@@ -1849,7 +1849,7 @@
       "tier": "Contender",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Kesheg",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 1.24
     },
     "Kestrel": {
@@ -1865,7 +1865,7 @@
       "tier": "Need buffs",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Kestrel",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Entropy Flight grants +140% flight speed and Entropy (Magnetic, Energy) effects. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Entropy Flight grants +140% flight speed and Entropy (Magnetic, Energy) effects. ",
       "rivenDisposition": 1.45
     },
     "Kogake Prime": {
@@ -1881,7 +1881,7 @@
       "tier": "Need buffs",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Kogake_Prime",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Increases movement speed by 5% when equipped. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Increases movement speed by 5% when equipped. ",
       "rivenDisposition": 1.46
     },
     "Korrudo": {
@@ -1897,7 +1897,7 @@
       "tier": "Need buffs",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Korrudo",
-      "wepnotes": "Low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Low damage per hit, low attack speed. ",
       "rivenDisposition": 1
     },
     "Kreska": {
@@ -1913,7 +1913,7 @@
       "tier": "Contender",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Kreska",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1
     },
     "Krohkur": {
@@ -1929,7 +1929,7 @@
       "tier": "Viable",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Krohkur",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.22
     },
     "Kronen Prime": {
@@ -1945,7 +1945,7 @@
       "tier": "Contender",
       "type": "Tonfa",
       "url": "http://warframe.wikia.com/wiki/Kronen_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, very high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, very high attack speed. ✪",
       "rivenDisposition": 1.43
     },
     "Lacera": {
@@ -1961,7 +1961,7 @@
       "tier": "Contender",
       "type": "Blade and Whip",
       "url": "http://warframe.wikia.com/wiki/Lacera",
-      "wepnotes": "Very low damage per hit, monstrous DPS, very low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, very low attack speed. ✪",
       "rivenDisposition": 1.31
     },
     "Lesion": {
@@ -1977,7 +1977,7 @@
       "tier": "Contender",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Lesion",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Causing status proc buffs the weapon to give it 15% more innate attack speed and toxin damage. ",
+      "wepnotes": "Low damage per hit, low attack speed. Causing status proc buffs the weapon to give it 15% more innate attack speed and toxin damage. ",
       "rivenDisposition": 0.5
     },
     "Machete Wraith": {
@@ -1993,7 +1993,7 @@
       "tier": "Contender",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Machete_Wraith",
-      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. ✪",
       "rivenDisposition": 1.45
     },
     "Mios": {
@@ -2009,7 +2009,7 @@
       "tier": "Top",
       "type": "Blade and Whip",
       "url": "http://warframe.wikia.com/wiki/Mios",
-      "wepnotes": "Low damage per hit, insane dps, high attack speed. ",
+      "wepnotes": "Low damage per hit, high attack speed. ",
       "rivenDisposition": 0.95
     },
     "Mire": {
@@ -2025,7 +2025,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Mire",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Innate +10% toxin damage boost. Toxic Blight increases toxin damage by 100% and causes Entropy (Magnetic, Energy) effects. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Innate +10% toxin damage boost. Toxic Blight increases toxin damage by 100% and causes Blight (Viral, Energy) effects. ",
       "rivenDisposition": 1.43
     },
     "Nami Skyla Prime": {
@@ -2041,7 +2041,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Nami_Skyla_Prime",
-      "wepnotes": "Very low damage per hit, insane dps, very high attack speed. Ties with Dual Ichor. ✪",
+      "wepnotes": "Very low damage per hit, very high attack speed. Ties with Dual Ichor. ✪",
       "rivenDisposition": 1.18
     },
     "Nami Solo": {
@@ -2057,7 +2057,7 @@
       "tier": "Top",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Nami_Solo",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. ✪",
       "rivenDisposition": 1.43
     },
     "Nikana Prime": {
@@ -2073,7 +2073,7 @@
       "tier": "Contender",
       "type": "Nikana",
       "url": "http://warframe.wikia.com/wiki/Nikana_Prime",
-      "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. ",
+      "wepnotes": "Low damage per hit, high attack speed. ",
       "rivenDisposition": 0.5
     },
     "Ninkondi Prime": {
@@ -2089,7 +2089,7 @@
       "tier": "Top",
       "type": "Nunchaku",
       "url": "http://warframe.wikia.com/wiki/Ninkondi_Prime",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. ✪",
       "rivenDisposition": 1.41
     },
     "Ohma": {
@@ -2105,7 +2105,7 @@
       "tier": "Contender",
       "type": "Tonfa",
       "url": "http://warframe.wikia.com/wiki/Ohma",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Slams have guaranteed Electricity proc in 8.5m radius. ",
+      "wepnotes": "Low damage per hit, low attack speed. Slams have guaranteed Electricity proc in 8.5m radius. ",
       "rivenDisposition": 1
     },
     "Okina": {
@@ -2121,7 +2121,7 @@
       "tier": "Contender",
       "type": "Dual Daggers",
       "url": "http://warframe.wikia.com/wiki/Okina",
-      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. ✪",
       "rivenDisposition": 1.31
     },
     "Orthos Prime": {
@@ -2137,7 +2137,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Orthos_Prime",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.5
     },
     "Orvius": {
@@ -2153,7 +2153,7 @@
       "tier": "Need buffs",
       "type": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Orvius",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. Channeled throw suspends enemies in midair. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. Channeled throw suspends enemies in midair. ",
       "rivenDisposition": 1.15
     },
     "Pangolin Sword": {
@@ -2169,7 +2169,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Pangolin_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Jump attacks always proc Electricity. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Jump attacks always proc Electricity. ",
       "rivenDisposition": 1.47
     },
     "Paracesis": {
@@ -2185,7 +2185,7 @@
       "tier": "Top",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Paracesis",
-      "wepnotes": "Very high damage per hit, insane dps, low attack speed. Has max modslot of 90 including stance. Using forma on this weapon will increase damage to Tau faction (up to 60% after 5 forma). ",
+      "wepnotes": "Very high damage per hit, low attack speed. Has max modslot of 90 including stance. Using forma on this weapon will increase damage to Tau faction (up to 60% after 5 forma). ",
       "rivenDisposition": 1
     },
     "Plasma Sword": {
@@ -2201,7 +2201,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Plasma_Sword",
-      "wepnotes": "Very low damage per hit, poor DPS, very low attack speed. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. ",
       "rivenDisposition": 1.48
     },
     "Prisma Dual Cleavers": {
@@ -2217,7 +2217,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Prisma_Dual_Cleavers",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Augment adds Justice (Blast, Health, Armor) effects and +100% to base damage. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. Augment adds Justice (Blast, Health, Armor) effects and +100% to base damage. ✪",
       "rivenDisposition": 1
     },
     "Prisma Obex": {
@@ -2233,7 +2233,7 @@
       "tier": "Need buffs",
       "type": "Sparring",
       "url": "http://warframe.wikia.com/wiki/Prisma_Obex",
-      "wepnotes": "Very low damage per hit, poor DPS, very high attack speed. Suffers from relatively poor consistency. Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
+      "wepnotes": "Very low damage per hit, very high attack speed. Suffers from relatively poor consistency. Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
       "rivenDisposition": 1.1
     },
     "Prisma Skana": {
@@ -2249,7 +2249,7 @@
       "tier": "Need buffs",
       "type": "Sword",
       "url": "http://warframe.wikia.com/wiki/Prisma_Skana",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. Bright Purity adds 100% melee damage and Purity (Corrosive, health) effects. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. Bright Purity adds 100% melee damage and Purity (Corrosive, health) effects. ",
       "rivenDisposition": 1.22
     },
     "Prova Vandal": {
@@ -2265,7 +2265,7 @@
       "tier": "Viable",
       "type": "Machete",
       "url": "http://warframe.wikia.com/wiki/Prova_Vandal",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Suffers from relatively poor consistency. Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. ",
       "rivenDisposition": 1.29
     },
     "Pupacyst": {
@@ -2281,7 +2281,7 @@
       "tier": "Need buffs",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Pupacyst",
-      "wepnotes": "Low damage per hit, poor DPS, low attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1
     },
     "Rakta Dark Dagger": {
@@ -2297,7 +2297,7 @@
       "tier": "Viable",
       "type": "Dagger",
       "url": "http://warframe.wikia.com/wiki/Rakta_Dark_Dagger",
-      "wepnotes": "Very low damage per hit, moderate DPS, low attack speed. Can use the Gleaming Blight augment. Blight (Viral, energy, movement speed) effects. While wielded, enemies have reduced detection radius. Radiation procs restore shields and may grant overshields. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Can use the Gleaming Blight augment. Blight (Viral, energy, movement speed) effects. While wielded, enemies have reduced detection radius. Radiation procs restore shields and may grant overshields. ",
       "rivenDisposition": 0.52
     },
     "Reaper Prime": {
@@ -2313,7 +2313,7 @@
       "tier": "Need buffs",
       "type": "Scythe",
       "url": "http://warframe.wikia.com/wiki/Reaper_Prime",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.29
     },
     "Redeemer Prime": {
@@ -2329,7 +2329,7 @@
       "tier": "Top",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Redeemer_Prime",
-      "wepnotes": "Very low damage per hit, insane dps, low attack speed. Would be advisable to get a high status chance riven for Redeemer as it would allow for Crit-based modding instead.✪",
+      "wepnotes": "Very low damage per hit, low attack speed. Would be advisable to get a high status chance riven for Redeemer as it would allow for Crit-based modding instead.✪",
       "rivenDisposition": 1.17
     },
     "Ripkas": {
@@ -2345,7 +2345,7 @@
       "tier": "Need buffs",
       "type": "Claws",
       "url": "http://warframe.wikia.com/wiki/Ripkas",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. Hunter's Bonesaw increases damage by 90% and status chance by 60% on grounded enemies. ",
+      "wepnotes": "Very low damage per hit, low attack speed. Hunter's Bonesaw increases damage by 90% and status chance by 60% on grounded enemies. ",
       "rivenDisposition": 1.38
     },
     "Sancti Magistar": {
@@ -2361,7 +2361,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Sancti_Magistar",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
+      "wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
       "rivenDisposition": 1.09
     },
     "Sarpa": {
@@ -2377,7 +2377,7 @@
       "tier": "Contender",
       "type": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Sarpa",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.24
     },
     "Scindo Prime": {
@@ -2393,7 +2393,7 @@
       "tier": "Contender",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Scindo_Prime",
-      "wepnotes": "High damage per hit, monstrous DPS, high attack speed. ",
+      "wepnotes": "High damage per hit, high attack speed. ",
       "rivenDisposition": 1
     },
     "Scoliac": {
@@ -2409,7 +2409,7 @@
       "tier": "Top",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Scoliac",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Suffers from relatively poor consistency. ✪",
+      "wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.3
     },
     "Secura Lecta": {
@@ -2425,7 +2425,7 @@
       "tier": "Top",
       "type": "Whip",
       "url": "http://warframe.wikia.com/wiki/Secura_Lecta",
-      "wepnotes": "Very low damage per hit, insane dps, high attack speed. Killing an enemy with this weapon equipped gives bonus credits.",
+      "wepnotes": "Very low damage per hit, high attack speed. Killing an enemy with this weapon equipped gives bonus credits.",
       "rivenDisposition": 0.5
     },
     "Serro": {
@@ -2441,7 +2441,7 @@
       "tier": "Need buffs",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Serro",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.38
     },
     "Shaku": {
@@ -2457,7 +2457,7 @@
       "tier": "Need buffs",
       "type": "Nunchaku",
       "url": "http://warframe.wikia.com/wiki/Shaku",
-      "wepnotes": "Very low damage per hit, poor DPS, high attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.35
     },
     "Sheev": {
@@ -2473,7 +2473,7 @@
       "tier": "Viable",
       "type": "Dagger",
       "url": "http://warframe.wikia.com/wiki/Sheev",
-      "wepnotes": "Very low damage per hit, moderate DPS, very low attack speed. Slam attacks guarantees heat proc. ",
+      "wepnotes": "Very low damage per hit, very low attack speed. Slam attacks guarantees heat proc. ",
       "rivenDisposition": 1.25
     },
     "Sibear": {
@@ -2489,7 +2489,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Sibear",
-      "wepnotes": "High damage per hit, poor DPS, high attack speed. Charge attacks gives +50% status chance for 4s. ",
+      "wepnotes": "High damage per hit, high attack speed. Charge attacks gives +50% status chance for 4s. ",
       "rivenDisposition": 1.35
     },
     "Sigma & Octantis": {
@@ -2505,7 +2505,7 @@
       "tier": "Viable",
       "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Sigma_&_Octantis",
-      "wepnotes": "Very low damage per hit, moderate DPS, high attack speed. ",
+      "wepnotes": "Very low damage per hit, high attack speed. ",
       "rivenDisposition": 1
     },
     "Silva & Aegis Prime": {
@@ -2521,7 +2521,7 @@
       "tier": "Contender",
       "type": "Sword and Shield",
       "url": "http://warframe.wikia.com/wiki/Silva_&_Aegis_Prime",
-      "wepnotes": "Low damage per hit, monstrous DPS, very low attack speed. Blocking adds up to 4 charges that increases critical and status chance by 15% additively. Avenging Truth absorbs 50% of incoming damage and releases it on the next charge attack and Truth (Gas, health, parkour) effects. ",
+      "wepnotes": "Low damage per hit, very low attack speed. Blocking adds up to 4 charges that increases critical and status chance by 15% additively. Avenging Truth absorbs 50% of incoming damage and releases it on the next charge attack and Truth (Gas, health, parkour) effects. ",
       "rivenDisposition": 1
     },
     "Skiajati": {
@@ -2537,7 +2537,7 @@
       "tier": "Contender",
       "type": "Nikana",
       "url": "http://warframe.wikia.com/wiki/Skiajati",
-      "wepnotes": "Low damage per hit, monstrous DPS, very high attack speed. Grants invisibility upon finisher, which will expire when attacking, using an ability, or after 5s. ",
+      "wepnotes": "Low damage per hit, very high attack speed. Grants invisibility upon finisher, which will expire when attacking, using an ability, or after 5s. ",
       "rivenDisposition": 1
     },
     "Synoid Heliocor": {
@@ -2553,7 +2553,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Synoid_Heliocor",
-      "wepnotes": "Low damage per hit, poor DPS, high attack speed. Scans kills into codex, and if the target's Codex entry is complete it will create a friendly Spectre of said target. Spectre lasts 30s. ",
+      "wepnotes": "Low damage per hit, high attack speed. Scans kills into codex, and if the target's Codex entry is complete it will create a friendly Spectre of said target. Spectre lasts 30s. ",
       "rivenDisposition": 0.94
     },
     "Tatsu": {
@@ -2569,7 +2569,7 @@
       "tier": "Contender",
       "type": "Two-handed Nikana",
       "url": "http://warframe.wikia.com/wiki/Tatsu",
-      "wepnotes": "Low damage per hit, monstrous DPS, high attack speed. Suffers from relatively poor consistency. ",
+      "wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1
     },
     "Tekko": {
@@ -2585,7 +2585,7 @@
       "tier": "Need buffs",
       "type": "Fists",
       "url": "http://warframe.wikia.com/wiki/Tekko",
-      "wepnotes": "Very low damage per hit, poor DPS, low attack speed. ",
+      "wepnotes": "Very low damage per hit, low attack speed. ",
       "rivenDisposition": 1.4
     },
     "Telos Boltace": {
@@ -2601,7 +2601,7 @@
       "tier": "Viable",
       "type": "Tonfa",
       "url": "http://warframe.wikia.com/wiki/Telos_Boltace",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from relatively poor consistency. Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. ",
+      "wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. ",
       "rivenDisposition": 1
     },
     "Tipedo Prime": {
@@ -2617,7 +2617,7 @@
       "tier": "Top",
       "type": "Staff",
       "url": "http://warframe.wikia.com/wiki/Tipedo_Prime",
-      "wepnotes": "Low damage per hit, insane dps, very high attack speed. ✪",
+      "wepnotes": "Low damage per hit, very high attack speed. ✪",
       "rivenDisposition": 1.31
     },
     "Tonbo": {
@@ -2633,7 +2633,7 @@
       "tier": "Top",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Tonbo",
-      "wepnotes": "Very low damage per hit, insane dps, low attack speed. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. ✪",
       "rivenDisposition": 1.38
     },
     "Twin Basolk": {
@@ -2649,7 +2649,7 @@
       "tier": "Contender",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Twin_Basolk",
-      "wepnotes": "Very low damage per hit, monstrous DPS, low attack speed. Suffers from relatively poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Rift Strike teleports user to a target within 25m on charge attack. ✪",
       "rivenDisposition": 1.18
     },
     "Twin Krohkur": {
@@ -2665,7 +2665,7 @@
       "tier": "Top",
       "type": "Dual Swords",
       "url": "http://warframe.wikia.com/wiki/Twin_Krohkur",
-      "wepnotes": "Very low damage per hit, insane dps, low attack speed. Lower crit and speed hamper scaling in extreme situations. ✪",
+      "wepnotes": "Very low damage per hit, low attack speed. Lower crit and speed hamper scaling in extreme situations. ✪",
       "rivenDisposition": 1.48
     },
     "Vaykor Sydon": {
@@ -2681,7 +2681,7 @@
       "tier": "Viable",
       "type": "Polearm",
       "url": "http://warframe.wikia.com/wiki/Vaykor_Sydon",
-      "wepnotes": "Low damage per hit, moderate DPS, high attack speed. Suffers from relatively poor consistency. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
+      "wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
       "rivenDisposition": 0.84
     },
     "Venka Prime": {
@@ -2697,7 +2697,7 @@
       "tier": "Contender",
       "type": "Claws",
       "url": "http://warframe.wikia.com/wiki/Venka_Prime",
-      "wepnotes": "Very low damage per hit, monstrous DPS, high attack speed. Has 50% more melee combo multiplier; excellent for Blood Rush and Weeping Wounds. Stance has unusual 2x multiplier on slide. ",
+      "wepnotes": "Very low damage per hit, high attack speed. Has 50% more melee combo multiplier; excellent for Blood Rush and Weeping Wounds. Stance has unusual 2x multiplier on slide. ",
       "rivenDisposition": 0.5
     },
     "Volnus": {
@@ -2713,7 +2713,7 @@
       "tier": "Viable",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Volnus",
-      "wepnotes": "Low damage per hit, moderate DPS, very high attack speed. ",
+      "wepnotes": "Low damage per hit, very high attack speed. ",
       "rivenDisposition": 1.2
     },
     "War": {
@@ -2729,7 +2729,7 @@
       "tier": "Viable",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/War",
-      "wepnotes": "High damage per hit, moderate DPS, low attack speed. What is it good for? ",
+      "wepnotes": "High damage per hit, low attack speed. What is it good for? ",
       "rivenDisposition": 0.5
     },
     "Wolf Sledge": {
@@ -2745,7 +2745,7 @@
       "tier": "Need buffs",
       "type": "Hammer",
       "url": "http://warframe.wikia.com/wiki/Wolf_Sledge",
-      "wepnotes": "High damage per hit, poor DPS, high attack speed. ",
+      "wepnotes": "High damage per hit, high attack speed. ",
       "rivenDisposition": 1
     },
     "Zenistar": {
@@ -2761,7 +2761,7 @@
       "tier": "Viable",
       "type": "Heavy Blade",
       "url": "http://warframe.wikia.com/wiki/Zenistar",
-      "wepnotes": "Low damage per hit, moderate DPS, very low attack speed. Suffers from relatively poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
+      "wepnotes": "Low damage per hit, very low attack speed. Suffers from relatively poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
       "rivenDisposition": 0.5
     },
     "Zaw - Ablation": {
@@ -2777,7 +2777,7 @@
       "tier": "Top",
       "type": "Staff",
       "url": "https://semlar.com/zawcalc/638",
-      "wepnotes": "Low damage per hit, insane dps, low attack speed. Plague Keewar, Seekalla, and Ekwana II Jai zaw. ✪",
+      "wepnotes": "Low damage per hit, low attack speed. Plague Keewar, Seekalla, and Ekwana II Jai zaw. ✪",
       "rivenDisposition": 1
     },
     "Zaw - Atgeir": {
@@ -2793,7 +2793,7 @@
       "tier": "Top",
       "type": "Polearm",
       "url": "https://semlar.com/zawcalc/498",
-      "wepnotes": "Low damage per hit, insane dps, low attack speed. Suffers from relatively poor consistency. Cyath, Shtung, and Ekwana II Jai zaw. ✪",
+      "wepnotes": "Low damage per hit, low attack speed. Suffers from relatively poor consistency. Cyath, Shtung, and Ekwana II Jai zaw. ✪",
       "rivenDisposition": 1
     },
     "Zaw - Carnwennan": {
@@ -2809,7 +2809,7 @@
       "tier": "Contender",
       "type": "Dagger",
       "url": "https://semlar.com/zawcalc/0014",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Balla, Peye, and Vargeet Jai II zaw. ",
+      "wepnotes": "Low damage per hit, low attack speed. Balla, Peye, and Vargeet Jai II zaw. ",
       "rivenDisposition": 1
     },
     "Zaw - Dainsleif": {
@@ -2825,7 +2825,7 @@
       "tier": "Contender",
       "type": "Sword",
       "url": "https://semlar.com/zawcalc/5810",
-      "wepnotes": "Low damage per hit, monstrous DPS, low attack speed. Mewan, Korb, and Vargeet II Jai zaw. ",
+      "wepnotes": "Low damage per hit, low attack speed. Mewan, Korb, and Vargeet II Jai zaw. ",
       "rivenDisposition": 1
     },
     "Zaw - de Carranza": {
@@ -2841,7 +2841,7 @@
       "tier": "Top",
       "type": "Rapier",
       "url": "https://semlar.com/zawcalc/7810",
-      "wepnotes": "Low damage per hit, insane dps, low attack speed. Plague Kripath, Korb, and Vargeet II Jai zaw. ✪",
+      "wepnotes": "Low damage per hit, low attack speed. Plague Kripath, Korb, and Vargeet II Jai zaw. ✪",
       "rivenDisposition": 1
     },
     "Zaw - Dojigiri": {
@@ -2857,7 +2857,7 @@
       "tier": "Viable",
       "type": "Nikana",
       "url": "https://semlar.com/zawcalc/9810",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Sepfahn, Korb, and Vargeet II Jai zaw. ",
+      "wepnotes": "Low damage per hit, low attack speed. Sepfahn, Korb, and Vargeet II Jai zaw. ",
       "rivenDisposition": 1
     },
     "Zaw - Hrunting": {
@@ -2873,7 +2873,7 @@
       "tier": "Top",
       "type": "Heavy Blade",
       "url": "https://semlar.com/zawcalc/898",
-      "wepnotes": "High damage per hit, insane dps, low attack speed. Dokrahm, Shtung, and Ekwana II Jai zaw. ✪",
+      "wepnotes": "High damage per hit, low attack speed. Dokrahm, Shtung, and Ekwana II Jai zaw. ✪",
       "rivenDisposition": 1
     },
     "Zaw - Mah-alleinir": {
@@ -2889,7 +2889,7 @@
       "tier": "Top",
       "type": "Hammer",
       "url": "https://semlar.com/zawcalc/a98",
-      "wepnotes": "High damage per hit, insane dps, low attack speed. Rabvee, Shtung, and Ekwana II Jai zaw. ✪",
+      "wepnotes": "High damage per hit, low attack speed. Rabvee, Shtung, and Ekwana II Jai zaw. ✪",
       "rivenDisposition": 1
     },
     "Zaw - Non Timetis Messor": {
@@ -2905,7 +2905,7 @@
       "tier": "Viable",
       "type": "Scythe",
       "url": "https://semlar.com/zawcalc/688",
-      "wepnotes": "Low damage per hit, moderate DPS, low attack speed. Plague Keewar, Korb, and Ekwana II Jai zaw. ",
+      "wepnotes": "Low damage per hit, low attack speed. Plague Keewar, Korb, and Ekwana II Jai zaw. ",
       "rivenDisposition": 1
     },
     "Zaw - Ulfberht": {
@@ -2921,7 +2921,7 @@
       "tier": "Top",
       "type": "Machete",
       "url": "https://semlar.com/zawcalc/a811",
-      "wepnotes": "Low damage per hit, insane dps, low attack speed. Rabvee, Korb, and Vargeet II Ruhang zaw. ✪",
+      "wepnotes": "Low damage per hit, low attack speed. Rabvee, Korb, and Vargeet II Ruhang zaw. ✪",
       "rivenDisposition": 1
     }
   },
@@ -2937,7 +2937,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Amprex",
-      "notes": "Low damage per shot, insane dps, beam munitions. Beam chains to nearby enemies giving it decent AOE. ",
+      "notes": "Low damage per shot; beam munitions. Beam chains to nearby enemies giving it decent AOE. ",
       "rivenDisposition": 0.7
     },
     "Acceltra": {
@@ -2951,7 +2951,7 @@
       "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Acceltra",
-      "notes": "High damage per shot, insane dps, projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
+      "notes": "High damage per shot; projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
       "rivenDisposition": 1
     },
     "Arca Plasmor": {
@@ -2965,7 +2965,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Arca_Plasmor",
-      "notes": "Very high damage per shot, moderate DPS, projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have a headshot multiplier. ",
+      "notes": "Very high damage per shot; projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have a headshot multiplier. ",
       "rivenDisposition": 0.6
     },
     "Argonak": {
@@ -2979,7 +2979,7 @@
       "tier": "Need buffs",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Argonak",
-      "notes": "Low damage per shot, poor DPS, hitscan munitions. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; hitscan munitions. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.2
     },
     "Astilla": {
@@ -2993,7 +2993,7 @@
       "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Astilla",
-      "notes": "Low damage per shot, insane dps, projectile munitions. Deals 30% of damage upon impact and 70% on explosion. ✪",
+      "notes": "Low damage per shot; projectile munitions. Deals 30% of damage upon impact and 70% on explosion. ✪",
       "rivenDisposition": 1.1
     },
     "Attica": {
@@ -3007,7 +3007,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Attica",
-      "notes": "High damage per shot, poor DPS, projectile munitions. ",
+      "notes": "High damage per shot; projectile munitions. ",
       "rivenDisposition": 1.42
     },
     "Battacor": {
@@ -3021,7 +3021,7 @@
       "tier": "Contender",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Battacor",
-      "notes": "High damage per shot, monstrous DPS, projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ",
+      "notes": "High damage per shot; projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ",
       "rivenDisposition": 1
     },
     "Baza": {
@@ -3035,7 +3035,7 @@
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Baza",
-      "notes": "Very low damage per shot, moderate DPS, hitscan munitions. Completely silent but has damage falloff similar to shotguns. ",
+      "notes": "Very low damage per shot; hitscan munitions. Completely silent but has damage falloff similar to shotguns. ",
       "rivenDisposition": 1
     },
     "Boar Prime": {
@@ -3049,7 +3049,7 @@
       "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Boar_Prime",
-      "notes": "Very high damage per shot, monstrous DPS, hitscan munitions. Required to mod for 100% status chance. ✪",
+      "notes": "Very high damage per shot; hitscan munitions. Required to mod for 100% status chance. ✪",
       "rivenDisposition": 1.34
     },
     "Boltor Prime": {
@@ -3063,7 +3063,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Boltor_Prime",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. ",
+      "notes": "Low damage per shot; projectile munitions. ",
       "rivenDisposition": 1.05
     },
     "Braton Prime": {
@@ -3077,7 +3077,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Braton_Prime",
-      "notes": "Very low damage per shot, poor DPS, hitscan munitions. ",
+      "notes": "Very low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.2
     },
     "Burston Prime": {
@@ -3091,7 +3091,7 @@
       "tier": "Need buffs",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Burston_Prime",
-      "notes": "Low damage per shot, poor DPS, hitscan munitions. Gilded Truth (Arbiters of Hexis) increases fire rate and provide Truth effect (Gas, health, parkour). ",
+      "notes": "Low damage per shot; hitscan munitions. Gilded Truth (Arbiters of Hexis) increases fire rate and provide Truth effect (Gas, health, parkour). ",
       "rivenDisposition": 1.3
     },
     "Buzlok": {
@@ -3105,7 +3105,7 @@
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Buzlok",
-      "notes": "Low damage per shot, moderate DPS, projectile munitions. Alt fire launches tracer beacon which gives additive 50% Crit Chance (20 seconds) that remain active even the target is dead. Has insane DPS potential but difficult to attain due to difficulty in handling beacon and relatively poor handling. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; projectile munitions. Alt fire launches tracer beacon which gives additive 50% Crit Chance (20 seconds) that remain active even the target is dead. Has insane DPS potential but difficult to attain due to difficulty in handling beacon and relatively poor handling. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.45
     },
     "Cernos Prime": {
@@ -3119,7 +3119,7 @@
       "tier": "Top",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Cernos_Prime",
-      "notes": "Very high damage per shot, insane dps, projectile munitions. Alt fire toggles firing pattern between horizontal and vertical (+50% headshot damage). ✪",
+      "notes": "Very high damage per shot; projectile munitions. Alt fire toggles firing pattern between horizontal and vertical (+50% headshot damage). ✪",
       "rivenDisposition": 1.15
     },
     "Convectrix": {
@@ -3133,7 +3133,7 @@
       "tier": "Viable",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Convectrix",
-      "notes": "Very low damage per shot, moderate DPS, beam munitions. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Alt fire sweeps the beam from narrow to wide instead and is useful for applying status effects to large crowds. [Efficient Beams] makes 100% status modding easy while consuming no ammo while not dealing damage. This makes it possible to keep the beam narrow for maximum concentrated damage without hurting ammo economy. ✪",
+      "notes": "Very low damage per shot; beam munitions. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Alt fire sweeps the beam from narrow to wide instead and is useful for applying status effects to large crowds. [Efficient Beams] makes 100% status modding easy while consuming no ammo while not dealing damage. This makes it possible to keep the beam narrow for maximum concentrated damage without hurting ammo economy. ✪",
       "rivenDisposition": 1.46
     },
     "Corinth": {
@@ -3147,7 +3147,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Corinth",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Reload should be done when clip is empty as there is a delay between reloading and firing, but the gains should be minimal. ",
+      "notes": "Very high damage per shot; hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Reload should be done when clip is empty as there is a delay between reloading and firing, but the gains should be minimal. ",
       "rivenDisposition": 0.95
     },
     "Daikyu": {
@@ -3161,7 +3161,7 @@
       "tier": "Viable",
       "type": "Charge (1.0s)",
       "url": "http://warframe.wikia.com/wiki/Daikyu",
-      "notes": "Very high damage per shot, moderate DPS, projectile munitions. ",
+      "notes": "Very high damage per shot; projectile munitions. ",
       "rivenDisposition": 1.3
     },
     "Dera Vandal": {
@@ -3175,7 +3175,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Dera_Vandal",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. ",
+      "notes": "Very low damage per shot; projectile munitions. ",
       "rivenDisposition": 1.3
     },
     "Drakgoon": {
@@ -3189,7 +3189,7 @@
       "tier": "Need buffs",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Drakgoon",
-      "notes": "Very high damage per shot, poor DPS, projectile munitions. ",
+      "notes": "Very high damage per shot; projectile munitions. ",
       "rivenDisposition": 1.48
     },
     "Dread": {
@@ -3203,7 +3203,7 @@
       "tier": "Viable",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Dread",
-      "notes": "High damage per shot, moderate DPS, projectile munitions. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. ",
       "rivenDisposition": 1.2
     },
     "Exergis": {
@@ -3217,7 +3217,7 @@
       "tier": "Contender",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Exergis",
-      "notes": "Very high damage per shot, monstrous DPS, projectile munitions. ",
+      "notes": "Very high damage per shot; projectile munitions. ",
       "rivenDisposition": 1
     },
     "Ferrox": {
@@ -3231,7 +3231,7 @@
       "tier": "Contender",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Ferrox",
-      "notes": "Very high damage per shot, monstrous DPS, hitscan munitions. Munition shot the moment it is fully charged. Alt fire should be used to reduce reliance on primary weapons. Suffers from relatively poor consistency. ✪",
+      "notes": "Very high damage per shot; hitscan munitions. Munition shot the moment it is fully charged. Alt fire should be used to reduce reliance on primary weapons. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.15
     },
     "Flux Rifle": {
@@ -3245,7 +3245,7 @@
       "tier": "Need buffs",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Flux_Rifle",
-      "notes": "Very low damage per shot, poor DPS, beam munitions. ",
+      "notes": "Very low damage per shot; beam munitions. ",
       "rivenDisposition": 1.55
     },
     "Fulmin": {
@@ -3259,7 +3259,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Fulmin",
-      "notes": "Very high damage per shot, insane dps, projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. Suffers from relatively poor consistency. ✪",
+      "notes": "Very high damage per shot; projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Glaxion Vandal": {
@@ -3273,7 +3273,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Glaxion_Vandal",
-      "notes": "Very low damage per shot, insane dps, beam munitions. ✪",
+      "notes": "Very low damage per shot; beam munitions. ✪",
       "rivenDisposition": 1.25
     },
     "Harpak": {
@@ -3287,7 +3287,7 @@
       "tier": "Need buffs",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Harpak",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer. Exposing Harpoon augment gives it the edge needed to compte but still relatively lacklustre. ",
+      "notes": "Low damage per shot; projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer. Exposing Harpoon augment gives it the edge needed to compte but still relatively lacklustre. ",
       "rivenDisposition": 1.55
     },
     "Hema": {
@@ -3301,7 +3301,7 @@
       "tier": "Contender",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Hema",
-      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ",
+      "notes": "Low damage per shot; projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ",
       "rivenDisposition": 1.25
     },
     "Hind": {
@@ -3315,7 +3315,7 @@
       "tier": "Need buffs",
       "type": "5-round burst",
       "url": "http://warframe.wikia.com/wiki/Hind",
-      "notes": "Very low damage per shot, poor DPS, hitscan munitions. Alt fire has better DPS on paper but due to low fire rate it still doesn't do enough. ",
+      "notes": "Very low damage per shot; hitscan munitions. Alt fire has better DPS on paper but due to low fire rate it still doesn't do enough. ",
       "rivenDisposition": 1.42
     },
     "Ignis Wraith": {
@@ -3329,7 +3329,7 @@
       "tier": "Contender",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Ignis_Wraith",
-      "notes": "Low damage per shot, monstrous DPS, beam munitions. AOE works like how you'd imagine an actual flamethrower would. ",
+      "notes": "Low damage per shot; beam munitions. AOE works like how you'd imagine an actual flamethrower would. ",
       "rivenDisposition": 0.55
     },
     "Javlok": {
@@ -3343,7 +3343,7 @@
       "tier": "Need buffs",
       "type": "Charge (0.3s)",
       "url": "http://warframe.wikia.com/wiki/Javlok",
-      "notes": "High damage per shot, poor DPS, projectile munitions. Alt fire creats a localized explosion. ",
+      "notes": "High damage per shot; projectile munitions. Alt fire creats a localized explosion. ",
       "rivenDisposition": 1.2
     },
     "Karak Wraith": {
@@ -3357,7 +3357,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Karak_Wraith",
-      "notes": "Very low damage per shot, poor DPS, hitscan munitions. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot; hitscan munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.28
     },
     "Kohm": {
@@ -3371,7 +3371,7 @@
       "tier": "Top",
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Kohm",
-      "notes": "Very high damage per shot, insane dps, hitscan munitions. Spool up increases bullets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs as well as having insane innate punchthrough. Riven disposition is relatively high for DPS potential and can help reach 100% status chance. Suffers from relatively poor consistency. ✪",
+      "notes": "Very high damage per shot; hitscan munitions. Spool up increases bullets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs as well as having insane innate punchthrough. Riven disposition is relatively high for DPS potential and can help reach 100% status chance. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.4
     },
     "Komorex": {
@@ -3385,7 +3385,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Komorex",
-      "notes": "Low damage per shot, insane dps, projectile munitions. ",
+      "notes": "Low damage per shot; projectile munitions. ",
       "rivenDisposition": 1
     },
     "Lanka": {
@@ -3399,7 +3399,7 @@
       "tier": "Need buffs",
       "type": "Charge (1.0s)",
       "url": "http://warframe.wikia.com/wiki/Lanka",
-      "notes": "Very high damage per shot, poor DPS, projectile munitions. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to Crit Chance (20%/30%/50%). Innate Electric damage and high direct damage potential makes the Lanka the choice weapon for Eidolon hunting. ",
+      "notes": "Very high damage per shot; projectile munitions. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to Crit Chance (20%/30%/50%). Innate Electric damage and high direct damage potential makes the Lanka the choice weapon for Eidolon hunting. ",
       "rivenDisposition": 0.8
     },
     "Latron Prime": {
@@ -3413,7 +3413,7 @@
       "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Latron_Prime",
-      "notes": "High damage per shot, poor DPS, hitscan munitions. ",
+      "notes": "High damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.25
     },
     "Lenz": {
@@ -3427,7 +3427,7 @@
       "tier": "Contender",
       "type": "Charge (1.2s)",
       "url": "http://warframe.wikia.com/wiki/Lenz",
-      "notes": "Very high damage per shot, monstrous DPS, projectile munitions. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. ",
+      "notes": "Very high damage per shot; projectile munitions. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. ",
       "rivenDisposition": 0.9
     },
     "Miter": {
@@ -3441,7 +3441,7 @@
       "tier": "Need buffs",
       "type": "Charge (0.75s)",
       "url": "http://warframe.wikia.com/wiki/Miter",
-      "notes": "High damage per shot, poor DPS, projectile munitions. Neutralizing Justice can instantly destroy nullifier bubbles and has Justice (Blast, Health, Armor) effects. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. Neutralizing Justice can instantly destroy nullifier bubbles and has Justice (Blast, Health, Armor) effects. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.55
     },
     "Mutalist Cernos": {
@@ -3455,7 +3455,7 @@
       "tier": "Need buffs",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Mutalist_Cernos",
-      "notes": "High damage per shot, poor DPS, projectile munitions. Fully charged arrows leave a gas trail that continues to proc status effects. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. Fully charged arrows leave a gas trail that continues to proc status effects. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.35
     },
     "Mutalist Quanta": {
@@ -3469,7 +3469,7 @@
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Mutalist_Quanta",
-      "notes": "Very low damage per shot, moderate DPS, projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
+      "notes": "Very low damage per shot; projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
       "rivenDisposition": 1.55
     },
     "Nagantaka": {
@@ -3483,7 +3483,7 @@
       "tier": "Viable",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Nagantaka",
-      "notes": "High damage per shot, moderate DPS, projectile munitions. Headshots have a chance to increase reload speed. Secondary fire empties clip with little additional recoil and is highly recommended. ",
+      "notes": "High damage per shot; projectile munitions. Headshots have a chance to increase reload speed. Secondary fire empties clip with little additional recoil and is highly recommended. ",
       "rivenDisposition": 1.1
     },
     "Ogris": {
@@ -3497,7 +3497,7 @@
       "tier": "Need buffs",
       "type": "Charge (0.3s)",
       "url": "http://warframe.wikia.com/wiki/Ogris",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. Nightwatch Napalm turns the Ogris into an area denial weapon. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; projectile munitions. Nightwatch Napalm turns the Ogris into an area denial weapon. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.3
     },
     "Opticor": {
@@ -3511,7 +3511,7 @@
       "tier": "Need buffs",
       "type": "Charge (2.0s)",
       "url": "http://warframe.wikia.com/wiki/Opticor",
-      "notes": "Very high damage per shot, poor DPS, hitscan munitions. Do not stare directly into beam. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; hitscan munitions. Do not stare directly into beam. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.05
     },
     "Opticor Vandal": {
@@ -3525,7 +3525,7 @@
       "tier": "Contender",
       "type": "Charge (0.8s)",
       "url": "http://warframe.wikia.com/wiki/Opticor_Vandal",
-      "notes": "Very high damage per shot, monstrous DPS, hitscan munitions. ",
+      "notes": "Very high damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.05
     },
     "Panthera": {
@@ -3539,7 +3539,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Panthera",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. Alt-fire puts a spinning blade a few meters in from of the weapon that constantly spin and deal damage. ",
+      "notes": "Low damage per shot; projectile munitions. Alt-fire puts a spinning blade a few meters in from of the weapon that constantly spin and deal damage. ",
       "rivenDisposition": 1.4
     },
     "Paracyst": {
@@ -3553,7 +3553,7 @@
       "tier": "Need buffs",
       "type": "3-round burst",
       "url": "http://warframe.wikia.com/wiki/Paracyst",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. Three-round burst is wasteful at times. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot; projectile munitions. Three-round burst is wasteful at times. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.31
     },
     "Paris Prime": {
@@ -3567,7 +3567,7 @@
       "tier": "Viable",
       "type": "Charge (0.5s)",
       "url": "http://warframe.wikia.com/wiki/Paris_Prime",
-      "notes": "High damage per shot, moderate DPS, projectile munitions. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.3
     },
     "Phage": {
@@ -3581,7 +3581,7 @@
       "tier": "Contender",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Phage",
-      "notes": "Very low damage per shot, monstrous DPS, beam munitions. Scoping narrows down the beam to a single point. ✪",
+      "notes": "Very low damage per shot; beam munitions. Scoping narrows down the beam to a single point. ✪",
       "rivenDisposition": 1.46
     },
     "Phantasma": {
@@ -3595,7 +3595,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Phantasma",
-      "notes": "Low damage per shot, insane dps, beam munitions. Primary fire has usable AOE. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. Longer charge imparts more damage. ✪",
+      "notes": "Low damage per shot; beam munitions. Primary fire has usable AOE. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. Longer charge imparts more damage. ✪",
       "rivenDisposition": 1
     },
     "Prisma Gorgon": {
@@ -3609,7 +3609,7 @@
       "tier": "Top",
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Prisma_Gorgon",
-      "notes": "Low damage per shot, insane dps, hitscan munitions. Roll for recoil reduction in riven. ✪",
+      "notes": "Low damage per shot; hitscan munitions. Roll for recoil reduction in riven. ✪",
       "rivenDisposition": 1.3
     },
     "Prisma Grakata": {
@@ -3623,7 +3623,7 @@
       "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Grakata",
-      "notes": "Very low damage per shot, monstrous DPS, hitscan munitions. ✪",
+      "notes": "Very low damage per shot; hitscan munitions. ✪",
       "rivenDisposition": 1.2
     },
     "Prisma Grinlok": {
@@ -3637,7 +3637,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Grinlok",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ",
+      "notes": "Very high damage per shot; hitscan munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ",
       "rivenDisposition": 1.25
     },
     "Prisma Tetra": {
@@ -3651,7 +3651,7 @@
       "tier": "Need buffs",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Tetra",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. ",
+      "notes": "Very low damage per shot; projectile munitions. ",
       "rivenDisposition": 1.45
     },
     "Quanta Vandal": {
@@ -3665,7 +3665,7 @@
       "tier": "Contender",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Quanta_Vandal",
-      "notes": "Low damage per shot, monstrous DPS, beam munitions. Could do with punchthrough but build is tight as it is. Alt fire useful to learn Euclidean geometry. ✪",
+      "notes": "Low damage per shot; beam munitions. Could do with punchthrough but build is tight as it is. Alt fire useful to learn Euclidean geometry. ✪",
       "rivenDisposition": 1.25
     },
     "Quartakk": {
@@ -3679,7 +3679,7 @@
       "tier": "Need buffs",
       "type": "4-round burst",
       "url": "http://warframe.wikia.com/wiki/Quartakk",
-      "notes": "Low damage per shot, poor DPS, hitscan munitions. Four-shot burst is wasteful at times. ",
+      "notes": "Low damage per shot; hitscan munitions. Four-shot burst is wasteful at times. ",
       "rivenDisposition": 1.25
     },
     "Rakta Cernos": {
@@ -3689,11 +3689,11 @@
       "dmgLink": "https://imgur.com/U3lJAPb",
       "mr": 12,
       "name": "Rakta Cernos",
-      "rank": 66,
-      "tier": "Need buffs",
+      "rank": 51.8,
+      "tier": "Contender",
       "type": "Charge (0.25s)",
       "url": "http://warframe.wikia.com/wiki/Rakta_Cernos",
-      "notes": "Very high damage per shot, poor DPS, projectile munitions. Good syndicate proc (Viral + energy restore) but doesn't do much for DPS since effective fire-rate for bows are low. ",
+      "notes": "Very high damage per shot; projectile munitions. Good syndicate proc (Viral + energy restore) helps weaken enemies for the Slash proc from Hunters Munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.15
     },
     "Rubico Prime": {
@@ -3707,7 +3707,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Rubico_Prime",
-      "notes": "Very high damage per shot, insane dps, hitscan munitions. Sniper combo counter rampup is amazing (min. 1), zooming in gives additive bonus to Crit Multiplier (35%/50%). High direct damage potential and smooth handling makes Rubico Prime a popular choice for Eidolon Hunting. ",
+      "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is amazing (min. 1), zooming in gives additive bonus to Crit Multiplier (35%/50%). High direct damage potential and smooth handling makes Rubico Prime a popular choice for Eidolon Hunting. ",
       "rivenDisposition": 0.7
     },
     "Sancti Tigris": {
@@ -3721,7 +3721,7 @@
       "tier": "Need buffs",
       "type": "Duplex",
       "url": "http://warframe.wikia.com/wiki/Sancti_Tigris",
-      "notes": "Very high damage per shot, poor DPS, hitscan munitions. Duplex trigger might take a while to get used to. Purity (Corrosive, health) effect can be useful. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; hitscan munitions. Duplex trigger might take a while to get used to. Purity (Corrosive, health) effect can be useful. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.55
     },
     "Scourge": {
@@ -3735,7 +3735,7 @@
       "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Scourge",
-      "notes": "Low damage per shot, insane dps, projectile munitions. Alt fire creates a localized bullet attractor field on nearby enemies' head. ✪",
+      "notes": "Low damage per shot; projectile munitions. Alt fire creates a localized bullet attractor field on nearby enemies' head. ✪",
       "rivenDisposition": 1.15
     },
     "Secura Penta": {
@@ -3749,7 +3749,7 @@
       "tier": "Viable",
       "type": "Secondary",
       "url": "http://warframe.wikia.com/wiki/Secura_Penta",
-      "notes": "Very high damage per shot, moderate DPS, projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by mods) and causes instant explosions while leaving a burning patch on the ground. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by mods) and causes instant explosions while leaving a burning patch on the ground. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.3
     },
     "Snipetron Vandal": {
@@ -3763,7 +3763,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Snipetron_Vandal",
-      "notes": "High damage per shot, moderate DPS, hitscan munitions. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). ",
+      "notes": "High damage per shot; hitscan munitions. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). ",
       "rivenDisposition": 1.17
     },
     "Sobek": {
@@ -3777,7 +3777,7 @@
       "tier": "Viable",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Sobek",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Shattering Justice (Blast, Health, Armor) can make it reach 100% status chance while Acid Shells can be used to provide some AOE damage. ",
+      "notes": "Very high damage per shot; hitscan munitions. Shattering Justice (Blast, Health, Armor) can make it reach 100% status chance while Acid Shells can be used to provide some AOE damage. ",
       "rivenDisposition": 1.33
     },
     "Soma Prime": {
@@ -3791,7 +3791,7 @@
       "tier": "Viable",
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Soma_Prime",
-      "notes": "Very low damage per shot, moderate DPS, hitscan munitions. Best paired with Frost Prime and Scindo Prime. ",
+      "notes": "Very low damage per shot; hitscan munitions. Best paired with Frost Prime and Scindo Prime. ",
       "rivenDisposition": 0.85
     },
     "Stradavar Prime": {
@@ -3805,7 +3805,7 @@
       "tier": "Viable",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Stradavar_Prime",
-      "notes": "Low damage per shot, moderate DPS, hitscan munitions. Can alternate between semi-auto (better DPS) and full-auto (useful for breaking nullifier bubbles). Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; hitscan munitions. Can alternate between semi-auto (better DPS) and full-auto (useful for breaking nullifier bubbles). Suffers from relatively poor consistency. ",
       "rivenDisposition": 1
     },
     "Strun Wraith": {
@@ -3819,7 +3819,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Strun_Wraith",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Required to mod for 100% status chance. ✪",
+      "notes": "Very high damage per shot; hitscan munitions. Required to mod for 100% status chance. ✪",
       "rivenDisposition": 1.35
     },
     "Supra Vandal": {
@@ -3833,7 +3833,7 @@
       "tier": "Viable",
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Supra_Vandal",
-      "notes": "Low damage per shot, moderate DPS, projectile munitions. Entropy Burst (Magnetic, Energy) can greatly increase status chance. ",
+      "notes": "Low damage per shot; projectile munitions. Entropy Burst (Magnetic, Energy) can greatly increase status chance. ",
       "rivenDisposition": 0.8
     },
     "Sybaris Prime": {
@@ -3847,7 +3847,7 @@
       "tier": "Viable",
       "type": "2-round burst",
       "url": "http://warframe.wikia.com/wiki/Sybaris_Prime",
-      "notes": "High damage per shot, moderate DPS, hitscan munitions. Two-round burst is wasteful at times and the magazine is relatively small for how fast it fires. ",
+      "notes": "High damage per shot; hitscan munitions. Two-round burst is wasteful at times and the magazine is relatively small for how fast it fires. ",
       "rivenDisposition": 1.05
     },
     "Synapse": {
@@ -3861,7 +3861,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Synapse",
-      "notes": "Low damage per shot, insane dps, beam munitions. ✪",
+      "notes": "Low damage per shot; beam munitions. ✪",
       "rivenDisposition": 1.31
     },
     "Synoid Simulor": {
@@ -3875,7 +3875,7 @@
       "tier": "Need buffs",
       "type": "Secondary",
       "url": "http://warframe.wikia.com/wiki/Synoid_Simulor",
-      "notes": "Very low damage per shot, poor DPS, projectile munitions. ",
+      "notes": "Very low damage per shot; projectile munitions. ",
       "rivenDisposition": 1
     },
     "Telos Boltor": {
@@ -3889,7 +3889,7 @@
       "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Telos_Boltor",
-      "notes": "Low damage per shot, monstrous DPS, projectile munitions. Truth (Gas, health, parkour) syndicate proc is helpful at times. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; projectile munitions. Truth (Gas, health, parkour) syndicate proc is helpful at times. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.05
     },
     "Tenora": {
@@ -3903,7 +3903,7 @@
       "tier": "Contender",
       "type": "Spool-up",
       "url": "http://warframe.wikia.com/wiki/Tenora",
-      "notes": "Low damage per shot, monstrous DPS, hitscan munitions. Has a decent alt-fire that can be used to take down medium units quickly. Light units and heavy units should still be dealt with using primary fire. ",
+      "notes": "Low damage per shot; hitscan munitions. Has a decent alt-fire that can be used to take down medium units quickly. Light units and heavy units should still be dealt with using primary fire. ",
       "rivenDisposition": 1.05
     },
     "Tiberon Prime": {
@@ -3917,7 +3917,7 @@
       "tier": "Contender",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Tiberon_Prime",
-      "notes": "High damage per shot, monstrous DPS, hitscan munitions. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. ",
+      "notes": "High damage per shot; hitscan munitions. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. ",
       "rivenDisposition": 0.95
     },
     "Tigris Prime": {
@@ -3931,7 +3931,7 @@
       "tier": "Viable",
       "type": "Duplex",
       "url": "http://warframe.wikia.com/wiki/Tigris_Prime",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Duplex trigger might take a while to get used to. Required to mod for 100% status chance. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; hitscan munitions. Duplex trigger might take a while to get used to. Required to mod for 100% status chance. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.55
     },
     "Tonkor": {
@@ -3945,7 +3945,7 @@
       "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Tonkor",
-      "notes": "High damage per shot, poor DPS, projectile munitions. Grenades can cause self damage. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. Grenades can cause self damage. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.15
     },
     "Torid": {
@@ -3959,7 +3959,7 @@
       "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Torid",
-      "notes": "Low damage per shot, poor DPS, projectile munitions. Thing fired stick on surfaces/targets and continue to emit gas that deals damage and causes status effects. ",
+      "notes": "Low damage per shot; projectile munitions. Thing fired stick on surfaces/targets and continue to emit gas that deals damage and causes status effects. ",
       "rivenDisposition": 1.3
     },
     "Vaykor Hek": {
@@ -3973,7 +3973,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Vaykor_Hek",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Justice (Blast, Health, Armor) effects can be useful. ",
+      "notes": "Very high damage per shot; hitscan munitions. Justice (Blast, Health, Armor) effects can be useful. ",
       "rivenDisposition": 0.95
     },
     "Vectis Prime": {
@@ -3987,7 +3987,7 @@
       "tier": "Top",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Vectis_Prime",
-      "notes": "Very high damage per shot, insane dps, hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (35%/55%). ",
+      "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (35%/55%). ",
       "rivenDisposition": 0.85
     },
     "Veldt": {
@@ -4001,7 +4001,7 @@
       "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Veldt",
-      "notes": "High damage per shot, poor DPS, hitscan munitions. Alt-fire toggles higher magnification on zoom. ",
+      "notes": "High damage per shot; hitscan munitions. Alt-fire toggles higher magnification on zoom. ",
       "rivenDisposition": 1.25
     },
     "Vulkar Wraith": {
@@ -4015,7 +4015,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Vulkar_Wraith",
-      "notes": "Very high damage per shot, moderate DPS, hitscan munitions. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to headshots (35%/55%/70%). ",
+      "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to headshots (35%/55%/70%). ",
       "rivenDisposition": 1.4
     },
     "Zarr": {
@@ -4029,7 +4029,7 @@
       "tier": "Viable",
       "type": "Semi-auto",
       "url": "http://warframe.wikia.com/wiki/Zarr",
-      "notes": "Very low damage per shot, moderate DPS, projectile munitions. First explosion from primary fire can damage self but subsequent cluster bomblets won't. Each bomblet can cause status effect on it's own. Alt fire switches to shotgun mode. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot; projectile munitions. First explosion from primary fire can damage self but subsequent cluster bomblets won't. Each bomblet can cause status effect on it's own. Alt fire switches to shotgun mode. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.15
     },
     "Zenith": {
@@ -4043,7 +4043,7 @@
       "tier": "Top",
       "type": "Variable",
       "url": "http://warframe.wikia.com/wiki/Zenith",
-      "notes": "Very low damage per shot, insane dps, hitscan munitions. Secondary fire launches a disc that scans enemies and switches the weapon to semi-auto until the magazine is depleted. Semi-auto mode has more DPS and infinite punchthrough. ✪",
+      "notes": "Very low damage per shot; hitscan munitions. Secondary fire launches a disc that scans enemies and switches the weapon to semi-auto until the magazine is depleted. Semi-auto mode has more DPS and infinite punchthrough. ✪",
       "rivenDisposition": 1.1
     },
     "Zhuge Prime": {
@@ -4057,7 +4057,7 @@
       "tier": "Contender",
       "type": "Full-auto",
       "url": "http://warframe.wikia.com/wiki/Zhuge_Prime",
-      "notes": "High damage per shot, monstrous DPS, projectile munitions. Bolts will explode a short duration after hitting a wall, potentially causing self damage. ✪",
+      "notes": "High damage per shot; projectile munitions. Bolts will explode a short duration after hitting a wall, potentially causing self damage. ✪",
       "rivenDisposition": 1.25
     }
   },
@@ -4085,7 +4085,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Acrid",
-      "notes": "Very low damage per shot, poor DPS,  projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. ",
+      "notes": "Very low damage per shot; projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. ",
       "rivenDisposition": 1.33
     },
     "Afuris": {
@@ -4099,7 +4099,7 @@
       "tier": "Need buffs",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Afuris",
-      "notes": "Very low damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "Very low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.39
     },
     "Akarius": {
@@ -4113,7 +4113,7 @@
       "tier": "Top",
       "type": "Burst (2)",
       "url": "http://warframe.wikia.com/wiki/Akarius",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
+      "notes": "Very high damage per shot; projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
       "rivenDisposition": 1
     },
     "Akbolto Prime": {
@@ -4127,7 +4127,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Akbolto_Prime",
-      "notes": "Low damage per shot, moderate DPS,  projectile munitions. Keep your friends close; keep your enemies closer. Because bolts have travel time. ",
+      "notes": "Low damage per shot; projectile munitions. Keep your friends close; keep your enemies closer. Because bolts have travel time. ",
       "rivenDisposition": 0.8
     },
     "Akbronco Prime": {
@@ -4141,7 +4141,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Akbronco_Prime",
-      "notes": "Very high damage per shot, moderate DPS,  hitscan munitions. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; hitscan munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.25
     },
     "Akjagara Prime": {
@@ -4155,7 +4155,7 @@
       "tier": "Top",
       "type": "Burst (2)",
       "url": "http://warframe.wikia.com/wiki/Akjagara_Prime",
-      "notes": "Low damage per shot, insane dps,  hitscan munitions. ✪",
+      "notes": "Low damage per shot; hitscan munitions. ✪",
       "rivenDisposition": 1.05
     },
     "Aklato": {
@@ -4169,7 +4169,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Aklato",
-      "notes": "Very low damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "Very low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.52
     },
     "Aklex Prime": {
@@ -4183,7 +4183,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Aklex_Prime",
-      "notes": "High damage per shot, moderate DPS,  hitscan munitions. Massive recoil hurts overall DPS. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; hitscan munitions. Massive recoil hurts overall DPS. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.8
     },
     "Akmagnus": {
@@ -4197,7 +4197,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Akmagnus",
-      "notes": "High damage per shot, moderate DPS,  hitscan munitions. ",
+      "notes": "High damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.28
     },
     "Aksomati": {
@@ -4211,7 +4211,7 @@
       "tier": "Top",
       "type": "Auto-Spool",
       "url": "http://warframe.wikia.com/wiki/Aksomati",
-      "notes": "Very low damage per shot, insane dps,  hitscan munitions. ✪",
+      "notes": "Very low damage per shot; hitscan munitions. ✪",
       "rivenDisposition": 1.2
     },
     "Akstiletto Prime": {
@@ -4225,7 +4225,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Akstiletto_Prime",
-      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. Very good all-rounder secondary. ",
+      "notes": "Low damage per shot; hitscan munitions. Very good all-rounder secondary. ",
       "rivenDisposition": 0.5
     },
     "Akvasto Prime": {
@@ -4239,7 +4239,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Akvasto_Prime",
-      "notes": "High damage per shot, monstrous DPS,  hitscan munitions. ✪",
+      "notes": "High damage per shot; hitscan munitions. ✪",
       "rivenDisposition": 1.2
     },
     "Akzani": {
@@ -4253,7 +4253,7 @@
       "tier": "Need buffs",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Akzani",
-      "notes": "Very low damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "Very low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.52
     },
     "Arca Scisco": {
@@ -4267,7 +4267,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Arca_Scisco",
-      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. Each shot landed grants Target Analysis buff. Target Analysis stacks up to 5 times, lasting 2 seconds each. Critical Chance and Status Chance increases by 4% per stack. ",
+      "notes": "Low damage per shot; hitscan munitions. Each shot landed grants Target Analysis buff. Target Analysis stacks up to 5 times, lasting 2 seconds each. Critical Chance and Status Chance increases by 4% per stack. ",
       "rivenDisposition": 1
     },
     "Atomos": {
@@ -4281,7 +4281,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Atomos",
-      "notes": "Very low damage per shot, insane dps,  beam munitions. Chains 7m away, even when shooting at dead bodies. ",
+      "notes": "Very low damage per shot; beam munitions. Chains 7m away, even when shooting at dead bodies. ",
       "rivenDisposition": 0.8
     },
     "Azima": {
@@ -4295,7 +4295,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Azima",
-      "notes": "Very low damage per shot, monstrous DPS,  hitscan munitions. Alt fire launches the remaining clip that will act as a 4-point dumb turret. ",
+      "notes": "Very low damage per shot; hitscan munitions. Alt fire launches the remaining clip that will act as a 4-point dumb turret. ",
       "rivenDisposition": 1.25
     },
     "Ballistica Prime": {
@@ -4309,7 +4309,7 @@
       "tier": "Need buffs",
       "type": "Burst / Charge",
       "url": "http://warframe.wikia.com/wiki/Ballistica_Prime",
-      "notes": "Very high damage per shot, poor DPS,  projectile munitions. Charged shot kills turns the target into a ghostly specter for 7 seconds. ",
+      "notes": "Very high damage per shot; projectile munitions. Charged shot kills turns the target into a ghostly specter for 7 seconds. ",
       "rivenDisposition": 1.05
     },
     "Brakk": {
@@ -4323,7 +4323,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Brakk",
-      "notes": "Very high damage per shot, poor DPS,  hitscan munitions. RIP Raids. ",
+      "notes": "Very high damage per shot; hitscan munitions. RIP Raids. ",
       "rivenDisposition": 1.2
     },
     "Bronco Prime": {
@@ -4337,7 +4337,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Bronco_Prime",
-      "notes": "Very high damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "Very high damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.35
     },
     "Cyanex": {
@@ -4351,7 +4351,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Cyanex",
-      "notes": "Low damage per shot, monstrous DPS,  projectile munitions. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; projectile munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1
     },
     "Cycron": {
@@ -4365,7 +4365,7 @@
       "tier": "Viable",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Cycron",
-      "notes": "Very low damage per shot, moderate DPS,  beam munitions. Does not have an ammo reserve. Ammo in clip regenerates over time when not firing. ",
+      "notes": "Very low damage per shot; beam munitions. Does not have an ammo reserve. Ammo in clip regenerates over time when not firing. ",
       "rivenDisposition": 1.15
     },
     "Despair": {
@@ -4379,7 +4379,7 @@
       "tier": "Need buffs",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Despair",
-      "notes": "Low damage per shot, poor DPS,  projectile munitions. ",
+      "notes": "Low damage per shot; projectile munitions. ",
       "rivenDisposition": 1.3
     },
     "Dex Furis": {
@@ -4393,35 +4393,35 @@
       "tier": "Viable",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Dex_Furis",
-      "notes": "Very low damage per shot, moderate DPS,  hitscan munitions. Despite being called the Furis, it uses the Afuris riven. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot; hitscan munitions. Despite being called the Furis, it uses the Afuris riven. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.39
     },
     "Dual Toxocyst": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit/Speed",
-      "dmgLink": "https://imgur.com/uWRspB1",
+      "dmg": "Speed/Status",
+      "dmgLink": "https://imgur.com/I772S32",
       "mr": 11,
       "name": "Dual Toxocyst",
       "rank": 58.4,
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Dual_Toxocyst",
-      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 100% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. ✪",
+      "notes": "Low damage per shot; hitscan munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 100% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. ✪",
       "rivenDisposition": 1.3
     },
     "Embolist": {
       "base": "",
       "category": "Beam",
       "dmg": "Status",
-      "dmgLink": "https://imgur.com/HCDBzrK",
+      "dmgLink": "https://imgur.com/LY2d3ST",
       "mr": 9,
       "name": "Embolist",
-      "rank": 58.7,
-      "tier": "Contender",
+      "rank": 48.7,
+      "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Embolist",
-      "notes": "Very low damage per shot, monstrous DPS,  beam munitions. ✪",
+      "notes": "Very low damage per shot; beam munitions. ✪",
       "rivenDisposition": 1.4
     },
     "Euphona Prime": {
@@ -4435,7 +4435,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Euphona_Prime",
-      "notes": "Very high damage per shot, monstrous DPS,  projectile munitions. Alt-fire switches to multi-pellet mode that can achieve 100% status chance when modded properly. However, slug mode firing has superior DPS and hybrid modding will gimp both builds. ",
+      "notes": "Very high damage per shot; projectile munitions. Alt-fire switches to multi-pellet mode that can achieve 100% status chance when modded properly. However, slug mode firing has superior DPS and hybrid modding will gimp both builds. ",
       "rivenDisposition": 0.7
     },
     "Fusilai": {
@@ -4449,7 +4449,7 @@
       "tier": "Contender",
       "type": "Auto / Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Fusilai",
-      "notes": "Low damage per shot, monstrous DPS,  projectile munitions. Alt-fire launches three throwing knives horizontally instead. ✪",
+      "notes": "Low damage per shot; projectile munitions. Alt-fire launches three throwing knives horizontally instead. ✪",
       "rivenDisposition": 1.3
     },
     "Hikou Prime": {
@@ -4463,7 +4463,7 @@
       "tier": "Viable",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Hikou_Prime",
-      "notes": "Very low damage per shot, moderate DPS,  projectile munitions. ",
+      "notes": "Very low damage per shot; projectile munitions. ",
       "rivenDisposition": 1.05
     },
     "Hystrix": {
@@ -4477,7 +4477,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Hystrix",
-      "notes": "Low damage per shot, monstrous DPS,  projectile munitions. Bolts munitions have pros and cons. Clip is small for fire rate and despite quick reload will end up being annoying. Alt-fire changes elemental damage to one of four basic types (Fire, Ice, Poison, Electricity) with guaranteed procs which scales more if corresponding elemental mod is installed. ",
+      "notes": "Low damage per shot; projectile munitions. Bolts munitions have pros and cons. Clip is small for fire rate and despite quick reload will end up being annoying. Alt-fire changes elemental damage to one of four basic types (Fire, Ice, Poison, Electricity) with guaranteed procs which scales more if corresponding elemental mod is installed. ",
       "rivenDisposition": 1.1
     },
     "Knell": {
@@ -4491,7 +4491,7 @@
       "tier": "Top",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Knell",
-      "notes": "High damage per shot, insane dps,  hitscan munitions. Headshot grants Death Knell buff. Death Knell can stack up to 3 times, lasting 3 seconds per stack. Stack-count regardless, 20% status chance and infinite ammo is granted. Critical Multiplier increases (x1.5, x2., x2.5) per stack. ✪",
+      "notes": "High damage per shot; hitscan munitions. Headshot grants Death Knell buff. Death Knell can stack up to 3 times, lasting 3 seconds per stack. Stack-count regardless, 20% status chance and infinite ammo is granted. Critical Multiplier increases (x1.5, x2., x2.5) per stack. ✪",
       "rivenDisposition": 1.15
     },
     "Kraken": {
@@ -4505,7 +4505,7 @@
       "tier": "Need buffs",
       "type": "Burst (2)",
       "url": "http://warframe.wikia.com/wiki/Kraken",
-      "notes": "Low damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "Low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.53
     },
     "Kulstar": {
@@ -4519,7 +4519,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Kulstar",
-      "notes": "Very high damage per shot, poor DPS,  projectile munitions. Rocket impact will release 3 additional bomblets. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; projectile munitions. Rocket impact will release 3 additional bomblets. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.25
     },
     "Kunai": {
@@ -4533,7 +4533,7 @@
       "tier": "Need buffs",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Kunai",
-      "notes": "Low damage per shot, poor DPS,  projectile munitions. Good luck landing a precise shot. ",
+      "notes": "Low damage per shot; projectile munitions. Good luck landing a precise shot. ",
       "rivenDisposition": 1.51
     },
     "Lato Vandal": {
@@ -4547,7 +4547,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Lato_Vandal",
-      "notes": "Low damage per shot, moderate DPS,  hitscan munitions. ",
+      "notes": "Low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.35
     },
     "Lex Prime": {
@@ -4561,7 +4561,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Lex_Prime",
-      "notes": "High damage per shot, poor DPS,  hitscan munitions. Massive recoil hurts overall DPS. ",
+      "notes": "High damage per shot; hitscan munitions. Massive recoil hurts overall DPS. ",
       "rivenDisposition": 0.9
     },
     "Mara Detron": {
@@ -4575,7 +4575,7 @@
       "tier": "Top",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Mara_Detron",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Suffers from relatively poor consistency. ✪",
+      "notes": "Very high damage per shot; projectile munitions. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1
     },
     "Nukor": {
@@ -4589,7 +4589,7 @@
       "tier": "Viable",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Nukor",
-      "notes": "Very low damage per shot, moderate DPS,  beam munitions. Hitting a specific part multiple times increases damage dealt to that part by 5%. Unusually, Nukor has very high Critical Multiplier but poor Critical Chance, hence it's DPS increase from flat Crit Chance modifiers is relatively higher than other weapons. ",
+      "notes": "Very low damage per shot; beam munitions. Hitting a specific part multiple times increases damage dealt to that part by 5%. Unusually, Nukor has very high Critical Multiplier but poor Critical Chance, hence it's DPS increase from flat Crit Chance modifiers is relatively higher than other weapons. ",
       "rivenDisposition": 1.45
     },
     "Ocucor": {
@@ -4603,7 +4603,7 @@
       "tier": "Contender",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Ocucor",
-      "notes": "Very low damage per shot, monstrous DPS,  beam munitions. Each enemy killed will create an additional tendril that damages other targettable enemies in sight. Tendrils reset upon reloading. ",
+      "notes": "Very low damage per shot; beam munitions. Each enemy killed will create an additional tendril that damages other targettable enemies in sight. Tendrils reset upon reloading. ",
       "rivenDisposition": 1.1
     },
     "Pandero": {
@@ -4617,7 +4617,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Pandero",
-      "notes": "High damage per shot, monstrous DPS,  hitscan munitions. Alt-fire empties clip onto enemy with some worrying recoil. ",
+      "notes": "High damage per shot; hitscan munitions. Alt-fire empties clip onto enemy with some worrying recoil. ",
       "rivenDisposition": 1
     },
     "Plinx": {
@@ -4631,7 +4631,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Plinx",
-      "notes": "High damage per shot, monstrous DPS,  hitscan munitions. ",
+      "notes": "High damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.1
     },
     "Pox": {
@@ -4645,7 +4645,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Pox",
-      "notes": "Low damage per shot, monstrous DPS,  projectile munitions. Firing launches gas darts that will fill a moderate AOE with gas. Modding 100% status is highly recommended. Suffers from relatively poor consistency. ",
+      "notes": "Low damage per shot; projectile munitions. Firing launches gas darts that will fill a moderate AOE with gas. Modding 100% status is highly recommended. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.05
     },
     "Prisma Angstrum": {
@@ -4659,7 +4659,7 @@
       "tier": "Need buffs",
       "type": "Charge (0.2s)",
       "url": "http://warframe.wikia.com/wiki/Prisma_Angstrum",
-      "notes": "Very high damage per shot, poor DPS,  projectile munitions. Multishot causes the rocket to spread out further. Can be charged to launch more rockets at once. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; projectile munitions. Multishot causes the rocket to spread out further. Can be charged to launch more rockets at once. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.3
     },
     "Prisma Twin Gremlins": {
@@ -4673,7 +4673,7 @@
       "tier": "Top",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Prisma_Twin_Gremlins",
-      "notes": "Very low damage per shot, insane dps,  projectile munitions. ✪",
+      "notes": "Very low damage per shot; projectile munitions. ✪",
       "rivenDisposition": 1.2
     },
     "Pyrana Prime": {
@@ -4687,7 +4687,7 @@
       "tier": "Top",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Pyrana_Prime",
-      "notes": "Very high damage per shot, insane dps,  hitscan munitions. Killing 3 enemies within 3 seconds summons another Pyrana Prime for 5 seconds, which doubles your fire rate and current ammo (of which up to 12 remains after it is gone). ",
+      "notes": "Very high damage per shot; hitscan munitions. Killing 3 enemies within 3 seconds summons another Pyrana Prime for 5 seconds, which doubles your fire rate and current ammo (of which up to 12 remains after it is gone). ",
       "rivenDisposition": 0.7
     },
     "Quatz": {
@@ -4701,7 +4701,7 @@
       "tier": "Top",
       "type": "Burst (4)",
       "url": "http://warframe.wikia.com/wiki/Quatz",
-      "notes": "Low damage per shot, insane dps,  hitscan munitions. Reloading when the clip is emptied causes an Electric damage proc (with 100% status chance) around you. ",
+      "notes": "Low damage per shot; hitscan munitions. Reloading when the clip is emptied causes an Electric damage proc (with 100% status chance) around you. ",
       "rivenDisposition": 1
     },
     "Rakta Ballistica": {
@@ -4715,7 +4715,7 @@
       "tier": "Need buffs",
       "type": "Burst / Charge",
       "url": "http://warframe.wikia.com/wiki/Rakta_Ballistica",
-      "notes": "Very high damage per shot, poor DPS,  projectile munitions. Blight (Viral, energy, movement speed) is useful at times. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; projectile munitions. Blight (Viral, energy, movement speed) is useful at times. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.05
     },
     "Sancti Castanas": {
@@ -4729,7 +4729,7 @@
       "tier": "Viable",
       "type": "Active",
       "url": "http://warframe.wikia.com/wiki/Sancti_Castanas",
-      "notes": "Very high damage per shot, moderate DPS,  projectile munitions. Purity (Corrosive, health) can be useful at times. Suffers from relatively poor consistency. ",
+      "notes": "Very high damage per shot; projectile munitions. Purity (Corrosive, health) can be useful at times. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.35
     },
     "Secura Dual Cestra": {
@@ -4743,7 +4743,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Secura_Dual_Cestra",
-      "notes": "Very low damage per shot, monstrous DPS,  projectile munitions. Sequence (Radiation, shields) can be useful at times. ✪",
+      "notes": "Very low damage per shot; projectile munitions. Sequence (Radiation, shields) can be useful at times. ✪",
       "rivenDisposition": 1.3
     },
     "Seer": {
@@ -4757,7 +4757,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Seer",
-      "notes": "Low damage per shot, poor DPS,  projectile munitions. ",
+      "notes": "Low damage per shot; projectile munitions. ",
       "rivenDisposition": 1.5
     },
     "Sicarus Prime": {
@@ -4771,7 +4771,7 @@
       "tier": "Contender",
       "type": "Burst (3)",
       "url": "http://warframe.wikia.com/wiki/Sicarus_Prime",
-      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. Three-round burst is wasteful at times. ",
+      "notes": "Low damage per shot; hitscan munitions. Three-round burst is wasteful at times. ",
       "rivenDisposition": 1.1
     },
     "Sonicor": {
@@ -4785,7 +4785,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Sonicor",
-      "notes": "High damage per shot, poor DPS,  projectile munitions. The tenno space program has been replaced by the tenno ragdoll simulator. Explosions may cause status effects. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. The tenno space program has been replaced by the tenno ragdoll simulator. Explosions may cause status effects. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.9
     },
     "Spectra Vandal": {
@@ -4799,7 +4799,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Spectra_Vandal",
-      "notes": "Very low damage per shot, insane dps,  beam munitions. ✪",
+      "notes": "Very low damage per shot; beam munitions. ✪",
       "rivenDisposition": 1.49
     },
     "Spira Prime": {
@@ -4813,7 +4813,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Spira_Prime",
-      "notes": "High damage per shot, monstrous DPS,  projectile munitions. ",
+      "notes": "High damage per shot; projectile munitions. ",
       "rivenDisposition": 1.1
     },
     "Staticor": {
@@ -4827,7 +4827,7 @@
       "tier": "Top",
       "type": "Semi-auto / Charge",
       "url": "http://warframe.wikia.com/wiki/Staticor",
-      "notes": "Low damage per shot, insane dps,  projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
+      "notes": "Low damage per shot; projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
       "rivenDisposition": 0.53
     },
     "Stubba": {
@@ -4841,7 +4841,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Stubba",
-      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. Suffers from relatively poor consistency. ✪",
+      "notes": "Low damage per shot; hitscan munitions. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.3
     },
     "Stug": {
@@ -4855,7 +4855,7 @@
       "tier": "Need buffs",
       "type": "Charge (3.0s)",
       "url": "http://warframe.wikia.com/wiki/Stug",
-      "notes": "Very high damage per shot, poor DPS,  projectile munitions. Each shot launches a blob. Up to six blobs can accumulate at a single site on the target. Alt-fire charges the weapon to launch a single, larger blob. While the shots itself does not cause status effects, the blobs do. ",
+      "notes": "Very high damage per shot; projectile munitions. Each shot launches a blob. Up to six blobs can accumulate at a single site on the target. Alt-fire charges the weapon to launch a single, larger blob. While the shots itself does not cause status effects, the blobs do. ",
       "rivenDisposition": 1.48
     },
     "Synoid Gammacor": {
@@ -4869,7 +4869,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "http://warframe.wikia.com/wiki/Synoid_Gammacor",
-      "notes": "Very low damage per shot, insane dps,  beam munitions. Innate Entropy (Magnetic, Energy) is useful at times. ✪",
+      "notes": "Very low damage per shot; beam munitions. Innate Entropy (Magnetic, Energy) is useful at times. ✪",
       "rivenDisposition": 0.9
     },
     "Talons": {
@@ -4883,7 +4883,7 @@
       "tier": "Need buffs",
       "type": "Active",
       "url": "http://warframe.wikia.com/wiki/Talons",
-      "notes": "High damage per shot, poor DPS,  projectile munitions. Suffers from relatively poor consistency. ",
+      "notes": "High damage per shot; projectile munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.44
     },
     "Telos Akbolto": {
@@ -4897,7 +4897,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Telos_Akbolto",
-      "notes": "Low damage per shot, poor DPS,  projectile munitions. Truth (Gas, health, parkour) is useful at times. ",
+      "notes": "Low damage per shot; projectile munitions. Truth (Gas, health, parkour) is useful at times. ",
       "rivenDisposition": 0.8
     },
     "Twin Grakatas": {
@@ -4911,7 +4911,7 @@
       "tier": "Contender",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Twin_Grakatas",
-      "notes": "Low damage per shot, monstrous DPS,  hitscan munitions. ",
+      "notes": "Low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.05
     },
     "Twin Kohmak": {
@@ -4925,7 +4925,7 @@
       "tier": "Contender",
       "type": "Auto-Spool",
       "url": "http://warframe.wikia.com/wiki/Twin_Kohmak",
-      "notes": "High damage per shot, monstrous DPS,  hitscan munitions. Spool up increases pellets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs. Suffers from relatively poor consistency. ✪",
+      "notes": "High damage per shot; hitscan munitions. Spool up increases pellets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.25
     },
     "Twin Rogga": {
@@ -4939,7 +4939,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Twin_Rogga",
-      "notes": "Very high damage per shot, monstrous DPS,  hitscan munitions. ✪",
+      "notes": "Very high damage per shot; hitscan munitions. ✪",
       "rivenDisposition": 1.25
     },
     "Twin Vipers Wraith": {
@@ -4953,7 +4953,7 @@
       "tier": "Need buffs",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Twin_Vipers_Wraith",
-      "notes": "Very low damage per shot, poor DPS,  hitscan munitions. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot; hitscan munitions. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.41
     },
     "Tysis": {
@@ -4967,7 +4967,7 @@
       "tier": "Contender",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Tysis",
-      "notes": "Low damage per shot, monstrous DPS,  projectile munitions. Suffers from relatively poor consistency. ✪",
+      "notes": "Low damage per shot; projectile munitions. Suffers from relatively poor consistency. ✪",
       "rivenDisposition": 1.51
     },
     "Vasto Prime": {
@@ -4981,7 +4981,7 @@
       "tier": "Viable",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Vasto_Prime",
-      "notes": "High damage per shot, moderate DPS,  hitscan munitions. ",
+      "notes": "High damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.35
     },
     "Vaykor Marelok": {
@@ -4995,7 +4995,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Vaykor_Marelok",
-      "notes": "High damage per shot, poor DPS,  hitscan munitions. Justice (Blast, health, armor) can be helpful at times. ",
+      "notes": "High damage per shot; hitscan munitions. Justice (Blast, health, armor) can be helpful at times. ",
       "rivenDisposition": 0.9
     },
     "Viper Wraith": {
@@ -5009,7 +5009,7 @@
       "tier": "Need buffs",
       "type": "Auto",
       "url": "http://warframe.wikia.com/wiki/Viper_Wraith",
-      "notes": "Very low damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "Very low damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.35
     },
     "Zakti": {
@@ -5023,7 +5023,7 @@
       "tier": "Need buffs",
       "type": "Semi-Auto",
       "url": "http://warframe.wikia.com/wiki/Zakti",
-      "notes": "Very low damage per shot, poor DPS,  projectile munitions. Pellets explode after landing, causing Impact status and Gas damage and status. Suffers from relatively poor consistency. ",
+      "notes": "Very low damage per shot; projectile munitions. Pellets explode after landing, causing Impact status and Gas damage and status. Suffers from relatively poor consistency. ",
       "rivenDisposition": 1.2
     },
     "Zylok": {
@@ -5037,7 +5037,7 @@
       "tier": "Need buffs",
       "type": "Duplex",
       "url": "http://warframe.wikia.com/wiki/Zylok",
-      "notes": "High damage per shot, poor DPS,  hitscan munitions. ",
+      "notes": "High damage per shot; hitscan munitions. ",
       "rivenDisposition": 1.25
     },
     "Catchmoon - Herald of Ruination (Pax Charge)": {
@@ -5051,7 +5051,7 @@
       "tier": "Top",
       "type": "Shotgun",
       "url": "https://semlar.com/kitcalc/catchmoon+haymaker+zipneedle",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge. ",
+      "notes": "Very high damage per shot,  projectile munitions. Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge. ",
       "rivenDisposition": 0.6
     },
     "Gaze - Baleful Purifier (Pax Seeker)": {
@@ -5065,7 +5065,7 @@
       "tier": "Top",
       "type": "Held",
       "url": "https://semlar.com/kitcalc/gaze+haymaker+killstream",
-      "notes": "Low damage per shot, insane dps,  beam munitions. Gaze-Haymaker-Killstream kitgun. R3 Pax Seeker. ✪",
+      "notes": "Low damage per shot,  beam munitions. Gaze-Haymaker-Killstream kitgun. R3 Pax Seeker. ✪",
       "rivenDisposition": 1
     },
     "Rattleguts - Thunderous Rancor (Pax Seeker)": {
@@ -5079,7 +5079,7 @@
       "tier": "Top",
       "type": "Auto",
       "url": "https://semlar.com/kitcalc/rattleguts+lovetap+splat",
-      "notes": "High damage per shot, insane dps,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. R3 Pax Seeker. ✪",
+      "notes": "High damage per shot,  hitscan munitions. Rattleguts-Lovetap-Splat kitgun. R3 Pax Seeker. ✪",
       "rivenDisposition": 0.8
     },
     "Tombfinger - Mordant Meteor (Pax Seeker)": {
@@ -5093,7 +5093,7 @@
       "tier": "Top",
       "type": "Semi-auto Explosive",
       "url": "https://semlar.com/kitcalc/tombfinger+haymaker+stitch",
-      "notes": "Very high damage per shot, insane dps,  projectile munitions. Tombfinger-Haymaker-Stitch kitgun. R3 Pax Seeker. Suffers from relatively poor consistency. ✪",
+      "notes": "Very high damage per shot,  projectile munitions. Tombfinger-Haymaker-Stitch kitgun. R3 Pax Seeker. Suffers from relatively poor consistency. ",
       "rivenDisposition": 0.75
     }
   },
