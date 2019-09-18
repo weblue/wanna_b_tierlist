@@ -2,6 +2,7 @@
     <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
        [active]="activeTab == tab"> {{tab}} </a>
 </nav>
+<br />
 
 <mat-table mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 

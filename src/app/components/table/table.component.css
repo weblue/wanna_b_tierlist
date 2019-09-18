@@ -25,3 +25,15 @@ tr.example-detail-row {
   margin: 0;
   list-style: none;
 }
+
+/* overrides */
+
+.mat-header-cell {
+  font-size: 1em;
+}
+
+.mat-cell{
+  font-size: 1.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0;
+}
