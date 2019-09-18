@@ -13,6 +13,7 @@ import {SidebarService} from "./services/sidebar.service";
 })
 export class AppComponent implements OnInit {
   title = 'tierlist';
+  listVersion: string;
   private loading: boolean = true;
   faDiscord = faDiscord;
   faGithub = faGithub;
@@ -32,7 +33,10 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.data.getDb().subscribe(() => this.loading = false);
+    this.data.getDb().subscribe((db) => {
+      this.loading = false; 
+      this.listVersion = db.version;
+    });
   }
 
   ngOnDestroy() {
