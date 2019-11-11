@@ -940,21 +940,15 @@
     }
   },
   "Melees": {  
-    "Melee 3.0": {
+    "Curator's Notes": {
       "base": "",
-      "combo": "N/A",
-      "dmg": "N/A",
-      "dmgLink": ,
-      "mr":0,
-      "name": "N/A",
-      "rank":1,
-      "stance": "N/A",
-      "stancenotes": "",
+      "firing": "",
+      "name": "",
+      "notes": "Melees are currently being overhauled. Please refer to tier list roadmap in the discord for more information.",
+      "rank": 1,
       "tier": "Top",
-      "type": "N/A",
-      "url": ,
-      "wepnotes": "All melee weapons are pending rerank due to Melee 3.0. There is no current ETA, but it is progressing fine. Visit the discord for more information. ",
-      "rivenDisposition": 
+      "url": "",
+      "use": ""
     }
   },
   "Primaries": {
