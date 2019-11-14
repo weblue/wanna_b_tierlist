@@ -2606,13 +2606,13 @@
     },
     "Telos Boltace": {
       "base": "Boltace need buffs",
-      "combo": "Vagrant Blight",
+      "combo": "Rogue Edict",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/sdzl35I",
       "mr":8,
       "name": "Telos Boltace",
       "rank":24.62,
-      "stance": "Gemini Cross",
+      "stance": "Sovereign Outcast",
       "stancenotes": "",
       "tier": "Top",
       "type": "Tonfa",
@@ -2621,7 +2621,7 @@
       "rivenDisposition": 1
     },
     "Tipedo Prime": {
-      "base": "Tipedo is top",
+      "base": "Tipedo is Viable",
       "combo": "Resolute Flurry",
       "dmg": "Crit/Status",
       "dmgLink": "https://imgur.com/82YP87O",
