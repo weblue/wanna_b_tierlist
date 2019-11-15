@@ -150,23 +150,13 @@
     },
     "EmberBuff": {
       "frameName": "Ember",
-      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
-      "abilityInFocus": "Fireball, Accelerant & Fire Blast",
+      "buildGoals": "???",
+      "abilityInFocus": "???",
       "tier": "Viable",
-      "rank": 3,
-      "suitableMissionsRanked": "| Capture | Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Void Fissures | ",
-      "roleSummary": "| Buff | Debuff | ",
-      "notes": "Would have been top if there is a mission where Fire damage matters because the bonus damage is pretty insane. Buff your teammates with Fireball Frenzy and Accelerant. Fire Blast can be stacked indefinitely to add 50% Fire damage each time. "
-    },
-    "EmberWoF": {
-      "frameName": "Ember",
-      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |",
-      "abilityInFocus": "Accelerant & World on Fire",
-      "tier": "Viable",
-      "rank": 3,
-      "suitableMissionsRanked": "| Defense | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
-      "roleSummary": "| Damage | ",
-      "notes": "Shrinking range hinders actual usability of World on Fire. "
+      "rank": 99,
+      "suitableMissionsRanked": "",
+      "roleSummary": " ",
+      "notes": "Peneding rework "
     },
     "EquinoxSleep": {
       "frameName": "Equinox",
