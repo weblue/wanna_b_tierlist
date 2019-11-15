@@ -840,13 +840,13 @@
     },
     "VaubanCC": {
       "frameName": "Vauban",
-      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug3  |  Aug4opt  |",
-      "abilityInFocus": "Bastille & Vortex",
+      "buildGoals": "",
+      "abilityInFocus": "",
       "tier": "Viable",
-      "rank": 3,
-      "suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
-      "roleSummary": "| Control | ",
-      "notes": "Vauban offers massive crowd control across the map, but little else. "
+      "rank": 99,
+      "suitableMissionsRanked": "",
+      "roleSummary": "",
+      "notes": "Pending re-evaluation."
     },
     "VoltESO": {
       "frameName": "Volt",
