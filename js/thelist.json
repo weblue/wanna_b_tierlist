@@ -158,6 +158,16 @@
       "roleSummary": " ",
       "notes": "Pending rework "
     },
+    "GrendelPlaceholder": {
+      "frameName": "Grendel",
+      "buildGoals": "???",
+      "abilityInFocus": "???",
+      "tier": "Viable",
+      "rank": 99,
+      "suitableMissionsRanked": "",
+      "roleSummary": " ",
+      "notes": "Pending initial ranking "
+    },      
     "EquinoxSleep": {
       "frameName": "Equinox",
       "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug2opt  |",
@@ -5023,7 +5033,7 @@
     },
     "wepBuilds": {
       "name": "wepBuilds",
-      "text": "Weapon builds are based on best (sometimes up to 7 forma on a single weapon) effort basis and done without rivens. Therefore it is also safe to say weapons are ranked without rivens. "
+      "text": "Weapon builds are based on best (sometimes up to 7 forma on a single weapon) effort basis and done without rivens. Therefore it is also safe to say weapons are ranked without rivens. While some builds may show the use of Weapon Exilus Mods, they are excluded from testing. "
     },
     "frameBuilds": {
       "name": "frameBuilds",
@@ -5042,5 +5052,5 @@
       "text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
     }
   },
-  "version": "Warframe Patch 26 - Phase 1 - Melee 3.0 reranked. "
+  "version": "Warframe Patch 26.1.3 - Everything reranked except Ember, Vauban, and Grendel. Migration to overframe.gg underway. "
 }
