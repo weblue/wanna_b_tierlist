@@ -168,6 +168,16 @@
       "roleSummary": " ",
       "notes": "Pending initial ranking "
     },      
+    "GaussPlaceholder": {
+      "frameName": "Gauss",
+      "buildGoals": "???",
+      "abilityInFocus": "???",
+      "tier": "Viable",
+      "rank": 99,
+      "suitableMissionsRanked": "",
+      "roleSummary": " ",
+      "notes": "Pending initial ranking "
+    },      
     "EquinoxSleep": {
       "frameName": "Equinox",
       "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug2opt  |",
