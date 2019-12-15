@@ -76,11 +76,21 @@
                     If you're on mobile, try Landscape Mode!
                 </p>
                 <p>
-                    <a class="btn btn-primary btn-discord" href="https://discord.gg/Cq3jW27">
+                    <a 
+                        class="btn btn-primary btn-discord" 
+                        href="https://discord.gg/Cq3jW27"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <i class="fab fa-discord"></i> Join Our Discord!
                     </a>
 
-                    <a class="btn btn-primary btn-light" href="https://github.com/weblue/wanna_b_tierlist/issues">
+                    <a 
+                        class="btn btn-primary btn-light"
+                        href="https://github.com/weblue/wanna_b_tierlist/issues"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <i class="fab fa-github"></i> Contribute on GitHub
                     </a>
                 </p>
@@ -145,10 +155,10 @@
                                     <td></td>
                                 </tr>
                                 <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(primary.url)}">{(primary.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(primary.url)}">{(primary.name)}</a></td>
                                     <td>{(primary.category)}</td>
                                     <td ng-if="primary.dmgLink">
-                                      <a rel="noopener" target="_blank" href="{(primary.dmgLink)}">{(primary.dmg)}</a>
+                                      <a target="_blank" rel="noopener noreferrer" href="{(primary.dmgLink)}">{(primary.dmg)}</a>
                                     </td>
                                     <td ng-if="!primary.dmgLink">{(primary.dmg)}</td>
                                     <td>{(primary.type)}</td>
@@ -186,9 +196,9 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(secondary.url)}">{(secondary.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(secondary.url)}">{(secondary.name)}</a></td>
                                     <td ng-if="secondary.dmgLink">
-                                      <a rel="noopener" target="_blank" href="{(secondary.dmgLink)}">{(secondary.dmg)}</a>
+                                      <a target="_blank" rel="noopener noreferrer" href="{(secondary.dmgLink)}">{(secondary.dmg)}</a>
                                     </td>
                                     <td ng-if="!secondary.dmgLink">{(secondary.dmg)}</td>
                                     <td>{(secondary.type)}</td>
@@ -232,9 +242,9 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(melee.url)}">{(melee.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(melee.url)}">{(melee.name)}</a></td>
                                     <td ng-if="melee.dmgLink">
-                                      <a rel="noopener" target="_blank" href="{(melee.dmgLink)}">{(melee.dmg)}</a>
+                                      <a target="_blank" rel="noopener noreferrer" href="{(melee.dmgLink)}">{(melee.dmg)}</a>
                                     </td>
                                     <td ng-if="!melee.dmgLink">{(melee.dmg)}</td>
                                     <td>{(melee.type)}</td>
@@ -271,7 +281,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="frame in Frames | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(frame.url)}">{(frame.frameName)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(frame.url)}">{(frame.frameName)}</a></td>
                                     <td>{(frame.buildGoals)}</td>
                                     <td>{(frame.abilityInFocus)}</td>
                                     <td>{(frame.roleSummary)}</td>
@@ -300,7 +310,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="school in Schools | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(school.url)}">{(school.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(school.url)}">{(school.name)}</a></td>
                                     <td>{(school.frame)}</td>
                                     <td>{(school.op)}</td>
                                     <td>{(school.notes)}</td>
@@ -328,7 +338,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="archwing in Archwings | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(archwing.url)}">{(archwing.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(archwing.url)}">{(archwing.name)}</a></td>
                                     <td>{(archwing.use)}</td>
                                     <td>{(archwing.notes)}</td>
                                     <td>{(archwing.base)}</td>
@@ -358,7 +368,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="archgun in Archguns | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(archgun.url)}">{(archgun.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(archgun.url)}">{(archgun.name)}</a></td>
                                     <td>{(archgun.use)}</td>
                                     <td>{(archgun.firing)}</td>
                                     <td>{(archgun.notes)}</td>
@@ -387,7 +397,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="archmelee in Archmelees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(archmelee.url)}">{(archmelee.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(archmelee.url)}">{(archmelee.name)}</a></td>
                                     <td>{(archmelee.use)}</td>
                                     <td>{(archmelee.notes)}</td>
                                     <td>{(archmelee.base)}</td>
@@ -417,7 +427,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="companion in Companions | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(companion.url)}">{(companion.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(companion.url)}">{(companion.name)}</a></td>
                                     <td>{(companion.category)}</td>
                                     <td>{(companion.abilities)}</td>
                                     <td>{(companion.notes)}</td>
@@ -447,7 +457,7 @@
                                     <td></td>
                                 </tr>
                                 <tr ng-repeat="sentwep in Sentweps | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
-                                    <td><a target="_blank" href="{(sentwep.url)}">{(sentwep.name)}</a></td>
+                                    <td><a target="_blank" rel="noopener noreferrer" href="{(sentwep.url)}">{(sentwep.name)}</a></td>
                                     <td>{(sentwep.use)}</td>
                                     <td>{(sentwep.type)}</td>
                                     <td>{(sentwep.notes)}</td>
@@ -473,32 +483,32 @@
 
     <footer class="text-center pt-2">
         <p>
-            <a href="https://twitch.tv/mrflooners"><i class="fab fa-twitch fa-2x"></i></a>
-            <a href="https://github.com/weblue/wanna_b_tierlist/issues"><i class="fab fa-github fa-2x"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/mrflooners"><i class="fab fa-twitch fa-2x"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/weblue/wanna_b_tierlist/issues"><i class="fab fa-github fa-2x"></i></a>
         </p>
         <div class="row">
             <div class="col-sm-4">
                 <h3>Author</h3>
-                <p><a target="_blank" href="https://creatorscollective.club">flooners</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://creatorscollective.club">flooners</a></p>
                 <h3>Curators</h3>
-                <p><a target="_blank" href="https://reddit.com/u/sakai4eva">sakai4eva</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://reddit.com/u/sakai4eva">sakai4eva</a></p>
             </div>
             <div class="col-sm-4">
                 <h3>Thanks To</h3>
                 <p>Kalgash</p>
-                <p><a target="_blank" href="https://www.reddit.com/user/zhandragon">Zhandragon</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/user/zhandragon">Zhandragon</a></p>
                 <p>Brendan</p>
                 <p>.hallwayRaptor™</p>
-                <p><a target="_blank" href="https://github.com/malsf21">malsf21</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/malsf21">malsf21</a></p>
             </div>
             <div class="col-sm-4">
                 <h3>Links</h3>
-                <p><a href="https://github.com/weblue/wanna_b_tierlist/issues">GitHub</a></p>
-                <p><a href="https://creatorscollective.club">Sponsor</a></p>
-                <p><a href="https://discord.gg/Cq3jW27">Discord</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/weblue/wanna_b_tierlist/issues">GitHub</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://creatorscollective.club">Sponsor</a></p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/Cq3jW27">Discord</a></p>
             </div>
         </div>
-        <p> &copy; <a target="_blank" href="https://creatorscollective.club">i_wanna_b_the_guy</a> 2017 </p>
+        <p> &copy; <a target="_blank" rel="noopener noreferrer" href="https://creatorscollective.club">i_wanna_b_the_guy</a> 2017 </p>
     </footer>
 
     <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
