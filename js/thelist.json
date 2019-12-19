@@ -2938,20 +2938,21 @@
 			"notes": "High damage per shot; projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ",
 			"rivenDisposition": 1
 		},
-		"Baza": {
-			"base": "",
-			"category": "Rifle",
-			"dmg": "Crit/Status",
-			"dmgLink": "https://imgur.com/XblzUae",
-			"mr": 7,
-			"name": "Baza",
-			"rank": 57.4,
-			"tier": "Viable",
-			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Baza",
-			"notes": "Low damage per shot; hitscan munitions. Completely silent but has damage falloff similar to shotguns. ",
-			"rivenDisposition": 1
-		},
+	    "Baza Prime": {
+            "base": "Baza is low Contender",
+            "category": "Rifle",
+            "dmg": "Crit/Status",
+            "dmgLink": "https://imgur.com/XblzUae",
+            "mr": 10,
+            "name": "Baza Prime",
+            "rank": 48.6,
+            "tier": "Contender",
+            "type": "Full-auto",
+            "url": "https://overframe.gg/build/12508/",
+            "notes": "Low damage per shot; hitscan munitions. Completely silent but has damage falloff similar to shotguns. ",
+            "rivenDisposition": 1
+        },
+
 		"Boar Prime": {
 			"base": "Boar need buffs",
 			"category": "Shotgun",
@@ -4142,20 +4143,20 @@
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.28
 		},
-		"Aksomati": {
-			"base": "",
-			"category": "Auto",
-			"dmg": "Crit/Status",
-			"dmgLink": "https://imgur.com/vIwza5F",
-			"mr": 9,
-			"name": "Aksomati",
-			"rank": 46.1,
-			"tier": "Top",
-			"type": "Auto-Spool",
-			"url": "http://warframe.wikia.com/wiki/Aksomati",
-			"notes": "Very low damage per shot; hitscan munitions. ✪",
-			"rivenDisposition": 1.25
-		},
+            "Aksomati Prime": {
+              "base": "Aksomati is top",
+              "category": "Auto",
+              "dmg": "Crit/Status",
+              "dmgLink": "https://overframe.gg/build/12519/",
+              "mr": 12,
+              "name": "Aksomati Prime",
+              "rank": 39.7,
+              "tier": "Top",
+              "type": "Auto-Spool",
+              "url": "http://warframe.wikia.com/wiki/Aksomati_Prime",
+              "notes": "Low damage per shot; hitscan munitions. Spool-up increases accuracy. ✪",
+              "rivenDisposition": 1
+            },
 		"Akstiletto Prime": {
 			"base": "Base is Viable",
 			"category": "Auto",
