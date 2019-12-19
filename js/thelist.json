@@ -3988,7 +3988,21 @@
 			"url": "http://warframe.wikia.com/wiki/Zhuge_Prime",
 			"notes": "High damage per shot; projectile munitions. Bolts will explode a short duration after hitting a wall, potentially causing self damage. ✪",
 			"rivenDisposition": 1.15
-		},
+		},        
+		"Shedu": {
+			"base": "",
+			"category": "",
+			"dmg": "",
+			"dmgLink": "",
+			"mr": "",
+			"name": "Shedu",
+			"rank": 9999,
+			"tier": "Untested",
+			"type": "",
+			"url": "",
+			"notes": "Shedu is currently untested. The curator would like to apologize for his lack of a working time machine. ",
+			"rivenDisposition": "N/a"
+		}
 		"Kuva Weapons": {
 			"base": "",
 			"category": "",
