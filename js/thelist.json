@@ -3989,20 +3989,20 @@
 			"notes": "High damage per shot; projectile munitions. Bolts will explode a short duration after hitting a wall, potentially causing self damage. ✪",
 			"rivenDisposition": 1.15
 		},        
-		"Shedu": {
-			"base": "",
-			"category": "",
-			"dmg": "",
-			"dmgLink": "",
-			"mr": "",
-			"name": "Shedu",
-			"rank": 9999,
-			"tier": "Untested",
-			"type": "",
-			"url": "",
-			"notes": "Shedu is currently untested. The curator would like to apologize for his lack of a working time machine. ",
-			"rivenDisposition": "N/a"
-		}
+    "Shedu": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://overframe.gg/build/12772/shedu/warframe-tier-list-shedu/",
+      "mr": 13,
+      "name": "Shedu",
+      "rank": 39.6,
+      "tier": "Top",
+      "type": "Full-auto",
+      "url": "http://warframe.wikia.com/wiki/Shedu",
+      "notes": "Low damage per shot; projectile munitions. Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. ✪",
+      "rivenDisposition": 1
+    },
 		"Kuva Weapons": {
 			"base": "",
 			"category": "",
