@@ -56,7 +56,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Assassination | Capture | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Rathuum | Void Fissures | ",
 			"roleSummary": "| Damage | Stealth | ",
-			"notes": "Ash's armor removal and/or bypass makes it so that not a lot of Strength is needed as long as abilities are spammed consistently. "
+			"notes": "Ash's armor removal and/or bypass makes it so that not a lot of Strength is needed as long as abilities are spammed consistently. ",
+			"url": "http://warframe.wikia.com/wiki/Ash"
 		},
 		"AtlasAIO": {
 			"frameName": "Atlas",
@@ -66,7 +67,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Barrier | ",
-			"notes": "Landslide has decent damage scaling but is held back by relative inability to deal with armor past the starchart. Nonetheless the raw damage is sufficient to deal with Sortie-level enemies. "
+			"notes": "Landslide has decent damage scaling but is held back by relative inability to deal with armor past the starchart. Nonetheless the raw damage is sufficient to deal with Sortie-level enemies. ",
+			"url": "http://warframe.wikia.com/wiki/Atlas"
 		},
 		"BansheeSonar": {
 			"frameName": "Banshee",
@@ -76,7 +78,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Capture | Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Void Fissures | ",
 			"roleSummary": "| Debuff | ",
-			"notes": "Sonar's effects can overlap onto the same spot, adding multipliers to a current multiplier. "
+			"notes": "Sonar's effects can overlap onto the same spot, adding multipliers to a current multiplier. ",
+			"url": "http://warframe.wikia.com/wiki/Banshee"
 		},
 		"BansheeQuake": {
 			"frameName": "Banshee",
@@ -86,7 +89,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | ",
-			"notes": "Augmented Soundquake has decent map-clearing potential but is limited by it's relative inability to deal with armor past starchart levels. "
+			"notes": "Augmented Soundquake has decent map-clearing potential but is limited by it's relative inability to deal with armor past starchart levels. ",
+			"url": "http://warframe.wikia.com/wiki/Banshee"
 		},
 		"BansheeSilence": {
 			"frameName": "Banshee",
@@ -96,7 +100,8 @@
 			"rank": 2.5,
 			"suitableMissionsRanked": "| Exterminate - Focus affinity farm | ",
 			"roleSummary": "| Stealth | Unique | ",
-			"notes": "Silence can be used to stagger keep enemies unalerted for the stealth affinity bonus. "
+			"notes": "Silence can be used to stagger keep enemies unalerted for the stealth affinity bonus. ",
+			"url": "http://warframe.wikia.com/wiki/Banshee"
 		},
 		"BaruukAIO": {
 			"frameName": "Baruuk",
@@ -106,7 +111,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Solo | Survival | ",
 			"roleSummary": "| Tank | ",
-			"notes": "Baruuk's kit work in unison by evading attacks while not attacking himself, sleeping his enemies, and easily maintainable 90% damage reduction, he can hardly be killed. Serene Storm can be activated once some Restraint is eroded, but is ultimately underpowered compared to other exalted weaponry despite being easily maintained. "
+			"notes": "Baruuk's kit work in unison by evading attacks while not attacking himself, sleeping his enemies, and easily maintainable 90% damage reduction, he can hardly be killed. Serene Storm can be activated once some Restraint is eroded, but is ultimately underpowered compared to other exalted weaponry despite being easily maintained. ",
+			"url": "http://warframe.wikia.com/wiki/Baruuk"
 		},
 		"BaruukCC": {
 			"frameName": "Baruuk",
@@ -116,7 +122,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Solo | Survival | ",
 			"roleSummary": "| Tank | Control | ",
-			"notes": "Long duration Lull can easily lock down an entire map and effictively stall the mission until the timer runs out."
+			"notes": "Long duration Lull can easily lock down an entire map and effictively stall the mission until the timer runs out.",
+			"url": "http://warframe.wikia.com/wiki/Baruuk"
 		},
 		"ChromaTank": {
 			"frameName": "Chroma",
@@ -126,7 +133,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Capture | Kuva Siphons/Floods | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | ",
 			"roleSummary": "| Tank | Damage | ",
-			"notes": "9/10 Eidolon Hunters recommend Chroma. The last one uses something else but secretly wishes that his riven and his build is up to snuff. "
+			"notes": "9/10 Eidolon Hunters recommend Chroma. The last one uses something else but secretly wishes that his riven and his build is up to snuff. ",
+			"url": "http://warframe.wikia.com/wiki/Chroma"
 		},
 		"ChromaBuff": {
 			"frameName": "Chroma",
@@ -136,7 +144,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defense | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Capture | Kuva Siphons/Floods | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | ",
 			"roleSummary": "| Tank | Damage | Buff | ",
-			"notes": "Would have been top, but since teaming up would assume some form of coordination it is expected that the Chroma stay a little more still and teammates gather around him for warmth instead. "
+			"notes": "Would have been top, but since teaming up would assume some form of coordination it is expected that the Chroma stay a little more still and teammates gather around him for warmth instead. ",
+			"url": "http://warframe.wikia.com/wiki/Chroma"
 		},
 		"ChromaLoot": {
 			"frameName": "Chroma",
@@ -146,7 +155,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Defense | ",
 			"roleSummary": "| Damage | Control | Buff | Debuff | Loot | ",
-			"notes": "Faster and easier to farm credits in Index. Orb mother fights doesn't use this build either. "
+			"notes": "Faster and easier to farm credits in Index. Orb mother fights doesn't use this build either. ",
+			"url": "http://warframe.wikia.com/wiki/Chroma"
 		},
 		"EmberBuff": {
 			"frameName": "Ember",
@@ -156,7 +166,8 @@
 			"rank": 99,
 			"suitableMissionsRanked": "",
 			"roleSummary": " ",
-			"notes": "Pending rework "
+			"notes": "Pending rework ",
+			"url": "http://warframe.wikia.com/wiki/Ember"
 		},
 		"GrendelPlaceholder": {
 			"frameName": "Grendel",
@@ -166,7 +177,8 @@
 			"rank": 99,
 			"suitableMissionsRanked": "",
 			"roleSummary": " ",
-			"notes": "Pending initial ranking "
+			"notes": "Pending initial ranking ",
+			"url": "http://warframe.wikia.com/wiki/Grendel"
 		},
 		"GaussPlaceholder": {
 			"frameName": "Gauss",
@@ -176,7 +188,8 @@
 			"rank": 99,
 			"suitableMissionsRanked": "",
 			"roleSummary": " ",
-			"notes": "Pending initial ranking "
+			"notes": "Pending initial ranking ",
+			"url": "http://warframe.wikia.com/wiki/Gauss"
 		},
 		"EquinoxSleep": {
 			"frameName": "Equinox",
@@ -186,7 +199,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Defection | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Stealth | Unique | ",
-			"notes": "One of the best sleep abilities. Can also be used for rapid solo affinity farm on weapons and focus by stacking the stealth combo counter. "
+			"notes": "One of the best sleep abilities. Can also be used for rapid solo affinity farm on weapons and focus by stacking the stealth combo counter. ",
+			"url": "http://warframe.wikia.com/wiki/Equinox"
 		},
 		"EquinoxMaim": {
 			"frameName": "Equinox",
@@ -196,7 +210,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | ",
-			"notes": "One of the few endgame scaling AOE damage abilities. Becomes exponentially more powerful with a coordinated team of damage buff and another similarly built Equinox. "
+			"notes": "One of the few endgame scaling AOE damage abilities. Becomes exponentially more powerful with a coordinated team of damage buff and another similarly built Equinox. ",
+			"url": "http://warframe.wikia.com/wiki/Equinox"
 		},
 		"EquinoxProvoke": {
 			"frameName": "Equinox",
@@ -206,7 +221,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | Debuff | ",
-			"notes": "Buff your teammates' Power Strength while debuffing enemies with damage amp with Day aspect. Or you can switch to defensive debuff on the enemies with the Night aspect, which does count the excess efficiency. "
+			"notes": "Buff your teammates' Power Strength while debuffing enemies with damage amp with Day aspect. Or you can switch to defensive debuff on the enemies with the Night aspect, which does count the excess efficiency. ",
+			"url": "http://warframe.wikia.com/wiki/Equinox"
 		},
 		"ExcaliburIndex": {
 			"frameName": "Excalibur",
@@ -216,7 +232,8 @@
 			"rank": 1.5,
 			"suitableMissionsRanked": "| Index | ",
 			"roleSummary": "| Loot | Unique | ",
-			"notes": "Unique interactions (unlimited weapon ammo) makes Umbra specter really good at killing enemies in Index when equipped with a relatively ammo-inefficient but powerful weapon like Kohm. Since Umbra will not use any abilities while enemies are not in range of it, reducing Range to minimum will ensure that he focuses only on firing the weapon to devastating effect. "
+			"notes": "Unique interactions (unlimited weapon ammo) makes Umbra specter really good at killing enemies in Index when equipped with a relatively ammo-inefficient but powerful weapon like Kohm. Since Umbra will not use any abilities while enemies are not in range of it, reducing Range to minimum will ensure that he focuses only on firing the weapon to devastating effect. ",
+			"url": "http://warframe.wikia.com/wiki/Excalibur"
 		},
 		"ExcaliburEB": {
 			"frameName": "Excalibur",
@@ -226,7 +243,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
-			"notes": "The best exalted melee in game. Each Augmented Slash Dash provides multiple additions to the combo counter and will excessively increase damage output. Best used with [Drifting Contact] on the EB and Naramon school. "
+			"notes": "The best exalted melee in game. Each Augmented Slash Dash provides multiple additions to the combo counter and will excessively increase damage output. Best used with [Drifting Contact] on the EB and Naramon school. ",
+			"url": "http://warframe.wikia.com/wiki/Excalibur"
 		},
 		"FrostBubble": {
 			"frameName": "Frost",
@@ -236,7 +254,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
 			"roleSummary": "| Control | Barrier | ",
-			"notes": "Very few other frames excel at preventing a static objective from being shot at. "
+			"notes": "Very few other frames excel at preventing a static objective from being shot at. ",
+			"url": "http://warframe.wikia.com/wiki/Frost"
 		},
 		"FrostCC": {
 			"frameName": "Frost",
@@ -246,7 +265,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Barrier | ",
-			"notes": "Delay-based build for covering large areas with crowd control. A large snowglobe can cover interception points indefinitely while Augmented Ice Wave will keep other enemies slowed down. "
+			"notes": "Delay-based build for covering large areas with crowd control. A large snowglobe can cover interception points indefinitely while Augmented Ice Wave will keep other enemies slowed down. ",
+			"url": "http://warframe.wikia.com/wiki/Frost"
 		},
 		"FrostNuke": {
 			"frameName": "Frost",
@@ -256,7 +276,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Kuva Siphons/Floods | Kuva Survival | Solo | Survival | ",
 			"roleSummary": "| Damage | ",
-			"notes": "Despite having a protective coating you can still build up [Adaptation] stacks, which is great for survivability. "
+			"notes": "Despite having a protective coating you can still build up [Adaptation] stacks, which is great for survivability. ",
+			"url": "http://warframe.wikia.com/wiki/Frost"
 		},
 		"GaraNuke": {
 			"frameName": "Gara",
@@ -266,7 +287,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | Control | Barrier | ",
-			"notes": "Another highly scaling AOE damage ability as Mass Vitrify's explosion damage is derived from Shattered Lash which in turn draws damage from melee mods. This makes maxing out range easier compared with other builds. However, the nuke is relatively complex and a properly built statstick is necessary. "
+			"notes": "Another highly scaling AOE damage ability as Mass Vitrify's explosion damage is derived from Shattered Lash which in turn draws damage from melee mods. This makes maxing out range easier compared with other builds. However, the nuke is relatively complex and a properly built statstick is necessary. ",
+			"url": "http://warframe.wikia.com/wiki/Gara"
 		},
 		"GaraAIO": {
 			"frameName": "Gara",
@@ -276,7 +298,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Defection | Eidolon Hunt | Excavation | Exploiter Orb | Exterminate | FR-Assassinate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Medallion Farming | Mobile Defense | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Sorties | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Buff | Barrier | ",
-			"notes": "This build is more focused on a long duration Splinter Storm with high range to create a walking aura of damage that can trivialize most content once the damage is properly built up. A proper statstick is necessary. "
+			"notes": "This build is more focused on a long duration Splinter Storm with high range to create a walking aura of damage that can trivialize most content once the damage is properly built up. A proper statstick is necessary. ",
+			"url": "http://warframe.wikia.com/wiki/Gara"
 		},
 		"GaraShield": {
 			"frameName": "Gara",
@@ -286,7 +309,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defection | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Drone Hijack | FR-Rescue | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Sorties | Survival | ",
 			"roleSummary": "| Tank | Buff | ",
-			"notes": "90% damage reduction is very good for when a specific mobile objective needs to be protected at all costs. Since Splinter Storm is refreshable this build is more suitable for buff-and-forget instead. "
+			"notes": "90% damage reduction is very good for when a specific mobile objective needs to be protected at all costs. Since Splinter Storm is refreshable this build is more suitable for buff-and-forget instead. ",
+			"url": "http://warframe.wikia.com/wiki/Gara"
 		},
 		"GarudaAIO": {
 			"frameName": "Garuda",
@@ -296,7 +320,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Defense | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
-			"notes": "Combining her 1 and 3 means you can survive any attacks unless you get hit by nullifiers or forget to refresh the duration while having nearly +100% damage. "
+			"notes": "Combining her 1 and 3 means you can survive any attacks unless you get hit by nullifiers or forget to refresh the duration while having nearly +100% damage. ",
+			"url": "http://warframe.wikia.com/wiki/Garuda"
 		},
 		"GarudaHealer": {
 			"frameName": "Garuda",
@@ -306,7 +331,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Healing | Buff | ",
-			"notes": "Creating 3 altars to keep a semi-static team alive is great especially when healing is scarce. "
+			"notes": "Creating 3 altars to keep a semi-static team alive is great especially when healing is scarce. ",
+			"url": "http://warframe.wikia.com/wiki/Garuda"
 		},
 		"HarrowAIO": {
 			"frameName": "Harrow",
@@ -316,7 +342,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Control | Buff | Unique | ",
-			"notes": "It's really hard to build Harrow wrong (and therefore hard to build him perfectly), especially since his entire kit works in unison and therefore requires different stats to work together. One of the preferred proc prevention frames in Eidolon hunting. "
+			"notes": "It's really hard to build Harrow wrong (and therefore hard to build him perfectly), especially since his entire kit works in unison and therefore requires different stats to work together. One of the preferred proc prevention frames in Eidolon hunting. ",
+			"url": "http://warframe.wikia.com/wiki/Harrow"
 		},
 		"HildrynSuper": {
 			"frameName": "Hildryn",
@@ -326,7 +353,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Defection | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Buff | Unique | ",
-			"notes": "One of the few frames that require arcanes to really shine, since Arcane Aegis' regeneration won't be canceled by damage to shields. This allows for relatively unlimited usage of abilities as well as survivability. "
+			"notes": "One of the few frames that require arcanes to really shine, since Arcane Aegis' regeneration won't be canceled by damage to shields. This allows for relatively unlimited usage of abilities as well as survivability. ",
+			"url": "http://warframe.wikia.com/wiki/Hildryn"
 		},
 		"HildrynBudget": {
 			"frameName": "Hildryn",
@@ -336,7 +364,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Defection | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Buff | ",
-			"notes": "The poor man's Hildryn build is still viable but requires no arcanes if a shield regenerating weapon is used while spamming Shield Pillage."
+			"notes": "The poor man's Hildryn build is still viable but requires no arcanes if a shield regenerating weapon is used while spamming Shield Pillage.",
+			"url": "http://warframe.wikia.com/wiki/Hildryn"
 		},
 		"HydroidLoot": {
 			"frameName": "Hydroid",
@@ -346,7 +375,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Infested Salvage | Interception | Kuva Survival | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | Control | Stealth | Loot | Unique | ",
-			"notes": "Puddle first then charge up the Tentacles to double up the loot. Works very well with a Zenistar for relatively pain-free material and mod farming. A well-aimed Tempest Barrage can destroy a Nullifier bubble in a single cast but the Zenistar usually takes care of that. "
+			"notes": "Puddle first then charge up the Tentacles to double up the loot. Works very well with a Zenistar for relatively pain-free material and mod farming. A well-aimed Tempest Barrage can destroy a Nullifier bubble in a single cast but the Zenistar usually takes care of that. ",
+			"url": "http://warframe.wikia.com/wiki/Hydroid"
 		},
 		"HydroidPuddle": {
 			"frameName": "Hydroid",
@@ -356,7 +386,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assault | Defection | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Rathuum | Survival | ",
 			"roleSummary": "| Control | Healing | Stealth | ",
-			"notes": "Curative Undertow build for healing teammates. "
+			"notes": "Curative Undertow build for healing teammates. ",
+			"url": "http://warframe.wikia.com/wiki/Hydroid"
 		},
 		"InarosTank": {
 			"frameName": "Inaros",
@@ -366,7 +397,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Exploiter Orb | FR-Assassinate | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Tank | Control | ",
-			"notes": "One of the few frames that require arcanes to really shine, since with a little health regeneration Inaros is pretty much unkillable even when surrounded by active nullifiers. "
+			"notes": "One of the few frames that require arcanes to really shine, since with a little health regeneration Inaros is pretty much unkillable even when surrounded by active nullifiers. ",
+			"url": "http://warframe.wikia.com/wiki/Inaros"
 		},
 		"IvaraSleep": {
 			"frameName": "Ivara",
@@ -376,7 +408,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Exterminate - Weapon affinity farm | ",
 			"roleSummary": "| Control | Stealth | Unique | ",
-			"notes": "The most reliable way to max out a weapon on a single run. Higher strength to increase the headshot multiplier from Prowl. Sleep arrow can reset alert status an enemy no matter the condition. "
+			"notes": "The most reliable way to max out a weapon on a single run. Higher strength to increase the headshot multiplier from Prowl. Sleep arrow can reset alert status an enemy no matter the condition. ",
+			"url": "http://warframe.wikia.com/wiki/Ivara"
 		},
 		"IvaraAIO": {
 			"frameName": "Ivara",
@@ -386,7 +419,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Capture | Eidolon Hunt | FR-Assassinate | FR-Capture | Index | Profit Taker Orb | Rathuum | Solo | Sorties | ",
 			"roleSummary": "| Damage | Buff | Stealth | ",
-			"notes": "Artemis Bow's has great stats and high innate multishot making it excellent at boss-killing as long as AOE attacks can be dealt with. Strength scaling affects Augmented Dashwire and Artemis Bow. "
+			"notes": "Artemis Bow's has great stats and high innate multishot making it excellent at boss-killing as long as AOE attacks can be dealt with. Strength scaling affects Augmented Dashwire and Artemis Bow. ",
+			"url": "http://warframe.wikia.com/wiki/Ivara"
 		},
 		"IvaraCC": {
 			"frameName": "Ivara",
@@ -396,7 +430,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Exterminate - Weapon affinity farm | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Stealth | Unique | ",
-			"notes": "Using Noise Arrow and Sleep Arrow to indefinitely delay a mission. Noise Arrows will eventually break the AI and turn them completely unalerted, allowing you to clear a mission without further interference. "
+			"notes": "Using Noise Arrow and Sleep Arrow to indefinitely delay a mission. Noise Arrows will eventually break the AI and turn them completely unalerted, allowing you to clear a mission without further interference. ",
+			"url": "http://warframe.wikia.com/wiki/Ivara"
 		},
 		"IvaraProwl": {
 			"frameName": "Ivara",
@@ -406,7 +441,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Spy | Survival | ",
 			"roleSummary": "| Stealth | Loot | Unique | ",
-			"notes": "Great for dealing with pesky Corpus spy rooms until you've mastered the patterns. Can also be used for Prowl farming some enemies but there are faster farming methods. However, Prowl-pickpocketing Life Support from enemies to fulfill the no-kill survival Riven challenge is possible. "
+			"notes": "Great for dealing with pesky Corpus spy rooms until you've mastered the patterns. Can also be used for Prowl farming some enemies but there are faster farming methods. However, Prowl-pickpocketing Life Support from enemies to fulfill the no-kill survival Riven challenge is possible. ",
+			"url": "http://warframe.wikia.com/wiki/Ivara"
 		},
 		"KhoraAIO": {
 			"frameName": "Khora",
@@ -416,7 +452,8 @@
 			"rank": 1.8,
 			"suitableMissionsRanked": "| Assault | Defection | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Infested Salvage | Interception | Kuva Survival | Mobile Defense | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Loot | Unique | ",
-			"notes": "Stacking damage from whipclaw's Augment is more than enough to counteract the lowered power strength. Augmented Strangledome causes increases drops which is better AOE damage but capped at 68% increase. With high range, Ensnare can capture unalerted enemies and keep them in an unalerted state for potential stealth kills. Double [Primed Animal Instinct] also offers great utility. "
+			"notes": "Stacking damage from whipclaw's Augment is more than enough to counteract the lowered power strength. Augmented Strangledome causes increases drops which is better AOE damage but capped at 68% increase. With high range, Ensnare can capture unalerted enemies and keep them in an unalerted state for potential stealth kills. Double [Primed Animal Instinct] also offers great utility. ",
+			"url": "http://warframe.wikia.com/wiki/Khora"
 		},
 		"LimboCata": {
 			"frameName": "Limbo",
@@ -426,7 +463,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Defection | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
 			"roleSummary": "| Control | Barrier | Unique | ",
-			"notes": "When a build only has nullifiers as its weakness, you know it's good. Stay in Rift, press 2, aim at obj and press 4. Repeat. Change range depending on existence of nullifiers in mission. "
+			"notes": "When a build only has nullifiers as its weakness, you know it's good. Stay in Rift, press 2, aim at obj and press 4. Repeat. Change range depending on existence of nullifiers in mission. ",
+			"url": "http://warframe.wikia.com/wiki/Limbo"
 		},
 		"LimboLoot": {
 			"frameName": "Limbo",
@@ -436,7 +474,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Medallion Farming | ",
 			"roleSummary": "| Loot | Unique | ",
-			"notes": "Press 4 twice to break any boxes within range so that you can easily see Syndicate Medallion or Caches in the minimap. "
+			"notes": "Press 4 twice to break any boxes within range so that you can easily see Syndicate Medallion or Caches in the minimap. ",
+			"url": "http://warframe.wikia.com/wiki/Limbo"
 		},
 		"LimboSurge": {
 			"frameName": "Limbo",
@@ -446,7 +485,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Assault | Defection | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Mobile Defense | Void Fissures | ",
 			"roleSummary": "| Debuff | Unique | ",
-			"notes": "Same usage as Cataclysm, except this time you also press 3 and then banish enemies that have been affected by Rift Surge. Damage scaling is absurd if many enemies are caught in the effect. "
+			"notes": "Same usage as Cataclysm, except this time you also press 3 and then banish enemies that have been affected by Rift Surge. Damage scaling is absurd if many enemies are caught in the effect. ",
+			"url": "http://warframe.wikia.com/wiki/Limbo"
 		},
 		"LimboBanish": {
 			"frameName": "Limbo",
@@ -456,7 +496,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Defection | FR-Drone Hijack | FR-Rescue | Rescue | Sorties | ",
 			"roleSummary": "| Healing | Unique | ",
-			"notes": "While in normal plane, send allies into the rift to heal them. Makes Defections or any missions where you need to keep an Operative alive a breeze. "
+			"notes": "While in normal plane, send allies into the rift to heal them. Makes Defections or any missions where you need to keep an Operative alive a breeze. ",
+			"url": "http://warframe.wikia.com/wiki/Limbo"
 		},
 		"LokiSwitchTP": {
 			"frameName": "Loki",
@@ -466,7 +507,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Defection | FR-Drone Hijack | ",
 			"roleSummary": "| Speed | Unique | ",
-			"notes": "Extremely good at moving mobile objectives like POE drones closer to the objective. "
+			"notes": "Extremely good at moving mobile objectives like POE drones closer to the objective. ",
+			"url": "http://warframe.wikia.com/wiki/Loki"
 		},
 		"LokiStealth": {
 			"frameName": "Loki",
@@ -476,7 +518,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rathuum | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Speed | Stealth | ",
-			"notes": "Very useful for rushing through missions with Loki's high innate speed. "
+			"notes": "Very useful for rushing through missions with Loki's high innate speed. ",
+			"url": "http://warframe.wikia.com/wiki/Loki"
 		},
 		"LokiDisarm": {
 			"frameName": "Loki",
@@ -486,7 +529,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Stealth | ",
-			"notes": "One of the highest ranged disarm abilities in game. Adding the Augment delays the enemies from being able to act effectively against the objective even more. "
+			"notes": "One of the highest ranged disarm abilities in game. Adding the Augment delays the enemies from being able to act effectively against the objective even more. ",
+			"url": "http://warframe.wikia.com/wiki/Loki"
 		},
 		"MagBubble": {
 			"frameName": "Mag",
@@ -496,7 +540,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Debuff | ",
-			"notes": "Run in, disarm and bubble one enemy. Shoot  the bubble with a projectile weapon and let the damage commence. Aug3 helps with surviability, as well as [Adaptation] as Mag's Crush can gain overshields. "
+			"notes": "Run in, disarm and bubble one enemy. Shoot  the bubble with a projectile weapon and let the damage commence. Aug3 helps with surviability, as well as [Adaptation] as Mag's Crush can gain overshields. ",
+			"url": "http://warframe.wikia.com/wiki/Mag"
 		},
 		"MesaAIO": {
 			"frameName": "Mesa",
@@ -506,7 +551,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
-			"notes": "Shatter Shield can redirect up to 95% of an enemy's ranged attack. Mesa's Peacemakers are best modded for fire speed and forgoing [Hornet Strike] due to how it interacts with Power Strength. Damage can ramp up to extreme levels but it's inability to target weakspots will hamper usefulness against certain VIPs. "
+			"notes": "Shatter Shield can redirect up to 95% of an enemy's ranged attack. Mesa's Peacemakers are best modded for fire speed and forgoing [Hornet Strike] due to how it interacts with Power Strength. Damage can ramp up to extreme levels but it's inability to target weakspots will hamper usefulness against certain VIPs. ",
+			"url": "http://warframe.wikia.com/wiki/Mesa"
 		},
 		"MirageEclipse": {
 			"frameName": "Mirage",
@@ -516,7 +562,8 @@
 			"rank": 1.5,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | ",
-			"notes": "Buff your teammates with multiplicative weapon damage. Might have some issues with identifying bright areas during mobile missions, but is one of the highest damage amplification abilities. Eclipse also increases Scanners' speed. "
+			"notes": "Buff your teammates with multiplicative weapon damage. Might have some issues with identifying bright areas during mobile missions, but is one of the highest damage amplification abilities. Eclipse also increases Scanners' speed. ",
+			"url": "http://warframe.wikia.com/wiki/Mirage"
 		},
 		"MirageMurder": {
 			"frameName": "Mirage",
@@ -526,7 +573,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Assassination | Capture | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | ",
-			"notes": "Extreme weapon damage amp would have been great if Mirage isn't a total pushover. Doppelganger shots can also proc status despite having lower damage than the main so build your weapons accordingly. "
+			"notes": "Extreme weapon damage amp would have been great if Mirage isn't a total pushover. Doppelganger shots can also proc status despite having lower damage than the main so build your weapons accordingly. ",
+			"url": "http://warframe.wikia.com/wiki/Mirage"
 		},
 		"MiragePrism": {
 			"frameName": "Mirage",
@@ -536,7 +584,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | ",
-			"notes": "Blind would have been good if LoS is not needed for the crowd control. "
+			"notes": "Blind would have been good if LoS is not needed for the crowd control. ",
+			"url": "http://warframe.wikia.com/wiki/Mirage"
 		},
 		"MirageNuke": {
 			"frameName": "Mirage",
@@ -546,7 +595,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | ",
-			"notes": "Explosive Legerdemain turns all ammo pickups into proximity mines that will explode for signficant damage once stacked. A Nekros or Hydroid in the team to increase the number of pickups increasese the damage potential. "
+			"notes": "Explosive Legerdemain turns all ammo pickups into proximity mines that will explode for signficant damage once stacked. A Nekros or Hydroid in the team to increase the number of pickups increasese the damage potential. ",
+			"url": "http://warframe.wikia.com/wiki/Mirage"
 		},
 		"NekrosLoot": {
 			"frameName": "Nekros",
@@ -556,7 +606,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Defection | Infested Salvage | Interception | Kuva Survival | Medallion Farming | Mobile Defense | Survival | ",
 			"roleSummary": "| Tank | Control | Summon/MindControl | Loot | Unique | ",
-			"notes": "Desecrate can almost double your loot if accompanied with an appropriate loadout of dismembering weapons. Shield of Shadows can create a buffer between enemies and an objective semi-reliably. When all else fails, Terrify will get rid of the remaining enemies. "
+			"notes": "Desecrate can almost double your loot if accompanied with an appropriate loadout of dismembering weapons. Shield of Shadows can create a buffer between enemies and an objective semi-reliably. When all else fails, Terrify will get rid of the remaining enemies. ",
+			"url": "http://warframe.wikia.com/wiki/Nekros"
 		},
 		"NezhaAIO": {
 			"frameName": "Nezha",
@@ -566,7 +617,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Capture | Defection | Defense | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Control | Buff | Debuff | Speed | ",
-			"notes": "Truly the Jack of all Trades but Master of None, Nezha's entire kit synergizes well together but requires different stats. Using Warding Halo to protect yourself or allies while utilizing Chakram on enemies affected by Divine Spears to force another Chakram out. "
+			"notes": "Truly the Jack of all Trades but Master of None, Nezha's entire kit synergizes well together but requires different stats. Using Warding Halo to protect yourself or allies while utilizing Chakram on enemies affected by Divine Spears to force another Chakram out. ",
+			"url": "http://warframe.wikia.com/wiki/Nezha"
 		},
 		"NezhaDelay": {
 			"frameName": "Nezha",
@@ -576,7 +628,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Tank | Control | ",
-			"notes": "With a base duration of 12 seconds, Divine Spears can keep a sufficiently large area locked down for a long time when modded properly. Does not work as a stealth farm tool as it alerts enemies. "
+			"notes": "With a base duration of 12 seconds, Divine Spears can keep a sufficiently large area locked down for a long time when modded properly. Does not work as a stealth farm tool as it alerts enemies. ",
+			"url": "http://warframe.wikia.com/wiki/Nezha"
 		},
 		"NezhaNuke": {
 			"frameName": "Nezha",
@@ -586,7 +639,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
-			"notes": "Divine Spears have a decent enough damage to last the starchart. Fixed damage and inabillity to deal with armor hampers the scaling. "
+			"notes": "Divine Spears have a decent enough damage to last the starchart. Fixed damage and inabillity to deal with armor hampers the scaling. ",
+			"url": "http://warframe.wikia.com/wiki/Nezha"
 		},
 		"NezhaChakram": {
 			"frameName": "Nezha",
@@ -596,7 +650,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Debuff | ",
-			"notes": "Chakram's damage multiplier is applied as a debuff on enemies after all other damage is calculated. Drawback is the limit on how many enemies it can affect and some VIPs immunity to debuffs. "
+			"notes": "Chakram's damage multiplier is applied as a debuff on enemies after all other damage is calculated. Drawback is the limit on how many enemies it can affect and some VIPs immunity to debuffs. ",
+			"url": "http://warframe.wikia.com/wiki/Nezha"
 		},
 		"NidusLink": {
 			"frameName": "Nidus",
@@ -606,7 +661,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Buff | ",
-			"notes": "By far the biggest Power Strength buff you can get in game. Parasitic Link is slightly limited as it can only amplify one Ally and requires the teammate to build appropriately. "
+			"notes": "By far the biggest Power Strength buff you can get in game. Parasitic Link is slightly limited as it can only amplify one Ally and requires the teammate to build appropriately. ",
+			"url": "http://warframe.wikia.com/wiki/Nidus"
 		},
 		"NidusTank": {
 			"frameName": "Nidus",
@@ -616,7 +672,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Arbitration | Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Damage | Control | ",
-			"notes": "Linking to an enemy can grant up to 90% damage reduction, which makes Nidus nigh invincible considering his natural stats. "
+			"notes": "Linking to an enemy can grant up to 90% damage reduction, which makes Nidus nigh invincible considering his natural stats. ",
+			"url": "http://warframe.wikia.com/wiki/Nidus"
 		},
 		"NidusStomp": {
 			"frameName": "Nidus",
@@ -626,7 +683,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | Control | ",
-			"notes": "Virulence is very strong when stacks are up, but takes too much time to ramp up for quicker missions. "
+			"notes": "Virulence is very strong when stacks are up, but takes too much time to ramp up for quicker missions. ",
+			"url": "http://warframe.wikia.com/wiki/Nidus"
 		},
 		"NovaSpeed": {
 			"frameName": "Nova",
@@ -636,7 +694,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Medallion Farming | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | Unique | ",
-			"notes": "No other abilities grant both double damage and an increase in enemy speed with so much coverage. One of the few actual use case for [Power Donation]. Augment compensates for Nova's poor survivability."
+			"notes": "No other abilities grant both double damage and an increase in enemy speed with so much coverage. One of the few actual use case for [Power Donation]. Augment compensates for Nova's poor survivability.",
+			"url": "http://warframe.wikia.com/wiki/Nova"
 		},
 		"NovaSlow": {
 			"frameName": "Nova",
@@ -646,7 +705,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Damage | Control | ",
-			"notes": "No other abilities grant both double damage and a decrease in enemy speed with so much coverage. Augment compensates for Nova's poor survivability."
+			"notes": "No other abilities grant both double damage and a decrease in enemy speed with so much coverage. Augment compensates for Nova's poor survivability.",
+			"url": "http://warframe.wikia.com/wiki/Nova"
 		},
 		"NovaPortal": {
 			"frameName": "Nova",
@@ -656,7 +716,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Defection | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Speed | Unique | ",
-			"notes": "Impressive speed when mastered while also being able to move POE drones along. Also consider lowering range for smaller/tighter maps. "
+			"notes": "Impressive speed when mastered while also being able to move POE drones along. Also consider lowering range for smaller/tighter maps. ",
+			"url": "http://warframe.wikia.com/wiki/Nova"
 		},
 		"NovaAMD": {
 			"frameName": "Nova",
@@ -666,7 +727,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | ",
-			"notes": "Augmented Antimatter Drop can be used to block enemy weapon fire and bypasses terrain. Drawback of needing to charge the ball and fixed range of subsequent explosion limits this ability. "
+			"notes": "Augmented Antimatter Drop can be used to block enemy weapon fire and bypasses terrain. Drawback of needing to charge the ball and fixed range of subsequent explosion limits this ability. ",
+			"url": "http://warframe.wikia.com/wiki/Nova"
 		},
 		"NyxChaos": {
 			"frameName": "Nyx",
@@ -676,7 +738,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Tank | Buff | ",
-			"notes": "Extremely useful for completely stalling a mission's timer. Advantage compared to Loki's Irradiating Disarm is that enemies will also shoot nullifier bubbles. Augment is useful but it is often easier to just recast. "
+			"notes": "Extremely useful for completely stalling a mission's timer. Advantage compared to Loki's Irradiating Disarm is that enemies will also shoot nullifier bubbles. Augment is useful but it is often easier to just recast. ",
+			"url": "http://warframe.wikia.com/wiki/Nyx"
 		},
 		"NyxBubble": {
 			"frameName": "Nyx",
@@ -686,7 +749,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Assault | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
 			"roleSummary": "| Barrier | ",
-			"notes": "Can be used defensively to protect an objective from being harmed, but limited to smaller objectives. Raised threat level also forces enemies to redirect fire to you but is not as good as other defensive barrier's coverage. Uniquely, [Rift Strike] on Twin Basolk allows for greater mobility when required. "
+			"notes": "Can be used defensively to protect an objective from being harmed, but limited to smaller objectives. Raised threat level also forces enemies to redirect fire to you but is not as good as other defensive barrier's coverage. Uniquely, [Rift Strike] on Twin Basolk allows for greater mobility when required. ",
+			"url": "http://warframe.wikia.com/wiki/Nyx"
 		},
 		"OberonHealer": {
 			"frameName": "Oberon",
@@ -696,7 +760,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | FR-Assassinate | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Healing | Buff | ",
-			"notes": "Defensive babysitter build mostly for keeping allies and opertives alive. Augmented 3 provides instant revive every 90s which is useful for glass cannon frames. "
+			"notes": "Defensive babysitter build mostly for keeping allies and opertives alive. Augmented 3 provides instant revive every 90s which is useful for glass cannon frames. ",
+			"url": "http://warframe.wikia.com/wiki/Oberon"
 		},
 		"OberonEidolon": {
 			"frameName": "Oberon",
@@ -706,7 +771,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defection | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Drone Hijack | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Damage | Unique | ",
-			"notes": "Eidolon Hunter build. Augmented Smite buff on allies can be used to great effect as Eidolons are weak to Radiation. "
+			"notes": "Eidolon Hunter build. Augmented Smite buff on allies can be used to great effect as Eidolons are weak to Radiation. ",
+			"url": "http://warframe.wikia.com/wiki/Oberon"
 		},
 		"OberonNuke": {
 			"frameName": "Oberon",
@@ -716,7 +782,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | Debuff | ",
-			"notes": "AOE nuking and armor removal build. Laying down Hallowed Grounds and casting Reckoning twice completely removes armor. "
+			"notes": "AOE nuking and armor removal build. Laying down Hallowed Grounds and casting Reckoning twice completely removes armor. ",
+			"url": "http://warframe.wikia.com/wiki/Oberon"
 		},
 		"OctaviaStealth": {
 			"frameName": "Octavia",
@@ -726,7 +793,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Buff | Speed | Stealth | ",
-			"notes": "Octavia's unique and refreshable invisibility can be managed to 100% uptime while maintaining full mobility. The buff can be applied across the team with some coordination. "
+			"notes": "Octavia's unique and refreshable invisibility can be managed to 100% uptime while maintaining full mobility. The buff can be applied across the team with some coordination. ",
+			"url": "http://warframe.wikia.com/wiki/Octavia"
 		},
 		"OctaviaMallet": {
 			"frameName": "Octavia",
@@ -736,7 +804,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Defense | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Kuva Survival | Mobile Defense | Void Fissures | ",
 			"roleSummary": "| Damage | Buff | ",
-			"notes": "Mallet is one of the very few Warframe abilities that is effective against Nullifiers. Amp doubles the range and can cover the entire room in a Defense mission. "
+			"notes": "Mallet is one of the very few Warframe abilities that is effective against Nullifiers. Amp doubles the range and can cover the entire room in a Defense mission. ",
+			"url": "http://warframe.wikia.com/wiki/Octavia"
 		},
 		"OctaviaBuff": {
 			"frameName": "Octavia",
@@ -746,7 +815,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | ",
-			"notes": "Team buff build that is both high in utility and damage potential. A viable option for Eidolon Hunting although not recommended as Octavia would not survive the AOE damage. The Opera effect from Metronome also affects Scanners' speed. "
+			"notes": "Team buff build that is both high in utility and damage potential. A viable option for Eidolon Hunting although not recommended as Octavia would not survive the AOE damage. The Opera effect from Metronome also affects Scanners' speed. ",
+			"url": "http://warframe.wikia.com/wiki/Octavia"
 		},
 		"RevenantAIO": {
 			"frameName": "Revenant",
@@ -756,7 +826,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Summon/MindControl | ",
-			"notes": "Revenant's kit grants him both offensive and defensive capabilities at the cost of some mobility. "
+			"notes": "Revenant's kit grants him both offensive and defensive capabilities at the cost of some mobility. ",
+			"url": "http://warframe.wikia.com/wiki/Revenant"
 		},
 		"RhinoSolo": {
 			"frameName": "Rhino",
@@ -766,7 +837,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Hijack | Index | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
-			"notes": "An all-rounded build that utilises most of Rhino's offensive and defensive abilities. Ironclad Charge scales better than [Steel Fibre] even if you just hit two enemies. "
+			"notes": "An all-rounded build that utilises most of Rhino's offensive and defensive abilities. Ironclad Charge scales better than [Steel Fibre] even if you just hit two enemies. ",
+			"url": "http://warframe.wikia.com/wiki/Rhino"
 		},
 		"RhinoBuff": {
 			"frameName": "Rhino",
@@ -776,7 +848,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Buff | ",
-			"notes": "Roar scales after weapon damage mods and is one of the best damage buff to you and your allies. Range can be reduced in a coordinated team. One of the DPS-enhancing options for an Eidolon hunt. "
+			"notes": "Roar scales after weapon damage mods and is one of the best damage buff to you and your allies. Range can be reduced in a coordinated team. One of the DPS-enhancing options for an Eidolon hunt. ",
+			"url": "http://warframe.wikia.com/wiki/Rhino"
 		},
 		"RhinoStomp": {
 			"frameName": "Rhino",
@@ -786,7 +859,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Unique | ",
-			"notes": "A unique build for crowd control. Enemies are thrown into the air for the duration and will enter knockdown-like state after. Enemies stuck in the air will remain unalerted and this makes the stealth focus farm in exterminate maps possible. "
+			"notes": "A unique build for crowd control. Enemies are thrown into the air for the duration and will enter knockdown-like state after. Enemies stuck in the air will remain unalerted and this makes the stealth focus farm in exterminate maps possible. ",
+			"url": "http://warframe.wikia.com/wiki/Rhino"
 		},
 		"SarynESO": {
 			"frameName": "Saryn",
@@ -796,7 +870,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Buff | Debuff | ",
-			"notes": "Saryn has high range for Spores and Miasma. Enemies that die from sources other than Spore also spread it outwards with increasing damage. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable due to the plethora of status effects. "
+			"notes": "Saryn has high range for Spores and Miasma. Enemies that die from sources other than Spore also spread it outwards with increasing damage. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable due to the plethora of status effects. ",
+			"url": "http://warframe.wikia.com/wiki/Saryn"
 		},
 		"SarynMelee": {
 			"frameName": "Saryn",
@@ -806,7 +881,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | Debuff | ",
-			"notes": "Turn Saryn into a melee platform by spreading 3 status effects to jumpstart [Condition Overload]. Toxic Lash bursts all spores for re-application of the Corrosive effect and each spore burst with your melee weapon adds to the combo counter. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable. "
+			"notes": "Turn Saryn into a melee platform by spreading 3 status effects to jumpstart [Condition Overload]. Toxic Lash bursts all spores for re-application of the Corrosive effect and each spore burst with your melee weapon adds to the combo counter. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable. ",
+			"url": "http://warframe.wikia.com/wiki/Saryn"
 		},
 		"TitaniaAIO": {
 			"frameName": "Titania",
@@ -816,7 +892,8 @@
 			"rank": 1.5,
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Eidolon Hunt | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Profit Taker Orb | Rathuum | Rescue | Sabotage | ",
 			"roleSummary": "| Damage | Debuff | ",
-			"notes": "Dex Pixia has great damage potential but Razorwing disables companion abilities and Titania herself has limited survivability. Debuffing enemies with her other abilites will trigger the Augment and increase her Fire Rate and Movement Speed. Titania is one of the best frames for killing Plague Star's boss due to Dex Pixia's mechanics. "
+			"notes": "Dex Pixia has great damage potential but Razorwing disables companion abilities and Titania herself has limited survivability. Debuffing enemies with her other abilites will trigger the Augment and increase her Fire Rate and Movement Speed. Titania is one of the best frames for killing Plague Star's boss due to Dex Pixia's mechanics. ",
+			"url": "http://warframe.wikia.com/wiki/Titania"
 		},
 		"TrinityEV": {
 			"frameName": "Trinity",
@@ -826,7 +903,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defense | Eidolon Hunt | Excavation | FR-Assassinate | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Hijack | Index | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Buff | ",
-			"notes": "No other frames give the team as much energy as fast as an EV Trinity. Augment also adds Overshields and is a viable case for survivability when stacked with [Adaptation]. "
+			"notes": "No other frames give the team as much energy as fast as an EV Trinity. Augment also adds Overshields and is a viable case for survivability when stacked with [Adaptation]. ",
+			"url": "http://warframe.wikia.com/wiki/Trinity"
 		},
 		"TrinityBless": {
 			"frameName": "Trinity",
@@ -836,7 +914,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Rescue | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Rescue | Sanctuary Onslaught (Elite)  | Solo | Sorties | Survival | ",
 			"roleSummary": "| Tank | Buff | ",
-			"notes": "Within affinity range, heal teammates to full health and provide 75% damage resistance. No other frames can come close to the speed of the heal. Very useful for keeping Eidolon Lures alive. "
+			"notes": "Within affinity range, heal teammates to full health and provide 75% damage resistance. No other frames can come close to the speed of the heal. Very useful for keeping Eidolon Lures alive. ",
+			"url": "http://warframe.wikia.com/wiki/Trinity"
 		},
 		"TrinityLink": {
 			"frameName": "Trinity",
@@ -846,7 +925,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Exploiter Orb | FR-Assassinate | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Tank | Buff | Debuff | ",
-			"notes": "Abating Link removes all armor from enemies and redirect the damage to them. Combine with Blessing to gain high survivability. "
+			"notes": "Abating Link removes all armor from enemies and redirect the damage to them. Combine with Blessing to gain high survivability. ",
+			"url": "http://warframe.wikia.com/wiki/Trinity"
 		},
 		"ValkyrMelee": {
 			"frameName": "Valkyr",
@@ -856,7 +936,8 @@
 			"rank": 2,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Buff | ",
-			"notes": "Valkyr excels as a melee platform due to her innate stats and the bonus from Warcry that is easily maintained by the Augment. "
+			"notes": "Valkyr excels as a melee platform due to her innate stats and the bonus from Warcry that is easily maintained by the Augment. ",
+			"url": "http://warframe.wikia.com/wiki/Valkyr"
 		},
 		"VaubanCC": {
 			"frameName": "Vauban",
@@ -866,7 +947,8 @@
 			"rank": 99,
 			"suitableMissionsRanked": "",
 			"roleSummary": "",
-			"notes": "Pending re-evaluation."
+			"notes": "Pending re-evaluation.",
+			"url": "http://warframe.wikia.com/wiki/Vauban"
 		},
 		"VoltESO": {
 			"frameName": "Volt",
@@ -876,7 +958,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Damage | Buff | ",
-			"notes": "One of the few top ESO farming frames. Duration maintains Discharge's effects on enemies and thus increases DPS. Augmented Discharge can gain Overshield which synergizes with [Adaptation] for even greater survivability. "
+			"notes": "One of the few top ESO farming frames. Duration maintains Discharge's effects on enemies and thus increases DPS. Augmented Discharge can gain Overshield which synergizes with [Adaptation] for even greater survivability. ",
+			"url": "http://warframe.wikia.com/wiki/Volt"
 		},
 		"VoltEidolon": {
 			"frameName": "Volt",
@@ -886,7 +969,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | Barrier | Unique | ",
-			"notes": "Good for defending a specific objective or Eidolon hunting. Angle up to three Electric Shields around an objective to prevent any gunfire to it. "
+			"notes": "Good for defending a specific objective or Eidolon hunting. Angle up to three Electric Shields around an objective to prevent any gunfire to it. ",
+			"url": "http://warframe.wikia.com/wiki/Volt"
 		},
 		"VoltSpeed": {
 			"frameName": "Volt",
@@ -896,7 +980,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Buff | Speed | ",
-			"notes": "Volt's Speed is an easily applied buff to the team. Very useful for speedrunning any content. "
+			"notes": "Volt's Speed is an easily applied buff to the team. Very useful for speedrunning any content. ",
+			"url": "http://warframe.wikia.com/wiki/Volt"
 		},
 		"WispPlatform": {
 			"frameName": "Wisp",
@@ -906,7 +991,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Assault | Capture | Defense | Exterminate | FR-Capture | FR-Exterminate | Index | Kuva Survival | Solo | Sorties | Survival | ",
 			"roleSummary": "| Tank | Damage | Healing | Buff | Speed | ",
-			"notes": "Reservoirs last forever, but the lingering effects allow for a great degree of mobility as long as the cooldown is appropriately managed. The triple Motes allow for a great melee platform since it covers all the bases. "
+			"notes": "Reservoirs last forever, but the lingering effects allow for a great degree of mobility as long as the cooldown is appropriately managed. The triple Motes allow for a great melee platform since it covers all the bases. ",
+			"url": "http://warframe.wikia.com/wiki/Wisp"
 		},
 		"WukongAIO": {
 			"frameName": "Wukong",
@@ -916,7 +1002,8 @@
 			"rank": 1,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Summon/MindControl | ",
-			"notes": "Post-rework Wukong has great survivability with Defy's armor bonus and a panic button in Cloud Walker. The Celestial Twin also draw some aggro away from you while doubling your effective DPS. All of Wukong's ability synergizes with his clone. "
+			"notes": "Post-rework Wukong has great survivability with Defy's armor bonus and a panic button in Cloud Walker. The Celestial Twin also draw some aggro away from you while doubling your effective DPS. All of Wukong's ability synergizes with his clone. ",
+			"url": "http://warframe.wikia.com/wiki/Wukong"
 		},
 		"ZephyrTailWind": {
 			"frameName": "Zephyr",
@@ -926,7 +1013,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Kuva Siphons/Floods | Kuva Survival | Rathuum | Rescue | Sabotage | Sanctuary Onslaught (Elite)  | Solo | Spy | Survival | ",
 			"roleSummary": "| Buff | Speed | ",
-			"notes": "Tail Wind is very useful for traversing large maps without the use of an Archwing Launcher. It can also be adapted for indoor maps and cancelled using slam attacks but will require some practise. "
+			"notes": "Tail Wind is very useful for traversing large maps without the use of an Archwing Launcher. It can also be adapted for indoor maps and cancelled using slam attacks but will require some practise. ",
+			"url": "http://warframe.wikia.com/wiki/Zephyr"
 		},
 		"ZephyrTurb": {
 			"frameName": "Zephyr",
@@ -936,7 +1024,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Arbitration | Assassination | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Tank | Buff | ",
-			"notes": "Turbulence redirects any gunfire away from Zephyr. The Augment increases Projectile Flight Speed and therefore makes arrows fly straighter and increases the range before shotguns' falloff. "
+			"notes": "Turbulence redirects any gunfire away from Zephyr. The Augment increases Projectile Flight Speed and therefore makes arrows fly straighter and increases the range before shotguns' falloff. ",
+			"url": "http://warframe.wikia.com/wiki/Zephyr"
 		},
 		"ZephyrTornado": {
 			"frameName": "Zephyr",
@@ -946,7 +1035,8 @@
 			"rank": 3,
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | ",
-			"notes": "Fire into Tornados to increase their damage. Tornados also rapidly re-apply status effects on the victims and is a prime candidate for Gas or Corrosive. Trying to control the summoned tornados, however, is like herding cats so good luck with that. "
+			"notes": "Fire into Tornados to increase their damage. Tornados also rapidly re-apply status effects on the victims and is a prime candidate for Gas or Corrosive. Trying to control the summoned tornados, however, is like herding cats so good luck with that. ",
+			"url": "http://warframe.wikia.com/wiki/Zephyr"
 		}
 	},
 	"Melees": {
