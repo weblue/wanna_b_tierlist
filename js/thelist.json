@@ -4008,20 +4008,20 @@
 			"notes": "Very high damage per shot; hitscan munitions. Justice (Blast, Health, Armor) effects can be useful. ",
 			"rivenDisposition": 1
 		},
-		"Vectis Prime": {
-			"base": "Vectis is viable",
-			"category": "Sniper",
-			"dmg": "Crit/Status",
-			"dmgLink": "https://imgur.com/i3dKuAu",
-			"mr": 14,
-			"name": "Vectis Prime",
-			"rank": 41.7401754250991,
-			"tier": "Top",
-			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Vectis_Prime",
-			"notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (35%/55%). ",
-			"rivenDisposition": 0.85
-		},
+        "Vectis Prime": {
+          "base": "Vectis is contender",
+          "category": "Sniper",
+          "dmg": "Critical",
+          "dmgLink": "https://overframe.gg/build/8931/",
+          "mr": 14,
+          "name": "Vectis Prime",
+          "rank": 37.1213203435596,
+          "tier": "Top",
+          "type": "Semi-auto",
+          "url": "http://warframe.wikia.com/wiki/Vectis_Prime",
+          "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (40%/60%). ",
+          "rivenDisposition": 0.85
+        },
 		"Veldt": {
 			"base": "",
 			"category": "Rifle",
