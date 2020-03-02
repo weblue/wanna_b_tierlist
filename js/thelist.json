@@ -57,7 +57,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Rathuum | Void Fissures | ",
 			"roleSummary": "| Damage | Stealth | ",
 			"notes": "Ash's armor removal and/or bypass makes it so that not a lot of Strength is needed as long as abilities are spammed consistently. ",
-			"url": "http://warframe.wikia.com/wiki/Ash"
+			"url": "http://warframe.fandom.com/wiki/Ash"
 		},
 		"AtlasAIO": {
 			"frameName": "Atlas",
@@ -68,7 +68,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Barrier | ",
 			"notes": "Landslide has decent damage scaling but is held back by relative inability to deal with armor past the starchart. Nonetheless the raw damage is sufficient to deal with Sortie-level enemies. ",
-			"url": "http://warframe.wikia.com/wiki/Atlas"
+			"url": "http://warframe.fandom.com/wiki/Atlas"
 		},
 		"BansheeSonar": {
 			"frameName": "Banshee",
@@ -79,7 +79,7 @@
 			"suitableMissionsRanked": "| Capture | Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Void Fissures | ",
 			"roleSummary": "| Debuff | ",
 			"notes": "Sonar's effects can overlap onto the same spot, adding multipliers to a current multiplier. ",
-			"url": "http://warframe.wikia.com/wiki/Banshee"
+			"url": "http://warframe.fandom.com/wiki/Banshee"
 		},
 		"BansheeQuake": {
 			"frameName": "Banshee",
@@ -90,7 +90,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | ",
 			"notes": "Augmented Soundquake has decent map-clearing potential but is limited by it's relative inability to deal with armor past starchart levels. ",
-			"url": "http://warframe.wikia.com/wiki/Banshee"
+			"url": "http://warframe.fandom.com/wiki/Banshee"
 		},
 		"BansheeSilence": {
 			"frameName": "Banshee",
@@ -101,7 +101,7 @@
 			"suitableMissionsRanked": "| Exterminate - Focus affinity farm | ",
 			"roleSummary": "| Stealth | Unique | ",
 			"notes": "Silence can be used to stagger keep enemies unalerted for the stealth affinity bonus. ",
-			"url": "http://warframe.wikia.com/wiki/Banshee"
+			"url": "http://warframe.fandom.com/wiki/Banshee"
 		},
 		"BaruukAIO": {
 			"frameName": "Baruuk",
@@ -112,7 +112,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Solo | Survival | ",
 			"roleSummary": "| Tank | ",
 			"notes": "Baruuk's kit work in unison by evading attacks while not attacking himself, sleeping his enemies, and easily maintainable 90% damage reduction, he can hardly be killed. Serene Storm can be activated once some Restraint is eroded, but is ultimately underpowered compared to other exalted weaponry despite being easily maintained. ",
-			"url": "http://warframe.wikia.com/wiki/Baruuk"
+			"url": "http://warframe.fandom.com/wiki/Baruuk"
 		},
 		"BaruukCC": {
 			"frameName": "Baruuk",
@@ -123,7 +123,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Solo | Survival | ",
 			"roleSummary": "| Tank | Control | ",
 			"notes": "Long duration Lull can easily lock down an entire map and effictively stall the mission until the timer runs out.",
-			"url": "http://warframe.wikia.com/wiki/Baruuk"
+			"url": "http://warframe.fandom.com/wiki/Baruuk"
 		},
 		"ChromaTank": {
 			"frameName": "Chroma",
@@ -134,7 +134,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Capture | Kuva Siphons/Floods | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | ",
 			"roleSummary": "| Tank | Damage | ",
 			"notes": "9/10 Eidolon Hunters recommend Chroma. The last one uses something else but secretly wishes that his riven and his build is up to snuff. ",
-			"url": "http://warframe.wikia.com/wiki/Chroma"
+			"url": "http://warframe.fandom.com/wiki/Chroma"
 		},
 		"ChromaBuff": {
 			"frameName": "Chroma",
@@ -145,7 +145,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defense | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Capture | Kuva Siphons/Floods | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | ",
 			"roleSummary": "| Tank | Damage | Buff | ",
 			"notes": "Would have been top, but since teaming up would assume some form of coordination it is expected that the Chroma stay a little more still and teammates gather around him for warmth instead. ",
-			"url": "http://warframe.wikia.com/wiki/Chroma"
+			"url": "http://warframe.fandom.com/wiki/Chroma"
 		},
 		"ChromaLoot": {
 			"frameName": "Chroma",
@@ -156,7 +156,7 @@
 			"suitableMissionsRanked": "| Defense | ",
 			"roleSummary": "| Damage | Control | Buff | Debuff | Loot | ",
 			"notes": "Faster and easier to farm credits in Index. Orb mother fights doesn't use this build either. ",
-			"url": "http://warframe.wikia.com/wiki/Chroma"
+			"url": "http://warframe.fandom.com/wiki/Chroma"
 		},
 		"EmberBuff": {
 			"frameName": "Ember",
@@ -167,7 +167,7 @@
 			"suitableMissionsRanked": "",
 			"roleSummary": " ",
 			"notes": "Pending rework ",
-			"url": "http://warframe.wikia.com/wiki/Ember"
+			"url": "http://warframe.fandom.com/wiki/Ember"
 		},
 		"GrendelPlaceholder": {
 			"frameName": "Grendel",
@@ -178,7 +178,7 @@
 			"suitableMissionsRanked": "",
 			"roleSummary": " ",
 			"notes": "Pending initial ranking ",
-			"url": "http://warframe.wikia.com/wiki/Grendel"
+			"url": "http://warframe.fandom.com/wiki/Grendel"
 		},
 		"GaussPlaceholder": {
 			"frameName": "Gauss",
@@ -189,7 +189,7 @@
 			"suitableMissionsRanked": "",
 			"roleSummary": " ",
 			"notes": "Pending initial ranking ",
-			"url": "http://warframe.wikia.com/wiki/Gauss"
+			"url": "http://warframe.fandom.com/wiki/Gauss"
 		},
 		"EquinoxSleep": {
 			"frameName": "Equinox",
@@ -200,7 +200,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Stealth | Unique | ",
 			"notes": "One of the best sleep abilities. Can also be used for rapid solo affinity farm on weapons and focus by stacking the stealth combo counter. ",
-			"url": "http://warframe.wikia.com/wiki/Equinox"
+			"url": "http://warframe.fandom.com/wiki/Equinox"
 		},
 		"EquinoxMaim": {
 			"frameName": "Equinox",
@@ -211,7 +211,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | ",
 			"notes": "One of the few endgame scaling AOE damage abilities. Becomes exponentially more powerful with a coordinated team of damage buff and another similarly built Equinox. ",
-			"url": "http://warframe.wikia.com/wiki/Equinox"
+			"url": "http://warframe.fandom.com/wiki/Equinox"
 		},
 		"EquinoxProvoke": {
 			"frameName": "Equinox",
@@ -222,7 +222,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Excavation | Exterminate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | Debuff | ",
 			"notes": "Buff your teammates' Power Strength while debuffing enemies with damage amp with Day aspect. Or you can switch to defensive debuff on the enemies with the Night aspect, which does count the excess efficiency. ",
-			"url": "http://warframe.wikia.com/wiki/Equinox"
+			"url": "http://warframe.fandom.com/wiki/Equinox"
 		},
 		"ExcaliburIndex": {
 			"frameName": "Excalibur",
@@ -233,7 +233,7 @@
 			"suitableMissionsRanked": "| Index | ",
 			"roleSummary": "| Loot | Unique | ",
 			"notes": "Unique interactions (unlimited weapon ammo) makes Umbra specter really good at killing enemies in Index when equipped with a relatively ammo-inefficient but powerful weapon like Kohm. Since Umbra will not use any abilities while enemies are not in range of it, reducing Range to minimum will ensure that he focuses only on firing the weapon to devastating effect. ",
-			"url": "http://warframe.wikia.com/wiki/Excalibur"
+			"url": "http://warframe.fandom.com/wiki/Excalibur"
 		},
 		"ExcaliburEB": {
 			"frameName": "Excalibur",
@@ -244,7 +244,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
 			"notes": "The best exalted melee in game. Each Augmented Slash Dash provides multiple additions to the combo counter and will excessively increase damage output. Best used with [Drifting Contact] on the EB and Naramon school. ",
-			"url": "http://warframe.wikia.com/wiki/Excalibur"
+			"url": "http://warframe.fandom.com/wiki/Excalibur"
 		},
 		"FrostBubble": {
 			"frameName": "Frost",
@@ -255,7 +255,7 @@
 			"suitableMissionsRanked": "| Assault | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
 			"roleSummary": "| Control | Barrier | ",
 			"notes": "Very few other frames excel at preventing a static objective from being shot at. ",
-			"url": "http://warframe.wikia.com/wiki/Frost"
+			"url": "http://warframe.fandom.com/wiki/Frost"
 		},
 		"FrostCC": {
 			"frameName": "Frost",
@@ -266,7 +266,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Barrier | ",
 			"notes": "Delay-based build for covering large areas with crowd control. A large snowglobe can cover interception points indefinitely while Augmented Ice Wave will keep other enemies slowed down. ",
-			"url": "http://warframe.wikia.com/wiki/Frost"
+			"url": "http://warframe.fandom.com/wiki/Frost"
 		},
 		"FrostNuke": {
 			"frameName": "Frost",
@@ -277,7 +277,7 @@
 			"suitableMissionsRanked": "| Arbitration | Kuva Siphons/Floods | Kuva Survival | Solo | Survival | ",
 			"roleSummary": "| Damage | ",
 			"notes": "Despite having a protective coating you can still build up [Adaptation] stacks, which is great for survivability. ",
-			"url": "http://warframe.wikia.com/wiki/Frost"
+			"url": "http://warframe.fandom.com/wiki/Frost"
 		},
 		"GaraNuke": {
 			"frameName": "Gara",
@@ -288,7 +288,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | Control | Barrier | ",
 			"notes": "Another highly scaling AOE damage ability as Mass Vitrify's explosion damage is derived from Shattered Lash which in turn draws damage from melee mods. This makes maxing out range easier compared with other builds. However, the nuke is relatively complex and a properly built statstick is necessary. ",
-			"url": "http://warframe.wikia.com/wiki/Gara"
+			"url": "http://warframe.fandom.com/wiki/Gara"
 		},
 		"GaraAIO": {
 			"frameName": "Gara",
@@ -299,7 +299,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Defection | Eidolon Hunt | Excavation | Exploiter Orb | Exterminate | FR-Assassinate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Medallion Farming | Mobile Defense | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Sorties | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Buff | Barrier | ",
 			"notes": "This build is more focused on a long duration Splinter Storm with high range to create a walking aura of damage that can trivialize most content once the damage is properly built up. A proper statstick is necessary. ",
-			"url": "http://warframe.wikia.com/wiki/Gara"
+			"url": "http://warframe.fandom.com/wiki/Gara"
 		},
 		"GaraShield": {
 			"frameName": "Gara",
@@ -310,7 +310,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defection | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Drone Hijack | FR-Rescue | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Sorties | Survival | ",
 			"roleSummary": "| Tank | Buff | ",
 			"notes": "90% damage reduction is very good for when a specific mobile objective needs to be protected at all costs. Since Splinter Storm is refreshable this build is more suitable for buff-and-forget instead. ",
-			"url": "http://warframe.wikia.com/wiki/Gara"
+			"url": "http://warframe.fandom.com/wiki/Gara"
 		},
 		"GarudaAIO": {
 			"frameName": "Garuda",
@@ -321,7 +321,7 @@
 			"suitableMissionsRanked": "| Defense | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
 			"notes": "Combining her 1 and 3 means you can survive any attacks unless you get hit by nullifiers or forget to refresh the duration while having nearly +100% damage. ",
-			"url": "http://warframe.wikia.com/wiki/Garuda"
+			"url": "http://warframe.fandom.com/wiki/Garuda"
 		},
 		"GarudaHealer": {
 			"frameName": "Garuda",
@@ -332,7 +332,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Healing | Buff | ",
 			"notes": "Creating 3 altars to keep a semi-static team alive is great especially when healing is scarce. ",
-			"url": "http://warframe.wikia.com/wiki/Garuda"
+			"url": "http://warframe.fandom.com/wiki/Garuda"
 		},
 		"HarrowAIO": {
 			"frameName": "Harrow",
@@ -343,7 +343,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Control | Buff | Unique | ",
 			"notes": "It's really hard to build Harrow wrong (and therefore hard to build him perfectly), especially since his entire kit works in unison and therefore requires different stats to work together. One of the preferred proc prevention frames in Eidolon hunting. ",
-			"url": "http://warframe.wikia.com/wiki/Harrow"
+			"url": "http://warframe.fandom.com/wiki/Harrow"
 		},
 		"HildrynSuper": {
 			"frameName": "Hildryn",
@@ -354,7 +354,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Defection | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Buff | Unique | ",
 			"notes": "One of the few frames that require arcanes to really shine, since Arcane Aegis' regeneration won't be canceled by damage to shields. This allows for relatively unlimited usage of abilities as well as survivability. ",
-			"url": "http://warframe.wikia.com/wiki/Hildryn"
+			"url": "http://warframe.fandom.com/wiki/Hildryn"
 		},
 		"HildrynBudget": {
 			"frameName": "Hildryn",
@@ -365,7 +365,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Defection | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Buff | ",
 			"notes": "The poor man's Hildryn build is still viable but requires no arcanes if a shield regenerating weapon is used while spamming Shield Pillage.",
-			"url": "http://warframe.wikia.com/wiki/Hildryn"
+			"url": "http://warframe.fandom.com/wiki/Hildryn"
 		},
 		"HydroidLoot": {
 			"frameName": "Hydroid",
@@ -376,7 +376,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Infested Salvage | Interception | Kuva Survival | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | Control | Stealth | Loot | Unique | ",
 			"notes": "Puddle first then charge up the Tentacles to double up the loot. Works very well with a Zenistar for relatively pain-free material and mod farming. A well-aimed Tempest Barrage can destroy a Nullifier bubble in a single cast but the Zenistar usually takes care of that. ",
-			"url": "http://warframe.wikia.com/wiki/Hydroid"
+			"url": "http://warframe.fandom.com/wiki/Hydroid"
 		},
 		"HydroidPuddle": {
 			"frameName": "Hydroid",
@@ -387,7 +387,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assault | Defection | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Rathuum | Survival | ",
 			"roleSummary": "| Control | Healing | Stealth | ",
 			"notes": "Curative Undertow build for healing teammates. ",
-			"url": "http://warframe.wikia.com/wiki/Hydroid"
+			"url": "http://warframe.fandom.com/wiki/Hydroid"
 		},
 		"InarosTank": {
 			"frameName": "Inaros",
@@ -398,7 +398,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Exploiter Orb | FR-Assassinate | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Tank | Control | ",
 			"notes": "One of the few frames that require arcanes to really shine, since with a little health regeneration Inaros is pretty much unkillable even when surrounded by active nullifiers. ",
-			"url": "http://warframe.wikia.com/wiki/Inaros"
+			"url": "http://warframe.fandom.com/wiki/Inaros"
 		},
 		"IvaraSleep": {
 			"frameName": "Ivara",
@@ -409,7 +409,7 @@
 			"suitableMissionsRanked": "| Exterminate - Weapon affinity farm | ",
 			"roleSummary": "| Control | Stealth | Unique | ",
 			"notes": "The most reliable way to max out a weapon on a single run. Higher strength to increase the headshot multiplier from Prowl. Sleep arrow can reset alert status an enemy no matter the condition. ",
-			"url": "http://warframe.wikia.com/wiki/Ivara"
+			"url": "http://warframe.fandom.com/wiki/Ivara"
 		},
 		"IvaraAIO": {
 			"frameName": "Ivara",
@@ -420,7 +420,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Eidolon Hunt | FR-Assassinate | FR-Capture | Index | Profit Taker Orb | Rathuum | Solo | Sorties | ",
 			"roleSummary": "| Damage | Buff | Stealth | ",
 			"notes": "Artemis Bow's has great stats and high innate multishot making it excellent at boss-killing as long as AOE attacks can be dealt with. Strength scaling affects Augmented Dashwire and Artemis Bow. ",
-			"url": "http://warframe.wikia.com/wiki/Ivara"
+			"url": "http://warframe.fandom.com/wiki/Ivara"
 		},
 		"IvaraCC": {
 			"frameName": "Ivara",
@@ -431,7 +431,7 @@
 			"suitableMissionsRanked": "| Exterminate - Weapon affinity farm | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Stealth | Unique | ",
 			"notes": "Using Noise Arrow and Sleep Arrow to indefinitely delay a mission. Noise Arrows will eventually break the AI and turn them completely unalerted, allowing you to clear a mission without further interference. ",
-			"url": "http://warframe.wikia.com/wiki/Ivara"
+			"url": "http://warframe.fandom.com/wiki/Ivara"
 		},
 		"IvaraProwl": {
 			"frameName": "Ivara",
@@ -442,7 +442,7 @@
 			"suitableMissionsRanked": "| Spy | Survival | ",
 			"roleSummary": "| Stealth | Loot | Unique | ",
 			"notes": "Great for dealing with pesky Corpus spy rooms until you've mastered the patterns. Can also be used for Prowl farming some enemies but there are faster farming methods. However, Prowl-pickpocketing Life Support from enemies to fulfill the no-kill survival Riven challenge is possible. ",
-			"url": "http://warframe.wikia.com/wiki/Ivara"
+			"url": "http://warframe.fandom.com/wiki/Ivara"
 		},
 		"KhoraAIO": {
 			"frameName": "Khora",
@@ -453,7 +453,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Infested Salvage | Interception | Kuva Survival | Mobile Defense | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Loot | Unique | ",
 			"notes": "Stacking damage from whipclaw's Augment is more than enough to counteract the lowered power strength. Augmented Strangledome causes increases drops which is better AOE damage but capped at 68% increase. With high range, Ensnare can capture unalerted enemies and keep them in an unalerted state for potential stealth kills. Double [Primed Animal Instinct] also offers great utility. ",
-			"url": "http://warframe.wikia.com/wiki/Khora"
+			"url": "http://warframe.fandom.com/wiki/Khora"
 		},
 		"LimboCata": {
 			"frameName": "Limbo",
@@ -464,7 +464,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
 			"roleSummary": "| Control | Barrier | Unique | ",
 			"notes": "When a build only has nullifiers as its weakness, you know it's good. Stay in Rift, press 2, aim at obj and press 4. Repeat. Change range depending on existence of nullifiers in mission. ",
-			"url": "http://warframe.wikia.com/wiki/Limbo"
+			"url": "http://warframe.fandom.com/wiki/Limbo"
 		},
 		"LimboLoot": {
 			"frameName": "Limbo",
@@ -475,7 +475,7 @@
 			"suitableMissionsRanked": "| Medallion Farming | ",
 			"roleSummary": "| Loot | Unique | ",
 			"notes": "Press 4 twice to break any boxes within range so that you can easily see Syndicate Medallion or Caches in the minimap. ",
-			"url": "http://warframe.wikia.com/wiki/Limbo"
+			"url": "http://warframe.fandom.com/wiki/Limbo"
 		},
 		"LimboSurge": {
 			"frameName": "Limbo",
@@ -486,7 +486,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Mobile Defense | Void Fissures | ",
 			"roleSummary": "| Debuff | Unique | ",
 			"notes": "Same usage as Cataclysm, except this time you also press 3 and then banish enemies that have been affected by Rift Surge. Damage scaling is absurd if many enemies are caught in the effect. ",
-			"url": "http://warframe.wikia.com/wiki/Limbo"
+			"url": "http://warframe.fandom.com/wiki/Limbo"
 		},
 		"LimboBanish": {
 			"frameName": "Limbo",
@@ -497,7 +497,7 @@
 			"suitableMissionsRanked": "| Defection | FR-Drone Hijack | FR-Rescue | Rescue | Sorties | ",
 			"roleSummary": "| Healing | Unique | ",
 			"notes": "While in normal plane, send allies into the rift to heal them. Makes Defections or any missions where you need to keep an Operative alive a breeze. ",
-			"url": "http://warframe.wikia.com/wiki/Limbo"
+			"url": "http://warframe.fandom.com/wiki/Limbo"
 		},
 		"LokiSwitchTP": {
 			"frameName": "Loki",
@@ -508,7 +508,7 @@
 			"suitableMissionsRanked": "| Defection | FR-Drone Hijack | ",
 			"roleSummary": "| Speed | Unique | ",
 			"notes": "Extremely good at moving mobile objectives like POE drones closer to the objective. ",
-			"url": "http://warframe.wikia.com/wiki/Loki"
+			"url": "http://warframe.fandom.com/wiki/Loki"
 		},
 		"LokiStealth": {
 			"frameName": "Loki",
@@ -519,7 +519,7 @@
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rathuum | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Speed | Stealth | ",
 			"notes": "Very useful for rushing through missions with Loki's high innate speed. ",
-			"url": "http://warframe.wikia.com/wiki/Loki"
+			"url": "http://warframe.fandom.com/wiki/Loki"
 		},
 		"LokiDisarm": {
 			"frameName": "Loki",
@@ -530,7 +530,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Stealth | ",
 			"notes": "One of the highest ranged disarm abilities in game. Adding the Augment delays the enemies from being able to act effectively against the objective even more. ",
-			"url": "http://warframe.wikia.com/wiki/Loki"
+			"url": "http://warframe.fandom.com/wiki/Loki"
 		},
 		"MagBubble": {
 			"frameName": "Mag",
@@ -541,7 +541,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Debuff | ",
 			"notes": "Run in, disarm and bubble one enemy. Shoot  the bubble with a projectile weapon and let the damage commence. Aug3 helps with surviability, as well as [Adaptation] as Mag's Crush can gain overshields. ",
-			"url": "http://warframe.wikia.com/wiki/Mag"
+			"url": "http://warframe.fandom.com/wiki/Mag"
 		},
 		"MesaAIO": {
 			"frameName": "Mesa",
@@ -552,7 +552,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
 			"notes": "Shatter Shield can redirect up to 95% of an enemy's ranged attack. Mesa's Peacemakers are best modded for fire speed and forgoing [Hornet Strike] due to how it interacts with Power Strength. Damage can ramp up to extreme levels but it's inability to target weakspots will hamper usefulness against certain VIPs. ",
-			"url": "http://warframe.wikia.com/wiki/Mesa"
+			"url": "http://warframe.fandom.com/wiki/Mesa"
 		},
 		"MirageEclipse": {
 			"frameName": "Mirage",
@@ -563,7 +563,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | ",
 			"notes": "Buff your teammates with multiplicative weapon damage. Might have some issues with identifying bright areas during mobile missions, but is one of the highest damage amplification abilities. Eclipse also increases Scanners' speed. ",
-			"url": "http://warframe.wikia.com/wiki/Mirage"
+			"url": "http://warframe.fandom.com/wiki/Mirage"
 		},
 		"MirageMurder": {
 			"frameName": "Mirage",
@@ -574,7 +574,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | ",
 			"notes": "Extreme weapon damage amp would have been great if Mirage isn't a total pushover. Doppelganger shots can also proc status despite having lower damage than the main so build your weapons accordingly. ",
-			"url": "http://warframe.wikia.com/wiki/Mirage"
+			"url": "http://warframe.fandom.com/wiki/Mirage"
 		},
 		"MiragePrism": {
 			"frameName": "Mirage",
@@ -585,7 +585,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | ",
 			"notes": "Blind would have been good if LoS is not needed for the crowd control. ",
-			"url": "http://warframe.wikia.com/wiki/Mirage"
+			"url": "http://warframe.fandom.com/wiki/Mirage"
 		},
 		"MirageNuke": {
 			"frameName": "Mirage",
@@ -596,7 +596,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | ",
 			"notes": "Explosive Legerdemain turns all ammo pickups into proximity mines that will explode for signficant damage once stacked. A Nekros or Hydroid in the team to increase the number of pickups increasese the damage potential. ",
-			"url": "http://warframe.wikia.com/wiki/Mirage"
+			"url": "http://warframe.fandom.com/wiki/Mirage"
 		},
 		"NekrosLoot": {
 			"frameName": "Nekros",
@@ -607,7 +607,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Infested Salvage | Interception | Kuva Survival | Medallion Farming | Mobile Defense | Survival | ",
 			"roleSummary": "| Tank | Control | Summon/MindControl | Loot | Unique | ",
 			"notes": "Desecrate can almost double your loot if accompanied with an appropriate loadout of dismembering weapons. Shield of Shadows can create a buffer between enemies and an objective semi-reliably. When all else fails, Terrify will get rid of the remaining enemies. ",
-			"url": "http://warframe.wikia.com/wiki/Nekros"
+			"url": "http://warframe.fandom.com/wiki/Nekros"
 		},
 		"NezhaAIO": {
 			"frameName": "Nezha",
@@ -618,7 +618,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Capture | Defection | Defense | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Mobile Defense | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Control | Buff | Debuff | Speed | ",
 			"notes": "Truly the Jack of all Trades but Master of None, Nezha's entire kit synergizes well together but requires different stats. Using Warding Halo to protect yourself or allies while utilizing Chakram on enemies affected by Divine Spears to force another Chakram out. ",
-			"url": "http://warframe.wikia.com/wiki/Nezha"
+			"url": "http://warframe.fandom.com/wiki/Nezha"
 		},
 		"NezhaDelay": {
 			"frameName": "Nezha",
@@ -629,7 +629,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Tank | Control | ",
 			"notes": "With a base duration of 12 seconds, Divine Spears can keep a sufficiently large area locked down for a long time when modded properly. Does not work as a stealth farm tool as it alerts enemies. ",
-			"url": "http://warframe.wikia.com/wiki/Nezha"
+			"url": "http://warframe.fandom.com/wiki/Nezha"
 		},
 		"NezhaNuke": {
 			"frameName": "Nezha",
@@ -640,7 +640,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
 			"notes": "Divine Spears have a decent enough damage to last the starchart. Fixed damage and inabillity to deal with armor hampers the scaling. ",
-			"url": "http://warframe.wikia.com/wiki/Nezha"
+			"url": "http://warframe.fandom.com/wiki/Nezha"
 		},
 		"NezhaChakram": {
 			"frameName": "Nezha",
@@ -651,7 +651,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Debuff | ",
 			"notes": "Chakram's damage multiplier is applied as a debuff on enemies after all other damage is calculated. Drawback is the limit on how many enemies it can affect and some VIPs immunity to debuffs. ",
-			"url": "http://warframe.wikia.com/wiki/Nezha"
+			"url": "http://warframe.fandom.com/wiki/Nezha"
 		},
 		"NidusLink": {
 			"frameName": "Nidus",
@@ -662,7 +662,7 @@
 			"suitableMissionsRanked": "| Arbitration | Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Buff | ",
 			"notes": "By far the biggest Power Strength buff you can get in game. Parasitic Link is slightly limited as it can only amplify one Ally and requires the teammate to build appropriately. ",
-			"url": "http://warframe.wikia.com/wiki/Nidus"
+			"url": "http://warframe.fandom.com/wiki/Nidus"
 		},
 		"NidusTank": {
 			"frameName": "Nidus",
@@ -673,7 +673,7 @@
 			"suitableMissionsRanked": "| Arbitration | Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Interception | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Damage | Control | ",
 			"notes": "Linking to an enemy can grant up to 90% damage reduction, which makes Nidus nigh invincible considering his natural stats. ",
-			"url": "http://warframe.wikia.com/wiki/Nidus"
+			"url": "http://warframe.fandom.com/wiki/Nidus"
 		},
 		"NidusStomp": {
 			"frameName": "Nidus",
@@ -684,7 +684,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | Control | ",
 			"notes": "Virulence is very strong when stacks are up, but takes too much time to ramp up for quicker missions. ",
-			"url": "http://warframe.wikia.com/wiki/Nidus"
+			"url": "http://warframe.fandom.com/wiki/Nidus"
 		},
 		"NovaSpeed": {
 			"frameName": "Nova",
@@ -695,7 +695,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Medallion Farming | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | Unique | ",
 			"notes": "No other abilities grant both double damage and an increase in enemy speed with so much coverage. One of the few actual use case for [Power Donation]. Augment compensates for Nova's poor survivability.",
-			"url": "http://warframe.wikia.com/wiki/Nova"
+			"url": "http://warframe.fandom.com/wiki/Nova"
 		},
 		"NovaSlow": {
 			"frameName": "Nova",
@@ -706,7 +706,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Damage | Control | ",
 			"notes": "No other abilities grant both double damage and a decrease in enemy speed with so much coverage. Augment compensates for Nova's poor survivability.",
-			"url": "http://warframe.wikia.com/wiki/Nova"
+			"url": "http://warframe.fandom.com/wiki/Nova"
 		},
 		"NovaPortal": {
 			"frameName": "Nova",
@@ -717,7 +717,7 @@
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Defection | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Speed | Unique | ",
 			"notes": "Impressive speed when mastered while also being able to move POE drones along. Also consider lowering range for smaller/tighter maps. ",
-			"url": "http://warframe.wikia.com/wiki/Nova"
+			"url": "http://warframe.fandom.com/wiki/Nova"
 		},
 		"NovaAMD": {
 			"frameName": "Nova",
@@ -728,7 +728,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | ",
 			"notes": "Augmented Antimatter Drop can be used to block enemy weapon fire and bypasses terrain. Drawback of needing to charge the ball and fixed range of subsequent explosion limits this ability. ",
-			"url": "http://warframe.wikia.com/wiki/Nova"
+			"url": "http://warframe.fandom.com/wiki/Nova"
 		},
 		"NyxChaos": {
 			"frameName": "Nyx",
@@ -739,7 +739,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Tank | Buff | ",
 			"notes": "Extremely useful for completely stalling a mission's timer. Advantage compared to Loki's Irradiating Disarm is that enemies will also shoot nullifier bubbles. Augment is useful but it is often easier to just recast. ",
-			"url": "http://warframe.wikia.com/wiki/Nyx"
+			"url": "http://warframe.fandom.com/wiki/Nyx"
 		},
 		"NyxBubble": {
 			"frameName": "Nyx",
@@ -750,7 +750,7 @@
 			"suitableMissionsRanked": "| Assault | Defense | Excavation | Interception | Kuva Survival | Mobile Defense | ",
 			"roleSummary": "| Barrier | ",
 			"notes": "Can be used defensively to protect an objective from being harmed, but limited to smaller objectives. Raised threat level also forces enemies to redirect fire to you but is not as good as other defensive barrier's coverage. Uniquely, [Rift Strike] on Twin Basolk allows for greater mobility when required. ",
-			"url": "http://warframe.wikia.com/wiki/Nyx"
+			"url": "http://warframe.fandom.com/wiki/Nyx"
 		},
 		"OberonHealer": {
 			"frameName": "Oberon",
@@ -761,7 +761,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | FR-Assassinate | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Healing | Buff | ",
 			"notes": "Defensive babysitter build mostly for keeping allies and opertives alive. Augmented 3 provides instant revive every 90s which is useful for glass cannon frames. ",
-			"url": "http://warframe.wikia.com/wiki/Oberon"
+			"url": "http://warframe.fandom.com/wiki/Oberon"
 		},
 		"OberonEidolon": {
 			"frameName": "Oberon",
@@ -772,7 +772,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defection | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Drone Hijack | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Damage | Unique | ",
 			"notes": "Eidolon Hunter build. Augmented Smite buff on allies can be used to great effect as Eidolons are weak to Radiation. ",
-			"url": "http://warframe.wikia.com/wiki/Oberon"
+			"url": "http://warframe.fandom.com/wiki/Oberon"
 		},
 		"OberonNuke": {
 			"frameName": "Oberon",
@@ -783,7 +783,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Damage | Debuff | ",
 			"notes": "AOE nuking and armor removal build. Laying down Hallowed Grounds and casting Reckoning twice completely removes armor. ",
-			"url": "http://warframe.wikia.com/wiki/Oberon"
+			"url": "http://warframe.fandom.com/wiki/Oberon"
 		},
 		"OctaviaStealth": {
 			"frameName": "Octavia",
@@ -794,7 +794,7 @@
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Buff | Speed | Stealth | ",
 			"notes": "Octavia's unique and refreshable invisibility can be managed to 100% uptime while maintaining full mobility. The buff can be applied across the team with some coordination. ",
-			"url": "http://warframe.wikia.com/wiki/Octavia"
+			"url": "http://warframe.fandom.com/wiki/Octavia"
 		},
 		"OctaviaMallet": {
 			"frameName": "Octavia",
@@ -805,7 +805,7 @@
 			"suitableMissionsRanked": "| Assault | Defense | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Kuva Survival | Mobile Defense | Void Fissures | ",
 			"roleSummary": "| Damage | Buff | ",
 			"notes": "Mallet is one of the very few Warframe abilities that is effective against Nullifiers. Amp doubles the range and can cover the entire room in a Defense mission. ",
-			"url": "http://warframe.wikia.com/wiki/Octavia"
+			"url": "http://warframe.fandom.com/wiki/Octavia"
 		},
 		"OctaviaBuff": {
 			"frameName": "Octavia",
@@ -816,7 +816,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | ",
 			"notes": "Team buff build that is both high in utility and damage potential. A viable option for Eidolon Hunting although not recommended as Octavia would not survive the AOE damage. The Opera effect from Metronome also affects Scanners' speed. ",
-			"url": "http://warframe.wikia.com/wiki/Octavia"
+			"url": "http://warframe.fandom.com/wiki/Octavia"
 		},
 		"RevenantAIO": {
 			"frameName": "Revenant",
@@ -827,7 +827,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Control | Summon/MindControl | ",
 			"notes": "Revenant's kit grants him both offensive and defensive capabilities at the cost of some mobility. ",
-			"url": "http://warframe.wikia.com/wiki/Revenant"
+			"url": "http://warframe.fandom.com/wiki/Revenant"
 		},
 		"RhinoSolo": {
 			"frameName": "Rhino",
@@ -838,7 +838,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Hijack | Index | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | ",
 			"notes": "An all-rounded build that utilises most of Rhino's offensive and defensive abilities. Ironclad Charge scales better than [Steel Fibre] even if you just hit two enemies. ",
-			"url": "http://warframe.wikia.com/wiki/Rhino"
+			"url": "http://warframe.fandom.com/wiki/Rhino"
 		},
 		"RhinoBuff": {
 			"frameName": "Rhino",
@@ -849,7 +849,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Buff | ",
 			"notes": "Roar scales after weapon damage mods and is one of the best damage buff to you and your allies. Range can be reduced in a coordinated team. One of the DPS-enhancing options for an Eidolon hunt. ",
-			"url": "http://warframe.wikia.com/wiki/Rhino"
+			"url": "http://warframe.fandom.com/wiki/Rhino"
 		},
 		"RhinoStomp": {
 			"frameName": "Rhino",
@@ -860,7 +860,7 @@
 			"suitableMissionsRanked": "| Assault | Defection | Interception | Mobile Defense | ",
 			"roleSummary": "| Control | Unique | ",
 			"notes": "A unique build for crowd control. Enemies are thrown into the air for the duration and will enter knockdown-like state after. Enemies stuck in the air will remain unalerted and this makes the stealth focus farm in exterminate maps possible. ",
-			"url": "http://warframe.wikia.com/wiki/Rhino"
+			"url": "http://warframe.fandom.com/wiki/Rhino"
 		},
 		"SarynESO": {
 			"frameName": "Saryn",
@@ -871,7 +871,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Buff | Debuff | ",
 			"notes": "Saryn has high range for Spores and Miasma. Enemies that die from sources other than Spore also spread it outwards with increasing damage. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable due to the plethora of status effects. ",
-			"url": "http://warframe.wikia.com/wiki/Saryn"
+			"url": "http://warframe.fandom.com/wiki/Saryn"
 		},
 		"SarynMelee": {
 			"frameName": "Saryn",
@@ -882,7 +882,7 @@
 			"suitableMissionsRanked": "| Arbitration | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Damage | Debuff | ",
 			"notes": "Turn Saryn into a melee platform by spreading 3 status effects to jumpstart [Condition Overload]. Toxic Lash bursts all spores for re-application of the Corrosive effect and each spore burst with your melee weapon adds to the combo counter. Equipping [Healing Return] provides nigh endless health regen and the loss in DPS hardly noticeable. ",
-			"url": "http://warframe.wikia.com/wiki/Saryn"
+			"url": "http://warframe.fandom.com/wiki/Saryn"
 		},
 		"TitaniaAIO": {
 			"frameName": "Titania",
@@ -893,7 +893,7 @@
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Eidolon Hunt | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Profit Taker Orb | Rathuum | Rescue | Sabotage | ",
 			"roleSummary": "| Damage | Debuff | ",
 			"notes": "Dex Pixia has great damage potential but Razorwing disables companion abilities and Titania herself has limited survivability. Debuffing enemies with her other abilites will trigger the Augment and increase her Fire Rate and Movement Speed. Titania is one of the best frames for killing Plague Star's boss due to Dex Pixia's mechanics. ",
-			"url": "http://warframe.wikia.com/wiki/Titania"
+			"url": "http://warframe.fandom.com/wiki/Titania"
 		},
 		"TrinityEV": {
 			"frameName": "Trinity",
@@ -904,7 +904,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Defense | Eidolon Hunt | Excavation | FR-Assassinate | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Hijack | Index | Infested Salvage | Interception | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Buff | ",
 			"notes": "No other frames give the team as much energy as fast as an EV Trinity. Augment also adds Overshields and is a viable case for survivability when stacked with [Adaptation]. ",
-			"url": "http://warframe.wikia.com/wiki/Trinity"
+			"url": "http://warframe.fandom.com/wiki/Trinity"
 		},
 		"TrinityBless": {
 			"frameName": "Trinity",
@@ -915,7 +915,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | FR-Assassinate | FR-Rescue | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Rescue | Sanctuary Onslaught (Elite)  | Solo | Sorties | Survival | ",
 			"roleSummary": "| Tank | Buff | ",
 			"notes": "Within affinity range, heal teammates to full health and provide 75% damage resistance. No other frames can come close to the speed of the heal. Very useful for keeping Eidolon Lures alive. ",
-			"url": "http://warframe.wikia.com/wiki/Trinity"
+			"url": "http://warframe.fandom.com/wiki/Trinity"
 		},
 		"TrinityLink": {
 			"frameName": "Trinity",
@@ -926,7 +926,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Exploiter Orb | FR-Assassinate | Hijack | Index | Kuva Siphons/Floods | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Tank | Buff | Debuff | ",
 			"notes": "Abating Link removes all armor from enemies and redirect the damage to them. Combine with Blessing to gain high survivability. ",
-			"url": "http://warframe.wikia.com/wiki/Trinity"
+			"url": "http://warframe.fandom.com/wiki/Trinity"
 		},
 		"ValkyrMelee": {
 			"frameName": "Valkyr",
@@ -937,7 +937,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Buff | ",
 			"notes": "Valkyr excels as a melee platform due to her innate stats and the bonus from Warcry that is easily maintained by the Augment. ",
-			"url": "http://warframe.wikia.com/wiki/Valkyr"
+			"url": "http://warframe.fandom.com/wiki/Valkyr"
 		},
 		"VaubanCC": {
 			"frameName": "Vauban",
@@ -948,7 +948,7 @@
 			"suitableMissionsRanked": "",
 			"roleSummary": "",
 			"notes": "Pending re-evaluation.",
-			"url": "http://warframe.wikia.com/wiki/Vauban"
+			"url": "http://warframe.fandom.com/wiki/Vauban"
 		},
 		"VoltESO": {
 			"frameName": "Volt",
@@ -959,7 +959,7 @@
 			"suitableMissionsRanked": "| Defense | Excavation | FR-Liberation | FR-Resource Theft | FR-Supply Sabotage | Infested Salvage | Kuva Survival | Sanctuary Onslaught (Elite)  | Survival | ",
 			"roleSummary": "| Tank | Damage | Buff | ",
 			"notes": "One of the few top ESO farming frames. Duration maintains Discharge's effects on enemies and thus increases DPS. Augmented Discharge can gain Overshield which synergizes with [Adaptation] for even greater survivability. ",
-			"url": "http://warframe.wikia.com/wiki/Volt"
+			"url": "http://warframe.fandom.com/wiki/Volt"
 		},
 		"VoltEidolon": {
 			"frameName": "Volt",
@@ -970,7 +970,7 @@
 			"suitableMissionsRanked": "| Assassination | Capture | Defense | Eidolon Hunt | Excavation | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Index | Infested Salvage | Interception | Kuva Survival | Profit Taker Orb | Rathuum | Sanctuary Onslaught (Elite)  | Survival | Void Fissures | ",
 			"roleSummary": "| Buff | Barrier | Unique | ",
 			"notes": "Good for defending a specific objective or Eidolon hunting. Angle up to three Electric Shields around an objective to prevent any gunfire to it. ",
-			"url": "http://warframe.wikia.com/wiki/Volt"
+			"url": "http://warframe.fandom.com/wiki/Volt"
 		},
 		"VoltSpeed": {
 			"frameName": "Volt",
@@ -981,7 +981,7 @@
 			"suitableMissionsRanked": "| Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Rescue | Sabotage | Spy | ",
 			"roleSummary": "| Buff | Speed | ",
 			"notes": "Volt's Speed is an easily applied buff to the team. Very useful for speedrunning any content. ",
-			"url": "http://warframe.wikia.com/wiki/Volt"
+			"url": "http://warframe.fandom.com/wiki/Volt"
 		},
 		"WispPlatform": {
 			"frameName": "Wisp",
@@ -992,7 +992,7 @@
 			"suitableMissionsRanked": "| Assault | Capture | Defense | Exterminate | FR-Capture | FR-Exterminate | Index | Kuva Survival | Solo | Sorties | Survival | ",
 			"roleSummary": "| Tank | Damage | Healing | Buff | Speed | ",
 			"notes": "Reservoirs last forever, but the lingering effects allow for a great degree of mobility as long as the cooldown is appropriately managed. The triple Motes allow for a great melee platform since it covers all the bases. ",
-			"url": "http://warframe.wikia.com/wiki/Wisp"
+			"url": "http://warframe.fandom.com/wiki/Wisp"
 		},
 		"WukongAIO": {
 			"frameName": "Wukong",
@@ -1003,7 +1003,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Eidolon Hunt | Exploiter Orb | Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Hijack | Index | Interception | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | Void Fissures | ",
 			"roleSummary": "| Tank | Damage | Summon/MindControl | ",
 			"notes": "Post-rework Wukong has great survivability with Defy's armor bonus and a panic button in Cloud Walker. The Celestial Twin also draw some aggro away from you while doubling your effective DPS. All of Wukong's ability synergizes with his clone. ",
-			"url": "http://warframe.wikia.com/wiki/Wukong"
+			"url": "http://warframe.fandom.com/wiki/Wukong"
 		},
 		"ZephyrTailWind": {
 			"frameName": "Zephyr",
@@ -1014,7 +1014,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | Assault | Capture | Exterminate | Exterminate - Focus affinity farm | Exterminate - Weapon affinity farm | FR-Assassinate | FR-Cache Recovery | FR-Capture | FR-Drone Hijack | FR-Exterminate | FR-Liberation | FR-Rescue | FR-Resource Theft | FR-Supply Sabotage | Kuva Siphons/Floods | Kuva Survival | Rathuum | Rescue | Sabotage | Sanctuary Onslaught (Elite)  | Solo | Spy | Survival | ",
 			"roleSummary": "| Buff | Speed | ",
 			"notes": "Tail Wind is very useful for traversing large maps without the use of an Archwing Launcher. It can also be adapted for indoor maps and cancelled using slam attacks but will require some practise. ",
-			"url": "http://warframe.wikia.com/wiki/Zephyr"
+			"url": "http://warframe.fandom.com/wiki/Zephyr"
 		},
 		"ZephyrTurb": {
 			"frameName": "Zephyr",
@@ -1025,7 +1025,7 @@
 			"suitableMissionsRanked": "| Arbitration | Assassination | FR-Assassinate | Kuva Siphons/Floods | Kuva Survival | Rathuum | Sanctuary Onslaught (Elite)  | Solo | Survival | ",
 			"roleSummary": "| Tank | Buff | ",
 			"notes": "Turbulence redirects any gunfire away from Zephyr. The Augment increases Projectile Flight Speed and therefore makes arrows fly straighter and increases the range before shotguns' falloff. ",
-			"url": "http://warframe.wikia.com/wiki/Zephyr"
+			"url": "http://warframe.fandom.com/wiki/Zephyr"
 		},
 		"ZephyrTornado": {
 			"frameName": "Zephyr",
@@ -1036,7 +1036,7 @@
 			"suitableMissionsRanked": "| Exterminate | FR-Assassinate | FR-Capture | FR-Exterminate | FR-Rescue | Interception | Void Fissures | ",
 			"roleSummary": "| Damage | ",
 			"notes": "Fire into Tornados to increase their damage. Tornados also rapidly re-apply status effects on the victims and is a prime candidate for Gas or Corrosive. Trying to control the summoned tornados, however, is like herding cats so good luck with that. ",
-			"url": "http://warframe.wikia.com/wiki/Zephyr"
+			"url": "http://warframe.fandom.com/wiki/Zephyr"
 		}
 	},
 	"Melees": {
@@ -1052,7 +1052,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Sword and Shield",
-			"url": "http://warframe.wikia.com/wiki/Ack_&_Brunt",
+			"url": "http://warframe.fandom.com/wiki/Ack_&_Brunt",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 0.9
 		},
@@ -1068,7 +1068,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Staff",
-			"url": "http://warframe.wikia.com/wiki/Amphis",
+			"url": "http://warframe.fandom.com/wiki/Amphis",
 			"wepnotes": "Very low damage per hit, very high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.5
 		},
@@ -1084,7 +1084,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Scythe",
-			"url": "http://warframe.wikia.com/wiki/Anku",
+			"url": "http://warframe.fandom.com/wiki/Anku",
 			"wepnotes": "Very low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.46
 		},
@@ -1100,7 +1100,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Fists",
-			"url": "http://warframe.wikia.com/wiki/Ankyros_Prime",
+			"url": "http://warframe.fandom.com/wiki/Ankyros_Prime",
 			"wepnotes": "Very low damage per hit, very high attack speed. ",
 			"rivenDisposition": 1.45
 		},
@@ -1116,7 +1116,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Arca_Titron",
+			"url": "http://warframe.fandom.com/wiki/Arca_Titron",
 			"wepnotes": "Very high damage per hit, very low attack speed. Kills grant up to 10 Capacitor (+100% electricity damage each) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. ",
 			"rivenDisposition": 1
 		},
@@ -1132,7 +1132,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Whip",
-			"url": "http://warframe.wikia.com/wiki/Atterax",
+			"url": "http://warframe.fandom.com/wiki/Atterax",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 0.5
 		},
@@ -1148,7 +1148,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Staff",
-			"url": "http://warframe.wikia.com/wiki/Bo_Prime",
+			"url": "http://warframe.fandom.com/wiki/Bo_Prime",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.29
 		},
@@ -1164,7 +1164,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Staff",
-			"url": "http://warframe.wikia.com/wiki/Broken_Scepter",
+			"url": "http://warframe.fandom.com/wiki/Broken_Scepter",
 			"wepnotes": "Very low damage per hit, very high attack speed. Suffers from relatively poor consistency. Can Drain enemies to spawn health/energy orb. ",
 			"rivenDisposition": 1.19
 		},
@@ -1180,7 +1180,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Broken_War",
+			"url": "http://warframe.fandom.com/wiki/Broken_War",
 			"wepnotes": "Low damage per hit, high attack speed. ",
 			"rivenDisposition": 0.79
 		},
@@ -1196,7 +1196,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Cassowar",
+			"url": "http://warframe.fandom.com/wiki/Cassowar",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -1212,7 +1212,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Scythe",
-			"url": "http://warframe.wikia.com/wiki/Caustacyst",
+			"url": "http://warframe.fandom.com/wiki/Caustacyst",
 			"wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Charge attack throws wave of Corrosive damage, staggers enemies and causes guaranteed slash proc on direct contact. ✪",
 			"rivenDisposition": 1.3
 		},
@@ -1228,7 +1228,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Dagger",
-			"url": "http://warframe.wikia.com/wiki/Ceramic_Dagger",
+			"url": "http://warframe.fandom.com/wiki/Ceramic_Dagger",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.43
 		},
@@ -1244,7 +1244,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Cerata",
+			"url": "http://warframe.fandom.com/wiki/Cerata",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 1.36
 		},
@@ -1260,7 +1260,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Sword and Shield",
-			"url": "http://warframe.wikia.com/wiki/Cobra_&_Crane",
+			"url": "http://warframe.fandom.com/wiki/Cobra_&_Crane",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -1276,7 +1276,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Cronus",
+			"url": "http://warframe.fandom.com/wiki/Cronus",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.48
 		},
@@ -1292,7 +1292,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Dakra_Prime",
+			"url": "http://warframe.fandom.com/wiki/Dakra_Prime",
 			"wepnotes": "Very low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -1308,7 +1308,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dark_Split-Sword",
+			"url": "http://warframe.fandom.com/wiki/Dark_Split-Sword",
 			"wepnotes": "Low damage per hit, very high attack speed. Heavy blade mode is relatively underpowered. ",
 			"rivenDisposition": 1.21
 		},
@@ -1324,7 +1324,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Dark_Sword",
+			"url": "http://warframe.fandom.com/wiki/Dark_Sword",
 			"wepnotes": "Very low damage per hit, very low attack speed. ✪",
 			"rivenDisposition": 1.48
 		},
@@ -1340,7 +1340,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Rapier",
-			"url": "http://warframe.wikia.com/wiki/Destreza_Prime",
+			"url": "http://warframe.fandom.com/wiki/Destreza_Prime",
 			"wepnotes": "Low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.14
 		},
@@ -1356,7 +1356,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dex_Dakra",
+			"url": "http://warframe.fandom.com/wiki/Dex_Dakra",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.15
 		},
@@ -1372,7 +1372,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Nikana",
-			"url": "http://warframe.wikia.com/wiki/Dragon_Nikana",
+			"url": "http://warframe.fandom.com/wiki/Dragon_Nikana",
 			"wepnotes": "Low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.35
 		},
@@ -1388,7 +1388,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Ether",
+			"url": "http://warframe.fandom.com/wiki/Dual_Ether",
 			"wepnotes": "Very low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.45
 		},
@@ -1404,7 +1404,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Heat_Swords",
+			"url": "http://warframe.fandom.com/wiki/Dual_Heat_Swords",
 			"wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Slam attacks procs Heat in an AOE. ",
 			"rivenDisposition": 1.44
 		},
@@ -1420,7 +1420,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Ichor",
+			"url": "http://warframe.fandom.com/wiki/Dual_Ichor",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 1.16
 		},
@@ -1436,7 +1436,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Kamas_Prime",
+			"url": "http://warframe.fandom.com/wiki/Dual_Kamas_Prime",
 			"wepnotes": "Very low damage per hit, very high attack speed. ",
 			"rivenDisposition": 0.81
 		},
@@ -1452,7 +1452,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Keres",
+			"url": "http://warframe.fandom.com/wiki/Dual_Keres",
 			"wepnotes": "Very low damage per hit, very high attack speed. ✪",
 			"rivenDisposition": 1.48
 		},
@@ -1468,7 +1468,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Raza",
+			"url": "http://warframe.fandom.com/wiki/Dual_Raza",
 			"wepnotes": "Very low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.4
 		},
@@ -1484,7 +1484,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Skana",
+			"url": "http://warframe.fandom.com/wiki/Dual_Skana",
 			"wepnotes": "Very low damage per hit, very low attack speed. ",
 			"rivenDisposition": 1.48
 		},
@@ -1500,7 +1500,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Dual_Zoren",
+			"url": "http://warframe.fandom.com/wiki/Dual_Zoren",
 			"wepnotes": "Very low damage per hit, very high attack speed. ",
 			"rivenDisposition": 1.44
 		},
@@ -1516,7 +1516,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Rapier",
-			"url": "http://warframe.wikia.com/wiki/Endura",
+			"url": "http://warframe.fandom.com/wiki/Endura",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -1532,7 +1532,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Dual Daggers",
-			"url": "http://warframe.wikia.com/wiki/Ether_Daggers",
+			"url": "http://warframe.fandom.com/wiki/Ether_Daggers",
 			"wepnotes": "Very low damage per hit, very low attack speed. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.49
 		},
@@ -1548,7 +1548,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Scythe",
-			"url": "http://warframe.wikia.com/wiki/Ether_Reaper",
+			"url": "http://warframe.fandom.com/wiki/Ether_Reaper",
 			"wepnotes": "Very low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.45
 		},
@@ -1564,7 +1564,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Ether_Sword",
+			"url": "http://warframe.fandom.com/wiki/Ether_Sword",
 			"wepnotes": "Very low damage per hit, low attack speed. Slam attacks procs Radiation in an AOE. ✪",
 			"rivenDisposition": 1.44
 		},
@@ -1580,7 +1580,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Falcor",
+			"url": "http://warframe.fandom.com/wiki/Falcor",
 			"wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1
 		},
@@ -1596,7 +1596,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Daggers",
-			"url": "http://warframe.wikia.com/wiki/Fang_Prime",
+			"url": "http://warframe.fandom.com/wiki/Fang_Prime",
 			"wepnotes": "Very low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.36
 		},
@@ -1612,7 +1612,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Fragor_Prime",
+			"url": "http://warframe.fandom.com/wiki/Fragor_Prime",
 			"wepnotes": "High damage per hit, low attack speed. ",
 			"rivenDisposition": 0.96
 		},
@@ -1628,7 +1628,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Fists",
-			"url": "http://warframe.wikia.com/wiki/Furax_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Furax_Wraith",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.38
 		},
@@ -1644,7 +1644,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/Galatine_Prime",
+			"url": "http://warframe.fandom.com/wiki/Galatine_Prime",
 			"wepnotes": "High damage per hit, high attack speed. ",
 			"rivenDisposition": 0.5
 		},
@@ -1660,7 +1660,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Whip",
-			"url": "http://warframe.wikia.com/wiki/Galvacord",
+			"url": "http://warframe.fandom.com/wiki/Galvacord",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -1676,7 +1676,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Machete",
-			"url": "http://warframe.wikia.com/wiki/Gazal_Machete",
+			"url": "http://warframe.fandom.com/wiki/Gazal_Machete",
 			"wepnotes": "Very low damage per hit, high attack speed. Can be paired with Djinn's Fatal Attraction for approximately 16.6% uptime. ✪",
 			"rivenDisposition": 1.35
 		},
@@ -1692,7 +1692,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Glaive_Prime",
+			"url": "http://warframe.fandom.com/wiki/Glaive_Prime",
 			"wepnotes": "Very low damage per hit, very high attack speed. ",
 			"rivenDisposition": 1.22
 		},
@@ -1708,7 +1708,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/Gram_Prime",
+			"url": "http://warframe.fandom.com/wiki/Gram_Prime",
 			"wepnotes": "Very high damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.44
 		},
@@ -1724,7 +1724,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Guandao",
+			"url": "http://warframe.fandom.com/wiki/Guandao",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -1740,7 +1740,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Warfan",
-			"url": "http://warframe.wikia.com/wiki/Gunsen",
+			"url": "http://warframe.fandom.com/wiki/Gunsen",
 			"wepnotes": "Very low damage per hit, very high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1
 		},
@@ -1756,7 +1756,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Halikar",
+			"url": "http://warframe.fandom.com/wiki/Halikar",
 			"wepnotes": "Very low damage per hit, high attack speed. Thrown attacks can disarm opponents. ",
 			"rivenDisposition": 1.44
 		},
@@ -1772,7 +1772,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Scythe",
-			"url": "http://warframe.wikia.com/wiki/Hate",
+			"url": "http://warframe.fandom.com/wiki/Hate",
 			"wepnotes": "Low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.36
 		},
@@ -1788,7 +1788,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Dagger",
-			"url": "http://warframe.wikia.com/wiki/Heat_Dagger",
+			"url": "http://warframe.fandom.com/wiki/Heat_Dagger",
 			"wepnotes": "Very low damage per hit, very low attack speed. Slam attacks deal Heat damage and have high chance of proccing Heat. ",
 			"rivenDisposition": 1.44
 		},
@@ -1804,7 +1804,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Heat_Sword",
+			"url": "http://warframe.fandom.com/wiki/Heat_Sword",
 			"wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.48
 		},
@@ -1820,7 +1820,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Heliocor",
+			"url": "http://warframe.fandom.com/wiki/Heliocor",
 			"wepnotes": "High damage per hit, low attack speed. Suffers from relatively poor consistency. Gives one codex scan upon kill. ",
 			"rivenDisposition": 0.94
 		},
@@ -1836,7 +1836,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Sparring",
-			"url": "http://warframe.wikia.com/wiki/Hirudo",
+			"url": "http://warframe.fandom.com/wiki/Hirudo",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
 			"rivenDisposition": 0.5
 		},
@@ -1852,7 +1852,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Jat_Kittag",
+			"url": "http://warframe.fandom.com/wiki/Jat_Kittag",
 			"wepnotes": "High damage per hit, high attack speed. Vulcan Blitz cause kills to explode dealing 300 (+60% of enemy health) Blast damage in 6m radius. Part of the Tenno Space Program. ",
 			"rivenDisposition": 0.75
 		},
@@ -1868,7 +1868,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Blade and Whip",
-			"url": "http://warframe.wikia.com/wiki/Jat_Kusar",
+			"url": "http://warframe.fandom.com/wiki/Jat_Kusar",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 0.81
 		},
@@ -1884,7 +1884,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Jaw_Sword",
+			"url": "http://warframe.fandom.com/wiki/Jaw_Sword",
 			"wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. Blade of Truth increases damage by 100% and gives Truth (Gas, health, parkour) effects. ",
 			"rivenDisposition": 1.47
 		},
@@ -1900,7 +1900,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Machete",
-			"url": "http://warframe.wikia.com/wiki/Kama",
+			"url": "http://warframe.fandom.com/wiki/Kama",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.47
 		},
@@ -1916,7 +1916,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dagger",
-			"url": "http://warframe.wikia.com/wiki/Karyst",
+			"url": "http://warframe.fandom.com/wiki/Karyst",
 			"wepnotes": "Very low damage per hit, very low attack speed. ",
 			"rivenDisposition": 1.29
 		},
@@ -1932,7 +1932,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Kesheg",
+			"url": "http://warframe.fandom.com/wiki/Kesheg",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.24
 		},
@@ -1948,7 +1948,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Kestrel",
+			"url": "http://warframe.fandom.com/wiki/Kestrel",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. Entropy Flight grants +140% flight speed and Entropy (Magnetic, Energy) effects. ",
 			"rivenDisposition": 1.45
 		},
@@ -1964,7 +1964,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Sparring",
-			"url": "http://warframe.wikia.com/wiki/Kogake_Prime",
+			"url": "http://warframe.fandom.com/wiki/Kogake_Prime",
 			"wepnotes": "Very low damage per hit, low attack speed. Increases movement speed by 5% when equipped. ",
 			"rivenDisposition": 1.46
 		},
@@ -1980,7 +1980,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Sparring",
-			"url": "http://warframe.wikia.com/wiki/Korrudo",
+			"url": "http://warframe.fandom.com/wiki/Korrudo",
 			"wepnotes": "Low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1
 		},
@@ -1996,7 +1996,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Machete",
-			"url": "http://warframe.wikia.com/wiki/Kreska",
+			"url": "http://warframe.fandom.com/wiki/Kreska",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -2012,7 +2012,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Krohkur",
+			"url": "http://warframe.fandom.com/wiki/Krohkur",
 			"wepnotes": "Very low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.22
 		},
@@ -2028,7 +2028,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Tonfa",
-			"url": "http://warframe.wikia.com/wiki/Kronen_Prime",
+			"url": "http://warframe.fandom.com/wiki/Kronen_Prime",
 			"wepnotes": "Very low damage per hit, very high attack speed. ✪",
 			"rivenDisposition": 1.43
 		},
@@ -2044,7 +2044,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Blade and Whip",
-			"url": "http://warframe.wikia.com/wiki/Lacera",
+			"url": "http://warframe.fandom.com/wiki/Lacera",
 			"wepnotes": "Very low damage per hit, very low attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.31
 		},
@@ -2060,7 +2060,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Lesion",
+			"url": "http://warframe.fandom.com/wiki/Lesion",
 			"wepnotes": "Low damage per hit, low attack speed. Causing status proc buffs the weapon to give it 15% more innate attack speed and toxin damage. ",
 			"rivenDisposition": 0.5
 		},
@@ -2076,7 +2076,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Machete",
-			"url": "http://warframe.wikia.com/wiki/Machete_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Machete_Wraith",
 			"wepnotes": "Very low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.45
 		},
@@ -2092,7 +2092,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/Masseter",
+			"url": "http://warframe.fandom.com/wiki/Masseter",
 			"wepnotes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1
 		},
@@ -2108,7 +2108,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Blade and Whip",
-			"url": "http://warframe.wikia.com/wiki/Mios",
+			"url": "http://warframe.fandom.com/wiki/Mios",
 			"wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 0.95
 		},
@@ -2124,7 +2124,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Mire",
+			"url": "http://warframe.fandom.com/wiki/Mire",
 			"wepnotes": "Very low damage per hit, high attack speed. Innate +10% toxin damage boost. Toxic Blight increases toxin damage by 100% and causes Blight (Viral, Energy) effects. ✪",
 			"rivenDisposition": 1.43
 		},
@@ -2140,7 +2140,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Nami_Skyla_Prime",
+			"url": "http://warframe.fandom.com/wiki/Nami_Skyla_Prime",
 			"wepnotes": "Very low damage per hit, very high attack speed. ✪",
 			"rivenDisposition": 1.18
 		},
@@ -2156,7 +2156,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Machete",
-			"url": "http://warframe.wikia.com/wiki/Nami_Solo",
+			"url": "http://warframe.fandom.com/wiki/Nami_Solo",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.43
 		},
@@ -2172,7 +2172,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Nikana",
-			"url": "http://warframe.wikia.com/wiki/Nikana_Prime",
+			"url": "http://warframe.fandom.com/wiki/Nikana_Prime",
 			"wepnotes": "Low damage per hit, high attack speed. ",
 			"rivenDisposition": 0.5
 		},
@@ -2188,7 +2188,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Nunchaku",
-			"url": "http://warframe.wikia.com/wiki/Ninkondi_Prime",
+			"url": "http://warframe.fandom.com/wiki/Ninkondi_Prime",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 1.41
 		},
@@ -2204,7 +2204,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Tonfa",
-			"url": "http://warframe.wikia.com/wiki/Ohma",
+			"url": "http://warframe.fandom.com/wiki/Ohma",
 			"wepnotes": "Low damage per hit, low attack speed. Suffers from relatively poor consistency. Slams have guaranteed Electricity proc in 8.5m radius. ",
 			"rivenDisposition": 1
 		},
@@ -2220,7 +2220,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Dual Daggers",
-			"url": "http://warframe.wikia.com/wiki/Okina",
+			"url": "http://warframe.fandom.com/wiki/Okina",
 			"wepnotes": "Very low damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.31
 		},
@@ -2236,7 +2236,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Orthos_Prime",
+			"url": "http://warframe.fandom.com/wiki/Orthos_Prime",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 0.5
 		},
@@ -2252,7 +2252,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Orvius",
+			"url": "http://warframe.fandom.com/wiki/Orvius",
 			"wepnotes": "Very low damage per hit, very low attack speed. Suffers from relatively poor consistency. Heavy Attack while Blocking suspends enemies in midair. ",
 			"rivenDisposition": 1.15
 		},
@@ -2268,7 +2268,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Pangolin_Sword",
+			"url": "http://warframe.fandom.com/wiki/Pangolin_Sword",
 			"wepnotes": "Very low damage per hit, low attack speed. Jump attacks always proc Electricity. ",
 			"rivenDisposition": 1.47
 		},
@@ -2284,7 +2284,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/Paracesis",
+			"url": "http://warframe.fandom.com/wiki/Paracesis",
 			"wepnotes": "Very high damage per hit, low attack speed. Suffers from relatively poor consistency. Has max modslot of 90 including stance. Using forma on this weapon will increase damage to Tau faction (up to 60% after 5 forma). ",
 			"rivenDisposition": 1
 		},
@@ -2300,7 +2300,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Glaive",
-			"url": "http://warframe.wikia.com/wiki/Pathocyst",
+			"url": "http://warframe.fandom.com/wiki/Pathocyst",
 			"wepnotes": "Low damage per hit, very low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -2316,7 +2316,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Two-handed Nikana",
-			"url": "http://warframe.wikia.com/wiki/Pennant",
+			"url": "http://warframe.fandom.com/wiki/Pennant",
 			"wepnotes": "High damage per hit, low attack speed. Increases attack speed after a heavy attack. ✪",
 			"rivenDisposition": 1
 		},
@@ -2332,7 +2332,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Plasma_Sword",
+			"url": "http://warframe.fandom.com/wiki/Plasma_Sword",
 			"wepnotes": "Very low damage per hit, very low attack speed. ✪",
 			"rivenDisposition": 1.48
 		},
@@ -2348,7 +2348,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Dual_Cleavers",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Dual_Cleavers",
 			"wepnotes": "Very low damage per hit, high attack speed. Augment adds Justice (Blast, Health, Armor) effects and +100% to base damage. ",
 			"rivenDisposition": 1
 		},
@@ -2364,7 +2364,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Sparring",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Obex",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Obex",
 			"wepnotes": "Very low damage per hit, very high attack speed. Suffers from relatively poor consistency. Entropy Detonation cause ground finisher kills to explode for 1,000 (+20% enemy max health) Blast damage and Entropy (Magnetic, Energy) effects. ",
 			"rivenDisposition": 1.1
 		},
@@ -2380,7 +2380,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Sword",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Skana",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Skana",
 			"wepnotes": "Very low damage per hit, high attack speed. Bright Purity adds 100% melee damage and Purity (Corrosive, health) effects. ",
 			"rivenDisposition": 1.22
 		},
@@ -2396,7 +2396,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Machete",
-			"url": "http://warframe.wikia.com/wiki/Prova_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Prova_Vandal",
 			"wepnotes": "Very low damage per hit, low attack speed. Slam attacks always proc Electricity. Static Discharge deals 80% of weapon damage as Electricity damage to nearby enemies. ",
 			"rivenDisposition": 1.29
 		},
@@ -2412,7 +2412,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Pupacyst",
+			"url": "http://warframe.fandom.com/wiki/Pupacyst",
 			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -2428,7 +2428,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dagger",
-			"url": "http://warframe.wikia.com/wiki/Rakta_Dark_Dagger",
+			"url": "http://warframe.fandom.com/wiki/Rakta_Dark_Dagger",
 			"wepnotes": "Very low damage per hit, low attack speed. Can use the Gleaming Blight augment for +100% Status Chance. Blight (Viral, energy, movement speed) effects. While wielded, enemies have reduced detection radius. Radiation procs restore shields and may grant overshields. ",
 			"rivenDisposition": 0.52
 		},
@@ -2444,7 +2444,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Scythe",
-			"url": "http://warframe.wikia.com/wiki/Reaper_Prime",
+			"url": "http://warframe.fandom.com/wiki/Reaper_Prime",
 			"wepnotes": "Low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.29
 		},
@@ -2460,7 +2460,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Gunblade",
-			"url": "http://warframe.wikia.com/wiki/Redeemer_Prime",
+			"url": "http://warframe.fandom.com/wiki/Redeemer_Prime",
 			"wepnotes": "Very low damage per hit, low attack speed. Shots from the gunblade only deals Blast damage and status effects unless modded for 100% status, which would grant IPS effects too. Would be advisable to get a high status chance riven for Redeemer as it would allow for Crit-based modding instead.",
 			"rivenDisposition": 1.17
 		},
@@ -2476,7 +2476,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Claws",
-			"url": "http://warframe.wikia.com/wiki/Ripkas",
+			"url": "http://warframe.fandom.com/wiki/Ripkas",
 			"wepnotes": "Very low damage per hit, low attack speed. Hunter's Bonesaw increases damage by 90% and status chance by 60% on grounded enemies. ",
 			"rivenDisposition": 1.38
 		},
@@ -2492,7 +2492,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Sancti_Magistar",
+			"url": "http://warframe.fandom.com/wiki/Sancti_Magistar",
 			"wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
 			"rivenDisposition": 1.09
 		},
@@ -2508,7 +2508,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Gunblade",
-			"url": "http://warframe.wikia.com/wiki/Sarpa",
+			"url": "http://warframe.fandom.com/wiki/Sarpa",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.24
 		},
@@ -2524,7 +2524,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/Scindo_Prime",
+			"url": "http://warframe.fandom.com/wiki/Scindo_Prime",
 			"wepnotes": "High damage per hit, high attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -2540,7 +2540,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Whip",
-			"url": "http://warframe.wikia.com/wiki/Scoliac",
+			"url": "http://warframe.fandom.com/wiki/Scoliac",
 			"wepnotes": "Very low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.3
 		},
@@ -2556,7 +2556,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Whip",
-			"url": "http://warframe.wikia.com/wiki/Secura_Lecta",
+			"url": "http://warframe.fandom.com/wiki/Secura_Lecta",
 			"wepnotes": "Very low damage per hit, high attack speed. Killing an enemy with this weapon equipped gives bonus credits.",
 			"rivenDisposition": 0.5
 		},
@@ -2572,7 +2572,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Serro",
+			"url": "http://warframe.fandom.com/wiki/Serro",
 			"wepnotes": "Very low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.38
 		},
@@ -2588,7 +2588,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Nunchaku",
-			"url": "http://warframe.wikia.com/wiki/Shaku",
+			"url": "http://warframe.fandom.com/wiki/Shaku",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 1.35
 		},
@@ -2604,7 +2604,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Dagger",
-			"url": "http://warframe.wikia.com/wiki/Sheev",
+			"url": "http://warframe.fandom.com/wiki/Sheev",
 			"wepnotes": "Very low damage per hit, very low attack speed. Slam attacks guarantees heat proc. ",
 			"rivenDisposition": 1.25
 		},
@@ -2620,7 +2620,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Sibear",
+			"url": "http://warframe.fandom.com/wiki/Sibear",
 			"wepnotes": "High damage per hit, high attack speed. Charge attacks gives +50% status chance for 4s. ",
 			"rivenDisposition": 1.35
 		},
@@ -2636,7 +2636,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Sword and Shield",
-			"url": "http://warframe.wikia.com/wiki/Sigma_&_Octantis",
+			"url": "http://warframe.fandom.com/wiki/Sigma_&_Octantis",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 1
 		},
@@ -2652,7 +2652,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Sword and Shield",
-			"url": "http://warframe.wikia.com/wiki/Silva_&_Aegis_Prime",
+			"url": "http://warframe.fandom.com/wiki/Silva_&_Aegis_Prime",
 			"wepnotes": "Low damage per hit, very low attack speed. Blocking adds up to 4 charges that increases critical and status chance by 15% additively. Avenging Truth absorbs 50% of incoming damage and releases it on the next charge attack and Truth (Gas, health, parkour) effects. ",
 			"rivenDisposition": 1
 		},
@@ -2668,7 +2668,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Nikana",
-			"url": "http://warframe.wikia.com/wiki/Skiajati",
+			"url": "http://warframe.fandom.com/wiki/Skiajati",
 			"wepnotes": "Low damage per hit, very high attack speed. Grants invisibility upon finisher, which will expire when attacking, using an ability, or after 5s.",
 			"rivenDisposition": 1
 		},
@@ -2684,7 +2684,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Synoid_Heliocor",
+			"url": "http://warframe.fandom.com/wiki/Synoid_Heliocor",
 			"wepnotes": "Low damage per hit, high attack speed. Suffers from relatively poor consistency. Scans kills into codex, and if the target's Codex entry is complete it will create a friendly Spectre of said target. Spectre lasts 30s. ",
 			"rivenDisposition": 0.94
 		},
@@ -2700,7 +2700,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Two-handed Nikana",
-			"url": "http://warframe.wikia.com/wiki/Tatsu",
+			"url": "http://warframe.fandom.com/wiki/Tatsu",
 			"wepnotes": "Low damage per hit, high attack speed. Kills will grant up to 5 charges that can be expended upon slide attacks to launch a homing projectile which will also stun enemies. ",
 			"rivenDisposition": 1
 		},
@@ -2716,7 +2716,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Fists",
-			"url": "http://warframe.wikia.com/wiki/Tekko_Prime",
+			"url": "http://warframe.fandom.com/wiki/Tekko_Prime",
 			"wepnotes": "Very low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.4
 		},
@@ -2732,7 +2732,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Tonfa",
-			"url": "http://warframe.wikia.com/wiki/Telos_Boltace",
+			"url": "http://warframe.fandom.com/wiki/Telos_Boltace",
 			"wepnotes": "Low damage per hit, high attack speed. Slide attack triggers Stormpath, which vacuums enemies in a 14m radius. Retriggering Stormpath within 8s puts it into a 6s cooldown and ragdoll enemies. Also gives 20% boost to parkour. ",
 			"rivenDisposition": 1
 		},
@@ -2748,7 +2748,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Staff",
-			"url": "http://warframe.wikia.com/wiki/Tipedo_Prime",
+			"url": "http://warframe.fandom.com/wiki/Tipedo_Prime",
 			"wepnotes": "Low damage per hit, very high attack speed. ",
 			"rivenDisposition": 1.31
 		},
@@ -2764,7 +2764,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Tonbo",
+			"url": "http://warframe.fandom.com/wiki/Tonbo",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.38
 		},
@@ -2780,7 +2780,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Twin_Basolk",
+			"url": "http://warframe.fandom.com/wiki/Twin_Basolk",
 			"wepnotes": "Very low damage per hit, low attack speed. Rift Strike teleports user to a target within 25m on charge attack. ✪",
 			"rivenDisposition": 1.18
 		},
@@ -2796,7 +2796,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Dual Swords",
-			"url": "http://warframe.wikia.com/wiki/Twin_Krohkur",
+			"url": "http://warframe.fandom.com/wiki/Twin_Krohkur",
 			"wepnotes": "Very low damage per hit, low attack speed. ✪",
 			"rivenDisposition": 1.48
 		},
@@ -2812,7 +2812,7 @@
 			"stancenotes": "",
 			"tier": "Contender",
 			"type": "Polearm",
-			"url": "http://warframe.wikia.com/wiki/Vaykor_Sydon",
+			"url": "http://warframe.fandom.com/wiki/Vaykor_Sydon",
 			"wepnotes": "Low damage per hit, high attack speed. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
 			"rivenDisposition": 0.84
 		},
@@ -2828,7 +2828,7 @@
 			"stancenotes": "",
 			"tier": "Top",
 			"type": "Claws",
-			"url": "http://warframe.wikia.com/wiki/Venka_Prime",
+			"url": "http://warframe.fandom.com/wiki/Venka_Prime",
 			"wepnotes": "Very low damage per hit, high attack speed. ",
 			"rivenDisposition": 0.5
 		},
@@ -2844,7 +2844,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Volnus",
+			"url": "http://warframe.fandom.com/wiki/Volnus",
 			"wepnotes": "Low damage per hit, very high attack speed. ",
 			"rivenDisposition": 1.2
 		},
@@ -2860,7 +2860,7 @@
 			"stancenotes": "",
 			"tier": "Viable",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/War",
+			"url": "http://warframe.fandom.com/wiki/War",
 			"wepnotes": "High damage per hit, low attack speed. What is it good for? ",
 			"rivenDisposition": 0.5
 		},
@@ -2876,7 +2876,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Hammer",
-			"url": "http://warframe.wikia.com/wiki/Wolf_Sledge",
+			"url": "http://warframe.fandom.com/wiki/Wolf_Sledge",
 			"wepnotes": "High damage per hit, high attack speed. ",
 			"rivenDisposition": 0.96
 		},
@@ -2892,7 +2892,7 @@
 			"stancenotes": "",
 			"tier": "Need buffs",
 			"type": "Heavy Blade",
-			"url": "http://warframe.wikia.com/wiki/Zenistar",
+			"url": "http://warframe.fandom.com/wiki/Zenistar",
 			"wepnotes": "Low damage per hit, very low attack speed. Suffers from relatively poor consistency. Charge attack deploys flying disc that deals AOE damage and allow the rest of the weapon to deal physical damage. ",
 			"rivenDisposition": 0.5
 		},
@@ -3084,7 +3084,7 @@
 			"rank": 32.5748873851023,
 			"tier": "Top",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Acceltra",
+			"url": "http://warframe.fandom.com/wiki/Acceltra",
 			"notes": "High damage per shot; projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
 			"rivenDisposition": 0.8
 		},
@@ -3098,7 +3098,7 @@
 			"rank": 40.5811388300842,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Amprex",
+			"url": "http://warframe.fandom.com/wiki/Amprex",
 			"notes": "Low damage per shot; beam munitions. Beam chains to nearby enemies giving it decent AOE. ",
 			"rivenDisposition": 0.7
 		},
@@ -3112,7 +3112,7 @@
 			"rank": 53.2205262752974,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Arca_Plasmor",
+			"url": "http://warframe.fandom.com/wiki/Arca_Plasmor",
 			"notes": "Very high damage per shot; projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have a headshot multiplier. ",
 			"rivenDisposition": 0.55
 		},
@@ -3126,7 +3126,7 @@
 			"rank": 78.1322916030806,
 			"tier": "Need buffs",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Argonak",
+			"url": "http://warframe.fandom.com/wiki/Argonak",
 			"notes": "Low damage per shot; hitscan munitions. Scoping highlights enemies for easier targetting. Alternate between semi-auto (higher DPS) and full-auto (higher fire rate) to deal with different enemies. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.25
 		},
@@ -3140,7 +3140,7 @@
 			"rank": 43.3493588689618,
 			"tier": "Contender",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Astilla",
+			"url": "http://warframe.fandom.com/wiki/Astilla",
 			"notes": "Low damage per shot; projectile munitions. Deals 30% of damage upon impact and 70% on explosion. ✪",
 			"rivenDisposition": 1.1
 		},
@@ -3154,7 +3154,7 @@
 			"rank": 67.9615472627943,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Attica",
+			"url": "http://warframe.fandom.com/wiki/Attica",
 			"notes": "High damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.42
 		},
@@ -3168,7 +3168,7 @@
 			"rank": 44,
 			"tier": "Contender",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Battacor",
+			"url": "http://warframe.fandom.com/wiki/Battacor",
 			"notes": "High damage per shot; projectile munitions. Primary fire has two-round burst which is potentially wasteful. Every kill gives one secondary fire charge. Up to three charges can be stored for greater damage and crit chance. Recommend to expend secondary fire as soon as possible as it is a free shot and would increase overall DPS. ",
 			"rivenDisposition": 1
 		},
@@ -3182,7 +3182,7 @@
 			"rank": 48.6366600265341,
 			"tier": "Contender",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Baza_Prime",
+			"url": "http://warframe.fandom.com/wiki/Baza_Prime",
 			"notes": "Low damage per shot; hitscan munitions. Completely silent but has damage falloff similar to shotguns. ",
 			"rivenDisposition": 1
 		},
@@ -3196,7 +3196,7 @@
 			"rank": 46.4165902124585,
 			"tier": "Contender",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Boar_Prime",
+			"url": "http://warframe.fandom.com/wiki/Boar_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Required to mod for 100% status chance. ✪",
 			"rivenDisposition": 1.34
 		},
@@ -3210,7 +3210,7 @@
 			"rank": 66.9154759474226,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Boltor_Prime",
+			"url": "http://warframe.fandom.com/wiki/Boltor_Prime",
 			"notes": "Low damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.1
 		},
@@ -3224,7 +3224,7 @@
 			"rank": 81.122287581247,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Braton_Prime",
+			"url": "http://warframe.fandom.com/wiki/Braton_Prime",
 			"notes": "Very low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.2
 		},
@@ -3238,7 +3238,7 @@
 			"rank": 102.808318915758,
 			"tier": "Need buffs",
 			"type": "3-round burst",
-			"url": "http://warframe.wikia.com/wiki/Burston_Prime",
+			"url": "http://warframe.fandom.com/wiki/Burston_Prime",
 			"notes": "Low damage per shot; hitscan munitions. Gilded Truth (Arbiters of Hexis) increases fire rate and provide Truth effect (Gas, health, parkour). ",
 			"rivenDisposition": 1.3
 		},
@@ -3252,7 +3252,7 @@
 			"rank": 61.1038450166037,
 			"tier": "Viable",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Buzlok",
+			"url": "http://warframe.fandom.com/wiki/Buzlok",
 			"notes": "High damage per shot; projectile munitions. Alt fire launches tracer beacon which gives additive 50% Crit Chance (20 seconds) that remain active even the target is dead. Has insane DPS potential but difficult to attain due to difficulty in handling beacon and relatively poor handling. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.45
 		},
@@ -3266,7 +3266,7 @@
 			"rank": 42.1099800796022,
 			"tier": "Top",
 			"type": "Charge (0.5s)",
-			"url": "http://warframe.wikia.com/wiki/Cernos_Prime",
+			"url": "http://warframe.fandom.com/wiki/Cernos_Prime",
 			"notes": "Very high damage per shot; projectile munitions. Alt fire toggles firing pattern between horizontal and vertical (+50% headshot damage). ✪",
 			"rivenDisposition": 1.2
 		},
@@ -3280,7 +3280,7 @@
 			"rank": 53.9888543819998,
 			"tier": "Viable",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Convectrix",
+			"url": "http://warframe.fandom.com/wiki/Convectrix",
 			"notes": "Very low damage per shot; beam munitions. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Alt fire sweeps the beam from narrow to wide instead and is useful for applying status effects to large crowds. [Efficient Beams] makes 100% status modding easy while consuming no ammo while not dealing damage. This makes it possible to keep the beam narrow for maximum concentrated damage without hurting ammo economy. ✪",
 			"rivenDisposition": 1.46
 		},
@@ -3294,7 +3294,7 @@
 			"rank": 55.4736441353328,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Corinth",
+			"url": "http://warframe.fandom.com/wiki/Corinth",
 			"notes": "Very high damage per shot; hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Reload should be done when clip is empty as there is a delay between reloading and firing, but the gains should be minimal. ",
 			"rivenDisposition": 0.95
 		},
@@ -3308,7 +3308,7 @@
 			"rank": 59.4809720581776,
 			"tier": "Viable",
 			"type": "Charge (1.0s)",
-			"url": "http://warframe.wikia.com/wiki/Daikyu",
+			"url": "http://warframe.fandom.com/wiki/Daikyu",
 			"notes": "Very high damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.25
 		},
@@ -3322,7 +3322,7 @@
 			"rank": 87.2410525505948,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Dera_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Dera_Vandal",
 			"notes": "Very low damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.3
 		},
@@ -3336,7 +3336,7 @@
 			"rank": 103.810597552415,
 			"tier": "Need buffs",
 			"type": "Charge (0.5s)",
-			"url": "http://warframe.wikia.com/wiki/Drakgoon",
+			"url": "http://warframe.fandom.com/wiki/Drakgoon",
 			"notes": "Very high damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.48
 		},
@@ -3350,7 +3350,7 @@
 			"rank": 58.6299105359837,
 			"tier": "Viable",
 			"type": "Charge (0.5s)",
-			"url": "http://warframe.wikia.com/wiki/Dread",
+			"url": "http://warframe.fandom.com/wiki/Dread",
 			"notes": "High damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.25
 		},
@@ -3364,7 +3364,7 @@
 			"rank": 48.4736441353328,
 			"tier": "Contender",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Exergis",
+			"url": "http://warframe.fandom.com/wiki/Exergis",
 			"notes": "Very high damage per shot; projectile munitions. ",
 			"rivenDisposition": 1
 		},
@@ -3378,7 +3378,7 @@
 			"rank": 47.3011626335213,
 			"tier": "Contender",
 			"type": "Charge (0.5s)",
-			"url": "http://warframe.wikia.com/wiki/Ferrox",
+			"url": "http://warframe.fandom.com/wiki/Ferrox",
 			"notes": "Very high damage per shot; hitscan munitions. Munition shot the moment it is fully charged. Alt fire should be used to reduce reliance on primary weapons. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -3392,7 +3392,7 @@
 			"rank": 74.5401754250992,
 			"tier": "Need buffs",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Flux_Rifle",
+			"url": "http://warframe.fandom.com/wiki/Flux_Rifle",
 			"notes": "Very low damage per shot; beam munitions. ",
 			"rivenDisposition": 1.55
 		},
@@ -3406,7 +3406,7 @@
 			"rank": 37.9615472627943,
 			"tier": "Top",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Fulmin",
+			"url": "http://warframe.fandom.com/wiki/Fulmin",
 			"notes": "Very high damage per shot; projectile munitions. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 0.65
 		},
@@ -3420,7 +3420,7 @@
 			"rank": 40.2472135955,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Glaxion_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Glaxion_Vandal",
 			"notes": "Very low damage per shot; beam munitions. ✪",
 			"rivenDisposition": 1.25
 		},
@@ -3434,7 +3434,7 @@
 			"rank": 69.0340579025362,
 			"tier": "Need buffs",
 			"type": "3-round burst",
-			"url": "http://warframe.wikia.com/wiki/Harpak",
+			"url": "http://warframe.fandom.com/wiki/Harpak",
 			"notes": "Low damage per shot; projectile munitions. Three-round burst is wasteful at times. Alt fire launches a harpoon can be used to drag enemies closer. Exposing Harpoon augment gives it the edge needed to compte but still relatively lacklustre. ",
 			"rivenDisposition": 1.55
 		},
@@ -3448,7 +3448,7 @@
 			"rank": 52.7304951684997,
 			"tier": "Viable",
 			"type": "3-round burst",
-			"url": "http://warframe.wikia.com/wiki/Hema",
+			"url": "http://warframe.fandom.com/wiki/Hema",
 			"notes": "Low damage per shot; projectile munitions. Heals warframe on headshots. Three-round burst is wasteful at times. ✪",
 			"rivenDisposition": 1.3
 		},
@@ -3462,7 +3462,7 @@
 			"rank": 193.818481453284,
 			"tier": "Need buffs",
 			"type": "5-round burst",
-			"url": "http://warframe.wikia.com/wiki/Hind",
+			"url": "http://warframe.fandom.com/wiki/Hind",
 			"notes": "Very low damage per shot; hitscan munitions. Alt fire has better DPS on paper but due to low fire rate it still doesn't do enough. ",
 			"rivenDisposition": 1.42
 		},
@@ -3476,7 +3476,7 @@
 			"rank": 27.7401754250991,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Ignis_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Ignis_Wraith",
 			"notes": "Low damage per shot; beam munitions. AOE works like how you'd imagine an actual flamethrower would. ",
 			"rivenDisposition": 0.55
 		},
@@ -3490,7 +3490,7 @@
 			"rank": 69.9055521304275,
 			"tier": "Need buffs",
 			"type": "Charge (0.3s)",
-			"url": "http://warframe.wikia.com/wiki/Javlok",
+			"url": "http://warframe.fandom.com/wiki/Javlok",
 			"notes": "High damage per shot; projectile munitions. Alt fire creats a localized explosion. ",
 			"rivenDisposition": 1.25
 		},
@@ -3504,7 +3504,7 @@
 			"rank": 95.3397017233528,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Karak_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Karak_Wraith",
 			"notes": "Very low damage per shot; hitscan munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.28
 		},
@@ -3518,7 +3518,7 @@
 			"rank": 42.7497252664309,
 			"tier": "Top",
 			"type": "Spool-up",
-			"url": "http://warframe.wikia.com/wiki/Kohm",
+			"url": "http://warframe.fandom.com/wiki/Kohm",
 			"notes": "Very high damage per shot; hitscan munitions. Spool up increases bullets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs as well as having insane innate punchthrough. Riven disposition is relatively high for DPS potential and can help reach 100% status chance. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.4
 		},
@@ -3532,7 +3532,7 @@
 			"rank": 41.9144823004795,
 			"tier": "Top",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Komorex",
+			"url": "http://warframe.fandom.com/wiki/Komorex",
 			"notes": "High damage per shot; projectile munitions. ✪",
 			"rivenDisposition": 1.1
 		},
@@ -3546,7 +3546,7 @@
 			"rank": 48.788435821109,
 			"tier": "Contender",
 			"type": "Charge (1.0s)",
-			"url": "http://warframe.wikia.com/wiki/Lanka",
+			"url": "http://warframe.fandom.com/wiki/Lanka",
 			"notes": "Very high damage per shot; projectile munitions. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to Crit Chance (20%/30%/50%). Innate Electric damage and high direct damage potential makes the Lanka the choice weapon for Eidolon hunting. ",
 			"rivenDisposition": 0.9
 		},
@@ -3560,7 +3560,7 @@
 			"rank": 70.1946402922797,
 			"tier": "Need buffs",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Latron_Prime",
+			"url": "http://warframe.fandom.com/wiki/Latron_Prime",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.3
 		},
@@ -3574,7 +3574,7 @@
 			"rank": 45,
 			"tier": "Contender",
 			"type": "Charge (1.2s)",
-			"url": "http://warframe.wikia.com/wiki/Lenz",
+			"url": "http://warframe.fandom.com/wiki/Lenz",
 			"notes": "Very high damage per shot; projectile munitions. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. ",
 			"rivenDisposition": 0.95
 		},
@@ -3588,7 +3588,7 @@
 			"rank": 96.0442472725881,
 			"tier": "Need buffs",
 			"type": "Charge (0.75s)",
-			"url": "http://warframe.wikia.com/wiki/Miter",
+			"url": "http://warframe.fandom.com/wiki/Miter",
 			"notes": "High damage per shot; projectile munitions. Neutralizing Justice can instantly destroy nullifier bubbles and has Justice (Blast, Health, Armor) effects. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.55
 		},
@@ -3602,7 +3602,7 @@
 			"rank": 67.9247166206396,
 			"tier": "Need buffs",
 			"type": "Charge (0.5s)",
-			"url": "http://warframe.wikia.com/wiki/Mutalist_Cernos",
+			"url": "http://warframe.fandom.com/wiki/Mutalist_Cernos",
 			"notes": "High damage per shot; projectile munitions. Fully charged arrows leave a gas trail that continues to proc status effects. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.35
 		},
@@ -3616,7 +3616,7 @@
 			"rank": 54.8583258795408,
 			"tier": "Viable",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Mutalist_Quanta",
+			"url": "http://warframe.fandom.com/wiki/Mutalist_Quanta",
 			"notes": "Very low damage per shot; projectile munitions. Alt fire creats a bubble that can be combined up to three times. Firing through the bubble increase damage and critical chance. Bursting Mass changes the interaction by absorbing 200% of the damage passing through and detonating it every time another bubble is launched. ✪",
 			"rivenDisposition": 1.55
 		},
@@ -3630,7 +3630,7 @@
 			"rank": 55.6736441353328,
 			"tier": "Viable",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Nagantaka",
+			"url": "http://warframe.fandom.com/wiki/Nagantaka",
 			"notes": "High damage per shot; projectile munitions. Headshots have a chance to increase reload speed. Secondary fire empties clip with little additional recoil and is highly recommended. ",
 			"rivenDisposition": 1.25
 		},
@@ -3644,7 +3644,7 @@
 			"rank": 103.495453691367,
 			"tier": "Need buffs",
 			"type": "Charge (0.3s)",
-			"url": "http://warframe.wikia.com/wiki/Ogris",
+			"url": "http://warframe.fandom.com/wiki/Ogris",
 			"notes": "High damage per shot; projectile munitions. Nightwatch Napalm turns the Ogris into an area denial weapon. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -3658,7 +3658,7 @@
 			"rank": 74.1378334412485,
 			"tier": "Need buffs",
 			"type": "Charge (2.0s)",
-			"url": "http://warframe.wikia.com/wiki/Opticor",
+			"url": "http://warframe.fandom.com/wiki/Opticor",
 			"notes": "Very high damage per shot; hitscan munitions. Do not stare directly into beam. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.05
 		},
@@ -3672,7 +3672,7 @@
 			"rank": 46.9679483388679,
 			"tier": "Contender",
 			"type": "Charge (0.8s)",
-			"url": "http://warframe.wikia.com/wiki/Opticor_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Opticor_Vandal",
 			"notes": "Very high damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1
 		},
@@ -3686,7 +3686,7 @@
 			"rank": 65.5799598391955,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Panthera",
+			"url": "http://warframe.fandom.com/wiki/Panthera",
 			"notes": "High damage per shot; projectile munitions. Alt-fire puts a spinning blade a few meters in from of the weapon that constantly spin and deal damage. ",
 			"rivenDisposition": 1.4
 		},
@@ -3700,7 +3700,7 @@
 			"rank": 93.8439327330338,
 			"tier": "Need buffs",
 			"type": "3-round burst",
-			"url": "http://warframe.wikia.com/wiki/Paracyst",
+			"url": "http://warframe.fandom.com/wiki/Paracyst",
 			"notes": "Very low damage per shot; projectile munitions. Three-round burst is wasteful at times. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.31
 		},
@@ -3714,7 +3714,7 @@
 			"rank": 55.5768716422179,
 			"tier": "Viable",
 			"type": "Charge (0.5s)",
-			"url": "http://warframe.wikia.com/wiki/Paris_Prime",
+			"url": "http://warframe.fandom.com/wiki/Paris_Prime",
 			"notes": "High damage per shot; projectile munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -3728,7 +3728,7 @@
 			"rank": 49.6832396974191,
 			"tier": "Contender",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Phage",
+			"url": "http://warframe.fandom.com/wiki/Phage",
 			"notes": "Low damage per shot; beam munitions. Scoping narrows down the beam to a single point. ✪",
 			"rivenDisposition": 1.46
 		},
@@ -3742,7 +3742,7 @@
 			"rank": 36.7021728866443,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Phantasma",
+			"url": "http://warframe.fandom.com/wiki/Phantasma",
 			"notes": "Low damage per shot; beam munitions. Primary fire has usable AOE. Alt fire charges the weapon to fire an exploding glob that also releases seeking projectiles. Longer charge imparts more damage. ✪",
 			"rivenDisposition": 1
 		},
@@ -3756,7 +3756,7 @@
 			"rank": 43.4142135623731,
 			"tier": "Contender",
 			"type": "Spool-up",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Gorgon",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Gorgon",
 			"notes": "Low damage per shot; hitscan munitions. Roll for recoil reduction in riven. ✪",
 			"rivenDisposition": 1.3
 		},
@@ -3770,7 +3770,7 @@
 			"rank": 48.5593268686171,
 			"tier": "Contender",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Grakata",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Grakata",
 			"notes": "Very low damage per shot; hitscan munitions. ✪",
 			"rivenDisposition": 1.25
 		},
@@ -3784,7 +3784,7 @@
 			"rank": 57.886335345031,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Grinlok",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Grinlok",
 			"notes": "Very high damage per shot; hitscan munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ",
 			"rivenDisposition": 1.25
 		},
@@ -3798,7 +3798,7 @@
 			"rank": 100.690415759823,
 			"tier": "Need buffs",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Tetra",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Tetra",
 			"notes": "Very low damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.45
 		},
@@ -3812,7 +3812,7 @@
 			"rank": 49.0822070014845,
 			"tier": "Contender",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Quanta_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Quanta_Vandal",
 			"notes": "Low damage per shot; beam munitions. Could do with punchthrough but build is tight as it is. Alt fire useful to learn Euclidean geometry. ✪",
 			"rivenDisposition": 1.35
 		},
@@ -3826,7 +3826,7 @@
 			"rank": 67.6384682042344,
 			"tier": "Need buffs",
 			"type": "4-round burst",
-			"url": "http://warframe.wikia.com/wiki/Quartakk",
+			"url": "http://warframe.fandom.com/wiki/Quartakk",
 			"notes": "Low damage per shot; hitscan munitions. Four-shot burst is wasteful at times. ",
 			"rivenDisposition": 1.25
 		},
@@ -3840,7 +3840,7 @@
 			"rank": 46.6187226143525,
 			"tier": "Contender",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Quellor",
+			"url": "http://warframe.fandom.com/wiki/Quellor",
 			"notes": "Very high damage per shot; unknown munitions. Secondary fire has a post-fire delay before the next action, whether it be reloading or going back to primary fire.  Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1
 		},
@@ -3854,7 +3854,7 @@
 			"rank": 51.7768716422179,
 			"tier": "Viable",
 			"type": "Charge (0.25s)",
-			"url": "http://warframe.wikia.com/wiki/Rakta_Cernos",
+			"url": "http://warframe.fandom.com/wiki/Rakta_Cernos",
 			"notes": "Very high damage per shot; projectile munitions. Good syndicate proc (Viral + energy restore) helps weaken enemies for the Slash proc from Hunters Munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.2
 		},
@@ -3868,7 +3868,7 @@
 			"rank": 43.0076809620811,
 			"tier": "Contender",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Rubico_Prime",
+			"url": "http://warframe.fandom.com/wiki/Rubico_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is amazing (min. 1), zooming in gives additive bonus to Crit Multiplier (35%/50%). High direct damage potential and smooth handling makes Rubico Prime a popular choice for Eidolon Hunting. ",
 			"rivenDisposition": 0.65
 		},
@@ -3882,7 +3882,7 @@
 			"rank": 73.1547532151501,
 			"tier": "Need buffs",
 			"type": "Duplex",
-			"url": "http://warframe.wikia.com/wiki/Sancti_Tigris",
+			"url": "http://warframe.fandom.com/wiki/Sancti_Tigris",
 			"notes": "Very high damage per shot; hitscan munitions. Duplex trigger might take a while to get used to. Purity (Corrosive, health) effect can be useful. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 0.6
 		},
@@ -3896,7 +3896,7 @@
 			"rank": 38.6832396974191,
 			"tier": "Top",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Scourge",
+			"url": "http://warframe.fandom.com/wiki/Scourge",
 			"notes": "Low damage per shot; projectile munitions. Alt fire creates a localized bullet attractor field on nearby enemies' head. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -3910,7 +3910,7 @@
 			"rank": 55.5799598391955,
 			"tier": "Viable",
 			"type": "Secondary",
-			"url": "http://warframe.wikia.com/wiki/Secura_Penta",
+			"url": "http://warframe.fandom.com/wiki/Secura_Penta",
 			"notes": "Very high damage per shot; projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by mods) and causes instant explosions while leaving a burning patch on the ground. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -3924,7 +3924,7 @@
 			"rank": 39.5811388300842,
 			"tier": "Top",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Shedu",
+			"url": "http://warframe.fandom.com/wiki/Shedu",
 			"notes": "Low damage per shot; projectile munitions. Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. ✪",
 			"rivenDisposition": 1
 		},
@@ -3938,7 +3938,7 @@
 			"rank": 53.3911649915626,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Snipetron_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Snipetron_Vandal",
 			"notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). ",
 			"rivenDisposition": 1.25
 		},
@@ -3952,7 +3952,7 @@
 			"rank": 63.1833001326704,
 			"tier": "Viable",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Sobek",
+			"url": "http://warframe.fandom.com/wiki/Sobek",
 			"notes": "Very high damage per shot; hitscan munitions. Shattering Justice (Blast, Health, Armor) can make it reach 100% status chance while Acid Shells can be used to provide some AOE damage. ",
 			"rivenDisposition": 1.33
 		},
@@ -3966,7 +3966,7 @@
 			"rank": 57.5013511046644,
 			"tier": "Viable",
 			"type": "Spool-up",
-			"url": "http://warframe.wikia.com/wiki/Soma_Prime",
+			"url": "http://warframe.fandom.com/wiki/Soma_Prime",
 			"notes": "Very low damage per shot; hitscan munitions. Best paired with Frost Prime and Scindo Prime. ",
 			"rivenDisposition": 1
 		},
@@ -3980,7 +3980,7 @@
 			"rank": 53.8476798574163,
 			"tier": "Viable",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Stradavar_Prime",
+			"url": "http://warframe.fandom.com/wiki/Stradavar_Prime",
 			"notes": "Low damage per shot; hitscan munitions. Can alternate between semi-auto (better DPS) and full-auto (useful for breaking nullifier bubbles). Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.05
 		},
@@ -3994,7 +3994,7 @@
 			"rank": 56.1165750888103,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Strun_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Strun_Wraith",
 			"notes": "Very high damage per shot; hitscan munitions. Required to mod for 100% status chance. ",
 			"rivenDisposition": 1.35
 		},
@@ -4008,7 +4008,7 @@
 			"rank": 56.2809720581776,
 			"tier": "Viable",
 			"type": "Spool-up",
-			"url": "http://warframe.wikia.com/wiki/Supra_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Supra_Vandal",
 			"notes": "Low damage per shot; projectile munitions. Entropy Burst (Magnetic, Energy) can greatly increase status chance. ",
 			"rivenDisposition": 0.85
 		},
@@ -4022,7 +4022,7 @@
 			"rank": 57.2832396974191,
 			"tier": "Viable",
 			"type": "2-round burst",
-			"url": "http://warframe.wikia.com/wiki/Sybaris_Prime",
+			"url": "http://warframe.fandom.com/wiki/Sybaris_Prime",
 			"notes": "High damage per shot; hitscan munitions. Two-round burst is wasteful at times and the magazine is relatively small for how fast it fires. ",
 			"rivenDisposition": 1.1
 		},
@@ -4036,7 +4036,7 @@
 			"rank": 39.2832396974191,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Synapse",
+			"url": "http://warframe.fandom.com/wiki/Synapse",
 			"notes": "Low damage per shot; beam munitions. ✪",
 			"rivenDisposition": 1.31
 		},
@@ -4050,7 +4050,7 @@
 			"rank": 137.749842765741,
 			"tier": "Need buffs",
 			"type": "Secondary",
-			"url": "http://warframe.wikia.com/wiki/Synoid_Simulor",
+			"url": "http://warframe.fandom.com/wiki/Synoid_Simulor",
 			"notes": "Very low damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.15
 		},
@@ -4064,7 +4064,7 @@
 			"rank": 52.8583258795408,
 			"tier": "Viable",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Telos_Boltor",
+			"url": "http://warframe.fandom.com/wiki/Telos_Boltor",
 			"notes": "Low damage per shot; projectile munitions. Truth (Gas, health, parkour) syndicate proc is helpful at times. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.1
 		},
@@ -4078,7 +4078,7 @@
 			"rank": 51.9748873851023,
 			"tier": "Viable",
 			"type": "Spool-up",
-			"url": "http://warframe.wikia.com/wiki/Tenora",
+			"url": "http://warframe.fandom.com/wiki/Tenora",
 			"notes": "Low damage per shot; hitscan munitions. Has a decent alt-fire that can be used to take down medium units quickly. Light units and heavy units should still be dealt with using primary fire. ",
 			"rivenDisposition": 1.1
 		},
@@ -4092,7 +4092,7 @@
 			"rank": 48.388435821109,
 			"tier": "Contender",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Tiberon_Prime",
+			"url": "http://warframe.fandom.com/wiki/Tiberon_Prime",
 			"notes": "High damage per shot; hitscan munitions. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. ",
 			"rivenDisposition": 0.85
 		},
@@ -4106,7 +4106,7 @@
 			"rank": 64.0249567472754,
 			"tier": "Viable",
 			"type": "Duplex",
-			"url": "http://warframe.wikia.com/wiki/Tigris_Prime",
+			"url": "http://warframe.fandom.com/wiki/Tigris_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Duplex trigger might take a while to get used to. Required to mod for 100% status chance. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 0.55
 		},
@@ -4120,7 +4120,7 @@
 			"rank": 90.6880324164707,
 			"tier": "Need buffs",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Tonkor",
+			"url": "http://warframe.fandom.com/wiki/Tonkor",
 			"notes": "High damage per shot; projectile munitions. Grenades can cause self damage. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -4134,7 +4134,7 @@
 			"rank": 107.492249290599,
 			"tier": "Need buffs",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Torid",
+			"url": "http://warframe.fandom.com/wiki/Torid",
 			"notes": "High damage per shot; projectile munitions. Thing fired stick on surfaces/targets and continue to emit gas that deals damage and causes status effects. ",
 			"rivenDisposition": 1.3
 		},
@@ -4148,7 +4148,7 @@
 			"rank": 53.7637059362411,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Vaykor_Hek",
+			"url": "http://warframe.fandom.com/wiki/Vaykor_Hek",
 			"notes": "Very high damage per shot; hitscan munitions. Justice (Blast, Health, Armor) effects can be useful. ",
 			"rivenDisposition": 1
 		},
@@ -4162,7 +4162,7 @@
           "rank": 37.1213203435596,
           "tier": "Top",
           "type": "Semi-auto",
-          "url": "http://warframe.wikia.com/wiki/Vectis_Prime",
+          "url": "http://warframe.fandom.com/wiki/Vectis_Prime",
           "notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is slow (min. 5), zooming in gives additive bonus to headshots (40%/60%). ",
           "rivenDisposition": 0.85
         },
@@ -4176,7 +4176,7 @@
 			"rank": 74.3011626335213,
 			"tier": "Need buffs",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Veldt",
+			"url": "http://warframe.fandom.com/wiki/Veldt",
 			"notes": "High damage per shot; hitscan munitions. Alt-fire toggles higher magnification on zoom. ",
 			"rivenDisposition": 1.25
 		},
@@ -4190,7 +4190,7 @@
 			"rank": 62.2199601592045,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Vulkar_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Vulkar_Wraith",
 			"notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to headshots (35%/55%/70%). ",
 			"rivenDisposition": 1.4
 		},
@@ -4204,7 +4204,7 @@
 			"rank": 62.2166435825965,
 			"tier": "Viable",
 			"type": "Semi-auto",
-			"url": "http://warframe.wikia.com/wiki/Zarr",
+			"url": "http://warframe.fandom.com/wiki/Zarr",
 			"notes": "Very low damage per shot; projectile munitions. First explosion from primary fire can damage self but subsequent cluster bomblets won't. Each bomblet can cause status effect on it's own. Alt fire switches to shotgun mode. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.15
 		},
@@ -4218,7 +4218,7 @@
 			"rank": 38.5038404810405,
 			"tier": "Top",
 			"type": "Variable",
-			"url": "http://warframe.wikia.com/wiki/Zenith",
+			"url": "http://warframe.fandom.com/wiki/Zenith",
 			"notes": "Very low damage per shot; hitscan munitions. Secondary fire launches a disc that scans enemies and switches the weapon to semi-auto until the magazine is depleted. Semi-auto mode has more DPS and infinite punchthrough. ✪",
 			"rivenDisposition": 1.1
 		},
@@ -4232,7 +4232,7 @@
 			"rank": 46.1777087639997,
 			"tier": "Contender",
 			"type": "Full-auto",
-			"url": "http://warframe.wikia.com/wiki/Zhuge_Prime",
+			"url": "http://warframe.fandom.com/wiki/Zhuge_Prime",
 			"notes": "High damage per shot; projectile munitions. Bolts will explode a short duration after hitting a wall, potentially causing self damage. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -4274,7 +4274,7 @@
 			"rank": 83.2690470119715,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Acrid",
+			"url": "http://warframe.fandom.com/wiki/Acrid",
 			"notes": "Very low damage per shot; projectile munitions. Each flechette delivers toxin DoT (scales with modified base damage and toxin damage) regardless of elemental modding. ",
 			"rivenDisposition": 1.33
 		},
@@ -4288,7 +4288,7 @@
 			"rank": 108.968688725255,
 			"tier": "Need buffs",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Afuris",
+			"url": "http://warframe.fandom.com/wiki/Afuris",
 			"notes": "Very low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.45
 		},
@@ -4302,7 +4302,7 @@
 			"rank": 30.0733200530681,
 			"tier": "Top",
 			"type": "Burst (2)",
-			"url": "http://warframe.wikia.com/wiki/Akarius",
+			"url": "http://warframe.fandom.com/wiki/Akarius",
 			"notes": "Very high damage per shot; projectile munitions. Projetiles explode on impact with an appreciable AOE while also requiring some travel distance which will reduce self damage. High fire rate and low ammo pool is impossible to manage without some manner of ammo mutation or restore. ✪",
 			"rivenDisposition": 1
 		},
@@ -4316,7 +4316,7 @@
 			"rank": 67.2076809620811,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Akbolto_Prime",
+			"url": "http://warframe.fandom.com/wiki/Akbolto_Prime",
 			"notes": "High damage per shot; projectile munitions. Keep your friends close; keep your enemies closer. Because bolts have travel time. ",
 			"rivenDisposition": 0.85
 		},
@@ -4330,7 +4330,7 @@
 			"rank": 79.7481704595758,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Akbronco_Prime",
+			"url": "http://warframe.fandom.com/wiki/Akbronco_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -4344,7 +4344,7 @@
 			"rank": 46.3452078799117,
 			"tier": "Top",
 			"type": "Burst (2)",
-			"url": "http://warframe.wikia.com/wiki/Akjagara_Prime",
+			"url": "http://warframe.fandom.com/wiki/Akjagara_Prime",
 			"notes": "Low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 0.85
 		},
@@ -4358,7 +4358,7 @@
 			"rank": 244.62385935564,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Aklato",
+			"url": "http://warframe.fandom.com/wiki/Aklato",
 			"notes": "Very low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.52
 		},
@@ -4372,7 +4372,7 @@
 			"rank": 80.4105975524154,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Aklex_Prime",
+			"url": "http://warframe.fandom.com/wiki/Aklex_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Massive recoil hurts overall DPS. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 0.8
 		},
@@ -4386,7 +4386,7 @@
 			"rank": 82.4494897427832,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Akmagnus",
+			"url": "http://warframe.fandom.com/wiki/Akmagnus",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.28
 		},
@@ -4400,7 +4400,7 @@
 			"rank": 39.7320508075689,
 			"tier": "Top",
 			"type": "Auto-Spool",
-			"url": "http://warframe.wikia.com/wiki/Aksomati_Prime",
+			"url": "http://warframe.fandom.com/wiki/Aksomati_Prime",
 			"notes": "Low damage per shot; hitscan munitions. Spool-up increases accuracy. ✪",
 			"rivenDisposition": 1
 		},
@@ -4414,7 +4414,7 @@
 			"rank": 60.6093613071762,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Akstiletto_Prime",
+			"url": "http://warframe.fandom.com/wiki/Akstiletto_Prime",
 			"notes": "Low damage per shot; hitscan munitions. Very good all-rounder secondary. ",
 			"rivenDisposition": 0.55
 		},
@@ -4428,7 +4428,7 @@
 			"rank": 57.1038404810405,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Akvasto_Prime",
+			"url": "http://warframe.fandom.com/wiki/Akvasto_Prime",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.2
 		},
@@ -4442,7 +4442,7 @@
 			"rank": 88.9497747702047,
 			"tier": "Need buffs",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Akzani",
+			"url": "http://warframe.fandom.com/wiki/Akzani",
 			"notes": "Very low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.52
 		},
@@ -4456,7 +4456,7 @@
 			"rank": 62.5495097567964,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Arca_Scisco",
+			"url": "http://warframe.fandom.com/wiki/Arca_Scisco",
 			"notes": "Low damage per shot; hitscan munitions. Each shot landed grants Target Analysis buff. Target Analysis stacks up to 5 times, lasting 2 seconds each. Critical Chance and Status Chance increases by 4% per stack. ",
 			"rivenDisposition": 1.05
 		},
@@ -4470,7 +4470,7 @@
 			"rank": 38.9748873851023,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Atomos",
+			"url": "http://warframe.fandom.com/wiki/Atomos",
 			"notes": "Very low damage per shot; beam munitions. Chains 7m away, even when shooting at dead bodies. ",
 			"rivenDisposition": 0.8
 		},
@@ -4484,7 +4484,7 @@
 			"rank": 62.5811388300842,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Azima",
+			"url": "http://warframe.fandom.com/wiki/Azima",
 			"notes": "Very low damage per shot; hitscan munitions. Alt fire launches the remaining clip that will act as a 4-point dumb turret. ",
 			"rivenDisposition": 1.25
 		},
@@ -4498,7 +4498,7 @@
 			"rank": 90.707372593841,
 			"tier": "Need buffs",
 			"type": "Burst / Charge",
-			"url": "http://warframe.wikia.com/wiki/Ballistica_Prime",
+			"url": "http://warframe.fandom.com/wiki/Ballistica_Prime",
 			"notes": "Very high damage per shot; projectile munitions. Charged shot kills turns the target into a ghostly specter for 7 seconds. ",
 			"rivenDisposition": 1.15
 		},
@@ -4512,7 +4512,7 @@
 			"rank": 85.7637059362411,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Brakk",
+			"url": "http://warframe.fandom.com/wiki/Brakk",
 			"notes": "Very high damage per shot; hitscan munitions. RIP Raids. ",
 			"rivenDisposition": 1.25
 		},
@@ -4526,7 +4526,7 @@
 			"rank": 90.0906705900093,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Bronco_Prime",
+			"url": "http://warframe.fandom.com/wiki/Bronco_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.35
 		},
@@ -4540,7 +4540,7 @@
 			"rank": 54.340758070878,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Cyanex",
+			"url": "http://warframe.fandom.com/wiki/Cyanex",
 			"notes": "Low damage per shot; projectile munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 0.8
 		},
@@ -4554,7 +4554,7 @@
 			"rank": 75.9165750888103,
 			"tier": "Viable",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Cycron",
+			"url": "http://warframe.fandom.com/wiki/Cycron",
 			"notes": "Very low damage per shot; beam munitions. Does not have an ammo reserve. Ammo in clip regenerates over time when not firing. ",
 			"rivenDisposition": 1.2
 		},
@@ -4568,7 +4568,7 @@
 			"rank": 120.340032573204,
 			"tier": "Need buffs",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Despair",
+			"url": "http://warframe.fandom.com/wiki/Despair",
 			"notes": "Low damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.3
 		},
@@ -4582,7 +4582,7 @@
 			"rank": 77.707372593841,
 			"tier": "Viable",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Dex_Furis",
+			"url": "http://warframe.fandom.com/wiki/Dex_Furis",
 			"notes": "Very low damage per shot; hitscan munitions. Despite being called the Furis, it uses the Afuris riven. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.39
 		},
@@ -4596,7 +4596,7 @@
 			"rank": 58.3749213828704,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Dual_Toxocyst",
+			"url": "http://warframe.fandom.com/wiki/Dual_Toxocyst",
 			"notes": "Low damage per shot; hitscan munitions. Headshot grants Frenzy buff. Frenzy lasts 3 seconds and can be refreshed. Frenzy grants 100% increase in Toxin damage (on base damage), 15% increase in fire rate, recoil reduction, and doesn't consume ammo while firing. ✪",
 			"rivenDisposition": 1.35
 		},
@@ -4610,7 +4610,7 @@
 			"rank": 48.7235384061671,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Embolist",
+			"url": "http://warframe.fandom.com/wiki/Embolist",
 			"notes": "Very low damage per shot; beam munitions. ✪",
 			"rivenDisposition": 1.4
 		},
@@ -4624,7 +4624,7 @@
 			"rank": 55.9679483388679,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Euphona_Prime",
+			"url": "http://warframe.fandom.com/wiki/Euphona_Prime",
 			"notes": "Very high damage per shot; projectile munitions. Alt-fire switches to multi-pellet mode that can achieve 100% status chance when modded properly. However, slug mode firing has superior DPS and hybrid modding will gimp both builds. ",
 			"rivenDisposition": 0.7
 		},
@@ -4638,7 +4638,7 @@
 			"rank": 59.9099800796022,
 			"tier": "Contender",
 			"type": "Auto / Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Fusilai",
+			"url": "http://warframe.fandom.com/wiki/Fusilai",
 			"notes": "High damage per shot; projectile munitions. Alt-fire launches three throwing knives horizontally instead. ✪",
 			"rivenDisposition": 1.3
 		},
@@ -4652,7 +4652,7 @@
 			"rank": 73.9679483388679,
 			"tier": "Viable",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Hikou_Prime",
+			"url": "http://warframe.fandom.com/wiki/Hikou_Prime",
 			"notes": "Very low damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.15
 		},
@@ -4666,7 +4666,7 @@
 			"rank": 58.2899799195977,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Hystrix",
+			"url": "http://warframe.fandom.com/wiki/Hystrix",
 			"notes": "Low damage per shot; projectile munitions. Bolts munitions have pros and cons. Clip is small for fire rate and despite quick reload will end up being annoying. Alt-fire changes elemental damage to one of four basic types (Fire, Ice, Poison, Electricity) with guaranteed procs which scales more if corresponding elemental mod is installed. ",
 			"rivenDisposition": 1.15
 		},
@@ -4680,7 +4680,7 @@
 			"rank": 29.3493588689618,
 			"tier": "Top",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Knell",
+			"url": "http://warframe.fandom.com/wiki/Knell",
 			"notes": "High damage per shot; hitscan munitions. Headshot grants Death Knell buff. Death Knell can stack up to 3 times, lasting 3 seconds per stack. Stack-count regardless, 20% status chance and infinite ammo is granted. Critical Multiplier increases (x1.5, x2., x2.5) per stack. ✪",
 			"rivenDisposition": 1.25
 		},
@@ -4694,7 +4694,7 @@
 			"rank": 185.680841540335,
 			"tier": "Need buffs",
 			"type": "Burst (2)",
-			"url": "http://warframe.wikia.com/wiki/Kraken",
+			"url": "http://warframe.fandom.com/wiki/Kraken",
 			"notes": "Low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.53
 		},
@@ -4708,7 +4708,7 @@
 			"rank": 102.319548602267,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Kulstar",
+			"url": "http://warframe.fandom.com/wiki/Kulstar",
 			"notes": "Very high damage per shot; projectile munitions. Rocket impact will release 3 additional bomblets. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -4722,7 +4722,7 @@
 			"rank": 178.629330940315,
 			"tier": "Need buffs",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Kunai",
+			"url": "http://warframe.fandom.com/wiki/Kunai",
 			"notes": "Low damage per shot; projectile munitions. Good luck landing a precise shot. ",
 			"rivenDisposition": 1.51
 		},
@@ -4736,7 +4736,7 @@
 			"rank": 75,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Lato_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Lato_Vandal",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.35
 		},
@@ -4750,7 +4750,7 @@
 			"rank": 93.9197744313082,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Lex_Prime",
+			"url": "http://warframe.fandom.com/wiki/Lex_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Massive recoil hurts overall DPS. ",
 			"rivenDisposition": 1.1
 		},
@@ -4764,7 +4764,7 @@
 			"rank": 47.5115214431216,
 			"tier": "Top",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Mara_Detron",
+			"url": "http://warframe.fandom.com/wiki/Mara_Detron",
 			"notes": "Very high damage per shot; projectile munitions. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1
 		},
@@ -4778,7 +4778,7 @@
 			"rank": 78.6742346141748,
 			"tier": "Viable",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Nukor",
+			"url": "http://warframe.fandom.com/wiki/Nukor",
 			"notes": "Very low damage per shot; beam munitions. Hitting a specific part multiple times increases damage dealt to that part by 5%. Unusually, Nukor has very high Critical Multiplier but poor Critical Chance, hence it's DPS increase from flat Crit Chance modifiers is relatively higher than other weapons. ",
 			"rivenDisposition": 1.45
 		},
@@ -4792,7 +4792,7 @@
 			"rank": 54.5038404810405,
 			"tier": "Contender",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Ocucor",
+			"url": "http://warframe.fandom.com/wiki/Ocucor",
 			"notes": "Very low damage per shot; beam munitions. Each enemy killed will create an additional tendril that damages other targettable enemies in sight. Tendrils reset upon reloading. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -4806,7 +4806,7 @@
 			"rank": 59.8190046219458,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Pandero",
+			"url": "http://warframe.fandom.com/wiki/Pandero",
 			"notes": "High damage per shot; hitscan munitions. Alt-fire empties clip onto enemy with some worrying recoil. ",
 			"rivenDisposition": 1.05
 		},
@@ -4820,7 +4820,7 @@
 			"rank": 62.5811388300842,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Plinx",
+			"url": "http://warframe.fandom.com/wiki/Plinx",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.15
 		},
@@ -4834,7 +4834,7 @@
 			"rank": 57,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Pox",
+			"url": "http://warframe.fandom.com/wiki/Pox",
 			"notes": "Low damage per shot; projectile munitions. Firing launches gas darts that will fill a moderate AOE with gas. Modding 100% status is highly recommended. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.05
 		},
@@ -4848,7 +4848,7 @@
 			"rank": 97.2294316524253,
 			"tier": "Need buffs",
 			"type": "Charge (0.2s)",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Angstrum",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Angstrum",
 			"notes": "Very high damage per shot; projectile munitions. Multishot causes the rocket to spread out further. Can be charged to launch more rockets at once. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.3
 		},
@@ -4862,7 +4862,7 @@
 			"rank": 47.5493588689618,
 			"tier": "Top",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Prisma_Twin_Gremlins",
+			"url": "http://warframe.fandom.com/wiki/Prisma_Twin_Gremlins",
 			"notes": "Low damage per shot; projectile munitions. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -4876,7 +4876,7 @@
 			"rank": 43.6635642126553,
 			"tier": "Top",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Pyrana_Prime",
+			"url": "http://warframe.fandom.com/wiki/Pyrana_Prime",
 			"notes": "Very high damage per shot; hitscan munitions. Killing 3 enemies within 3 seconds summons another Pyrana Prime for 5 seconds, which doubles your fire rate and current ammo (of which up to 12 remains after it is gone). ",
 			"rivenDisposition": 0.6
 		},
@@ -4890,7 +4890,7 @@
 			"rank": 51.0803508501983,
 			"tier": "Contender",
 			"type": "Burst (4)",
-			"url": "http://warframe.wikia.com/wiki/Quatz",
+			"url": "http://warframe.fandom.com/wiki/Quatz",
 			"notes": "Low damage per shot; hitscan munitions. Reloading when the clip is emptied causes an Electric damage proc (with 100% status chance) around you. ",
 			"rivenDisposition": 1
 		},
@@ -4904,7 +4904,7 @@
 			"rank": 135.697999839974,
 			"tier": "Need buffs",
 			"type": "Burst / Charge",
-			"url": "http://warframe.wikia.com/wiki/Rakta_Ballistica",
+			"url": "http://warframe.fandom.com/wiki/Rakta_Ballistica",
 			"notes": "Very high damage per shot; projectile munitions. Blight (Viral, energy, movement speed) is useful at times. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.15
 		},
@@ -4918,7 +4918,7 @@
 			"rank": 82.4852813742386,
 			"tier": "Viable",
 			"type": "Active",
-			"url": "http://warframe.wikia.com/wiki/Sancti_Castanas",
+			"url": "http://warframe.fandom.com/wiki/Sancti_Castanas",
 			"notes": "Very high damage per shot; projectile munitions. Purity (Corrosive, health) can be useful at times. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.35
 		},
@@ -4932,7 +4932,7 @@
 			"rank": 57.4494897427832,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Secura_Dual_Cestra",
+			"url": "http://warframe.fandom.com/wiki/Secura_Dual_Cestra",
 			"notes": "Very low damage per shot; projectile munitions. Sequence (Radiation, shields) can be useful at times. ✪",
 			"rivenDisposition": 1.3
 		},
@@ -4946,7 +4946,7 @@
 			"rank": 223.125775020647,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Seer",
+			"url": "http://warframe.fandom.com/wiki/Seer",
 			"notes": "High damage per shot; projectile munitions. ",
 			"rivenDisposition": 1.5
 		},
@@ -4960,7 +4960,7 @@
 			"rank": 56.7320508075689,
 			"tier": "Contender",
 			"type": "Burst (3)",
-			"url": "http://warframe.wikia.com/wiki/Sicarus_Prime",
+			"url": "http://warframe.fandom.com/wiki/Sicarus_Prime",
 			"notes": "Low damage per shot; hitscan munitions. Three-round burst is wasteful at times. ",
 			"rivenDisposition": 1.1
 		},
@@ -4974,7 +4974,7 @@
 			"rank": 95.1130553854464,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Sonicor",
+			"url": "http://warframe.fandom.com/wiki/Sonicor",
 			"notes": "High damage per shot; projectile munitions. The tenno space program has been replaced by the tenno ragdoll simulator. Explosions may cause status effects. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.05
 		},
@@ -4988,7 +4988,7 @@
 			"rank": 45.1235384061671,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Spectra_Vandal",
+			"url": "http://warframe.fandom.com/wiki/Spectra_Vandal",
 			"notes": "Very low damage per shot; beam munitions. ✪",
 			"rivenDisposition": 1.45
 		},
@@ -5002,7 +5002,7 @@
 			"rank": 53.4495901363954,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Spira_Prime",
+			"url": "http://warframe.fandom.com/wiki/Spira_Prime",
 			"notes": "High damage per shot; projectile munitions. ✪",
 			"rivenDisposition": 1.15
 		},
@@ -5016,7 +5016,7 @@
 			"rank": 38.4736441353328,
 			"tier": "Top",
 			"type": "Semi-auto / Charge",
-			"url": "http://warframe.wikia.com/wiki/Staticor",
+			"url": "http://warframe.fandom.com/wiki/Staticor",
 			"notes": "High damage per shot; projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
 			"rivenDisposition": 0.53
 		},
@@ -5030,7 +5030,7 @@
 			"rank": 55.1231056256177,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Stubba",
+			"url": "http://warframe.fandom.com/wiki/Stubba",
 			"notes": "Low damage per shot; hitscan munitions. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.35
 		},
@@ -5044,7 +5044,7 @@
 			"rank": 199.683321445548,
 			"tier": "Need buffs",
 			"type": "Charge (3.0s)",
-			"url": "http://warframe.wikia.com/wiki/Stug",
+			"url": "http://warframe.fandom.com/wiki/Stug",
 			"notes": "Very high damage per shot; projectile munitions. Each shot launches a blob. Up to six blobs can accumulate at a single site on the target. Alt-fire charges the weapon to launch a single, larger blob. While the shots itself does not cause status effects, the blobs do. ",
 			"rivenDisposition": 1.48
 		},
@@ -5058,7 +5058,7 @@
 			"rank": 41.4431676725155,
 			"tier": "Top",
 			"type": "Held",
-			"url": "http://warframe.wikia.com/wiki/Synoid_Gammacor",
+			"url": "http://warframe.fandom.com/wiki/Synoid_Gammacor",
 			"notes": "Very low damage per shot; beam munitions. Innate Entropy (Magnetic, Energy) is useful at times. ✪",
 			"rivenDisposition": 1
 		},
@@ -5072,7 +5072,7 @@
 			"rank": 93.0277350426339,
 			"tier": "Need buffs",
 			"type": "Active",
-			"url": "http://warframe.wikia.com/wiki/Talons",
+			"url": "http://warframe.fandom.com/wiki/Talons",
 			"notes": "High damage per shot; projectile munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.44
 		},
@@ -5086,7 +5086,7 @@
 			"rank": 117.621395872617,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Telos_Akbolto",
+			"url": "http://warframe.fandom.com/wiki/Telos_Akbolto",
 			"notes": "Low damage per shot; projectile munitions. Truth (Gas, health, parkour) is useful at times. ",
 			"rivenDisposition": 0.9
 		},
@@ -5100,7 +5100,7 @@
 			"rank": 60.3452078799117,
 			"tier": "Contender",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Twin_Grakatas",
+			"url": "http://warframe.fandom.com/wiki/Twin_Grakatas",
 			"notes": "Low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.15
 		},
@@ -5114,7 +5114,7 @@
 			"rank": 54.2391488719487,
 			"tier": "Contender",
 			"type": "Auto-Spool",
-			"url": "http://warframe.wikia.com/wiki/Twin_Kohmak",
+			"url": "http://warframe.fandom.com/wiki/Twin_Kohmak",
 			"notes": "High damage per shot; hitscan munitions. Spool up increases pellets shot and fire rate to the point where status effects are still reliably proc'd despite using shotgun calcs. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.25
 		},
@@ -5128,7 +5128,7 @@
 			"rank": 54.9888543819998,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Twin_Rogga",
+			"url": "http://warframe.fandom.com/wiki/Twin_Rogga",
 			"notes": "Very high damage per shot; hitscan munitions. ✪",
 			"rivenDisposition": 1.25
 		},
@@ -5142,7 +5142,7 @@
 			"rank": 110.910427743244,
 			"tier": "Need buffs",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Twin_Vipers_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Twin_Vipers_Wraith",
 			"notes": "Very low damage per shot; hitscan munitions. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.41
 		},
@@ -5156,7 +5156,7 @@
 			"rank": 63.1749476985159,
 			"tier": "Contender",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Tysis",
+			"url": "http://warframe.fandom.com/wiki/Tysis",
 			"notes": "Low damage per shot; projectile munitions. Suffers from relatively poor consistency. ✪",
 			"rivenDisposition": 1.45
 		},
@@ -5170,7 +5170,7 @@
 			"rank": 77.7358966777358,
 			"tier": "Viable",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Vasto_Prime",
+			"url": "http://warframe.fandom.com/wiki/Vasto_Prime",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.35
 		},
@@ -5184,7 +5184,7 @@
 			"rank": 86.5283525619832,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Vaykor_Marelok",
+			"url": "http://warframe.fandom.com/wiki/Vaykor_Marelok",
 			"notes": "High damage per shot; hitscan munitions. Justice (Blast, health, armor) can be helpful at times. ",
 			"rivenDisposition": 1
 		},
@@ -5198,7 +5198,7 @@
 			"rank": 110.070225614927,
 			"tier": "Need buffs",
 			"type": "Auto",
-			"url": "http://warframe.wikia.com/wiki/Viper_Wraith",
+			"url": "http://warframe.fandom.com/wiki/Viper_Wraith",
 			"notes": "Very low damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.35
 		},
@@ -5212,7 +5212,7 @@
 			"rank": 84.7710157857599,
 			"tier": "Need buffs",
 			"type": "Semi-Auto",
-			"url": "http://warframe.wikia.com/wiki/Zakti",
+			"url": "http://warframe.fandom.com/wiki/Zakti",
 			"notes": "Very low damage per shot; projectile munitions. Pellets explode after landing, causing Impact status and Gas damage and status. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.2
 		},
@@ -5226,7 +5226,7 @@
 			"rank": 95.2961527075647,
 			"tier": "Need buffs",
 			"type": "Duplex",
-			"url": "http://warframe.wikia.com/wiki/Zylok",
+			"url": "http://warframe.fandom.com/wiki/Zylok",
 			"notes": "High damage per shot; hitscan munitions. ",
 			"rivenDisposition": 1.25
 		},
