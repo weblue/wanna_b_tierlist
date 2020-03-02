@@ -4309,7 +4309,7 @@
 		"Kuva Kohm": {
 			"base": "",
 			"category": "Shotgun",
-			"dmg": "Crit/Status",
+			"dmg": "Status",
 			"dmgLink": "https://overframe.gg/build/23290/",
 			"mr": 13,
 			"name": "Kuva Kohm",
@@ -5401,7 +5401,7 @@
 		"Kuva Brakk": {
 			"base": "",
 			"category": "Shotgun",
-			"dmg": "Status",
+			"dmg": "Crit/Status",
 			"dmgLink": "https://overframe.gg/build/23294/kuva-brakk/warframe-tier-list-kuva-brakk/",
 			"mr": 13,
 			"name": "Kuva Brakk",
@@ -5415,7 +5415,7 @@
 		"Kuva Kraken": {
 			"base": "",
 			"category": "Semi-auto",
-			"dmg": "Status",
+			"dmg": "Crit/Status",
 			"dmgLink": "https://overframe.gg/build/23295/",
 			"mr": 15,
 			"name": "Kuva Kraken",
@@ -5429,7 +5429,7 @@
 		"Kuva Nukor": {
 			"base": "",
 			"category": "Beam",
-			"dmg": "Status",
+			"dmg": "Crit/Status",
 			"dmgLink": "https://overframe.gg/build/23296/",
 			"mr": 13,
 			"name": "Kuva Nukor",
@@ -5443,7 +5443,7 @@
 		"Kuva Seer": {
 			"base": "",
 			"category": "Semi-auto",
-			"dmg": "Status",
+			"dmg": "Crit/Status",
 			"dmgLink": "https://overframe.gg/build/23297/",
 			"mr": 15,
 			"name": "Kuva Seer",
@@ -5457,7 +5457,7 @@
 		"Kuva Twin Stubbas": {
 			"base": "",
 			"category": "Auto",
-			"dmg": "Status",
+			"dmg": "Crit/Status",
 			"dmgLink": "https://overframe.gg/build/23298/",
 			"mr": 13,
 			"name": "Kuva Twin Stubbas",
