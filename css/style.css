@@ -13,18 +13,6 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.header-link {
-    color: #b19cd9;
-}
-
-.header-link:hover {
-    color: #e6e6fa;
-}
-
-.header-link:visited {
-    color: #AE56FA;
-}
-
 .header-version{
     overflow: hidden;
     white-space: nowrap;
