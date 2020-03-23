@@ -246,7 +246,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
         db.Primaries[newPrimaryName] =
             {
                 name: newPrimaryName,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 mr: Number(newPrimaryMr),
                 base: newPrimaryBase,
                 category: newPrimaryCategory,
@@ -268,7 +268,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
         db.Secondaries[newSecondaryName] =
             {
                 name: newSecondaryName,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 mr: Number( newSecondaryMr),
                 base: newSecondaryBase,
                 dmg: newSecondaryDmg,
@@ -289,7 +289,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
         db.Melees[newMeleeName] =
             {
                 name: newMeleeName,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 mr: Number(newMeleeMr),
                 combo: newMeleeCombo,
                 stance: newMeleeStance,
@@ -313,7 +313,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
             {
                 name: newSchoolName,
                 frame: newSchoolFrame,
-                url: 'http://warframe.wikia.com/wiki/Focus',
+                url: 'http://warframe.fandom.com/wiki/Focus',
                 op: newSchoolOp,
                 notes: newSchoolNotes,
                 rank: Number(newSchoolRank),
@@ -331,7 +331,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
             {
                 name: newArchwingName,
                 use: newArchwingUse,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 notes: newArchwingNotes,
                 rank: Number(newArchwingRank),
                 tier: newArchwingTier
@@ -350,7 +350,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 use: newArchgunUse,
                 base: newArchgunBase,
                 firing: newArchgunFiring,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 notes: newArchgunNotes,
                 rank: Number(newArchgunRank),
                 tier: newArchgunTier
@@ -367,7 +367,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
             {
                 name: newArchmeleeName,
                 use: newArchmeleeUse,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 notes: newArchmeleeNotes,
                 rank: Number(newArchmeleeRank),
                 tier: newArchmeleeTier
@@ -386,7 +386,7 @@ app.controller("EditorController", function EditorController($scope, $http) {
                 name: newCompanionName,
                 base: newCompanionBase,
                 abilities: newCompanionAbilities,
-                url: 'http://warframe.wikia.com/wiki/' + urlName,
+                url: 'http://warframe.fandom.com/wiki/' + urlName,
                 notes: newCompanionNotes,
                 category: newCompanionCategory,
                 rank: Number(newCompanionRank),
