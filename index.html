@@ -134,6 +134,7 @@
                             <thead>
                                 <tr>
                                     <th width="10%">Weapons</th>
+                                    <th width="auto">PerfIndex</th>
                                     <th width="8%">Category</th>
                                     <th width="8%">Build Focus</th>
                                     <th width="10%">Wep Type</th>
@@ -153,9 +154,11 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" rel="noopener noreferrer" href="{(primary.url)}">{(primary.name)}</a></td>
+                                    <td>{(primary.perfIndex | number)}</td>
                                     <td>{(primary.category)}</td>
                                     <td ng-if="primary.dmgLink">
                                       <a target="_blank" rel="noopener noreferrer" href="{(primary.dmgLink)}">{(primary.dmg)}</a>
@@ -177,6 +180,7 @@
                             <thead>
                                 <tr>
                                     <th width="12%">Weapons</th>
+                                    <th width="auto">PerfIndex</th>
                                     <th width="8%">Build Focus</th>
                                     <th width="10%">Wep Type</th>
                                     <th width="auto">Notes</th>
@@ -194,9 +198,11 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" rel="noopener noreferrer" href="{(secondary.url)}">{(secondary.name)}</a></td>
+                                    <td>{(secondary.perfIndex | number)}</td>
                                     <td ng-if="secondary.dmgLink">
                                       <a target="_blank" rel="noopener noreferrer" href="{(secondary.dmgLink)}">{(secondary.dmg)}</a>
                                     </td>
@@ -217,6 +223,7 @@
                             <thead>
                                 <tr>
                                     <th width="12%">Weapons</th>
+                                    <th width="auto">PerfIndex</th>
                                     <th width="8%">Build Focus</th>
                                     <th width="10%">Wep Type</th>
                                     <th width="12%">Rec. Stance</th>
@@ -243,6 +250,7 @@
                                 </tr>
                                 <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" rel="noopener noreferrer" href="{(melee.url)}">{(melee.name)}</a></td>
+                                    <td>{(melee.perfIndex | number)}</td>
                                     <td ng-if="melee.dmgLink">
                                       <a target="_blank" rel="noopener noreferrer" href="{(melee.dmgLink)}">{(melee.dmg)}</a>
                                     </td>
