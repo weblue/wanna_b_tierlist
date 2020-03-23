@@ -4187,7 +4187,7 @@
     "Vulkar Wraith": {
       "base": "Vulkar need buffs",
       "category": "Sniper",
-      "dmg": "Critical",
+      "dmg": "Crit/Status",
       "dmgLink": "https://overframe.gg/build/10382/vulkar-wraith/warframe-tier-list-vulkar-wraith/",
       "mr": 7,
       "name": "Vulkar Wraith",
