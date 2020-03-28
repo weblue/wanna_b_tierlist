@@ -158,7 +158,7 @@
                                 </tr>
                                 <tr class="sortable" ng-repeat="primary in Primaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" rel="noopener noreferrer" href="{(primary.url)}">{(primary.name)}</a></td>
-                                    <td>{(primary.perfIndex | number)}</td>
+                                    <td>{(primary.perfIndex | number : 1)}</td>
                                     <td>{(primary.category)}</td>
                                     <td ng-if="primary.dmgLink">
                                       <a target="_blank" rel="noopener noreferrer" href="{(primary.dmgLink)}">{(primary.dmg)}</a>
@@ -202,7 +202,7 @@
                                 </tr>
                                 <tr ng-repeat="secondary in Secondaries | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" rel="noopener noreferrer" href="{(secondary.url)}">{(secondary.name)}</a></td>
-                                    <td>{(secondary.perfIndex | number)}</td>
+                                    <td>{(secondary.perfIndex | number : 1)}</td>
                                     <td ng-if="secondary.dmgLink">
                                       <a target="_blank" rel="noopener noreferrer" href="{(secondary.dmgLink)}">{(secondary.dmg)}</a>
                                     </td>
@@ -250,7 +250,7 @@
                                 </tr>
                                 <tr ng-repeat="melee in Melees | filter: $ctrl.query | filter: {tier : tiers.name} : true | orderBy: 'rank'">
                                     <td><a target="_blank" rel="noopener noreferrer" href="{(melee.url)}">{(melee.name)}</a></td>
-                                    <td>{(melee.perfIndex | number)}</td>
+                                    <td>{(melee.perfIndex | number : 1)}</td>
                                     <td ng-if="melee.dmgLink">
                                       <a target="_blank" rel="noopener noreferrer" href="{(melee.dmgLink)}">{(melee.dmg)}</a>
                                     </td>
