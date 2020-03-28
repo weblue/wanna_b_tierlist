@@ -5260,7 +5260,7 @@
 			"tier": "Top",
 			"type": "Semi-auto / Charge",
 			"url": "http://warframe.fandom.com/wiki/Staticor",
-			"notes": "High damage per shot; projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of stripping armor. ",
+			"notes": "High damage per shot; projectile munitions. Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of layering additional status effects. ",
 			"rivenDisposition": 0.53
 		},
 		"Stubba": {
