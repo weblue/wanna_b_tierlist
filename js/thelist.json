@@ -5125,7 +5125,7 @@
 			"tier": "Top",
 			"type": "Auto",
 			"url": "http://warframe.fandom.com/wiki/Pyrana_Prime",
-			"notes": "Very high damage per shot; hitscan munitions. Killing 3 enemies within 3 seconds summons another Pyrana Prime for 5 seconds, which doubles your fire rate and current ammo (of which up to 12 remains after it is gone). ",
+			"notes": "Killing 3 enemies within 3 seconds summons another Pyrana Prime for 5 seconds, which increases your fire rate by 40% and current ammo (of which up to 12 remains after it is gone). ",
 			"rivenDisposition": 0.6
 		},
 		"Quatz": {
