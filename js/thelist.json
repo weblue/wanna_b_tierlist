@@ -4416,8 +4416,8 @@
 			"dmgLink": "https://overframe.gg/build/23290/",
 			"mr": 13,
 			"name": "Kuva Kohm",
-			"rank": 22.07,
-			"perfIndex": 123.6,
+			"rank": 22.69,
+			"perfIndex": 120.2,
 			"tier": "Top",
 			"type": "Auto-Spoolup",
 			"url": "http://warframe.fandom.com/wiki/Kuva_Kohm",
@@ -5485,8 +5485,8 @@
       "tier": "Top",
       "type": "Shotgun",
       "url": "https://semlar.com/kitcalc/catchmoon+haymaker+zipneedle",
-      "notes": "Very high damage per shot,  projectile munitions. Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge mandatory. ✪",
-      "rivenDisposition": 1
+      "notes": "Very high damage per shot,  projectile munitions. Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge mandatory. ",
+      "rivenDisposition": 0.5
     },
     "Gaze - Baleful Purifier": {
       "base": "",
