@@ -3314,20 +3314,20 @@
       "notes": "Very low damage per shot; beam munitions. Primary fire brings the beam from wide to narrow while alt fire sweeps the beam. Alt fire sweeps the beam from narrow to wide instead and is useful for applying status effects to large crowds. [Efficient Beams] consumes no ammo while not dealing damage. This makes it possible to keep the beam narrow for maximum concentrated damage without hurting ammo economy. Potentially Top but does not perform consistently. ✪",
       "rivenDisposition": 1.46
     },
-    "Corinth": {
+    "Corinth Prime": {
       "base": "",
       "category": "Shotgun",
       "dmg": "Critical",
-      "dmgLink": "https://overframe.gg/build/10369/",
+      "dmgLink": "https://overframe.gg/build/29159/",
       "mr": 8,
-      "name": "Corinth",
-      "rank": 58.7,
-      "perfIndex": 46.5,
-      "tier": "Viable",
+      "name": "Corinth Prime",
+      "rank": 35.85,
+      "perfIndex": 76.1,
+      "tier": "Top",
       "type": "Semi-auto",
-      "url": "http://warframe.fandom.com/wiki/Corinth",
-      "notes": "Very high damage per shot; hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Reload should be done when clip is empty as there is a delay between reloading and firing, but the gains should be minimal. ",
-      "rivenDisposition": 0.95
+      "url": "http://warframe.fandom.com/wiki/Corinth_Prime",
+      "notes": "Very high damage per shot; hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. ",
+      "rivenDisposition": 1
     },
     "Daikyu": {
       "base": "",
