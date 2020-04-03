@@ -147,17 +147,6 @@
 			"notes": "Would have been top, but since teaming up would assume some form of coordination it is expected that the Chroma stay a little more still and teammates gather around him for warmth instead. ",
 			"url": "http://warframe.fandom.com/wiki/Chroma"
 		},
-		"ChromaLoot": {
-			"frameName": "Chroma",
-			"buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |",
-			"abilityInFocus": "Effigy",
-			"tier": "Viable",
-			"rank": 3,
-			"suitableMissionsRanked": "| Defense | ",
-			"roleSummary": "| Damage | Control | Buff | Debuff | Loot | ",
-			"notes": "Faster and easier to farm credits in Index. Orb mother fights doesn't use this build either. ",
-			"url": "http://warframe.fandom.com/wiki/Chroma"
-		},
 		"EmberBuff": {
 			"frameName": "Ember",
 			"buildGoals": "???",
