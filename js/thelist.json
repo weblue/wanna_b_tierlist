@@ -3126,7 +3126,7 @@
     "Astilla": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit/Status",
+      "dmg": "Status",
       "dmgLink": "https://overframe.gg/build/9680/",
       "mr": 10,
       "name": "Astilla",
