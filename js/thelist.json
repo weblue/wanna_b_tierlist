@@ -3049,8 +3049,8 @@
       "tier": "Top",
       "type": "Heavy Blade",
       "url": "",
-      "wepnotes": "High damage per hit, high attack speed. Dokrahm - Seekalla - Ekwana II Jai zaw with Exodia Hunt. About 11.3% better than Exo Force.✪",
-      "rivenDisposition": 1
+      "wepnotes": "High damage per hit, high attack speed. Dokrahm - Seekalla - Ekwana II Jai zaw with Exodia Hunt. About 11.3% better than Exo Force.",
+      "rivenDisposition": 0.85
     },
     "Kuva Shildeg": {
       "base": "",
