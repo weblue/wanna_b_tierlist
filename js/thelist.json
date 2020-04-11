@@ -2338,23 +2338,6 @@
       "wepnotes": "High damage per hit, low attack speed. Jump attacks always proc Electricity. ✪",
       "rivenDisposition": 1.00
     },
-    "Paracesis": {
-      "base": "",
-      "combo": "Broken Bull",
-      "dmg": "Crit & Status",
-      "dmgLink": "https://overframe.gg/build/28728/",
-      "mr":10,
-      "name": "Paracesis",
-      "rank":34.68,
-      "perfIndex": 55.9,
-      "stance": "Cleaving Whirlwind",
-      "stancenotes": "",
-      "tier": "Viable",
-      "type": "Heavy Blade",
-      "url": "http://warframe.fandom.com/wiki/Paracesis",
-      "wepnotes": "High damage per hit, low attack speed. Has max modslot of 90 including stance. Using forma on this weapon will increase damage to Tau faction (up to 60% after 5 forma). ",
-      "rivenDisposition": 0.85
-    },
     "Pathocyst": {
       "base": "",
       "combo": "Morning Sun",
@@ -3160,7 +3143,7 @@
       "dmg": "Crit & Status",
       "dmgLink": "https://overframe.gg/build/28728/",
       "mr":0,
-      "name": "Zaw Heavy Blade - Paracesis",
+      "name": "Paracesis",
       "rank":35.57,
       "perfIndex": 54.5,
       "stance": "Cleaving Whirlwind",
