@@ -3187,7 +3187,25 @@
       "url": "https://overframe.gg/build/32091/",
       "wepnotes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. Rabvee - Seekalla - Ekwana Jai II zaw with Exodia Hunt.",
       "rivenDisposition": 1.15
+    },
+            "Garuda's Talons": {
+      "base": "",
+      "combo": "Jagged Gash",
+      "dmg": "Status",
+      "dmgLink": "https://overframe.gg/build/32176/",
+      "mr":0,
+      "name": "Zaw Claws - Garuda's Talons",
+      "rank":24.97,
+      "perfIndex": 77.6,
+      "stance": "Malicious Raptor",
+      "stancenotes": "",
+      "tier": "Contender",
+      "type": "Claws",
+      "url": "https://warframe.fandom.com/wiki/Garuda%27s_Talons",
+      "wepnotes": "Low damage per hit, low attack speed. Only usable when Garuda is not equipping any other melee weapons. ",
+      "rivenDisposition": 0
     }
+
 	},
 	"Primaries": {
 		"Acceltra": {
