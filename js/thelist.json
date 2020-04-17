@@ -1240,14 +1240,14 @@
 			"dmgLink": "https://overframe.gg/build/28651/",
 			"mr": 7,
 			"name": "Cerata",
-			"rank": 40.18,
-			"perfIndex": 45.6,
+			"rank": 30.84,
+			"perfIndex": 59.4,
 			"stance": "Astral Twilight",
 			"stancenotes": "",
-			"tier": "Need buffs",
+			"tier": "Viable",
 			"type": "Glaive",
 			"url": "http://warframe.fandom.com/wiki/Cerata",
-			"wepnotes": "Low damage per hit, low attack speed. Suffers from relatively poor consistency. ",
+			"wepnotes": "Low damage per hit, low attack speed. ",
 			"rivenDisposition": 1.36
 		},
 		"Ceti Lacera": {
@@ -1264,8 +1264,8 @@
 			"tier": "Top",
 			"type": "Blade and Whip",
 			"url": "http://warframe.fandom.com/wiki/Ceti_Lacera",
-			"wepnotes": "High damage per hit, high attack speed. ✪",
-			"rivenDisposition": 1.31
+			"wepnotes": "High damage per hit, high attack speed. ",
+			"rivenDisposition": 1
 		},
 		"Cobra & Crane": {
 			"base": "",
@@ -1295,7 +1295,7 @@
 			"perfIndex": 49.6,
 			"stance": "Iron Phoenix",
 			"stancenotes": "",
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Sword",
 			"url": "http://warframe.fandom.com/wiki/Cronus",
 			"wepnotes": "Very low damage per hit, low attack speed. ",
@@ -1995,7 +1995,7 @@
 			"tier": "Contender",
 			"type": "Polearm",
 			"url": "http://warframe.fandom.com/wiki/Kesheg",
-			"wepnotes": "High damage per hit, low attack speed. Potentially Top but does not perform consistently. ",
+			"wepnotes": "High damage per hit, low attack speed. Potentially Top but does not perform consistently. ✪",
 			"rivenDisposition": 1.3
 		},
 		"Kestrel": {
@@ -2284,7 +2284,7 @@
 			"tier": "Contender",
 			"type": "Dual Daggers",
 			"url": "http://warframe.fandom.com/wiki/Okina",
-			"wepnotes": "Low damage per hit, high attack speed. ",
+			"wepnotes": "Low damage per hit, high attack speed. ✪",
 			"rivenDisposition": 1.31
 		},
 		"Orthos Prime": {
@@ -2335,8 +2335,8 @@
 			"tier": "Top",
 			"type": "Sword",
 			"url": "http://warframe.fandom.com/wiki/Pangolin_Prime",
-			"wepnotes": "High damage per hit, low attack speed. Jump attacks always proc Electricity. ✪",
-			"rivenDisposition": 1.47
+			"wepnotes": "High damage per hit, low attack speed. Jump attacks always proc Electricity. ",
+			"rivenDisposition": 1
 		},
 		"Pathocyst": {
 			"base": "",
@@ -2345,11 +2345,11 @@
 			"dmgLink": "https://overframe.gg/build/28729/",
 			"mr": 9,
 			"name": "Pathocyst",
-			"rank": 42,
-			"perfIndex": 43.6,
+			"rank": 34.73,
+			"perfIndex": 52.7,
 			"stance": "Astral Twilight",
 			"stancenotes": "",
-			"tier": "Need buffs",
+			"tier": "Viable",
 			"type": "Glaive",
 			"url": "http://warframe.fandom.com/wiki/Pathocyst",
 			"wepnotes": "High damage per hit, very low attack speed. Suffers from relatively poor consistency. ",
@@ -2553,7 +2553,7 @@
 			"perfIndex": 49.9,
 			"stance": "Shattering Storm",
 			"stancenotes": "",
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Hammer",
 			"url": "http://warframe.fandom.com/wiki/Sancti_Magistar",
 			"wepnotes": "High damage per hit, high attack speed. Innate 10% Blast effect proc. Reduces damage from status effects by 75%. Charge attacks heals nearby allies based on damage dealt. ",
@@ -3240,16 +3240,16 @@
 		"Arca Plasmor": {
 			"base": "",
 			"category": "Shotgun",
-			"dmg": "Crit/Status",
-			"dmgLink": "https://overframe.gg/build/10361/",
+			"dmg": "Status",
+			"dmgLink": "https://overframe.gg/build/33646/",
 			"mr": 10,
 			"name": "Arca Plasmor",
-			"rank": 72,
-			"perfIndex": 37.9,
-			"tier": "Need buffs",
+			"rank": 43.92,
+			"perfIndex": 62.1,
+			"tier": "Contender",
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Arca_Plasmor",
-			"notes": "Very high damage per shot; projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have a headshot multiplier. Suffers from relatively poor consistency. ",
+			"notes": "Very high damage per shot; projectile munitions. Single pellet is wide with punchthrough and therefore can act as AOE and reliably proc status effects. Does not have a headshot multiplier. ",
 			"rivenDisposition": 0.55
 		},
 		"Argonak": {
@@ -3381,7 +3381,7 @@
 			"name": "Braton Prime",
 			"rank": 48.94,
 			"perfIndex": 55.7,
-			"tier": "Contender",
+			"tier": "Viable",
 			"type": "Full-auto",
 			"url": "http://warframe.fandom.com/wiki/Braton_Prime",
 			"notes": "Very low damage per shot; hitscan munitions. ",
@@ -3456,10 +3456,10 @@
 			"name": "Corinth Prime",
 			"rank": 35.85,
 			"perfIndex": 76.1,
-			"tier": "Top",
+			"tier": "Contender",
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Corinth_Prime",
-			"notes": "Very high damage per shot; hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. ",
+			"notes": "Very high damage per shot; hitscan munitions. Alt fire is useful when the reload button is harder to reach than the secondary fire button. Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 0.95
 		},
 		"Daikyu": {
@@ -3486,7 +3486,7 @@
 			"name": "Dera Vandal",
 			"rank": 58.88,
 			"perfIndex": 46.3,
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Full-auto",
 			"url": "http://warframe.fandom.com/wiki/Dera_Vandal",
 			"notes": "Very low damage per shot; projectile munitions. ",
@@ -3756,7 +3756,7 @@
 			"name": "Lenz",
 			"rank": 58.59,
 			"perfIndex": 46.5,
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Charge (1.2s)",
 			"url": "http://warframe.fandom.com/wiki/Lenz",
 			"notes": "Very high damage per shot; projectile munitions. Each arrow procs procs Impact on direct hit, Cold AOE immediately afterwards, and finally Blast AOE explosion. Suffers from relatively poor consistency. ",
@@ -3981,7 +3981,7 @@
 			"name": "Prisma Grinlok",
 			"rank": 58.55,
 			"perfIndex": 46.6,
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Prisma_Grinlok",
 			"notes": "Very high damage per shot; hitscan munitions. Augment adds 200% CC and Sequence (Radiation, Shields, Max Shields) ",
@@ -4026,7 +4026,7 @@
 			"name": "Quartakk",
 			"rank": 58.83,
 			"perfIndex": 46.4,
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "4-round burst",
 			"url": "http://warframe.fandom.com/wiki/Quartakk",
 			"notes": "Low damage per shot; hitscan munitions. Four-shot burst is wasteful at times. Suffers from relatively poor consistency. ",
@@ -4149,7 +4149,7 @@
 			"tier": "Viable",
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Snipetron_Vandal",
-			"notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). ",
+			"notes": "Very high damage per shot; hitscan munitions. Sniper combo counter rampup is average (min. 3), zooming in gives additive bonus to headshots (30%/50%). Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.25
 		},
 		"Sobek": {
@@ -4317,7 +4317,6 @@
 			"notes": "High damage per shot; hitscan munitions. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 0.85
 		},
-
 		"Tigris Prime": {
 			"base": "Tigris is need buffs",
 			"category": "Shotgun",
