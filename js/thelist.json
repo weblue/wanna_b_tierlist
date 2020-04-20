@@ -4122,21 +4122,21 @@
 			"notes": "Very high damage per shot; projectile munitions. Napalm Grenades adds 30% Status Chance (not affected by mods) and causes instant explosions while leaving a burning patch on the ground. ✪",
 			"rivenDisposition": 1.3
 		},
-		"Shedu": {
-			"base": "",
-			"category": "Rifle",
-			"dmg": "Crit/Status",
-			"dmgLink": "https://overframe.gg/build/12772/shedu/warframe-tier-list-shedu/",
-			"mr": 13,
-			"name": "Shedu",
-			"rank": 33.36,
-			"perfIndex": 81.7,
-			"tier": "Top",
-			"type": "Full-auto",
-			"url": "http://warframe.fandom.com/wiki/Shedu",
-			"notes": "Low damage per shot; projectile munitions. Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. ",
-			"rivenDisposition": 0.9
-		},
+    "Shedu": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Crit/Status",
+      "dmgLink": "https://overframe.gg/build/34147/",
+      "mr": 13,
+      "name": "Shedu",
+      "rank": 33.36,
+      "perfIndex": 81.7,
+      "tier": "Top",
+      "type": "Full-auto",
+      "url": "http://warframe.fandom.com/wiki/Shedu",
+      "notes": "Low damage per shot; projectile munitions. Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. ",
+      "rivenDisposition": 0.9
+    },
 		"Snipetron Vandal": {
 			"base": "Snipetron need buffs",
 			"category": "Sniper",
