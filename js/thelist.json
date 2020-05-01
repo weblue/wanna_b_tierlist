@@ -4260,7 +4260,7 @@
     "Synoid Simulor": {
       "base": "Simulor need buffs",
       "category": "Launcher",
-      "dmg": "Hybrid",
+      "dmg": "Crit/Status",
       "dmgLink": "https://overframe.gg/build/37970/",
       "mr": 12,
       "name": "Synoid Simulor",
