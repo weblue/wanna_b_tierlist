@@ -95,10 +95,10 @@ export class DataService {
         this.setFilterParams(this.filterParams);
     }
 
-    getData(tab: string): Observable<Item[]> {
+    getData(tab: string): Observable<(Item|Tier)[]> {
         this.activeTab = tab;
         this.tabChange.next(tab);
-        return this.getDb().pipe<Item[]>(map(db => {
+        return this.getDb().pipe<(Item|Tier)[]>(map(db => {
                 return this.applyFilter(this.database[tab]);
             })
         );

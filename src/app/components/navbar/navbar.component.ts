@@ -13,16 +13,13 @@ import {SidebarService} from "../../services/sidebar.service";
 export class NavbarComponent implements OnInit {
 
   listVersion: string;
-  faSearch = faSearch;
 
-  constructor(private dataService: DataService, private sideserv: SidebarService) {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.getDb().subscribe(db => this.listVersion = db.version);
+    // this.dataService.getDb().subscribe(db => this.listVersion = db.version);
   }
 
-  toggleSidebar() {
-    this.sideserv.toggle();
-  }
+
 
 }

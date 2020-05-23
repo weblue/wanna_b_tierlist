@@ -32,6 +32,10 @@ tr.example-detail-row {
   font-size: 1em;
 }
 
+/*.nav {
+  display: inline-block;
+}*/
+
 .mat-cell{
   font-size: 1.25em;
   padding-top: 0.5em;

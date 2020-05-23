@@ -1,6 +1,8 @@
-<nav mat-tab-nav-bar>
+<nav mat-tab-nav-bar >
     <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
        [active]="activeTab == tab"> {{tab}} </a>
+
+  <a style="position: absolute; right: 0px" mat-button (click)="toggleSidebar()"><fa-icon [icon]="faSearch" size="lg"></fa-icon> Filter</a>
 </nav>
 <br />
 
@@ -98,7 +100,7 @@
         <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
     </ng-container>
 
-    <tr mat-row *matRowDef="let row; columns: ['tierHeader']; when: isTier" [hidden]="!row.isTier"></tr>
+    <tr mat-row *matRowDef="let row; columns: ['tierHeader']" [hidden]="!row.isTier"></tr>
 
 </mat-table>
 

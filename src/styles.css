@@ -8,7 +8,6 @@ html, body {
 }
 
 body {
-  padding-top: 70px;
   padding-bottom: 20px;
   -webkit-overflow-scrolling: touch;
 }
@@ -23,6 +22,7 @@ a:hover{
 }
 
 .container{
+  padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
 }

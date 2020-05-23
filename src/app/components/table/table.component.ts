@@ -7,6 +7,10 @@ import {Primary} from '../../models/Primary';
 import {Secondary} from '../../models/Secondary';
 import {Melee} from '../../models/Melee';
 import {Subscription} from "rxjs/internal/Subscription";
+import {Tier} from "../../models/Tier";
+import {Item} from "../../models/Item";
+import {SidebarService} from "../../services/sidebar.service";
+import {faSearch} from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-table',
@@ -26,19 +30,22 @@ export class TableComponent implements OnInit {
   tabs: string[] = ['Primaries', 'Secondaries', 'Melees'];
   activeTab = this.tabs[0];
 
+  faSearch = faSearch;
+
   private loading: boolean = true;
   // TODO make sure to add #reference
   @ViewChild('table') el: MatTable<any>;
 
   displayedColumns: string[] = [];
-  tableDataSource = [];
-  tiers = [];
+  tableDataSource: (Item | Tier)[] = [];
+  //tiers = Tier[];
 
   _tableDataSub: Subscription;
 
   constructor(
     private changeDetectorRef: ChangeDetectorRef,
     private data: DataService,
+    private sideserv: SidebarService
   ) {
     this._tableDataSub = data.dataChange.subscribe(() => {
       this.switch(this.activeTab);
@@ -61,6 +68,10 @@ export class TableComponent implements OnInit {
       console.log(this.tableDataSource);
       this.update();
     });
+  }
+
+  toggleSidebar() {
+    this.sideserv.toggle();
   }
 
   update(): void {
