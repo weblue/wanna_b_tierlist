@@ -8,3 +8,17 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.discord-button{
+  color:white;
+  background-color: #758AD4;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.github-button{
+  color:white;
+  background-color: #24282D;
+  margin-right: 1em;
+  margin-top: 1em;
+}

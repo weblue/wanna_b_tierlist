@@ -8,6 +8,7 @@ tr.example-element-row:not(.example-expanded-row):hover {
 tr.example-element-row:not(.example-expanded-row):active {
   background: #efefef;
 }
+
 tr.example-detail-row {
   height: 0;
 }
@@ -40,4 +41,28 @@ tr.example-detail-row {
   font-size: 1.25em;
   padding-top: 0.5em;
   padding-bottom: 0;
+}
+
+.unusual_riven {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.unusual_riven .unusual_riven_text {
+  visibility: hidden;
+  width: 15em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.unusual_riven:hover .unusual_riven_text {
+  visibility: visible;
 }

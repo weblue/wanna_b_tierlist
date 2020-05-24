@@ -1,47 +1,30 @@
 <div class="mat-typography">
   <app-navbar></app-navbar>
   <!--TODO check for filter changes on closes-->
-  <mat-sidenav-container class="example-container">
-    <mat-sidenav #sidenav mode="over" [(opened)]="opened" position="end">
-      <app-filter></app-filter>
-    </mat-sidenav>
-    <mat-sidenav-content>
-      <div class="container">
-        <mat-card>
-          <mat-card-title>i_wanna_b_the_guy's Warframe Tier List</mat-card-title>
-          <br>
-          <mat-card-subtitle>An opinionated guide to everything Warframe.</mat-card-subtitle>
-          <mat-card-subtitle><b>Current Version:</b> {{listVersion}}</mat-card-subtitle>
-          <mat-card-content>
-            <app-disclaimers></app-disclaimers>
-            <a class="discord-button" mat-flat-button href="https://discord.gg/Cq3jW27" target="_blank" rel="noopener">
-              <fa-icon [icon]="faDiscord"></fa-icon>
-              Join Our Discord!
-            </a>
-            <a class="github-button" mat-flat-button href="https://github.com/weblue/wanna_b_tierlist" target="_blank"
-               rel="noopener">
-              <fa-icon [icon]="faGithub"></fa-icon>
-              Contribute on GitHub
-            </a>
-            <a mat-flat-button color="accent" href="#faq">
-              <fa-icon [icon]="faInfoCircle"></fa-icon>
-              Notes & FAQ
-            </a>
-          </mat-card-content>
-        </mat-card>
-        <br/>
-        <mat-divider></mat-divider>
-        <br/>
-        <mat-card>
-          <app-table></app-table>
-        </mat-card>
-        <br/>
-        <mat-card id="faq">
-          <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
-          <app-faq></app-faq>
-        </mat-card>
-        <app-footer></app-footer>
-      </div>
-    </mat-sidenav-content>
-  </mat-sidenav-container>
+  <div class="main-content">
+    <mat-card>
+      <!--      < [(opened)]="opened">-->
+      <!--        <app-filter></app-filter>-->
+      <!--      </mat>-->
+      <mat-card-title>i_wanna_b_the_guy's Warframe Tier List</mat-card-title>
+      <br>
+      <mat-card-subtitle>An opinionated guide to everything Warframe.</mat-card-subtitle>
+      <mat-card-subtitle><b>Current Version:</b> {{listVersion}}</mat-card-subtitle>
+      <!--          <mat-card-content>-->
+      <app-disclaimers></app-disclaimers>
+      <!--          </mat-card-content>-->
+    </mat-card>
+    <br/>
+    <mat-divider></mat-divider>
+    <br/>
+    <mat-card>
+      <app-table></app-table>
+    </mat-card>
+    <br/>
+    <mat-card id="faq">
+      <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
+      <app-faq></app-faq>
+    </mat-card>
+    <app-footer></app-footer>
+  </div>
 </div>

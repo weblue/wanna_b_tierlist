@@ -10,7 +10,7 @@ import {Subscription} from "rxjs/internal/Subscription";
 import {Tier} from "../../models/Tier";
 import {Item} from "../../models/Item";
 import {SidebarService} from "../../services/sidebar.service";
-import {faSearch} from "@fortawesome/free-solid-svg-icons";
+import {faSearch, faStar, faChevronDown, faChevronUp} from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-table',
@@ -31,6 +31,9 @@ export class TableComponent implements OnInit {
   activeTab = this.tabs[0];
 
   faSearch = faSearch;
+  faStar = faStar;
+  faDown = faChevronDown;
+  faUp = faChevronUp;
 
   private loading: boolean = true;
   // TODO make sure to add #reference

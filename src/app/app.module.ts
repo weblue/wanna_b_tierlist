@@ -29,6 +29,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatDialogModule } from "@angular/material/dialog";
 
 
 @NgModule({
@@ -58,8 +60,10 @@ import { FormsModule } from '@angular/forms';
     MatRadioModule,
     MatInputModule,
     MatSortModule,
+    MatDialogModule,
     MatButtonToggleModule,
     FormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

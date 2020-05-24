@@ -1,108 +1,126 @@
-<nav mat-tab-nav-bar >
-    <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
-       [active]="activeTab == tab"> {{tab}} </a>
+<nav mat-tab-nav-bar>
+  <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
+     [active]="activeTab == tab"> {{tab}} </a>
 
-  <a style="position: absolute; right: 0px" mat-button (click)="toggleSidebar()"><fa-icon [icon]="faSearch" size="lg"></fa-icon> Filter</a>
+  <a style="position: absolute; right: 0px" mat-button (click)="toggleSidebar()">
+    <fa-icon [icon]="faSearch" size="lg"></fa-icon>
+    Filter</a>
 </nav>
-<br />
+<br/>
 
 <mat-table mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 
-    <!--- Note that these columns can be defined in any order.
-          The actual rendered columns are set as a property on the row definition" -->
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
 
-    <!-- Name Column -->
-    <ng-container matColumnDef="name">
-        <th mat-header-cell *matHeaderCellDef> Name</th>
-        <td mat-cell *matCellDef="let element"><a target="_blank" href="{{element.url}}">{{element.name}}</a></td>
-    </ng-container>
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Name</th>
+    <td mat-cell *matCellDef="let element"><a target="_blank" href="{{element.url}}">{{element.name}}</a></td>
+  </ng-container>
 
-    <ng-container matColumnDef="base">
-        <th mat-header-cell *matHeaderCellDef> Base</th>
-        <td mat-cell *matCellDef="let element"> {{element.base}} </td>
-    </ng-container>
+  <ng-container matColumnDef="base">
+    <th mat-header-cell *matHeaderCellDef> Base</th>
+    <td mat-cell *matCellDef="let element"> {{element.base}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="category">
-        <th mat-header-cell *matHeaderCellDef> Category</th>
-        <td mat-cell *matCellDef="let element"> {{element.category}} </td>
-    </ng-container>
+  <ng-container matColumnDef="category">
+    <th mat-header-cell *matHeaderCellDef> Category</th>
+    <td mat-cell *matCellDef="let element"> {{element.category}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="mr">
-        <th mat-header-cell *matHeaderCellDef> MR</th>
-        <td mat-cell *matCellDef="let element"> {{element.mr}} </td>
-    </ng-container>
+  <ng-container matColumnDef="mr">
+    <th mat-header-cell *matHeaderCellDef> MR</th>
+    <td mat-cell *matCellDef="let element"> {{element.mr}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="dmg">
-        <th mat-header-cell *matHeaderCellDef> Build Type</th>
-        <td mat-cell *matCellDef="let element"> {{element.dmg}} </td>
-    </ng-container>
+  <ng-container matColumnDef="dmg">
+    <th mat-header-cell *matHeaderCellDef> Build Type</th>
+    <td mat-cell *matCellDef="let element"> {{element.dmg}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="munitions">
-        <th mat-header-cell *matHeaderCellDef> Munitions</th>
-        <td mat-cell *matCellDef="let element"> {{element.munitions}} </td>
-    </ng-container>
+  <ng-container matColumnDef="munitions">
+    <th mat-header-cell *matHeaderCellDef> Munitions</th>
+    <td mat-cell *matCellDef="let element"> {{element.munitions}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="rivenDisposition">
-        <th mat-header-cell *matHeaderCellDef> Riven Dispo</th>
-        <td mat-cell *matCellDef="let element"> {{element.rivenDisposition}} </td>
-    </ng-container>
+  <ng-container matColumnDef="rivenDisposition">
+    <th mat-header-cell *matHeaderCellDef> Riven Dispo</th>
+    <td mat-cell *matCellDef="let element"> {{element.rivenDisposition}}
+      <!--          TODO: remove star circle from notes and add unusual_dispo to weapons-->
+      <!--          <fa-icon *ngIf="element.unusual_dispo" [icon]="faStar"></fa-icon>-->
+      <div class="unusual_riven" *ngIf="element.rivenDisposition > .99">
+        <fa-icon [icon]="faStar"></fa-icon>
+        <span class="unusual_riven_text">Higher-than-expected riven disposition for this rank</span>
+      </div>
+    </td>
+  </ng-container>
 
-    <ng-container matColumnDef="notes">
-        <th mat-header-cell *matHeaderCellDef> Notes</th>
-        <td mat-cell *matCellDef="let element"> {{element.notes}} </td>
-    </ng-container>
+  <ng-container matColumnDef="notes">
+    <th mat-header-cell *matHeaderCellDef> Notes</th>
+    <td mat-cell *matCellDef="let element"> {{element.notes}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="type">
-        <th mat-header-cell *matHeaderCellDef> Trigger Type</th>
-        <td mat-cell *matCellDef="let element"> {{element.type}} </td>
-    </ng-container>
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef> Trigger Type</th>
+    <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="wepnotes">
-        <th mat-header-cell *matHeaderCellDef> Notes</th>
-        <td mat-cell *matCellDef="let element"> {{element.wepnotes}} </td>
-    </ng-container>
+  <ng-container matColumnDef="wepnotes">
+    <th mat-header-cell *matHeaderCellDef> Notes</th>
+    <td mat-cell *matCellDef="let element"> {{element.wepnotes}} </td>
+  </ng-container>
 
-    <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
-    <!--TODO actually display useful stuff inside and remove/replace the example CSS-->
-    <ng-container matColumnDef="expandedDetail">
-        <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
-            <div class="example-element-detail"
-                 [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
-                <!--contents start-->
-                <p>Notes: {{element.notes}}</p>
-                <br />
-                <ul class="list-unstyled">
-                    <li><a [href]="element.dmgLink">Builds</a></li>
-                    <li>Riven Disposition: {{element.rivenDisposition}}</li>
-                    <li *ngIf=element.riven_value>Riven Value: {{element.riven_value}}</li>
-                    <li *ngIf=element.format_count>Forma Count: {{element.forma_count}}</li>
-                    <li *ngIf=element.clear_time>Clear Time: {{element.clear_time}}; <a [href]=element.clear_vid>Video</a></li>
-                </ul>
-                <br />
-                <ul *ngIf=element.alt_category class="list-unstyled">
-                    <li>Alt Category: {{element.alt_category}}</li>
-                    <li>Alt Trigger: {{element.alt_trigger}}</li>
-                    <li>Alt Munitions: {{element.alt_munitions}}</li>
-                </ul>
-                <!--contents end-->
-            </div>
-        </td>
-    </ng-container>
+  <ng-container matColumnDef="expand">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let element">
+      <fa-icon *ngIf="element !== expandedElement" [icon]="faDown"></fa-icon>
+      <fa-icon *ngIf="element === expandedElement" [icon]="faUp"></fa-icon>
+    </td>
+  </ng-container>
 
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
-        class="example-element-row" [class.example-expanded-row]="expandedElement === row"
-        (click)="expandedElement = expandedElement === row ? null : row">
-    </tr>
-    <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
+  <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
+  <!--TODO actually display useful stuff inside and remove/replace the example CSS-->
+  <ng-container matColumnDef="expandedDetail">
+    <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
+      <div class="example-element-detail"
+           [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+        <!--contents start-->
+        <p>Notes: {{element.notes}}</p>
+        <br/>
+        <ul class="list-unstyled">
+          <li><a [href]="element.dmgLink">Builds</a></li>
+          <li>Riven Disposition: {{element.rivenDisposition}}</li>
+          <li *ngIf=element.riven_value>Riven Value: {{element.riven_value}}</li>
+          <li *ngIf=element.format_count>Forma Count: {{element.forma_count}}</li>
+          <li *ngIf=element.clear_time>Clear Time: {{element.clear_time}}; <a [href]=element.clear_vid>Video</a></li>
+        </ul>
+        <br/>
+        <ul *ngIf=element.alt_category class="list-unstyled">
+          <li>Alt Category: {{element.alt_category}}</li>
+          <li>Alt Trigger: {{element.alt_trigger}}</li>
+          <li>Alt Munitions: {{element.alt_munitions}}</li>
+        </ul>
+        <!--contents end-->
+      </div>
+    </td>
+  </ng-container>
 
-    <ng-container matColumnDef="tierHeader">
-        <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
-    </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
+      class="example-element-row" [class.example-expanded-row]="expandedElement === row"
+      (click)="expandedElement = expandedElement === row ? null : row">
+  </tr>
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
 
-    <tr mat-row *matRowDef="let row; columns: ['tierHeader']" [hidden]="!row.isTier"></tr>
+  <ng-container matColumnDef="tierHeader">
+    <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
+  </ng-container>
+
+  <tr mat-row *matRowDef="let row; columns: ['tierHeader']" [hidden]="!row.isTier"></tr>
 
 </mat-table>
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="83Zzt1C"><a href="//imgur.com/83Zzt1C"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="83Zzt1C"><a href="//imgur.com/83Zzt1C"></a></blockquote>
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
