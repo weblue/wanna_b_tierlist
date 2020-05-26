@@ -1,6 +1,8 @@
-<ul>
-  <li *ngFor="let item of faqs">
-    <div [innerHTML]="item.text"></div>
-  </li>
-</ul>
-
+<mat-card id="faq">
+  <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
+  <ul>
+    <li *ngFor="let item of faqs">
+      <div [innerHTML]="item.text"></div>
+    </li>
+  </ul>
+</mat-card>

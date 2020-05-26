@@ -2,29 +2,7 @@
   <app-navbar></app-navbar>
   <!--TODO check for filter changes on closes-->
   <div class="main-content">
-    <mat-card>
-      <!--      < [(opened)]="opened">-->
-      <!--        <app-filter></app-filter>-->
-      <!--      </mat>-->
-      <mat-card-title>i_wanna_b_the_guy's Warframe Tier List</mat-card-title>
-      <br>
-      <mat-card-subtitle>An opinionated guide to everything Warframe.</mat-card-subtitle>
-      <mat-card-subtitle><b>Current Version:</b> {{listVersion}}</mat-card-subtitle>
-      <!--          <mat-card-content>-->
-      <app-disclaimers></app-disclaimers>
-      <!--          </mat-card-content>-->
-    </mat-card>
-    <br/>
-    <mat-divider></mat-divider>
-    <br/>
-    <mat-card>
-      <app-table></app-table>
-    </mat-card>
-    <br/>
-    <mat-card id="faq">
-      <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
-      <app-faq></app-faq>
-    </mat-card>
-    <app-footer></app-footer>
+    <router-outlet ></router-outlet>
   </div>
+  <app-footer></app-footer>
 </div>

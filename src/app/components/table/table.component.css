@@ -1,9 +1,6 @@
 table {
   width: 100%;
 }
-tr.example-element-row:not(.example-expanded-row):hover {
-  background: #f5f5f5;
-}
 
 tr.example-element-row:not(.example-expanded-row):active {
   background: #efefef;
@@ -49,7 +46,7 @@ tr.example-detail-row {
   border-bottom: 1px dotted black;
 }
 
-.unusual_riven .unusual_riven_text {
+.unusual_riven .tooltip_text {
   visibility: hidden;
   width: 15em;
   background-color: black;
@@ -63,6 +60,28 @@ tr.example-detail-row {
   z-index: 1;
 }
 
-.unusual_riven:hover .unusual_riven_text {
+.unusual_riven:hover .tooltip_text {
+  visibility: visible;
+}
+
+.perf_index {
+  border-bottom: 1px dotted black;
+}
+
+.perf_index .tooltip_text {
+  visibility: hidden;
+  width: 15em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.perf_index:hover .tooltip_text {
   visibility: visible;
 }

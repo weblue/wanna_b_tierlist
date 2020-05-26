@@ -31,6 +31,8 @@ import { FilterComponent } from './components/filter/filter.component';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatDialogModule } from "@angular/material/dialog";
+import { AppRoutingModule } from './app-routing.module';
+import { MainComponent } from './components/main/main.component';
 
 
 @NgModule({
@@ -42,6 +44,7 @@ import { MatDialogModule } from "@angular/material/dialog";
     FooterComponent,
     FaqComponent,
     FilterComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,6 +67,7 @@ import { MatDialogModule } from "@angular/material/dialog";
     MatButtonToggleModule,
     FormsModule,
     NgbModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

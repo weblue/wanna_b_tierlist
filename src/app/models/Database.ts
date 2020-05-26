@@ -43,7 +43,7 @@ export enum Categories {
 
 export const columnDefs = {
   //TODO add munitions to model
-  'primaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'rivenDisposition', 'base', 'expand'],
-  'secondaries': ['name', 'type', 'dmg', 'mr', 'rivenDisposition', 'base', 'expand'],
-  'melees': ['name', 'type', 'dmg', 'mr', 'base', 'wepnotes', 'expand']
+  'primaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
+  'secondaries': ['name', 'type', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
+  'melees': ['name', 'type', 'dmg', 'mr', 'perfIndex', 'base', 'wepnotes', 'expand']
 };

@@ -10,6 +10,19 @@ html, body {
 body {
   padding-bottom: 20px;
   -webkit-overflow-scrolling: touch;
+  background: dimgray;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: darkgray;
+}
+
+.mat-card {
+  background: dimgray;
+}
+
+.mat-table {
+  background: dimgray;
 }
 
 a {
@@ -39,4 +52,3 @@ a:hover{
 .item-spacer {
   margin: 0 10px !important;
 }
-
