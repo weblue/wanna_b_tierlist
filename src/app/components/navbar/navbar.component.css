@@ -2,23 +2,57 @@
   flex: 1 1 auto;
 	padding-left: 1em;
 }
-.version-info{
-	font-weight: normal;
-	overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.title {
+  color: white;
+  margin-right: 2em
 }
 
-.discord-button{
+.discord-button {
   color:white;
   background-color: #758AD4;
-  margin-right: .5em;
-  margin-top: .5em;
+  margin-right: 1em;
 }
 
 .github-button{
   color:white;
   background-color: #24282D;
-  margin-right: .5em;
-  margin-top: .5em;
+  margin-right: 1em;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  opacity: 100%;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
 }

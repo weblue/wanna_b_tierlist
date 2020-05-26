@@ -33,6 +33,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatDialogModule } from "@angular/material/dialog";
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './components/main/main.component';
+import {MatExpansionModule} from "@angular/material/expansion";
 
 
 @NgModule({
@@ -68,6 +69,8 @@ import { MainComponent } from './components/main/main.component';
     FormsModule,
     NgbModule,
     AppRoutingModule,
+    MatExpansionModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5790,30 +5790,37 @@
   "faq": {
     "subjectivity": {
       "name": "subjectivity",
+      "question": "How is this list ranked?",
       "text": "This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated. <a class='header-link' href='https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8'>Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a general sense of the equipment in the game."
     },
     "perfIndex": {
       "name": "perfIndex",
+      "question": "What is Perf Index?",
       "text": "Performance Index (PerfIndex) is a relational score comparing the performance of a weapon against the performance of the best weapon in slot. While non-standard (max rank > 30 and modular) weapons are scored along this metric, they do not influence the max PerfIndex score, which weapons are rated against."
     },
     "workSoFar": {
       "name": "workSoFar",
+      "question": "What has been ranked?",
       "text": "Only Primary, Secondary, and Melee weapons have been thoroughly rated. Warframes are not ranked within a tier and represent their respective power considering the current meta but going from Top to Contender and then to Viable does signify reduced capabilites and/or importance. "
     },
     "frameBuilds": {
       "name": "frameBuilds",
+      "question": "How should Frame builds be used?",
       "text": "Frame builds are based on build goals that should be aspired to. The precise build differs from playstyle and preference and therefore can't be fixed. Nonetheless, future updates will include example builds."
     },
     "checkTheLinks": {
       "name": "checkTheLinks",
+      "question": "What about Zaws and Kitguns?",
       "text": "Please refer to the Weapon name links for Zaws and Kitguns. Also click on the builds' link to see it."
     },
     "dispute": {
       "name": "dispute",
+      "question": "I disagree with a ranking; where can I provide input?",
       "text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
     },
     "utubechannel": {
       "name": "channel",
+      "question": "Where can I watch weapons be used?",
       "text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
     }
   },

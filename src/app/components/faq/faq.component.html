@@ -1,8 +1,18 @@
-<mat-card id="faq">
-  <mat-card-title>Notes &amp; Frequenty Asked Questions</mat-card-title>
-  <ul>
-    <li *ngFor="let item of faqs">
-      <div [innerHTML]="item.text"></div>
-    </li>
-  </ul>
-</mat-card>
+<div class="container" id="faq">
+  <h1>Frequently Asked Questions &amp; Notes</h1>
+<!--  <ul class="note-list">-->
+<!--    <li class="note-list-item" *ngFor="let item of faqs">-->
+<!--      <div [innerHTML]="item.text"></div>-->
+<!--    </li>-->
+<!--  </ul>-->
+  <mat-accordion multi>
+    <mat-expansion-panel *ngFor="let item of faqs">
+      <mat-expansion-panel-header>
+        <mat-panel-title class="faq-question">
+          {{item.question}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+        <div [innerHTML]="item.text"></div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
