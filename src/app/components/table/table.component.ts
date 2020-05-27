@@ -26,6 +26,7 @@ import {faSearch, faStar, faChevronDown, faChevronUp} from "@fortawesome/free-so
 })
 export class TableComponent implements OnInit {
 
+  //TODO address lag on table change
   expandedElement: Primary | Secondary | Melee | null;
   tabs: string[] = ['Primaries', 'Secondaries', 'Melees'];
   activeTab = this.tabs[0];
@@ -68,7 +69,6 @@ export class TableComponent implements OnInit {
       this.loading = false;
       this.tableDataSource = array;
       this.displayedColumns = columnDefs[tab];
-      console.log(this.tableDataSource);
       this.update();
     });
   }

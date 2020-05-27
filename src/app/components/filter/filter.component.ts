@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs/internal/Subscription';
-import { DataService } from '../../services/data.service';
-import { FilterParams } from '../../models/FilterParams';
-import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
+import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {Subscription} from 'rxjs/internal/Subscription';
+import {DataService} from '../../services/data.service';
+import {FilterParams} from '../../models/FilterParams';
+import {faCheck, faTimes} from '@fortawesome/free-solid-svg-icons';
 import {FormControl} from "@angular/forms";
+import {tierTypes, types} from "../../models/Database";
 
 @Component({
   selector: 'app-filter',
@@ -16,12 +17,14 @@ export class FilterComponent implements OnInit {
   faCheck = faCheck;
   faTimes = faTimes;
 
-  filterCategory: 'Primary' | 'Secondary' | 'Melee' | 'Item' | 'Frame';
+  // filterCategory: 'Primary' | 'Secondary' | 'Melee' | 'Item' | 'Frame';
+  filterCategory: string;
 
   //Item
   name: string;
   base: string;
 
+  //TODO submit filters
   // tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
   tier = new FormControl();
   // buildType: any[];
@@ -37,29 +40,60 @@ export class FilterComponent implements OnInit {
   mr: number;
   rivenDisp: number;
 
+  munitionTypes: string[];
+  buildTypes: string[];
+  triggerTypes: string[];
+  tierTypes: string[];
+  categoryTypes: string[];
+
   constructor(
-    private data: DataService
+    private data: DataService,
   ) {
-    this.filterCategory = "Primary";
+    this.filterCategory = data.currentTab;
+    this.categoryTypes = [];
+    this.buildTypes = [];
+    this.triggerTypes = [];
+    this.munitionTypes = [];
+
+    this.tierTypes = [];
+    this.tierTypes = tierTypes;
+
+    this.changeTab(this.filterCategory);
+
     this._tabSub = data.tabChange.subscribe((tab) => {
-      switch(tab) {
-        case "primaries":
-          this.filterCategory = "Primary";
-          break;
-        case "secondaries":
-          this.filterCategory = "Secondary";
-          break;
-        case "melees":
-          this.filterCategory = "Melee";
-          break;
-        default:
-          this.filterCategory = "Item";
-      }
+      this.changeTab(tab);
     });
   }
 
+  changeTab(tab) {
+    switch (tab) {
+      case "primaries":
+        this.filterCategory = "Primary";
+        this.categoryTypes = types.Primaries.categoryTypes;
+        this.munitionTypes = types.Primaries.munitionTypes;
+        this.buildTypes = types.Primaries.buildTypes;
+        this.triggerTypes = types.Primaries.triggerTypes;
+        break;
+      case "secondaries":
+        this.filterCategory = "Secondary";
+        this.categoryTypes = [];
+        this.munitionTypes = [];
+        this.buildTypes = types.Secondaries.buildTypes;
+        this.triggerTypes = types.Secondaries.triggerTypes;
+        break;
+      case "melees":
+        this.filterCategory = "Melee";
+        this.categoryTypes = [];
+        this.munitionTypes = [];
+        this.buildTypes = types.Melees.buildTypes;
+        this.triggerTypes = types.Melees.triggerTypes;
+        break;
+      default:
+        this.filterCategory = "Item";
+    }
+  }
+
   ngOnInit() {
-  //  TODO build potential categories
   }
 
   apply() {

@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable, of} from "rxjs";
 import {map} from "rxjs/operators";
-import {Categories, columnDefs, Database} from "../models/Database";
+import {Categories, columnDefs, Database, types} from "../models/Database";
 import {Tier} from "../models/Tier";
 import {Item} from "../models/Item";
 import {FilterParams} from "../models/FilterParams";
@@ -19,6 +19,7 @@ export class DataService {
   private dbUrl = './assets/thelist.json';
 
   private filterParams: FilterParams;
+  currentTab: string;
 
   constructor(
     private http: HttpClient
@@ -41,6 +42,35 @@ export class DataService {
           // this.database.melees = this.injectTiers(db.Melees);
           this.database.melees = this.sort(db.Melees);
 
+        for (let item in db.Primaries) {
+          if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
+            types.Primaries.categoryTypes.push(db.Primaries[item].category);
+
+          if (!types.Primaries.buildTypes.includes(db.Primaries[item].dmg))
+            types.Primaries.buildTypes.push(db.Primaries[item].dmg);
+
+          if (!types.Primaries.triggerTypes.includes(db.Primaries[item].type))
+            types.Primaries.triggerTypes.push(db.Primaries[item].type);
+
+          //TODO add munitions
+          // if (!types.Primaries.munitionTypes.includes(db.Primaries[item].munitions))
+          //   types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
+        }
+        for (let item in db.Secondaries) {
+          if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg))
+            types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
+
+          if (!types.Secondaries.triggerTypes.includes(db.Secondaries[item].type))
+            types.Secondaries.triggerTypes.push(db.Secondaries[item].type);
+        }
+        for (let item in db.Melees) {
+          if (!types.Melees.buildTypes.includes(db.Melees[item].dmg))
+            types.Melees.buildTypes.push(db.Melees[item].dmg);
+
+          if (!types.Melees.triggerTypes.includes(db.Melees[item].type))
+            types.Melees.triggerTypes.push(db.Melees[item].type);
+        }
+
           return this.database;
         }
       ));
@@ -48,6 +78,7 @@ export class DataService {
   }
 
   getData(tab: string): Observable<(Item | Tier)[]> {
+    this.currentTab = tab;
     this.tabChange.next(tab);
     return this.getDb().pipe<(Item | Tier)[]>(map(db => {
         return this.applyFilter(this.database[tab]);

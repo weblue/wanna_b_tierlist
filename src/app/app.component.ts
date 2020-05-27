@@ -3,7 +3,7 @@ import { DataService } from "./services/data.service";
 
 import {Subscription} from "rxjs/internal/Subscription";
 import {SidebarService} from "./services/sidebar.service";
-import {MatDialog} from "@angular/material/dialog";
+import {MatDialog, MatDialogRef} from "@angular/material/dialog";
 import {FilterComponent} from "./components/filter/filter.component";
 
 @Component({
@@ -16,14 +16,20 @@ export class AppComponent implements OnInit {
 
   private _subscription: Subscription;
 
+  private dialogRef;
+
   constructor(
     private data: DataService,
     private sideserv: SidebarService,
     public dialog: MatDialog
   ) {
-    this._subscription = sideserv.showSidebarChange.subscribe((value) => {
-      const dialogRef = this.dialog.open(FilterComponent, {
-        // width: '200em'
+    this._subscription = sideserv.showSidebarChange.subscribe(() => {
+      if (this.dialogRef) {
+        this.dialog.closeAll();
+        this.dialogRef = null;
+      }
+
+      this.dialogRef = this.dialog.open(FilterComponent, {
       });
     });
   }

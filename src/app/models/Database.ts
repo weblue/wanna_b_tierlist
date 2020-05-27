@@ -4,7 +4,7 @@ import {Melee} from "./Melee";
 import {Alert} from "./Alert";
 import {Archwing} from "./Archwing";
 import {Archgun} from "./Archgun";
-import { Archmelee } from "./Archmelee";
+import {Archmelee} from "./Archmelee";
 import {Companion} from "./Companion";
 import {Disclaimer} from "./Disclaimer";
 import {SentinelWeapon} from "./SentinelWeapon";
@@ -20,7 +20,7 @@ export class Database {
   archmelees: Archmelee[];
   companions: Companion[];
   sent_weps: SentinelWeapon[];
-  //These are kind of annoying
+
   Primaries: {};
   Secondaries: {};
   Melees: {};
@@ -32,7 +32,7 @@ export class Database {
 }
 
 export enum Categories {
-  PRIMARY = 'primaries',
+  PRIMARY = 'Primaries',
   SECONDARY = 'Secondaries',
   MELEE = 'Melees',
   ARCHWING = 'Archwings',
@@ -40,6 +40,25 @@ export enum Categories {
   ARCHMELEE = 'Archmelees',
   COMPANIONS = 'Companions'
 }
+
+export const tierTypes = ['Top', 'Contender', 'Viable', 'Need buffs', 'Untested'];
+
+export const types = {
+  'Primaries': {
+    categoryTypes: [],
+    buildTypes: [],
+    triggerTypes: [],
+    munitionTypes: []
+  },
+  'Secondaries': {
+    buildTypes: [],
+    triggerTypes: [],
+  },
+  'Melees': {
+    buildTypes: [],
+    triggerTypes: [],
+  }
+};
 
 export const columnDefs = {
   //TODO add munitions to model

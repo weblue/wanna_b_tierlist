@@ -13,4 +13,8 @@ export class FilterParams {
   //Primary
   primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
   munitions: any[];
+
+  constructor() {
+
+  }
 }

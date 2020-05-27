@@ -44,44 +44,29 @@
       </td>
     </tr>
     <tr>
-      <!--      TODO ngFor to get all build types per tab-->
       <td>
         <mat-form-field class="example-full-width">
           <mat-label>Trigger Type</mat-label>
           <mat-select [formControl]="triggerType" multiple>
-            <mat-option value="'Shotgun'">Shotgun</mat-option>
-            <mat-option value="'Rifle'">Rifle</mat-option>
-            <mat-option value="'Sniper'">Sniper</mat-option>
-            <mat-option value="'Bow'">Bow</mat-option>
-            <mat-option value="'Launcher'">Launcher</mat-option>
+            <mat-option *ngFor="let item of triggerTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
       </td>
-      <!--      TODO ngFor to get all munitions per tab-->
       <td>
         <mat-form-field class="example-full-width" *ngIf = "filterCategory === 'Primary'">
           <mat-label>Munitions</mat-label>
           <mat-select [formControl]="munitions" multiple>
-            <mat-option [value]="'Shotgun'">Shotgun</mat-option>
-            <mat-option [value]="'Rifle'">Rifle</mat-option>
-            <mat-option [value]="'Sniper'">Sniper</mat-option>
-            <mat-option [value]="'Bow'">Bow</mat-option>
-            <mat-option [value]="'Launcher'">Launcher</mat-option>
+            <mat-option *ngFor="let item of munitionTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
       </td>
     </tr>
     <tr>
-      <!--      TODO ngFor to get all build types per tab-->
       <td>
         <mat-form-field class="example-full-width">
           <mat-label>Build Type</mat-label>
           <mat-select [formControl]="buildType" multiple>
-            <mat-option [value]="'Shotgun'">Shotgun</mat-option>
-            <mat-option [value]="'Rifle'">Rifle</mat-option>
-            <mat-option [value]="'Sniper'">Sniper</mat-option>
-            <mat-option [value]="'Bow'">Bow</mat-option>
-            <mat-option [value]="'Launcher'">Launcher</mat-option>
+            <mat-option *ngFor="let item of buildTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
       </td>
