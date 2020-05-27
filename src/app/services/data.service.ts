@@ -100,17 +100,19 @@ export class DataService {
   }
 
   static injectTiers(values: any): (Item | Tier)[] {
-    //TODO don't inject if they don't exist
     let items = DataService.sort(values);
     //Inject the tier lines
+    let topAdded = false;
     let contAdded = false;
     let viaAdded = false;
     let nbAdded = false;
     let utAdded = false;
 
-    items.splice(0, 0, topTier);
     for (let i = 0; i < items.length; i++) {
-      if (items[i].tier === 'Contender' && !contAdded) {
+      if (items[i].tier === 'Top' && !topAdded) {
+        items.splice(i, 0, topTier);
+        topAdded = true;
+      } else if (items[i].tier === 'Contender' && !contAdded) {
         items.splice(i, 0, contenderTier);
         contAdded = true;
       } else if (items[i].tier === 'Viable' && !viaAdded) {
