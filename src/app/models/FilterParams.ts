@@ -1,19 +1,16 @@
 export class FilterParams {
-    //Item
-    name: string;
-    // rank: number;
-    // ranktype: '>' | '<' | '<=' | '>=' | '==';
-    mr: number;
-    mrtype: '>' | '<' | '<=' | '>=' | '==';
-    tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested';
-    type: string;
+  //Item
+  name: string;
+  base: string;
 
-    //Primary
-    primCategory: {
-        Shotgun: boolean,
-        Rifle: boolean,
-        Sniper: boolean,
-        Bow: boolean,
-        Launcher: boolean
-    };
+  mr: number;
+  rivenDisp: number;
+
+  buildType: any[];
+  triggerType: any[];
+  tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
+
+  //Primary
+  primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
+  munitions: any[];
 }

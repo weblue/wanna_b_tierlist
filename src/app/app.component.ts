@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   ) {
     this._subscription = sideserv.showSidebarChange.subscribe((value) => {
       const dialogRef = this.dialog.open(FilterComponent, {
-        width: '250px'
+        // width: '200em'
       });
     });
   }

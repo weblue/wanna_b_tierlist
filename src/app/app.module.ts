@@ -28,7 +28,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { FilterComponent } from './components/filter/filter.component';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatDialogModule } from "@angular/material/dialog";
 import { AppRoutingModule } from './app-routing.module';
@@ -71,6 +71,7 @@ import {MatExpansionModule} from "@angular/material/expansion";
     AppRoutingModule,
     MatExpansionModule,
     MatExpansionModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

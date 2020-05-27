@@ -3,6 +3,7 @@ import { Subscription } from 'rxjs/internal/Subscription';
 import { DataService } from '../../services/data.service';
 import { FilterParams } from '../../models/FilterParams';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
+import {FormControl} from "@angular/forms";
 
 @Component({
   selector: 'app-filter',
@@ -15,29 +16,31 @@ export class FilterComponent implements OnInit {
   faCheck = faCheck;
   faTimes = faTimes;
 
-  filterCategory: 'Primary' | 'Secondary' | 'Melee' | 'Item';
+  filterCategory: 'Primary' | 'Secondary' | 'Melee' | 'Item' | 'Frame';
 
   //Item
   name: string;
-  // rank: number;
-  // ranktype: '>' | '<' | '<=' | '>=' | '==';
-  mr: number;
-  mrtype: '>' | '<' | '<=' | '>=' | '==';
-  tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested';
-  type: string;
+  base: string;
 
+  // tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
+  tier = new FormControl();
+  // buildType: any[];
+  buildType = new FormControl();
+  // triggerType: any[];
+  triggerType = new FormControl();
   //Primary
-  primCategory = {
-    Shotgun: false,
-    Rifle: false,
-    Sniper: false,
-    Bow: false,
-    Launcher: false
-  };
+  // primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
+  primCategory = new FormControl();
+  // munitions: any[];
+  munitions = new FormControl();
+
+  mr: number;
+  rivenDisp: number;
 
   constructor(
     private data: DataService
   ) {
+    this.filterCategory = "Primary";
     this._tabSub = data.tabChange.subscribe((tab) => {
       switch(tab) {
         case "primaries":
@@ -56,6 +59,7 @@ export class FilterComponent implements OnInit {
   }
 
   ngOnInit() {
+  //  TODO build potential categories
   }
 
   apply() {
@@ -66,39 +70,22 @@ export class FilterComponent implements OnInit {
       console.log(name);
     }
 
-    /*if (this.rank && this.ranktype) {
-      filterParams.rank = this.rank;
-      filterParams.ranktype = this.ranktype;
-    }*/
-
-    if (this.mr && this.mrtype) {
+    if (this.mr) {
       filterParams.mr = this.mr;
-      filterParams.mrtype = this.mrtype;
     }
 
-    if (this.type)
-      filterParams.type = this.type;
+    // if (this.tier)
+    //   filterParams.tier = this.tier;
 
-    if (this.tier)
-      filterParams.tier = this.tier;
-
-    if (this.primCategory && this.filterCategory == 'Primary') {
-      filterParams.primCategory = this.primCategory;
-    }
+    // if (this.primCategory && this.filterCategory == 'Primary') {
+    //   filterParams.primCategory = this.primCategory;
+    // }
 
     this.data.setFilterParams(filterParams);
   }
 
   clear() {
     //This needs to clear the fields
-    this.name = '';
-    // this.rank = null;
-    // this.ranktype = null;
-    this.mr = null;
-    this.mrtype = null;
-    this.type = '';
-    this.primCategory = null;
-
     this.data.clearFilters();
   }
 

@@ -9,142 +9,126 @@ import {FilterParams} from "../models/FilterParams";
 import {Subject} from "rxjs/internal/Subject";
 
 @Injectable({
-    providedIn: 'root'
+  providedIn: 'root'
 })
 export class DataService {
-    public database: Database;
-    dataChange: Subject<null> = new Subject<null>();
-    tabChange: Subject<string> = new Subject<string>();
-    activeTab: string = Categories.PRIMARY.toString();
-    private dbUrl = './assets/thelist.json';
-    private filterParams: FilterParams;
+  public database: Database;
+  dataChange: Subject<null> = new Subject<null>();
+  tabChange: Subject<string> = new Subject<string>();
 
-    constructor(
-        private http: HttpClient
-    ) {
-        this.filterParams = new FilterParams();
-    }
+  private dbUrl = './assets/thelist.json';
 
-    //Return or request the db
-    public getDb(): Observable<Database> {
-        if (this.database) {
-            return of(this.database);
-        } else {
-            return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
-                    this.database = db;
+  private filterParams: FilterParams;
 
-                    // this.database.primaries = this.injectTiers(db.Primaries);
-                    this.database.primaries = this.sort(db.Primaries);
-                    // this.database.secondaries = this.injectTiers(db.Secondaries);
-                    this.database.secondaries = this.sort(db.Secondaries);
-                    // this.database.melees = this.injectTiers(db.Melees);
-                    this.database.melees = this.sort(db.Melees);
+  constructor(
+    private http: HttpClient
+  ) {
+    this.filterParams = new FilterParams();
+  }
 
-                    return this.database;
-                }
-            ));
+  //Return or request the db
+  public getDb(): Observable<Database> {
+    if (this.database) {
+      return of(this.database);
+    } else {
+      return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
+          this.database = db;
+
+          // this.database.primaries = this.injectTiers(db.Primaries);
+          this.database.primaries = this.sort(db.Primaries);
+          // this.database.secondaries = this.injectTiers(db.Secondaries);
+          this.database.secondaries = this.sort(db.Secondaries);
+          // this.database.melees = this.injectTiers(db.Melees);
+          this.database.melees = this.sort(db.Melees);
+
+          return this.database;
         }
+      ));
+    }
+  }
+
+  getData(tab: string): Observable<(Item | Tier)[]> {
+    this.tabChange.next(tab);
+    return this.getDb().pipe<(Item | Tier)[]>(map(db => {
+        return this.applyFilter(this.database[tab]);
+      })
+    );
+  }
+
+  sort(values: any): (Item | Tier)[] {
+    let itemArray: Item[] = Object.values(values);
+    let items: (Item | Tier)[];
+    items = itemArray.sort((a, b) => {
+      return a.rank - b.rank;
+    });
+
+    return items;
+  }
+
+  injectTiers(values: any): (Item | Tier)[] {
+    let items = this.sort(values);
+
+    //Inject the tier lines
+    let contAdded = false;
+    let viaAdded = false;
+    let nbAdded = false;
+    let utAdded = false;
+
+    items.splice(0, 0, topTier);
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].tier === 'Contender' && !contAdded) {
+        items.splice(i, 0, contenderTier);
+        contAdded = true;
+      } else if (items[i].tier === 'Viable' && !viaAdded) {
+        items.splice(i, 0, viableTier);
+        viaAdded = true;
+      } else if (items[i].tier === 'Need buffs' && !nbAdded) {
+        items.splice(i, 0, needsBuffTier);
+        nbAdded = true;
+      } else if (items[i].tier === 'Untested' && !utAdded) {
+        items.splice(i, 0, untestedTier);
+        utAdded = true;
+      }
     }
 
-    public setFilterParams(input: FilterParams) {
-        this.filterParams = input;
-        this.dataChange.next();
-    }
+    return items;
+  }
 
-    sort(values: any): (Item | Tier)[] {
-        let itemArray: Item[] = Object.values(values);
-        let items: (Item | Tier)[];
-        items = itemArray.sort((a, b) => {
-            return a.rank - b.rank;
+  public setFilterParams(input: FilterParams) {
+    this.filterParams = input;
+    this.dataChange.next();
+  }
+
+  clearFilters() {
+    this.filterParams = new FilterParams();
+    this.setFilterParams(this.filterParams);
+  }
+
+  private applyFilter(items: any[]): (Item | Tier)[] {
+    console.log(this.filterParams);
+    return this.injectTiers(items.filter((item) => {
+      let show = true;
+      if (this.filterParams.name) {
+        show = show && item.name.toLowerCase().startsWith(this.filterParams.name.toLowerCase());
+      }
+      if (item.mr && this.filterParams.mr)
+        show = show && this.filterParams.mr >= item.mr;
+      // if (this.filterParams.type)
+      //     show = show && item.type.toLowerCase().startsWith(this.filterParams.type.toLowerCase());
+      if (this.filterParams.tier)
+        show = show && item.tier == this.filterParams.tier;
+      if (this.filterParams.primCategory) {
+        let enabled = false;
+        Object.keys(this.filterParams.primCategory).forEach((selCategory) => {
+          if (this.filterParams.primCategory[selCategory] && item.category == selCategory) {
+            enabled = true;
+          }
         });
-
-        return items;
-    }
-
-    injectTiers(values: any): (Item | Tier)[] {
-        let items = this.sort(values);
-
-        //Inject the tier lines
-        let contAdded = false;
-        let viaAdded = false;
-        let nbAdded = false;
-        let utAdded = false;
-
-        items.splice(0, 0, topTier);
-        for (let i = 0; i < items.length; i++) {
-            if (items[i].tier === 'Contender' && !contAdded) {
-                items.splice(i, 0, contenderTier);
-                contAdded = true;
-            } else if (items[i].tier === 'Viable' && !viaAdded) {
-                items.splice(i, 0, viableTier);
-                viaAdded = true;
-            } else if (items[i].tier === 'Need buffs' && !nbAdded) {
-                items.splice(i, 0, needsBuffTier);
-                nbAdded = true;
-            } else if (items[i].tier === 'Untested' && !utAdded) {
-                items.splice(i, 0, untestedTier);
-                utAdded = true;
-            }
-        }
-
-        return items;
-    }
-
-    clearFilters() {
-        this.filterParams = new FilterParams();
-        this.setFilterParams(this.filterParams);
-    }
-
-    getData(tab: string): Observable<(Item|Tier)[]> {
-        this.activeTab = tab;
-        this.tabChange.next(tab);
-        return this.getDb().pipe<(Item|Tier)[]>(map(db => {
-                return this.applyFilter(this.database[tab]);
-            })
-        );
-    }
-
-    private applyFilter(items: any[]): (Item | Tier)[] {
-        console.log(this.filterParams);
-        return this.injectTiers(items.filter((item) => {
-            let show = true;
-            if (this.filterParams.name) {
-                show = show && item.name.toLowerCase().startsWith(this.filterParams.name.toLowerCase());
-            }
-            if (item.mr && this.filterParams.mr && this.filterParams.mrtype)
-                switch (this.filterParams.mrtype) {
-                    case '>':
-                        show = show && this.filterParams.mr > item.mr;
-                        break;
-                    case '<':
-                        show = show && this.filterParams.mr < item.mr;
-                        break;
-                    case '<=':
-                        show = show && this.filterParams.mr <= item.mr;
-                        break;
-                    case '>=':
-                        show = show && this.filterParams.mr >= item.mr;
-                        break;
-                    case '==':
-                        show = show && this.filterParams.mr == item.mr;
-                        break;
-                }
-            if (this.filterParams.type)
-                show = show && item.type.toLowerCase().startsWith(this.filterParams.type.toLowerCase());
-            if (this.filterParams.tier)
-                show = show && item.tier == this.filterParams.tier;
-            if (this.filterParams.primCategory) {
-                let enabled = false;
-                Object.keys(this.filterParams.primCategory).forEach((selCategory) => {
-                    if (this.filterParams.primCategory[selCategory] && item.category == selCategory) {
-                        enabled = true;
-                    }
-                });
-                show = show && enabled;
-            }
-            return show;
-        }));
-    }
+        show = show && enabled;
+      }
+      return show;
+    }));
+  }
 }
 
 export const topTier: Tier = {name: 'Top', rank: 0, tier: null, isTier: true};

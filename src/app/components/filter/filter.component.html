@@ -1,71 +1,115 @@
-<div class="container">
-  <mat-form-field>
-    <input matInput placeholder="Name" [(ngModel)]="name" />
-  </mat-form-field>
+<form class="example-form">
+  <table class="example-full-width">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Name</mat-label>
+          <input matInput name="name" [(ngModel)]="name"/>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field>
+          <mat-label>Base</mat-label>
+          <input matInput name="base" [(ngModel)]="base"/>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
   <mat-divider></mat-divider>
-  <div class="content">
-    <mat-form-field>
-      <input matInput placeholder="Mastery Rank (MR)" type="number" [(ngModel)]="mr" />
-    </mat-form-field>
-    <br />
-    <label id="mr-filter-label">MR Filter</label>
-    <mat-radio-group [(ngModel)]="mrtype" aria-labelledby="mr-filter-label">
-      <mat-radio-button class="item-spacer" value="null">Off</mat-radio-button>
-      <mat-radio-button class="item-spacer" value=">"> ></mat-radio-button>
-      <mat-radio-button class="item-spacer" value=">="> >=</mat-radio-button>
-      <mat-radio-button class="item-spacer" value="<"> &lt;</mat-radio-button>
-      <mat-radio-button class="item-spacer" value="<="> &lt;=</mat-radio-button>
-      <mat-radio-button class="item-spacer" value="=="> ==</mat-radio-button>
-    </mat-radio-group>
-  </div>
+  <table class="example-full-width">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Tier</mat-label>
+          <mat-select [formControl]="tier" multiple>
+            <mat-option value="'Top'">Top</mat-option>
+            <mat-option value="'Contender'">Contender</mat-option>
+            <mat-option value="'Viable'">Viable</mat-option>
+            <mat-option value="'Need buffs'">Need buffs</mat-option>
+            <mat-option value="'Untested'">Untested</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="example-full-width" *ngIf = "filterCategory === 'Primary'">
+          <mat-label>Category</mat-label>
+          <mat-select [formControl]="primCategory" multiple>
+            <mat-option value="'Shotgun'">Shotgun</mat-option>
+            <mat-option value="'Rifle'">Rifle</mat-option>
+            <mat-option value="'Sniper'">Sniper</mat-option>
+            <mat-option value="'Bow'">Bow</mat-option>
+            <mat-option value="'Launcher'">Launcher</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <!--      TODO ngFor to get all build types per tab-->
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Trigger Type</mat-label>
+          <mat-select [formControl]="triggerType" multiple>
+            <mat-option value="'Shotgun'">Shotgun</mat-option>
+            <mat-option value="'Rifle'">Rifle</mat-option>
+            <mat-option value="'Sniper'">Sniper</mat-option>
+            <mat-option value="'Bow'">Bow</mat-option>
+            <mat-option value="'Launcher'">Launcher</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+      <!--      TODO ngFor to get all munitions per tab-->
+      <td>
+        <mat-form-field class="example-full-width" *ngIf = "filterCategory === 'Primary'">
+          <mat-label>Munitions</mat-label>
+          <mat-select [formControl]="munitions" multiple>
+            <mat-option [value]="'Shotgun'">Shotgun</mat-option>
+            <mat-option [value]="'Rifle'">Rifle</mat-option>
+            <mat-option [value]="'Sniper'">Sniper</mat-option>
+            <mat-option [value]="'Bow'">Bow</mat-option>
+            <mat-option [value]="'Launcher'">Launcher</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <!--      TODO ngFor to get all build types per tab-->
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Build Type</mat-label>
+          <mat-select [formControl]="buildType" multiple>
+            <mat-option [value]="'Shotgun'">Shotgun</mat-option>
+            <mat-option [value]="'Rifle'">Rifle</mat-option>
+            <mat-option [value]="'Sniper'">Sniper</mat-option>
+            <mat-option [value]="'Bow'">Bow</mat-option>
+            <mat-option [value]="'Launcher'">Launcher</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
   <mat-divider></mat-divider>
-  <div class="content">
-    <mat-form-field>
-      <input matInput placeholder="Type" [(ngModel)]="type" />
-    </mat-form-field>
-  </div>
-  <mat-divider></mat-divider>
-  <div class="content">
-    <div *ngIf="filterCategory == 'Primary'">
-      <!--
-      <mat-button-toggle-group #group="matButtonToggleGroup" multiple>
-        <mat-button-toggle [(ngModel)]="primCategory.Bow" aria-label="Bow">
-          Bow
-        </mat-button-toggle>
-        <mat-button-toggle [(ngModel)]="primCategory.Launcher" aria-label="Launcher">
-          Launcher
-        </mat-button-toggle>
-        <mat-button-toggle [(ngModel)]="primCategory.Rifle" aria-label="Rifle">
-          Rifle
-        </mat-button-toggle>
-        <mat-button-toggle [(ngModel)]="primCategory.Shotgun" aria-label="Shotgun">
-          Shotgun
-        </mat-button-toggle>
-        <mat-button-toggle [(ngModel)]="primCategory.Sniper" aria-label="Sniper">
-          Sniper
-        </mat-button-toggle>
-      </mat-button-toggle-group>
-      -->
-      <br />
-      <mat-checkbox class="item-spacer" [(ngModel)]="primCategory.Bow">Bow</mat-checkbox>
-      <mat-checkbox class="item-spacer" [(ngModel)]="primCategory.Launcher">Launcher</mat-checkbox>
-      <mat-checkbox class="item-spacer" [(ngModel)]="primCategory.Rifle">Rifle</mat-checkbox>
-      <mat-checkbox class="item-spacer" [(ngModel)]="primCategory.Shotgun">Shotgun</mat-checkbox>
-      <mat-checkbox class="item-spacer" [(ngModel)]="primCategory.Sniper">Sniper</mat-checkbox>
-    </div>
-  </div>
-
-  <!--TODO tier dropdown-->
-
-  <mat-divider></mat-divider>
-  <div class="content">
-    <button mat-button mat-flat-button color="primary" class="item-spacer" (click)="apply()">
-      <fa-icon [icon]="faCheck"></fa-icon>
-      Apply
-    </button> 
-    <button mat-button mat-flat-button color="warn" class="item-spacer" (click)="clear()">
-      <fa-icon [icon]="faTimes"></fa-icon>
-      Clear
-    </button>
-  </div>
-</div>
+  <table class="example-full-width">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Mastery Rank (MR)</mat-label>
+          <input matInput type="number" name="mr" [(ngModel)]="mr"/>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field>
+          <mat-label>Riven Disposition</mat-label>
+          <input matInput type="number" name="rivenDisp" [(ngModel)]="rivenDisp"/>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <button mat-button mat-flat-button color="primary" class="item-spacer" (click)="apply()">
+    <fa-icon [icon]="faCheck"></fa-icon>
+    Apply
+  </button>
+  <button mat-button mat-flat-button color="warn" class="item-spacer" (click)="clear()">
+    <fa-icon [icon]="faTimes"></fa-icon>
+    Clear
+  </button>
+</form>

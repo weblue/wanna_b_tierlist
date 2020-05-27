@@ -48,7 +48,7 @@ export class TableComponent implements OnInit {
   constructor(
     private changeDetectorRef: ChangeDetectorRef,
     private data: DataService,
-    private sideserv: SidebarService
+    private sideServ: SidebarService
   ) {
     this._tableDataSub = data.dataChange.subscribe(() => {
       this.switch(this.activeTab);
@@ -74,7 +74,7 @@ export class TableComponent implements OnInit {
   }
 
   toggleSidebar() {
-    this.sideserv.toggle();
+    this.sideServ.toggle();
   }
 
   update(): void {
