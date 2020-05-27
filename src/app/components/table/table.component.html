@@ -119,13 +119,13 @@
       class="example-element-row" [class.example-expanded-row]="expandedElement === row"
       (click)="expandedElement = expandedElement === row ? null : row">
   </tr>
-  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
 
   <ng-container matColumnDef="tierHeader">
     <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
   </ng-container>
 
   <tr mat-row *matRowDef="let row; columns: ['tierHeader']" [hidden]="!row.isTier"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row" [hidden]="row.isTier"></tr>
 
 </mat-table>
 
