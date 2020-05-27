@@ -59,8 +59,7 @@ export const types = {
 };
 
 export const columnDefs = {
-  //TODO add munitions to model
   'primaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
-  'secondaries': ['name', 'category', 'type', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
-  'melees': ['name', 'type', 'dmg', 'mr', 'perfIndex', 'base', 'wepnotes', 'expand']
+  'secondaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
+  'melees': ['name', 'category', 'dmg', 'mr', 'perfIndex', 'base', 'wepnotes', 'expand']
 };

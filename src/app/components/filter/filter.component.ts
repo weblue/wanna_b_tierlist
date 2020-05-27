@@ -11,6 +11,7 @@ import {tierTypes, types} from "../../models/Database";
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.css']
 })
+//TODO only show filter boxes if included in tab headers
 export class FilterComponent implements OnInit {
 
   private _tabSub: Subscription;
@@ -27,12 +28,6 @@ export class FilterComponent implements OnInit {
   tier = new FormControl();
   buildType = new FormControl();
   triggerType = new FormControl();
-  // tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
-  // buildType: any[];
-  // triggerType: any[];
-  // munitions: any[];
-  // primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
-
   category = new FormControl();
   munitions = new FormControl();
 
@@ -48,18 +43,65 @@ export class FilterComponent implements OnInit {
   constructor(
     private data: DataService,
   ) {
-    this.filterCategory = data.currentTab;
-    this.categoryTypes = [];
-    this.buildTypes = [];
-    this.triggerTypes = [];
-    this.munitionTypes = [];
+    if (this.data.getCurFilterParams()) {
+      let filterParams = this.data.getCurFilterParams();
 
-    this.tierTypes = [];
+      if (filterParams.base)
+        this.base = filterParams.base;
+      else
+        this.base = '';
+      if (filterParams.name)
+        this.name = filterParams.name;
+      else
+        this.name = '';
+
+      if (filterParams.mr)
+        this.mr = filterParams.mr;
+      else
+        this.mr = null;
+      if (filterParams.rivenDisp)
+        this.rivenDisp = filterParams.rivenDisp;
+      else
+        this.rivenDisp = null;
+
+      if (filterParams.tier)
+        this.tier.setValue(filterParams.tier);
+      else
+        this.tier.reset();
+      if (filterParams.buildType)
+        this.buildType.setValue(filterParams.buildType);
+      else
+        this.buildType.reset();
+      if (filterParams.triggerType)
+        this.triggerType.setValue(filterParams.triggerType);
+      else
+        this.triggerType.reset();
+      if (filterParams.category)
+        this.category.setValue(filterParams.category);
+      else
+        this.category.reset();
+      if (filterParams.munitions)
+        this.munitions.setValue(filterParams.munitions);
+      else
+        this.munitions.reset();
+
+    } else {
+      this.base = '';
+      this.name = '';
+      this.mr = null;
+      this.rivenDisp = null;
+      this.buildType.reset();
+      this.triggerType.reset();
+      this.category.reset();
+      this.munitions.reset();
+    }
+
     this.tierTypes = tierTypes;
 
+    this.filterCategory = data.currentTab;
     this.changeTab(this.filterCategory);
 
-    this._tabSub = data.tabChange.subscribe((tab) => {
+    this._tabSub = data.notifyTabListener.subscribe((tab) => {
       this.changeTab(tab);
     });
   }
@@ -122,6 +164,10 @@ export class FilterComponent implements OnInit {
     if (this.munitions) {
       filterParams.munitions = this.munitions.value;
     }
+    if (this.tier) {
+      filterParams.tier = this.tier.value;
+    }
+
     this.data.setFilterParams(filterParams);
   }
 

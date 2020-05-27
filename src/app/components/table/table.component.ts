@@ -37,12 +37,10 @@ export class TableComponent implements OnInit {
   faUp = faChevronUp;
 
   private loading: boolean = true;
-  // TODO make sure to add #reference
   @ViewChild('table') el: MatTable<any>;
 
   displayedColumns: string[] = [];
   tableDataSource: (Item | Tier)[] = [];
-  //tiers = Tier[];
 
   _tableDataSub: Subscription;
 
@@ -65,7 +63,7 @@ export class TableComponent implements OnInit {
 
   switch(tab: string) {
     tab = tab.toLowerCase();
-    this.data.getData(tab).subscribe((array) => {
+    this.data.getTabData(tab).subscribe((array) => {
       this.loading = false;
       this.tableDataSource = array;
       this.displayedColumns = columnDefs[tab];
