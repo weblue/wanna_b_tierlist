@@ -24,17 +24,16 @@ export class FilterComponent implements OnInit {
   name: string;
   base: string;
 
-  //TODO submit filters
-  // tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
   tier = new FormControl();
-  // buildType: any[];
   buildType = new FormControl();
-  // triggerType: any[];
   triggerType = new FormControl();
-  //Primary
-  // primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
-  primCategory = new FormControl();
+  // tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
+  // buildType: any[];
+  // triggerType: any[];
   // munitions: any[];
+  // primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
+
+  primCategory = new FormControl();
   munitions = new FormControl();
 
   mr: number;
@@ -96,6 +95,7 @@ export class FilterComponent implements OnInit {
   ngOnInit() {
   }
 
+  //TODO actually apply this
   apply() {
     let filterParams: FilterParams = new FilterParams();
 
@@ -118,8 +118,8 @@ export class FilterComponent implements OnInit {
     this.data.setFilterParams(filterParams);
   }
 
+  //TODO clear local form controls
   clear() {
-    //This needs to clear the fields
     this.data.clearFilters();
   }
 

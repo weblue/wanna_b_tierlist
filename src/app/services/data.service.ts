@@ -35,6 +35,9 @@ export class DataService {
       return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
           this.database = db;
 
+          //TODO add category and column to secondaries
+          //TODO check for other categories that are missing
+
           // this.database.primaries = this.injectTiers(db.Primaries);
           this.database.primaries = this.sort(db.Primaries);
           // this.database.secondaries = this.injectTiers(db.Secondaries);
@@ -42,34 +45,37 @@ export class DataService {
           // this.database.melees = this.injectTiers(db.Melees);
           this.database.melees = this.sort(db.Melees);
 
-        for (let item in db.Primaries) {
-          if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
-            types.Primaries.categoryTypes.push(db.Primaries[item].category);
+          for (let item in db.Primaries) {
+            if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
+              types.Primaries.categoryTypes.push(db.Primaries[item].category);
 
-          if (!types.Primaries.buildTypes.includes(db.Primaries[item].dmg))
-            types.Primaries.buildTypes.push(db.Primaries[item].dmg);
+            if (!types.Primaries.buildTypes.includes(db.Primaries[item].dmg))
+              types.Primaries.buildTypes.push(db.Primaries[item].dmg);
 
-          if (!types.Primaries.triggerTypes.includes(db.Primaries[item].type))
-            types.Primaries.triggerTypes.push(db.Primaries[item].type);
+            if (!types.Primaries.triggerTypes.includes(db.Primaries[item].type)) {
+              types.Primaries.triggerTypes.push(db.Primaries[item].type);
+            }
 
-          //TODO add munitions
-          // if (!types.Primaries.munitionTypes.includes(db.Primaries[item].munitions))
-          //   types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
-        }
-        for (let item in db.Secondaries) {
-          if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg))
-            types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
+            if (!types.Primaries.munitionTypes.includes(db.Primaries[item].munitions))
+              types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
+          }
+          for (let item in db.Secondaries) {
+            if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg)) {
+              types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
+            }
 
-          if (!types.Secondaries.triggerTypes.includes(db.Secondaries[item].type))
-            types.Secondaries.triggerTypes.push(db.Secondaries[item].type);
-        }
-        for (let item in db.Melees) {
-          if (!types.Melees.buildTypes.includes(db.Melees[item].dmg))
-            types.Melees.buildTypes.push(db.Melees[item].dmg);
+            if (!types.Secondaries.triggerTypes.includes(db.Secondaries[item].type)) {
+              types.Secondaries.triggerTypes.push(db.Secondaries[item].type);
+            }
+          }
 
-          if (!types.Melees.triggerTypes.includes(db.Melees[item].type))
-            types.Melees.triggerTypes.push(db.Melees[item].type);
-        }
+          for (let item in db.Melees) {
+            if (!types.Melees.buildTypes.includes(db.Melees[item].dmg))
+              types.Melees.buildTypes.push(db.Melees[item].dmg);
+
+            if (!types.Melees.triggerTypes.includes(db.Melees[item].type))
+              types.Melees.triggerTypes.push(db.Melees[item].type);
+          }
 
           return this.database;
         }

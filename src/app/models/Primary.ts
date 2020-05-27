@@ -7,6 +7,7 @@ export class Primary extends Item {
   mr: number;
   rivenDisposition: number;
   type: string;
+  munitions: string;
 }
 
 export class PrimCategory {
