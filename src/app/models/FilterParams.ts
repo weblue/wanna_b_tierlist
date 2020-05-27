@@ -8,10 +8,9 @@ export class FilterParams {
 
   buildType: any[];
   triggerType: any[];
+  category: any[];
   tier: 'Top' | 'Contender' | 'Viable' | 'Need buffs' | 'Untested'[];
 
-  //Primary
-  primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
   munitions: any[];
 
   constructor() {

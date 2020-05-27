@@ -2,7 +2,7 @@
   <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
      [active]="activeTab == tab"> {{tab}} </a>
 
-  <a style="position: absolute; right: 0px" mat-button (click)="toggleSidebar()">
+  <a style="position: absolute; right: 0px" mat-raised-button color="accent" (click)="toggleSidebar()">
     <fa-icon [icon]="faSearch" size="lg"></fa-icon>
     Filter</a>
 </nav>

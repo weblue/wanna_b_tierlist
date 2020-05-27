@@ -33,7 +33,7 @@ export class FilterComponent implements OnInit {
   // munitions: any[];
   // primCategory: 'Shotgun' | 'Rifle' | 'Sniper' | 'Bow' | 'Launcher'[];
 
-  primCategory = new FormControl();
+  category = new FormControl();
   munitions = new FormControl();
 
   mr: number;
@@ -95,31 +95,46 @@ export class FilterComponent implements OnInit {
   ngOnInit() {
   }
 
-  //TODO actually apply this
   apply() {
     let filterParams: FilterParams = new FilterParams();
 
     if (this.name) {
       filterParams.name = this.name;
-      console.log(name);
     }
-
+    if (this.base) {
+      filterParams.base = this.base;
+    }
     if (this.mr) {
       filterParams.mr = this.mr;
     }
-
-    // if (this.tier)
-    //   filterParams.tier = this.tier;
-
-    // if (this.primCategory && this.filterCategory == 'Primary') {
-    //   filterParams.primCategory = this.primCategory;
-    // }
-
+    if (this.rivenDisp) {
+      filterParams.rivenDisp = this.rivenDisp;
+    }
+    if (this.buildType) {
+      filterParams.buildType = this.buildType.value;
+    }
+    if (this.category) {
+      filterParams.category = this.category.value;
+    }
+    if (this.triggerType) {
+      filterParams.triggerType = this.triggerType.value;
+    }
+    if (this.munitions) {
+      filterParams.munitions = this.munitions.value;
+    }
     this.data.setFilterParams(filterParams);
   }
 
-  //TODO clear local form controls
   clear() {
+    this.base = '';
+    this.name = '';
+    this.mr = null;
+    this.rivenDisp = null;
+    this.buildType.reset();
+    this.triggerType.reset();
+    this.category.reset();
+    this.munitions.reset();
+
     this.data.clearFilters();
   }
 

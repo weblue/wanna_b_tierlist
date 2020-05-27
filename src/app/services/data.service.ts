@@ -35,7 +35,6 @@ export class DataService {
       return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
           this.database = db;
 
-          //TODO add category and column to secondaries
           //TODO check for other categories that are missing
 
           // this.database.primaries = this.injectTiers(db.Primaries);
@@ -60,6 +59,9 @@ export class DataService {
               types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
           }
           for (let item in db.Secondaries) {
+            if (!types.Secondaries.categoryTypes.includes(db.Secondaries[item].category))
+              types.Secondaries.categoryTypes.push(db.Secondaries[item].category);
+
             if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg)) {
               types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
             }
@@ -154,10 +156,10 @@ export class DataService {
       //     show = show && item.type.toLowerCase().startsWith(this.filterParams.type.toLowerCase());
       if (this.filterParams.tier)
         show = show && item.tier == this.filterParams.tier;
-      if (this.filterParams.primCategory) {
+      if (this.filterParams.category) {
         let enabled = false;
-        Object.keys(this.filterParams.primCategory).forEach((selCategory) => {
-          if (this.filterParams.primCategory[selCategory] && item.category == selCategory) {
+        Object.keys(this.filterParams.category).forEach((selCategory) => {
+          if (this.filterParams.category[selCategory] && item.category == selCategory) {
             enabled = true;
           }
         });
