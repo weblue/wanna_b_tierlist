@@ -6262,6 +6262,16 @@
       "question": "What is Perf Index?",
       "text": "Performance Index (PerfIndex) is a relational score comparing the performance of a weapon against the performance of the best weapon in slot. While non-standard (max rank > 30 and modular) weapons are scored along this metric, they do not influence the max PerfIndex score, which weapons are rated against."
     },
+    "baseItems": {
+      "name": "baseItems",
+      "question": "Where is x base/event item?",
+      "text": "Base/event items are listed in the notes section for a weapon. Even then, certain base/event weapons will not be included if: base/event has the same build and trigger type AND/OR base/event have the same recommended rivens"
+    },
+    "videos": {
+      "name": "videos",
+      "question": "What are the weapon videos showing?",
+      "text": "The YouTube video shows a nominal run with the weapon. Only the median result of the 5 officially-scored run is uploaded."
+    },
     "workSoFar": {
       "name": "workSoFar",
       "question": "What has been ranked?",

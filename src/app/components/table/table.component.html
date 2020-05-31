@@ -46,7 +46,7 @@
 
   <ng-container matColumnDef="rivenDisposition">
     <th mat-header-cell *matHeaderCellDef> Riven Dispo</th>
-    <td mat-cell *matCellDef="let element"> {{element.rivenDisposition}}
+    <td mat-cell *matCellDef="let element"> {{element.rivenDisposition  | number: '1.2-2'}}
       <div class="unusual_riven" *ngIf="element.specRivenDisp">
         <fa-icon [icon]="faStar"></fa-icon>
         <span class="tooltip_text">Higher-than-expected riven disposition for this rank</span>
@@ -68,12 +68,11 @@
     <th mat-header-cell *matHeaderCellDef>
       <div>
         <span class="perf_index">Perf Index
-        <span class="tooltip_text">Performance Index; performance score relative to other weapons. See FAQ for more.</span>
+          <span class="tooltip_text">Performance Index; performance score relative to other weapons. See FAQ for more.</span>
         </span>
-
       </div>
     </th>
-    <td mat-cell *matCellDef="let element"> {{element.perfIndex}} </td>
+    <td mat-cell *matCellDef="let element"> {{element.perfIndex | number: '1.1-1'}} </td>
   </ng-container>
 
   <ng-container matColumnDef="wepnotes">
