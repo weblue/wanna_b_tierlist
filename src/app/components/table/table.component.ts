@@ -1,4 +1,4 @@
-import {ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
+import {ChangeDetectorRef, Component, Input, OnInit, ViewChild} from '@angular/core';
 import {DataService} from '../../services/data.service';
 import {MatTable} from '@angular/material/table';
 import {Categories, columnDefs} from '../../models/Database';
@@ -11,6 +11,7 @@ import {Tier} from "../../models/Tier";
 import {Item} from "../../models/Item";
 import {SidebarService} from "../../services/sidebar.service";
 import {faSearch, faStar, faChevronDown, faChevronUp} from "@fortawesome/free-solid-svg-icons";
+import {FilterParams} from "../../models/FilterParams";
 
 @Component({
   selector: 'app-table',
@@ -38,6 +39,7 @@ export class TableComponent implements OnInit {
 
   private loading: boolean = true;
   @ViewChild('table') el: MatTable<any>;
+  quickSearchName: string;
 
   displayedColumns: string[] = [];
   tableDataSource: (Item | Tier)[] = [];
@@ -77,5 +79,12 @@ export class TableComponent implements OnInit {
 
   update(): void {
     this.changeDetectorRef.detectChanges();
+  }
+
+  quickFilter(): void {
+    let simpleParams = new FilterParams();
+    simpleParams.name = this.quickSearchName;
+    console.log(this.quickSearchName);
+    this.data.setFilterParams(simpleParams);
   }
 }

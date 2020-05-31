@@ -28,7 +28,7 @@
               "src/robots.txt"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bulma/css/bulma.css",
               "src/styles.css"
             ],
             "scripts": []

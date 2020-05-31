@@ -59,7 +59,7 @@ export const types = {
 };
 
 export const columnDefs = {
-  'primaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
-  'secondaries': ['name', 'category', 'type', 'munitions', 'dmg', 'mr', 'perfIndex', 'rivenDisposition', 'base', 'expand'],
-  'melees': ['name', 'category', 'dmg', 'mr', 'perfIndex', 'base', 'wepnotes', 'expand']
+  'primaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
+  'secondaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
+  'melees': ['name', 'perfIndex', 'category', 'dmg', 'wepnotes', 'mr', 'expand']
 };

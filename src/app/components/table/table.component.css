@@ -1,7 +1,3 @@
-table {
-  width: 100%;
-}
-
 tr.example-element-row:not(.example-expanded-row):active {
   background: #efefef;
 }
@@ -18,7 +14,7 @@ tr.example-detail-row {
   overflow: hidden;
 }
 
-.list-unstyled{
+.list-unstyled {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -84,4 +80,9 @@ tr.example-detail-row {
 
 .perf_index:hover .tooltip_text {
   visibility: visible;
+}
+
+.tab-right-align {
+  position: absolute;
+  right: 0;
 }

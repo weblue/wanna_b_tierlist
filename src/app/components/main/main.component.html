@@ -1,14 +1,13 @@
-  <mat-card>
-    <mat-card-title>i_wanna_b_the_guy's Warframe Tier List</mat-card-title>
-    <br>
-    <mat-card-subtitle>An opinionated guide to everything Warframe.</mat-card-subtitle>
-    <mat-card-subtitle><b>Current Version:</b> {{listVersion}}</mat-card-subtitle>
-    <app-disclaimers></app-disclaimers>
-  </mat-card>
-  <br/>
-  <mat-divider></mat-divider>
-  <br/>
-  <mat-card>
-    <app-table></app-table>
-  </mat-card>
-  <br/>
+<section class="hero-body is-medium contents">
+  <p class="title is-2">i_wanna_b_the_guy's Warframe Tier List</p>
+  <p class="subtitle is-4">An opinionated guide to everything Warframe.<br>
+    <strong>Current Version:</strong> {{listVersion}}</p>
+  <!--    <p class="subtitle is-"></p>-->
+  <!--    <p class="subtitle is-4"><strong>Current Version:</strong> {{listVersion}}</p>-->
+  <app-disclaimers></app-disclaimers>
+<!--  TODO add in quick search-->
+</section>
+<mat-divider></mat-divider>
+<br/>
+<app-table></app-table>
+<br/>

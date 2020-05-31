@@ -11,7 +11,7 @@ import {tierTypes, types} from "../../models/Database";
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.css']
 })
-//TODO only show filter boxes if included in tab headers
+//TODO this needs more bug testing
 export class FilterComponent implements OnInit {
 
   private _tabSub: Subscription;

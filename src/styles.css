@@ -44,3 +44,8 @@ a:hover{
   margin: 0 10px !important;
 }
 
+.contents {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}

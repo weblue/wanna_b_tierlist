@@ -1,14 +1,19 @@
-<nav mat-tab-nav-bar>
+<nav mat-tab-nav-bar class="contents">
   <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
      [active]="activeTab == tab"> {{tab}} </a>
 
-  <a style="position: absolute; right: 0px" mat-raised-button color="accent" (click)="toggleSidebar()">
+  <mat-form-field class="tab-right-align">
+    <mat-label>Quick Search</mat-label>
+    <input matInput name="name" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
+  </mat-form-field>
+
+  <a class="tab-right-align" mat-raised-button color="accent" (click)="toggleSidebar()">
     <fa-icon [icon]="faSearch" size="lg"></fa-icon>
     Filter</a>
 </nav>
 <br/>
 
-<mat-table mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
+<mat-table class="contents" mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 
   <!--- Note that these columns can be defined in any order.
         The actual rendered columns are set as a property on the row definition" -->

@@ -30,6 +30,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "bootstrap": "^4.4.0",
+    "bulma": "^0.8.2",
     "core-js": "^3.6.5",
     "rxjs": "^6.5.5",
     "rxjs-compat": "^6.5.5",
