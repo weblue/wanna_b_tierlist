@@ -26,10 +26,6 @@ tr.example-detail-row {
   font-size: 1em;
 }
 
-/*.nav {
-  display: inline-block;
-}*/
-
 .mat-cell{
   font-size: 1.25em;
   padding-top: 0.5em;
@@ -83,6 +79,19 @@ tr.example-detail-row {
 }
 
 .tab-right-align {
-  position: absolute;
-  right: 0;
+  /*right: 0;*/
+  order: 100;
+  flex: 1;
+}
+
+.flex-container {
+  display: inline-flex;
+  /*TODO this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+}
+
+.nav {
+  flex: 1;
+  order: 1;
 }

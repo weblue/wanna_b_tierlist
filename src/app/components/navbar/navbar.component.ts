@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
-import { map } from "rxjs/operators";
 
-import {faInfoCircle, faSearch} from '@fortawesome/free-solid-svg-icons';
-import {SidebarService} from "../../services/sidebar.service";
+import {faInfoCircle} from '@fortawesome/free-solid-svg-icons';
 import {faDiscord, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 @Component({

@@ -1,10 +1,11 @@
 import {Component, OnInit} from '@angular/core';
-import { DataService } from "./services/data.service";
+import {DataService} from "./services/data.service";
 
 import {Subscription} from "rxjs/internal/Subscription";
 import {SidebarService} from "./services/sidebar.service";
 import {MatDialog, MatDialogRef} from "@angular/material/dialog";
 import {FilterComponent} from "./components/filter/filter.component";
+import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,10 @@ export class AppComponent implements OnInit {
 
   private dialogRef;
 
+  faUpArrow = faArrowUp;
+
+  toTop = document.getElementById("toTop");
+
   constructor(
     private data: DataService,
     private sideserv: SidebarService,
@@ -29,8 +34,7 @@ export class AppComponent implements OnInit {
         this.dialogRef = null;
       }
 
-      this.dialogRef = this.dialog.open(FilterComponent, {
-      });
+      this.dialogRef = this.dialog.open(FilterComponent, {});
     });
   }
 
@@ -38,10 +42,23 @@ export class AppComponent implements OnInit {
     this.data.getDb().subscribe((db) => {
       this.loading = false;
     });
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        this.toTop.style.display = "block";
+      } else {
+        this.toTop.style.display = "none";
+      }
+    };
   }
 
   ngOnDestroy() {
     //prevent memory leak when component destroyed
     this._subscription.unsubscribe();
+  }
+
+  goToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 }
