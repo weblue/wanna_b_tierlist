@@ -11,7 +11,6 @@ This is the GitHub repository that holds the code for i_wanna_b_the_guy's Warfra
 
 This website is built by the Warframe community; as such, if you have any issues, suggestions, or want to help, you are more than welcome to! You can start by either [submitting an issue](https://github.com/weblue/wanna_b_tierlist/issues) or forking this repository and [making a pull request](https://github.com/weblue/wanna_b_tierlist/pulls). In addition, we have a [vibrant Discord server](https://discord.gg/Cq3jW27), where you can discuss this tierlist and suggest improvements (amongst other things).
 
-
 ## Development Setup
 
 ```sh
