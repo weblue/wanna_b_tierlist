@@ -84,7 +84,6 @@ export class TableComponent implements OnInit {
   quickFilter(): void {
     let simpleParams = new FilterParams();
     simpleParams.name = this.quickSearchName;
-    console.log(this.quickSearchName);
     this.data.setFilterParams(simpleParams);
   }
 }
