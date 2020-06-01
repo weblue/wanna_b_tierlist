@@ -1,15 +1,17 @@
 <nav mat-tab-nav-bar class="contents">
   <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
-     [active]="activeTab == tab"> {{tab}} </a>
-
-  <mat-form-field class="tab-right-align">
-    <mat-label>Quick Search</mat-label>
-    <input matInput name="name" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
-  </mat-form-field>
-
-  <a class="tab-right-align" mat-raised-button color="accent" (click)="toggleSidebar()">
-    <fa-icon [icon]="faSearch" size="lg"></fa-icon>
-    Filter</a>
+     [active]="activeTab == tab"> {{tab}} 
+  </a>
+  <div class="tab-right-align">
+    <mat-form-field>
+      <mat-label>Quick Search</mat-label>
+      <input matInput name="name" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
+    </mat-form-field>
+    <span>&nbsp;&nbsp;</span>
+    <a mat-raised-button color="accent" (click)="toggleSidebar()">
+      <fa-icon [icon]="faSearch" size="lg"></fa-icon>
+      Filter</a>
+  </div>
 </nav>
 <br/>
 
