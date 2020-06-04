@@ -5564,7 +5564,7 @@
     "Vaykor Marelok": {
     	"base": "Base Need Buffs",
     	"category": "Semi-auto",
-    	"dmg": "Crit/Status",
+    	"dmg": "Status",
     	"dmgLink": "https://overframe.gg/build/46845/",
     	"mr": 10,
     	"name": "Vaykor Marelok",
