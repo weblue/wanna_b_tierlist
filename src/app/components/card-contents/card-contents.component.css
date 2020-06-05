@@ -1,0 +1,19 @@
+.card-container {
+  width: 100%;
+  flex-flow: row nowrap;
+}
+
+.stat-list {
+  border-right-width: thin;
+  border-bottom-width: thin;
+  border-color: lightslategray;
+}
+
+.right-container {
+  flex-grow: 3;
+}
+
+.left-container {
+  flex-shrink: 1;
+  flex-basis: 25%;
+}

@@ -1,0 +1,19 @@
+<div class="card-container">
+  <div class="left-container">
+    <div class="stat-list">
+      <ul>
+        <li *ngIf="item.munitions"><b class="is-medium">Munitions: </b>{{item.munitions}}</li>
+        <li *ngIf="item.type"><b class="is-medium">Trigger Type: </b>{{item.type}}</li>
+        <li *ngIf="item.base"><b class="is-medium">Base/Event Notes: </b>{{item.base}}</li>
+        <li *ngIf="item.rivenrec"><b class="is-medium">Riven Stat Rec: </b>{{item.rivenrec}}</li>
+      </ul>
+    </div>
+<!--    TODO make this a youtube link button lol-->
+    <button>Hello</button>
+  </div>
+  <div class="right-container">
+    <!--    TODO integrate build from overframe API-->
+    <a [href]="item.dmgLink">Build</a>
+    <p>Notes: {{item.notes}}</p>
+  </div>
+</div>

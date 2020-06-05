@@ -34,6 +34,7 @@ import { MatDialogModule } from "@angular/material/dialog";
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './components/main/main.component';
 import {MatExpansionModule} from "@angular/material/expansion";
+import { CardContentsComponent } from './components/card-contents/card-contents.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import {MatExpansionModule} from "@angular/material/expansion";
     FaqComponent,
     FilterComponent,
     MainComponent,
+    CardContentsComponent,
   ],
   imports: [
     BrowserModule,

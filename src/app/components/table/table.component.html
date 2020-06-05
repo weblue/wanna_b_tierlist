@@ -110,21 +110,22 @@
       <div class="example-element-detail"
            [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
         <!--contents start-->
-        <p>Notes: {{element.notes}}</p>
-        <br/>
-        <ul class="list-unstyled">
-          <li><a [href]="element.dmgLink">Builds</a></li>
-          <li>Riven Disposition: {{element.rivenDisposition}}</li>
-          <li *ngIf=element.riven_value>Riven Value: {{element.riven_value}}</li>
-          <li *ngIf=element.format_count>Forma Count: {{element.forma_count}}</li>
-          <li *ngIf=element.clear_time>Clear Time: {{element.clear_time}}; <a [href]=element.clear_vid>Video</a></li>
-        </ul>
-        <br/>
-        <ul *ngIf=element.alt_category class="list-unstyled">
-          <li>Alt Category: {{element.alt_category}}</li>
-          <li>Alt Trigger: {{element.alt_trigger}}</li>
-          <li>Alt Munitions: {{element.alt_munitions}}</li>
-        </ul>
+<!--        <p>Notes: {{element.notes}}</p>-->
+<!--        <br/>-->
+<!--        <ul class="list-unstyled">-->
+<!--          <li><a [href]="element.dmgLink">Builds</a></li>-->
+<!--          <li>Riven Disposition: {{element.rivenDisposition}}</li>-->
+<!--          <li *ngIf=element.riven_value>Riven Value: {{element.riven_value}}</li>-->
+<!--          <li *ngIf=element.format_count>Forma Count: {{element.forma_count}}</li>-->
+<!--          <li *ngIf=element.clear_time>Clear Time: {{element.clear_time}}; <a [href]=element.clear_vid>Video</a></li>-->
+<!--        </ul>-->
+<!--        <br/>-->
+<!--        <ul *ngIf=element.alt_category class="list-unstyled">-->
+<!--          <li>Alt Category: {{element.alt_category}}</li>-->
+<!--          <li>Alt Trigger: {{element.alt_trigger}}</li>-->
+<!--          <li>Alt Munitions: {{element.alt_munitions}}</li>-->
+<!--        </ul>-->
+        <card-contents [item]="element" style = "display: inline-flex;"></card-contents>
         <!--contents end-->
       </div>
     </td>
