@@ -13,6 +13,9 @@
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
+  /*This overrides bulma's right and left paddings :(*/
+  padding-right: calc(0.75em - 1px);
+  padding-left: calc(0.75em - 1px);
   background: lightslategray;
   outline: none; /* Remove outline */
   color: white; /* Text color */

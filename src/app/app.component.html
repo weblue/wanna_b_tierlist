@@ -1,8 +1,8 @@
-<div class="mat-typography">
+<div>
   <app-navbar></app-navbar>
   <router-outlet class="hero"></router-outlet>
   <app-footer></app-footer>
-  <a mat-fab (click)="goToTop()" id="toTop" title="Go to top">
+  <button (click)="goToTop()" id="toTop" class="button is-small" title="Go to top">
     <fa-icon [icon]="faUpArrow" size="lg"></fa-icon>
-  </a>
+  </button>
 </div>

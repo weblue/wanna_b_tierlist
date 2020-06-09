@@ -1,6 +1,7 @@
 .card-container {
   width: 100%;
-  flex-flow: row nowrap;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .stat-list {
@@ -10,10 +11,10 @@
 }
 
 .right-container {
-  flex-grow: 3;
+  /*flex-grow: 5;*/
 }
 
 .left-container {
-  flex-shrink: 1;
-  flex-basis: 25%;
+  /*flex-grow: 2;*/
+  /*flex-basis: 25%;*/
 }

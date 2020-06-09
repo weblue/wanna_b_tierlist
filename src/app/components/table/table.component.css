@@ -85,10 +85,15 @@ tr.example-detail-row {
 }
 
 .flex-container {
-  display: inline-flex;
+  /*display: inline-flex;*/
+  border-bottom: 1px solid rgba(0,0,0,.12);
   /*TODO this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
   margin-right: 12.5%;
   margin-left: 12.5%;
+}
+
+#special-nav-tabs {
+  border-bottom: 0;
 }
 
 .nav {

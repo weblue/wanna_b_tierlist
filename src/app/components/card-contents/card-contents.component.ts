@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-
+import {faYoutube} from "@fortawesome/free-brands-svg-icons";
 
 @Component({
   selector: 'card-contents',
@@ -8,6 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class CardContentsComponent implements OnInit {
   @Input() item: any;
+  faYoutube = faYoutube;
 
   constructor() { }
 

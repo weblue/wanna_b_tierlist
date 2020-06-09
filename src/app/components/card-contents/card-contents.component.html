@@ -1,5 +1,5 @@
-<div class="card-container">
-  <div class="left-container">
+<div class="card-container columns">
+  <div class="column is-one-quarter">
     <div class="stat-list">
       <ul>
         <li *ngIf="item.munitions"><b class="is-medium">Munitions: </b>{{item.munitions}}</li>
@@ -8,10 +8,15 @@
         <li *ngIf="item.rivenrec"><b class="is-medium">Riven Stat Rec: </b>{{item.rivenrec}}</li>
       </ul>
     </div>
-<!--    TODO make this a youtube link button lol-->
-    <button>Hello</button>
+    <!--    TODO make this a youtube link button lol-->
+    <a [href]="item.yt_link" target="_blank" class="button is-medium is-fullwidth is-danger">
+    <span class="icon">
+      <fa-icon [icon]="faYoutube" size="lg"></fa-icon>
+    </span>
+      <span>Watch test on Youtube</span>
+    </a>
   </div>
-  <div class="right-container">
+  <div class="column">
     <!--    TODO integrate build from overframe API-->
     <a [href]="item.dmgLink">Build</a>
     <p>Notes: {{item.notes}}</p>

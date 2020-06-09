@@ -1,14 +1,15 @@
-<!--<div class="flex-container" style="padding-bottom: .5em">-->
-<!--  <nav mat-tab-nav-bar >-->
-<!--    <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"-->
-<!--       [active]="activeTab == tab"> {{tab}}-->
-<!--    </a>-->
-<!--  </nav>-->
-<nav mat-tab-nav-bar class="contents">
-  <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
-     [active]="activeTab == tab"> {{tab}} 
-  </a>
-  <div class="tab-right-align">
+<div class="columns flex-container" style="padding-bottom: .5em">
+  <nav mat-tab-nav-bar class="column" id="special-nav-tabs">
+    <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
+       [active]="activeTab == tab"> {{tab}}
+    </a>
+  </nav>
+<!--<nav mat-tab-nav-bar class="contents">-->
+<!--  <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"-->
+<!--     [active]="activeTab == tab"> {{tab}}-->
+<!--  </a>-->
+<!--  <div class="tab-right-align">-->
+  <div class="column has-text-right">
     <mat-form-field>
       <mat-label>Quick Search</mat-label>
       <input matInput name="name" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
@@ -18,9 +19,9 @@
       <fa-icon [icon]="faSearch" size="lg"></fa-icon>
       Filter</a>
   </div>
-</nav>
-<br/>
-<!--</div>-->
+<!--</nav>-->
+<!--<br/>-->
+</div>
 
 <mat-table class="contents" mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 
@@ -125,7 +126,7 @@
 <!--          <li>Alt Trigger: {{element.alt_trigger}}</li>-->
 <!--          <li>Alt Munitions: {{element.alt_munitions}}</li>-->
 <!--        </ul>-->
-        <card-contents [item]="element" style = "display: inline-flex;"></card-contents>
+        <card-contents [item]="element"></card-contents>
         <!--contents end-->
       </div>
     </td>
