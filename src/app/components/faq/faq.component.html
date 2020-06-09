@@ -1,18 +1,139 @@
 <div class="container" id="faq">
-  <h1>Frequently Asked Questions &amp; Notes</h1>
-<!--  <ul class="note-list">-->
-<!--    <li class="note-list-item" *ngFor="let item of faqs">-->
-<!--      <div [innerHTML]="item.text"></div>-->
-<!--    </li>-->
-<!--  </ul>-->
+  <h1 class="title">Frequently Asked Questions &amp; Notes</h1>
+  <!--  <ul class="note-list">-->
+  <!--    <li class="note-list-item" *ngFor="let item of faqs">-->
+  <!--      <div [innerHTML]="item.text"></div>-->
+  <!--    </li>-->
+  <!--  </ul>-->
   <mat-accordion multi>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="faq-question">
+          What do the Trigger Types mean?
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <table class="table">
+        <thead>
+        <tr>
+          <th title="Type">Type</th>
+          <th title="Explanation">Explanation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th>
+            Full-Auto
+          </th>
+          <td>
+            Fires continuously while button is held down.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Held
+          </th>
+          <td>
+            Fires continuous beam while button is held down.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Semi-Auto
+          </th>
+          <td>
+            Fires once per click.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Duplex
+          </th>
+          <td>
+            Fires once on click and once on release.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Burst
+          </th>
+          <td>
+            Fires a number of times per click.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Charge
+          </th>
+          <td>
+            Charges up when fire is held down, fires on release.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Spool-Up
+          </th>
+          <td>
+            Fires continuously while button is held down, fire rate increases over a short period.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Detonate
+          </th>
+          <td>
+            Detonates active projectiles.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Full Charge
+          </th>
+          <td>
+            Charges up when fire is held down, only fires on release when fully charged.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Force Charge
+          </th>
+          <td>
+            Weapon automatically charges on click and fires when fully charged.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Full-Auto Burst
+          </th>
+          <td>
+            Fires bursts continuously while button is held down.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Throw
+          </th>
+          <td>
+            Weapon automatically charges on click and is thrown when fully charged, losing access to it until picked up or when the weapon automatically returns after a set period of time.
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Mag Burst
+          </th>
+          <td>
+            Fires a number of times equal to the current maximum magazine size on click.
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </mat-expansion-panel>
     <mat-expansion-panel *ngFor="let item of faqs">
       <mat-expansion-panel-header>
         <mat-panel-title class="faq-question">
           {{item.question}}
         </mat-panel-title>
       </mat-expansion-panel-header>
-        <div [innerHTML]="item.text"></div>
+      <div [innerHTML]="item.text"></div>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
