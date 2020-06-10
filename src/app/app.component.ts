@@ -6,6 +6,7 @@ import {SidebarService} from "./services/sidebar.service";
 import {MatDialog, MatDialogRef} from "@angular/material/dialog";
 import {FilterComponent} from "./components/filter/filter.component";
 import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
+import {NgcCookieConsentService} from "ngx-cookieconsent";
 
 @Component({
   selector: 'app-root',
@@ -20,13 +21,15 @@ export class AppComponent implements OnInit {
   private dialogRef;
 
   faUpArrow = faArrowUp;
-
   toTop = document.getElementById("toTop");
+
+  private cookieConsentSub: Subscription;
 
   constructor(
     private data: DataService,
     private sideserv: SidebarService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private ccService: NgcCookieConsentService
   ) {
     this._subscription = sideserv.showSidebarChange.subscribe(() => {
       if (this.dialogRef) {
@@ -42,6 +45,11 @@ export class AppComponent implements OnInit {
     this.data.getDb().subscribe((db) => {
       this.loading = false;
     });
+
+    this.cookieConsentSub = this.ccService.popupClose$.subscribe(
+      () => {
+          //TODO save that user consented to cookies
+      });
 
     window.onscroll = function () {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

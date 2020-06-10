@@ -35,7 +35,37 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './components/main/main.component';
 import {MatExpansionModule} from "@angular/material/expansion";
 import { CardContentsComponent } from './components/card-contents/card-contents.component';
+import {NgcCookieConsentConfig, NgcCookieConsentModule} from "ngx-cookieconsent";
 
+//TODO update this styling
+const cookieConfig:NgcCookieConsentConfig = {
+  "cookie": {
+    "domain": "cephalonwannab.com"
+  },
+  "position": "bottom-left",
+  "theme": "edgeless",
+  "palette": {
+    "popup": {
+      "background": "#000000",
+      "text": "#ffffff",
+      "link": "#ffffff"
+    },
+    "button": {
+      "background": "#f1d600",
+      "text": "#000000",
+      "border": "transparent"
+    }
+  },
+  "type": "info",
+  "content": {
+    "message": "Our cookie policy: we use cookies for analytics and site settings. They are never shared with 3rd parties.\n<br>\n<br>\nPlease whitelist us in your adblocker so we can learn where to improve the site.\n<br>",
+    "dismiss": "Got it!",
+    "deny": "Refuse cookies",
+    "link": "Learn about cookies",
+    "href": "https://cookiesandyou.com",
+    "policy": "Cookie Policy"
+  }
+};
 
 @NgModule({
   declarations: [
@@ -50,6 +80,7 @@ import { CardContentsComponent } from './components/card-contents/card-contents.
     CardContentsComponent,
   ],
   imports: [
+    NgcCookieConsentModule.forRoot(cookieConfig),
     BrowserModule,
     FontAwesomeModule,
     HttpClientModule,

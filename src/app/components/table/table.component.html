@@ -95,7 +95,7 @@
 
   <ng-container matColumnDef="expand">
     <th mat-header-cell *matHeaderCellDef></th>
-    <td class="padded is-pulled-right padded-right" *matCellDef="let element">
+    <td class="padded is-pulled-right margin-right" *matCellDef="let element">
       <fa-icon *ngIf="element !== expandedElement" [icon]="faDown" size="lg"></fa-icon>
       <fa-icon *ngIf="element === expandedElement" [icon]="faUp" size="lg"></fa-icon>
     </td>
