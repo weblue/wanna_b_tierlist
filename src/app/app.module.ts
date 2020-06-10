@@ -29,7 +29,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { FilterComponent } from './components/filter/filter.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatDialogModule } from "@angular/material/dialog";
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './components/main/main.component';
@@ -102,7 +101,6 @@ const cookieConfig:NgcCookieConsentConfig = {
     MatDialogModule,
     MatButtonToggleModule,
     FormsModule,
-    NgbModule,
     AppRoutingModule,
     MatExpansionModule,
     MatExpansionModule,
