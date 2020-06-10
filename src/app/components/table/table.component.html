@@ -105,45 +105,29 @@
   </ng-container>
 
   <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
-  <!--TODO actually display useful stuff inside and remove/replace the example CSS-->
+  <!--TODO remove/replace the example CSS-->
   <ng-container matColumnDef="expandedDetail">
     <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
       <div class="example-element-detail"
            [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
-        <!--contents start-->
-<!--        <p>Notes: {{element.notes}}</p>-->
-<!--        <br/>-->
-<!--        <ul class="list-unstyled">-->
-<!--          <li><a [href]="element.dmgLink">Builds</a></li>-->
-<!--          <li>Riven Disposition: {{element.rivenDisposition}}</li>-->
-<!--          <li *ngIf=element.riven_value>Riven Value: {{element.riven_value}}</li>-->
-<!--          <li *ngIf=element.format_count>Forma Count: {{element.forma_count}}</li>-->
-<!--          <li *ngIf=element.clear_time>Clear Time: {{element.clear_time}}; <a [href]=element.clear_vid>Video</a></li>-->
-<!--        </ul>-->
-<!--        <br/>-->
-<!--        <ul *ngIf=element.alt_category class="list-unstyled">-->
-<!--          <li>Alt Category: {{element.alt_category}}</li>-->
-<!--          <li>Alt Trigger: {{element.alt_trigger}}</li>-->
-<!--          <li>Alt Munitions: {{element.alt_munitions}}</li>-->
-<!--        </ul>-->
         <card-contents [item]="element"></card-contents>
-        <!--contents end-->
       </div>
     </td>
   </ng-container>
-
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
-      class="example-element-row" [class.example-expanded-row]="expandedElement === row"
-      (click)="expandedElement = expandedElement === row ? null : row">
-  </tr>
 
   <ng-container matColumnDef="tierHeader">
     <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
   </ng-container>
 
-  <tr mat-row *matRowDef="let row; columns: ['tierHeader']" [hidden]="!row.isTier"></tr>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
+      class="example-element-row"
+      [class.example-expanded-row]="expandedElement === row"
+      (click)="expandedElement = expandedElement === row ? null : row">
+  </tr>
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row" [hidden]="row.isTier"></tr>
+
+  <tr mat-row *matRowDef="let row; columns: ['tierHeader']" style="background-color: lightgray" [hidden]="!row.isTier"></tr>
 </mat-table>
 
 

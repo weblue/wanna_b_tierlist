@@ -8,13 +8,12 @@
   border-right-width: thin;
   border-bottom-width: thin;
   border-color: lightslategray;
+  padding-bottom: .5em;
 }
 
-.right-container {
-  /*flex-grow: 5;*/
-}
-
-.left-container {
-  /*flex-grow: 2;*/
-  /*flex-basis: 25%;*/
+.youtube {
+  background-color: #282828;
+  color: white;
+  /*border-color: #FF071B;*/
+  border-width: 2px;
 }

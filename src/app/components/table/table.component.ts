@@ -10,7 +10,12 @@ import {Subscription} from "rxjs/internal/Subscription";
 import {Tier} from "../../models/Tier";
 import {Item} from "../../models/Item";
 import {SidebarService} from "../../services/sidebar.service";
-import {faSearch, faStar, faChevronDown, faChevronUp} from "@fortawesome/free-solid-svg-icons";
+import {
+  faSearch,
+  faStar,
+  faChevronCircleDown,
+  faChevronCircleUp
+} from "@fortawesome/free-solid-svg-icons";
 import {FilterParams} from "../../models/FilterParams";
 
 @Component({
@@ -34,8 +39,8 @@ export class TableComponent implements OnInit {
 
   faSearch = faSearch;
   faStar = faStar;
-  faDown = faChevronDown;
-  faUp = faChevronUp;
+  faDown = faChevronCircleDown;
+  faUp = faChevronCircleUp;
 
   private loading: boolean = true;
   @ViewChild('table') el: MatTable<any>;
