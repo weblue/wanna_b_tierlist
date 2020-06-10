@@ -58,7 +58,7 @@ const cookieConfig:NgcCookieConsentConfig = {
   },
   "type": "info",
   "content": {
-    "message": "Our cookie policy: we use cookies for analytics and site settings. They are never shared with 3rd parties.\n<br>\n<br>\nPlease whitelist us in your adblocker so we can learn where to improve the site.\n<br>",
+    "message": "We use cookies for analytics and site settings. They are never shared with 3rd parties.\n<br>\n<br>\nPlease whitelist us in your adblocker so we can learn where to improve the site.\n<br>",
     "dismiss": "Got it!",
     "deny": "Refuse cookies",
     "link": "Learn about cookies",
