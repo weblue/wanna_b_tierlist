@@ -3,10 +3,21 @@
     <a class="navbar-item title" routerLink="/">wanna_b Home</a>
   </div>
   <div class="navbar-menu">
-    <a class="navbar-item is-warning" routerLink="/faq">
-      <fa-icon [icon]="faInfoCircle" size="lg"></fa-icon>
-      &nbsp; FAQ and Notes
-    </a>
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link" routerLink="/faq">
+        <fa-icon [icon]="faInfoCircle" size="lg"></fa-icon>
+        &nbsp; FAQ and Notes
+      </a>
+
+      <div class="navbar-dropdown">
+        <a class="navbar-item" routerLink="/faq">
+          FAQ
+        </a>
+        <a class="navbar-item" routerLink="/oro">
+          Testing Process
+        </a>
+      </div>
+    </div>
     <a class="navbar-item discord-button" href="https://discord.gg/Cq3jW27" target="_blank" rel="noopener">
       <fa-icon [icon]="faDiscord"></fa-icon>
       &nbsp; Join our Discord

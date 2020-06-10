@@ -5001,7 +5001,7 @@
     "Akbronco Prime": {
       "base": "Base Need Buffs",
       "category": "Shotgun",
-      "dmg": "100% Status",
+      "dmg": "Status",
       "dmgLink": "https://overframe.gg/build/27830/",
       "mr": 10,
       "name": "Akbronco Prime",
@@ -6259,33 +6259,23 @@
     },
     "subjectivity": {
       "name": "subjectivity",
-      "question": "How is this list ranked?",
-      "text": "This is a partially subjective tier list, however constructive criticism is always encouraged and appreciated. <a class='header-link' href='https://www.reddit.com/r/Warframe/comments/3p6wgu/updated_pve_tier_list_for_1771/cw3qzy8'>Before you freak out about a weapon's tier, read this disclaimer by /u/4G3NT_0R4NGE3.</a> Nevertheless, this guide is intended to get a general sense of the equipment in the game."
+      "question": "How are weapons on the list ranked?",
+      "text": "Check out our testing methodology under the FAQ link."
     },
     "perfIndex": {
       "name": "perfIndex",
       "question": "What is Perf Index?",
-      "text": "This is a quantified numerical value to determine how powerful a weapon is compared with it's peers (peers in this case being other weapons in the same arsenal slot). \nIndex score of 100 is always held by the best non-special weapon in that arsenal slot. Special weapons are mostly modular weapons and/or weapons that go beyond the standard 30 levels like Zaws, Kitguns, Kuva Weapons and Paracesis. \nSo to read/interpret this number, a score that is, say, 120 will mean that the clear time of weapon is about 20% faster while a score of 25 will mean it takes four times as long to clear the oro100 gauntlet compared with the top \"normal\" weapon. \nThis scoring system has been envisioned to help users quantify the exact gap between the weapons' performance."
+      "text": "This is a quantified numerical value to determine how powerful a weapon is compared to its peers (other weapons in the same arsenal slot). <br><br> Index score of 100 is always held by the best <strong>non-special</strong> weapon in that arsenal slot. <strong>Special weapons</strong> are mostly modular weapons and/or weapons that go beyond the standard 30 levels like Zaws, Kitguns, Kuva Weapons and Paracesis. <br><br> Example interpretation: a score that is 120 will mean that the clear time of weapon is about 20% faster than the top non-special weapon, while a score of 25 will mean it takes 4x as long to clear the oro100 gauntlet compared to top non-special weapon. <br><br> This scoring system has been created to help users quantify the exact gap between the weapons' performance."
     },
     "baseItems": {
       "name": "baseItems",
       "question": "Where is x base/event item?",
       "text": "Base/event items are listed in the notes section for a weapon. Even then, certain base/event weapons will not be included if: base/event has the same build and trigger type AND/OR base/event have the same recommended rivens"
     },
-    "videos": {
-      "name": "videos",
-      "question": "What are the weapon videos showing?",
-      "text": "The YouTube video shows a nominal run with the weapon. Only the median result of the 5 officially-scored run is uploaded."
-    },
-    "workSoFar": {
-      "name": "workSoFar",
-      "question": "What has been ranked?",
-      "text": "Only Primary, Secondary, and Melee weapons have been thoroughly rated. Warframes are not ranked within a tier and represent their respective power considering the current meta but going from Top to Contender and then to Viable does signify reduced capabilites and/or importance. "
-    },
     "frameBuilds": {
       "name": "frameBuilds",
       "question": "How should Frame builds be used?",
-      "text": "Frame builds are based on build goals that should be aspired to. The precise build differs from playstyle and preference and therefore can't be fixed. Nonetheless, future updates will include example builds."
+      "text": "Warframes are not ranked within a tier and represent their respective power considering the current meta but going from Top to Contender and then to Viable does signify reduced capabilities and/or importance. <br><br> Frame builds are based on build goals that should be aspired to. The precise build differs from play style and preference, and therefore can't be fixed. Nonetheless, future updates will include example builds."
     },
     "checkTheLinks": {
       "name": "checkTheLinks",
@@ -6296,11 +6286,6 @@
       "name": "dispute",
       "question": "I disagree with a ranking; where can I provide input?",
       "text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
-    },
-    "utubechannel": {
-      "name": "channel",
-      "question": "Where can I watch weapons be used?",
-      "text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
     }
   },
   "version": "Warframe Patch 27.4 - Re-ranked; Synoid Simulor and Twin Grakatas. Equipment pending tests are marked as such. "

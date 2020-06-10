@@ -1,6 +1,12 @@
 <div class="container" id="faq">
   <h1 id="faq-title" class="title">Frequently Asked Questions &amp; Notes</h1>
   <div class="message-collection">
+    <article class="message" *ngFor="let item of faqs">
+      <div class="message-header subtitle ans-title">
+        <p>{{item.question}}</p>
+      </div>
+      <div class="message-body" [innerHTML]="item.text"></div>
+    </article>
     <article class="message">
       <div class="message-header subtitle ans-title">
         <p>What do the Trigger Types mean?</p>
@@ -121,12 +127,6 @@
           </tbody>
         </table>
       </div>
-    </article>
-    <article class="message" *ngFor="let item of faqs">
-      <div class="message-header subtitle ans-title">
-        <p>{{item.question}}</p>
-      </div>
-      <div class="message-body" [innerHTML]="item.text"></div>
     </article>
   </div>
 </div>
