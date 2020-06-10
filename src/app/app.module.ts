@@ -36,6 +36,7 @@ import { MainComponent } from './components/main/main.component';
 import {MatExpansionModule} from "@angular/material/expansion";
 import { CardContentsComponent } from './components/card-contents/card-contents.component';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from "ngx-cookieconsent";
+import { OroPageComponent } from './components/oro-page/oro-page.component';
 
 //TODO update this styling
 const cookieConfig:NgcCookieConsentConfig = {
@@ -43,7 +44,7 @@ const cookieConfig:NgcCookieConsentConfig = {
     "domain": "cephalonwannab.com"
   },
   "position": "bottom-left",
-  "theme": "edgeless",
+  "theme": "classic",
   "palette": {
     "popup": {
       "background": "#000000",
@@ -78,6 +79,7 @@ const cookieConfig:NgcCookieConsentConfig = {
     FilterComponent,
     MainComponent,
     CardContentsComponent,
+    OroPageComponent,
   ],
   imports: [
     NgcCookieConsentModule.forRoot(cookieConfig),

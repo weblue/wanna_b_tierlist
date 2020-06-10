@@ -7,7 +7,9 @@ import {MatDialog, MatDialogRef} from "@angular/material/dialog";
 import {FilterComponent} from "./components/filter/filter.component";
 import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
 import {NgcCookieConsentService} from "ngx-cookieconsent";
+import {Router, NavigationEnd} from '@angular/router';
 
+declare let gtag: Function;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -29,7 +31,8 @@ export class AppComponent implements OnInit {
     private data: DataService,
     private sideserv: SidebarService,
     public dialog: MatDialog,
-    private ccService: NgcCookieConsentService
+    private ccService: NgcCookieConsentService,
+    public router: Router
   ) {
     this._subscription = sideserv.showSidebarChange.subscribe(() => {
       if (this.dialogRef) {
@@ -38,6 +41,16 @@ export class AppComponent implements OnInit {
       }
 
       this.dialogRef = this.dialog.open(FilterComponent, {});
+    });
+
+    this.router.events.subscribe(event => {
+      if(event instanceof NavigationEnd){
+        gtag('config', 'UA-109524715-1',
+          {
+            'page_path': event.urlAfterRedirects
+          }
+        );
+      }
     });
   }
 
