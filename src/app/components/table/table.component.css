@@ -29,13 +29,15 @@ tr.example-detail-row {
 /* overrides */
 
 .mat-header-cell {
-  font-size: 1em;
+  font-size: 1.25em;
+}
+
+.padded {
+  padding-top: .5em
 }
 
 .mat-cell{
   font-size: 1.25em;
-  padding-top: 0.5em;
-  padding-bottom: 0;
 }
 
 .unusual_riven {
@@ -84,25 +86,9 @@ tr.example-detail-row {
   visibility: visible;
 }
 
-.tab-right-align {
-  /*right: 0;*/
-  order: 100;
-  flex: 1;
-}
-
 .flex-container {
-  /*display: inline-flex;*/
-  border-bottom: 1px solid rgba(0,0,0,.12);
   /*TODO this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
   margin-right: 12.5%;
   margin-left: 12.5%;
 }
 
-#special-nav-tabs {
-  border-bottom: 0;
-}
-
-.nav {
-  flex: 1;
-  order: 1;
-}

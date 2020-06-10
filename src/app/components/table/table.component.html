@@ -1,29 +1,25 @@
-<div class="columns flex-container" style="padding-bottom: .5em">
-  <nav mat-tab-nav-bar class="column" id="special-nav-tabs">
-    <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
-       [active]="activeTab == tab"> {{tab}}
-    </a>
-  </nav>
-<!--<nav mat-tab-nav-bar class="contents">-->
-<!--  <a mat-tab-link *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"-->
-<!--     [active]="activeTab == tab"> {{tab}}-->
-<!--  </a>-->
-<!--  <div class="tab-right-align">-->
-  <div class="column has-text-right">
-    <mat-form-field>
-      <mat-label>Quick Search</mat-label>
-      <input matInput name="name" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
-    </mat-form-field>
-    <span>&nbsp;&nbsp;</span>
-    <a mat-raised-button color="accent" (click)="toggleSidebar()">
-      <fa-icon [icon]="faSearch" size="lg"></fa-icon>
-      Filter</a>
+<div class="level flex-container" style="padding-bottom: .5em">
+  <div class="level-left tabs is-large" id="special-nav-tabs">
+    <ul class="level-item">
+      <li *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
+          [class.is-active]="activeTab == tab"><a> {{tab}}
+      </a>
+      </li>
+    </ul>
   </div>
-<!--</nav>-->
-<!--<br/>-->
+  <div class="level-right has-text-right field is-grouped">
+    <p class="level-item control">
+      <input class="input" placeholder="Quick Search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
+    </p>
+    <p class="level-item control">
+      <a class="button is-light is-info" (click)="toggleSidebar()">
+        <fa-icon [icon]="faSearch" size="lg"></fa-icon>
+        &nbsp;Filter</a>
+    </p>
+  </div>
 </div>
 
-<mat-table class="contents" mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
+<table class="contents table " mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 
   <!--- Note that these columns can be defined in any order.
         The actual rendered columns are set as a property on the row definition" -->
@@ -31,40 +27,40 @@
   <!-- Name Column -->
   <ng-container matColumnDef="name">
     <th mat-header-cell *matHeaderCellDef> Name</th>
-    <td mat-cell *matCellDef="let element"><a target="_blank" href="{{element.url}}">{{element.name}}</a></td>
+    <td mat-cell class="padded" *matCellDef="let element"><a class="padded" target="_blank" href="{{element.url}}">{{element.name}}</a></td>
   </ng-container>
 
   <ng-container matColumnDef="base">
     <th mat-header-cell *matHeaderCellDef> Base</th>
-    <td mat-cell *matCellDef="let element"> {{element.base}} </td>
+    <td mat-cell class="padded"  *matCellDef="let element"> {{element.base}} </td>
   </ng-container>
 
   <ng-container matColumnDef="category">
     <th mat-header-cell *matHeaderCellDef> Category</th>
-    <td mat-cell *matCellDef="let element"> {{element.category}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.category}} </td>
   </ng-container>
 
   <ng-container matColumnDef="mr">
     <th mat-header-cell *matHeaderCellDef> MR</th>
-    <td mat-cell *matCellDef="let element"> {{element.mr}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.mr}} </td>
   </ng-container>
 
   <ng-container matColumnDef="dmg">
     <th mat-header-cell *matHeaderCellDef> Build Type</th>
-    <td mat-cell *matCellDef="let element"> {{element.dmg}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.dmg}} </td>
   </ng-container>
 
   <ng-container matColumnDef="munitions">
     <th mat-header-cell *matHeaderCellDef> Munitions</th>
-    <td mat-cell *matCellDef="let element"> {{element.munitions}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.munitions}} </td>
   </ng-container>
 
   <ng-container matColumnDef="rivenDisposition">
     <th mat-header-cell *matHeaderCellDef> Riven Dispo</th>
-    <td mat-cell *matCellDef="let element"> {{element.rivenDisposition  | number: '1.2-2'}}
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.rivenDisposition  | number: '1.2-2'}}
       <div class="unusual_riven" *ngIf="element.specRivenDisp">
         ✪
-<!--        <fa-icon [icon]="faStar"></fa-icon>-->
+        <!--        <fa-icon [icon]="faStar"></fa-icon>-->
         <span class="tooltip_text">Higher-than-expected riven disposition for this rank</span>
       </div>
     </td>
@@ -72,33 +68,34 @@
 
   <ng-container matColumnDef="notes">
     <th mat-header-cell *matHeaderCellDef> Notes</th>
-    <td mat-cell *matCellDef="let element"> {{element.notes}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.notes}} </td>
   </ng-container>
 
   <ng-container matColumnDef="type">
     <th mat-header-cell *matHeaderCellDef> Trigger Type</th>
-    <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.type}} </td>
   </ng-container>
 
   <ng-container matColumnDef="perfIndex">
     <th mat-header-cell *matHeaderCellDef>
       <div>
         <span class="perf_index">Perf Index
-          <span class="tooltip_text">Performance Index; performance score relative to other weapons. See FAQ for more.</span>
+          <span
+            class="tooltip_text">Performance Index; performance score relative to other weapons. See FAQ for more.</span>
         </span>
       </div>
     </th>
-    <td mat-cell *matCellDef="let element"> {{element.perfIndex | number: '1.1-1'}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.perfIndex | number: '1.1-1'}} </td>
   </ng-container>
 
   <ng-container matColumnDef="wepnotes">
     <th mat-header-cell *matHeaderCellDef> Notes</th>
-    <td mat-cell *matCellDef="let element"> {{element.wepnotes}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.wepnotes}} </td>
   </ng-container>
 
   <ng-container matColumnDef="expand">
     <th mat-header-cell *matHeaderCellDef></th>
-    <td mat-cell *matCellDef="let element">
+    <td class="padded is-pulled-right" *matCellDef="let element">
       <fa-icon *ngIf="element !== expandedElement" [icon]="faDown"></fa-icon>
       <fa-icon *ngIf="element === expandedElement" [icon]="faUp"></fa-icon>
     </td>
@@ -116,7 +113,7 @@
   </ng-container>
 
   <ng-container matColumnDef="tierHeader">
-    <td [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
+    <td class="padded" [attr.colspan]="displayedColumns.length" mat-cell *matCellDef="let tier"><strong>{{tier.name}}</strong></td>
   </ng-container>
 
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
@@ -127,8 +124,9 @@
   </tr>
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row" [hidden]="row.isTier"></tr>
 
-  <tr mat-row *matRowDef="let row; columns: ['tierHeader']" style="background-color: lightgray" [hidden]="!row.isTier"></tr>
-</mat-table>
+  <tr mat-row *matRowDef="let row; columns: ['tierHeader']" style="background-color: lightgray"
+      [hidden]="!row.isTier"></tr>
+</table>
 
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="83Zzt1C"><a href="//imgur.com/83Zzt1C"></a></blockquote>

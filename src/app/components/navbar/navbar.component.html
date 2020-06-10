@@ -1,19 +1,20 @@
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <a class="title is-4" routerLink="/">wanna_b Home</a>
-    <a mat-mini-fab class="tooltip button" color="accent" routerLink="/faq">
-      <!--      <fa-icon [icon]="faInfoCircle"></fa-icon>-->
-      FAQ
-      <span class="tooltiptext">FAQ and Notes</span>
+<nav class="navbar is-fixed-top is-warning">
+  <div class="navbar-brand">
+    <a class="navbar-item title" routerLink="/">wanna_b Home</a>
+  </div>
+  <div class="navbar-menu">
+    <a class="navbar-item is-warning" routerLink="/faq">
+      <fa-icon [icon]="faInfoCircle" size="lg"></fa-icon>
+      &nbsp; FAQ and Notes
     </a>
-    <a class="discord-button tooltip button" mat-mini-fab href="https://discord.gg/Cq3jW27" target="_blank" rel="noopener">
+    <a class="navbar-item discord-button" href="https://discord.gg/Cq3jW27" target="_blank" rel="noopener">
       <fa-icon [icon]="faDiscord"></fa-icon>
-      <span class="tooltiptext">Join our Discord</span>
+      &nbsp; Join our Discord
     </a>
-    <a class="github-button tooltip button" mat-mini-fab href="https://github.com/weblue/wanna_b_tierlist" target="_blank"
+    <a class="navbar-item github-button" href="https://github.com/weblue/wanna_b_tierlist" target="_blank"
        rel="noopener">
       <fa-icon [icon]="faGithub"></fa-icon>
-      <span class="tooltiptext">Github Repository</span>
+      &nbsp; Github Repository
     </a>
-  </mat-toolbar-row>
-</mat-toolbar>
+  </div>
+</nav>
