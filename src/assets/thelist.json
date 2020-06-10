@@ -6252,6 +6252,11 @@
     }
   },
   "faq": {
+    "forma/rivens": {
+      "name": "forma/rivens",
+      "question": "Are rivens factored into rankings?",
+      "text": "<strong>Rivens are NOT factored into rankings!</strong>"
+    },
     "subjectivity": {
       "name": "subjectivity",
       "question": "How is this list ranked?",
@@ -6260,7 +6265,7 @@
     "perfIndex": {
       "name": "perfIndex",
       "question": "What is Perf Index?",
-      "text": "Performance Index (PerfIndex) is a relational score comparing the performance of a weapon against the performance of the best weapon in slot. While non-standard (max rank > 30 and modular) weapons are scored along this metric, they do not influence the max PerfIndex score, which weapons are rated against."
+      "text": "This is a quantified numerical value to determine how powerful a weapon is compared with it's peers (peers in this case being other weapons in the same arsenal slot). \nIndex score of 100 is always held by the best non-special weapon in that arsenal slot. Special weapons are mostly modular weapons and/or weapons that go beyond the standard 30 levels like Zaws, Kitguns, Kuva Weapons and Paracesis. \nSo to read/interpret this number, a score that is, say, 120 will mean that the clear time of weapon is about 20% faster while a score of 25 will mean it takes four times as long to clear the oro100 gauntlet compared with the top \"normal\" weapon. \nThis scoring system has been envisioned to help users quantify the exact gap between the weapons' performance."
     },
     "baseItems": {
       "name": "baseItems",

@@ -10,6 +10,18 @@ tr.example-detail-row {
   height: 0;
 }
 
+th {
+  position: sticky;
+  top: 4rem;
+  background: whitesmoke;
+  z-index: 998;
+}
+
+.sticky-tier {
+  position: sticky;
+  /*top: 8rem;*/
+}
+
 
 .example-element-row td {
   border-bottom-width: 0;
@@ -34,6 +46,10 @@ tr.example-detail-row {
 
 .padded {
   padding-top: .5em
+}
+
+.padded-right {
+  padding-right: .5em
 }
 
 .mat-cell{
@@ -71,6 +87,8 @@ tr.example-detail-row {
 .perf_index .tooltip_text {
   visibility: hidden;
   width: 15em;
+  top: 100%;
+  left: -50%;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -79,7 +97,7 @@ tr.example-detail-row {
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  z-index: 999;
 }
 
 .perf_index:hover .tooltip_text {

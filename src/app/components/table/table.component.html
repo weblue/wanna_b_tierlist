@@ -95,9 +95,9 @@
 
   <ng-container matColumnDef="expand">
     <th mat-header-cell *matHeaderCellDef></th>
-    <td class="padded is-pulled-right" *matCellDef="let element">
-      <fa-icon *ngIf="element !== expandedElement" [icon]="faDown"></fa-icon>
-      <fa-icon *ngIf="element === expandedElement" [icon]="faUp"></fa-icon>
+    <td class="padded is-pulled-right padded-right" *matCellDef="let element">
+      <fa-icon *ngIf="element !== expandedElement" [icon]="faDown" size="lg"></fa-icon>
+      <fa-icon *ngIf="element === expandedElement" [icon]="faUp" size="lg"></fa-icon>
     </td>
   </ng-container>
 
@@ -124,7 +124,7 @@
   </tr>
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row" [hidden]="row.isTier"></tr>
 
-  <tr mat-row *matRowDef="let row; columns: ['tierHeader']" style="background-color: lightgray"
+  <tr class="sticky-tier" mat-row *matRowDef="let row; columns: ['tierHeader']" style="background-color: lightgray"
       [hidden]="!row.isTier"></tr>
 </table>
 
