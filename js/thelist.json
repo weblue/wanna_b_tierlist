@@ -2746,6 +2746,23 @@
 			"wepnotes": "Low damage per hit, very high attack speed. Grants invisibility upon finisher, which will expire when attacking, using an ability, or after 5s.",
 			"rivenDisposition": 0.9
 		},
+"Stropha": {
+    	"base": "",
+    	"combo": "Double-tap Samba Slash",
+    	"dmg": "Crit & Status",
+    	"dmgLink": "https://overframe.gg/build/49927/",
+    	"mr": 10,
+    	"name": "Stropha",
+    	"rank": 54.83,
+    	"perfIndex": 35.3,
+    	"stance": "Bullet Dance",
+    	"stancenotes": "",
+    	"tier": "Need buffs",
+    	"type": "Gunblade",
+    	"url": "http://warframe.wikia.com/wiki/Stropha",
+    	"wepnotes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. ",
+    	"rivenDisposition": 0.5
+    },
 		"Synoid Heliocor": {
 			"base": "",
 			"combo": "Raging Whirlwind",
@@ -2967,6 +2984,23 @@
 			"wepnotes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.1
 		},
+            "Xoris": {
+    	"base": "",
+    	"combo": "Morning Sun",
+    	"dmg": "Crit & Status",
+    	"dmgLink": "https://overframe.gg/build/49925/",
+    	"mr": 4,
+    	"name": "Xoris",
+    	"rank": 23.91,
+    	"perfIndex": 81.1,
+    	"stance": "Astral Twilight",
+    	"stancenotes": "",
+    	"tier": "Top",
+    	"type": "Glaive",
+    	"url": "http://warframe.wikia.com/wiki/Xoris",
+    	"wepnotes": "Very low damage per hit, very high attack speed. ",
+    	"rivenDisposition": 0.5
+    },
 		"Zenistar": {
 			"base": "",
 			"combo": "Broken Bull",
@@ -4182,6 +4216,21 @@
       "notes": "Very low damage per shot; hitscan munitions. Best paired with Frost Prime and Scindo Prime. ",
       "rivenDisposition": 1
     },
+            "Stahlta": {
+    	"base": "",
+    	"category": "Rifle",
+    	"dmg": "Crit/Status",
+    	"dmgLink": "https://overframe.gg/build/49834/",
+    	"mr": 10,
+    	"name": "Stahlta",
+    	"rank": 31.44,
+    	"perfIndex": 86.7,
+    	"tier": "Top",
+    	"type": "Charged",
+    	"url": "http://warframe.wikia.com/wiki/Stahlta",
+    	"notes": "Very high damage per shot; projectile munitions. ",
+    	"rivenDisposition": 0.5
+    },
     "Stradavar Prime": {
       "base": "Stradavar is viable",
       "category": "Rifle",
@@ -4474,8 +4523,8 @@
 			"dmgLink": "https://overframe.gg/build/23285/",
 			"mr": 15,
 			"name": "Kuva Bramma",
-			"rank": 19.42,
-			"perfIndex": 140.4,
+			"rank": 21.97,
+			"perfIndex": 124.1,
 			"tier": "Top",
 			"type": "Charge (0.4s)",
 			"url": "http://warframe.fandom.com/wiki/Kuva_Bramma",
@@ -5576,6 +5625,21 @@
     	"notes": "High damage per shot; hitscan munitions. Justice (Blast, health, armor) can be helpful at times. ",
     	"rivenDisposition": 1.05
     },
+            "Velox": {
+    	"base": "",
+    	"category": "Auto",
+    	"dmg": "Status",
+    	"dmgLink": "https://overframe.gg/build/49840/",
+    	"mr": 8,
+    	"name": "Velox",
+    	"perfIndex": 56.4,
+    	"rank": 46.08,
+    	"tier": "Contender",
+    	"type": "Auto",
+    	"url": "http://warframe.wikia.com/wiki/Velox",
+    	"notes": "Very low damage per shot; hitscan munitions. ",
+    	"rivenDisposition": 0.5
+    },
     "Zakti": {
       "base": "",
       "category": "Semi-auto",
@@ -5825,5 +5889,5 @@
 			"text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
 		}
 	},
-	"version": "Warframe Patch 27.4 - Re-ranked; Synoid Simulor and Twin Grakatas. Equipment pending tests are marked as such. "
+	"version": "Warframe Patch 28.0.3 - Added Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
 }
