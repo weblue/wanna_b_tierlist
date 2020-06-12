@@ -30,13 +30,11 @@ export class AppComponent implements OnInit {
 
   constructor(
     private data: DataService,
-    private sideserv: SidebarService,
+    private sideServ: SidebarService,
     public dialog: MatDialog,
-    private ccService: NgcCookieConsentService,
     public router: Router,
-    public cookieService: CookieService
   ) {
-    this._subscription = sideserv.showSidebarChange.subscribe(() => {
+    this._subscription = sideServ.showSidebarChange.subscribe(() => {
       if (this.dialogRef) {
         this.dialog.closeAll();
         this.dialogRef = null;

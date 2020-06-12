@@ -4,8 +4,10 @@
       <ul>
         <li *ngIf="item.munitions"><b class="is-medium">Munitions: </b>{{item.munitions}}</li>
         <li *ngIf="item.type"><b class="is-medium">Trigger Type: </b>{{item.type}}</li>
-        <li *ngIf="item.base"><b class="is-medium">Base/Event Notes: </b>{{item.base}}</li>
+        <li *ngIf="item.combo"><b class="is-medium">Combo: </b>{{item.combo}}</li>
+        <li *ngIf="item.stance"><b class="is-medium">Stance: </b>{{item.stance}}</li>
         <li *ngIf="item.rivenrec"><b class="is-medium">Riven Stat Rec: </b>{{item.rivenrec}}</li>
+        <li *ngIf="item.base"><b class="is-medium">Base/Event Notes: </b>{{item.base}}</li>
       </ul>
     </div>
     <a [href]="item.yt_link" target="_blank" class="button is-medium is-fullwidth youtube">
@@ -18,6 +20,6 @@
   <div class="column">
     <!--    TODO integrate build from overframe API-->
     <a [href]="item.dmgLink">Build</a>
-    <p>Notes: {{item.notes}}</p>
+    <p *ngIf="item.notes">Notes: {{item.notes}}</p>
   </div>
 </div>

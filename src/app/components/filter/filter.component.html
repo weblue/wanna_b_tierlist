@@ -89,12 +89,12 @@
       </td>
     </tr>
   </table>
-  <button mat-button mat-flat-button color="primary" class="item-spacer" (click)="apply()">
-    <fa-icon [icon]="faCheck"></fa-icon>
+  <button class="button is-success is-light item-spacer" (click)="apply()">
+    <fa-icon [icon]="faCheck"></fa-icon>&nbsp;
     Apply
   </button>
-  <button mat-button mat-flat-button color="warn" class="item-spacer" (click)="clear()">
-    <fa-icon [icon]="faTimes"></fa-icon>
+  <button class="button is-danger is-light" (click)="clear()">
+    <fa-icon [icon]="faTimes"></fa-icon>&nbsp;
     Clear
   </button>
 </form>

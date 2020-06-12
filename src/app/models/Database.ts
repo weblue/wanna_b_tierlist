@@ -61,5 +61,5 @@ export const types = {
 export const columnDefs = {
   'primaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
   'secondaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
-  'melees': ['name', 'perfIndex', 'category', 'dmg', 'wepnotes', 'mr', 'expand']
+  'melees': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand']
 };

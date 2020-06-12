@@ -1,12 +1,12 @@
-tr.example-element-row:not(.example-expanded-row):active {
+tr.element-row:not(.expanded-row):active {
   background: #efefef;
 }
 
-tr.example-element-row:not(.example-expanded-row):hover {
+tr.element-row:not(.expanded-row):hover {
   background: whitesmoke;
 }
 
-tr.example-detail-row {
+tr.detail-row {
   height: 0;
 }
 
@@ -19,14 +19,15 @@ th {
 
 .sticky-tier {
   position: sticky;
+  top: calc(4rem + 56px);
   /*top: 8rem;*/
 }
 
-.example-element-row td {
+.element-row td {
   border-bottom-width: 0;
 }
 
-.example-element-detail {
+.row-detail {
   overflow: hidden;
   display: flex;
 }

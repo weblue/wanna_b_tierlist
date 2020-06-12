@@ -37,7 +37,6 @@ export class TableComponent implements OnInit {
   activeTab = this.tabs[0];
 
   faSearch = faSearch;
-  faStar = faStar;
   faDown = faChevronCircleDown;
   faUp = faChevronCircleUp;
 
