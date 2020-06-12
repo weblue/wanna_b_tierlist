@@ -8,6 +8,7 @@ import {FilterComponent} from "./components/filter/filter.component";
 import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
 import {NgcCookieConsentService} from "ngx-cookieconsent";
 import {Router, NavigationEnd} from '@angular/router';
+import {CookieService} from "ngx-cookie-service";
 
 declare let gtag: Function;
 @Component({
@@ -32,7 +33,8 @@ export class AppComponent implements OnInit {
     private sideserv: SidebarService,
     public dialog: MatDialog,
     private ccService: NgcCookieConsentService,
-    public router: Router
+    public router: Router,
+    public cookieService: CookieService
   ) {
     this._subscription = sideserv.showSidebarChange.subscribe(() => {
       if (this.dialogRef) {
@@ -58,11 +60,6 @@ export class AppComponent implements OnInit {
     this.data.getDb().subscribe((db) => {
       this.loading = false;
     });
-
-    this.cookieConsentSub = this.ccService.popupClose$.subscribe(
-      () => {
-          //TODO save that user consented to cookies
-      });
 
     window.onscroll = function () {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

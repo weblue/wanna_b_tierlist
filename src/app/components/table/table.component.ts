@@ -32,7 +32,6 @@ import {FilterParams} from "../../models/FilterParams";
 })
 export class TableComponent implements OnInit {
 
-  //TODO address lag on table change
   expandedElement: Primary | Secondary | Melee | null;
   tabs: string[] = ['Primaries', 'Secondaries', 'Melees'];
   activeTab = this.tabs[0];

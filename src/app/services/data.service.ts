@@ -39,7 +39,6 @@ export class DataService {
         this.database.secondaries = DataService.sort(db.Secondaries);
         this.database.melees = DataService.sort(db.Melees);
 
-        //TODO check for other categories that are missing
         for (let item in db.Primaries) {
           if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
             types.Primaries.categoryTypes.push(db.Primaries[item].category);

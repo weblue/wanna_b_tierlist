@@ -36,11 +36,14 @@ import {MatExpansionModule} from "@angular/material/expansion";
 import { CardContentsComponent } from './components/card-contents/card-contents.component';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from "ngx-cookieconsent";
 import { OroPageComponent } from './components/oro-page/oro-page.component';
+import {CookieService} from "ngx-cookie-service";
 
 //TODO update this styling
 const cookieConfig:NgcCookieConsentConfig = {
   "cookie": {
-    "domain": "cephalonwannab.com"
+    //TODO update this on deploy; maybe automate it?
+    // "domain": "cephalonwannab.com"
+    "domain": "localhost"
   },
   "position": "bottom-left",
   "theme": "classic",
@@ -106,7 +109,9 @@ const cookieConfig:NgcCookieConsentConfig = {
     MatExpansionModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    CookieService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
