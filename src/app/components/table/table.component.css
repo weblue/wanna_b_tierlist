@@ -17,9 +17,11 @@ th {
   z-index: 998;
 }
 
-.sticky-tier {
+.sticky-tier td {
+  background-color: lightgray;
+  z-index: 99;
   position: sticky;
-  top: calc(4rem + 56px);
+  top: calc(4rem + 54px);
   /*top: 8rem;*/
 }
 

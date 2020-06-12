@@ -1,4 +1,4 @@
-<div class="level flex-container" style="padding-bottom: .5em">
+<div class="level flex-container">
   <div class="level-left tabs is-large" id="special-nav-tabs">
     <ul class="level-item">
       <li *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
@@ -129,6 +129,6 @@
   </tr>
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="detail-row" [hidden]="row.isTier || expandedElement !== row"></tr>
 
-  <tr class="sticky-tier" mat-row *matRowDef="let row; columns: ['tierHeader']" style="background-color: lightgray"
+  <tr class="sticky-tier" mat-row *matRowDef="let row; columns: ['tierHeader']"
       [hidden]="!row.isTier"></tr>
 </table>
