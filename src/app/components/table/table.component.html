@@ -46,7 +46,8 @@
 
   <ng-container matColumnDef="mr">
     <th mat-header-cell *matHeaderCellDef> MR</th>
-    <td mat-cell class="padded" *matCellDef="let element"> <span *ngIf="element.mr !== 0">{{element.mr}}</span><span *ngIf="element.mr === 0">None</span></td>
+<!--    <td mat-cell class="padded" *matCellDef="let element"> <span *ngIf="element.mr !== 0">{{element.mr}}</span><span *ngIf="element.mr === 0">None</span></td>-->
+    <td mat-cell class="padded" *matCellDef="let element"> {{element.mr}}</td>
   </ng-container>
 
   <ng-container matColumnDef="dmg">
