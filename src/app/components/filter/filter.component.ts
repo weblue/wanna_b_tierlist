@@ -1,39 +1,40 @@
-import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
-import {Subscription} from 'rxjs/internal/Subscription';
+import {Component, OnInit} from '@angular/core';
 import {DataService} from '../../services/data.service';
 import {FilterParams} from '../../models/FilterParams';
 import {faCheck, faTimes} from '@fortawesome/free-solid-svg-icons';
 import {FormControl} from "@angular/forms";
-import {tierTypes, types} from "../../models/Database";
+import {FilterService} from "../../services/filter.service";
 
 @Component({
   selector: 'app-filter',
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.css']
 })
-//TODO this needs more bug testing
 export class FilterComponent implements OnInit {
 
-  private _tabSub: Subscription;
   faCheck = faCheck;
   faTimes = faTimes;
 
   // filterCategory: 'Primary' | 'Secondary' | 'Melee' | 'Item' | 'Frame';
   filterCategory: string;
 
-  //Item
+  private filterParams: FilterParams;
+
+  //Strings
   name: string;
   base: string;
 
-  tier = new FormControl();
-  buildType = new FormControl();
-  triggerType = new FormControl();
-  category = new FormControl();
-  munitions = new FormControl();
-
+  //Numbers
   mr: number;
   rivenDisp: number;
 
+  tierSelect = new FormControl();
+  buildSelect = new FormControl();
+  triggerSelect = new FormControl();
+  categorySelect = new FormControl();
+  munitionSelect = new FormControl();
+
+  //Arrays
   munitionTypes: string[];
   buildTypes: string[];
   triggerTypes: string[];
@@ -42,99 +43,105 @@ export class FilterComponent implements OnInit {
 
   constructor(
     private data: DataService,
+    private filter: FilterService,
   ) {
-    if (this.data.getCurFilterParams()) {
-      let filterParams = this.data.getCurFilterParams();
 
-      if (filterParams.base)
-        this.base = filterParams.base;
-      else
-        this.base = '';
-      if (filterParams.name)
-        this.name = filterParams.name;
-      else
-        this.name = '';
-
-      if (filterParams.mr)
-        this.mr = filterParams.mr;
-      else
-        this.mr = null;
-      if (filterParams.rivenDisp)
-        this.rivenDisp = filterParams.rivenDisp;
-      else
-        this.rivenDisp = null;
-
-      if (filterParams.tier)
-        this.tier.setValue(filterParams.tier);
-      else
-        this.tier.reset();
-      if (filterParams.buildType)
-        this.buildType.setValue(filterParams.buildType);
-      else
-        this.buildType.reset();
-      if (filterParams.triggerType)
-        this.triggerType.setValue(filterParams.triggerType);
-      else
-        this.triggerType.reset();
-      if (filterParams.category)
-        this.category.setValue(filterParams.category);
-      else
-        this.category.reset();
-      if (filterParams.munitions)
-        this.munitions.setValue(filterParams.munitions);
-      else
-        this.munitions.reset();
-
-    } else {
-      this.base = '';
-      this.name = '';
-      this.mr = null;
-      this.rivenDisp = null;
-      this.buildType.reset();
-      this.triggerType.reset();
-      this.category.reset();
-      this.munitions.reset();
-    }
-
-    this.tierTypes = tierTypes;
-
-    this.filterCategory = data.currentTab;
-    this.changeTab(this.filterCategory);
-
-    this._tabSub = data.notifyTabListener.subscribe((tab) => {
-      this.changeTab(tab);
-    });
-  }
-
-  changeTab(tab) {
-    switch (tab) {
-      case "primaries":
-        this.filterCategory = "Primary";
-        this.categoryTypes = types.Primaries.categoryTypes;
-        this.munitionTypes = types.Primaries.munitionTypes;
-        this.buildTypes = types.Primaries.buildTypes;
-        this.triggerTypes = types.Primaries.triggerTypes;
-        break;
-      case "secondaries":
-        this.filterCategory = "Secondary";
-        this.categoryTypes = [];
-        this.munitionTypes = [];
-        this.buildTypes = types.Secondaries.buildTypes;
-        this.triggerTypes = types.Secondaries.triggerTypes;
-        break;
-      case "melees":
-        this.filterCategory = "Melee";
-        this.categoryTypes = [];
-        this.munitionTypes = [];
-        this.buildTypes = types.Melees.buildTypes;
-        this.triggerTypes = types.Melees.triggerTypes;
-        break;
-      default:
-        this.filterCategory = "Item";
-    }
   }
 
   ngOnInit() {
+    this.tierTypes = this.filter.tierTypes;
+    this.filterCategory = this.filter.filterCategory;
+
+    if (this.data.getCurFilterParams()) {
+      this.filterParams = this.data.getCurFilterParams();
+
+      if (this.filterParams.base)
+        this.filter.base = this.filterParams.base;
+      else
+        this.filter.base = '';
+      if (this.filterParams.name)
+        this.filter.name = this.filterParams.name;
+      else
+        this.filter.name = '';
+
+      if (this.filterParams.mr)
+        this.filter.mr = this.filterParams.mr;
+      else
+        this.filter.mr = null;
+      if (this.filterParams.rivenDisp)
+        this.filter.rivenDisp = this.filterParams.rivenDisp;
+      else
+        this.filter.rivenDisp = null;
+
+      if (this.filterParams.tier){
+        this.filter.tierChoices = this.filterParams.tier;
+        this.tierSelect.setValue(this.filterParams.tier);
+      }
+      else{
+        this.filter.tierChoices = [];
+        this.tierSelect.reset();
+      }
+      if (this.filterParams.buildType) {
+        this.filter.buildChoices = this.filterParams.buildType;
+        this.buildSelect.setValue(this.filterParams.buildType);
+      }
+      else {
+        this.filter.buildChoices = [];
+        this.buildSelect.reset();
+      }
+      if (this.filterParams.triggerType) {
+        this.filter.triggerChoices = this.filterParams.triggerType;
+        this.triggerSelect.setValue(this.filterParams.triggerType);
+      }
+      else {
+        this.filter.triggerChoices = [];
+        this.triggerSelect.reset();
+      }
+      if (this.filterParams.category) {
+        this.filter.categoryChoices = this.filterParams.category;
+        this.categorySelect.setValue(this.filterParams.category);
+      }
+      else {
+        this.filter.categoryChoices = [];
+        this.categorySelect.reset();
+      }
+      if (this.filterParams.munitions) {
+        this.filter.munitionChoices = this.filterParams.munitions;
+        this.munitionSelect.setValue(this.filterParams.munitions);
+      }
+      else {
+        this.filter.munitionChoices = [];
+        this.munitionSelect.reset();
+      }
+
+    } else {
+      this.filter.base = '';
+      this.filter.name = '';
+
+      this.filter.mr = null;
+      this.filter.rivenDisp = null;
+
+      this.filter.buildChoices = [];
+      this.buildSelect.reset();
+      this.filter.triggerChoices = [];
+      this.triggerSelect.reset();
+      this.filter.categoryChoices = [];
+      this.categorySelect.reset();
+      this.filter.munitionChoices = [];
+      this.munitionSelect.reset();
+    }
+
+    this.filter.filterCategory = this.data.currentTab;
+    this.changeTab(this.data.currentTab);
+  }
+
+  changeTab(tab) {
+    this.filter.changeTab(tab);
+
+    this.categoryTypes = this.filter.categoryTypes;
+    this.munitionTypes = this.filter.munitionTypes;
+    this.buildTypes = this.filter.buildTypes;
+    this.triggerTypes = this.filter.triggerTypes;
   }
 
   apply() {
@@ -152,36 +159,33 @@ export class FilterComponent implements OnInit {
     if (this.rivenDisp) {
       filterParams.rivenDisp = this.rivenDisp;
     }
-    if (this.buildType) {
-      filterParams.buildType = this.buildType.value;
+    if (this.buildSelect.value) {
+      filterParams.buildType = this.buildSelect.value;
     }
-    if (this.category) {
-      filterParams.category = this.category.value;
+    if (this.categorySelect.value) {
+      filterParams.category = this.categorySelect.value;
     }
-    if (this.triggerType) {
-      filterParams.triggerType = this.triggerType.value;
+    if (this.triggerSelect.value) {
+      filterParams.triggerType = this.triggerSelect.value;
     }
-    if (this.munitions) {
-      filterParams.munitions = this.munitions.value;
+    if (this.munitionSelect.value) {
+      filterParams.munitions = this.munitionSelect.value;
     }
-    if (this.tier) {
-      filterParams.tier = this.tier.value;
+    if (this.tierSelect.value) {
+      filterParams.tier = this.tierSelect.value;
     }
 
-    this.data.setFilterParams(filterParams);
+    this.filter.apply(this.filterParams);
   }
 
   clear() {
-    this.base = '';
-    this.name = '';
-    this.mr = null;
-    this.rivenDisp = null;
-    this.buildType.reset();
-    this.triggerType.reset();
-    this.category.reset();
-    this.munitions.reset();
+    this.buildSelect.reset();
+    this.categorySelect.reset();
+    this.triggerSelect.reset();
+    this.munitionSelect.reset();
+    this.tierSelect.reset();
 
-    this.data.clearFilters();
+    this.filter.clear();
   }
 
 }

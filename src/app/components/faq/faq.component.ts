@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
-import { Disclaimer } from '../../models/Disclaimer';
+import { FAQPoint } from '../../models/FAQPoint';
 
 @Component({
   selector: 'app-faq',
@@ -9,7 +9,7 @@ import { Disclaimer } from '../../models/Disclaimer';
 })
 export class FaqComponent implements OnInit {
 
-  faqs: Array<Disclaimer>;
+  faqs: Array<FAQPoint>;
 
   constructor(private dataService: DataService) {}
 

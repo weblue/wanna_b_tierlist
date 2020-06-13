@@ -60,10 +60,7 @@ export class TableComponent implements OnInit {
   }
 
   ngOnInit() {
-      this.data.getDb().subscribe((db) => {
-        this.loading = false;
-        this.switch(Categories.PRIMARY.toString());
-      });
+    this.switch(Categories.PRIMARY.toString());
   }
 
   switch(tab: string) {

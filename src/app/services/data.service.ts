@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable, of} from "rxjs";
 import {map} from "rxjs/operators";
-import {Database, types} from "../models/Database";
+import {Database} from "../models/Database";
 import {Tier} from "../models/Tier";
 import {Item} from "../models/Item";
 import {FilterParams} from "../models/FilterParams";
@@ -17,8 +17,9 @@ export class DataService {
   notifyTabListener: Subject<string> = new Subject<string>();
 
   private dbUrl = './assets/thelist.json';
+  public loading: boolean;
 
-  private filterParams: FilterParams;
+  private filterParams: FilterParams = new FilterParams();
   currentTab: string;
 
   constructor(
@@ -35,44 +36,50 @@ export class DataService {
 
     return this.http.get<Database>(this.dbUrl).pipe<Database>(map(db => {
         this.database = db;
+
         this.database.primaries = DataService.sort(db.Primaries);
         this.database.secondaries = DataService.sort(db.Secondaries);
         this.database.melees = DataService.sort(db.Melees);
 
-        for (let item in db.Primaries) {
-          if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
-            types.Primaries.categoryTypes.push(db.Primaries[item].category);
-
-          if (!types.Primaries.buildTypes.includes(db.Primaries[item].dmg))
-            types.Primaries.buildTypes.push(db.Primaries[item].dmg);
-
-          if (!types.Primaries.triggerTypes.includes(db.Primaries[item].type)) {
-            types.Primaries.triggerTypes.push(db.Primaries[item].type);
-          }
-
-          if (!types.Primaries.munitionTypes.includes(db.Primaries[item].munitions))
-            types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
-        }
-        for (let item in db.Secondaries) {
-          if (!types.Secondaries.categoryTypes.includes(db.Secondaries[item].category))
-            types.Secondaries.categoryTypes.push(db.Secondaries[item].category);
-
-          if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg)) {
-            types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
-          }
-
-          if (!types.Secondaries.triggerTypes.includes(db.Secondaries[item].type)) {
-            types.Secondaries.triggerTypes.push(db.Secondaries[item].type);
-          }
-        }
-
-        for (let item in db.Melees) {
-          if (!types.Melees.buildTypes.includes(db.Melees[item].dmg))
-            types.Melees.buildTypes.push(db.Melees[item].dmg);
-
-          if (!types.Melees.triggerTypes.includes(db.Melees[item].type))
-            types.Melees.triggerTypes.push(db.Melees[item].type);
-        }
+        // for (let item in db.Primaries) {
+        //   if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
+        //     types.Primaries.categoryTypes.push(db.Primaries[item].category);
+        //
+        //   if (!types.Primaries.buildTypes.includes(db.Primaries[item].dmg))
+        //     types.Primaries.buildTypes.push(db.Primaries[item].dmg);
+        //
+        //   if (!types.Primaries.triggerTypes.includes(db.Primaries[item].type) && !db.Primaries[item].type.includes('/')) {
+        //     types.Primaries.triggerTypes.push(db.Primaries[item].type);
+        //   }
+        //
+        //   if (!types.Primaries.munitionTypes.includes(db.Primaries[item].munitions) && !db.Primaries[item].munitions.includes('/'))
+        //     types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
+        // }
+        //
+        // for (let item in db.Secondaries) {
+        //   if (!types.Secondaries.categoryTypes.includes(db.Secondaries[item].category))
+        //     types.Secondaries.categoryTypes.push(db.Secondaries[item].category);
+        //
+        //   if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg)) {
+        //     types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
+        //   }
+        //
+        //   if (!types.Secondaries.triggerTypes.includes(db.Secondaries[item].type) && !db.Secondaries[item].type.includes('/')) {
+        //     types.Secondaries.triggerTypes.push(db.Secondaries[item].type);
+        //   }
+        //
+        //   if (!types.Secondaries.munitionTypes.includes(db.Secondaries[item].munitions) && !db.Secondaries[item].munitions.includes('/')) {
+        //     types.Secondaries.munitionTypes.push(db.Secondaries[item].munitions);
+        //   }
+        // }
+        //
+        // for (let item in db.Melees) {
+        //   if (!types.Melees.buildTypes.includes(db.Melees[item].dmg))
+        //     types.Melees.buildTypes.push(db.Melees[item].dmg);
+        //
+        //   if (!types.Melees.categoryTypes.includes(db.Melees[item].category))
+        //     types.Melees.categoryTypes.push(db.Melees[item].category);
+        // }
 
         return this.database;
       }
@@ -83,7 +90,7 @@ export class DataService {
     this.currentTab = tab;
     this.notifyTabListener.next(tab);
     return this.getDb().pipe<(Item | Tier)[]>(map(db => {
-        return this.applyFilter(this.database[tab]);
+        return this.applyFilter(db[tab]);
       })
     );
   }
@@ -141,12 +148,12 @@ export class DataService {
   }
 
   clearFilters() {
-    this.filterParams = new FilterParams();
-    this.setFilterParams(this.filterParams);
+    this.setFilterParams(new FilterParams());
   }
 
+  //TODO bug test this
   private applyFilter(items: any[]): (Item | Tier)[] {
-    console.log(this.filterParams.buildType);
+    // console.log(this.filterParams.buildType);
     return DataService.injectTiers(items.filter((item) => {
       let show = true;
       if (item.name && this.filterParams.name) {
@@ -172,7 +179,7 @@ export class DataService {
       if (item.category && this.filterParams.category) {
         let match = false;
         this.filterParams.category.forEach((category) => {
-          if (item.category === category)
+          if (item.category.includes(category))
             match = true;
         });
         show = show && match;
@@ -180,7 +187,7 @@ export class DataService {
       if (item.munitions && this.filterParams.munitions) {
         let match = false;
         this.filterParams.munitions.forEach((munition) => {
-          if (item.munitions === munition)
+          if (item.munitions.includes(munition))
             match = true;
         });
         show = show && match;
@@ -188,7 +195,7 @@ export class DataService {
       if (item.triggerType && this.filterParams.triggerType) {
         let match = false;
         this.filterParams.triggerType.forEach((triggerType) => {
-          if (item.triggerType === triggerType)
+          if (item.triggerType.includes(triggerType))
             match = true;
         });
         show = show && match;
@@ -196,7 +203,7 @@ export class DataService {
       if (item.dmg && this.filterParams.buildType) {
         let match = false;
         this.filterParams.buildType.forEach((buildType) => {
-          if (item.dmg === buildType)
+          if (item.dmg.includes(buildType))
             match = true;
         });
         show = show && match;

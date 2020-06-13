@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
-import { Disclaimer } from '../../models/Disclaimer';
+import { FAQPoint } from '../../models/FAQPoint';
 import { map } from "rxjs/operators";
 
 @Component({
@@ -10,16 +10,11 @@ import { map } from "rxjs/operators";
 })
 export class DisclaimersComponent implements OnInit {
 
-  disclaimers: Array<Disclaimer>;
+  disclaimers: Array<FAQPoint>;
 
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.dataService.getDb().subscribe(db => {
-      this.disclaimers = Object.keys(db.disclaimers).map(function(key) {
-        return db.disclaimers[key];
-      });
-    });
   }
 
 }

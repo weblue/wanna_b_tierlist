@@ -3,12 +3,13 @@ import {DataService} from "./services/data.service";
 
 import {Subscription} from "rxjs/internal/Subscription";
 import {SidebarService} from "./services/sidebar.service";
-import {MatDialog, MatDialogRef} from "@angular/material/dialog";
+import {MatDialog} from "@angular/material/dialog";
 import {FilterComponent} from "./components/filter/filter.component";
 import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
 import {NgcCookieConsentService} from "ngx-cookieconsent";
 import {Router, NavigationEnd} from '@angular/router';
 import {CookieService} from "ngx-cookie-service";
+import {FilterService} from "./services/filter.service";
 
 declare let gtag: Function;
 @Component({
@@ -17,7 +18,6 @@ declare let gtag: Function;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private loading: boolean = true;
 
   private _subscription: Subscription;
 
@@ -26,13 +26,12 @@ export class AppComponent implements OnInit {
   faUpArrow = faArrowUp;
   toTop = document.getElementById("toTop");
 
-  private cookieConsentSub: Subscription;
-
   constructor(
     private data: DataService,
     private sideServ: SidebarService,
     public dialog: MatDialog,
     public router: Router,
+    public filter: FilterService
   ) {
     this._subscription = sideServ.showSidebarChange.subscribe(() => {
       if (this.dialogRef) {
@@ -55,10 +54,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.data.getDb().subscribe((db) => {
-      this.loading = false;
-    });
-
     window.onscroll = function () {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         this.toTop.style.display = "block";

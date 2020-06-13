@@ -1,9 +1,8 @@
-import {Alert} from "./Alert";
 import {Archwing} from "./Archwing";
 import {Archgun} from "./Archgun";
 import {Archmelee} from "./Archmelee";
 import {Companion} from "./Companion";
-import {Disclaimer} from "./Disclaimer";
+import {FAQPoint} from "./FAQPoint";
 import {SentinelWeapon} from "./SentinelWeapon";
 import {Item} from "./Item";
 import {Tier} from "./Tier";
@@ -23,9 +22,7 @@ export class Database {
   Melees: {};
 
   version: string;
-  alerts: Alert[];
-  disclaimers: Disclaimer[];
-  faq: Disclaimer[];
+  faq: FAQPoint[];
 }
 
 export enum Categories {
@@ -40,23 +37,24 @@ export enum Categories {
 
 export const tierTypes = ['Top', 'Contender', 'Viable', 'Need buffs', 'Untested'];
 
-export const types = {
-  'Primaries': {
-    categoryTypes: [],
-    buildTypes: [],
-    triggerTypes: [],
-    munitionTypes: []
-  },
-  'Secondaries': {
-    categoryTypes: [],
-    buildTypes: [],
-    triggerTypes: [],
-  },
-  'Melees': {
-    buildTypes: [],
-    triggerTypes: [],
-  }
-};
+// export const types = {
+//   'Primaries': {
+//     categoryTypes: [],
+//     buildTypes: [],
+//     triggerTypes: [],
+//     munitionTypes: []
+//   },
+//   'Secondaries': {
+//     categoryTypes: [],
+//     buildTypes: [],
+//     triggerTypes: [],
+//     munitionTypes: []
+//   },
+//   'Melees': {
+//     categoryTypes: [],
+//     buildTypes: []
+//   }
+// };
 
 export const columnDefs = {
   'primaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],

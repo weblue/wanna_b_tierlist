@@ -21,24 +21,22 @@
       <td>
         <mat-form-field class="example-full-width">
           <mat-label>Tier</mat-label>
-          <mat-select [formControl]="tier" multiple>
-            <mat-option [value]="'Top'">Top</mat-option>
-            <mat-option [value]="'Contender'">Contender</mat-option>
-            <mat-option [value]="'Viable'">Viable</mat-option>
-            <mat-option [value]="'Need buffs'">Need buffs</mat-option>
-            <mat-option [value]="'Untested'">Untested</mat-option>
+          <mat-select [formControl]="tierSelect" multiple>
+            <mat-option *ngFor="let item of tierTypes" [value]="item">{{item}}</mat-option>
+
+            <!--            <mat-option [value]="'Top'">Top</mat-option>-->
+<!--            <mat-option [value]="'Contender'">Contender</mat-option>-->
+<!--            <mat-option [value]="'Viable'">Viable</mat-option>-->
+<!--            <mat-option [value]="'Need buffs'">Need buffs</mat-option>-->
+<!--            <mat-option [value]="'Untested'">Untested</mat-option>-->
           </mat-select>
         </mat-form-field>
       </td>
       <td>
         <mat-form-field class="example-full-width" >
           <mat-label>Category</mat-label>
-          <mat-select [formControl]="category" multiple>
-            <mat-option [value]="'Shotgun'">Shotgun</mat-option>
-            <mat-option [value]="'Rifle'">Rifle</mat-option>
-            <mat-option [value]="'Sniper'">Sniper</mat-option>
-            <mat-option [value]="'Bow'">Bow</mat-option>
-            <mat-option [value]="'Launcher'">Launcher</mat-option>
+          <mat-select [formControl]="categorySelect" multiple>
+            <mat-option *ngFor="let item of categoryTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
       </td>
@@ -47,7 +45,7 @@
       <td>
         <mat-form-field class="example-full-width" *ngIf = "filterCategory !== 'Melee'">
           <mat-label>Trigger Type</mat-label>
-          <mat-select [formControl]="triggerType" multiple>
+          <mat-select [formControl]="triggerSelect" multiple>
             <mat-option *ngFor="let item of triggerTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
@@ -55,7 +53,7 @@
       <td>
         <mat-form-field class="example-full-width" *ngIf = "filterCategory !== 'Melee'">
           <mat-label>Munitions</mat-label>
-          <mat-select [formControl]="munitions" multiple>
+          <mat-select [formControl]="munitionSelect" multiple>
             <mat-option *ngFor="let item of munitionTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
@@ -65,7 +63,7 @@
       <td>
         <mat-form-field class="example-full-width">
           <mat-label>Build Type</mat-label>
-          <mat-select [formControl]="buildType" multiple>
+          <mat-select [formControl]="buildSelect" multiple>
             <mat-option *ngFor="let item of buildTypes" [value]="item">{{item}}</mat-option>
           </mat-select>
         </mat-form-field>
