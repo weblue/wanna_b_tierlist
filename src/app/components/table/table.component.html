@@ -23,7 +23,7 @@
   </div>
 </div>
 
-<table class="contents table " mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
+<table class="contents table is-hoverable" mat-table matSort [dataSource]="tableDataSource" multiTemplateDataRows>
 
   <!--- Note that these columns can be defined in any order.
         The actual rendered columns are set as a property on the row definition" -->
@@ -52,7 +52,7 @@
 
   <ng-container matColumnDef="dmg">
     <th mat-header-cell *matHeaderCellDef> Build Type</th>
-    <td mat-cell class="padded" *matCellDef="let element"> {{element.dmg}} </td>
+    <td mat-cell class="padded" *matCellDef="let element"> <span *ngIf="element.dmg !== 'Critical & Status'">{{element.dmg}}</span><span *ngIf="element.dmg === 'Critical & Status'">Crit & Status</span> </td>
   </ng-container>
 
   <ng-container matColumnDef="munitions">

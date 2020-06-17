@@ -9,19 +9,37 @@ export class Melee extends Item{
   stance: string;
   notes: string;
 }
-//TODO these
 
-export enum meleeCategories {
-  SHOTGUN = 'Shotgun',
-  RIFLE = 'Rifle',
-  SNIPER = 'Sniper',
-  BOW = 'Bow',
-  LAUNCHER = 'Launcher'
-}
+export let meleeCategories = [
+  "Sword and Shield",
+  "Staff",
+  "Scythe",
+  "Fists",
+  "Hammer",
+  "Whip",
+  "Sword",
+  "Polearm",
+  "Dagger",
+  "Glaive",
+  "Blade and Whip",
+  "Dual Swords",
+  "Rapier",
+  "Nikana",
+  "Dual Daggers",
+  "Heavy Blade",
+  "Machete",
+  "Warfan",
+  "Sparring",
+  "Tonfa",
+  "Nunchaku",
+  "Two-handed Nikana",
+  "Gunblade",
+  "Claws"
+];
 
-export enum meleeBuildTypes {
-  CRIT_STATUS = 'Crit & Status',
-  STATUS = 'Status',
-  CRITICAL = 'Critical',
-  RAW = 'Raw'
-}
+export let meleeBuildTypes = [
+  'Status',
+  'Heavy Attack',
+  'Hybrid',
+  'Critical'
+];

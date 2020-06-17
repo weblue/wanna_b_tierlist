@@ -66,9 +66,9 @@ export class FilterService {
         break;
       case "melees":
         this.filterCategory = "Melee";
-        this.categoryTypes = Object.values(meleeCategories);
+        this.categoryTypes = meleeCategories;
         this.munitionTypes = [];
-        this.buildTypes = Object.values(meleeBuildTypes);
+        this.buildTypes = meleeBuildTypes;
         this.triggerTypes = [];
         break;
       default:

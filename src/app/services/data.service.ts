@@ -21,6 +21,23 @@ export class DataService {
 
   private filterParams: FilterParams = new FilterParams();
   currentTab: string;
+  Secondaries = {
+    categoryTypes: [],
+    buildTypes: [],
+    triggerTypes: [],
+    munitionTypes: []
+  };
+  Melees = {
+    buildTypes: [],
+    categoryTypes: []
+  };
+  Primaries = {
+    triggerTypes: [],
+    buildTypes: [],
+    categoryTypes: [],
+    munitionTypes: []
+
+  };
 
   constructor(
     private http: HttpClient
@@ -41,45 +58,50 @@ export class DataService {
         this.database.secondaries = DataService.sort(db.Secondaries);
         this.database.melees = DataService.sort(db.Melees);
 
+        // This debug code will print all the filtered weapon field types
+
         // for (let item in db.Primaries) {
-        //   if (!types.Primaries.categoryTypes.includes(db.Primaries[item].category))
-        //     types.Primaries.categoryTypes.push(db.Primaries[item].category);
+        //   if (!this.Primaries.categoryTypes.includes(db.Primaries[item].category))
+        //     this.Primaries.categoryTypes.push(db.Primaries[item].category);
         //
-        //   if (!types.Primaries.buildTypes.includes(db.Primaries[item].dmg))
-        //     types.Primaries.buildTypes.push(db.Primaries[item].dmg);
+        //   if (!this.Primaries.buildTypes.includes(db.Primaries[item].dmg))
+        //     this.Primaries.buildTypes.push(db.Primaries[item].dmg);
         //
-        //   if (!types.Primaries.triggerTypes.includes(db.Primaries[item].type) && !db.Primaries[item].type.includes('/')) {
-        //     types.Primaries.triggerTypes.push(db.Primaries[item].type);
+        //   if (!this.Primaries.triggerTypes.includes(db.Primaries[item].type) && !db.Primaries[item].type.includes('/')) {
+        //     this.Primaries.triggerTypes.push(db.Primaries[item].type);
         //   }
         //
-        //   if (!types.Primaries.munitionTypes.includes(db.Primaries[item].munitions) && !db.Primaries[item].munitions.includes('/'))
-        //     types.Primaries.munitionTypes.push(db.Primaries[item].munitions);
+        //   if (!this.Primaries.munitionTypes.includes(db.Primaries[item].munitions) && !db.Primaries[item].munitions.includes('/'))
+        //     this.Primaries.munitionTypes.push(db.Primaries[item].munitions);
         // }
-        //
+        // console.log(this.Primaries);
+
         // for (let item in db.Secondaries) {
-        //   if (!types.Secondaries.categoryTypes.includes(db.Secondaries[item].category))
-        //     types.Secondaries.categoryTypes.push(db.Secondaries[item].category);
+        //   if (!this.Secondaries.categoryTypes.includes(db.Secondaries[item].category))
+        //     this.Secondaries.categoryTypes.push(db.Secondaries[item].category);
         //
-        //   if (!types.Secondaries.buildTypes.includes(db.Secondaries[item].dmg)) {
-        //     types.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
+        //   if (!this.Secondaries.buildTypes.includes(db.Secondaries[item].dmg)) {
+        //     this.Secondaries.buildTypes.push(db.Secondaries[item].dmg);
         //   }
         //
-        //   if (!types.Secondaries.triggerTypes.includes(db.Secondaries[item].type) && !db.Secondaries[item].type.includes('/')) {
-        //     types.Secondaries.triggerTypes.push(db.Secondaries[item].type);
+        //   if (!this.Secondaries.triggerTypes.includes(db.Secondaries[item].type) && !db.Secondaries[item].type.includes('/')) {
+        //     this.Secondaries.triggerTypes.push(db.Secondaries[item].type);
         //   }
         //
-        //   if (!types.Secondaries.munitionTypes.includes(db.Secondaries[item].munitions) && !db.Secondaries[item].munitions.includes('/')) {
-        //     types.Secondaries.munitionTypes.push(db.Secondaries[item].munitions);
+        //   if (!this.Secondaries.munitionTypes.includes(db.Secondaries[item].munitions) && !db.Secondaries[item].munitions.includes('/')) {
+        //     this.Secondaries.munitionTypes.push(db.Secondaries[item].munitions);
         //   }
         // }
-        //
+        // console.log(this.Secondaries);
+
         // for (let item in db.Melees) {
-        //   if (!types.Melees.buildTypes.includes(db.Melees[item].dmg))
-        //     types.Melees.buildTypes.push(db.Melees[item].dmg);
+        //   if (!this.Melees.buildTypes.includes(db.Melees[item].dmg))
+        //     this.Melees.buildTypes.push(db.Melees[item].dmg);
         //
-        //   if (!types.Melees.categoryTypes.includes(db.Melees[item].category))
-        //     types.Melees.categoryTypes.push(db.Melees[item].category);
+        //   if (!this.Melees.categoryTypes.includes(db.Melees[item].category))
+        //     this.Melees.categoryTypes.push(db.Melees[item].category);
         // }
+      // console.log(this.Melees);
 
         return this.database;
       }

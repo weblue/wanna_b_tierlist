@@ -1032,7 +1032,7 @@
     "Ack & Brunt": {
       "base": "",
       "combo": "Null Warning",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28639/",
       "mr": 3,
       "name": "Ack & Brunt",
@@ -1083,7 +1083,7 @@
     "Ankyros Prime": {
       "base": "Ankyros need buffs",
       "combo": "Quaking Touch",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28642/",
       "mr": 8,
       "name": "Ankyros Prime",
@@ -1100,7 +1100,7 @@
     "Arca Titron": {
       "base": "",
       "combo": "Falling Rock",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28643/",
       "mr": 10,
       "name": "Arca Titron",
@@ -1134,7 +1134,7 @@
     "Bo Prime": {
       "base": "Bo need buffs",
       "combo": "Resolute Flurry",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28645/",
       "mr": 10,
       "name": "Bo Prime",
@@ -1168,7 +1168,7 @@
     "Broken War": {
       "base": "",
       "combo": "Wings and Beak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28647/",
       "mr": 10,
       "name": "Broken War",
@@ -1236,7 +1236,7 @@
     "Cerata": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28651/",
       "mr": 7,
       "name": "Cerata",
@@ -1253,7 +1253,7 @@
     "Ceti Lacera": {
       "base": "",
       "combo": "Claws of the Drake",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28652/",
       "mr": 7,
       "name": "Ceti Lacera",
@@ -1270,7 +1270,7 @@
     "Cobra & Crane": {
       "base": "",
       "combo": "Null Warning",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28653/",
       "mr": 10,
       "name": "Cobra & Crane",
@@ -1304,7 +1304,7 @@
     "Dakra Prime": {
       "base": "",
       "combo": "Wings and Beak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28655/",
       "mr": 10,
       "name": "Dakra Prime",
@@ -1321,7 +1321,7 @@
     "Dark Split-Sword": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28656/",
       "mr": 5,
       "name": "Dark Split-Sword",
@@ -1372,7 +1372,7 @@
     "Dex Dakra": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28659/",
       "mr": 6,
       "name": "Dex Dakra",
@@ -1389,7 +1389,7 @@
     "Dragon Nikana": {
       "base": "",
       "combo": "Swift Retribution",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28660/",
       "mr": 8,
       "name": "Dragon Nikana",
@@ -1406,7 +1406,7 @@
     "Dual Ether": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28662/",
       "mr": 8,
       "name": "Dual Ether",
@@ -1423,7 +1423,7 @@
     "Dual Heat Swords": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28663/",
       "mr": 3,
       "name": "Dual Heat Swords",
@@ -1440,7 +1440,7 @@
     "Dual Ichor": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28664/",
       "mr": 6,
       "name": "Dual Ichor",
@@ -1457,7 +1457,7 @@
     "Dual Kamas Prime": {
       "base": "Dual Kamas is mid  viable",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28665/",
       "mr": 8,
       "name": "Dual Kamas Prime",
@@ -1474,7 +1474,7 @@
     "Dual Keres": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28666/",
       "mr": 7,
       "name": "Dual Keres",
@@ -1491,7 +1491,7 @@
     "Dual Raza": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28667/",
       "mr": 6,
       "name": "Dual Raza",
@@ -1525,7 +1525,7 @@
     "Dual Zoren": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28669/",
       "mr": 2,
       "name": "Dual Zoren",
@@ -1644,7 +1644,7 @@
     "Fragor Prime": {
       "base": "Fragor need buffs",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28676/",
       "mr": 12,
       "name": "Fragor Prime",
@@ -1661,7 +1661,7 @@
     "Furax Wraith": {
       "base": "Furax need buffs",
       "combo": "Quaking Touch",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28677/",
       "mr": 9,
       "name": "Furax Wraith",
@@ -1678,7 +1678,7 @@
     "Galatine Prime": {
       "base": "Galatine need buffs",
       "combo": "Broken Bull",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28678/",
       "mr": 13,
       "name": "Galatine Prime",
@@ -1729,7 +1729,7 @@
     "Glaive Prime": {
       "base": "Glaive is mid viable",
       "combo": "Morning Sun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28689/",
       "mr": 10,
       "name": "Glaive Prime",
@@ -1746,7 +1746,7 @@
     "Gram Prime": {
       "base": "Gram is Viable",
       "combo": "Broken Bull",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28690/",
       "mr": 14,
       "name": "Gram Prime",
@@ -1763,7 +1763,7 @@
     "Guandao": {
       "base": "",
       "combo": "Cresting Peak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28691/",
       "mr": 4,
       "name": "Guandao",
@@ -1780,7 +1780,7 @@
     "Gunsen": {
       "base": "",
       "combo": "Scathing Plume",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28692/",
       "mr": 8,
       "name": "Gunsen",
@@ -1797,7 +1797,7 @@
     "Halikar": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28693/",
       "mr": 7,
       "name": "Halikar",
@@ -1831,7 +1831,7 @@
     "Heat Dagger": {
       "base": "",
       "combo": "Carving Spike",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28695/",
       "mr": 3,
       "name": "Heat Dagger",
@@ -1865,7 +1865,7 @@
     "Heliocor": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28697/",
       "mr": 9,
       "name": "Heliocor",
@@ -1882,7 +1882,7 @@
     "Hirudo": {
       "base": "",
       "combo": "Inferno",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28698/",
       "mr": 7,
       "name": "Hirudo",
@@ -1899,7 +1899,7 @@
     "Jat Kittag": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28699/",
       "mr": 5,
       "name": "Jat Kittag",
@@ -1916,7 +1916,7 @@
     "Jat Kusar": {
       "base": "",
       "combo": "Claws of the Drake",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28700/",
       "mr": 11,
       "name": "Jat Kusar",
@@ -1984,7 +1984,7 @@
     "Kesheg": {
       "base": "",
       "combo": "Spiraling Pinnacle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28704/",
       "mr": 7,
       "name": "Kesheg",
@@ -2018,7 +2018,7 @@
     "Kogake Prime": {
       "base": "Kogake need buffs",
       "combo": "Inferno",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28707/kogake-prime/warframe-tier-list-kogake-prime/",
       "mr": 10,
       "name": "Kogake Prime",
@@ -2035,7 +2035,7 @@
     "Korrudo": {
       "base": "",
       "combo": "Inferno",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28708/korrudo/warframe-tier-list-korrudo/",
       "mr": 9,
       "name": "Korrudo",
@@ -2069,7 +2069,7 @@
     "Krohkur": {
       "base": "",
       "combo": "Wings and Beak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28710/",
       "mr": 9,
       "name": "Krohkur",
@@ -2086,7 +2086,7 @@
     "Kronen Prime": {
       "base": "Kronen is mid viable",
       "combo": "Rogue Edict",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28711/",
       "mr": 13,
       "name": "Kronen Prime",
@@ -2103,7 +2103,7 @@
     "Lesion": {
       "base": "",
       "combo": "Spiraling Pinnacle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28713/",
       "mr": 9,
       "name": "Lesion",
@@ -2120,7 +2120,7 @@
     "Machete Wraith": {
       "base": "Machete is mid viable",
       "combo": "Rapid Current",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28714/",
       "mr": 11,
       "name": "Machete Wraith",
@@ -2137,7 +2137,7 @@
     "Masseter": {
       "base": "",
       "combo": "Broken Bull",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28715/",
       "mr": 8,
       "name": "Masseter",
@@ -2154,7 +2154,7 @@
     "Mios": {
       "base": "",
       "combo": "Claws of the Drake",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28716/",
       "mr": 8,
       "name": "Mios",
@@ -2188,7 +2188,7 @@
     "Nami Skyla Prime": {
       "base": "Nami Skyla is mid viable",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28718/",
       "mr": 11,
       "name": "Nami Skyla Prime",
@@ -2205,7 +2205,7 @@
     "Nami Solo": {
       "base": "",
       "combo": "Rapid Current",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28719/",
       "mr": 6,
       "name": "Nami Solo",
@@ -2222,7 +2222,7 @@
     "Nikana Prime": {
       "base": "Nikana is mid viable",
       "combo": "Swift Retribution",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28720/",
       "mr": 12,
       "name": "Nikana Prime",
@@ -2239,7 +2239,7 @@
     "Ninkondi Prime": {
       "base": "",
       "combo": "Molten Whirlpool",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28721/",
       "mr": 14,
       "name": "Ninkondi Prime",
@@ -2256,7 +2256,7 @@
     "Ohma": {
       "base": "",
       "combo": "Rogue Edict",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28722/",
       "mr": 8,
       "name": "Ohma",
@@ -2273,7 +2273,7 @@
     "Okina": {
       "base": "",
       "combo": "True Kiss",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28723/",
       "mr": 5,
       "name": "Okina",
@@ -2290,7 +2290,7 @@
     "Orthos Prime": {
       "base": "Orthos is mid viable",
       "combo": "Spiraling Pinnacle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28724/",
       "mr": 12,
       "name": "Orthos Prime",
@@ -2307,7 +2307,7 @@
     "Orvius": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28726/",
       "mr": 5,
       "name": "Orvius",
@@ -2324,7 +2324,7 @@
     "Pangolin Prime": {
       "base": "",
       "combo": "Wings and Beak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/31438/",
       "mr": 14,
       "name": "Pangolin Prime",
@@ -2341,7 +2341,7 @@
     "Pathocyst": {
       "base": "",
       "combo": "Morning Sun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28729/",
       "mr": 9,
       "name": "Pathocyst",
@@ -2375,7 +2375,7 @@
     "Plasma Sword": {
       "base": "",
       "combo": "Wings and Beak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28731/",
       "mr": 4,
       "name": "Plasma Sword",
@@ -2392,7 +2392,7 @@
     "Prisma Dual Cleavers": {
       "base": "Dual Cleavers is high viable",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28732/",
       "mr": 9,
       "name": "Prisma Dual Cleavers",
@@ -2409,7 +2409,7 @@
     "Prisma Obex": {
       "base": "Obex need buffs",
       "combo": "Inferno",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28734/",
       "mr": 10,
       "name": "Prisma Obex",
@@ -2426,7 +2426,7 @@
     "Prisma Skana": {
       "base": "Skana need buffs",
       "combo": "Wings and Beak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28735/",
       "mr": 8,
       "name": "Prisma Skana",
@@ -2528,7 +2528,7 @@
     "Ripkas": {
       "base": "",
       "combo": "Heavy Attack",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/31580/",
       "mr": 5,
       "name": "Ripkas",
@@ -2545,7 +2545,7 @@
     "Sancti Magistar": {
       "base": "Magistar need buffs",
       "combo": "Falling Rock",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28742/",
       "mr": 8,
       "name": "Sancti Magistar",
@@ -2579,7 +2579,7 @@
     "Scindo Prime": {
       "base": "Scindo need buffs",
       "combo": "Broken Bull",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28744/",
       "mr": 8,
       "name": "Scindo Prime",
@@ -2681,7 +2681,7 @@
     "Sibear": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28750/",
       "mr": 6,
       "name": "Sibear",
@@ -2698,7 +2698,7 @@
     "Sigma & Octantis": {
       "base": "",
       "combo": "Null Warning",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28751/",
       "mr": 10,
       "name": "Sigma & Octantis",
@@ -2715,7 +2715,7 @@
     "Silva & Aegis Prime": {
       "base": "Silva & Aegis is mid viable",
       "combo": "Null Warning",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28752/",
       "mr": 12,
       "name": "Silva & Aegis Prime",
@@ -2732,7 +2732,7 @@
     "Skiajati": {
       "base": "",
       "combo": "Swift Retribution",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28753/",
       "mr": 11,
       "name": "Skiajati",
@@ -2749,7 +2749,7 @@
     "Synoid Heliocor": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28754/",
       "mr": 11,
       "name": "Synoid Heliocor",
@@ -2783,7 +2783,7 @@
     "Tekko Prime": {
       "base": "",
       "combo": "Quaking Touch",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28756/",
       "mr": 12,
       "name": "Tekko Prime",
@@ -2800,7 +2800,7 @@
     "Telos Boltace": {
       "base": "Boltace need buffs",
       "combo": "Rogue Edict",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28757/",
       "mr": 11,
       "name": "Telos Boltace",
@@ -2817,7 +2817,7 @@
     "Tipedo Prime": {
       "base": "Tipedo need buffs",
       "combo": "Resolute Flurry",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28758/",
       "mr": 10,
       "name": "Tipedo Prime",
@@ -2868,7 +2868,7 @@
     "Twin Krohkur": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28761/",
       "mr": 10,
       "name": "Twin Krohkur",
@@ -2885,7 +2885,7 @@
     "Vaykor Sydon": {
       "base": "Sydon is low viable",
       "combo": "Cresting Peak",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28762/",
       "mr": 11,
       "name": "Vaykor Sydon",
@@ -2902,7 +2902,7 @@
     "Venka Prime": {
       "base": "Venka is mid viable",
       "combo": "Jagged Gash",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28763/",
       "mr": 14,
       "name": "Venka Prime",
@@ -2919,7 +2919,7 @@
     "Volnus": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28764/",
       "mr": 9,
       "name": "Volnus",
@@ -2936,7 +2936,7 @@
     "War": {
       "base": "",
       "combo": "Broken Bull",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28765/",
       "mr": 10,
       "name": "War",
@@ -2953,7 +2953,7 @@
     "Wolf Sledge": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28766/",
       "mr": 7,
       "name": "Wolf Sledge",
@@ -3055,7 +3055,7 @@
     "Kuva Shildeg": {
       "base": "",
       "combo": "Raging Whirlwind",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/32088/",
       "mr": 13,
       "name": "Kuva Shildeg",
@@ -3140,7 +3140,7 @@
     "Paracesis": {
       "base": "",
       "combo": "Broken Bull",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28728/",
       "mr": 0,
       "name": "Paracesis",
@@ -3210,7 +3210,7 @@
     "Acceltra": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/8785/",
       "mr": 8,
       "name": "Acceltra",
@@ -3227,7 +3227,7 @@
     "Amprex": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9665/",
       "mr": 10,
       "name": "Amprex",
@@ -3261,7 +3261,7 @@
     "Argonak": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26467/",
       "mr": 7,
       "name": "Argonak",
@@ -3295,7 +3295,7 @@
     "Attica": {
       "base": "",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26468/",
       "mr": 7,
       "name": "Attica",
@@ -3312,7 +3312,7 @@
     "Basmu": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27818/",
       "mr": 11,
       "name": "Basmu",
@@ -3329,7 +3329,7 @@
     "Battacor": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9768/",
       "mr": 10,
       "name": "Battacor",
@@ -3346,7 +3346,7 @@
     "Baza Prime": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/12508/",
       "mr": 10,
       "name": "Baza Prime",
@@ -3397,7 +3397,7 @@
     "Braton Prime": {
       "base": "Braton and Braton Vandal is viable",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26476/",
       "mr": 8,
       "name": "Braton Prime",
@@ -3414,7 +3414,7 @@
     "Burston Prime": {
       "base": "Burston need buffs",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26477/",
       "mr": 12,
       "name": "Burston Prime",
@@ -3431,7 +3431,7 @@
     "Buzlok": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10381/",
       "mr": 11,
       "name": "Buzlok",
@@ -3448,7 +3448,7 @@
     "Cernos Prime": {
       "base": "Cernos need buffs",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9671/",
       "mr": 12,
       "name": "Cernos Prime",
@@ -3465,7 +3465,7 @@
     "Convectrix": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10365/",
       "mr": 7,
       "name": "Convectrix",
@@ -3499,7 +3499,7 @@
     "Daikyu": {
       "base": "",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10380/",
       "mr": 10,
       "name": "Daikyu",
@@ -3618,7 +3618,7 @@
     "Fulmin": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9652/",
       "mr": 8,
       "name": "Fulmin",
@@ -3635,7 +3635,7 @@
     "Glaxion Vandal": {
       "base": "Glaxion is Contender",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9664/",
       "mr": 12,
       "name": "Glaxion Vandal",
@@ -3652,7 +3652,7 @@
     "Harpak": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26554/",
       "mr": 7,
       "name": "Harpak",
@@ -3669,7 +3669,7 @@
     "Hema": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10359/",
       "mr": 7,
       "name": "Hema",
@@ -3703,7 +3703,7 @@
     "Ignis Wraith": {
       "base": "Ignis is Contender",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9160/",
       "mr": 9,
       "name": "Ignis Wraith",
@@ -3720,7 +3720,7 @@
     "Javlok": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26557/",
       "mr": 7,
       "name": "Javlok",
@@ -3737,7 +3737,7 @@
     "Karak Wraith": {
       "base": "Karak need buffs",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26558/",
       "mr": 7,
       "name": "Karak Wraith",
@@ -3788,7 +3788,7 @@
     "Lanka": {
       "base": "",
       "category": "Sniper",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9787/",
       "mr": 10,
       "name": "Lanka",
@@ -3805,7 +3805,7 @@
     "Latron Prime": {
       "base": "Latron and Latron Wraith need buffs",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26561/",
       "mr": 10,
       "name": "Latron Prime",
@@ -3822,7 +3822,7 @@
     "Lenz": {
       "base": "",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9769/",
       "mr": 8,
       "name": "Lenz",
@@ -3890,7 +3890,7 @@
     "Nagantaka": {
       "base": "",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10372/",
       "mr": 9,
       "name": "Nagantaka",
@@ -3941,7 +3941,7 @@
     "Opticor Vandal": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9773/",
       "mr": 14,
       "name": "Opticor Vandal",
@@ -3958,7 +3958,7 @@
     "Panthera": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26567/",
       "mr": 7,
       "name": "Panthera",
@@ -3992,7 +3992,7 @@
     "Paris Prime": {
       "base": "Paris need buffs",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10370/",
       "mr": 8,
       "name": "Paris Prime",
@@ -4043,7 +4043,7 @@
     "Prisma Gorgon": {
       "base": "Gorgon and Gorgon Wraith is viable",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9681/prisma-gorgon/warframe-tier-list-prisma-gorgon/",
       "mr": 11,
       "name": "Prisma Gorgon",
@@ -4060,7 +4060,7 @@
     "Prisma Grakata": {
       "base": "Grakata is viable",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9785/prisma-grakata/warframe-tier-list-prisma-grakata/",
       "mr": 11,
       "name": "Prisma Grakata",
@@ -4077,7 +4077,7 @@
     "Prisma Grinlok": {
       "base": "Grinlok need buffs",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10378/prisma-grinlok/warframe-tier-list-prisma-grinlok/",
       "mr": 11,
       "name": "Prisma Grinlok",
@@ -4111,7 +4111,7 @@
     "Quanta Vandal": {
       "base": "Quanta is viable",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9788/quanta-vandal/warframe-tier-list-quanta-vandal/",
       "mr": 10,
       "name": "Quanta Vandal",
@@ -4128,7 +4128,7 @@
     "Quartakk": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26576/",
       "mr": 10,
       "name": "Quartakk",
@@ -4145,7 +4145,7 @@
     "Quellor": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/11956/quellor/warframe-tier-list-quellor/",
       "mr": 12,
       "name": "Quellor",
@@ -4162,7 +4162,7 @@
     "Rakta Cernos": {
       "base": "Cernos need buffs",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9790/rakta-cernos/warframe-tier-list-rakta-cernos/",
       "mr": 12,
       "name": "Rakta Cernos",
@@ -4179,7 +4179,7 @@
     "Rubico Prime": {
       "base": "Rubico is viable",
       "category": "Sniper",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9679/",
       "mr": 12,
       "name": "Rubico Prime",
@@ -4230,7 +4230,7 @@
     "Secura Penta": {
       "base": "Penta is Contender",
       "category": "Launcher",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10371/secura-penta/warframe-tier-list-secura-penta/",
       "mr": 12,
       "name": "Secura Penta",
@@ -4247,7 +4247,7 @@
     "Shedu": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/34147/",
       "mr": 13,
       "name": "Shedu",
@@ -4264,7 +4264,7 @@
     "Snipetron Vandal": {
       "base": "Snipetron need buffs",
       "category": "Sniper",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10362/snipetron-vandal/warframe-tier-list-snipetron-vandal/",
       "mr": 5,
       "name": "Snipetron Vandal",
@@ -4298,7 +4298,7 @@
     "Soma Prime": {
       "base": "Soma is need buffs",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10377/soma-prime/warframe-tier-list-soma-prime/",
       "mr": 7,
       "name": "Soma Prime",
@@ -4315,7 +4315,7 @@
     "Stradavar Prime": {
       "base": "Stradavar is viable",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10363/stradavar-prime/warframe-tier-list-stradavar-prime/",
       "mr": 12,
       "name": "Stradavar Prime",
@@ -4349,7 +4349,7 @@
     "Supra Vandal": {
       "base": "Supra is Contender",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10374/supra-vandal/warframe-tier-list-supra-vandal/",
       "mr": 14,
       "name": "Supra Vandal",
@@ -4366,7 +4366,7 @@
     "Sybaris Prime": {
       "base": "Dex Sybaris need buffs",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10375/sybaris-prime/warframe-tier-list-sybaris-prime/",
       "mr": 12,
       "name": "Sybaris Prime",
@@ -4383,7 +4383,7 @@
     "Synapse": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9663/",
       "mr": 11,
       "name": "Synapse",
@@ -4400,7 +4400,7 @@
     "Synoid Simulor": {
       "base": "Simulor need buffs",
       "category": "Launcher",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/37970/",
       "mr": 12,
       "name": "Synoid Simulor",
@@ -4417,7 +4417,7 @@
     "Telos Boltor": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10360/telos-boltor/warframe-tier-list-telos-boltor/",
       "mr": 12,
       "name": "Telos Boltor",
@@ -4434,7 +4434,7 @@
     "Tenora": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9791/tenora/warframe-tier-list-tenora/",
       "mr": 10,
       "name": "Tenora",
@@ -4451,7 +4451,7 @@
     "Tiberon Prime": {
       "base": "Tiberon is viable",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/32503/",
       "mr": 14,
       "name": "Tiberon Prime",
@@ -4553,7 +4553,7 @@
     "Veldt": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/26591/",
       "mr": 8,
       "name": "Veldt",
@@ -4570,7 +4570,7 @@
     "Vulkar Wraith": {
       "base": "Vulkar need buffs",
       "category": "Sniper",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10382/vulkar-wraith/warframe-tier-list-vulkar-wraith/",
       "mr": 7,
       "name": "Vulkar Wraith",
@@ -4587,7 +4587,7 @@
     "Zarr": {
       "base": "",
       "category": "Launcher",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/10383/zarr/warframe-tier-list-zarr/",
       "mr": 7,
       "name": "Zarr",
@@ -4604,7 +4604,7 @@
     "Zenith": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9654/zenith/warframe-tier-list-zenith/",
       "mr": 10,
       "name": "Zenith",
@@ -4621,7 +4621,7 @@
     "Zhuge Prime": {
       "base": "Zhuge is Contender",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/9771/zhuge-prime/warframe-tier-list-zhuge-prime/",
       "mr": 14,
       "name": "Zhuge Prime",
@@ -4638,7 +4638,7 @@
     "Kuva Bramma": {
       "base": "",
       "category": "Bow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23285/",
       "mr": 15,
       "name": "Kuva Bramma",
@@ -4655,7 +4655,7 @@
     "Kuva Chakkhurr": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23286/",
       "mr": 15,
       "name": "Kuva Chakkhurr",
@@ -4672,7 +4672,7 @@
     "Kuva Drakgoon": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23282/kuva-drakgoon/warframe-tier-list-kuva-drakgoon-hmviral/",
       "mr": 13,
       "name": "Kuva Drakgoon",
@@ -4689,7 +4689,7 @@
     "Kuva Hind": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23288/",
       "mr": 15,
       "name": "Kuva Hind",
@@ -4706,7 +4706,7 @@
     "Kuva Karak": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23289/",
       "mr": 13,
       "name": "Kuva Karak",
@@ -4757,7 +4757,7 @@
     "Kuva Quartakk": {
       "base": "",
       "category": "Rifle",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23292/",
       "mr": 13,
       "name": "Kuva Quartakk",
@@ -4774,7 +4774,7 @@
     "Kuva Tonkor": {
       "base": "",
       "category": "Launcher",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23293/",
       "mr": 13,
       "name": "Kuva Tonkor",
@@ -4856,7 +4856,7 @@
     "Akbolto Prime": {
       "base": "Base is Viable",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27829/",
       "mr": 13,
       "name": "Akbolto Prime",
@@ -4890,7 +4890,7 @@
     "Akjagara Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27833/",
       "mr": 12,
       "name": "Akjagara Prime",
@@ -4924,7 +4924,7 @@
     "Aklex Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27839/",
       "mr": 15,
       "name": "Aklex Prime",
@@ -4941,7 +4941,7 @@
     "Akmagnus": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27838/",
       "mr": 12,
       "name": "Akmagnus",
@@ -4958,7 +4958,7 @@
     "Aksomati Prime": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/12519/",
       "mr": 12,
       "name": "Aksomati Prime",
@@ -4975,7 +4975,7 @@
     "Akstiletto Prime": {
       "base": "Base is Viable",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/8930/",
       "mr": 10,
       "name": "Akstiletto Prime",
@@ -4992,7 +4992,7 @@
     "Akvasto Prime": {
       "base": "Base is Viable",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27834/",
       "mr": 12,
       "name": "Akvasto Prime",
@@ -5009,7 +5009,7 @@
     "Akzani": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27835/",
       "mr": 4,
       "name": "Akzani",
@@ -5026,7 +5026,7 @@
     "Arca Scisco": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27836/",
       "mr": 10,
       "name": "Arca Scisco",
@@ -5060,7 +5060,7 @@
     "Azima": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27852/",
       "mr": 6,
       "name": "Azima",
@@ -5077,7 +5077,7 @@
     "Ballistica Prime": {
       "base": "Base Need Buffs",
       "category": "Crossbow",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27853/",
       "mr": 14,
       "name": "Ballistica Prime",
@@ -5145,7 +5145,7 @@
     "Despair": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27857/",
       "mr": 4,
       "name": "Despair",
@@ -5264,7 +5264,7 @@
     "Hystrix": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27865/",
       "mr": 7,
       "name": "Hystrix",
@@ -5349,7 +5349,7 @@
     "Lato Vandal": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27882/",
       "mr": 7,
       "name": "Lato Vandal",
@@ -5366,7 +5366,7 @@
     "Lex Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27883/",
       "mr": 8,
       "name": "Lex Prime",
@@ -5417,7 +5417,7 @@
     "Ocucor": {
       "base": "",
       "category": "Beam",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27886/",
       "mr": 8,
       "name": "Ocucor",
@@ -5434,7 +5434,7 @@
     "Pandero": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27887/",
       "mr": 8,
       "name": "Pandero",
@@ -5451,7 +5451,7 @@
     "Plinx": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27888/",
       "mr": 6,
       "name": "Plinx",
@@ -5485,7 +5485,7 @@
     "Prisma Angstrum": {
       "base": "Base Need Buffs",
       "category": "Launcher",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27890/",
       "mr": 8,
       "name": "Prisma Angstrum",
@@ -5502,7 +5502,7 @@
     "Prisma Twin Gremlins": {
       "base": "Base Need Buffs",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27892/",
       "mr": 11,
       "name": "Prisma Twin Gremlins",
@@ -5519,7 +5519,7 @@
     "Pyrana Prime": {
       "base": "Base is Contender",
       "category": "Shotgun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27891/",
       "mr": 13,
       "name": "Pyrana Prime",
@@ -5553,7 +5553,7 @@
     "Sancti Castanas": {
       "base": "Base is Viable",
       "category": "Thrown",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27894/",
       "mr": 10,
       "name": "Sancti Castanas",
@@ -5570,7 +5570,7 @@
     "Secura Dual Cestra": {
       "base": "Base Need Buffs",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27901/",
       "mr": 10,
       "name": "Secura Dual Cestra",
@@ -5604,7 +5604,7 @@
     "Sicarus Prime": {
       "base": "Base is Viable",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27903/",
       "mr": 14,
       "name": "Sicarus Prime",
@@ -5638,7 +5638,7 @@
     "Spectra Vandal": {
       "base": "Base Need Buffs",
       "category": "Beam",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27905/",
       "mr": 4,
       "name": "Spectra Vandal",
@@ -5655,7 +5655,7 @@
     "Spira Prime": {
       "base": "Base is Viable",
       "category": "Thrown",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27906/",
       "mr": 10,
       "name": "Spira Prime",
@@ -5672,7 +5672,7 @@
     "Staticor": {
       "base": "",
       "category": "Launcher",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27907/",
       "mr": 10,
       "name": "Staticor",
@@ -5689,7 +5689,7 @@
     "Stubba": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27908/",
       "mr": 7,
       "name": "Stubba",
@@ -5723,7 +5723,7 @@
     "Synoid Gammacor": {
       "base": "Base is Viable",
       "category": "Beam",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27910/",
       "mr": 7,
       "name": "Synoid Gammacor",
@@ -5740,7 +5740,7 @@
     "Talons": {
       "base": "",
       "category": "Thrown",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27911/",
       "mr": 8,
       "name": "Talons",
@@ -5774,7 +5774,7 @@
     "Twin Grakatas": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/38136/",
       "mr": 9,
       "name": "Twin Grakatas",
@@ -5825,7 +5825,7 @@
     "Twin Vipers Wraith": {
       "base": "Base Need Buffs",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27924/",
       "mr": 7,
       "name": "Twin Vipers Wraith",
@@ -5859,7 +5859,7 @@
     "Vasto Prime": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27926/",
       "mr": 10,
       "name": "Vasto Prime",
@@ -5876,7 +5876,7 @@
     "Vaykor Marelok": {
       "base": "Base Need Buffs",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27927/",
       "mr": 10,
       "name": "Vaykor Marelok",
@@ -5927,7 +5927,7 @@
     "Herald of Ruination": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27946/",
       "mr": 0,
       "name": "Catchmoon - Herald of Ruination",
@@ -5944,7 +5944,7 @@
     "Baleful Purifier": {
       "base": "",
       "category": "Beam",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27947/",
       "mr": 0,
       "name": "Gaze - Baleful Purifier",
@@ -5961,7 +5961,7 @@
     "Thunderous Rancor": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27948/",
       "mr": 0,
       "name": "Rattleguts - Thunderous Rancor",
@@ -5978,7 +5978,7 @@
     "Mordant Meteor": {
       "base": "",
       "category": "Semi-auto Explosive",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/27949/",
       "mr": 0,
       "name": "Tombfinger - Mordant Meteor",
@@ -5995,7 +5995,7 @@
     "Kuva Brakk": {
       "base": "",
       "category": "Shotgun",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23294/",
       "mr": 13,
       "name": "Kuva Brakk",
@@ -6012,7 +6012,7 @@
     "Kuva Kraken": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23295/",
       "mr": 15,
       "name": "Kuva Kraken",
@@ -6029,7 +6029,7 @@
     "Kuva Nukor": {
       "base": "",
       "category": "Beam",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23296/",
       "mr": 13,
       "name": "Kuva Nukor",
@@ -6046,7 +6046,7 @@
     "Kuva Seer": {
       "base": "",
       "category": "Semi-auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23297/",
       "mr": 15,
       "name": "Kuva Seer",
@@ -6063,7 +6063,7 @@
     "Kuva Twin Stubbas": {
       "base": "",
       "category": "Auto",
-      "dmg": "Crit & Status",
+      "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/23298/",
       "mr": 13,
       "name": "Kuva Twin Stubbas",

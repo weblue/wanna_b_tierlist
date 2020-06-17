@@ -10,40 +10,42 @@ export class Secondary {
   type: string;
   url: string;
 }
-//TODO these
 
-export enum secCategories {
-  SHOTGUN = 'Shotgun',
-  RIFLE = 'Rifle',
-  SNIPER = 'Sniper',
-  BOW = 'Bow',
-  LAUNCHER = 'Launcher'
-}
+export let secCategories = [
+  'Semi-auto',
+  'Auto',
+  'Beam',
+  'Shotgun',
+  'Launcher',
+  'Crossbow',
+  'Thrown',
+  'Semi-auto Explosive'
+];
 
-export enum secBuildTypes {
-  CRIT_STATUS = 'Crit & Status',
-  STATUS = 'Status',
-  CRITICAL = 'Critical',
-  RAW = 'Raw'
-}
+export let secBuildTypes = [
+  'Status',
+  'Critical',
+  'Raw',
+  'Speed'
+];
 
-export enum secTriggerTypes {
-  FULL_AUTO = 'Full-auto',
-  HELD = 'Held',
-  SEMI_AUTO = 'Semi-auto',
-  FORCE_CHARGE = 'Force charge',
-  FULL_AUTO_BURST = 'Full-auto burst',
-  BURST = 'Burst',
-  CHARGE = 'Charge',
-  DETONATE = 'Detonate',
-  THROW = 'Throw',
-  SPOOL_UP = 'Spool-up',
-  MAG_BURST = 'Mag burst',
-  DUPLEX = 'Duplex',
-}
+export let secTriggerTypes = [
+  'Full-auto',
+  'Held',
+  'Semi-auto',
+  'Force charge',
+  'Full-auto burst',
+  'Burst',
+  'Charge',
+  'Detonate',
+  'Throw',
+  'Spool-up',
+  'Mag burst',
+  'Duplex',
+];
 
-export enum secMunitionTypes {
-  PROJECTILE = 'Projectile',
-  BEAM = 'Beam',
-  HITSCAN = 'Hitscan'
-}
+export let secMunitionTypes = [
+  'Projectile',
+  'Beam',
+  'Hitscan'
+];
