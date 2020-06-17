@@ -175,7 +175,7 @@ export class FilterComponent implements OnInit {
       filterParams.tier = this.tierSelect.value;
     }
 
-    this.filter.apply(this.filterParams);
+    this.filter.apply(filterParams);
   }
 
   clear() {

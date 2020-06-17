@@ -48,7 +48,7 @@ export class FilterService {
   }
 
   changeTab(tab) {
-    console.log('filter service: change tab ' + tab);
+    console.log('filter service: getting values for ' + tab);
     switch (tab) {
       case "primaries":
         this.filterCategory = "Primary";

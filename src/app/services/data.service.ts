@@ -161,7 +161,11 @@ export class DataService {
   public setFilterParams(input: FilterParams) {
     console.log(input);
     this.filterParams = input;
-    this.getTabData(this.currentTab);
+    // this.getTabData(this.currentTab);
+    return this.getDb().pipe<(Item | Tier)[]>(map(db => {
+        return this.applyFilter(db[this.currentTab]);
+      })
+    );
     this.dataChange.next();
   }
 
@@ -173,7 +177,6 @@ export class DataService {
     this.setFilterParams(new FilterParams());
   }
 
-  //TODO bug test this
   private applyFilter(items: any[]): (Item | Tier)[] {
     // console.log(this.filterParams.buildType);
     return DataService.injectTiers(items.filter((item) => {
@@ -198,7 +201,7 @@ export class DataService {
 
         show = show && match;
       }
-      if (item.category && this.filterParams.category) {
+      if (item.category && this.filterParams.category && this.filterParams.category.length > 0) {
         let match = false;
         this.filterParams.category.forEach((category) => {
           if (item.category.includes(category))
@@ -206,7 +209,7 @@ export class DataService {
         });
         show = show && match;
       }
-      if (item.munitions && this.filterParams.munitions) {
+      if (item.munitions && this.filterParams.munitions && this.filterParams.munitions.length > 0) {
         let match = false;
         this.filterParams.munitions.forEach((munition) => {
           if (item.munitions.includes(munition))
@@ -214,7 +217,7 @@ export class DataService {
         });
         show = show && match;
       }
-      if (item.triggerType && this.filterParams.triggerType) {
+      if (item.triggerType && this.filterParams.triggerType && this.filterParams.triggerType.length > 0) {
         let match = false;
         this.filterParams.triggerType.forEach((triggerType) => {
           if (item.triggerType.includes(triggerType))
@@ -222,7 +225,7 @@ export class DataService {
         });
         show = show && match;
       }
-      if (item.dmg && this.filterParams.buildType) {
+      if (item.dmg && this.filterParams.buildType && this.filterParams.buildType.length > 0) {
         let match = false;
         this.filterParams.buildType.forEach((buildType) => {
           if (item.dmg.includes(buildType))
