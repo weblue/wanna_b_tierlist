@@ -4651,6 +4651,66 @@
 			"url": "http://warframe.fandom.com/wiki/Kuva_Tonkor",
 			"notes": "High damage per shot; projectile munitions. Tested with 60% Toxin bonus. Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 0.95
+		},
+		"Languish": {
+			"base": "",
+			"category": "Shotgun",
+			"dmg": "Crit/Status",
+			"dmgLink": "https://overframe.gg/build/52639/",
+			"mr": 0,
+			"name": "CA-TR-SP - Languish",
+			"rank": 35.17,
+			"perfIndex": 77.5,
+			"tier": "Top",
+			"type": "Semi",
+			"url": "https://overframe.gg/build/52639/",
+			"notes": "Very high damage per shot; projectile munitions. Catchmoon-Tremor-Splat kitgun with R3 Pax Seeker.",
+			"rivenDisposition": 0.5
+		},
+		"Torment": {
+			"base": "",
+			"category": "Rifle",
+			"dmg": "Crit/Status",
+			"dmgLink": "https://overframe.gg/build/52640/",
+			"mr": 0,
+			"name": "GA-TR-SP - Torment",
+			"rank": 26.67,
+			"perfIndex": 102.2,
+			"tier": "Top",
+			"type": "Auto",
+			"url": "https://overframe.gg/build/52640/",
+			"notes": "Low damage per shot; beam munitions. Gaze-Tremor-Splat kitgun with R3 Pax Seeker.",
+			"rivenDisposition": 0.5
+		},
+		"Upheaval": {
+			"base": "",
+			"category": "Rifle",
+			"dmg": "Crit/Status",
+			"dmgLink": "https://overframe.gg/build/52641/",
+			"mr": 0,
+			"name": "RA-TR-SP - Upheaval",
+			"rank": 30.44,
+			"perfIndex": 89.6,
+			"tier": "Top",
+			"type": "Auto",
+			"url": "https://overframe.gg/build/52641/",
+			"notes": "Low damage per shot; hitscan munitions. Rattleguts-Tremor-Splat kitgun with R3 Pax Seeker.",
+			"rivenDisposition": 0.5
+		},
+		"Prosecution": {
+			"base": "",
+			"category": "Rifle",
+			"dmg": "Crit/Status",
+			"dmgLink": "https://overframe.gg/build/52644/",
+			"mr": 0,
+			"name": "TO-TR-SP - Prosecution",
+			"rank": 29.16,
+			"perfIndex": 93.5,
+			"tier": "Top",
+			"type": "Charged",
+			"url": "https://overframe.gg/build/52644/",
+			"notes": "Very high damage per shot; projectile munitions. Tombfinger-Tremor-Splat kitgun with R3 Pax Seeker.",
+			"rivenDisposition": 0.5
 		}
 	},
 	"Schools": {
@@ -5890,5 +5950,5 @@
 			"text": "All weapon tests <a class='header-link' href='https://www.youtube.com/channel/UCcNx8bZxg_EgRrTY_Oi8utA?view_as=subscriber'>on the Curator's Youtube Channel.</a>"
 		}
 	},
-	"version": "Warframe Patch 28.0.3 - Added Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
+	"version": "Warframe Patch 28.0.5 - Added Primary Kitguns, Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
 }
