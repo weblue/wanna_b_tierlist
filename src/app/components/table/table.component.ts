@@ -87,7 +87,8 @@ export class TableComponent implements OnInit {
   }
 
   switch(tab: string) {
-    this.data.filterParams = new FilterParams();
+    // this.data.filterParams = new FilterParams();
+    this.clear();
 
     tab = tab.toLowerCase();
     this.data.getTabData(tab).subscribe((array) => {

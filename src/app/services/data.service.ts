@@ -161,7 +161,7 @@ export class DataService {
 
   //TODO subscribe to this and add a loading screen
   public setFilterParams(input: FilterParams) {
-    console.log(JSON.stringify(input));
+    // console.log(JSON.stringify(input));
     this.filterParams = input;
     // this.getTabData(this.currentTab);
     let promise = this.getDb().pipe<(Item | Tier)[]>(map(db => {
