@@ -13,7 +13,10 @@
         <mat-label>Quick Search</mat-label>
         <input matInput name="quick-search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
       </mat-form-field>
-<!--      <input class="input" placeholder="Quick Search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>-->
+    </p>
+    <p class="level-item control" *ngIf="!showSearch">
+<!--        <mat-label>Current Filters:</mat-label>-->
+        {{filterDisplay}}
     </p>
     <p class="level-item control">
       <a class="button is-light is-info" (click)="toggleFilterDialog()">

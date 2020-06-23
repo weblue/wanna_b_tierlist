@@ -55,6 +55,7 @@ export class TableComponent implements OnInit {
 
   private showSearch: boolean = true;
   private showClear: boolean = false;
+  private filterDisplay: string = '';
 
   constructor(
     private changeDetectorRef: ChangeDetectorRef,
@@ -64,25 +65,40 @@ export class TableComponent implements OnInit {
     private dialog: MatDialog
   ) {
     this._tableDataSub = data.dataChange.subscribe(() => {
-      this.switch(this.activeTab);
+      this.load(this.activeTab);
     });
     this.dialog.afterAllClosed.subscribe(() => {
       if (Object.keys(this.data.getCurFilterParams()).length !== 0) {
         this.showSearch = false;
         this.showClear = true;
+        this.setFilterDisplay(JSON.stringify(this.data.getCurFilterParams()));
       } else {
+        this.quickSearchName = null;
         this.showSearch = true;
         this.showClear = false;
+        this.filterDisplay = null;
       }
 
     });
   }
 
   ngOnInit() {
-    this.switch(Categories.PRIMARY.toString());
+    this.load(Categories.PRIMARY.toString());
   }
 
   switch(tab: string) {
+    this.data.filterParams = new FilterParams();
+
+    tab = tab.toLowerCase();
+    this.data.getTabData(tab).subscribe((array) => {
+      this.loading = false;
+      this.tableDataSource = array;
+      this.displayedColumns = columnDefs[tab];
+      this.update();
+    });
+  }
+
+  load(tab: string) {
     tab = tab.toLowerCase();
     this.data.getTabData(tab).subscribe((array) => {
       this.loading = false;
@@ -99,9 +115,10 @@ export class TableComponent implements OnInit {
   clear() {
     this.filter.clear();
 
-    this.quickSearchName = '';
+    this.quickSearchName = null;
     this.showSearch = true;
     this.showClear = false;
+    this.filterDisplay = null;
   }
 
   update(): void {
@@ -112,5 +129,14 @@ export class TableComponent implements OnInit {
     let simpleParams = new FilterParams();
     simpleParams.name = this.quickSearchName;
     this.data.setFilterParams(simpleParams);
+  }
+
+  setFilterDisplay(text: string): void {
+    text = text.replace(/"],"/g, " | ");
+    text = text.replace(/","/g, ", ");
+    text = text.replace(/[^a-zA-Z0-9 :,|]/g, "");
+    text = text.replace(/[:]/g, ": ");
+
+    this.filterDisplay = text;
   }
 }

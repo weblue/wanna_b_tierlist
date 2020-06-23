@@ -19,7 +19,8 @@ export class DataService {
   private dbUrl = './assets/thelist.json';
   public loading: boolean;
 
-  private filterParams: FilterParams = new FilterParams();
+  public filterParams: FilterParams = new FilterParams();
+
   currentTab: string;
   Secondaries = {
     categoryTypes: [],
@@ -160,7 +161,7 @@ export class DataService {
 
   //TODO subscribe to this and add a loading screen
   public setFilterParams(input: FilterParams) {
-    // console.log(input);
+    console.log(JSON.stringify(input));
     this.filterParams = input;
     // this.getTabData(this.currentTab);
     let promise = this.getDb().pipe<(Item | Tier)[]>(map(db => {
@@ -183,7 +184,6 @@ export class DataService {
   }
 
   private applyFilter(items: any[]): (Item | Tier)[] {
-    // console.log(this.filterParams.buildType);
     return DataService.injectTiers(items.filter((item) => {
       let show = true;
       if (item.name && this.filterParams.name) {
