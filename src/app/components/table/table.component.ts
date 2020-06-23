@@ -53,9 +53,9 @@ export class TableComponent implements OnInit {
 
   _tableDataSub: Subscription;
 
-  private showSearch: boolean = true;
-  private showClear: boolean = false;
-  private filterDisplay: string = '';
+  showSearch: boolean = true;
+  showClear: boolean = false;
+  filterDisplay: string = '';
 
   constructor(
     private changeDetectorRef: ChangeDetectorRef,
