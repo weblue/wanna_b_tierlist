@@ -107,7 +107,7 @@ th {
 }
 
 .flex-container {
-  /*TODO this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
+  /*this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
   margin-right: 12.5%;
   margin-left: 12.5%;
 }

@@ -4,7 +4,7 @@ import {Subject} from "rxjs/internal/Subject";
 @Injectable({
   providedIn: 'root'
 })
-export class SidebarService {
+export class FilterDialogService {
   showSidebarChange: Subject<boolean>;
 
   constructor() {

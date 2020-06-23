@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css"
   },
   "private": true,
   "dependencies": {
@@ -51,6 +52,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "^3.1.1",
     "karma-jasmine-html-reporter": "^1.5.4",
+    "node-sass": "^4.14.1",
     "protractor": "^7.0.0",
     "rxjs-tslint": "^0.1.8",
     "ts-node": "~7.0.0",

@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {DataService} from "./services/data.service";
 
 import {Subscription} from "rxjs/internal/Subscription";
-import {SidebarService} from "./services/sidebar.service";
+import {FilterDialogService} from "./services/filter-dialog.service";
 import {MatDialog} from "@angular/material/dialog";
 import {FilterComponent} from "./components/filter/filter.component";
 import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
@@ -28,12 +28,12 @@ export class AppComponent implements OnInit {
 
   constructor(
     private data: DataService,
-    private sideServ: SidebarService,
+    private filterDialogService: FilterDialogService,
     public dialog: MatDialog,
     public router: Router,
     public filter: FilterService
   ) {
-    this._subscription = sideServ.showSidebarChange.subscribe(() => {
+    this._subscription = filterDialogService.showSidebarChange.subscribe(() => {
       if (this.dialogRef) {
         this.dialog.closeAll();
         this.dialogRef = null;

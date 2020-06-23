@@ -8,7 +8,7 @@
     </ul>
   </div>
   <div class="level-right has-text-right field is-grouped">
-    <p class="level-item control">
+    <p class="level-item control" *ngIf="showSearch">
       <mat-form-field class="example-full-width">
         <mat-label>Quick Search</mat-label>
         <input matInput name="quick-search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
@@ -16,9 +16,14 @@
 <!--      <input class="input" placeholder="Quick Search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>-->
     </p>
     <p class="level-item control">
-      <a class="button is-light is-info" (click)="toggleSidebar()">
+      <a class="button is-light is-info" (click)="toggleFilterDialog()">
         <fa-icon [icon]="faSearch" size="lg"></fa-icon>
         &nbsp;Open Filters</a>
+    </p>
+    <p class="level-item control" *ngIf="showClear">
+      <a class="button is-light is-danger" (click)="clear()">
+        <fa-icon [icon]="faTimes" size="lg"></fa-icon>
+        &nbsp;Clear Filters</a>
     </p>
   </div>
 </div>

@@ -4,6 +4,7 @@ import {FilterParams} from '../../models/FilterParams';
 import {faCheck, faTimes} from '@fortawesome/free-solid-svg-icons';
 import {FormControl} from "@angular/forms";
 import {FilterService} from "../../services/filter.service";
+import {MatDialog} from "@angular/material/dialog";
 
 @Component({
   selector: 'app-filter',
@@ -44,6 +45,7 @@ export class FilterComponent implements OnInit {
   constructor(
     private data: DataService,
     private filter: FilterService,
+    public dialog: MatDialog,
   ) {
 
   }
@@ -176,6 +178,8 @@ export class FilterComponent implements OnInit {
     }
 
     this.filter.apply(filterParams);
+
+    this.dialog.closeAll();
   }
 
   clear() {

@@ -93,6 +93,7 @@ export class FilterService {
   }
 
   apply(params: FilterParams) {
-    this.data.setFilterParams(params);
+    if (Object.keys(params).length !== 0)
+      this.data.setFilterParams(params);
   }
 }

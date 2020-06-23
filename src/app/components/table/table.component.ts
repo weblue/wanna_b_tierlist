@@ -9,14 +9,17 @@ import {Melee} from '../../models/Melee';
 import {Subscription} from "rxjs/internal/Subscription";
 import {Tier} from "../../models/Tier";
 import {Item} from "../../models/Item";
-import {SidebarService} from "../../services/sidebar.service";
+import {FilterDialogService} from "../../services/filter-dialog.service";
+
 import {
   faSearch,
-  faStar,
   faChevronCircleDown,
   faChevronCircleUp
 } from "@fortawesome/free-solid-svg-icons";
 import {FilterParams} from "../../models/FilterParams";
+import {MatDialog} from "@angular/material/dialog";
+import {FilterService} from "../../services/filter.service";
+import {faTimes} from "@fortawesome/free-solid-svg-icons/faTimes";
 
 @Component({
   selector: 'app-table',
@@ -37,6 +40,7 @@ export class TableComponent implements OnInit {
   activeTab = this.tabs[0];
 
   faSearch = faSearch;
+  faTimes = faTimes;
   faDown = faChevronCircleDown;
   faUp = faChevronCircleUp;
 
@@ -49,13 +53,28 @@ export class TableComponent implements OnInit {
 
   _tableDataSub: Subscription;
 
+  private showSearch: boolean = true;
+  private showClear: boolean = false;
+
   constructor(
     private changeDetectorRef: ChangeDetectorRef,
     private data: DataService,
-    private sideServ: SidebarService
+    private filter: FilterService,
+    private filterDialog: FilterDialogService,
+    private dialog: MatDialog
   ) {
     this._tableDataSub = data.dataChange.subscribe(() => {
       this.switch(this.activeTab);
+    });
+    this.dialog.afterAllClosed.subscribe(() => {
+      if (Object.keys(this.data.getCurFilterParams()).length !== 0) {
+        this.showSearch = false;
+        this.showClear = true;
+      } else {
+        this.showSearch = true;
+        this.showClear = false;
+      }
+
     });
   }
 
@@ -73,8 +92,16 @@ export class TableComponent implements OnInit {
     });
   }
 
-  toggleSidebar() {
-    this.sideServ.toggle();
+  toggleFilterDialog() {
+    this.filterDialog.toggle();
+  }
+
+  clear() {
+    this.filter.clear();
+
+    this.quickSearchName = '';
+    this.showSearch = true;
+    this.showClear = false;
   }
 
   update(): void {

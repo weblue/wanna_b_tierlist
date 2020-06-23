@@ -158,15 +158,20 @@ export class DataService {
     return items;
   }
 
+  //TODO subscribe to this and add a loading screen
   public setFilterParams(input: FilterParams) {
-    console.log(input);
+    // console.log(input);
     this.filterParams = input;
     // this.getTabData(this.currentTab);
-    return this.getDb().pipe<(Item | Tier)[]>(map(db => {
+    let promise = this.getDb().pipe<(Item | Tier)[]>(map(db => {
         return this.applyFilter(db[this.currentTab]);
       })
     );
-    this.dataChange.next();
+
+    promise.subscribe(() => {
+      this.dataChange.next();
+    });
+    return promise;
   }
 
   public getCurFilterParams() {
