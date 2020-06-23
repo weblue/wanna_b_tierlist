@@ -4,6 +4,7 @@ tr.element-row:not(.expanded-row):active {
 
 tr.element-row:not(.expanded-row):hover {
   background: whitesmoke;
+  cursor: pointer;
 }
 
 tr.detail-row {
@@ -14,15 +15,15 @@ th {
   position: sticky;
   top: 4rem;
   background: whitesmoke;
-  z-index: 998;
+  z-index: 2;
 }
 
 .sticky-tier td {
   background-color: lightgray;
-  z-index: 99;
   position: sticky;
   top: calc(4rem + 54px);
   /*top: 8rem;*/
+  z-index: 1;
 }
 
 .element-row td {
@@ -99,7 +100,6 @@ th {
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 999;
 }
 
 .perf_index:hover .tooltip_text {
@@ -111,4 +111,3 @@ th {
   margin-right: 12.5%;
   margin-left: 12.5%;
 }
-

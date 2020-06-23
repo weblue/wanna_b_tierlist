@@ -19,6 +19,7 @@
 .animated-heartbeat {
     animation: heartbeat 2s infinite;
     color: tomato;
+    display: inline-block;
 }
 
 .list-unstyled{
