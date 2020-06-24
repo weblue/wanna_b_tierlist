@@ -13,7 +13,7 @@ tr.detail-row {
 
 th {
   position: sticky;
-  top: 4rem;
+  top: calc(3em - 1px);
   background: whitesmoke;
   z-index: 2;
 }
@@ -21,7 +21,7 @@ th {
 .sticky-tier td {
   background-color: lightgray;
   position: sticky;
-  top: calc(4rem + 54px);
+  top: calc(3em + 3em - 1px);
   /*top: 8rem;*/
   z-index: 1;
 }
@@ -108,6 +108,10 @@ th {
 
 table {
   width: 100%
+}
+
+.bottom-border {
+  border-bottom: 1pt solid gray;
 }
 
 /*@media (min-width: 1000px)*/
