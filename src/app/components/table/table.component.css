@@ -13,7 +13,7 @@ tr.detail-row {
 
 th {
   position: sticky;
-  top: calc(4rem);
+  top: calc(4rem - 1px);
   /*top: calc(3.25em - 1px);*/
   background: whitesmoke;
   z-index: 2;
