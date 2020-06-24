@@ -13,7 +13,8 @@ tr.detail-row {
 
 th {
   position: sticky;
-  top: calc(3em - 1px);
+  /*top: calc(3em + 4px);*/
+  top: calc(3.25em - 1px);
   background: whitesmoke;
   z-index: 2;
 }
@@ -22,7 +23,6 @@ th {
   background-color: lightgray;
   position: sticky;
   top: calc(3em + 3em - 1px);
-  /*top: 8rem;*/
   z-index: 1;
 }
 
