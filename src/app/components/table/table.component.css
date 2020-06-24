@@ -106,6 +106,10 @@ th {
   visibility: visible;
 }
 
+table {
+  width: 100%
+}
+
 /*@media (min-width: 1000px)*/
 /*{*/
   /*.flex-container {*/
