@@ -13,8 +13,8 @@ tr.detail-row {
 
 th {
   position: sticky;
-  /*top: calc(3em + 4px);*/
-  top: calc(3.25em - 1px);
+  top: calc(4rem);
+  /*top: calc(3.25em - 1px);*/
   background: whitesmoke;
   z-index: 2;
 }
@@ -22,9 +22,20 @@ th {
 .sticky-tier td {
   background-color: lightgray;
   position: sticky;
-  top: calc(3em + 3em - 1px);
+  top: calc(7rem + 7px);
+  /*top: calc(3em + 3em - 1px);*/
   z-index: 1;
 }
+
+/*@media (max-width: 800px) {*/
+/*  th {*/
+/*    top: calc(3.25em - 1px);*/
+/*  }*/
+/**/
+/*  .sticky-tier td {*/
+/*    top: calc(3em + 3em - 1px);*/
+/*  }*/
+/*}*/
 
 .element-row td {
   border-bottom-width: 0;
@@ -113,12 +124,3 @@ table {
 .bottom-border {
   border-bottom: 1pt solid gray;
 }
-
-/*@media (min-width: 1000px)*/
-/*{*/
-  /*.flex-container {*/
-  /*  this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
-    /*margin-right: 12.5%;*/
-    /*margin-left: 12.5%;*/
-  /*}*/
-/*}*/
