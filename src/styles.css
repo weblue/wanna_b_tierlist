@@ -7148,10 +7148,10 @@ a:hover {
 .item-spacer {
   margin: 0 10px !important; }
 
-.contents {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto; }
+/*.contents {*/
+/*  width: 75%;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto; }*/
 
 .mat-table {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }

@@ -106,8 +106,11 @@ th {
   visibility: visible;
 }
 
-.flex-container {
-  /*this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
-  margin-right: 12.5%;
-  margin-left: 12.5%;
-}
+/*@media (min-width: 1000px)*/
+/*{*/
+  /*.flex-container {*/
+  /*  this is hacky, but apparently flex boxes don't inherit size/margins from parent*/
+    /*margin-right: 12.5%;*/
+    /*margin-left: 12.5%;*/
+  /*}*/
+/*}*/
