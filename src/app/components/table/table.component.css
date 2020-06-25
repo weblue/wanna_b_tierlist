@@ -54,11 +54,16 @@ th {
 
 /* overrides */
 
+
 .mat-header-cell {
   font-size: 1.25em;
 }
 
-.padded {
+.margin-left {
+  padding-left: 1em
+}
+
+.padded-bottom {
   padding-top: .5em
 }
 

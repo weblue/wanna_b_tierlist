@@ -1,38 +1,47 @@
-<div class="hero">
-  <div class="hero-body">
-    <div class="level flex-container">
-      <div class="level-left tabs is-large" id="special-nav-tabs">
-        <ul class="level-item">
-          <li *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
-              [class.is-active]="activeTab == tab"><a> {{tab}}
-          </a>
-          </li>
-        </ul>
-      </div>
-      <div class="level-right has-text-right field is-grouped">
-        <p class="level-item control" *ngIf="showSearch">
-          <mat-form-field class="example-full-width">
-            <mat-label>Quick Search</mat-label>
-            <input matInput name="quick-search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
-          </mat-form-field>
-        </p>
-        <p class="level-item control" *ngIf="!showSearch">
-          <!--        <mat-label>Current Filters:</mat-label>-->
-          {{filterDisplay}}
-        </p>
-        <p class="level-item control">
-          <a class="button is-light is-info" (click)="toggleFilterDialog()">
-            <fa-icon [icon]="faSearch" size="lg"></fa-icon>
-            &nbsp;Open Filters</a>
-        </p>
-        <p class="level-item control" *ngIf="showClear">
-          <a class="button is-light is-danger" (click)="clear()">
-            <fa-icon [icon]="faTimes" size="lg"></fa-icon>
-            &nbsp;Clear Filters</a>
-        </p>
-      </div>
+<!--<div class="hero">-->
+<div>
+  <div class="level is-marginless" *ngIf="!showSearch">
+    <div class="level-left"></div>
+    <div class="level-right has-text-right field margin-left margin-right">
+        <div class="notification is-light is-info" style="padding: .625em .75em">
+          <p class="level-item control">
+            <!--        <mat-label>Current Filters:</mat-label>-->
+            &nbsp;Filtering: [{{filterDisplay}}]
+          </p>
+        </div>
     </div>
-
+  </div>
+  <div class="level is-marginless">
+    <div class="level-left tabs is-large" id="special-nav-tabs">
+      <ul class="level-item">
+        <li *ngFor="let tab of tabs" (click)="switch(tab.toLowerCase()); activeTab = tab"
+            [class.is-active]="activeTab == tab"><a> {{tab}}
+        </a>
+        </li>
+      </ul>
+    </div>
+    <div class="level-right has-text-right field is-grouped margin-left margin-right">
+      <p class="level-item control" *ngIf="showSearch">
+        <mat-form-field class="example-full-width">
+          <mat-label>Quick Search</mat-label>
+          <input matInput name="quick-search" [(ngModel)]="quickSearchName" (ngModelChange)="quickFilter()"/>
+        </mat-form-field>
+      </p>
+      <p class="level-item control">
+        <a class="button is-light is-info" (click)="toggleFilterDialog()">
+          <fa-icon [icon]="faSearch" size="lg"></fa-icon>
+          &nbsp;Open Filters</a>
+      </p>
+      <p class="level-item control" *ngIf="showClear">
+        <a class="button is-light is-danger" (click)="clear()">
+          <fa-icon [icon]="faTimes" size="lg"></fa-icon>
+          &nbsp;Clear Filters</a>
+      </p>
+    </div>
+  </div>
+  <div>
+    <!--    <div style="overflow-x:auto">-->
+    <!--    <div class="table-container">-->
     <table class="container is-fullhd table is-hoverable" mat-table matSort [dataSource]="tableDataSource"
            multiTemplateDataRows>
 
