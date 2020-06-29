@@ -25,20 +25,6 @@ th {
   z-index: 1;
 }
 
-/*@media (max-width: 800px) {*/
-/*  th {*/
-/*    top: calc(3.25em - 1px);*/
-/*  }*/
-/**/
-/*  .sticky-tier td {*/
-/*    top: calc(3em + 3em - 1px);*/
-/*  }*/
-/*}*/
-
-.element-row td {
-  /*border-bottom-width: 0;*/
-}
-
 .row-detail {
   overflow: hidden;
   display: flex;
