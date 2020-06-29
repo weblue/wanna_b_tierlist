@@ -14,7 +14,6 @@ tr.detail-row {
 th {
   position: sticky;
   top: calc(4rem - 1px);
-  /*top: calc(3.25em - 1px);*/
   background: whitesmoke;
   z-index: 2;
 }
@@ -23,7 +22,6 @@ th {
   background-color: lightgray;
   position: sticky;
   top: calc(7rem + 7px);
-  /*top: calc(3em + 3em - 1px);*/
   z-index: 1;
 }
 
@@ -38,7 +36,7 @@ th {
 /*}*/
 
 .element-row td {
-  border-bottom-width: 0;
+  /*border-bottom-width: 0;*/
 }
 
 .row-detail {
