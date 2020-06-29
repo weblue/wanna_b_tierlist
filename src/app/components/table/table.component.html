@@ -40,9 +40,7 @@
     </div>
   </div>
   <div>
-    <!--    <div style="overflow-x:auto">-->
-    <!--    <div class="table-container">-->
-    <table class="container is-fullhd table is-hoverable" mat-table matSort [dataSource]="tableDataSource"
+    <table class="container is-fullhd table" mat-table matSort [dataSource]="tableDataSource"
            multiTemplateDataRows>
 
       <!--- Note that these columns can be defined in any order.
@@ -51,8 +49,9 @@
       <!-- Name Column -->
       <ng-container matColumnDef="name">
         <th mat-header-cell *matHeaderCellDef> Name</th>
-        <td mat-cell class="padded" *matCellDef="let element"><a class="padded" target="_blank"
-                                                                 href="{{element.url}}">{{element.name}}</a></td>
+        <td mat-cell class="padded" *matCellDef="let element">
+          <a class="padded" target="_blank" href="{{element.url}}">{{element.name}}</a>
+        </td>
       </ng-container>
 
       <ng-container matColumnDef="base">
@@ -67,7 +66,6 @@
 
       <ng-container matColumnDef="mr">
         <th mat-header-cell *matHeaderCellDef> MR</th>
-        <!--    <td mat-cell class="padded" *matCellDef="let element"> <span *ngIf="element.mr !== 0">{{element.mr}}</span><span *ngIf="element.mr === 0">None</span></td>-->
         <td mat-cell class="padded" *matCellDef="let element"> {{element.mr}}</td>
       </ng-container>
 
@@ -88,7 +86,6 @@
         <td mat-cell class="padded" *matCellDef="let element"> {{element.rivenDisposition  | number: '1.2-2'}}
           <div class="unusual_riven" *ngIf="element.specRivenDisp">
             ✪
-            <!--        <fa-icon [icon]="faStar"></fa-icon>-->
             <span class="tooltip_text">Higher-than-expected riven disposition for this rank</span>
           </div>
         </td>
