@@ -130,7 +130,7 @@
       <!--TODO rename the example CSS-->
       <ng-container matColumnDef="expandedDetail">
         <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
-          <div class="row-detail bottom-border"
+          <div class="row-detail bottom-border" *ngIf="element === expandedElement"
                [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
             <card-contents [item]="element"></card-contents>
           </div>

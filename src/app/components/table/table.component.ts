@@ -27,17 +27,30 @@ import {faTimes} from "@fortawesome/free-solid-svg-icons/faTimes";
   styleUrls: ['./table.component.css'],
   animations: [
     trigger('detailExpand', [
-      state('collapsed', style({height: '0px', opacity: '0', minHeight: '0', display: 'none'})),
-      state('expanded', style({height: '*', opacity: '1', display: 'block'})),
-      transition('collapsed => expanded',
+      state('collapsed', style({height: '0', opacity: '0', minHeight: '0', display: 'none' })),
+      state('expanded', style({height: '*', opacity: '1' })),
+      // transition('collapsed => expanded',
+      //   [
+      //     style({ display: 'block' }),
+      //     animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')
+      //   ]),
+      // transition('expanded => collapsed',
+      //   [
+      //     animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')
+      //   ]),
+      transition(':enter',
         [
-          style({ display: 'block'}),
-          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')
-        ]),
-      transition('expanded => collapsed',
+          style({ height: 0, opacity: 0, minHeight: '0' }),
+          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)', style({ height: '*', opacity: '1', display: 'block' }))
+        ]
+      ),
+      transition(
+        ':leave',
         [
-          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')
-        ]),
+          style({ height: '*', opacity: '1', display: 'block' }),
+          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)', style({ height: 0, opacity: 0, minHeight: '0'}))
+        ]
+      )
     ]),
   ]
 })
