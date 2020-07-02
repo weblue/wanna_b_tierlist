@@ -7,8 +7,13 @@ tr.element-row:not(.expanded-row):hover {
   cursor: pointer;
 }
 
+td.mat-cell {
+  border-bottom: 0
+}
+
 tr.detail-row {
   height: 0;
+  /*animation: close-card 2s;*/
 }
 
 th {
@@ -47,8 +52,8 @@ th {
   padding-left: 1em
 }
 
-.padded-bottom {
-  padding-top: .5em
+.padded-top {
+  padding-top: .2em
 }
 
 .margin-right {
@@ -111,5 +116,19 @@ table {
 }
 
 .bottom-border {
-  border-bottom: 1pt solid gray;
+  border-bottom: 1pt solid #dbdbdb;
 }
+
+/*@keyframes close-card {*/
+/*0% {*/
+/*  display: block;*/
+/*  height: 100%;*/
+/*}*/
+/*99% {*/
+/*  display: block;*/
+/*  height: 0;*/
+/*}*/
+/*100% {*/
+/*  display: none;*/
+/*}*/
+/*}*/

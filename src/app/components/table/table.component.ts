@@ -2,7 +2,7 @@ import {ChangeDetectorRef, Component, Input, OnInit, ViewChild} from '@angular/c
 import {DataService} from '../../services/data.service';
 import {MatTable} from '@angular/material/table';
 import {Categories, columnDefs} from '../../models/Database';
-import {animate, state, style, transition, trigger} from '@angular/animations';
+import {animate, stagger, state, style, transition, trigger} from '@angular/animations';
 import {Primary} from '../../models/Primary';
 import {Secondary} from '../../models/Secondary';
 import {Melee} from '../../models/Melee';
@@ -27,9 +27,17 @@ import {faTimes} from "@fortawesome/free-solid-svg-icons/faTimes";
   styleUrls: ['./table.component.css'],
   animations: [
     trigger('detailExpand', [
-      state('collapsed', style({height: '0px', minHeight: '0'})),
-      state('expanded', style({height: '*'})),
-      // transition('expanded <=> collapsed', animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+      state('collapsed', style({height: '0px', opacity: '0', minHeight: '0', display: 'none'})),
+      state('expanded', style({height: '*', opacity: '1', display: 'block'})),
+      transition('collapsed => expanded',
+        [
+          style({ display: 'block'}),
+          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')
+        ]),
+      transition('expanded => collapsed',
+        [
+          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)')
+        ]),
     ]),
   ]
 })
