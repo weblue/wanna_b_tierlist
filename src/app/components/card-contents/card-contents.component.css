@@ -19,3 +19,8 @@
   /*border-color: #FF071B;*/
   /*border-width: 2px;*/
 }
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+}

@@ -120,7 +120,7 @@
 
       <ng-container matColumnDef="expand">
         <th mat-header-cell *matHeaderCellDef></th>
-        <td mat-cell class="padded" *matCellDef="let element">
+        <td mat-cell class="padded" style="width: 92px;" *matCellDef="let element">
           <fa-icon *ngIf="element !== expandedElement" [icon]="faDown" size="lg" class="is-pulled-right"></fa-icon>
           <fa-icon *ngIf="element === expandedElement" [icon]="faUp" size="lg" class="is-pulled-right"></fa-icon>
         </td>
@@ -129,8 +129,8 @@
       <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
       <!--TODO rename the example CSS-->
       <ng-container matColumnDef="expandedDetail">
-        <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
-          <div class="row-detail top-" *ngIf="element === expandedElement"
+        <td mat-cell *matCellDef="let element" class="row-borders" [attr.colspan]="displayedColumns.length">
+          <div class="row-detail top-border" *ngIf="element === expandedElement"
                [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
             <card-contents style="width: 100%; flex-shrink: 0;" [item]="element"></card-contents>
           </div>

@@ -9,10 +9,10 @@ $family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Ox
 
 $purple: #7e57c2;
 $purple-invert: #FFF;
-$accent: #e6ceff;
 
 $primary: $purple;
 $primary-invert: $purple-invert;
+$accent: #e6ceff;
 
 $info: $accent;
 $text: hsl(0, 0%, 96%);
@@ -23,6 +23,7 @@ $navbar-dropdown-item-hover-color: $link;
 $content-heading-color: $text;
 $navbar-box-shadow-color: hsl(0, 0%, 50%);
 $border: hsl(0, 0%, 60%);
+
 $table-background-color: hsl(0, 0%, 40%);
 //This is usually slightly darker than scheme-main
 $background: hsl(0, 0%, 10%);

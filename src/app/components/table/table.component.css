@@ -9,7 +9,11 @@ tr.element-row:not(.expanded-row):hover {
 }
 
 td.mat-cell {
-  /*border-bottom: 0*/
+  border-bottom: 0;
+}
+
+td.row-borders {
+  border-bottom: rgba(255, 255, 255, 0.12) solid 1px;
 }
 
 tr.detail-row {
