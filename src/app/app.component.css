@@ -16,13 +16,13 @@
   /*This overrides bulma's right and left paddings :(*/
   padding-right: calc(0.75em - 1px);
   padding-left: calc(0.75em - 1px);
-  background: darkgrey;
+  /*background: darkgrey;*/
   outline: none; /* Remove outline */
-  color: white; /* Text color */
+  /*color: white; !* Text color *!*/
   cursor: pointer; /* Add a mouse pointer on hover */
   font-size: 1.25em; /* Increase font size */
 }
 
 #toTop:hover {
-  background-color: grey; /* Add a dark-grey background on hover */
+  /*background-color: grey; !* Add a dark-grey background on hover *!*/
 }

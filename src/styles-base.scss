@@ -14,19 +14,23 @@ $accent: #e6ceff;
 $primary: $purple;
 $primary-invert: $purple-invert;
 
+$info: $accent;
 $text: hsl(0, 0%, 96%);
 $text-strong: hsl(0, 0%, 96%);
 $link: $accent;
 $link-hover: $accent;
+$navbar-dropdown-item-hover-color: $link;
 $content-heading-color: $text;
 $navbar-box-shadow-color: hsl(0, 0%, 50%);
 $border: hsl(0, 0%, 60%);
 $table-background-color: hsl(0, 0%, 40%);
 //This is usually slightly darker than scheme-main
-$background: hsl(0, 0%, 20%);
+$background: hsl(0, 0%, 10%);
 //This is the main component background
-$scheme-main: hsl(0, 0%, 25%);
+$scheme-main: hsl(0, 0%, 15%);
 $scheme-invert: hsl(0, 0%, 50%);
+
+$navbar-item-hover-background-color: $background;
 
 @import "../node_modules/bulma/bulma.sass";
 
@@ -42,7 +46,7 @@ $tier-list-theme: mat-dark-theme($tier-list-primary, $tier-list-accent);
 //This is the table's background color
 //Item hover color is set in table.component.css
 .table {
-  background: hsl(0, 0%, 25%)
+  background: hsl(0, 0%, 15%)
 }
 
 

@@ -8,11 +8,13 @@
 }
 
 .discord-button {
-  color: whitesmoke;
-  background-color: #758AD4;
+  /*color: #758AD4;*/
+  font-weight: bold;
+  /*background-color: ;*/
 }
 
 .github-button{
-  background-color: #24282D;
-  color: whitesmoke;
+  /*background-color: #24282D;*/
+  /*color: whitesmoke;*/
+  font-weight: bold;
 }
