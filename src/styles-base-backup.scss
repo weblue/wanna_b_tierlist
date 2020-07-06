@@ -4,35 +4,9 @@ $table-head-cell-border-width: 0;
 
 $family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
-@import "../node_modules/bulma/sass/utilities/initial-variables";
-@import "../node_modules/bulma/sass/utilities/functions";
-
-$purple: #6002EE;
-$purple-invert: #FFF;
-$accent: hsl(192, 94%, 71%);
-
-$primary: $purple;
-$primary-invert: $purple-invert;
-
-$github: #333;
-$github-invert: findColorInvert($github);
-
-$text: hsl(0, 0%, 96%);
-$text-strong: hsl(0, 0%, 96%);
-$link: $accent;
-$content-heading-color: $text;
-$table-background-color: hsl(0, 0%, 48%);
-
 @import "../node_modules/bulma/bulma.sass";
 
 @import '../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
-
-//@import '../node_modules/@angular/material/_theming.scss';
-//@include mat-core();
-//
-//$tier-list-primary: $primary;
-
-
 
 html, body {
   height: 100%;
@@ -51,11 +25,11 @@ body {
 
 a {
   text-decoration: none;
-  //color: #2C7DF6;
+  color: #2C7DF6;
 }
 
 a:hover{
-  //color: #2C7DF6;
+  color: #2C7DF6;
 }
 
 .container{

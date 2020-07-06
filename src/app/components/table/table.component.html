@@ -48,41 +48,41 @@
 
       <!-- Name Column -->
       <ng-container matColumnDef="name">
-        <th mat-header-cell *matHeaderCellDef> Name</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Name</th>
         <td mat-cell class="padded" *matCellDef="let element">
           <a class="padded" target="_blank" href="{{element.url}}">{{element.name}}</a>
         </td>
       </ng-container>
 
       <ng-container matColumnDef="base">
-        <th mat-header-cell *matHeaderCellDef> Base</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Base</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.base}} </td>
       </ng-container>
 
       <ng-container matColumnDef="category">
-        <th mat-header-cell *matHeaderCellDef> Category</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Category</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.category}} </td>
       </ng-container>
 
       <ng-container matColumnDef="mr">
-        <th mat-header-cell *matHeaderCellDef> MR</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> MR</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.mr}}</td>
       </ng-container>
 
       <ng-container matColumnDef="dmg">
-        <th mat-header-cell *matHeaderCellDef> Build Type</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Build Type</th>
         <td mat-cell class="padded" *matCellDef="let element"><span
           *ngIf="element.dmg !== 'Critical & Status'">{{element.dmg}}</span><span
           *ngIf="element.dmg === 'Critical & Status'">Crit & Status</span></td>
       </ng-container>
 
       <ng-container matColumnDef="munitions">
-        <th mat-header-cell *matHeaderCellDef> Munitions</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Munitions</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.munitions}} </td>
       </ng-container>
 
       <ng-container matColumnDef="rivenDisposition">
-        <th mat-header-cell *matHeaderCellDef> Riven Dispo</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Riven Dispo</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.rivenDisposition  | number: '1.2-2'}}
           <div class="unusual_riven" *ngIf="element.specRivenDisp">
             ✪
@@ -92,17 +92,17 @@
       </ng-container>
 
       <ng-container matColumnDef="notes">
-        <th mat-header-cell *matHeaderCellDef> Notes</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Notes</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.notes}} </td>
       </ng-container>
 
       <ng-container matColumnDef="type">
-        <th mat-header-cell *matHeaderCellDef> Trigger Type</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Trigger Type</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.type}} </td>
       </ng-container>
 
       <ng-container matColumnDef="perfIndex">
-        <th mat-header-cell *matHeaderCellDef>
+        <th mat-header-cell class="padded" *matHeaderCellDef>
           <div>
         <span class="perf_index">Perf Index
           <span
@@ -114,13 +114,13 @@
       </ng-container>
 
       <ng-container matColumnDef="wepnotes">
-        <th mat-header-cell *matHeaderCellDef> Notes</th>
+        <th mat-header-cell class="padded" *matHeaderCellDef> Notes</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.wepnotes}} </td>
       </ng-container>
 
       <ng-container matColumnDef="expand">
         <th mat-header-cell *matHeaderCellDef></th>
-        <td mat-cell class="padded-top" *matCellDef="let element">
+        <td mat-cell class="padded" *matCellDef="let element">
           <fa-icon *ngIf="element !== expandedElement" [icon]="faDown" size="lg" class="is-pulled-right"></fa-icon>
           <fa-icon *ngIf="element === expandedElement" [icon]="faUp" size="lg" class="is-pulled-right"></fa-icon>
         </td>

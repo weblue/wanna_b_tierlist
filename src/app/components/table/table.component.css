@@ -3,7 +3,7 @@ tr.element-row:not(.expanded-row):active {
 }
 
 tr.element-row:not(.expanded-row):hover {
-  background: whitesmoke;
+  background: hsl(0, 0%, 40%);
   cursor: pointer;
 }
 
@@ -19,12 +19,12 @@ tr.detail-row {
 th {
   position: sticky;
   top: calc(4rem - 1px);
-  background: whitesmoke;
+  background: hsl(0, 0%, 21%);
   z-index: 2;
 }
 
 .sticky-tier td {
-  background-color: lightgray;
+  background-color: hsl(0, 0%, 29%);
   position: sticky;
   top: calc(7rem + 7px);
   z-index: 1;
@@ -52,7 +52,7 @@ th {
   padding-left: 1em
 }
 
-.padded-top {
+.padded {
   padding-top: .2em
 }
 
@@ -67,7 +67,7 @@ th {
 .unusual_riven {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted white;
 }
 
 .unusual_riven .tooltip_text {
@@ -89,7 +89,7 @@ th {
 }
 
 .perf_index {
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted white;
 }
 
 .perf_index .tooltip_text {

@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css"
+    "css-build": "node-sass --omit-source-map-url src/styles-base.scss src/styles.css"
   },
   "private": true,
   "dependencies": {
