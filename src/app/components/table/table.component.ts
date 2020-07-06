@@ -28,7 +28,7 @@ import {faTimes} from "@fortawesome/free-solid-svg-icons/faTimes";
   animations: [
     trigger('detailExpand', [
       state('collapsed', style({height: '0', opacity: '0', minHeight: '0', display: 'none' })),
-      state('expanded', style({height: '*', opacity: '1' })),
+      state('expanded', style({height: '*', opacity: '1', display: 'flex' })),
       // transition('collapsed => expanded',
       //   [
       //     style({ display: 'block' }),
@@ -41,13 +41,13 @@ import {faTimes} from "@fortawesome/free-solid-svg-icons/faTimes";
       transition(':enter',
         [
           style({ height: 0, opacity: 0, minHeight: '0' }),
-          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)', style({ height: '*', opacity: '1', display: 'block' }))
+          animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)', style({ height: '*', opacity: '1', display: 'flex' }))
         ]
       ),
       transition(
         ':leave',
         [
-          style({ height: '*', opacity: '1', display: 'block' }),
+          style({ height: '*', opacity: '1', display: 'flex' }),
           animate('400ms cubic-bezier(0.4, 0.0, 0.2, 1)', style({ height: 0, opacity: 0, minHeight: '0'}))
         ]
       )

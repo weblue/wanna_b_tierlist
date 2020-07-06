@@ -1,6 +1,6 @@
 <h1 class="title is-small">{{item.name}}</h1>
 <div class="card-container columns">
-  <div class="column is-one-quarter">
+  <div class="column is-one-third is-one-quarter-mobile ">
     <div class="stat-list">
       <ul>
         <li *ngIf="item.munitions"><b class="is-medium">Munitions: </b>{{item.munitions}}</li>
@@ -11,7 +11,7 @@
         <li *ngIf="item.base"><b class="is-medium">Base/Event: </b>{{item.base}}</li>
       </ul>
     </div>
-    <a [href]="item.yt_link" target="_blank" class="button is-medium is-fullwidth youtube">
+    <a [href]="item.yt_link" target="_blank" class="button is-large is-fullwidth youtube is-white is-outlined">
     <span class="icon">
       <fa-icon [icon]="faYoutube" size="lg"></fa-icon>
     </span>

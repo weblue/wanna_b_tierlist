@@ -3,36 +3,44 @@ tr.element-row:not(.expanded-row):active {
 }
 
 tr.element-row:not(.expanded-row):hover {
+  /*row hover color*/
   background: hsl(0, 0%, 40%);
   cursor: pointer;
 }
 
 td.mat-cell {
-  border-bottom: 0
+  /*border-bottom: 0*/
 }
 
 tr.detail-row {
   height: 0;
-  /*animation: close-card 2s;*/
 }
 
 th {
   position: sticky;
-  top: calc(4rem - 1px);
-  background: hsl(0, 0%, 21%);
+  top: calc(4rem - 0px);
+  /*This should be same as $table-background-color*/
+  background: hsl(0, 0%, 30%);
+  border-bottom: 2px solid hsl(0, 0%, 60%) !important;
   z-index: 2;
 }
 
 .sticky-tier td {
-  background-color: hsl(0, 0%, 29%);
+  /*background-color: hsl(0, 0%, 50%);*/
+  /*This should be same as $table-background-color*/
+  background: hsl(0, 0%, 30%);
+  /*border-bottom: 2px solid hsl(0, 0%, 60%);*/
   position: sticky;
-  top: calc(7rem + 7px);
+  border-bottom: 2px solid hsl(0, 0%, 60%) !important;
+  top: calc(7rem + 8px);
   z-index: 1;
 }
 
 .row-detail {
   overflow: hidden;
   display: flex;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .list-unstyled {
@@ -112,11 +120,12 @@ th {
 }
 
 table {
-  width: 100%
+  width: 100%;
+  border-collapse: separate;
 }
 
-.bottom-border {
-  border-bottom: 1pt solid #dbdbdb;
+.top-border {
+  border-top: 1pt solid #dbdbdb;
 }
 
 /*@keyframes close-card {*/

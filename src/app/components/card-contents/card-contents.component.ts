@@ -16,7 +16,7 @@ export class CardContentsComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    // console.log('not good');
+    console.log('card init');
   }
 
 }
