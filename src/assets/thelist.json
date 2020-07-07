@@ -2411,8 +2411,7 @@
       "category": "Sword",
       "url": "http://warframe.fandom.com/wiki/Pangolin_Prime",
       "notes": "High damage per hit, low attack speed. Jump attacks always proc Electricity. ",
-//      TODO is 1.47 right or is it 1?
-      "rivenDisposition": 1.47,
+      "rivenDisposition": 1.00,
       "specRivenDisp": false,
       "yt_link": "https://youtu.be/VxB-aHptL5g"
     },
@@ -2862,7 +2861,9 @@
       "category": "Gunblade",
       "url": "http://warframe.wikia.com/wiki/Stropha",
       "notes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. ",
-      "rivenDisposition": 0.5
+      "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/SxKI-siypso"
     },
     "Synoid Heliocor": {
       "base": "",
@@ -3112,7 +3113,9 @@
       "category": "Glaive",
       "url": "http://warframe.wikia.com/wiki/Xoris",
       "notes": "Very low damage per hit, very high attack speed. Potentially Top but does not perform consistently. ",
-      "rivenDisposition": 0.5
+      "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/1fub2BV-VH8"
     },
     "Zenistar": {
       "base": "",
@@ -4552,6 +4555,8 @@
       "url": "http://warframe.wikia.com/wiki/Stahlta",
       "notes": "Very high damage per shot; ",
       "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/kjQ8vlFYdYw",
       "munitions": "Projectile"
     },
     "Stradavar Prime": {
@@ -5072,6 +5077,8 @@
       "url": "https://overframe.gg/build/52639/",
       "notes": "Very high damage per shot; projectile munitions. Catchmoon-Tremor-Splat kitgun with R3 Pax Seeker.",
       "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/TStBNJ3RFQM",
       "munitions": "Projectile"
     },
     "Torment": {
@@ -5088,6 +5095,8 @@
       "url": "https://overframe.gg/build/52640/",
       "notes": "Low damage per shot; Gaze-Tremor-Splat kitgun with R3 Pax Seeker.",
       "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/8vGGZ_AN5KU",
       "munitions": "Beam"
     },
     "Upheaval": {
@@ -5104,6 +5113,8 @@
       "url": "https://overframe.gg/build/52641/",
       "notes": "Low damage per shot; Rattleguts-Tremor-Splat kitgun with R3 Pax Seeker.",
       "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/6wUzPS0E-Mc",
       "munitions": "Hitscan"
     },
     "Prosecution": {
@@ -5120,6 +5131,8 @@
       "url": "https://overframe.gg/build/52644/",
       "notes": "Very high damage per shot; projectile munitions. Tombfinger-Tremor-Splat kitgun with R3 Pax Seeker.",
       "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/ubtW00xzDkQ",
       "munitions": "Projectile"
     }
   },
@@ -6302,6 +6315,8 @@
       "url": "http://warframe.wikia.com/wiki/Velox",
       "notes": "Very low damage per shot; ",
       "rivenDisposition": 0.5,
+      "specRivenDisp": false,
+      "yt_link": "https://youtu.be/o_k8GDUdxso",
       "munitions": "Hitscan"
     },
     "Zakti": {
