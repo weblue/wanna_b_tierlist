@@ -50,7 +50,7 @@
   "Frames": {
     "AshAIO": {
       "frameName": "Ash",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21ca RAN  |  145 STR  |  Aug1opt  |  Aug3  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇊ RAN  |  145 STR  |  Aug1opt  |  Aug3  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -61,7 +61,7 @@
     },
     "AtlasAIO": {
       "frameName": "Atlas",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -72,7 +72,7 @@
     },
     "BansheeSonar": {
       "frameName": "Banshee",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |  Aug2opt  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug2opt  |",
       "abilityInFocus": "Sonar",
       "tier": "Contender",
       "rank": 2,
@@ -83,7 +83,7 @@
     },
     "BansheeQuake": {
       "frameName": "Banshee",
-      "buildGoals": "|  \u21ca DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |  Aug4  |",
+      "buildGoals": "|  ⇊ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "Sound Quake",
       "tier": "Contender",
       "rank": 2,
@@ -94,7 +94,7 @@
     },
     "BansheeSilence": {
       "frameName": "Banshee",
-      "buildGoals": "|  \u21c8 DUR  |  \u2193 RAN  |",
+      "buildGoals": "|  ⇈ DUR  |  ↓ RAN  |",
       "abilityInFocus": "Silence",
       "tier": "Top",
       "rank": 2.5,
@@ -105,7 +105,7 @@
     },
     "BaruukAIO": {
       "frameName": "Baruuk",
-      "buildGoals": "|  \u2193 DUR  |  \u21c8 EFF  |  200 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  200 RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -116,7 +116,7 @@
     },
     "BaruukCC": {
       "frameName": "Baruuk",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 EFF  |  \u21c8 RAN  |  \u21ca STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Lull",
       "tier": "Contender",
       "rank": 2,
@@ -127,7 +127,7 @@
     },
     "ChromaTank": {
       "frameName": "Chroma",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca EFF  |  \u21ca RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Elemental Ward & Vex Armor",
       "tier": "Top",
       "rank": 1,
@@ -138,7 +138,7 @@
     },
     "ChromaBuff": {
       "frameName": "Chroma",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca EFF  |  \u2193 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ↓ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Elemental Ward & Vex Armor",
       "tier": "Viable",
       "rank": 3,
@@ -182,7 +182,7 @@
     },
     "EquinoxSleep": {
       "frameName": "Equinox",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |  Aug2opt  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug2opt  |",
       "abilityInFocus": "Rest & Rage",
       "tier": "Top",
       "rank": 1,
@@ -193,7 +193,7 @@
     },
     "EquinoxMaim": {
       "frameName": "Equinox",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |  Survivability  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Survivability  |",
       "abilityInFocus": "Mend & Maim",
       "tier": "Top",
       "rank": 1,
@@ -215,7 +215,7 @@
     },
     "ExcaliburIndex": {
       "frameName": "Excalibur",
-      "buildGoals": "|  \u21ca RAN  |  Survivability  |",
+      "buildGoals": "|  ⇊ RAN  |  Survivability  |",
       "abilityInFocus": "Operator",
       "tier": "Top",
       "rank": 1.5,
@@ -226,7 +226,7 @@
     },
     "ExcaliburEB": {
       "frameName": "Excalibur",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u2193 RAN  |  180 STR  |  Aug4  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  180 STR  |  Aug4  |",
       "abilityInFocus": "Exalted Blade",
       "tier": "Contender",
       "rank": 2,
@@ -248,7 +248,7 @@
     },
     "FrostCC": {
       "frameName": "Frost",
-      "buildGoals": "|  \u2193 DUR  |  \u21c8 EFF  |  \u21c8 RAN  |  \u21ca STR  |  Aug2opt  |  Aug3  |",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug2opt  |  Aug3  |",
       "abilityInFocus": "Snow Globe",
       "tier": "Contender",
       "rank": 2,
@@ -259,7 +259,7 @@
     },
     "FrostNuke": {
       "frameName": "Frost",
-      "buildGoals": "|  \u21ca DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |  Aug4  |  [Adaptation]  |",
+      "buildGoals": "|  ⇊ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |  [Adaptation]  |",
       "abilityInFocus": "Avalanche",
       "tier": "Viable",
       "rank": 3,
@@ -270,7 +270,7 @@
     },
     "GaraNuke": {
       "frameName": "Gara",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Shattered Lash & Mass Vitrify",
       "tier": "Top",
       "rank": 1,
@@ -281,7 +281,7 @@
     },
     "GaraAIO": {
       "frameName": "Gara",
-      "buildGoals": "|  \u21c8 DUR  |  \u2193 EFF  |  \u21c8 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ↓ EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -292,7 +292,7 @@
     },
     "GaraShield": {
       "frameName": "Gara",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca EFF  |  \u21ca RAN  |  130 STR  |  Aug2  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  130 STR  |  Aug2  |",
       "abilityInFocus": "Splinter Storm",
       "tier": "Viable",
       "rank": 3,
@@ -336,7 +336,7 @@
     },
     "HildrynSuper": {
       "frameName": "Hildryn",
-      "buildGoals": "|  Balanced  |  \u2193 EFF  |  [Redirection] + [Adaptation]  |  Arcane Aegis  |",
+      "buildGoals": "|  Balanced  |  ↓ EFF  |  [Redirection] + [Adaptation]  |  Arcane Aegis  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -347,7 +347,7 @@
     },
     "HildrynBudget": {
       "frameName": "Hildryn",
-      "buildGoals": "|  Balanced  |  \u21c8 EFF  |",
+      "buildGoals": "|  Balanced  |  ⇈ EFF  |",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
       "rank": 3,
@@ -358,7 +358,7 @@
     },
     "HydroidLoot": {
       "frameName": "Hydroid",
-      "buildGoals": "|  Balanced  |  \u2193 DUR  |  Aug4  |",
+      "buildGoals": "|  Balanced  |  ↓ DUR  |  Aug4  |",
       "abilityInFocus": "Tempest Barrage & Tentacle Swarm",
       "tier": "Top",
       "rank": 1,
@@ -369,7 +369,7 @@
     },
     "HydroidPuddle": {
       "frameName": "Hydroid",
-      "buildGoals": "|  Balanced  |  \u21c8 EFF  |",
+      "buildGoals": "|  Balanced  |  ⇈ EFF  |",
       "abilityInFocus": "Undertow",
       "tier": "Viable",
       "rank": 3,
@@ -391,7 +391,7 @@
     },
     "IvaraSleep": {
       "frameName": "Ivara",
-      "buildGoals": "|  Balanced  |  \u21c8 EFF  |  \u21c8 STR  |",
+      "buildGoals": "|  Balanced  |  ⇈ EFF  |  ⇈ STR  |",
       "abilityInFocus": "Sleep Arrow",
       "tier": "Top",
       "rank": 1,
@@ -402,7 +402,7 @@
     },
     "IvaraAIO": {
       "frameName": "Ivara",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21ca RAN  |  \u21c8 STR  |  Aug1  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇊ RAN  |  ⇈ STR  |  Aug1  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -413,7 +413,7 @@
     },
     "IvaraCC": {
       "frameName": "Ivara",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Sleep Arrow & Noise Arrow",
       "tier": "Contender",
       "rank": 2,
@@ -424,7 +424,7 @@
     },
     "IvaraProwl": {
       "frameName": "Ivara",
-      "buildGoals": "|  Balanced  |  \u2193 DUR  |  \u21c8 EFF  |  Aug3  |  Roll speed  |",
+      "buildGoals": "|  Balanced  |  ↓ DUR  |  ⇈ EFF  |  Aug3  |  Roll speed  |",
       "abilityInFocus": "Prowl",
       "tier": "Viable",
       "rank": 3,
@@ -435,7 +435,7 @@
     },
     "KhoraAIO": {
       "frameName": "Khora",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |  Aug1  |  Aug4opt  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug1  |  Aug4opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 1.8,
@@ -446,7 +446,7 @@
     },
     "LimboCata": {
       "frameName": "Limbo",
-      "buildGoals": "|  \u21c8 DUR  |  var RAN  |",
+      "buildGoals": "|  ⇈ DUR  |  var RAN  |",
       "abilityInFocus": "Cataclysm",
       "tier": "Top",
       "rank": 1,
@@ -457,7 +457,7 @@
     },
     "LimboLoot": {
       "frameName": "Limbo",
-      "buildGoals": "|  \u21c8 EFF  |  \u21c8 RAN  |  [Loot Radar] + [Natural Talent]  |",
+      "buildGoals": "|  ⇈ EFF  |  ⇈ RAN  |  [Loot Radar] + [Natural Talent]  |",
       "abilityInFocus": "Cataclysm",
       "tier": "Contender",
       "rank": 2,
@@ -468,7 +468,7 @@
     },
     "LimboSurge": {
       "frameName": "Limbo",
-      "buildGoals": "|  Balanced  |  \u21c8 DUR  |  Aug3  |",
+      "buildGoals": "|  Balanced  |  ⇈ DUR  |  Aug3  |",
       "abilityInFocus": "Rift Surge",
       "tier": "Viable",
       "rank": 3,
@@ -479,7 +479,7 @@
     },
     "LimboBanish": {
       "frameName": "Limbo",
-      "buildGoals": "|  Balanced  |  \u21c8 DUR  |  Aug1  |",
+      "buildGoals": "|  Balanced  |  ⇈ DUR  |  Aug1  |",
       "abilityInFocus": "Banish",
       "tier": "Viable",
       "rank": 3,
@@ -490,7 +490,7 @@
     },
     "LokiSwitchTP": {
       "frameName": "Loki",
-      "buildGoals": "|  \u21c8 EFF  |  \u21c8 RAN  |  + Speed  |",
+      "buildGoals": "|  ⇈ EFF  |  ⇈ RAN  |  + Speed  |",
       "abilityInFocus": "Switch Teleport",
       "tier": "Top",
       "rank": 1,
@@ -501,7 +501,7 @@
     },
     "LokiStealth": {
       "frameName": "Loki",
-      "buildGoals": "|  \u21c8 DUR  |",
+      "buildGoals": "|  ⇈ DUR  |",
       "abilityInFocus": "Invisibility",
       "tier": "Contender",
       "rank": 2,
@@ -512,7 +512,7 @@
     },
     "LokiDisarm": {
       "frameName": "Loki",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 EFF  |  \u21c8 RAN  |  \u21ca STR  |  Aug4opt  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug4opt  |",
       "abilityInFocus": "Radial Disarm",
       "tier": "Viable",
       "rank": 3,
@@ -523,7 +523,7 @@
     },
     "MagBubble": {
       "frameName": "Mag",
-      "buildGoals": "|  Balanced  |  \u21c8 RAN  |  Aug2opt  |  Aug3  |  [Adaptation]opt  |",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug2opt  |  Aug3  |  [Adaptation]opt  |",
       "abilityInFocus": "Magnetize & Polarize",
       "tier": "Contender",
       "rank": 2,
@@ -534,7 +534,7 @@
     },
     "MesaAIO": {
       "frameName": "Mesa",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 EFF  |  \u21ca RAN  |  \u21c8 STR  |  Aug4opt  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇊ RAN  |  ⇈ STR  |  Aug4opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -545,7 +545,7 @@
     },
     "MirageEclipse": {
       "frameName": "Mirage",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 STR  |  Aug3  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ STR  |  Aug3  |",
       "abilityInFocus": "Eclipse",
       "tier": "Top",
       "rank": 1.5,
@@ -556,7 +556,7 @@
     },
     "MirageMurder": {
       "frameName": "Mirage",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 EFF  |  \u21ca RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ EFF  |  ⇊ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Hall of Mirrors & Eclipse",
       "tier": "Viable",
       "rank": 3,
@@ -567,7 +567,7 @@
     },
     "MiragePrism": {
       "frameName": "Mirage",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Prism",
       "tier": "Viable",
       "rank": 3,
@@ -578,7 +578,7 @@
     },
     "MirageNuke": {
       "frameName": "Mirage",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |  Aug2  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug2  |",
       "abilityInFocus": "Sleight of Hand ",
       "tier": "Viable",
       "rank": 3,
@@ -611,7 +611,7 @@
     },
     "NezhaDelay": {
       "frameName": "Nezha",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Divine Spears",
       "tier": "Viable",
       "rank": 3,
@@ -622,7 +622,7 @@
     },
     "NezhaNuke": {
       "frameName": "Nezha",
-      "buildGoals": "|  var DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  var DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Divine Spears",
       "tier": "Viable",
       "rank": 3,
@@ -633,7 +633,7 @@
     },
     "NezhaChakram": {
       "frameName": "Nezha",
-      "buildGoals": "|  Balanced  |  \u21c8 STR  |",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |",
       "abilityInFocus": "Chakram",
       "tier": "Contender",
       "rank": 2,
@@ -644,7 +644,7 @@
     },
     "NidusLink": {
       "frameName": "Nidus",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ STR  |",
       "abilityInFocus": "Parasitic Link",
       "tier": "Top",
       "rank": 1,
@@ -655,7 +655,7 @@
     },
     "NidusTank": {
       "frameName": "Nidus",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca EFF  |  \u21c8 RAN  |  180 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇈ RAN  |  180 STR  |",
       "abilityInFocus": "Parasitic Link",
       "tier": "Top",
       "rank": 2,
@@ -666,7 +666,7 @@
     },
     "NidusStomp": {
       "frameName": "Nidus",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Virulence & Larva",
       "tier": "Contender",
       "rank": 2,
@@ -677,7 +677,7 @@
     },
     "NovaSpeed": {
       "frameName": "Nova",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca STR  |  Aug4  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ STR  |  Aug4  |",
       "abilityInFocus": "Molecular Prime & Null Star",
       "tier": "Top",
       "rank": 1,
@@ -688,7 +688,7 @@
     },
     "NovaSlow": {
       "frameName": "Nova",
-      "buildGoals": "|  \u21c8 DUR  |  145 STR  |  Aug4  |",
+      "buildGoals": "|  ⇈ DUR  |  145 STR  |  Aug4  |",
       "abilityInFocus": "Molecular Prime & Null Star",
       "tier": "Top",
       "rank": 1,
@@ -710,7 +710,7 @@
     },
     "NovaAMD": {
       "frameName": "Nova",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  145 STR  |  Aug2  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  145 STR  |  Aug2  |",
       "abilityInFocus": "Antimatter Drop",
       "tier": "Viable",
       "rank": 3,
@@ -721,7 +721,7 @@
     },
     "NyxChaos": {
       "frameName": "Nyx",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |  Aug3opt  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  Aug3opt  |",
       "abilityInFocus": "Chaos",
       "tier": "Contender",
       "rank": 2,
@@ -732,7 +732,7 @@
     },
     "NyxBubble": {
       "frameName": "Nyx",
-      "buildGoals": "|  Balanced  |  \u21c8 RAN  |  \u21c8 STR  |  Aug4  |",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "Absorb",
       "tier": "Viable",
       "rank": 3,
@@ -754,7 +754,7 @@
     },
     "OberonEidolon": {
       "frameName": "Oberon",
-      "buildGoals": "|  Balanced  |  \u21c8 STR  |  Aug1  |",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |  Aug1  |",
       "abilityInFocus": "Smite & Renewal",
       "tier": "Top",
       "rank": 1,
@@ -765,7 +765,7 @@
     },
     "OberonNuke": {
       "frameName": "Oberon",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  200 RAN  |  \u21c8 STR  |  Aug4opt  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  200 RAN  |  ⇈ STR  |  Aug4opt  |",
       "abilityInFocus": "Hallowed Ground & Reckoning ",
       "tier": "Viable",
       "rank": 3,
@@ -776,7 +776,7 @@
     },
     "OctaviaStealth": {
       "frameName": "Octavia",
-      "buildGoals": "|  \u21c8 DUR  |",
+      "buildGoals": "|  ⇈ DUR  |",
       "abilityInFocus": "Metronome",
       "tier": "Top",
       "rank": 1,
@@ -787,7 +787,7 @@
     },
     "OctaviaMallet": {
       "frameName": "Octavia",
-      "buildGoals": "|  \u21c8 DUR  |  200 RAN  |  \u2193 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  200 RAN  |  ↓ STR  |",
       "abilityInFocus": "Mallet & Amp",
       "tier": "Top",
       "rank": 1,
@@ -798,7 +798,7 @@
     },
     "OctaviaBuff": {
       "frameName": "Octavia",
-      "buildGoals": "|  \u21c8 DUR  |  \u21c8 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇈ RAN  |  ⇈ STR  |",
       "abilityInFocus": "Metronome & Amp",
       "tier": "Top",
       "rank": 1,
@@ -809,7 +809,7 @@
     },
     "RevenantAIO": {
       "frameName": "Revenant",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u2193 RAN  |  \u21c8 STR  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |",
       "abilityInFocus": "All-in-one",
       "tier": "Contender",
       "rank": 2,
@@ -820,7 +820,7 @@
     },
     "RhinoSolo": {
       "frameName": "Rhino",
-      "buildGoals": "|  \u2193 DUR  |  \u21c8 EFF  |  \u2193 RAN  |  \u21c8 STR  |  Aug1  |  Aug2  |",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  Aug1  |  Aug2  |",
       "abilityInFocus": "Rhino Charge & Iron Skin & Roar",
       "tier": "Top",
       "rank": 1,
@@ -831,7 +831,7 @@
     },
     "RhinoBuff": {
       "frameName": "Rhino",
-      "buildGoals": "|  \u2193 DUR  |  \u21c8 EFF  |  \u2193 RAN  |  \u21c8 STR  |  Aug2  |",
+      "buildGoals": "|  ↓ DUR  |  ⇈ EFF  |  ↓ RAN  |  ⇈ STR  |  Aug2  |",
       "abilityInFocus": "Iron Skin & Roar",
       "tier": "Top",
       "rank": 1,
@@ -842,7 +842,7 @@
     },
     "RhinoStomp": {
       "frameName": "Rhino",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |",
       "abilityInFocus": "Rhino Stomp",
       "tier": "Contender",
       "rank": 2,
@@ -853,7 +853,7 @@
     },
     "SarynESO": {
       "frameName": "Saryn",
-      "buildGoals": "|  Balanced  |  \u21c8 RAN  |  [Adaptation]opt  |",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  [Adaptation]opt  |",
       "abilityInFocus": "All-in-one",
       "tier": "Top",
       "rank": 1,
@@ -864,7 +864,7 @@
     },
     "SarynMelee": {
       "frameName": "Saryn",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u21c8 RAN  |  \u21ca STR  |  [Adaptation]opt  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ⇈ RAN  |  ⇊ STR  |  [Adaptation]opt  |",
       "abilityInFocus": "Spores, Toxic Lash & Miasma",
       "tier": "Top",
       "rank": 1,
@@ -875,7 +875,7 @@
     },
     "TitaniaAIO": {
       "frameName": "Titania",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u2193 RAN  |  \u21c8 STR  |  Aug4  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  Aug4  |",
       "abilityInFocus": "All-in-one",
       "tier": "Viable",
       "rank": 1.5,
@@ -886,7 +886,7 @@
     },
     "TrinityEV": {
       "frameName": "Trinity",
-      "buildGoals": "|  \u21ca DUR  |  \u21c8 RAN  |  \u21c8 STR  |  Aug2opt  |  [Adaptation]opt  |",
+      "buildGoals": "|  ⇊ DUR  |  ⇈ RAN  |  ⇈ STR  |  Aug2opt  |  [Adaptation]opt  |",
       "abilityInFocus": "Energy Vampire",
       "tier": "Top",
       "rank": 1,
@@ -897,7 +897,7 @@
     },
     "TrinityBless": {
       "frameName": "Trinity",
-      "buildGoals": "|  \u21c8 DUR  |  \u2193 EFF  |  \u21ca RAN  |  150 STR  |",
+      "buildGoals": "|  ⇈ DUR  |  ↓ EFF  |  ⇊ RAN  |  150 STR  |",
       "abilityInFocus": "Blessing",
       "tier": "Top",
       "rank": 1,
@@ -908,7 +908,7 @@
     },
     "TrinityLink": {
       "frameName": "Trinity",
-      "buildGoals": "|  \u21c8 DUR  |  \u2193 EFF  |  \u21c8 RAN  |  223 STR  |  Aug3  |",
+      "buildGoals": "|  ⇈ DUR  |  ↓ EFF  |  ⇈ RAN  |  223 STR  |  Aug3  |",
       "abilityInFocus": "Link & Blessing",
       "tier": "Viable",
       "rank": 3,
@@ -919,7 +919,7 @@
     },
     "ValkyrMelee": {
       "frameName": "Valkyr",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca EFF  |  \u21c8 RAN  |  \u21c8 STR  |  Aug2  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇈ RAN  |  ⇈ STR  |  Aug2  |",
       "abilityInFocus": "Warcry",
       "tier": "Contender",
       "rank": 2,
@@ -941,7 +941,7 @@
     },
     "VoltESO": {
       "frameName": "Volt",
-      "buildGoals": "|  Balanced  |  \u21c8 RAN  |  Aug4opt  |  [Adaptation]opt  |",
+      "buildGoals": "|  Balanced  |  ⇈ RAN  |  Aug4opt  |  [Adaptation]opt  |",
       "abilityInFocus": "Discharge",
       "tier": "Top",
       "rank": 1,
@@ -952,7 +952,7 @@
     },
     "VoltEidolon": {
       "frameName": "Volt",
-      "buildGoals": "|  \u21c8 DUR  |  Survivability  |",
+      "buildGoals": "|  ⇈ DUR  |  Survivability  |",
       "abilityInFocus": "Electric Shield",
       "tier": "Top",
       "rank": 1,
@@ -963,7 +963,7 @@
     },
     "VoltSpeed": {
       "frameName": "Volt",
-      "buildGoals": "|  Balanced  |  \u21c8 STR  |",
+      "buildGoals": "|  Balanced  |  ⇈ STR  |",
       "abilityInFocus": "Speed",
       "tier": "Top",
       "rank": 1,
@@ -974,7 +974,7 @@
     },
     "WispPlatform": {
       "frameName": "Wisp",
-      "buildGoals": "|  \u21c8 DUR  |  \u21ca EFF  |  \u21ca RAN  |  \u21c8 STR  |  [Adaptation]  |",
+      "buildGoals": "|  ⇈ DUR  |  ⇊ EFF  |  ⇊ RAN  |  ⇈ STR  |  [Adaptation]  |",
       "abilityInFocus": "Reservoirs",
       "tier": "Contender",
       "rank": 1,
@@ -985,7 +985,7 @@
     },
     "WukongAIO": {
       "frameName": "Wukong",
-      "buildGoals": "|  Balanced  |  \u21ca RAN  |  \u21c8 STR  |  Health + [Adaptation]  |",
+      "buildGoals": "|  Balanced  |  ⇊ RAN  |  ⇈ STR  |  Health + [Adaptation]  |",
       "abilityInFocus": "Celestial Twin, Defy & Primal Fury",
       "tier": "Contender",
       "rank": 1,
@@ -996,7 +996,7 @@
     },
     "ZephyrTailWind": {
       "frameName": "Zephyr",
-      "buildGoals": "|  \u2193 DUR  |  175 EFF  |  \u2193 RAN  |  \u2193 STR  |",
+      "buildGoals": "|  ↓ DUR  |  175 EFF  |  ↓ RAN  |  ↓ STR  |",
       "abilityInFocus": "Tail Wind & Turbulence",
       "tier": "Viable",
       "rank": 3,
@@ -1007,7 +1007,7 @@
     },
     "ZephyrTurb": {
       "frameName": "Zephyr",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u2193 RAN  |  \u21c8 STR  |  Aug3  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  Aug3  |",
       "abilityInFocus": "Turbulence",
       "tier": "Viable",
       "rank": 3,
@@ -1018,7 +1018,7 @@
     },
     "ZephyrTornado": {
       "frameName": "Zephyr",
-      "buildGoals": "|  \u21c8 DUR  |  175 EFF  |  \u2193 RAN  |  \u21c8 STR  |  Aug4opt  |",
+      "buildGoals": "|  ⇈ DUR  |  175 EFF  |  ↓ RAN  |  ⇈ STR  |  Aug4opt  |",
       "abilityInFocus": "Tornado",
       "tier": "Viable",
       "rank": 3,
@@ -1193,7 +1193,7 @@
     },
     "Cassowar": {
       "base": "",
-      "combo": "Spiraling Pinnacle",
+      "combo": "Cresting Peak",
       "dmg": "Status",
       "dmgLink": "https://overframe.gg/build/28648/",
       "mr": 5,
@@ -1379,9 +1379,9 @@
       "mr": 10,
       "name": "Destreza Prime",
       "rank": 23.8,
-      "perfIndex": 77,
+      "perfIndex": 77.0,
       "stance": "Vulpine Mask",
-      "tier": "Top",
+      "tier": "Contender",
       "category": "Rapier",
       "url": "http://warframe.fandom.com/wiki/Destreza_Prime",
       "notes": "High damage per hit, low attack speed. ",
@@ -1433,7 +1433,7 @@
       "mr": 8,
       "name": "Dual Ether",
       "rank": 22.91,
-      "perfIndex": 80,
+      "perfIndex": 80.0,
       "stance": "Swirling Tiger",
       "tier": "Top",
       "category": "Dual Swords",
@@ -1518,7 +1518,7 @@
     "Dual Raza": {
       "base": "",
       "combo": "Winding Claws",
-      "dmg": "Critical & Status",
+      "dmg": "Status",
       "dmgLink": "https://overframe.gg/build/28667/",
       "mr": 6,
       "name": "Dual Raza",
@@ -1714,7 +1714,7 @@
       "yt_link": "https://youtu.be/7JMH0cz2B9U"
     },
     "Galatine Prime": {
-      "base": "Galatine need buffs",
+      "base": "Galatine is high viable",
       "combo": "Broken Bull",
       "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28678/",
@@ -1775,7 +1775,7 @@
       "mr": 10,
       "name": "Glaive Prime",
       "rank": 33.28,
-      "perfIndex": 55,
+      "perfIndex": 55.0,
       "stance": "Astral Twilight",
       "tier": "Viable",
       "category": "Glaive",
@@ -1901,7 +1901,7 @@
       "mr": 3,
       "name": "Heat Sword",
       "rank": 32.69,
-      "perfIndex": 56,
+      "perfIndex": 56.0,
       "stance": "Iron Phoenix",
       "tier": "Viable",
       "category": "Sword",
@@ -2039,7 +2039,7 @@
     },
     "Kesheg": {
       "base": "",
-      "combo": "Spiraling Pinnacle",
+      "combo": "Cresting Peak",
       "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28704/",
       "mr": 7,
@@ -2119,7 +2119,7 @@
       "rank": 35.36,
       "perfIndex": 51.8,
       "stance": "Sundering Weave",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "category": "Machete",
       "url": "http://warframe.fandom.com/wiki/Kreska",
       "notes": "Low damage per hit, low attack speed. ",
@@ -2165,13 +2165,13 @@
     },
     "Lesion": {
       "base": "",
-      "combo": "Spiraling Pinnacle",
+      "combo": "Cresting Peak",
       "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28713/",
       "mr": 9,
       "name": "Lesion",
       "rank": 18.32,
-      "perfIndex": 100,
+      "perfIndex": 100.0,
       "stance": "Twirling Spire",
       "tier": "Top",
       "category": "Polearm",
@@ -2363,7 +2363,7 @@
     },
     "Orthos Prime": {
       "base": "Orthos is mid viable",
-      "combo": "Spiraling Pinnacle",
+      "combo": "Cresting Peak",
       "dmg": "Critical & Status",
       "dmgLink": "https://overframe.gg/build/28724/",
       "mr": 12,
@@ -2387,7 +2387,7 @@
       "mr": 5,
       "name": "Orvius",
       "rank": 43.59,
-      "perfIndex": 42,
+      "perfIndex": 42.0,
       "stance": "Astral Twilight",
       "tier": "Need buffs",
       "category": "Glaive",
@@ -2411,7 +2411,8 @@
       "category": "Sword",
       "url": "http://warframe.fandom.com/wiki/Pangolin_Prime",
       "notes": "High damage per hit, low attack speed. Jump attacks always proc Electricity. ",
-      "rivenDisposition": 1,
+//      TODO is 1.47 right or is it 1?
+      "rivenDisposition": 1.47,
       "specRivenDisp": false,
       "yt_link": "https://youtu.be/VxB-aHptL5g"
     },
@@ -2605,7 +2606,7 @@
       "rank": 35.72,
       "perfIndex": 51.3,
       "stance": "High Noon",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "category": "Gunblade",
       "url": "http://warframe.fandom.com/wiki/Redeemer_Prime",
       "notes": "High damage per hit, low attack speed. Suffers from relatively poor consistency. Shots from the gunblade only deals Blast damage and status effects unless modded for 100% status, which would grant IPS effects too. Would be advisable to get a high status chance riven for Redeemer as it would allow for Crit-based modding instead.",
@@ -2693,7 +2694,7 @@
       "mr": 6,
       "name": "Scoliac",
       "rank": 34.59,
-      "perfIndex": 53,
+      "perfIndex": 53.0,
       "stance": "Burning Wasp",
       "tier": "Viable",
       "category": "Whip",
@@ -2731,7 +2732,7 @@
       "rank": 35.3,
       "perfIndex": 51.9,
       "stance": "Twirling Spire",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "category": "Polearm",
       "url": "http://warframe.fandom.com/wiki/Serro",
       "notes": "Low damage per hit, low attack speed. ",
@@ -2767,7 +2768,7 @@
       "rank": 35.96,
       "perfIndex": 50.9,
       "stance": "Stinging Thorn",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "category": "Dagger",
       "url": "http://warframe.fandom.com/wiki/Sheev",
       "notes": "High damage per hit, very low attack speed. Slam attacks guarantees heat proc. ",
@@ -2846,6 +2847,22 @@
       "rivenDisposition": 0.9,
       "specRivenDisp": false,
       "yt_link": "https://youtu.be/wgTHuca6Kr0"
+    },
+    "Stropha": {
+      "base": "",
+      "combo": "Double-tap Samba Slash",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/49927/",
+      "mr": 10,
+      "name": "Stropha",
+      "rank":  40.04,
+      "perfIndex":  45.80,
+      "stance": "Bullet Dance",
+      "tier": "Need buffs",
+      "category": "Gunblade",
+      "url": "http://warframe.wikia.com/wiki/Stropha",
+      "notes": "High damage per hit, high attack speed. Suffers from relatively poor consistency. ",
+      "rivenDisposition": 0.5
     },
     "Synoid Heliocor": {
       "base": "",
@@ -2939,7 +2956,7 @@
     },
     "Tonbo": {
       "base": "",
-      "combo": "Spiraling Pinnacle",
+      "combo": "Cresting Peak",
       "dmg": "Status",
       "dmgLink": "https://overframe.gg/build/28759/",
       "mr": 3,
@@ -3053,7 +3070,7 @@
       "mr": 10,
       "name": "War",
       "rank": 40.72,
-      "perfIndex": 45,
+      "perfIndex": 45.0,
       "stance": "Cleaving Whirlwind",
       "tier": "Need buffs",
       "category": "Heavy Blade",
@@ -3080,6 +3097,22 @@
       "rivenDisposition": 1.1,
       "specRivenDisp": false,
       "yt_link": "https://youtu.be/H5I-gYpxcIs"
+    },
+    "Xoris": {
+      "base": "",
+      "combo": "Morning Sun",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/49925/",
+      "mr": 4,
+      "name": "Xoris",
+      "rank": 23.91,
+      "perfIndex": 76.6,
+      "stance": "Astral Twilight",
+      "tier": "Contender",
+      "category": "Glaive",
+      "url": "http://warframe.wikia.com/wiki/Xoris",
+      "notes": "Very low damage per hit, very high attack speed. Potentially Top but does not perform consistently. ",
+      "rivenDisposition": 0.5
     },
     "Zenistar": {
       "base": "",
@@ -3181,7 +3214,7 @@
       "rank": 35.69,
       "perfIndex": 51.3,
       "stance": "Crushing Ruin",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "category": "Hammer",
       "url": "https://warframe.fandom.com/wiki/Kuva_Shildeg",
       "notes": "High damage per hit, low attack speed. Weapon tested with 60% Toxin bonus. ",
@@ -3271,7 +3304,7 @@
       "rank": 35.57,
       "perfIndex": 51.5,
       "stance": "Cleaving Whirlwind",
-      "tier": "Viable",
+      "tier": "Need buffs",
       "category": "Heavy Blade",
       "url": "http://warframe.fandom.com/wiki/Paracesis",
       "notes": "High damage per hit, low attack speed. Has +60% damage bonus to sentients and reset their damage resistances. ",
@@ -3595,7 +3628,7 @@
       "mr": 12,
       "name": "Cernos Prime",
       "rank": 29.65,
-      "perfIndex": 92,
+      "perfIndex": 92.0,
       "tier": "Top",
       "type": "Charge",
       "url": "http://warframe.fandom.com/wiki/Cernos_Prime",
@@ -4117,7 +4150,7 @@
       "mr": 14,
       "name": "Opticor Vandal",
       "rank": 36.36,
-      "perfIndex": 75,
+      "perfIndex": 75.0,
       "tier": "Contender",
       "type": "Charge",
       "url": "http://warframe.fandom.com/wiki/Opticor_Vandal",
@@ -4505,6 +4538,22 @@
       "yt_link": "https://youtu.be/7kYGSlc4uLs",
       "munitions": "Hitscan"
     },
+    "Stahlta": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/49834/",
+      "mr": 10,
+      "name": "Stahlta",
+      "rank": 31.44,
+      "perfIndex": 86.7,
+      "tier": "Top",
+      "type": "Charged",
+      "url": "http://warframe.wikia.com/wiki/Stahlta",
+      "notes": "Very high damage per shot; ",
+      "rivenDisposition": 0.5,
+      "munitions": "Projectile"
+    },
     "Stradavar Prime": {
       "base": "Stradavar is viable",
       "category": "Rifle",
@@ -4851,11 +4900,11 @@
       "base": "",
       "category": "Bow",
       "dmg": "Critical & Status",
-      "dmgLink": "https://overframe.gg/build/23285/",
+      "dmgLink": "https://overframe.gg/build/49945/",
       "mr": 15,
       "name": "Kuva Bramma",
-      "rank": 19.42,
-      "perfIndex": 140.4,
+      "rank": 21.97,
+      "perfIndex": 124.1,
       "tier": "Top",
       "type": "Full charge/Detonate",
       "url": "http://warframe.fandom.com/wiki/Kuva_Bramma",
@@ -5008,6 +5057,70 @@
       "specRivenDisp": false,
       "yt_link": "https://youtu.be/nu-eb2UjoYk",
       "munitions": "Projectile"
+    },
+    "Languish": {
+      "base": "",
+      "category": "Shotgun",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/52639/",
+      "mr": 0,
+      "name": "CA-TR-SP - Languish",
+      "rank": 35.17,
+      "perfIndex": 77.5,
+      "tier": "Top",
+      "type": "Semi",
+      "url": "https://overframe.gg/build/52639/",
+      "notes": "Very high damage per shot; projectile munitions. Catchmoon-Tremor-Splat kitgun with R3 Pax Seeker.",
+      "rivenDisposition": 0.5,
+      "munitions": "Projectile"
+    },
+    "Torment": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/52640/",
+      "mr": 0,
+      "name": "GA-TR-SP - Torment",
+      "rank": 26.67,
+      "perfIndex": 102.2,
+      "tier": "Top",
+      "type": "Auto",
+      "url": "https://overframe.gg/build/52640/",
+      "notes": "Low damage per shot; Gaze-Tremor-Splat kitgun with R3 Pax Seeker.",
+      "rivenDisposition": 0.5,
+      "munitions": "Beam"
+    },
+    "Upheaval": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/52641/",
+      "mr": 0,
+      "name": "RA-TR-SP - Upheaval",
+      "rank": 30.44,
+      "perfIndex": 89.6,
+      "tier": "Top",
+      "type": "Auto",
+      "url": "https://overframe.gg/build/52641/",
+      "notes": "Low damage per shot; Rattleguts-Tremor-Splat kitgun with R3 Pax Seeker.",
+      "rivenDisposition": 0.5,
+      "munitions": "Hitscan"
+    },
+    "Prosecution": {
+      "base": "",
+      "category": "Rifle",
+      "dmg": "Critical & Status",
+      "dmgLink": "https://overframe.gg/build/52644/",
+      "mr": 0,
+      "name": "TO-TR-SP - Prosecution",
+      "rank": 29.16,
+      "perfIndex": 93.5,
+      "tier": "Top",
+      "type": "Charged",
+      "url": "https://overframe.gg/build/52644/",
+      "notes": "Very high damage per shot; projectile munitions. Tombfinger-Tremor-Splat kitgun with R3 Pax Seeker.",
+      "rivenDisposition": 0.5,
+      "munitions": "Projectile"
     }
   },
   "Schools": {
@@ -5158,7 +5271,7 @@
       "name": "Aklex Prime",
       "perfIndex": 42.8,
       "rank": 60.67,
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.fandom.com/wiki/Aklex_Prime",
       "notes": "Very high damage per shot. Massive recoil hurts overall DPS. Suffers from relatively poor consistency. ",
@@ -5302,7 +5415,7 @@
       "name": "Azima",
       "perfIndex": 68.6,
       "rank": 37.87,
-      "tier": "Contender",
+      "tier": "Top",
       "type": "Full-auto",
       "url": "http://warframe.fandom.com/wiki/Azima",
       "notes": "Very low damage per shot. Alt fire launches the remaining clip that will act as a 4-point dumb turret. Potentially Top but does not perform consistently.",
@@ -5390,7 +5503,7 @@
       "dmgLink": "https://overframe.gg/build/27857/",
       "mr": 4,
       "name": "Despair",
-      "perfIndex": 40,
+      "perfIndex": 40.0,
       "rank": 64.88,
       "tier": "Need buffs",
       "type": "Full-auto",
@@ -5608,7 +5721,7 @@
       "name": "Lato Vandal",
       "perfIndex": 42.6,
       "rank": 61.01,
-      "tier": "Viable",
+      "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.fandom.com/wiki/Lato_Vandal",
       "notes": "High damage per shot. Suffers from relatively poor consistency. ",
@@ -6074,7 +6187,7 @@
       "dmgLink": "https://overframe.gg/build/27914/",
       "mr": 10,
       "name": "Twin Kohmak",
-      "perfIndex": 100,
+      "perfIndex": 100.0,
       "rank": 25.97,
       "tier": "Top",
       "type": "Spool-up",
@@ -6161,11 +6274,11 @@
       "base": "Base Need Buffs",
       "category": "Semi-auto",
       "dmg": "Critical & Status",
-      "dmgLink": "https://overframe.gg/build/27927/",
+      "dmgLink": "https://overframe.gg/build/46845/",
       "mr": 10,
       "name": "Vaykor Marelok",
-      "perfIndex": 37.6,
-      "rank": 69.1,
+      "perfIndex": 43.2,
+      "rank": 60.09,
       "tier": "Need buffs",
       "type": "Semi-auto",
       "url": "http://warframe.fandom.com/wiki/Vaykor_Marelok",
@@ -6173,6 +6286,22 @@
       "rivenDisposition": 1.05,
       "specRivenDisp": false,
       "yt_link": "https://youtu.be/2I7kxHu218U",
+      "munitions": "Hitscan"
+    },
+    "Velox": {
+      "base": "",
+      "category": "Auto",
+      "dmg": "Status",
+      "dmgLink": "https://overframe.gg/build/49840/",
+      "mr": 8,
+      "name": "Velox",
+      "perfIndex": 56.4,
+      "rank": 46.08,
+      "tier": "Contender",
+      "type": "Auto",
+      "url": "http://warframe.wikia.com/wiki/Velox",
+      "notes": "Very low damage per shot; ",
+      "rivenDisposition": 0.5,
       "munitions": "Hitscan"
     },
     "Zakti": {
@@ -6451,5 +6580,5 @@
       "text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
     }
   },
-  "version": "Warframe Patch 27.4 - Re-ranked; Synoid Simulor and Twin Grakatas. Equipment pending tests are marked as such. "
+  "version": "Warframe Patch 28.0.5 - Added Primary Kitguns, Velox, Stahlta, Stropha, and Xoris. Re-ranked Kuva Bramma. Equipment pending tests are marked as such. "
 }
