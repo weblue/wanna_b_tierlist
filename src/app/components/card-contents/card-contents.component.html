@@ -4,7 +4,10 @@
     <div class="stat-list">
       <ul>
         <li *ngIf="item.munitions"><b class="is-medium">Munitions: </b>{{item.munitions}}</li>
-        <li *ngIf="item.type"><b class="is-medium">Trigger Type: </b>{{item.type}}</li>
+        <li *ngIf="item.type"><b class="is-medium">Trigger Type: </b>
+          <span *ngIf="item.type !== 'Full charge/Detonate'">{{item.type}}</span>
+          <span *ngIf="item.type === 'Full charge/Detonate'">F. charge/Detonate</span>
+        </li>
         <li *ngIf="item.combo"><b class="is-medium">Combo: </b>{{item.combo}}</li>
         <li *ngIf="item.stance"><b class="is-medium">Stance: </b>{{item.stance}}</li>
         <li *ngIf="item.rivenrec"><b class="is-medium">Riven Stat Rec: </b>{{item.rivenrec}}</li>

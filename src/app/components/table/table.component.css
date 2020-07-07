@@ -1,8 +1,4 @@
-tr.element-row:not(.expanded-row):active {
-  background: #efefef;
-}
-
-tr.element-row:not(.expanded-row):hover {
+tr.element-row:hover {
   /*row hover color*/
   background: hsl(0, 0%, 40%);
   cursor: pointer;
@@ -56,7 +52,7 @@ th {
 /* overrides */
 
 
-.mat-header-cell {
+.mat-header-row {
   font-size: 1.25em;
 }
 
@@ -131,17 +127,3 @@ table {
 .top-border {
   border-top: 1pt solid #dbdbdb;
 }
-
-/*@keyframes close-card {*/
-/*0% {*/
-/*  display: block;*/
-/*  height: 100%;*/
-/*}*/
-/*99% {*/
-/*  display: block;*/
-/*  height: 0;*/
-/*}*/
-/*100% {*/
-/*  display: none;*/
-/*}*/
-/*}*/

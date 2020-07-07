@@ -48,41 +48,36 @@
 
       <!-- Name Column -->
       <ng-container matColumnDef="name">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Name</th>
+        <th class="padded" *matHeaderCellDef> Name</th>
         <td mat-cell class="padded" *matCellDef="let element">
           <a class="padded" target="_blank" href="{{element.url}}">{{element.name}}</a>
         </td>
       </ng-container>
 
-      <ng-container matColumnDef="base">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Base</th>
-        <td mat-cell class="padded" *matCellDef="let element"> {{element.base}} </td>
-      </ng-container>
-
       <ng-container matColumnDef="category">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Category</th>
+        <th class="padded" *matHeaderCellDef> Category</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.category}} </td>
       </ng-container>
 
       <ng-container matColumnDef="mr">
-        <th mat-header-cell class="padded" *matHeaderCellDef> MR</th>
+        <th class="padded" *matHeaderCellDef> MR</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.mr}}</td>
       </ng-container>
 
       <ng-container matColumnDef="dmg">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Build Type</th>
+        <th class="padded" *matHeaderCellDef> Build Type</th>
         <td mat-cell class="padded" *matCellDef="let element">
           <a target="_blank" href="{{element.dmgLink}}" *ngIf="element.dmg !== 'Critical & Status'">{{element.dmg}}</a>
           <a target="_blank" href="{{element.dmgLink}}" *ngIf="element.dmg === 'Critical & Status'">Crit & Status</a></td>
       </ng-container>
 
       <ng-container matColumnDef="munitions">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Munitions</th>
+        <th class="padded" *matHeaderCellDef> Munitions</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.munitions}} </td>
       </ng-container>
 
       <ng-container matColumnDef="rivenDisposition">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Riven Dispo</th>
+        <th class="padded" *matHeaderCellDef> Riven Dispo</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.rivenDisposition  | number: '1.2-2'}}
           <div class="unusual_riven" *ngIf="element.specRivenDisp">
             ✪
@@ -92,17 +87,21 @@
       </ng-container>
 
       <ng-container matColumnDef="notes">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Notes</th>
+        <th class="padded" *matHeaderCellDef> Notes</th>
         <td mat-cell class="padded" *matCellDef="let element"> {{element.notes}} </td>
       </ng-container>
 
       <ng-container matColumnDef="type">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Trigger Type</th>
-        <td mat-cell class="padded" *matCellDef="let element"> {{element.type}} </td>
+        <th class="padded" *matHeaderCellDef> Trigger Type</th>
+<!--        <td mat-cell class="padded" *matCellDef="let element"> {{element.type}} </td>-->
+        <td mat-cell class="padded" *matCellDef="let element">
+          <span *ngIf="element.type !== 'Full charge/Detonate'">{{element.type}}</span>
+          <span *ngIf="element.type === 'Full charge/Detonate'">F. charge/Detonate</span>
+        </td>
       </ng-container>
 
       <ng-container matColumnDef="perfIndex">
-        <th mat-header-cell class="padded" *matHeaderCellDef>
+        <th class="padded" *matHeaderCellDef>
           <div>
         <span class="perf_index">Perf Index
           <span
@@ -113,13 +112,8 @@
         <td mat-cell class="padded" *matCellDef="let element"> {{element.perfIndex | number: '1.1-1'}} </td>
       </ng-container>
 
-      <ng-container matColumnDef="wepnotes">
-        <th mat-header-cell class="padded" *matHeaderCellDef> Notes</th>
-        <td mat-cell class="padded" *matCellDef="let element"> {{element.wepnotes}} </td>
-      </ng-container>
-
       <ng-container matColumnDef="expand">
-        <th mat-header-cell *matHeaderCellDef></th>
+        <th *matHeaderCellDef></th>
         <td mat-cell class="padded" style="width: 92px;" *matCellDef="let element">
           <fa-icon *ngIf="element !== expandedElement" [icon]="faDown" size="lg" class="is-pulled-right"></fa-icon>
           <fa-icon *ngIf="element === expandedElement" [icon]="faUp" size="lg" class="is-pulled-right"></fa-icon>
@@ -145,12 +139,11 @@
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns" [hidden]="row.isTier"
           class="element-row top-border"
-          [class.example-expanded-row]="expandedElement === row"
+          [class.row-expanded]="expandedElement === row"
           (click)="expandedElement = expandedElement === row ? null : row">
       </tr>
       <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="detail-row"
                 [hidden]="row.isTier"></tr>
-      <!--                [hidden]="row.isTier || expandedElement !== row"></tr>-->
       <tr class="sticky-tier" mat-row *matRowDef="let row; columns: ['tierHeader']"
           [hidden]="!row.isTier"></tr>
     </table>
