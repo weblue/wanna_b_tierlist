@@ -1,0 +1,20 @@
+.note-list {
+  font-size: 1.1rem;
+}
+
+.note-list-item {
+  padding-top: 1rem;
+}
+
+/*.faq-question {
+  font-weight: 500;
+  font-size: 1rem;
+}*/
+
+#faq-title {
+  padding-top: 1em;
+}
+
+.ans-title {
+  margin-bottom: 0;
+}

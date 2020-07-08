@@ -1,0 +1,29 @@
+@keyframes heartbeat {
+    0% {
+        transform: scale(0.75);
+    }
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.75);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+.animated-heartbeat {
+    animation: heartbeat 2s infinite;
+    color: tomato;
+    display: inline-block;
+}
+
+.list-unstyled{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }

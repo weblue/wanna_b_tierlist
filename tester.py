@@ -1,6 +1,6 @@
 import json
 
-json_data = open("./js/thelist.json").read()
+json_data = open("./src/assets/thelist.json").read()
 
 def parse(text):
     return json.loads(text)

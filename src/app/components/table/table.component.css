@@ -1,0 +1,129 @@
+tr.element-row:hover {
+  /*row hover color*/
+  background: hsl(0, 0%, 40%);
+  cursor: pointer;
+}
+
+td.mat-cell {
+  border-bottom: 0;
+}
+
+td.row-borders {
+  border-bottom: rgba(255, 255, 255, 0.12) solid 1px;
+}
+
+tr.detail-row {
+  height: 0;
+}
+
+th {
+  position: sticky;
+  top: calc(4rem - 0px);
+  /*This should be same as $table-background-color*/
+  background: hsl(0, 0%, 30%);
+  border-bottom: 2px solid hsl(0, 0%, 60%) !important;
+  z-index: 2;
+}
+
+.sticky-tier td {
+  /*background-color: hsl(0, 0%, 50%);*/
+  /*This should be same as $table-background-color*/
+  background: hsl(0, 0%, 30%);
+  /*border-bottom: 2px solid hsl(0, 0%, 60%);*/
+  position: sticky;
+  border-bottom: 2px solid hsl(0, 0%, 60%) !important;
+  top: calc(7rem + 8px);
+  z-index: 1;
+}
+
+.row-detail {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* overrides */
+
+
+.mat-header-row {
+  font-size: 1.25em;
+}
+
+.margin-left {
+  padding-left: 1em
+}
+
+.padded {
+  padding-top: .2em
+}
+
+.margin-right {
+  margin-right: .5em
+}
+
+.mat-cell{
+  font-size: 1.25em;
+}
+
+.unusual_riven {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+.unusual_riven .tooltip_text {
+  visibility: hidden;
+  width: 15em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.unusual_riven:hover .tooltip_text {
+  visibility: visible;
+}
+
+.perf_index {
+  border-bottom: 1px dotted white;
+}
+
+.perf_index .tooltip_text {
+  visibility: hidden;
+  width: 15em;
+  top: 100%;
+  left: -50%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+}
+
+.perf_index:hover .tooltip_text {
+  visibility: visible;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+}
+
+.top-border {
+  border-top: 1pt solid #dbdbdb;
+}

@@ -1,0 +1,88 @@
+<div class="container">
+  <p id="oro-title" class="title is-2">Testing Methodology</p>
+  <p class="subtitle is-4">Outline of the process our curators use to rank weapons</p>
+  <div class="content is-medium">
+    <p class="title">The Orokin 100</p>
+    <p class="subtitle">The Orokin 100 challenge, usually shortened to <strong>oro100</strong>, requires the following
+      setup:</p>
+
+    <blockquote>
+      Using the Citadel Simulacrum.
+      <br>
+      Warframe with 1.00 movespeed and no passive DPS increase.
+      <br>
+      Only two mods are installed: <strong>Enemy Sense</strong> and <strong>Enemy Radar.</strong>
+      <br>
+      <strong>Two</strong> of each of the following enemies (total of 16 out of maximum 20):
+      <ul>
+        <li>Corrupted Lancer</li>
+        <li>Corrupted Crewman</li>
+        <li>Corrupted Butcher</li>
+        <li>Corrupted Moa</li>
+        <li>Corrupted Heavy Gunner</li>
+        <li>Corrupted Ancient</li>
+        <li>Corrupted Bombard</li>
+        <li>Corrupted Nullifier</li>
+      </ul>
+      <strong>Friendly Fire</strong>: OFF
+      <br>
+      <strong>Invincibility</strong>: ON
+      <br>
+      <strong>Pause AI</strong>: OFF
+      <br>
+      <strong>Enemy Level</strong>: 100
+      <br>
+      <br>
+      To ensure enemies spawn according to a fixed pattern and minimize variations:
+      <ol type="1">
+        <li>Simulate the enemies <strong>ONCE</strong></li>
+        <li>Return to the console and kill enemies</li>
+        <li>Exit the console</li>
+        <li>Go to the console a third time and simulate again</li>
+      </ol>
+    </blockquote>
+    <p>The time it takes to kill all 16 enemies is considered the scored for that run.</p>
+  </div>
+  <div class="content">
+    <p class="title">Testing Procedure</p>
+    <p class="subtitle">The exact procedure used by our curators</p>
+    <br>
+    <p class="title is-4 is-spaced">Standard test</p>
+    <p>
+      Tester should attempt up to three test runs to familiarize themselves with the weapon.
+      <br>
+      Minimum of <strong>five (5)</strong> complete attempts are made per weapon.</p>
+    <blockquote>
+      A run is considered incomplete if:
+      <ul>
+        <li>Tester drops out of bounds due to mistake in maneuver. If the mistake is induced by the weapon the run
+          continues.
+        </li>
+        <li>An enemy drops out of bounds before fatal damage is dealt.</li>
+        <li>Tester fails to reset all conditions prior to run. This commonly includes, but is not limited to: Berserker
+          proc(s), Bladed Rounds, failing to reload and pick up ammo, sniper combo, and others.
+        </li>
+        <li>Any other errors that will severely impact results.</li>
+      </ul>
+    </blockquote>
+    <p>Depending on a weapon's performance, up to <strong>11</strong> runs may be completed.</p>
+    <blockquote>
+      The following criteria is used to determine number of runs attempted:
+      <ul>
+        <li>5 runs - All 5 runs fall below Top for that arsenal slot</li>
+        <li>7 runs - Out of 5 runs, at least one (1) run fall within Top</li>
+        <li>9 runs - Out of 7 runs, at least three (3) runs within Top</li>
+        <li>11 runs - Out of 9 runs, at least five (5) runs fall within Top. </li>
+      </ul>
+    </blockquote>
+    <p class="title is-5">Final Scoring:</p>
+    <p>After all runs are completed, the <strong>five (5) fastest runs</strong> will be used for final scoring.
+      <br>
+      <strong>The final score is calculated with this formula:</strong>
+    </p>
+    <blockquote>
+      <em>ROUND</em> ( [ Average of 5 fastest runs ] * ( 1 + [ Standard Deviation of 5 Fastest runs ] / 2) , 2 )
+    </blockquote>
+    <p>This ensures that the average time of each weapon is considered, while penalizing potential inconsistencies of the weapon.</p>
+  </div>
+</div>

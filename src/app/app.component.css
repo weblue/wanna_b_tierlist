@@ -1,0 +1,28 @@
+
+.main-content {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px
+}
+
+#toTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  /*This overrides bulma's right and left paddings :(*/
+  padding-right: calc(0.75em - 1px);
+  padding-left: calc(0.75em - 1px);
+  /*background: darkgrey;*/
+  outline: none; /* Remove outline */
+  /*color: white; !* Text color *!*/
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-size: 1.25em; /* Increase font size */
+}
+
+#toTop:hover {
+  /*background-color: grey; !* Add a dark-grey background on hover *!*/
+}

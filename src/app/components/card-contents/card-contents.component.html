@@ -1,0 +1,29 @@
+<h1 class="title is-small">{{item.name}}</h1>
+<div class="card-container columns">
+  <div class="column is-one-third is-one-quarter-mobile ">
+    <div class="stat-list">
+      <ul>
+        <li *ngIf="item.munitions"><b class="is-medium">Munitions: </b>{{item.munitions}}</li>
+        <li *ngIf="item.type"><b class="is-medium">Trigger Type: </b>
+          <span *ngIf="item.type !== 'Full charge/Detonate'">{{item.type}}</span>
+          <span *ngIf="item.type === 'Full charge/Detonate'">F. charge/Detonate</span>
+        </li>
+        <li *ngIf="item.combo"><b class="is-medium">Combo: </b>{{item.combo}}</li>
+        <li *ngIf="item.stance"><b class="is-medium">Stance: </b>{{item.stance}}</li>
+        <li *ngIf="item.rivenrec"><b class="is-medium">Riven Stat Rec: </b>{{item.rivenrec}}</li>
+        <li *ngIf="item.base"><b class="is-medium">Base/Event: </b>{{item.base}}</li>
+      </ul>
+    </div>
+    <a [href]="item.yt_link" target="_blank" class="button is-large is-fullwidth youtube is-info is-outlined">
+    <span class="icon">
+      <fa-icon [icon]="faYoutube" size="lg"></fa-icon>
+    </span>
+      <span>Watch test</span>
+    </a>
+  </div>
+  <div class="column">
+    <!--    TODO integrate build from overframe API-->
+    <a [href]="item.dmgLink">Build</a>
+    <p *ngIf="item.notes">Notes: {{item.notes}}</p>
+  </div>
+</div>

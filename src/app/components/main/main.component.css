@@ -1,0 +1,16 @@
+.example-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mat-card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mat-card-subtitle {
+  font-size: 1rem;
+}

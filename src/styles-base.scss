@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+$table-head-cell-border-width: 0;
+
+$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
+
+$purple: #7e57c2;
+$purple-invert: #FFF;
+
+$primary: $purple;
+$primary-invert: $purple-invert;
+$accent: #e6ceff;
+
+$info: $accent;
+$text: hsl(0, 0%, 96%);
+$text-strong: hsl(0, 0%, 96%);
+$link: $accent;
+$link-hover: $accent;
+$navbar-dropdown-item-hover-color: $link;
+$content-heading-color: $text;
+$navbar-box-shadow-color: hsl(0, 0%, 50%);
+$border: hsl(0, 0%, 60%);
+
+$table-background-color: hsl(0, 0%, 40%);
+//This is usually slightly darker than scheme-main
+$background: hsl(0, 0%, 10%);
+//This is the main component background
+$scheme-main: hsl(0, 0%, 15%);
+$scheme-invert: hsl(0, 0%, 50%);
+
+$navbar-item-hover-background-color: $background;
+
+@import "../node_modules/bulma/bulma.sass";
+
+@import '~@angular/material/theming';
+@include mat-core();
+
+$tier-list-primary: mat-palette($mat-deep-purple, 100);
+$tier-list-accent: mat-palette($mat-deep-purple, A700, 500, 200);
+$tier-list-theme: mat-dark-theme($tier-list-primary, $tier-list-accent);
+
+@include angular-material-theme($tier-list-theme)
+
+//This is the table's background color
+//Item hover color is set in table.component.css
+.table {
+  background: hsl(0, 0%, 15%)
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+a {
+  text-decoration: none;
+  //color: #2C7DF6;
+}
+
+//.table a {
+//  text-decoration: underline;
+//}
+
+.table a:hover{
+  //color: #2C7DF6;
+  text-decoration: underline;
+}
+
+.container{
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  overflow: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.content{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.item-spacer {
+  margin: 0 10px !important;
+}
+
+.contents {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mat-table {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}

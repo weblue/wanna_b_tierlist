@@ -1,0 +1,98 @@
+<form class="example-form">
+  <table class="example-full-width">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Name</mat-label>
+          <input matInput name="name" [(ngModel)]="name"/>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field>
+          <mat-label>Base</mat-label>
+          <input matInput name="base" [(ngModel)]="base"/>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <mat-divider class="padded-bottom"></mat-divider>
+  <table class="example-full-width">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Tier</mat-label>
+          <mat-select [formControl]="tierSelect" multiple>
+            <mat-option *ngFor="let item of tierTypes" [value]="item">{{item}}</mat-option>
+
+            <!--            <mat-option [value]="'Top'">Top</mat-option>-->
+<!--            <mat-option [value]="'Contender'">Contender</mat-option>-->
+<!--            <mat-option [value]="'Viable'">Viable</mat-option>-->
+<!--            <mat-option [value]="'Need buffs'">Need buffs</mat-option>-->
+<!--            <mat-option [value]="'Untested'">Untested</mat-option>-->
+          </mat-select>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="example-full-width" >
+          <mat-label>Category</mat-label>
+          <mat-select [formControl]="categorySelect" multiple>
+            <mat-option *ngFor="let item of categoryTypes" [value]="item">{{item}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width" *ngIf = "filterCategory !== 'Melee'">
+          <mat-label>Trigger Type</mat-label>
+          <mat-select [formControl]="triggerSelect" multiple>
+            <mat-option *ngFor="let item of triggerTypes" [value]="item">{{item}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="example-full-width" *ngIf = "filterCategory !== 'Melee'">
+          <mat-label>Munitions</mat-label>
+          <mat-select [formControl]="munitionSelect" multiple>
+            <mat-option *ngFor="let item of munitionTypes" [value]="item">{{item}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Build Type</mat-label>
+          <mat-select [formControl]="buildSelect" multiple>
+            <mat-option *ngFor="let item of buildTypes" [value]="item">{{item}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <mat-divider class="padded-bottom"></mat-divider>
+  <table class="example-full-width">
+    <tr>
+      <td>
+        <mat-form-field class="example-full-width">
+          <mat-label>Mastery Rank (MR)</mat-label>
+          <input matInput type="number" name="mr" [(ngModel)]="mr"/>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field>
+          <mat-label>Riven Disposition</mat-label>
+          <input matInput type="number" name="rivenDisp" [(ngModel)]="rivenDisp"/>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <button class="button is-success is-outlined item-spacer" (click)="apply()">
+    <fa-icon [icon]="faCheck"></fa-icon>
+    &nbsp;Apply
+  </button>
+  <button class="button is-danger is-outlined" (click)="clear()">
+    <fa-icon [icon]="faTimes"></fa-icon>
+    &nbsp;Clear
+  </button>
+</form>

@@ -1,0 +1,10 @@
+<!--<div class="has-background-grey">-->
+<div>
+  <app-navbar></app-navbar>
+<!--  <router-outlet class="hero"></router-outlet>-->
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+  <button (click)="goToTop()" id="toTop" class="button is-info is-small" title="Go to top">
+    <fa-icon [icon]="faUpArrow" size="lg"></fa-icon>
+  </button>
+</div>
