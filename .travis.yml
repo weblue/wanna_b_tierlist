@@ -6,13 +6,14 @@ cache:
   - node_modules
 script:
   - python tester.py
-  - npm run build
+  - npm install
+  - ng build --prod --base-href https://cephalonwannab.com/
 deploy:
     provider: pages
     skip-cleanup: true
     github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
     keep-history: true
-    local_dir: build/tierlist
+    local_dir: dist/tierlist
     on:
         branch: master
 notifications:

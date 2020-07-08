@@ -42,8 +42,8 @@ import {CookieService} from "ngx-cookie-service";
 const cookieConfig:NgcCookieConsentConfig = {
   "cookie": {
     //TODO update this on deploy; maybe automate it?
-    // "domain": "cephalonwannab.com"
-    "domain": "localhost"
+    "domain": "cephalonwannab.com"
+    // "domain": "localhost"
   },
   "position": "bottom-left",
   "theme": "classic",
