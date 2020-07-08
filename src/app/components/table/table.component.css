@@ -89,7 +89,7 @@ th {
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  z-index: 3;
 }
 
 .unusual_riven:hover .tooltip_text {
