@@ -7,7 +7,7 @@ cache:
 script:
   - python tester.py
   - npm install
-  - ng build --prod --base-href https://cephalonwannab.com/
+  - ng build --prod --base-href https://www.cephalonwannab.com/
 deploy:
     provider: pages
     skip-cleanup: true
