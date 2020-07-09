@@ -5,7 +5,7 @@ cache:
   directories:
   - node_modules
 script:
-  - python tester.py
+  - node checkJson.js
   - npm install
   - ng build --prod --base-href https://www.cephalonwannab.com/
 deploy:
