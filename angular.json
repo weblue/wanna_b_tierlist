@@ -24,6 +24,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
+              "src/404.html",
               "src/assets",
               "src/browserconfig.xml",
               "src/CNAME",
