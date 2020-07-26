@@ -5,14 +5,14 @@ cache:
   directories:
   - node_modules
 script:
-  - python tester.py
+  - node checkJson.js
   - npm install
-  - ng build --prod --base-href https://www.cephalonwannab.com/
+  - ng build --prod
+  - cp dist/tierlist/index.html dist/tierlist/404.html
 deploy:
     provider: pages
     skip-cleanup: true
     github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    keep-history: true
     local_dir: dist/tierlist
     on:
         branch: master
