@@ -187,7 +187,7 @@ export class DataService {
     return DataService.injectTiers(items.filter((item) => {
       let show = true;
       if (item.name && this.filterParams.name) {
-        show = show && item.name.toLowerCase().startsWith(this.filterParams.name.toLowerCase());
+        show = show && item.name.toLowerCase().includes(this.filterParams.name.toLowerCase());
       }
       if (item.base && this.filterParams.base) {
         show = show && item.base.toLowerCase().includes(this.filterParams.base.toLowerCase());
