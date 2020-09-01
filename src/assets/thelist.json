@@ -2580,7 +2580,7 @@
 		"Quassus": {
 			"base": "",
 			"combo": "Heavy Attack",
-			"dmg": "Crit & Status",
+			"dmg": "Heavy Attack",
 			"dmgLink": "https://overframe.gg/build/74202/",
 			"mr": 8,
 			"name": "Quassus",
@@ -4563,7 +4563,7 @@
 			"base": "Soma is need buffs",
 			"category": "Rifle",
 			"dmg": "Critical & Status",
-			"dmgLink": "https://overframe.gg/build/10377/soma-prime/warframe-tier-list-soma-prime/",
+			"dmgLink": "https://overframe.gg/build/76485/",
 			"mr": 7,
 			"name": "Soma Prime",
 			"rank": 49.94,
@@ -4574,7 +4574,7 @@
 			"notes": "Very low damage per shot. Best paired with Frost Prime and Scindo Prime. ",
 			"rivenDisposition": 1,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/7kYGSlc4uLs",
+			"yt_link": "https://youtu.be/50oE4msVwYU",
 			"munitions": "Hitscan"
 		},
 		"Stahlta": {
