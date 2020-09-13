@@ -4566,7 +4566,7 @@
 			"dmgLink": "https://overframe.gg/build/76485/",
 			"mr": 7,
 			"name": "Soma Prime",
-			"rank":  44.2,
+			"rank": 44.2,
 			"perfIndex": 53.4,
 			"tier": "Viable",
 			"type": "Spool-up",
@@ -4811,6 +4811,25 @@
 			"yt_link": "https://youtu.be/M4hM_Gy9GW0",
 			"munitions": "Projectile"
 		},
+		"Trumna": {
+			"base": "",
+			"category": "Rifle",
+			"dmg": "Critical & Status",
+			"dmgLink": "https://overframe.gg/build/81838/",
+			"mr": 13,
+			"name": "Trumna",
+			"rank": 27.8,
+			"perfIndex": 84.9,
+			"tier": "Top",
+			"type": "Variable",
+			"url": "http://warframe.wikia.com/wiki/Trumna",
+			"notes": "High damage per shot. After 5 kills, use the alt fire to launch grenades. ",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/wfL2j1clgBw",
+			"munitions": "Hitscan"
+		},
+
 		"Vaykor Hek": {
 			"base": "Hek is viable",
 			"category": "Shotgun",
@@ -6049,6 +6068,25 @@
 			"yt_link": "https://youtu.be/dRW-GhBmdKE",
 			"munitions": "Projectile"
 		},
+		"Sepulcrum": {
+			"base": "",
+			"category": "Semi-Auto",
+			"dmg": "Critical & Status",
+			"dmgLink": "https://overframe.gg/build/81839/",
+			"mr": 14,
+			"name": "Sepulcrum",
+			"rank": 30.62,
+			"perfIndex": 84.8,
+			"tier": "Top",
+			"type": "Burst (2)",
+			"url": "http://warframe.wikia.com/wiki/Sepulcrum",
+			"notes": "After 5 kills, secondary fiee to enable lock-on targetting up to 5 targets and fire to launch 5 shots at the selected enemies. ",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/oFeht1jEwfI",
+			"munitions": "Projectile"
+		},
+
 		"Sicarus Prime": {
 			"base": "Base is Viable",
 			"category": "Semi-auto",
