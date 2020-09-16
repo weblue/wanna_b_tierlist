@@ -4261,17 +4261,18 @@
 			"dmgLink": "https://overframe.gg/build/74197/",
 			"mr": 11,
 			"name": "Phage",
-			"rank": 33.87,
-			"perfIndex": 69.7,
+			"rank": 25.62,
+			"perfIndex": 92.2,
 			"tier": "Top",
 			"type": "Held",
 			"url": "http://warframe.fandom.com/wiki/Phage",
 			"notes": "Low damage per shot. Scoping narrows down the beam to a single point. ",
 			"rivenDisposition": 1.46,
 			"specRivenDisp": true,
-			"yt_link": "https://youtu.be/YzcS5bzPMZc",
+			"yt_link": "https://youtu.be/27owHCs8620",
 			"munitions": "Beam"
 		},
+
 		"Phantasma": {
 			"base": "",
 			"category": "Shotgun",
@@ -6706,5 +6707,5 @@
 			"text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
 		}
 	},
-	"version": "Warframe Patch 29.0.8.1 - Added Trumna and Sepulcrum. Equipment pending tests are marked as such. "
+	"version": "Warframe Patch 29.0.8.1 - Added Trumna and Sepulcrum. Phage reranked. Equipment pending tests are marked as such. "
 }
