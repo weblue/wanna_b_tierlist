@@ -2584,16 +2584,16 @@
 			"dmgLink": "https://overframe.gg/build/74202/",
 			"mr": 8,
 			"name": "Quassus",
-			"rank": 27.15,
-			"perfIndex": 67.5,
+			"rank": 22.57,
+			"perfIndex": 81.2,
 			"stance": "Slicing Feathers",
-			"tier": "Contender",
+			"tier": "Top",
 			"category": "Warfan",
 			"url": "http://warframe.wikia.com/wiki/Quassus",
 			"notes": "High damage per hit, very high attack speed. Heavy attacks launch 12 daggers that procs slash damage. ",
 			"rivenDisposition": 0.5,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/wu9I-3NHaeQ"
+			"yt_link": "https://youtu.be/8H-j2-uBfjM"
 		},
 		"Rakta Dark Dagger": {
 			"base": "Dark Dagger is low viable",
@@ -6707,5 +6707,5 @@
 			"text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
 		}
 	},
-	"version": "Warframe Patch 29.0.8.1 - Added Trumna and Sepulcrum. Phage reranked. Equipment pending tests are marked as such. "
+	"version": "Warframe Patch 29.1.1 - Quassus reranked (again). Equipment pending tests are marked as such. "
 }
