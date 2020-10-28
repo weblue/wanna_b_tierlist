@@ -1803,23 +1803,23 @@
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/6Vge2J8ARn4"
 		},
-		"Guandao": {
-			"base": "",
+		"Guandao Prime": {
+			"base": "Base Need buffs",
 			"combo": "Cresting Peak",
 			"dmg": "Crit & Status",
-			"dmgLink": "https://overframe.gg/build/28691/",
-			"mr": 4,
-			"name": "Guandao",
-			"rank": 37.66,
-			"perfIndex": 48.6,
+			"dmgLink": "https://overframe.gg/build/98324/",
+			"mr": 12,
+			"name": "Guandao Prime",
+			"rank": 22.57,
+			"perfIndex": 81.2,
 			"stance": "Twirling Spire",
-			"tier": "Need buffs",
+			"tier": "Top",
 			"category": "Polearm",
-			"url": "http://warframe.fandom.com/wiki/Guandao",
+			"url": "http://warframe.fandom.com/wiki/Guandao_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 1,
+			"rivenDisposition": 0.5,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/QBSnJxnScrs"
+			"yt_link": "https://youtu.be/NagKQU05oi0"
 		},
 		"Gunsen": {
 			"base": "",
@@ -3080,6 +3080,24 @@
 			"rivenDisposition": 0.8,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/kkentJmInUg"
+		},
+		"Vitrica": {
+			"base": "",
+			"combo": "Broken Bull",
+			"dmg": "Crit & Status",
+			"dmgLink": "https://overframe.gg/build/98325/",
+			"mr": 13,
+			"name": "Vitrica",
+			"rank": 27.65,
+			"perfIndex": 66.3,
+			"stance": "Cleaving Whirlwind",
+			"tier": "Contender",
+			"category": "Heavy Blade",
+			"url": "http://warframe.wikia.com/wiki/Vitrica",
+			"notes": "Very high damage per hit, very low attack speed. Potentially Top but does not perform consistently. ",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/PMJszr8bCsc"
 		},
 		"Volnus": {
 			"base": "",
@@ -6413,24 +6431,25 @@
 			"yt_link": "https://youtu.be/o_k8GDUdxso",
 			"munitions": "Hitscan"
 		},
-		"Zakti": {
-			"base": "",
+		"Zakti Prime": {
+			"base": "Base Need Buffs",
 			"category": "Semi-auto",
 			"dmg": "Status",
-			"dmgLink": "https://overframe.gg/build/27928/",
-			"mr": 10,
-			"name": "Zakti",
-			"rank": 76.89,
-			"perfIndex": 33.8,
-			"tier": "Need buffs",
-			"type": "Semi-Auto",
-			"url": "http://warframe.fandom.com/wiki/Zakti",
-			"notes": "Pellets explode after landing, causing Impact status and Gas damage and status. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 1.25,
+			"dmgLink": "https://overframe.gg/build/98307/",
+			"mr": 14,
+			"name": "Zakti Prime",
+			"rank": 31.68,
+			"perfIndex": 82.0,
+			"tier": "Top",
+			"type": "Semi-auto",
+			"url": "http://warframe.fandom.com/wiki/Zakti_Prime",
+			"notes": "Pellets explode after landing, causing Impact status and Gas damage and status. ",
+			"rivenDisposition": 0.5,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/dq47GUds6TA",
+			"yt_link": "https://youtu.be/7gUm5-uPW_8",
 			"munitions": "Projectile"
 		},
+
 		"Zylok": {
 			"base": "",
 			"category": "Semi-auto",
@@ -6707,5 +6726,5 @@
 			"text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
 		}
 	},
-	"version": "Warframe Patch 29.1.1 - Quassus reranked (again). Equipment pending tests are marked as such. "
+	"version": "Warframe Patch 29.3.0.1 - Zakti Prime, Guandao Prime, & Nightwave weapon ranked. Equipment pending tests are marked as such. "
 }
