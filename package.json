@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "node checkJson.js",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "css-build": "node-sass --omit-source-map-url src/styles-base.scss src/styles.css"
