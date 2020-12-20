@@ -1,6 +1,6 @@
 # i_wanna_b_the_guy's Warframe Tier List
 
-![Node.js CI Build Status](https://github.com/weblue/wanna_b_tierlist/workflows/Node.js%20CI/badge.svg)
+![Build Angular App](https://github.com/weblue/wanna_b_tierlist/workflows/Build%20Angular%20App/badge.svg)
 [![GitHub issues](https://img.shields.io/github/issues/weblue/wanna_b_tierlist)](https://github.com/weblue/wanna_b_tierlist/issues)
 [![Website Up/Down](https://img.shields.io/website/https/www.cephalonwannab.com?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online)](https://www.cephalonwannab.com)
 ![License](https://img.shields.io/github/license/weblue/wanna_b_tierlist)
