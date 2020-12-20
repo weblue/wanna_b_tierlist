@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    name: Build and Test
+    name: Build, Test, Deploy
     runs-on: ubuntu-latest
 
     strategy:
@@ -31,13 +31,14 @@ jobs:
     - name: Validate
       run: npm test
 
-    - name: Archive build
-      if: success()
-      uses: actions/upload-artifact@v2
-      with:
-        name: deploy_dist
-        path: dist
+    # - name: Archive build
+      # if: success()
+      # uses: actions/upload-artifact@v2
+      # with:
+        # name: deploy_dist
+        # path: dist
     - name: Deploy to GitHub Pages
+      if: success()
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
