@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Nader Ki -- Dev/Design -- @MrFlooners
+
+    Kalgash -- Janitor
+    sakai4eva -- Curator
+    Brendan -- Data Entry
+    Matthew Wang -- Dev/Design Assistant -- malsf21
+
+# THANKS
+
+    sircod
+    u/thefisskonator
+    .hallwayRaptor -- Design/Styling
+    Zhandragon -- Original Creator
+
+# TECHNOLOGY COLOPHON
+
+    Angular, Material-Angular, Font Awesome
