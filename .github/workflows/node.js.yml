@@ -28,6 +28,10 @@ jobs:
       run: npm ci
     - name: Build
       run: npm run build --if-present
+    - name: Create index.html Fallback
+      # this next step makes all routes go to index.html for GitHub Pages
+      # for more, see https://angular.io/guide/deployment#routed-apps-must-fallback-to-indexhtml
+      run: cp dist/tierlist/index.html dist/tierlist/404.html
     - name: Validate
       run: npm test
 
