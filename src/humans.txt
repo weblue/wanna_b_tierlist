@@ -8,7 +8,7 @@
     Kalgash -- Janitor
     sakai4eva -- Curator
     Brendan -- Data Entry
-    Matthew Wang -- Dev/Design Assistant -- malsf21
+    Matthew Wang -- Dev/Design Assistant -- mattxwang
 
 # THANKS
 
