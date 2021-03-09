@@ -2195,7 +2195,7 @@
 			"category": "Tonfa",
 			"url": "http://warframe.fandom.com/wiki/Kronen_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 7,
+			"rivenDisposition": 0.85,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/dvRx5l6_iJA"
 		},
