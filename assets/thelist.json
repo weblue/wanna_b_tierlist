@@ -1115,7 +1115,7 @@
 			"category": "Hammer",
 			"url": "http://warframe.fandom.com/wiki/Arca_Titron",
 			"notes": "Very high damage per hit, very low attack speed. Suffers from relatively poor consistency. Kills grant up to 10 Capacitor (+100% electricity damage each) charges that is used on next slam attack. Slams also proc electricity and overrides hammer ragdoll. ",
-			"rivenDisposition": 1.25,
+			"rivenDisposition": 1.3,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/0LhtuNtlYrc"
 		},
@@ -1132,8 +1132,8 @@
 			"tier": "Contender",
 			"category": "Warfan",
 			"url": "http://warframe.wikia.com/wiki/Arum_Spinosa",
-			"notes": "High damage per hit, very high attack speed. ",
-			"rivenDisposition": 0.85,
+			"notes": "High damage per hit, very low attack speed. ",
+			"rivenDisposition": 1.05,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/QjVb7DhV-3U"
 		},
@@ -1151,7 +1151,7 @@
 			"category": "Whip",
 			"url": "http://warframe.fandom.com/wiki/Atterax",
 			"notes": "Low damage per hit, very low attack speed. ",
-			"rivenDisposition": 1,
+			"rivenDisposition": 1.05,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/YVCs1oIgz4c"
 		},
@@ -1205,7 +1205,7 @@
 			"category": "Sword",
 			"url": "http://warframe.fandom.com/wiki/Broken_War",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.15,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/YU9r-yxBtIE"
 		},
@@ -1223,7 +1223,7 @@
 			"category": "Polearm",
 			"url": "http://warframe.fandom.com/wiki/Cassowar",
 			"notes": "Low damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.35,
+			"rivenDisposition": 1.3,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/uSY3aAT33qE"
 		},
@@ -1295,7 +1295,7 @@
 			"category": "Blade and Whip",
 			"url": "http://warframe.fandom.com/wiki/Ceti_Lacera",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.15,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/6p5R1_n1FLQ"
 		},
@@ -1440,7 +1440,7 @@
 			"url": "http://warframe.fandom.com/wiki/Dragon_Nikana",
 			"notes": "Low damage per hit, very low attack speed. Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 1.15,
-			"specRivenDisp": false,
+			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/taI9qGGzhBQ"
 		},
 		"Dual Ether": {
@@ -1511,7 +1511,7 @@
 			"category": "Dual Swords",
 			"url": "http://warframe.fandom.com/wiki/Dual_Kamas_Prime",
 			"notes": "Low damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.15,
+			"rivenDisposition": 1.2,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/6BD9YRCORMA"
 		},
@@ -1687,10 +1687,10 @@
 			"rank": 22.69,
 			"perfIndex": 80.7,
 			"stance": "Spinning Needle",
-			"tier": "Contender",
+			"tier": "Top",
 			"category": "Dual Daggers",
 			"url": "http://warframe.fandom.com/wiki/Fang_Prime",
-			"notes": "Low damage per hit, very low attack speed. Potentially Top but does not perform consistently. ",
+			"notes": "Low damage per hit, very low attack speed. ",
 			"rivenDisposition": 1.3,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/WdUU47efKgw"
@@ -1745,7 +1745,7 @@
 			"category": "Heavy Blade",
 			"url": "http://warframe.fandom.com/wiki/Galatine_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 0.75,
+			"rivenDisposition": 0.8,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/h92G8qxX5gY"
 		},
@@ -1799,8 +1799,8 @@
 			"category": "Glaive",
 			"url": "http://warframe.fandom.com/wiki/Glaive_Prime",
 			"notes": "Low damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.05,
-			"specRivenDisp": true,
+			"rivenDisposition": 0.9,
+			"specRivenDisp": false,
 			"yt_link": "https://www.youtube.com/watch?v=19FcXibtm4o"
 		},
 		"Gram Prime": {
@@ -1817,7 +1817,7 @@
 			"category": "Heavy Blade",
 			"url": "http://warframe.fandom.com/wiki/Gram_Prime",
 			"notes": "Very high damage per hit, very low attack speed. ",
-			"rivenDisposition": 0.8,
+			"rivenDisposition": 0.75,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/6Vge2J8ARn4"
 		},
@@ -1835,7 +1835,7 @@
 			"category": "Polearm",
 			"url": "http://warframe.fandom.com/wiki/Guandao_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 0.6,
+			"rivenDisposition": 0.65,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/NagKQU05oi0"
 		},
@@ -1853,27 +1853,28 @@
 			"category": "Warfan",
 			"url": "http://warframe.fandom.com/wiki/Gunsen",
 			"notes": "Low damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.35,
+			"rivenDisposition": 1.3,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/9_TNmNXfTNc"
 		},
-		"Halikar": {
+
+		"Halikar Wraith": {
 			"base": "",
 			"combo": "Thrown",
-			"dmg": "Crit & Status",
-			"dmgLink": "https://overframe.gg/build/28693/",
+			"dmg": "Thrown",
+			"dmgLink": "https://overframe.gg/build/165607/",
 			"mr": 7,
-			"name": "Halikar",
-			"rank": 32.96,
-			"perfIndex": 55.6,
+			"name": "Halikar Wraith",
+			"rank": 31.3,
+			"perfIndex": 58.5,
 			"stance": "Astral Twilight",
 			"tier": "Viable",
 			"category": "Glaive",
-			"url": "http://warframe.fandom.com/wiki/Halikar",
-			"notes": "Low damage per hit, very low attack speed. Suffers from relatively poor consistency. Thrown attacks can disarm opponents. ",
-			"rivenDisposition": 1.44,
+			"url": "http://warframe.wikia.com/wiki/Halikar_Wraith",
+			"notes": "High damage per hit, very low attack speed. ",
+			"rivenDisposition": 0.75,
 			"specRivenDisp": false,
-			"yt_link": "https://www.youtube.com/watch?v=DLJEkLIdYTQ"
+			"yt_link": "https://youtu.be/VMIPEzZSZIs"
 		},
 		"Hate": {
 			"base": "",
@@ -1943,7 +1944,7 @@
 			"category": "Hammer",
 			"url": "http://warframe.fandom.com/wiki/Heliocor",
 			"notes": "Very high damage per hit, very low attack speed. Suffers from relatively poor consistency. Gives one codex scan upon kill. ",
-			"rivenDisposition": 1.3,
+			"rivenDisposition": 1.35,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/JLpb10vYUpc"
 		},
@@ -1961,7 +1962,7 @@
 			"category": "Sparring",
 			"url": "http://warframe.fandom.com/wiki/Hirudo",
 			"notes": "Low damage per hit, very low attack speed. Upon crit, heal you for 5% of damage dealt, and gives up to 5 stacks of Invigorate (+5% max health, 15s). ",
-			"rivenDisposition": 1.1,
+			"rivenDisposition": 1.05,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/dUOdEjLAOcY"
 		},
@@ -1979,7 +1980,7 @@
 			"category": "Hammer",
 			"url": "http://warframe.fandom.com/wiki/Jat_Kittag",
 			"notes": "Low damage per hit, very low attack speed. Vulcan Blitz cause kills to explode dealing 300 (+60% of enemy health) Blast damage in 6m radius. Part of the Tenno Space Program. ",
-			"rivenDisposition": 1.3,
+			"rivenDisposition": 1.35,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/IdPchvxeiJ4"
 		},
@@ -2051,7 +2052,7 @@
 			"category": "Dagger",
 			"url": "http://warframe.fandom.com/wiki/Karyst_Prime",
 			"notes": "Very high damage per hit, very high attack speed. ",
-			"rivenDisposition": 1.05,
+			"rivenDisposition": 0.75,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/EgD_1hiLOvY"
 		},
@@ -2069,7 +2070,7 @@
 			"category": "Claws",
 			"url": "http://warframe.wikia.com/wiki/Keratinos",
 			"notes": "High damage per hit, very high attack speed. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 0.9,
+			"rivenDisposition": 1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/RfHp9SkezmY"
 		},
@@ -2141,7 +2142,7 @@
 			"category": "Sparring",
 			"url": "http://warframe.fandom.com/wiki/Korrudo",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 1.3,
+			"rivenDisposition": 1.35,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/SNAbgVupR0E"
 		},
@@ -2195,8 +2196,8 @@
 			"category": "Tonfa",
 			"url": "http://warframe.fandom.com/wiki/Kronen_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 0.85,
-			"specRivenDisp": true,
+			"rivenDisposition": 0.65,
+			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/dvRx5l6_iJA"
 		},
 		"Lesion": {
@@ -2411,7 +2412,7 @@
 			"category": "Polearm",
 			"url": "http://warframe.fandom.com/wiki/Orthos_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 0.65,
+			"rivenDisposition": 0.6,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/eWg7XAcq1Iw"
 		},
@@ -2430,7 +2431,7 @@
 			"url": "http://warframe.fandom.com/wiki/Orvius",
 			"notes": "Low damage per hit, very low attack speed. Potentially Top but does not perform consistently. Heavy Attack while Blocking suspends enemies in midair. ",
 			"rivenDisposition": 1.35,
-			"specRivenDisp": false,
+			"specRivenDisp": true,
 			"yt_link": "https://www.youtube.com/watch?v=ltCvsZkGYaI"
 		},
 		"Pangolin Prime": {
@@ -2590,8 +2591,8 @@
 			"tier": "Contender",
 			"category": "Nunchaku",
 			"url": "http://warframe.wikia.com/wiki/Pulmonars",
-			"notes": "Very high damage per hit, very high attack speed. ",
-			"rivenDisposition": 0.85,
+			"notes": "Very high damage per hit, very low attack speed. ",
+			"rivenDisposition": 1.05,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/Rg4bwywwLCg"
 		},
@@ -2627,7 +2628,7 @@
 			"category": "Warfan",
 			"url": "http://warframe.wikia.com/wiki/Quassus",
 			"notes": "High damage per hit, very high attack speed. Heavy attacks launch 12 daggers that procs slash damage. ",
-			"rivenDisposition": 0.95,
+			"rivenDisposition": 1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/8H-j2-uBfjM"
 		},
@@ -2663,7 +2664,7 @@
 			"category": "Scythe",
 			"url": "http://warframe.fandom.com/wiki/Reaper_Prime",
 			"notes": "High damage per hit, very low attack speed. ",
-			"rivenDisposition": 0.75,
+			"rivenDisposition": 0.7,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/rmGWVwKNuXM"
 		},
@@ -2789,7 +2790,7 @@
 			"category": "Whip",
 			"url": "http://warframe.fandom.com/wiki/Secura_Lecta",
 			"notes": "Low damage per hit, very low attack speed. Killing an enemy with this weapon equipped gives bonus credits.",
-			"rivenDisposition": 1.05,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/b1Y-4FJln7w"
 		},
@@ -2951,7 +2952,7 @@
 			"category": "Hammer",
 			"url": "http://warframe.fandom.com/wiki/Synoid_Heliocor",
 			"notes": "High damage per hit, very low attack speed. Suffers from relatively poor consistency. Scans kills into codex, and if the target's Codex entry is complete it will create a friendly Spectre of said target. Spectre lasts 30s. ",
-			"rivenDisposition": 1.3,
+			"rivenDisposition": 1.35,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/CtsrNyrFkww"
 		},
@@ -3095,7 +3096,7 @@
 			"category": "Polearm",
 			"url": "http://warframe.fandom.com/wiki/Vaykor_Sydon",
 			"notes": "High damage per hit, very low attack speed. Blocking adds up to 15 stacks, which will emit Radial Blind in a 15m radius for 5s upon reaching the 15th stack. Also adds 50% resistance to knockdown/knockback. ",
-			"rivenDisposition": 1.25,
+			"rivenDisposition": 1.3,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/iTHAZ0wSK6g"
 		},
@@ -3131,27 +3132,28 @@
 			"category": "Heavy Blade",
 			"url": "http://warframe.wikia.com/wiki/Vitrica",
 			"notes": "Very high damage per hit, very low attack speed. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 0.7,
+			"rivenDisposition": 0.85,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/PMJszr8bCsc"
 		},
-		"Volnus": {
+
+		"Volnus Prime": {
 			"base": "",
 			"combo": "Raging Whirlwind",
 			"dmg": "Crit & Status",
-			"dmgLink": "https://overframe.gg/build/28764/",
-			"mr": 9,
-			"name": "Volnus",
-			"rank": 40.88,
-			"perfIndex": 44.8,
+			"dmgLink": "https://overframe.gg/build/165597/",
+			"mr": 0,
+			"name": "Volnus Prime",
+			"rank": 29.33,
+			"perfIndex": 62.5,
 			"stance": "Crushing Ruin",
-			"tier": "Need buffs",
+			"tier": "Viable",
 			"category": "Hammer",
-			"url": "http://warframe.fandom.com/wiki/Volnus",
-			"notes": "Low damage per hit, very low attack speed. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 1.35,
+			"url": "http://warframe.wikia.com/wiki/Volnus_Prime",
+			"notes": "High damage per hit, very low attack speed. ",
+			"rivenDisposition": 0.5,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/eyMRlWlJkzc"
+			"yt_link": "https://youtu.be/O_wNKxRAce0"
 		},
 		"War": {
 			"base": "",
@@ -3225,6 +3227,7 @@
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/H2sbBAuvmMw"
 		},
+
 		"Aram": {
 			"base": "",
 			"combo": "Spiraling Pinnacle",
@@ -3383,7 +3386,7 @@
 			"category": "Sword",
 			"url": "https://overframe.gg/build/32083/",
 			"notes": "Low damage per hit, very low attack speed. Ooltha - Peye - Ekwana II Jai zaw with Exodia Force. About 26.1% better than Vargeet II Jai. ",
-			"rivenDisposition": 1.2,
+			"rivenDisposition": 1.25,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/hWNTAZIhQuE"
 		},
@@ -3420,7 +3423,7 @@
 			"url": "https://overframe.gg/build/32084/",
 			"notes": "Low damage per hit, very low attack speed. Balla - Peye - Ekwana II Jai Zaw with Exodia Force. Ekwana Jai II link is similar, but at a lower potential. ",
 			"rivenDisposition": 0.9,
-			"specRivenDisp": false,
+			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/p2zfndf0sNM"
 		},
 		"Ukonvasara": {
@@ -3437,7 +3440,7 @@
 			"category": "Hammer",
 			"url": "https://overframe.gg/build/32091/",
 			"notes": "High damage per hit, very low attack speed. Suffers from relatively poor consistency. Rabvee - Seekalla - Ekwana Jai II zaw with Exodia Hunt.",
-			"rivenDisposition": 1.3,
+			"rivenDisposition": 1.25,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/0zCR8wiIQ14"
 		},
@@ -3459,6 +3462,7 @@
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/NAROdBfup4w"
 		}
+
 	},
 	"Primaries": {
 		"Acceltra": {
@@ -3533,22 +3537,23 @@
 			"yt_link": "https://youtu.be/M2l_sANCArw",
 			"munitions": "Hitscan"
 		},
-		"Astilla": {
+
+		"Astilla Prime": {
 			"base": "",
 			"category": "Shotgun",
 			"dmg": "Status",
-			"dmgLink": "https://overframe.gg/build/9680/",
+			"dmgLink": "https://overframe.gg/build/165594/",
 			"mr": 10,
-			"name": "Astilla",
-			"rank": 34.75,
-			"perfIndex": 54.8,
-			"tier": "Contender",
+			"name": "Astilla Prime",
+			"rank": 29.44,
+			"perfIndex": 64.7,
+			"tier": "Top",
 			"type": "Full-auto",
-			"url": "http://warframe.fandom.com/wiki/Astilla",
-			"notes": "Low damage per shot. Deals 30% of damage upon impact and 70% on explosion. Potentially Top but does not perform consistently. ",
-			"rivenDisposition": 1.2,
-			"specRivenDisp": true,
-			"yt_link": "https://youtu.be/uxz6nx6EY18",
+			"url": "http://warframe.wikia.com/wiki/Astilla_Prime",
+			"notes": "High damage per shot. Has a secondary explosion after the impact of the initial slug.",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/_-zRP_7Ag7A",
 			"munitions": "Projectile"
 		},
 		"Attica": {
@@ -3582,7 +3587,7 @@
 			"type": "Auto",
 			"url": "http://warframe.wikia.com/wiki/Basmu",
 			"notes": "Low damage per shot. Reload takes 5 times longer if magazine is depleted. Potentially Top but does not perform consistently. ",
-			"rivenDisposition": 1.15,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/soZobyI6aWM",
 			"munitions": "Projectile/Beam"
@@ -3690,7 +3695,7 @@
 			"type": "Burst (3x3)",
 			"url": "http://warframe.wikia.com/wiki/Bubonico",
 			"notes": "Very high damage per shot. Secondary fire preferred due to Status Chance and AOE. ",
-			"rivenDisposition": 0.6,
+			"rivenDisposition": 0.7,
 			"specRivenDisp": true,
 			"yt_link": "https://www.youtube.com/watch?v=EQmz8ygkgw8",
 			"munitions": "Projectile"
@@ -3810,15 +3815,15 @@
 			"dmgLink": "https://overframe.gg/build/10380/",
 			"mr": 10,
 			"name": "Daikyu",
-			"rank": 55.96,
-			"perfIndex": 34.0,
+			"rank": 45.53,
+			"perfIndex": 41.8,
 			"tier": "Viable",
 			"type": "Charge (1.0s)",
 			"url": "http://warframe.fandom.com/wiki/Daikyu",
 			"notes": "Very high damage per shot. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.25,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/A9PyqqNcZWg",
+			"yt_link": "https://youtu.be/zFwbl4hOewc",
 			"munitions": "Projectile"
 		},
 		"Dera Vandal": {
@@ -3870,7 +3875,7 @@
 			"type": "Charge (0.5s)",
 			"url": "http://warframe.fandom.com/wiki/Dread",
 			"notes": "High damage per shot. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 1.3,
+			"rivenDisposition": 1.25,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/jSJFtd4LBuo",
 			"munitions": "Projectile"
@@ -3888,7 +3893,7 @@
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Exergis",
 			"notes": "Very high damage per shot. ",
-			"rivenDisposition": 1.05,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/vd1MV8jsnhc",
 			"munitions": "Projectile"
@@ -3936,15 +3941,15 @@
 			"dmgLink": "https://overframe.gg/build/9652/",
 			"mr": 8,
 			"name": "Fulmin",
-			"rank": 39.09,
-			"perfIndex": 48.7,
+			"rank": 33.41,
+			"perfIndex": 57.0,
 			"tier": "Contender",
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Fulmin",
-			"notes": "Very high damage per shot. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. ",
-			"rivenDisposition": 0.65,
+			"notes": "Very high damage per shot. Primary fire has a small cone-like AoE. Secondary fire toggles automatic hitscan fire mode. Switching between the two is slow and clunky. Potentially Top but does not perform consistently. ",
+			"rivenDisposition": 0.6,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/4a-wAQqF5Ic",
+			"yt_link": "https://youtu.be/TGyI0J6qsJ0",
 			"munitions": "Projectile/Hitscan"
 		},
 		"Glaxion Vandal": {
@@ -4122,7 +4127,7 @@
 			"type": "Charge (1.0s)",
 			"url": "http://warframe.fandom.com/wiki/Lanka",
 			"notes": "Very high damage per shot. Sniper combo counter rampup is very good (min. 2), zooming in gives additive bonus to Crit Chance (20%/30%/50%). Innate Electric damage and high direct damage potential makes the Lanka the choice weapon for Eidolon hunting. ",
-			"rivenDisposition": 0.95,
+			"rivenDisposition": 1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/ijr5wUjsFyM",
 			"munitions": "Projectile"
@@ -4224,15 +4229,15 @@
 			"dmgLink": "https://overframe.gg/build/10372/",
 			"mr": 9,
 			"name": "Nagantaka",
-			"rank": 62.46,
-			"perfIndex": 30.5,
-			"tier": "Need buffs",
+			"rank": 55.06,
+			"perfIndex": 34.6,
+			"tier": "Viable",
 			"type": "Variable",
 			"url": "http://warframe.fandom.com/wiki/Nagantaka",
 			"notes": "High damage per shot. Headshots have a chance to increase reload speed. Secondary fire empties clip with little additional recoil and is highly recommended. ",
 			"rivenDisposition": 1.3,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/d8G2-5KHtjc",
+			"yt_link": "https://youtu.be/uoKieuri1_8",
 			"munitions": "Projectile"
 		},
 		"Ogris": {
@@ -4302,7 +4307,7 @@
 			"type": "Auto",
 			"url": "http://warframe.fandom.com/wiki/Panthera_Prime",
 			"notes": "High damage per shot. Primary fire projectiles can bounce up to 3 times and explode. Alt-fire puts a spinning blade a few meters in from of the weapon that constantly spin and deal damage. ",
-			"rivenDisposition": 1.05,
+			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/d8WayH97WT8",
 			"munitions": "Projectile"
@@ -4464,7 +4469,7 @@
 			"type": "Charge (0.1s)",
 			"url": "http://warframe.wikia.com/wiki/Proboscis_Cernos",
 			"notes": "Very low damage per shot. Arrows embed onto targets and create tendrils to pull nearby enemies before finally exploding after 1.7s. ",
-			"rivenDisposition": 0.5,
+			"rivenDisposition": 0.55,
 			"specRivenDisp": false,
 			"yt_link": "https://www.youtube.com/watch?v=-kMhrElh6_s",
 			"munitions": "Projectile"
@@ -4518,7 +4523,7 @@
 			"type": "Variable",
 			"url": "http://warframe.fandom.com/wiki/Quellor",
 			"notes": "Very high damage per shot; Secondary fire has a post-fire delay before the next action, whether it be reloading or going back to primary fire. Potentially Top but does not perform consistently. ",
-			"rivenDisposition": 1.05,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/uhNcQdSef_s",
 			"munitions": "Hitscan/Projectile"
@@ -4572,7 +4577,7 @@
 			"type": "Duplex",
 			"url": "http://warframe.fandom.com/wiki/Sancti_Tigris",
 			"notes": "Very high damage per shot. Duplex trigger might take a while to get used to. Purity (Corrosive, health) effect can be useful. ",
-			"rivenDisposition": 0.95,
+			"rivenDisposition": 0.9,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/CZzlP0ULp8w",
 			"munitions": "Hitscan"
@@ -4622,10 +4627,10 @@
 			"name": "Shedu",
 			"rank": 33.36,
 			"perfIndex": 57.1,
-			"tier": "Top",
+			"tier": "Contender",
 			"type": "Full-auto",
 			"url": "http://warframe.fandom.com/wiki/Shedu",
-			"notes": "Low damage per shot; Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. ",
+			"notes": "Low damage per shot; Depleting your ammo releases a pulse that deals Electric damage, stuns, and resets sentient resistance. Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 0.8,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/Zdqb6Q7YQg0",
@@ -4698,7 +4703,7 @@
 			"type": "Semi-auto",
 			"url": "http://warframe.wikia.com/wiki/Sporothrix",
 			"notes": "Very high damage per shot. Shots explode 0.9s after landing. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 0.85,
+			"rivenDisposition": 1.1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/sEUYD505kLM",
 			"munitions": "Hitscan"
@@ -4716,7 +4721,7 @@
 			"type": "Charged",
 			"url": "http://warframe.wikia.com/wiki/Stahlta",
 			"notes": "Very high damage per shot. ",
-			"rivenDisposition": 0.8,
+			"rivenDisposition": 0.85,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/kjQ8vlFYdYw",
 			"munitions": "Projectile"
@@ -4770,7 +4775,7 @@
 			"type": "Spool-up",
 			"url": "http://warframe.fandom.com/wiki/Supra_Vandal",
 			"notes": "Low damage per shot. Entropy Burst (Magnetic, Energy) can increase status chance, but ultimately unnecessary with current setup. ",
-			"rivenDisposition": 0.95,
+			"rivenDisposition": 0.9,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/8wKR69vxbWI",
 			"munitions": "Projectile"
@@ -4802,10 +4807,10 @@
 			"name": "Synapse",
 			"rank": 33.36,
 			"perfIndex": 57.1,
-			"tier": "Top",
+			"tier": "Contender",
 			"type": "Held",
 			"url": "http://warframe.fandom.com/wiki/Synapse",
-			"notes": "Low damage per shot. ",
+			"notes": "Low damage per shot. Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 1.315,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/A4dhDJbyUb8",
@@ -4878,7 +4883,7 @@
 			"type": "Variable",
 			"url": "http://warframe.fandom.com/wiki/Tiberon_Prime",
 			"notes": "High damage per shot. Alt-fire toggles between 3-round burst, semi-auto, and auto. Testing so far shows that burst fire has 5% edge on DPS compared to semi-auto at the expense of ammo economy. Potentially Top but does not perform consistently. ",
-			"rivenDisposition": 0.85,
+			"rivenDisposition": 0.9,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/2Wpd_7ddTGA",
 			"munitions": "Hitscan"
@@ -4896,7 +4901,7 @@
 			"type": "Duplex",
 			"url": "http://warframe.fandom.com/wiki/Tigris_Prime",
 			"notes": "Very high damage per shot. Duplex trigger might take a while to get used to. ",
-			"rivenDisposition": 0.85,
+			"rivenDisposition": 0.8,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/pWbNvOLBz1Q",
 			"munitions": "Hitscan"
@@ -4950,7 +4955,7 @@
 			"type": "Variable",
 			"url": "http://warframe.wikia.com/wiki/Trumna",
 			"notes": "High damage per shot. After 5 kills, use the alt fire to launch grenades. ",
-			"rivenDisposition": 0.7,
+			"rivenDisposition": 0.75,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/wfL2j1clgBw",
 			"munitions": "Hitscan"
@@ -5106,15 +5111,15 @@
 			"dmgLink": "https://overframe.gg/build/23286/",
 			"mr": 15,
 			"name": "Kuva Chakkhurr",
-			"rank": 37.85,
-			"perfIndex": 50.3,
-			"tier": "Contender",
+			"rank": 32.71,
+			"perfIndex": 58.2,
+			"tier": "Top",
 			"type": "Semi",
 			"url": "http://warframe.fandom.com/wiki/Kuva_Chakkhurr",
 			"notes": "High damage per shot; Tested with 60% Toxin bonus. Shots explode in a small AOE after impact. Also deals 50% bonus damage on headshots. ",
 			"rivenDisposition": 0.85,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/QmLEHYjZmkI",
+			"yt_link": "https://youtu.be/4NEVYklVsw4",
 			"munitions": "Projectile"
 		},
 		"Kuva Drakgoon": {
@@ -5148,8 +5153,8 @@
 			"type": "Burst (5)",
 			"url": "http://warframe.fandom.com/wiki/Kuva_Hind",
 			"notes": "Low damage per shot; Tested with 60% Toxin bonus. Burst fire is preferred. Potentially Top but does not perform consistently. ",
-			"rivenDisposition": 1.05,
-			"specRivenDisp": true,
+			"rivenDisposition": 1,
+			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/aCpHFfu85iU",
 			"munitions": "Hitscan"
 		},
@@ -5216,10 +5221,10 @@
 			"name": "Kuva Quartakk",
 			"rank": 33.07,
 			"perfIndex": 57.6,
-			"tier": "Top",
+			"tier": "Contender",
 			"type": "Auto",
 			"url": "http://warframe.fandom.com/wiki/Kuva_Quartakk",
-			"notes": "Low damage per shot; Tested with 60% Toxin bonus. Switches to 4-shot burst while aiming down sight, with excellent grouping suitable for headshots.",
+			"notes": "Low damage per shot; Tested with 60% Toxin bonus. Switches to 4-shot burst while aiming down sight, with excellent grouping suitable for headshots.Potentially Top but does not perform consistently. ",
 			"rivenDisposition": 1,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/_6LJqknIlno",
@@ -5310,8 +5315,8 @@
 			"type": "Charged",
 			"url": "https://overframe.gg/build/52644/",
 			"notes": "Very high damage per shot; Tombfinger-Tremor-Splat kitgun with R3 Pax Seeker.",
-			"rivenDisposition": 0.75,
-			"specRivenDisp": false,
+			"rivenDisposition": 0.85,
+			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/ubtW00xzDkQ",
 			"munitions": "Projectile"
 		},
@@ -5351,6 +5356,7 @@
 			"yt_link": "https://youtu.be/EQkOTiYnmIA",
 			"munitions": "Projectile"
 		}
+
 	},
 	"Schools": {
 		"Curator's Notes": {
@@ -5432,7 +5438,7 @@
 			"type": "Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Akbolto_Prime",
 			"notes": "Keep your friends close; keep your enemies closer. Because bolts have travel time. ",
-			"rivenDisposition": 1.1,
+			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/boZIECdAt4k",
 			"munitions": "Projectile"
@@ -5468,7 +5474,7 @@
 			"type": "Burst (2)",
 			"url": "http://warframe.fandom.com/wiki/Akjagara_Prime",
 			"notes": "",
-			"rivenDisposition": 0.9,
+			"rivenDisposition": 0.85,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/ewniy-QGxhU",
 			"munitions": "Hitscan"
@@ -5518,7 +5524,7 @@
 			"name": "Akmagnus",
 			"rank": 57.53,
 			"perfIndex": 45.1,
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Akmagnus",
 			"notes": "",
@@ -5558,7 +5564,7 @@
 			"type": "Auto",
 			"url": "http://warframe.fandom.com/wiki/Akstiletto_Prime",
 			"notes": "Very good all-rounder secondary. Potentially Top but does not perform consistently. ",
-			"rivenDisposition": 0.65,
+			"rivenDisposition": 0.6,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/GUhgf85yCNg",
 			"munitions": "Hitscan"
@@ -5648,7 +5654,7 @@
 			"type": "Held",
 			"url": "http://warframe.fandom.com/wiki/Atomos",
 			"notes": "Chains 7m away, even when shooting at dead bodies. ",
-			"rivenDisposition": 0.85,
+			"rivenDisposition": 0.9,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/-oQWaveNtQs",
 			"munitions": "Beam"
@@ -5720,7 +5726,7 @@
 			"type": "Held",
 			"url": "http://warframe.wikia.com/wiki/Catabolyst",
 			"notes": "Reloading throws a grenade that deals more damage the less ammo remaining in the clip. Pairs well with Arcane Avenger due to high Crit Multiplier. ",
-			"rivenDisposition": 0.8,
+			"rivenDisposition": 1,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/A-KWnR-ZLrs",
 			"munitions": "Beam"
@@ -5833,6 +5839,24 @@
 			"yt_link": "https://youtu.be/3I8aoab11Ts",
 			"munitions": "Beam"
 		},
+		"Epitaph": {
+			"base": "",
+			"category": "Semi-auto",
+			"dmg": "Critical & Status",
+			"dmgLink": "https://overframe.gg/build/165600/",
+			"mr": 14,
+			"name": "Epitaph",
+			"rank": 29.94,
+			"perfIndex": 86.7,
+			"tier": "Top",
+			"type": "Semi-auto",
+			"url": "http://warframe.wikia.com/wiki/Epitaph",
+			"notes": "Charged shots forces Impact proc and has 2m punchthrough. ",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/PUX_HhV7dTw",
+			"munitions": "Projectile"
+		},
 		"Euphona Prime": {
 			"base": "",
 			"category": "Shotgun",
@@ -5846,7 +5870,7 @@
 			"type": "Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Euphona_Prime",
 			"notes": "Alt-fire switches to multi-pellet mode that can achieve 100% status chance when modded properly. However, slug mode firing has superior DPS and hybrid modding will gimp both builds. ",
-			"rivenDisposition": 0.75,
+			"rivenDisposition": 0.8,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/SGxkAGh7zAc",
 			"munitions": "Projectile/Hitscan"
@@ -5860,7 +5884,7 @@
 			"name": "Fusilai",
 			"rank": 57.5,
 			"perfIndex": 45.2,
-			"tier": "Viable",
+			"tier": "Need buffs",
 			"type": "Auto / Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Fusilai",
 			"notes": "Alt-fire launches three throwing knives horizontally instead. ",
@@ -5900,7 +5924,7 @@
 			"type": "Auto",
 			"url": "http://warframe.fandom.com/wiki/Hystrix",
 			"notes": "Bolts munitions have pros and cons. Clip is small for fire rate and despite quick reload will end up being annoying. Alt-fire changes elemental damage to one of four basic types (Fire, Ice, Poison, Electricity) with guaranteed procs which scales more if corresponding elemental mod is installed. ",
-			"rivenDisposition": 1.2,
+			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/gNjzE8s5bjk",
 			"munitions": "Projectile"
@@ -6080,7 +6104,7 @@
 			"type": "Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Pandero_Prime",
 			"notes": "Alt-fire empties clip onto enemy with some worrying recoil. ",
-			"rivenDisposition": 0.5,
+			"rivenDisposition": 0.75,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/Yygq2qVC3J4",
 			"munitions": "Hitscan"
@@ -6116,7 +6140,7 @@
 			"type": "Auto",
 			"url": "http://warframe.fandom.com/wiki/Pox",
 			"notes": "Firing launches gas darts that will fill a moderate AOE with gas. Modding 100% status is highly recommended. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 1.2,
+			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/GaDN14XKUP4",
 			"munitions": "Projectile"
@@ -6188,7 +6212,7 @@
 			"type": "Burst (4)",
 			"url": "http://warframe.fandom.com/wiki/Quatz",
 			"notes": "Reloading when the clip is emptied causes an Electric damage proc (with 100% status chance) around you. Suffers from relatively poor consistency. ",
-			"rivenDisposition": 1.2,
+			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/ucyEF8eAFHw",
 			"munitions": "Hitscan"
@@ -6260,8 +6284,8 @@
 			"type": "Burst (2)",
 			"url": "http://warframe.wikia.com/wiki/Sepulcrum",
 			"notes": "After 5 kills, secondary fiee to enable lock-on targetting up to 5 targets and fire to launch 5 shots at the selected enemies. ",
-			"rivenDisposition": 0.75,
-			"specRivenDisp": false,
+			"rivenDisposition": 0.95,
+			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/oFeht1jEwfI",
 			"munitions": "Projectile"
 		},
@@ -6290,15 +6314,15 @@
 			"dmgLink": "https://overframe.gg/build/27904/",
 			"mr": 2,
 			"name": "Sonicor",
-			"rank": 95.17,
-			"perfIndex": 27.3,
-			"tier": "Need buffs",
+			"rank": 55.12,
+			"perfIndex": 47.1,
+			"tier": "Viable",
 			"type": "Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Sonicor",
 			"notes": "The tenno space program has been replaced by the tenno ragdoll simulator. Explosions may cause status effects. Suffers from relatively poor consistency. ",
 			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
-			"yt_link": "https://youtu.be/85mjHDBVtAs",
+			"yt_link": "",
 			"munitions": "Projectile"
 		},
 		"Spectra Vandal": {
@@ -6350,7 +6374,7 @@
 			"type": "Semi-auto / Charge",
 			"url": "http://warframe.fandom.com/wiki/Staticor",
 			"notes": "Bolt and resulting explosion has independent chance to proc status effects, making it highly capable of layering additional status effects. ",
-			"rivenDisposition": 0.65,
+			"rivenDisposition": 0.7,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/zBd3VFtErpU",
 			"munitions": "Projectile"
@@ -6405,7 +6429,7 @@
 			"url": "http://warframe.fandom.com/wiki/Synoid_Gammacor",
 			"notes": "Innate Entropy (Magnetic, Energy) is useful at times. ",
 			"rivenDisposition": 1.05,
-			"specRivenDisp": true,
+			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/WC4nP2Qz0yY",
 			"munitions": "Beam"
 		},
@@ -6440,7 +6464,7 @@
 			"type": "Semi-Auto",
 			"url": "http://warframe.fandom.com/wiki/Telos_Akbolto",
 			"notes": "Truth (Gas, health, parkour) is useful at times. ",
-			"rivenDisposition": 1.2,
+			"rivenDisposition": 1.25,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/mTxKSZF7jvE",
 			"munitions": "Projectile"
@@ -6584,7 +6608,7 @@
 			"type": "Auto",
 			"url": "http://warframe.wikia.com/wiki/Velox",
 			"notes": "",
-			"rivenDisposition": 1.1,
+			"rivenDisposition": 1.15,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/o_k8GDUdxso",
 			"munitions": "Hitscan"
@@ -6602,7 +6626,7 @@
 			"type": "Semi-auto",
 			"url": "http://warframe.fandom.com/wiki/Zakti_Prime",
 			"notes": "Pellets explode after landing, causing Impact status and Gas damage and status. ",
-			"rivenDisposition": 0.75,
+			"rivenDisposition": 0.9,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/7gUm5-uPW_8",
 			"munitions": "Projectile"
@@ -6638,29 +6662,13 @@
 			"type": "Semi-Auto",
 			"url": "http://warframe.wikia.com/wiki/Zymos",
 			"notes": "Headshots releases spores after a short priming period. Exhibit high potential but let down by overall consistency.",
-			"rivenDisposition": 0.95,
+			"rivenDisposition": 1.05,
 			"specRivenDisp": false,
 			"yt_link": "https://www.youtube.com/watch?v=RyBv3ucxgow",
 			"munitions": "Projectile"
 		},
-		"Herald of Ruination": {
-			"base": "",
-			"category": "Shotgun",
-			"dmg": "Crit/Status",
-			"dmgLink": "https://overframe.gg/build/27946/",
-			"mr": 0,
-			"name": "Catchmoon - Herald of Ruination",
-			"rank": 33.39,
-			"perfIndex": 77.8,
-			"tier": "Top",
-			"type": "Shotgun",
-			"url": "https://semlar.com/kitcalc/catchmoon+haymaker+zipneedle",
-			"notes": "Very high damage per shot, Catchmoon-Haymaker-Zipneedle kitgun. R3 Pax Charge mandatory. ",
-			"rivenDisposition": 1,
-			"specRivenDisp": true,
-			"yt_link": "https://youtu.be/za2ryW8eOq4",
-			"munitions": "Projectile"
-		},
+
+
 		"Baleful Purifier": {
 			"base": "",
 			"category": "Beam",
@@ -6692,7 +6700,7 @@
 			"type": "Auto",
 			"url": "https://semlar.com/kitcalc/rattleguts+lovetap+splat",
 			"notes": "High damage per shot, Rattleguts-Lovetap-Splat kitgun. R3 Pax Seeker highly recommended.",
-			"rivenDisposition": 0.9,
+			"rivenDisposition": 0.75,
 			"specRivenDisp": true,
 			"yt_link": "https://youtu.be/f_l2Dbm8Q08",
 			"munitions": "Hitscan"
@@ -6840,7 +6848,26 @@
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/tKpeC1JON5c",
 			"munitions": "Beam"
+		},
+		"Fusion Array": {
+			"base": "",
+			"category": "Shotgun",
+			"dmg": "Crit/Status",
+			"dmgLink": "https://overframe.gg/build/165610/",
+			"mr": 0,
+			"name": "Catchmoon - Fusion Array",
+			"rank": 31.85,
+			"perfIndex": 81.5,
+			"tier": "Top",
+			"type": "Shotgun",
+			"url": "https://overframe.gg/build/165610/",
+			"notes": "Very high damage per shot, Catchmoon-Haymaker-Killstream kitgun. R3 Pax Seeker mandatory. ",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/2ZCKOnx7mrU",
+			"munitions": "Projectile"
 		}
+
 	},
 	"Sentweps": {
 		"Curator's Notes": {
@@ -6919,5 +6946,5 @@
 			"text": "If you have any issues with rankings/builds, please visit the Discord server to discuss about them. "
 		}
 	},
-	"version": "Update 29.9.0 - Octavia Prime -- Tenora Prime and Pandero Prime ranked. Riven disposition shift. Curator on official hiatus until May 2021. "
+	"version": "Update 30.3.1 - Gara Prime -- All new weapons uploaded. Internal Bleeding & Hemorrhage candidates updated. "
 }
