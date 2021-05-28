@@ -23,12 +23,6 @@
           <mat-label>Tier</mat-label>
           <mat-select [formControl]="tierSelect" multiple>
             <mat-option *ngFor="let item of tierTypes" [value]="item">{{item}}</mat-option>
-
-            <!--            <mat-option [value]="'Top'">Top</mat-option>-->
-<!--            <mat-option [value]="'Contender'">Contender</mat-option>-->
-<!--            <mat-option [value]="'Viable'">Viable</mat-option>-->
-<!--            <mat-option [value]="'Need buffs'">Need buffs</mat-option>-->
-<!--            <mat-option [value]="'Untested'">Untested</mat-option>-->
           </mat-select>
         </mat-form-field>
       </td>
