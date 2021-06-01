@@ -2442,25 +2442,7 @@ var Categories;
     Categories["ARCHMELEE"] = "Archmelees";
     Categories["COMPANIONS"] = "Companions";
 })(Categories || (Categories = {}));
-const tierTypes = ['Top', 'Contender', 'Viable', 'Need buffs', 'Untested'];
-// export const types = {
-//   'Primaries': {
-//     categoryTypes: [],
-//     buildTypes: [],
-//     triggerTypes: [],
-//     munitionTypes: []
-//   },
-//   'Secondaries': {
-//     categoryTypes: [],
-//     buildTypes: [],
-//     triggerTypes: [],
-//     munitionTypes: []
-//   },
-//   'Melees': {
-//     categoryTypes: [],
-//     buildTypes: []
-//   }
-// };
+const tierTypes = ['Exceptional', 'Satisfactory', 'Mediocre', 'Insufficient', 'Untested'];
 const columnDefs = {
     'primaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
     'secondaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
@@ -2668,16 +2650,16 @@ let secMunitionTypes = [
 /*!******************************************!*\
   !*** ./src/app/services/data.service.ts ***!
   \******************************************/
-/*! exports provided: DataService, topTier, contenderTier, viableTier, needsBuffTier, untestedTier */
+/*! exports provided: DataService, firstTier, secondTier, thirdTier, fourthTier, untestedTier */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataService", function() { return DataService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "topTier", function() { return topTier; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contenderTier", function() { return contenderTier; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "viableTier", function() { return viableTier; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "needsBuffTier", function() { return needsBuffTier; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "firstTier", function() { return firstTier; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "secondTier", function() { return secondTier; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thirdTier", function() { return thirdTier; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fourthTier", function() { return fourthTier; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "untestedTier", function() { return untestedTier; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
@@ -2797,23 +2779,23 @@ class DataService {
         let nbAdded = false;
         let utAdded = false;
         for (let i = 0; i < items.length; i++) {
-            if (items[i].tier === 'Top' && !topAdded) {
-                items.splice(i, 0, topTier);
+            if (items[i].tier === firstTier.name && !topAdded) {
+                items.splice(i, 0, firstTier);
                 topAdded = true;
             }
-            else if (items[i].tier === 'Contender' && !contAdded) {
-                items.splice(i, 0, contenderTier);
+            else if (items[i].tier === secondTier.name && !contAdded) {
+                items.splice(i, 0, secondTier);
                 contAdded = true;
             }
-            else if (items[i].tier === 'Viable' && !viaAdded) {
-                items.splice(i, 0, viableTier);
+            else if (items[i].tier === thirdTier.name && !viaAdded) {
+                items.splice(i, 0, thirdTier);
                 viaAdded = true;
             }
-            else if (items[i].tier === 'Need buffs' && !nbAdded) {
-                items.splice(i, 0, needsBuffTier);
+            else if (items[i].tier === fourthTier.name && !nbAdded) {
+                items.splice(i, 0, fourthTier);
                 nbAdded = true;
             }
-            else if (items[i].tier === 'Untested' && !utAdded) {
+            else if (items[i].tier === untestedTier.name && !utAdded) {
                 items.splice(i, 0, untestedTier);
                 utAdded = true;
             }
@@ -2904,10 +2886,10 @@ DataService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
                 providedIn: 'root'
             }]
     }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }]; }, null); })();
-const topTier = { name: 'Top', rank: 0, tier: null, isTier: true };
-const contenderTier = { name: 'Contender', rank: 1, tier: null, isTier: true };
-const viableTier = { name: 'Viable', rank: 2, tier: null, isTier: true };
-const needsBuffTier = { name: 'Need Buffs', rank: 3, tier: null, isTier: true };
+const firstTier = { name: 'Exceptional', rank: 0, tier: null, isTier: true };
+const secondTier = { name: 'Satisfactory', rank: 1, tier: null, isTier: true };
+const thirdTier = { name: 'Mediocre', rank: 2, tier: null, isTier: true };
+const fourthTier = { name: 'Insufficient', rank: 3, tier: null, isTier: true };
 const untestedTier = { name: 'Untested', rank: 4, tier: null, isTier: true };
 
 

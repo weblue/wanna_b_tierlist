@@ -4732,25 +4732,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       Categories["COMPANIONS"] = "Companions";
     })(Categories || (Categories = {}));
 
-    var tierTypes = ['Top', 'Contender', 'Viable', 'Need buffs', 'Untested']; // export const types = {
-    //   'Primaries': {
-    //     categoryTypes: [],
-    //     buildTypes: [],
-    //     triggerTypes: [],
-    //     munitionTypes: []
-    //   },
-    //   'Secondaries': {
-    //     categoryTypes: [],
-    //     buildTypes: [],
-    //     triggerTypes: [],
-    //     munitionTypes: []
-    //   },
-    //   'Melees': {
-    //     categoryTypes: [],
-    //     buildTypes: []
-    //   }
-    // };
-
+    var tierTypes = ['Exceptional', 'Satisfactory', 'Mediocre', 'Insufficient', 'Untested'];
     var columnDefs = {
       'primaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
       'secondaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],
@@ -5002,7 +4984,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     !*** ./src/app/services/data.service.ts ***!
     \******************************************/
 
-  /*! exports provided: DataService, topTier, contenderTier, viableTier, needsBuffTier, untestedTier */
+  /*! exports provided: DataService, firstTier, secondTier, thirdTier, fourthTier, untestedTier */
 
   /***/
   function srcAppServicesDataServiceTs(module, __webpack_exports__, __webpack_require__) {
@@ -5018,26 +5000,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "topTier", function () {
-      return topTier;
+    __webpack_require__.d(__webpack_exports__, "firstTier", function () {
+      return firstTier;
     });
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "contenderTier", function () {
-      return contenderTier;
+    __webpack_require__.d(__webpack_exports__, "secondTier", function () {
+      return secondTier;
     });
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "viableTier", function () {
-      return viableTier;
+    __webpack_require__.d(__webpack_exports__, "thirdTier", function () {
+      return thirdTier;
     });
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "needsBuffTier", function () {
-      return needsBuffTier;
+    __webpack_require__.d(__webpack_exports__, "fourthTier", function () {
+      return fourthTier;
     });
     /* harmony export (binding) */
 
@@ -5305,19 +5287,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var utAdded = false;
 
           for (var i = 0; i < items.length; i++) {
-            if (items[i].tier === 'Top' && !topAdded) {
-              items.splice(i, 0, topTier);
+            if (items[i].tier === firstTier.name && !topAdded) {
+              items.splice(i, 0, firstTier);
               topAdded = true;
-            } else if (items[i].tier === 'Contender' && !contAdded) {
-              items.splice(i, 0, contenderTier);
+            } else if (items[i].tier === secondTier.name && !contAdded) {
+              items.splice(i, 0, secondTier);
               contAdded = true;
-            } else if (items[i].tier === 'Viable' && !viaAdded) {
-              items.splice(i, 0, viableTier);
+            } else if (items[i].tier === thirdTier.name && !viaAdded) {
+              items.splice(i, 0, thirdTier);
               viaAdded = true;
-            } else if (items[i].tier === 'Need buffs' && !nbAdded) {
-              items.splice(i, 0, needsBuffTier);
+            } else if (items[i].tier === fourthTier.name && !nbAdded) {
+              items.splice(i, 0, fourthTier);
               nbAdded = true;
-            } else if (items[i].tier === 'Untested' && !utAdded) {
+            } else if (items[i].tier === untestedTier.name && !utAdded) {
               items.splice(i, 0, untestedTier);
               utAdded = true;
             }
@@ -5354,26 +5336,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, null);
     })();
 
-    var topTier = {
-      name: 'Top',
+    var firstTier = {
+      name: 'Exceptional',
       rank: 0,
       tier: null,
       isTier: true
     };
-    var contenderTier = {
-      name: 'Contender',
+    var secondTier = {
+      name: 'Satisfactory',
       rank: 1,
       tier: null,
       isTier: true
     };
-    var viableTier = {
-      name: 'Viable',
+    var thirdTier = {
+      name: 'Mediocre',
       rank: 2,
       tier: null,
       isTier: true
     };
-    var needsBuffTier = {
-      name: 'Need Buffs',
+    var fourthTier = {
+      name: 'Insufficient',
       rank: 3,
       tier: null,
       isTier: true
