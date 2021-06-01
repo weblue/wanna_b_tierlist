@@ -35,26 +35,7 @@ export enum Categories {
   COMPANIONS = 'Companions'
 }
 
-export const tierTypes = ['Top', 'Contender', 'Viable', 'Need buffs', 'Untested'];
-
-// export const types = {
-//   'Primaries': {
-//     categoryTypes: [],
-//     buildTypes: [],
-//     triggerTypes: [],
-//     munitionTypes: []
-//   },
-//   'Secondaries': {
-//     categoryTypes: [],
-//     buildTypes: [],
-//     triggerTypes: [],
-//     munitionTypes: []
-//   },
-//   'Melees': {
-//     categoryTypes: [],
-//     buildTypes: []
-//   }
-// };
+export const tierTypes = ['Exceptional', 'Satisfactory', 'Mediocre', 'Insufficient', 'Untested'];
 
 export const columnDefs = {
   'primaries': ['name', 'perfIndex', 'category', 'rivenDisposition', 'dmg', 'mr', 'expand'],

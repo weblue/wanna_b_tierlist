@@ -138,19 +138,19 @@ export class DataService {
     let utAdded = false;
 
     for (let i = 0; i < items.length; i++) {
-      if (items[i].tier === 'Top' && !topAdded) {
-        items.splice(i, 0, topTier);
+      if (items[i].tier === firstTier.name && !topAdded) {
+        items.splice(i, 0, firstTier);
         topAdded = true;
-      } else if (items[i].tier === 'Contender' && !contAdded) {
-        items.splice(i, 0, contenderTier);
+      } else if (items[i].tier === secondTier.name && !contAdded) {
+        items.splice(i, 0, secondTier);
         contAdded = true;
-      } else if (items[i].tier === 'Viable' && !viaAdded) {
-        items.splice(i, 0, viableTier);
+      } else if (items[i].tier === thirdTier.name && !viaAdded) {
+        items.splice(i, 0, thirdTier);
         viaAdded = true;
-      } else if (items[i].tier === 'Need buffs' && !nbAdded) {
-        items.splice(i, 0, needsBuffTier);
+      } else if (items[i].tier === fourthTier.name && !nbAdded) {
+        items.splice(i, 0, fourthTier);
         nbAdded = true;
-      } else if (items[i].tier === 'Untested' && !utAdded) {
+      } else if (items[i].tier === untestedTier.name && !utAdded) {
         items.splice(i, 0, untestedTier);
         utAdded = true;
       }
@@ -244,9 +244,9 @@ export class DataService {
   }
 }
 
-export const topTier: Tier = {name: 'Top', rank: 0, tier: null, isTier: true};
-export const contenderTier: Tier = {name: 'Contender', rank: 1, tier: null, isTier: true};
-export const viableTier: Tier = {name: 'Viable', rank: 2, tier: null, isTier: true};
-export const needsBuffTier: Tier = {name: 'Need Buffs', rank: 3, tier: null, isTier: true};
+export const firstTier: Tier = {name: 'Exceptional', rank: 0, tier: null, isTier: true};
+export const secondTier: Tier = {name: 'Satisfactory', rank: 1, tier: null, isTier: true};
+export const thirdTier: Tier = {name: 'Mediocre', rank: 2, tier: null, isTier: true};
+export const fourthTier: Tier = {name: 'Insufficient', rank: 3, tier: null, isTier: true};
 export const untestedTier: Tier = {name: 'Untested', rank: 4, tier: null, isTier: true};
 
