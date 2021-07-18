@@ -3206,7 +3206,42 @@
 			"rivenDisposition": 1.1,
 			"specRivenDisp": false,
 			"yt_link": "https://youtu.be/2tbfr5RNZgM"
+		},
+		"Cadus": {
+			"combo": "Resolute Flurry",
+			"dmg": "Crit & Status",
+			"dmgLink": "https://overframe.gg/build/185141/",
+			"mr": 0,
+			"name": "Cadus",
+			"rank": 59.78,
+			"perfIndex": 32.3,
+			"stance": "Clashing Forest",
+			"tier": "Insufficient",
+			"category": "Staff",
+			"url": "http://warframe.wikia.com/wiki/Cadus",
+			"notes": "",
+			"rivenDisposition": 1.29,
+			"specRivenDisp": false,
+			"yt_link": ""
+		},
+		"Vastilok": {
+			"combo": "Double-tap Samba Slash",
+			"dmg": "Heavy Attack",
+			"dmgLink": "https://overframe.gg/build/185142/",
+			"mr": 9,
+			"name": "Vastilok",
+			"rank": 45.38,
+			"perfIndex": 42.6,
+			"stance": "Bullet Dance",
+			"tier": "Insufficient",
+			"category": "Gunblade",
+			"url": "http://warframe.wikia.com/wiki/Vastilok",
+			"notes": "Inconsistent performance.",
+			"rivenDisposition": 0.5,
+			"specRivenDisp": false,
+			"yt_link": "https://youtu.be/EC-KG2R0h3c"
 		}
+
 	},
 	"Primaries": {
 		"Acceltra": {
