@@ -536,7 +536,7 @@ class CardContentsComponent {
     }
 }
 CardContentsComponent.ɵfac = function CardContentsComponent_Factory(t) { return new (t || CardContentsComponent)(); };
-CardContentsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CardContentsComponent, selectors: [["card-contents"]], inputs: { item: "item" }, decls: 21, vars: 11, consts: [[1, "title", "is-small"], [1, "card-container", "columns"], [1, "column", "is-one-third", "is-one-quarter-mobile"], [1, "stat-list"], [4, "ngIf"], ["target", "_blank", 1, "button", "is-large", "is-fullwidth", "youtube", "is-info", "is-outlined", 3, "href"], [1, "icon"], ["size", "lg", 3, "icon"], [1, "column"], [3, "href"], [1, "is-medium"]], template: function CardContentsComponent_Template(rf, ctx) { if (rf & 1) {
+CardContentsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CardContentsComponent, selectors: [["card-contents"]], inputs: { item: "item" }, decls: 21, vars: 11, consts: [[1, "title", "is-small"], [1, "card-container", "columns"], [1, "column", "is-one-third", "is-one-quarter-mobile"], [1, "stat-list"], [4, "ngIf"], ["target", "_blank", 1, "button", "is-large", "is-fullwidth", "youtube", "is-info", "is-outlined", 3, "href"], [1, "icon"], ["size", "lg", 3, "icon"], [1, "column"], ["target", "_blank", 3, "href"], [1, "is-medium"]], template: function CardContentsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
