@@ -1427,7 +1427,7 @@
 		},
 		"Dragon Nikana": {
 			"base": "",
-			"combo": "Swift Retribution",
+			"combo": "Guiding Light",
 			"dmg": "Crit & Status",
 			"dmgLink": "https://overframe.gg/build/28660/",
 			"mr": 8,
@@ -2309,7 +2309,7 @@
 		},
 		"Nikana Prime": {
 			"base": "",
-			"combo": "Swift Retribution",
+			"combo": "Guiding Light",
 			"dmg": "Crit & Status",
 			"dmgLink": "https://overframe.gg/build/28720/",
 			"mr": 12,
@@ -2885,7 +2885,7 @@
 		},
 		"Skiajati": {
 			"base": "",
-			"combo": "Swift Retribution",
+			"combo": "Guiding Light",
 			"dmg": "Crit & Status",
 			"dmgLink": "https://overframe.gg/build/28753/",
 			"mr": 11,
@@ -3369,7 +3369,7 @@
 		},
 		"Mikazuki": {
 			"base": "",
-			"combo": "Swift Retribution",
+			"combo": "Guiding Light",
 			"dmg": "Status",
 			"dmgLink": "https://overframe.gg/build/32082/",
 			"mr": 0,
